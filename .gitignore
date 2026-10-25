@@ -13,13 +13,7 @@
 
 # current agent and baseline
 !/trajstoryagent_v5/
-!/baseline_support/
-!/llm_only_baseline/
-!/codegen_baseline/
-!/pandas_multi_role/
-!/DSAEval/
-!/DeepResearchAgent/
-!/insight-bench/
+!/baselines/
 
 # exclude virtual environments, caches, and compiled files
 **/.git/

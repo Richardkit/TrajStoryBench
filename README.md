@@ -24,17 +24,11 @@ Formal generation uses the projected `input_*.csv` tables selected by the case l
 ```text
 trajstory_examples/insight/   Benchmark cases, tables, reference insights, and evidence
 trajstoryagent_v5/           Independent TrajStoryAgent implementation and evaluation
-baseline_support/           Shared baseline input, profiling, and evaluation utilities
-llm_only_baseline/          LLM-only baseline
-codegen_baseline/           CodeGen baseline
-pandas_multi_role/          Pandas Agent workflows
-DSAEval/                    DSAEval implementation and TrajStory adapter
-DeepResearchAgent/          AgentOrchestra implementation and TrajStory adapter
-insight-bench/              InsightBench implementation and TrajStory adapter
+baselines/                  Baseline implementations, adapters, and shared utilities
 scripts/                    Selected baseline runners and paper figure utilities
 ```
 
-`trajstoryagent_v5` contains the current independent agent implementation. Generation, evaluation, ablation, and hyperparameter entry points are owned by this package. The baseline adapters use `baseline_support` for shared utilities.
+`trajstoryagent_v5` contains the current independent agent implementation. Generation, evaluation, ablation, and hyperparameter entry points are owned by this package. Baseline implementations and shared utilities are grouped under `baselines/`.
 
 ## Installation and API configuration
 
@@ -113,40 +107,7 @@ The evaluator uses two independent GPT judge rounds with temperature 0 and reaso
 
 The batch summary weights successfully evaluated cases by their number of reference insights. It reports failures explicitly; inspect completeness before comparing methods. New API runs can differ from reported results because model responses and provider implementations can change.
 
-## Baselines
-
-| Method | Implementation | Generation entry |
-|---|---|---|
-| LLM-only | `llm_only_baseline/` | `python -m llm_only_baseline` |
-| CodeGen | `codegen_baseline/` | `scripts/run_codegen_baseline.py` |
-| Pandas Agent | `pandas_multi_role/` | `scripts/run_pandas.py` |
-| DSAEval | `DSAEval/` | `DSAEval/trajstory_multi_role.py` |
-| AgentOrchestra | `DeepResearchAgent/` | `DeepResearchAgent/examples/run_trajstory.py` |
-| InsightBench | `insight-bench/` | `scripts/run_insightbench_generation_no_rouge.py` |
-
-Each baseline requires its corresponding framework dependencies. Use the listed entry's `--help` to inspect its model, case-selection, budget, and output options. Pandas Agent has multiple workflows; choose the workflow explicitly rather than treating them as interchangeable.
-
-LLM-only can prepare its deterministic profile and model request without generation:
-
-```bash
-python -m llm_only_baseline --case trajstory_examples/insight/Danish_AIS/01_shared_corridor_day/insight.json --model gpt --output results/llm_only_ais01
-```
-
-To generate, use `--run` with a different, fresh output directory:
-
-```bash
-python -m llm_only_baseline --case trajstory_examples/insight/Danish_AIS/01_shared_corridor_day/insight.json --model gpt --output results/llm_only_ais01_live --run
-```
-
-Score the generated `result.json` with:
-
-```bash
-python -m baseline_support.evaluate --case trajstory_examples/insight/Danish_AIS/01_shared_corridor_day/insight.json --result results/llm_only_ais01_live/result.json --output results/llm_only_ais01_score
-```
-
-The baseline scorer follows the same two-round GPT insight-evaluation protocol.
-
-## Ablation and hyperparameter studies
+## Ablation studies
 
 These studies preserve the frozen-checkpoint continuation protocol. The checkpoint files and the manifest selecting them must be supplied together. A fresh full-agent run is a different experiment from continuing the fixed checkpoints.
 
@@ -156,7 +117,6 @@ These studies preserve the frozen-checkpoint continuation protocol. The checkpoi
 | `without_compression` | Retain conditional decomposition and disable compression |
 | `without_memory` | Disable the memory manager |
 | `without_data_profiling` | Disable profiling; run both rounds afresh using the restricted schema/row preview |
-| `hyperparameter` | Vary one mathematical parameter while retaining the checkpoint protocol |
 
 Example ablation preflight, once the checkpoint artifacts are available:
 
@@ -164,20 +124,7 @@ Example ablation preflight, once the checkpoint artifacts are available:
 python -m trajstoryagent_v5.batch --model qwen --experiment without_compression --checkpoint-manifest results/v5_ablation_result/qwen/experiment/manifest.json --output results/qwen_without_compression --dry-run
 ```
 
-Remove `--dry-run` to run the experiment after validation. To continue a single checkpoint:
-
-```bash
-python -m trajstoryagent_v5.experiment --source-run PATH_TO_CHECKPOINT --model gpt --variant hyperparameter --partition-penalty 3 --output results/hyperparameter_lp3
-```
-
-| Parameter | CLI option | Default |
-|---|---|---:|
-| Partition penalty | `--partition-penalty` | 1 |
-| Minimum support | `--min-support` | 1 |
-| Compression tolerance | `--tolerance-sd` | 0.25 |
-| Distortion weight | `--distortion-weight` | 1 |
-
-Mathematical overrides use the `hyperparameter` variant. Keep the other parameters at their defaults when varying one parameter. Evaluate resulting generations using the same scoring entry points above.
+Remove `--dry-run` to run the experiment after validation. Evaluate the generated results with the scoring entry points above.
 
 ## Paper figures and validation
 
