@@ -78,6 +78,6 @@ class HyperparameterReplay(replay.ReplayAblation):
         super().__init__(llm, 'hyperparameter', source, generator=generator)
         self.synthesizer.llm = self.llm
         def refiner(slug, evidence, bundle, profile, folder):
-            frozen = self.source_run/'early'/evidence['question_id'] if Path(folder).parent.name=='early' else None
+            frozen = self.source_run/'early'/evidence['question_id'] if self.source_run is not None and Path(folder).parent.name=='early' else None
             return branch(slug, evidence, bundle, profile, folder, frozen=frozen, **parameters)
         self.refiner = refiner

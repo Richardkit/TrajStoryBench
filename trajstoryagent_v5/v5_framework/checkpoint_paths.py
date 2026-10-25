@@ -14,12 +14,18 @@ def relocate_path(value, root=None):
         return value
     normalized = value.replace(chr(92), "/")
     if normalized.lower() == ORIGINAL_ROOT.lower():
+        if root is None and Path(value).exists():
+            return value
         return str(ROOT if root is None else Path(root))
     prefix = ORIGINAL_ROOT + "/"
     if normalized.lower().startswith(prefix.lower()):
         relative = normalized[len(prefix):]
         if ".." in relative.split("/"):
             raise ValueError("Checkpoint path escapes repository")
+        # A batch executes from a frozen source copy. Existing input/checkpoint
+        # paths still belong to the caller, not that source-only directory.
+        if root is None and Path(value).exists():
+            return value
         return str((ROOT if root is None else Path(root)) / relative)
     return value
 

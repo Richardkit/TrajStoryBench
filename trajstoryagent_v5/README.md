@@ -109,16 +109,16 @@ is separate, and this command does not claim to regenerate historical scores.
 Historical `scripts/run_v5_*_insightbench125.py` entries retain their original
 frozen implementation chain and are not the current v5 batch interface.
 
-## Independent historical-protocol experiments and scoring
+## Independent experiments and scoring
 
 The following entries import only this package, not old version packages or
 `scripts`. Install the optional scorer dependency with
 `pip install "./trajstoryagent_v5[evaluation]"`.
 
 ```powershell
-python -m trajstoryagent_v5.experiment --source-run PATH_TO_FROZEN_CASE_RUN --model qwen --variant without_compression --output results/new_qwen_no_compression_case --dry-run
-python -m trajstoryagent_v5.experiment --source-run PATH_TO_FROZEN_CASE_RUN --model gpt --variant hyperparameter --partition-penalty 3 --output results/new_gpt_lp3_case
-python -m trajstoryagent_v5.batch --model qwen --experiment without_compression --checkpoint-manifest results/v5_ablation_result/qwen/experiment/manifest.json --output results/new_qwen_no_compression --dry-run
+python -m trajstoryagent_v5.experiment --mode checkpoint --source-run PATH_TO_YOUR_FULL_V5_RUN --model qwen --variant without_compression --output results/new_qwen_no_compression_case --dry-run
+python -m trajstoryagent_v5.experiment --mode checkpoint --source-run PATH_TO_YOUR_FULL_V5_RUN --model gpt --variant hyperparameter --partition-penalty 3 --output results/new_gpt_lp3_case
+python -m trajstoryagent_v5.batch --model qwen --experiment without_compression --mode checkpoint --source-generation results/your_full_qwen/generation --output results/new_qwen_no_compression --dry-run
 python -m trajstoryagent_v5.evaluate --case PATH_TO_CASE_JSON --result PATH_TO_NEW_RESULT_JSON --output results/new_case_evaluation
 python -m trajstoryagent_v5.evaluate_batch --generation-root results/new_qwen_no_compression/generation --output results/new_qwen_no_compression_scores --dry-run
 ```
@@ -129,18 +129,11 @@ Variants: `without_conditional_refinement`, `without_compression`,
 Mathematical settings: `--partition-penalty`, `--min-support`, `--tolerance-sd`,
 `--distortion-weight`. Change one at a time for the original sensitivity design.
 Defaults are 1, 1, 0.25, 1 respectively. Batch accepts the same settings.
-Prefer `--checkpoint-manifest` to preserve the exact original case-to-checkpoint
-selection and verify its frozen hashes. `--source-generation` instead explicitly
-selects the checkpoints referenced by that generation directory's result files.
+For a fresh experiment, supply `--mode fresh --case PATH_TO_CASE_JSON --repo-root PATH_TO_REPO` instead of `--source-run`. Batch fresh experiments use `--experiment VARIANT --mode fresh`. Fresh mode runs the ablated workflow from the beginning; it does not first run the full agent.
 
-Historical protocol is retained: D+C and C reuse the first-round checkpoint;
-C retains the original uncompressed first-round realization; memory removal
-reuses first-round refinement and hands off raw records; sensitivity reuses
-first-round observations without re-exporting them. Removing data profiling
-is the historical exception: both rounds run afresh with only column names,
-raw types and the first three rows. The replay entries reject checkpoints with
-admitted first-round conflicts. Input hashes are checked, checkpoint hashes
-are recorded and rechecked, and existing outputs cannot be overwritten.
+Checkpoint mode reads a full-v5 run created by the user. D+C and C reuse first-round analysis; C also retains its uncompressed first-round realization. Memory removal reuses first-round refinement and hands off raw records. Sensitivity reuses first-round observations. Saved conflict agreements are reused without new first-round model calls. Removing data profiling only supports fresh mode, using names, raw types and the first three rows. Input hashes are checked, checkpoint files are recorded and rechecked, and existing outputs cannot be overwritten. Historical checkpoints and plotting scripts are not prerequisites.
+
+`--checkpoint-manifest` remains an optional advanced input for an explicit hashed case-to-checkpoint selection; no historical manifest is needed for the commands above.
 
 The scorer embeds the original InsightBench G-Eval prompt text. It uses two
 independent GPT-6 Luna rounds, discrete rating/10, per-reference maxima and

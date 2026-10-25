@@ -1,4 +1,4 @@
-"""Independent historical-protocol ablation / hyperparameter continuation entry."""
+"""Fresh or checkpoint-based ablation and hyperparameter experiments."""
 import argparse
 import hashlib
 import json
@@ -27,8 +27,8 @@ def prepare(source, generator, variant):
     bundle=bundle_from(read(source/'00_input.json'))
     config=read(source/'00_config.json')
     if variant!='without_data_profiling':
-        if read(source/'03_conflict_admission.json')['admitted_topic_count']!=0:
-            raise ValueError('Historical replay protocol requires zero admitted first-round conflicts')
+        if config.get('agreement_enabled',True):
+            read(source/'03_agreement/commitment.json')
         # Instantiate all checkpoint loaders offline, before allowing API calls.
         if variant=='without_memory': MemoryAblation(None,generator,source)
         else: ReplayAblation(None,variant,source,generator=generator)
@@ -40,7 +40,10 @@ def prepare(source, generator, variant):
 
 def main(argv=None):
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--source-run',type=Path,required=True,help='Frozen case run directory, not generation/result.json')
+    p.add_argument('--mode',choices=('fresh','checkpoint'),help='Inferred from --case or --source-run when omitted')
+    p.add_argument('--case',type=Path,help='Case JSON for a fresh two-round experiment')
+    p.add_argument('--repo-root',type=Path,default=Path(__file__).resolve().parents[2])
+    p.add_argument('--source-run',type=Path,help='Completed full-v5 run produced by the user')
     p.add_argument('--checkpoint-manifest',type=Path,help='Historical experiment manifest with replay[case_id] hashes')
     p.add_argument('--case-id',help='Required with --checkpoint-manifest')
     p.add_argument('--model',choices=MODELS,required=True)
@@ -52,7 +55,16 @@ def main(argv=None):
     p.add_argument('--distortion-weight',type=float,default=1.)
     p.add_argument('--dry-run',action='store_true')
     args=p.parse_args(argv)
-    args.source_run=Path(relocate_path(str(args.source_run)))
+    mode=args.mode or ('checkpoint' if args.source_run else 'fresh')
+    if mode=='fresh':
+        if not args.case or args.source_run or args.checkpoint_manifest or args.case_id:
+            p.error('fresh mode requires --case and does not accept checkpoint arguments')
+    else:
+        if not args.source_run or args.case:
+            p.error('checkpoint mode requires --source-run and does not accept --case')
+        if args.variant=='without_data_profiling':
+            p.error('without_data_profiling must use fresh mode to avoid profiled first-round information')
+        args.source_run=Path(relocate_path(str(args.source_run)))
     if bool(args.checkpoint_manifest)!=bool(args.case_id):p.error('--checkpoint-manifest and --case-id must be supplied together')
     if args.checkpoint_manifest:
         frozen_plan=read(args.checkpoint_manifest)
@@ -70,20 +82,30 @@ def main(argv=None):
     output=args.output.resolve()
     if output.exists() and (not output.is_dir() or any(output.iterdir())):
         raise FileExistsError('Use a new empty experiment output directory')
-    source,bundle,config,frozen=prepare(args.source_run,args.model,args.variant)
-    if output==source or source in output.parents or output in source.parents:
+    if mode=='checkpoint':
+        source,bundle,config,frozen=prepare(args.source_run,args.model,args.variant)
+        input_hashes=read(source/'run_manifest.json')['input_sha256']
+    else:
+        from trajstoryagent_v5.v5_framework.case_adapter import load_trajstory_case
+        from trajstoryagent_v5.v5_framework.models import FrameworkConfig
+        source=None
+        bundle=load_trajstory_case(args.case.resolve(),args.repo_root.resolve(),input_csvs=True)
+        config=FrameworkConfig().to_dict()
+        input_hashes={str(path):sha(path) for path in [args.case.resolve(),*(f.path for f in bundle.files)]}
+        frozen={}
+    if source is not None and (output==source or source in output.parents or output in source.parents):
         raise ValueError('Output must be separate from checkpoint tree')
     package=Path(__file__).resolve().parent.parent
     sources={str(p.relative_to(package.parent)):sha(p) for p in package.rglob('*') if p.is_file()
              and p.suffix in {'.py','.md','.json','.txt','.toml'} and 'tests' not in p.parts and '__pycache__' not in p.parts}
-    plan=dict(generator=args.model,variant=args.variant,parameters=params,checkpoint_sha256=frozen,
-              source_sha256=sources,first_round_source=str(source),
-              protocol='fresh two-round run with raw schema only' if args.variant=='without_data_profiling' else 'frozen first-round continuation',
+    plan=dict(mode=mode,generator=args.model,variant=args.variant,parameters=params,input_sha256=input_hashes,checkpoint_sha256=frozen,
+              source_sha256=sources,first_round_source=str(source) if source is not None else None,
+              protocol=('fresh two-round run with raw schema only' if args.variant=='without_data_profiling' else 'fresh two-round ablation') if mode=='fresh' else 'frozen first-round continuation',
               selection='one attempt, no score-conditioned adoption; historical outputs unchanged')
     if args.checkpoint_manifest:
         plan['historical_manifest']=dict(path=str(args.checkpoint_manifest.resolve()),sha256=sha(args.checkpoint_manifest),case_id=args.case_id)
     if args.dry_run:
-        print(json.dumps(dict(ready=True,variant=args.variant,checkpoint_files=len(frozen),protocol=plan['protocol'])))
+        print(json.dumps(dict(ready=True,mode=mode,variant=args.variant,checkpoint_files=len(frozen),protocol=plan['protocol'])))
         return 0
     credentials(args.model)
     output.mkdir(parents=True,exist_ok=True)
@@ -109,7 +131,7 @@ def main(argv=None):
     export_support.OpenAICompatibleClient=lambda **kw:InsightClient(ResilientClient(**kw))
     try:
         report=agent.run(bundle,output)
-        for path,digest in frozen.items():
+        for path,digest in {**input_hashes,**frozen}.items():
             if sha(path)!=digest:raise RuntimeError('Checkpoint changed during execution: '+path)
         insights=[i.insight for i in report.insights]
         predictions=read(output/'predictions.json')['insights']
@@ -119,8 +141,8 @@ def main(argv=None):
         framework.update(experiment_variant=args.variant,experiment_parameters=params,
                          experiment_protocol=plan['protocol'])
         write(output/'00_framework.json',framework)
-        write(output/'result.json',dict(generator=args.model,variant=args.variant,parameters=params,
-              source_run=str(output),first_round_source=str(source),insights=insights))
+        write(output/'result.json',dict(mode=mode,generator=args.model,variant=args.variant,parameters=params,
+              source_run=str(output),first_round_source=str(source) if source is not None else None,insights=insights))
     finally:
         export_support.OpenAICompatibleClient=original
         if old_audit is None:os.environ.pop('TRAJSTORY_LLM_AUDIT_PATH',None)

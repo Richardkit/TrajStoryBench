@@ -94,11 +94,19 @@ def conditional_branch(slug, evidence, bundle, profile, folder, *, cached_first=
     write(folder / 'branch.json', result)
     return result
 
+def replay_agreement(source, output):
+    saved=Path(source)/'03_agreement'
+    commitment=read(saved/'commitment.json')
+    shutil.copytree(saved, output)
+    return commitment
+
 class ReplayAblation(TrajStoryAgent):
     def __init__(self, llm, arm, source_run, generator="qwen"):
-        self.arm, self.source_run = arm, Path(source_run)
-        super().__init__(llm, generator=generator, config=FrameworkConfig(**read(self.source_run / '00_config.json')))
+        self.arm, self.source_run = arm, Path(source_run) if source_run is not None else None
+        super().__init__(llm, generator=generator, config=FrameworkConfig(**read(self.source_run / '00_config.json')) if self.source_run is not None else FrameworkConfig())
         self.synthesizer.llm = SummaryStageLabelClient(self.llm, arm)
+        if self.source_run is None:
+            return
         self.saved_profile = load_profile(read(self.source_run / '01_profile.json'))
         self.planned = [load_question(q) for q in read(self.source_run / '02_initial_questions.json')]
         self.validated = [load_evidence(e) for e in read(self.source_run / '03_validated_initial_evidence.json')]
@@ -108,22 +116,29 @@ class ReplayAblation(TrajStoryAgent):
         self.profiler.build = lambda bundle: copy.deepcopy(self.saved_profile)
         self.decomposer.decompose = lambda bundle, profile: copy.deepcopy(self.planned)
 
+    def build_initial_agreement(self, topics, initial, goal, output):
+        if self.source_run is None:
+            return super().build_initial_agreement(topics, initial, goal, output)
+        return replay_agreement(self.source_run, output)
+
     def _parallel_map_best_effort(self, items, function, **kwargs):
-        if kwargs.get('stage') == 'initial_analysis':
+        if self.source_run is not None and kwargs.get('stage') == 'initial_analysis':
             for q in self.planned:
                 self.history.add(q.question)
             return copy.deepcopy(self.validated), copy.deepcopy(self.first_failures)
         return super()._parallel_map_best_effort(items, function, **kwargs)
 
     def _verify_and_repair_initial(self, *, questions, **kwargs):
+        if self.source_run is None:
+            return super()._verify_and_repair_initial(questions=questions, **kwargs)
         questions[:] = copy.deepcopy(self.final_questions)
         audits = list(self.source_run.glob('03_initial_review_audit_round_*.json'))
         latest = max(audits, key=lambda p: int(p.stem.rsplit('_', 1)[1]))
         self.verifier.review_audit = read(latest)
         topics = self.source_run / latest.name.replace('review_audit', 'agreement_topics')
         self.verifier.agreement_topics = read(topics)
-        # No A0/A1/first A2/A3 completion is made. Agreement has no admitted
-        # topics in the frozen Qwen cohort; preserve its deterministic context.
+        # No A0/A1/first A2/A3 completion is made. The saved first-round
+        # agreement is copied by build_initial_agreement without new model calls.
         return copy.deepcopy(self.validated)
 
     def refine_initial(self, bundle, profile, initial, run_dir):
@@ -134,7 +149,7 @@ class ReplayAblation(TrajStoryAgent):
         for evidence, updated in zip(initial, enriched):
             folder = run_dir / 'early' / evidence.question_id
             result = conditional_branch(self.generator, evidence.to_dict(), bundle.to_dict(), profile.to_dict(), folder,
-                                        cached_first=self.source_run / 'early' / evidence.question_id)
+                                        cached_first=self.source_run / 'early' / evidence.question_id if self.source_run is not None else None)
             records.append(result)
             updated.insight = result['insights']['conditional_only']
             accepted = result['arm_status']['conditional_only'] == 'applied'
@@ -176,7 +191,8 @@ class ReplayAblation(TrajStoryAgent):
             if p.exists():
                 framework = read(p)
                 framework.update(framework='v5_ablation', variant=self.arm,
-                                 first_round_replayed_from=str(self.source_run),
+                                 first_round_replayed_from=str(self.source_run) if self.source_run is not None else None,
+                                 first_round_replayed=self.source_run is not None,
                                  conditional_refinement=self.arm == 'without_compression',
                                  compression_enabled=False,
                                  compression_cost_model='disabled',

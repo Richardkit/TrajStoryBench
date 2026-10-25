@@ -25,7 +25,6 @@ Formal generation uses the projected `input_*.csv` tables selected by the case l
 trajstory_examples/insight/   Benchmark cases, tables, reference insights, and evidence
 trajstoryagent_v5/           Independent TrajStoryAgent implementation and evaluation
 baselines/                  Baseline implementations, adapters, and shared utilities
-scripts/                    Selected baseline runners and paper figure utilities
 ```
 
 `trajstoryagent_v5` contains the current independent agent implementation. Generation, evaluation, ablation, and hyperparameter entry points are owned by this package. Baseline implementations and shared utilities are grouped under `baselines/`.
@@ -93,7 +92,7 @@ The batch summary weights successfully evaluated cases by their number of refere
 
 ## Ablation studies
 
-These studies preserve the frozen-checkpoint continuation protocol. The checkpoint files and the manifest selecting them must be supplied together. A fresh full-agent run is a different experiment from continuing the fixed checkpoints.
+Run both rounds from scratch, or reuse a checkpoint from your own completed full-v5 run. Historical checkpoints are not required or distributed. The goal is to reproduce the workflow and evaluation protocol; generated outputs and scores can vary.
 
 | Variant | Change |
 |---|---|
@@ -102,17 +101,21 @@ These studies preserve the frozen-checkpoint continuation protocol. The checkpoi
 | `without_memory` | Disable the memory manager |
 | `without_data_profiling` | Disable profiling; run both rounds afresh using the restricted schema/row preview |
 
-Example ablation preflight, once the checkpoint artifacts are available:
+Fresh ablation preflight:
 
 ```bash
-python -m trajstoryagent_v5.batch --model qwen --experiment without_compression --checkpoint-manifest results/v5_ablation_result/qwen/experiment/manifest.json --output results/qwen_without_compression --dry-run
+python -m trajstoryagent_v5.ablation --mode fresh --case trajstory_examples/insight/Danish_AIS/01_shared_corridor_day/insight.json --repo-root . --model gpt --variant without_compression --output results/fresh_no_compression --dry-run
 ```
 
-Remove `--dry-run` to run the experiment after validation. Evaluate the generated results with the scoring entry points above.
+To reuse the full-v5 run generated in the example above:
 
-## Paper figures and validation
+```bash
+python -m trajstoryagent_v5.ablation --mode checkpoint --source-run results/example_gpt_ais01 --model gpt --variant without_compression --output results/checkpoint_no_compression --dry-run
+```
 
-The Figure 3, ablation, and hyperparameter plotting utilities are `scripts/fig3.py`, `scripts/ablation_fig6.py`, and `scripts/hyperparameter_fig6c.py`. They require their corresponding statistical input files. Figure 6 uses reference-insight weighting; the hyperparameter plot retains its documented equal-case aggregation. Plotting saved statistics does not rerun generation or judging.
+Remove `--dry-run` to execute. For batches, use `--experiment VARIANT --mode fresh`, or `--experiment VARIANT --mode checkpoint --source-generation results/full_gpt/generation` with the batch entry. The data-profiling ablation only supports fresh mode, so no profiled checkpoint information is reused. Evaluate the outputs with the same scoring commands above.
+
+## Validation
 
 Run the independent agent's offline tests with:
 
@@ -121,10 +124,6 @@ python -m pytest --confcutdir=trajstoryagent_v5 --rootdir=trajstoryagent_v5 --im
 ```
 
 Offline tests check implementation behavior and do not call the generation or judge APIs.
-
-## Release status
-
-The current upload selection contains the benchmark data and agent/baseline implementation directories. Selected runner scripts, frozen experimental inputs, and figure input files are being assembled for the complete reproduction package. Commands requiring those artifacts become usable once the artifacts are included. Ordinary historical run logs are not prerequisites for fresh full-agent generation.
 
 ## Data sources and third-party code
 

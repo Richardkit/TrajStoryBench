@@ -51,6 +51,9 @@ class TrajStoryAgent:
         self.generator, self.refiner = generator, refiner
         self.initial_refinements = {}
 
+    def build_initial_agreement(self, topics, initial, goal, output):
+        return build_agreement(self.llm, topics, initial, goal, output)
+
     def refine_initial(self, bundle, profile, initial, run_dir):
         initial = list(initial)
         records, supplement = [], []
@@ -167,8 +170,8 @@ class TrajStoryAgent:
             write_json(run_dir / "03_conflict_admission.json", admission)
             LOGGER.info("A3 admission: %d proposed, %d admitted topic(s)",
                         admission["proposed_topic_count"], len(topics))
-            agreement = build_agreement(
-                self.llm, topics, initial, bundle.goal, run_dir / "03_agreement")
+            agreement = self.build_initial_agreement(
+                topics, initial, bundle.goal, run_dir / "03_agreement")
             agreement["protocol"] = "bounded_partial_agreement_v2_execution_gate"
             agreement["admission"] = admission
             agreement["review"] = review

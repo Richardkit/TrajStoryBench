@@ -29,6 +29,7 @@ def main(argv=None):
     parser.add_argument('--case-ids', nargs='+', help='Default: all cases in the manifest')
     parser.add_argument('--workers', type=int, default=3)
     parser.add_argument('--experiment', choices=('without_conditional_refinement','without_compression','without_memory','without_data_profiling','hyperparameter'))
+    parser.add_argument('--mode',choices=('fresh','checkpoint'),help='Experiment mode; inferred when omitted')
     parser.add_argument('--source-generation', type=Path, help='Frozen generation directory containing CASE_ID/result.json')
     parser.add_argument('--checkpoint-manifest', type=Path, help='Original experiment manifest containing replay checkpoints')
     parser.add_argument('--partition-penalty', type=float, default=1.)
@@ -41,8 +42,11 @@ def main(argv=None):
         parser.error('--workers must be positive')
     if args.source_generation and args.checkpoint_manifest:
         parser.error('Choose --source-generation or --checkpoint-manifest')
-    if bool(args.experiment) != bool(args.source_generation or args.checkpoint_manifest):
-        parser.error('--experiment requires a checkpoint manifest or source generation directory')
+    mode=args.mode or ('checkpoint' if args.source_generation or args.checkpoint_manifest else 'fresh')
+    if not args.experiment and (args.mode or args.source_generation or args.checkpoint_manifest):
+        parser.error('Experiment source/mode options require --experiment')
+    if args.experiment and ((mode=='checkpoint') != bool(args.source_generation or args.checkpoint_manifest)):
+        parser.error('checkpoint mode requires a source; fresh mode does not accept a checkpoint source')
     from trajstoryagent_v5.v5_framework.case_adapter import load_trajstory_case
     from trajstoryagent_v5.v5_framework.identity import IMPLEMENTATION_ID
     root = args.repo_root.resolve()
@@ -79,16 +83,20 @@ def main(argv=None):
         from trajstoryagent_v5.v5_framework.export_support import read as read_checkpoint
         frozen_plan=read_checkpoint(args.checkpoint_manifest) if args.checkpoint_manifest else None
         for case in cases:
+            if mode=='fresh':
+                case['input_arguments']=['--case',str((root/case['json_path']).resolve()),'--repo-root',str(root)]
+                continue
             saved=frozen_plan['replay'][case['case_id']] if frozen_plan else read_checkpoint(args.source_generation/case['case_id']/'result.json')
             case['checkpoint']=saved['source_run']
-        experiment_args=['--variant',args.experiment,'--partition-penalty',str(args.partition_penalty),
+            case['input_arguments']=['--source-run',case['checkpoint']]
+        experiment_args=['--mode',mode,'--variant',args.experiment,'--partition-penalty',str(args.partition_penalty),
                         '--min-support',str(args.min_support),'--tolerance-sd',str(args.tolerance_sd),
                         '--distortion-weight',str(args.distortion_weight)]
         for case in cases:
             case['checkpoint_arguments']=['--checkpoint-manifest',str(args.checkpoint_manifest.resolve()),'--case-id',case['case_id']] if args.checkpoint_manifest else []
-            validate_experiment(['--source-run',case['checkpoint'],'--model',args.model,
+            validate_experiment([*case['input_arguments'],'--model',args.model,
                 '--output',str(args.output.resolve()/'generation'/case['case_id']),*experiment_args,*case['checkpoint_arguments'],'--dry-run'])
-        plan['experiment']=dict(variant=args.experiment,arguments=experiment_args)
+        plan['experiment']=dict(mode=mode,variant=args.experiment,arguments=experiment_args)
     elif (args.partition_penalty,args.min_support,args.tolerance_sd,args.distortion_weight)!=(1.,1,.25,1.):
         parser.error('Overrides require --experiment hyperparameter')
     output = args.output.resolve()
@@ -121,7 +129,7 @@ def main(argv=None):
                    '--repo-root', str(root), '--output', str(dest)]
         if args.experiment:
             command=[sys.executable,'-X','utf8','-m','trajstoryagent_v5.ablation.experiment',
-                     '--model',args.model,'--source-run',case['checkpoint'],'--output',str(dest),*experiment_args,*case['checkpoint_arguments']]
+                     '--model',args.model,*case['input_arguments'],'--output',str(dest),*experiment_args,*case['checkpoint_arguments']]
         with log.open('w', encoding='utf-8') as stream:
             proc = subprocess.run(command, cwd=output/'source_snapshot', stdout=stream, stderr=subprocess.STDOUT, check=False)
         success = proc.returncode == 0 and (dest/'result.json').is_file()
