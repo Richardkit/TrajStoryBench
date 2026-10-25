@@ -1,12 +1,12 @@
 """Formal v5 test insight contract implementation."""
 import json
 import pytest
-from trajstoryagent_v5.conditional_math import conditional_partition
+from trajstoryagent_v5.v5_framework.conditional_math import conditional_partition
 from trajstoryagent_v5 import FrameworkConfig
-from trajstoryagent_v5.models import EvidencePackage
-from trajstoryagent_v5.result_interpretation import AnalysisResultInterpreter
-from trajstoryagent_v5.summary import SummarySynthesizer
-from trajstoryagent_v5.models import AnalysisGranularity
+from trajstoryagent_v5.v5_framework.models import EvidencePackage
+from trajstoryagent_v5.v5_framework.result_interpretation import AnalysisResultInterpreter
+from trajstoryagent_v5.v5_framework.summary import SummarySynthesizer
+from trajstoryagent_v5.v5_framework.models import AnalysisGranularity
 
 
 def test_singleton_condition_is_eligible_with_new_default():

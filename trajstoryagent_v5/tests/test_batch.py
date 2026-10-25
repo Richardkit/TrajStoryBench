@@ -3,7 +3,9 @@ from pathlib import Path
 from types import SimpleNamespace
 
 import pytest
-from trajstoryagent_v5 import batch, case_adapter, providers
+from trajstoryagent_v5.v5_framework import batch
+from trajstoryagent_v5.v5_framework import case_adapter
+from trajstoryagent_v5.v5_framework import providers
 
 
 def setup_batch(tmp_path, monkeypatch):

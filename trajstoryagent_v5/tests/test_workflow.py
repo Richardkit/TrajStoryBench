@@ -7,14 +7,15 @@ from types import SimpleNamespace
 
 import pytest
 
-from trajstoryagent_v5.json_utils import write_json
-from trajstoryagent_v5.models import (
+from trajstoryagent_v5.v5_framework.json_utils import write_json
+from trajstoryagent_v5.v5_framework.models import (
     AnalysisQuestion, DataBundle, DataFile, EvidencePackage,
     TrajectoryDataProfile,
 )
-from trajstoryagent_v5.reasoning_agents import CrossEvidenceExplorer, GoalDecomposer
-from trajstoryagent_v5 import FrameworkConfig, TrajStoryAgent
-from trajstoryagent_v5.models import BranchInsight, TrajStoryReport
+from trajstoryagent_v5.v5_framework.reasoning_agents import CrossEvidenceExplorer, GoalDecomposer
+from trajstoryagent_v5 import FrameworkConfig
+from trajstoryagent_v5 import TrajStoryAgent
+from trajstoryagent_v5.v5_framework.models import BranchInsight, TrajStoryReport
 
 
 class ScriptedLLM:
@@ -113,7 +114,7 @@ def test_planner_receives_first_round_refinement_and_regenerates(tmp_path, monke
         memory_claims.extend(e.claim for e in kw['evidence'])
         return {'Question': ['Q1: initial objective'], 'Finding': list(memory_claims), 'Errors appear in coding': []}
 
-    monkeypatch.setattr('trajstoryagent_v5.controller.MemoryManagerAgent.compress', memory)
+    monkeypatch.setattr('trajstoryagent_v5.v5_framework.controller.MemoryManagerAgent.compress', memory)
     data = tmp_path/'data.csv'
     data.write_text('x\n1\n', encoding='utf-8')
     bundle = DataBundle('Compare trips', (DataFile('main', data),), context='Original context')
@@ -155,7 +156,7 @@ def test_formal_refinement_precedes_summary_in_controller():
 
 
 def test_runner_rejects_existing_outputs_before_loading_credentials(tmp_path):
-    from trajstoryagent_v5.cli import main
+    from trajstoryagent_v5.v5_framework.cli import main
     (tmp_path/'marker.txt').write_text('existing result', encoding='utf-8')
     with pytest.raises(FileExistsError, match='Refusing to overwrite'):
         main(['--case', 'missing.json', '--model', 'gpt', '--output', str(tmp_path)])

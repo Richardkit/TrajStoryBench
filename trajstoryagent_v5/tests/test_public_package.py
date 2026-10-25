@@ -9,14 +9,16 @@ from types import SimpleNamespace
 
 import pytest
 import trajstoryagent_v5
-from trajstoryagent_v5 import cli, export_support
-from trajstoryagent_v5.execution import PythonCodeExecutor
-from trajstoryagent_v5.identity import FRAMEWORK_ID, IMPLEMENTATION_ID
-from trajstoryagent_v5 import refinement
+from trajstoryagent_v5.v5_framework import cli
+from trajstoryagent_v5.v5_framework import export_support
+from trajstoryagent_v5.v5_framework.execution import PythonCodeExecutor
+from trajstoryagent_v5.v5_framework.identity import FRAMEWORK_ID, IMPLEMENTATION_ID
+from trajstoryagent_v5.v5_framework import refinement
 
 
 def test_only_paper_compression_kernel_and_default_support_are_exposed():
-    from trajstoryagent_v5 import conditional_math,compression_math
+    from trajstoryagent_v5.v5_framework import conditional_math
+    from trajstoryagent_v5.v5_framework import compression_math
     import inspect
     assert not hasattr(conditional_math,'compress_with_exceptions')
     assert refinement.compress_with_exceptions is compression_math.compress_with_exceptions
@@ -28,11 +30,11 @@ def test_public_cli_uses_formal_identity_and_snapshots_only_this_package(tmp_pat
     (tmp_path/'input_data.csv').write_text('id,value\na,3\n', encoding='utf8')
     case=tmp_path/'case.json'
     case.write_text(json.dumps({'metadata':{'goal':'Compare'},'dataset_csv_path':'data.csv'}),encoding='utf8')
-    monkeypatch.setattr('trajstoryagent_v5.providers.credentials',lambda generator:None)
+    monkeypatch.setattr('trajstoryagent_v5.v5_framework.providers.credentials',lambda generator:None)
     monkeypatch.setenv('OPENAI_API_KEY','offline-placeholder')
     monkeypatch.setenv('DASHSCOPE_API_KEY','offline-placeholder')
     clients=[]
-    monkeypatch.setattr('trajstoryagent_v5.transport.ResilientClient',lambda **kw:clients.append(kw) or object())
+    monkeypatch.setattr('trajstoryagent_v5.v5_framework.transport.ResilientClient',lambda **kw:clients.append(kw) or object())
     class Agent:
         def __init__(self,client,*,generator,config):
             assert generator==model and config.memory_manager_enabled and config.min_support==1
@@ -59,7 +61,7 @@ def test_public_cli_uses_formal_identity_and_snapshots_only_this_package(tmp_pat
 
 def test_executor_loads_v5_tools_and_supplied_data(tmp_path):
     data=tmp_path/'input_values.csv';data.write_text('value\n2\n4\n',encoding='utf8')
-    code="from trajstoryagent_v5.analysis_tools import AnalysisSession\ns=AnalysisSession.from_environment()\nprint(float(s.load_table('main').value.mean()))\n"
+    code="from trajstoryagent_v5.v5_framework.analysis_tools import AnalysisSession\ns=AnalysisSession.from_environment()\nprint(float(s.load_table('main').value.mean()))\n"
     result=PythonCodeExecutor().run(code,tmp_path/'run',input_files={'main':str(data)})
     assert result.success,result.diagnostic
     assert result.stdout.strip()=='3.0'
@@ -81,7 +83,7 @@ for item in pkgutil.iter_modules(pkg.__path__):
  if item.name != '__main__':importlib.import_module('trajstoryagent_v5.'+item.name)
 agent=pkg.TrajStoryAgent(None,generator='gpt')
 assert agent.config.memory_manager_enabled
-assert agent.__class__.__module__=='trajstoryagent_v5.controller'
+assert agent.__class__.__module__=='trajstoryagent_v5.v5_framework.controller'
 print(pkg.FRAMEWORK_ID)
 '''
     run=subprocess.run([sys.executable,'-I','-c',code,str(isolated)],cwd=isolated,

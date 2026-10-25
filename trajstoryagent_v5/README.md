@@ -6,6 +6,16 @@ All framework code and the Memory Manager role prompt are contained here.
 Only third-party Python libraries and the explicitly supplied case data are
 external dependencies. There are no persistent-worker or single-agent variants.
 
+## Source layout
+
+- `v5_framework/`: complete v5 workflow, generation, batch execution, and shared utilities.
+- `ablation/`: ablation implementations and the shared checkpoint experiment dispatcher.
+- `hyperparameter_study/`: hyperparameter replay implementation and its entry point.
+- `evaluation/`: single-case and batch scoring.
+- `roles/`: prompt resources; `tests/`: offline verification.
+
+The root command modules are compatibility entry points. Existing documented commands remain valid.
+
 ## Workflow
 
 1. Load only projected `input_*.csv` tables, then profile fields and relations.

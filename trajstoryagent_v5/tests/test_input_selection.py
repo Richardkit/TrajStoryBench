@@ -3,8 +3,8 @@ from pathlib import Path
 
 import pytest
 
-from trajstoryagent_v5.input_paths import resolve_input_csv
-from trajstoryagent_v5.case_adapter import load_trajstory_case
+from trajstoryagent_v5.v5_framework.input_paths import resolve_input_csv
+from trajstoryagent_v5.v5_framework.case_adapter import load_trajstory_case
 
 
 def make_case(tmp_path):

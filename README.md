@@ -30,7 +30,7 @@ scripts/                    Selected baseline runners and paper figure utilities
 
 `trajstoryagent_v5` contains the current independent agent implementation. Generation, evaluation, ablation, and hyperparameter entry points are owned by this package. Baseline implementations and shared utilities are grouped under `baselines/`.
 
-## Installation and API configuration
+## Installation
 
 Use Python 3.11 or later. Run the following commands from the repository root, preferably in a dedicated virtual environment:
 
@@ -41,22 +41,6 @@ python -m pip install "./trajstoryagent_v5[evaluation,test]"
 ```
 
 This installs the dependencies for TrajStoryAgent, its evaluator, and offline tests. Baselines have additional framework dependencies and may require separate environments; the agent installation does not install all baseline frameworks.
-
-Configure the provider credentials through environment variables. For example, in PowerShell:
-
-```powershell
-$env:OPENAI_API_KEY = "your-openai-api-key"
-$env:DASHSCOPE_API_KEY = "your-dashscope-api-key"
-```
-
-On Bash, use `export OPENAI_API_KEY=...` and `export DASHSCOPE_API_KEY=...` instead. Keep real keys outside source files and committed configuration.
-
-| Generator argument | Configured model | Provider |
-|---|---|---|
-| `gpt` | `gpt-6-luna` | OpenAI |
-| `qwen` | `qwen3.8-flash` | DashScope, mainland endpoint |
-
-Both generator configurations use temperature 0 with reasoning disabled. Evaluation uses GPT independently of the generation backbone. Generation and evaluation commands make real API calls unless a preparation-only or dry-run mode is explicitly indicated.
 
 On Windows, use a short checkout path such as `C:\TrajStoryBench` to accommodate deeply nested checkpoint paths.
 

@@ -2,9 +2,11 @@ import json
 from types import SimpleNamespace
 
 import pytest
-from trajstoryagent_v5 import evaluate, hyperparameter_replay as hp, ablation_replay as ab
-from trajstoryagent_v5.ablation_memory_profile import NoMemoryConfig
-from trajstoryagent_v5.models import FrameworkConfig
+from trajstoryagent_v5.evaluation import evaluate
+from trajstoryagent_v5.hyperparameter_study import hyperparameter_replay as hp
+from trajstoryagent_v5.ablation import ablation_replay as ab
+from trajstoryagent_v5.ablation.ablation_memory_profile import NoMemoryConfig
+from trajstoryagent_v5.v5_framework.models import FrameworkConfig
 
 
 def test_two_independent_rounds_threshold_before_average(tmp_path):
@@ -71,7 +73,7 @@ def test_no_compression_reuses_original_uncompressed_text(tmp_path):
 
 def test_batch_scoring_weights_references_and_records_failure(tmp_path,monkeypatch):
     from pathlib import Path
-    from trajstoryagent_v5 import evaluate_batch as eb
+    from trajstoryagent_v5.evaluation import evaluate_batch as eb
     cases=[]
     for cid in ('a','b','c'):
         case=tmp_path/f'{cid}.json';case.write_text(json.dumps({'insights':['ref']}))

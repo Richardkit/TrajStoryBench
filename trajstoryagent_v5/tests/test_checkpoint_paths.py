@@ -1,6 +1,6 @@
 from pathlib import Path
 import pytest
-from trajstoryagent_v5.checkpoint_paths import relocate_path
+from trajstoryagent_v5.v5_framework.checkpoint_paths import relocate_path
 
 
 def test_frozen_paths_resolve_without_changing_unrelated_values(tmp_path):

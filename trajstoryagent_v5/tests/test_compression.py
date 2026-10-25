@@ -3,10 +3,10 @@ import math
 
 import pytest
 
-from trajstoryagent_v5.conditional_math import aggregate
+from trajstoryagent_v5.v5_framework.conditional_math import aggregate
 from trajstoryagent_v5 import TrajStoryAgent
-from trajstoryagent_v5.compression_math import compress_with_exceptions
-from trajstoryagent_v5 import refinement
+from trajstoryagent_v5.v5_framework.compression_math import compress_with_exceptions
+from trajstoryagent_v5.v5_framework import refinement
 
 
 def test_name_only_cost_matches_exhaustive_search():

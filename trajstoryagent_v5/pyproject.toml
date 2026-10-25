@@ -15,12 +15,12 @@ test = ["pytest>=7"]
 evaluation = ["openai>=1"]
 
 [project.scripts]
-trajstory-v5 = "trajstoryagent_v5.cli:main"
-trajstory-v5-evaluate = "trajstoryagent_v5.evaluate:main"
-trajstory-v5-experiment = "trajstoryagent_v5.experiment:main"
+trajstory-v5 = "trajstoryagent_v5.v5_framework.cli:main"
+trajstory-v5-evaluate = "trajstoryagent_v5.evaluation.evaluate:main"
+trajstory-v5-experiment = "trajstoryagent_v5.ablation.experiment:main"
 
 [tool.setuptools]
-packages = ["trajstoryagent_v5"]
+packages = ["trajstoryagent_v5", "trajstoryagent_v5.v5_framework", "trajstoryagent_v5.ablation", "trajstoryagent_v5.hyperparameter_study", "trajstoryagent_v5.evaluation"]
 package-dir = {trajstoryagent_v5 = "."}
 
 [tool.setuptools.package-data]
