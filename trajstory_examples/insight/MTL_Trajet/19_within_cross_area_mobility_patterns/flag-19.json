@@ -1,0 +1,119 @@
+{
+  "dataset_csv_path": "trajectories.csv",
+  "user_dataset_csv_path": "trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajectory_points.csv",
+      "role": "Timestamped GPS trajectory points linked by trajectory_id"
+    }
+  ],
+  "metadata": {
+    "goal": "Compare mobility patterns of trajectories remaining within one urban area and those crossing between different areas of Montréal.",
+    "role": "Urban mobility-pattern analyst",
+    "category": "Within-area and cross-area Montréal trajectories with purpose, mode, timing, area labels, route directness, GPS positions, and point speeds.",
+    "header": "MTL Trajet: 19 Within Cross Area Mobility Patterns",
+    "dataset_description": "Within-area and cross-area Montréal trajectories with purpose, mode, timing, area labels, route directness, GPS positions, and point speeds.",
+    "metric_note": "Distances are calculated from delivered GPS polylines; average point speed and duration are synchronized with the point table. Montréal's long island axis runs approximately southwest–northeast, so signed axis displacement summarizes the dominant travel direction."
+  },
+  "insight_list": [
+    {
+      "data_type": "area_relation_purpose",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Purpose Mix by Area Relation",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/area_relation_purpose.png"
+      },
+      "question": "How does purpose composition differ between within-area and cross-area trips?",
+      "code": "pd.crosstab(df.area_relation,df.purpose_group,normalize='index')",
+      "insight": "Within-area trips are dominated by shopping, dining, and leisure, whereas cross-area trips contain larger shares of work and education travel.",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trip_purpose",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "area_relation_mode_distance",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Mode and Distance by Area Relation",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/area_relation_distance_speed.png"
+      },
+      "question": "How do mode composition and distance differ between within-area and cross-area trips?",
+      "code": "pd.crosstab(df.area_relation,df.mode_group,normalize='index'); df.groupby('area_relation').distance_km.agg(['median','mean'])",
+      "insight": "Walking and cycling concentrate in short within-area movements, while public transit and motor vehicles dominate longer cross-area trajectories.",
+      "insight_type": "group_comparison",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "transport_mode",
+        "trajectory_id",
+        "point_speed"
+      ]
+    },
+    {
+      "data_type": "area_relation_departure_time",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Departure Timing by Area Relation and Purpose",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/area_relation_departure_timing.png"
+      },
+      "question": "When do cross-area work and education trips occur relative to within-area discretionary trips?",
+      "code": "df.groupby(['area_relation','purpose_group','departure_period']).size()",
+      "insight": "Cross-area work and education trips cluster around morning and evening peaks, whereas within-area discretionary travel is distributed more broadly.",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trip_purpose",
+        "gps_position",
+        "trajectory_timestamp",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "late_cross_area_leisure_exception",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Late-night Direct Leisure Exceptions",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/late_leisure_directness_exceptions.png"
+      },
+      "question": "Which cross-area discretionary trips are unusually late and direct?",
+      "code": "df[df.area_relation.eq('cross_area')].groupby('is_late_leisure_exception')[['start_hour','route_directness']].agg(['count','median'])",
+      "insight": "A small set of cross-area leisure trips occurs late at night and follows unusually direct routes compared with other discretionary travel.",
+      "insight_type": "exception_deviation",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trip_purpose",
+        "gps_position",
+        "trajectory_timestamp",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Within-area trips are dominated by shopping, dining, and leisure, whereas cross-area trips contain larger shares of work and education travel.",
+    "Walking and cycling concentrate in short within-area movements, while public transit and motor vehicles dominate longer cross-area trajectories.",
+    "Cross-area work and education trips cluster around morning and evening peaks, whereas within-area discretionary travel is distributed more broadly.",
+    "A small set of cross-area leisure trips occurs late at night and follows unusually direct routes compared with other discretionary travel."
+  ],
+  "summary": "Within-area travel is mainly discretionary and active, while cross-area travel is longer, more commute-oriented, and mostly motorized. Five late-night cross-area leisure trajectories form unusually direct exceptions.",
+  "evidence_policy": "Claims describe patterns in this controlled constructed dataset and do not establish causal relationships."
+}

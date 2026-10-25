@@ -1,0 +1,2217 @@
+{
+  "reconstruction": "Synthetic case-local GPS and timestamps fitted to the pre-existing plotted summaries; not recovered WorldTrace observations or road-matched tracks.",
+  "source_summary_snapshot": "results/dataset_quality/worldtrace_04_07_reconstruction_20261008/before/trajstory_examples/insight/worldtrace/07_weather_conditioned_user_behavior/07_weather_conditioned_user_behavior.csv",
+  "metric_definitions": {
+    "distance_meters": "sum of consecutive-point haversine distances, R=6371008.8 m",
+    "avg_speed_kmh": "total GPS distance / elapsed timestamp duration * 3.6",
+    "detour_score": "total GPS distance / endpoint haversine distance",
+    "mean_yaw_change_deg": "mean absolute wrapped change of consecutive GPS segment bearings; horizontal heading-change proxy, not measured IMU yaw"
+  },
+  "historical_source_trajectory_id_note": "Retained identifiers in sample 04 document old summary lineage only; reconstructed coordinates are not the original trajectories.",
+  "geographic_note": "Region labels use the existing approximate NYC bounding-box convention, not official administrative polygons. These synthetic paths are not road-map matched.",
+  "quality_constraint_exception": "Existing plotted summary values are explicitly preserved at user request. New point positions, motion and sampling profiles vary across every trajectory.",
+  "trajectories": 68,
+  "points": 35117,
+  "summary": "07_weather_conditioned_user_behavior.csv",
+  "changed_columns": {
+    "duration_seconds": 56,
+    "end_region": 13,
+    "start_region_coarse": 68,
+    "end_region_coarse": 68,
+    "is_cross_region": 13
+  },
+  "geometry_parameters": [
+    {
+      "seed": 16565455005602644677,
+      "attempt": 0,
+      "parameters": [
+        1.5599505478957352e-09,
+        0.8276216859494195,
+        0.39032068741190057
+      ],
+      "anchor": [
+        -73.96900333619452,
+        40.603390416313026
+      ],
+      "trajectory_id": "wt7_0001",
+      "points": 268,
+      "distance_error_m": -5.143538146512583e-07,
+      "detour_error": 3.8407976798993104e-09,
+      "yaw_error_deg": -1.0050749388312852e-07,
+      "speed_cv": 0.3390492599501153,
+      "step_cv": 0.31956134175627743,
+      "interval_cv": 0.4915466961395802,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.01905527601600454,
+      "latitude_span": 0.004828033397004106
+    },
+    {
+      "seed": 17196793292439521232,
+      "attempt": 0,
+      "parameters": [
+        -8.889222220921394e-09,
+        0.6437343789711926,
+        0.39774105604024607
+      ],
+      "anchor": [
+        -73.9714923218231,
+        40.6017063988025
+      ],
+      "trajectory_id": "wt7_0002",
+      "points": 569,
+      "distance_error_m": -4.68083749183279e-06,
+      "detour_error": -1.5427619182162289e-09,
+      "yaw_error_deg": -3.995484725294318e-07,
+      "speed_cv": 0.2870527549043518,
+      "step_cv": 0.31144781447408576,
+      "interval_cv": 0.43416528419868555,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.00459218885100654,
+      "latitude_span": 0.001173973325997224
+    },
+    {
+      "seed": 7135245594775153544,
+      "attempt": 0,
+      "parameters": [
+        3.5666823881184264e-09,
+        0.8151976910157769,
+        0.5331136957992323
+      ],
+      "anchor": [
+        -73.97145655702302,
+        40.60320254411733
+      ],
+      "trajectory_id": "wt7_0003",
+      "points": 315,
+      "distance_error_m": 5.343417797121219e-07,
+      "detour_error": 2.8237168159250814e-10,
+      "yaw_error_deg": 4.178954249312028e-08,
+      "speed_cv": 0.26981701901225513,
+      "step_cv": 0.27332855844667475,
+      "interval_cv": 0.4354362679966774,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.024027693570999986,
+      "latitude_span": 0.010704124490999334
+    },
+    {
+      "seed": 2683215049756725303,
+      "attempt": 0,
+      "parameters": [
+        -4.899215184318805e-09,
+        0.7411558850846037,
+        0.48038138990776996
+      ],
+      "anchor": [
+        -73.97191077758666,
+        40.603418846151705
+      ],
+      "trajectory_id": "wt7_0004",
+      "points": 609,
+      "distance_error_m": -3.933419293389306e-06,
+      "detour_error": 2.998254977626402e-10,
+      "yaw_error_deg": 1.3458958036949298e-07,
+      "speed_cv": 0.28175907009206896,
+      "step_cv": 0.28202414873302645,
+      "interval_cv": 0.3975789914818503,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.005752402379997079,
+      "latitude_span": 0.002039018867002085
+    },
+    {
+      "seed": 13370859390953924239,
+      "attempt": 0,
+      "parameters": [
+        4.7789486165082655e-09,
+        0.7331465958565475,
+        0.6564537948070753
+      ],
+      "anchor": [
+        -73.96958182462261,
+        40.6018075472068
+      ],
+      "trajectory_id": "wt7_0005",
+      "points": 352,
+      "distance_error_m": -2.604610926937312e-08,
+      "detour_error": -3.0219160507272136e-11,
+      "yaw_error_deg": 7.563617288042224e-09,
+      "speed_cv": 0.2786673577490796,
+      "step_cv": 0.30276457792876293,
+      "interval_cv": 0.5300577544925115,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.028275955390000718,
+      "latitude_span": 0.009699045240004978
+    },
+    {
+      "seed": 14452714365099611934,
+      "attempt": 0,
+      "parameters": [
+        -7.137067395029305e-10,
+        0.4941423782314611,
+        0.5491226071036652
+      ],
+      "anchor": [
+        -73.97291729895562,
+        40.60392601579963
+      ],
+      "trajectory_id": "wt7_0006",
+      "points": 1111,
+      "distance_error_m": 1.541702658869326e-07,
+      "detour_error": 8.50842107880112e-09,
+      "yaw_error_deg": -4.301678728779734e-07,
+      "speed_cv": 0.2868563402439891,
+      "step_cv": 0.2720249609415021,
+      "interval_cv": 0.42321003818262526,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.0080602070460003,
+      "latitude_span": 0.0017799464069980786
+    },
+    {
+      "seed": 5503657471143222670,
+      "attempt": 0,
+      "parameters": [
+        8.30472200645501e-09,
+        0.8181893185338883,
+        0.3936629246109055
+      ],
+      "anchor": [
+        -73.97143364186716,
+        40.6043414333497
+      ],
+      "trajectory_id": "wt7_0007",
+      "points": 383,
+      "distance_error_m": -3.500645107124001e-08,
+      "detour_error": -7.891465259035613e-12,
+      "yaw_error_deg": -4.891635541071082e-09,
+      "speed_cv": 0.30084944537658587,
+      "step_cv": 0.2734349329475883,
+      "interval_cv": 0.4685042951184138,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.037440780536996954,
+      "latitude_span": 0.016047222587999954
+    },
+    {
+      "seed": 6605993545781251969,
+      "attempt": 0,
+      "parameters": [
+        2.110658289820373e-09,
+        0.6934204875365237,
+        0.4991399774979653
+      ],
+      "anchor": [
+        -73.97158204817762,
+        40.60342295175156
+      ],
+      "trajectory_id": "wt7_0008",
+      "points": 1030,
+      "distance_error_m": 1.7982974895858206e-06,
+      "detour_error": 1.9868089395913557e-09,
+      "yaw_error_deg": 6.99832384043475e-07,
+      "speed_cv": 0.26755970345765456,
+      "step_cv": 0.2887101941796571,
+      "interval_cv": 0.4040321117761532,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.008922294363003402,
+      "latitude_span": 0.002475562303999368
+    },
+    {
+      "seed": 14280662595764668076,
+      "attempt": 0,
+      "parameters": [
+        1.3592051773152523e-08,
+        0.9227101242155081,
+        0.40437467736748806
+      ],
+      "anchor": [
+        -73.97137034225524,
+        40.60256268277697
+      ],
+      "trajectory_id": "wt7_0009",
+      "points": 577,
+      "distance_error_m": 6.975642463658005e-08,
+      "detour_error": 4.9045212335840915e-11,
+      "yaw_error_deg": 4.788399010635658e-09,
+      "speed_cv": 0.2758367529924102,
+      "step_cv": 0.2599200134585224,
+      "interval_cv": 0.40928970225594363,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.04074333373699801,
+      "latitude_span": 0.014496522089999075
+    },
+    {
+      "seed": 7792945005948233946,
+      "attempt": 0,
+      "parameters": [
+        4.90908803826058e-09,
+        0.5096476246456113,
+        0.6167114687689266
+      ],
+      "anchor": [
+        -73.97010110141088,
+        40.6029219286539
+      ],
+      "trajectory_id": "wt7_0010",
+      "points": 409,
+      "distance_error_m": 3.1032963079269393e-06,
+      "detour_error": 1.612622257951557e-09,
+      "yaw_error_deg": 2.999757597876851e-08,
+      "speed_cv": 0.29854219056147674,
+      "step_cv": 0.2810734915416178,
+      "interval_cv": 0.3475828519016641,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.004726034446008498,
+      "latitude_span": 0.0008990014439973493
+    },
+    {
+      "seed": 16637623345284992627,
+      "attempt": 0,
+      "parameters": [
+        2.6359551385944923e-09,
+        0.6937819073399897,
+        0.6297198484824247
+      ],
+      "anchor": [
+        -73.97054268078067,
+        40.60428495979028
+      ],
+      "trajectory_id": "wt7_0011",
+      "points": 262,
+      "distance_error_m": 3.147888492094353e-07,
+      "detour_error": 1.1642686814639092e-10,
+      "yaw_error_deg": 3.090928402116333e-08,
+      "speed_cv": 0.33363726531328614,
+      "step_cv": 0.2501945177429,
+      "interval_cv": 0.39437814865792375,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.022905786171989462,
+      "latitude_span": 0.006344969491003383
+    },
+    {
+      "seed": 14007456902694874485,
+      "attempt": 0,
+      "parameters": [
+        5.538013654714343e-10,
+        0.34151709039450506,
+        0.836617183749979
+      ],
+      "anchor": [
+        -73.9694470891253,
+        40.6021630981434
+      ],
+      "trajectory_id": "wt7_0012",
+      "points": 767,
+      "distance_error_m": 1.1549332157301251e-07,
+      "detour_error": -2.721618486134503e-10,
+      "yaw_error_deg": -1.439222074850477e-09,
+      "speed_cv": 0.3342663238795701,
+      "step_cv": 0.27562645544964953,
+      "interval_cv": 0.42193227514696463,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.005775190796995844,
+      "latitude_span": 0.0010144654959987065
+    },
+    {
+      "seed": 788976926768327317,
+      "attempt": 0,
+      "parameters": [
+        6.612354723280978e-09,
+        0.9390949229376625,
+        0.394930902957554
+      ],
+      "anchor": [
+        -73.97017906947973,
+        40.603638464889386
+      ],
+      "trajectory_id": "wt7_0013",
+      "points": 303,
+      "distance_error_m": 8.003098628250882e-08,
+      "detour_error": 4.153277721741233e-11,
+      "yaw_error_deg": -3.967544515148802e-09,
+      "speed_cv": 0.27519027709669086,
+      "step_cv": 0.3104603917410712,
+      "interval_cv": 0.4002174926571064,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.027042619916002764,
+      "latitude_span": 0.012235006662002945
+    },
+    {
+      "seed": 6219373395414270677,
+      "attempt": 0,
+      "parameters": [
+        -1.0476699476721088e-09,
+        0.5567904000917037,
+        0.47249085416505454
+      ],
+      "anchor": [
+        -73.97052732116968,
+        40.60231704355272
+      ],
+      "trajectory_id": "wt7_0014",
+      "points": 766,
+      "distance_error_m": -1.3933226910012309e-06,
+      "detour_error": -1.4702867812133036e-09,
+      "yaw_error_deg": -2.5195707564762415e-07,
+      "speed_cv": 0.30228274384402704,
+      "step_cv": 0.2927268834950001,
+      "interval_cv": 0.4184263003816707,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.007827781911998954,
+      "latitude_span": 0.002175376140996832
+    },
+    {
+      "seed": 12638497274742479183,
+      "attempt": 0,
+      "parameters": [
+        6.524337286680832e-09,
+        0.913159980303741,
+        0.4154912499938534
+      ],
+      "anchor": [
+        -73.97207042008336,
+        40.60239638027384
+      ],
+      "trajectory_id": "wt7_0015",
+      "points": 484,
+      "distance_error_m": 2.033712007687427e-07,
+      "detour_error": 9.1476159980175e-11,
+      "yaw_error_deg": 1.3482173599754788e-08,
+      "speed_cv": 0.3062666883686849,
+      "step_cv": 0.2868368292199424,
+      "interval_cv": 0.31293457587854634,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.03001023670800862,
+      "latitude_span": 0.011407877834002988
+    },
+    {
+      "seed": 10841642470054158386,
+      "attempt": 0,
+      "parameters": [
+        -5.927858067586804e-09,
+        0.7727950119255411,
+        0.48748219720761277
+      ],
+      "anchor": [
+        -73.97074753260515,
+        40.602487342598906
+      ],
+      "trajectory_id": "wt7_0016",
+      "points": 1339,
+      "distance_error_m": -5.8765829180629225e-06,
+      "detour_error": -7.782177346982166e-09,
+      "yaw_error_deg": -5.632981370240486e-07,
+      "speed_cv": 0.3082913247386918,
+      "step_cv": 0.29839087776559253,
+      "interval_cv": 0.4045383918336323,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.009593076919003352,
+      "latitude_span": 0.001553897785001368
+    },
+    {
+      "seed": 3742572905723393355,
+      "attempt": 0,
+      "parameters": [
+        1.0584619672769216e-08,
+        0.8452003397517418,
+        0.42339378231036884
+      ],
+      "anchor": [
+        -73.96999020626248,
+        40.60182226926814
+      ],
+      "trajectory_id": "wt7_0017",
+      "points": 507,
+      "distance_error_m": 1.4243414625525475e-07,
+      "detour_error": 7.967893012050808e-11,
+      "yaw_error_deg": 1.3251728603336232e-09,
+      "speed_cv": 0.30798351718398365,
+      "step_cv": 0.29690397537209867,
+      "interval_cv": 0.5518389496992879,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.04086021922501004,
+      "latitude_span": 0.012529543767001883
+    },
+    {
+      "seed": 639227650875923502,
+      "attempt": 0,
+      "parameters": [
+        -2.805623707993435e-09,
+        0.43983396773246336,
+        0.6964275482891953
+      ],
+      "anchor": [
+        -73.97071422750182,
+        40.601955241448394
+      ],
+      "trajectory_id": "wt7_0018",
+      "points": 504,
+      "distance_error_m": -1.7516697425890015e-06,
+      "detour_error": -1.4720931140743687e-09,
+      "yaw_error_deg": 2.6803968822264324e-07,
+      "speed_cv": 0.27420956813350467,
+      "step_cv": 0.3032566746360665,
+      "interval_cv": 0.30846546706353556,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.004677633412995874,
+      "latitude_span": 0.0008896516189977888
+    },
+    {
+      "seed": 2380299111715031431,
+      "attempt": 0,
+      "parameters": [
+        2.5471886611830763e-09,
+        0.8989900584225868,
+        0.40989165442319525
+      ],
+      "anchor": [
+        -73.97120018804624,
+        40.6032287841528
+      ],
+      "trajectory_id": "wt7_0019",
+      "points": 214,
+      "distance_error_m": 3.8843245420139283e-07,
+      "detour_error": 3.354791999754525e-10,
+      "yaw_error_deg": -4.914151929824584e-08,
+      "speed_cv": 0.249463386786869,
+      "step_cv": 0.26578218121289177,
+      "interval_cv": 0.4573143034403401,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.017121250198002258,
+      "latitude_span": 0.0086044911719938
+    },
+    {
+      "seed": 3954499867830439399,
+      "attempt": 0,
+      "parameters": [
+        2.8182441486127797e-09,
+        0.6533961276004161,
+        0.5117413071946574
+      ],
+      "anchor": [
+        -73.97243443036788,
+        40.60193111791721
+      ],
+      "trajectory_id": "wt7_0020",
+      "points": 552,
+      "distance_error_m": 1.5156623476286768e-06,
+      "detour_error": -4.4795633868943696e-10,
+      "yaw_error_deg": -2.2246568320838378e-07,
+      "speed_cv": 0.2821035990351597,
+      "step_cv": 0.3041388679679015,
+      "interval_cv": 0.535834921091794,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.005847465005999197,
+      "latitude_span": 0.001829270473997724
+    },
+    {
+      "seed": 11669276464670485416,
+      "attempt": 0,
+      "parameters": [
+        3.876731218560638e-09,
+        0.8249888921129949,
+        0.5015782389020722
+      ],
+      "anchor": [
+        -73.97299749089002,
+        40.6018192667832
+      ],
+      "trajectory_id": "wt7_0021",
+      "points": 257,
+      "distance_error_m": -2.9758166419924237e-07,
+      "detour_error": -1.6078849363054815e-10,
+      "yaw_error_deg": -4.652745744238018e-08,
+      "speed_cv": 0.29396704074073116,
+      "step_cv": 0.2699221385110368,
+      "interval_cv": 0.48748569367755096,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.02528093528700026,
+      "latitude_span": 0.010326527441996802
+    },
+    {
+      "seed": 11042865589955976446,
+      "attempt": 0,
+      "parameters": [
+        -4.249117971928911e-09,
+        0.3493577305859214,
+        0.6985566922729675
+      ],
+      "anchor": [
+        -73.97167808478068,
+        40.60229517885465
+      ],
+      "trajectory_id": "wt7_0022",
+      "points": 966,
+      "distance_error_m": -4.265700567884778e-06,
+      "detour_error": 5.132648528416439e-09,
+      "yaw_error_deg": -1.6152348081277523e-07,
+      "speed_cv": 0.30803149186575407,
+      "step_cv": 0.28804099166263064,
+      "interval_cv": 0.3850339966718128,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.008027507648009191,
+      "latitude_span": 0.0013114873019972606
+    },
+    {
+      "seed": 13561987767307938432,
+      "attempt": 0,
+      "parameters": [
+        4.639646665908331e-09,
+        0.7961063710829464,
+        0.6696518373449158
+      ],
+      "anchor": [
+        -73.97205972073293,
+        40.601594555499
+      ],
+      "trajectory_id": "wt7_0023",
+      "points": 415,
+      "distance_error_m": -7.411581464111805e-07,
+      "detour_error": 2.7687896420047764e-10,
+      "yaw_error_deg": 2.4633418860275924e-08,
+      "speed_cv": 0.36556217202320834,
+      "step_cv": 0.2780465032795836,
+      "interval_cv": 0.3693740233763969,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.03006988800599686,
+      "latitude_span": 0.008321118745001854
+    },
+    {
+      "seed": 13705177158791272286,
+      "attempt": 0,
+      "parameters": [
+        3.068954306856409e-09,
+        0.5478297262982527,
+        0.6636095297329033
+      ],
+      "anchor": [
+        -73.97050941733185,
+        40.60438977850645
+      ],
+      "trajectory_id": "wt7_0024",
+      "points": 923,
+      "distance_error_m": 3.6679962249763776e-06,
+      "detour_error": 1.5711138612317654e-08,
+      "yaw_error_deg": -5.05042009990575e-07,
+      "speed_cv": 0.2865863467576602,
+      "step_cv": 0.28822606924038785,
+      "interval_cv": 0.43883396893312077,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.008761350946002722,
+      "latitude_span": 0.002114051200997835
+    },
+    {
+      "seed": 13799505106051303302,
+      "attempt": 0,
+      "parameters": [
+        1.17745573357724e-08,
+        0.9703096780238568,
+        0.27978419381878106
+      ],
+      "anchor": [
+        -73.96926079049047,
+        40.602657355919156
+      ],
+      "trajectory_id": "wt7_0025",
+      "points": 444,
+      "distance_error_m": -1.055977918440476e-07,
+      "detour_error": -1.1027623258996755e-11,
+      "yaw_error_deg": 1.0926028082280936e-08,
+      "speed_cv": 0.2616569681415347,
+      "step_cv": 0.2719481704682812,
+      "interval_cv": 0.37011830789454747,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.033181347284994445,
+      "latitude_span": 0.0190860261309993
+    },
+    {
+      "seed": 15227093491309396669,
+      "attempt": 0,
+      "parameters": [
+        -3.499231094533657e-09,
+        0.5145335793765171,
+        0.5954982519871332
+      ],
+      "anchor": [
+        -73.97093251085138,
+        40.604299674798256
+      ],
+      "trajectory_id": "wt7_0026",
+      "points": 655,
+      "distance_error_m": -2.019219778048864e-06,
+      "detour_error": -3.380569157940272e-10,
+      "yaw_error_deg": -9.941686229808511e-08,
+      "speed_cv": 0.26730552938764673,
+      "step_cv": 0.2924397887347066,
+      "interval_cv": 0.4110446214470405,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.004572833672000343,
+      "latitude_span": 0.001341246763999493
+    },
+    {
+      "seed": 14093182048676801385,
+      "attempt": 0,
+      "parameters": [
+        1.1249673172226197e-08,
+        0.8335941966703065,
+        0.5819794178656875
+      ],
+      "anchor": [
+        -73.97165150724312,
+        40.60445349554249
+      ],
+      "trajectory_id": "wt7_0027",
+      "points": 467,
+      "distance_error_m": -4.141784302191809e-07,
+      "detour_error": -1.1628964458054725e-10,
+      "yaw_error_deg": -1.10106057604753e-08,
+      "speed_cv": 0.2623377681978654,
+      "step_cv": 0.2757411949579155,
+      "interval_cv": 0.3946131439818785,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.04255338506099804,
+      "latitude_span": 0.016216883642997004
+    },
+    {
+      "seed": 4681705963474459923,
+      "attempt": 0,
+      "parameters": [
+        1.163052056108897e-08,
+        0.6872699116317571,
+        0.5112004953834908
+      ],
+      "anchor": [
+        -73.96920822598774,
+        40.6026928738469
+      ],
+      "trajectory_id": "wt7_0028",
+      "points": 679,
+      "distance_error_m": 7.4028006338267005e-06,
+      "detour_error": -1.3669603227128846e-09,
+      "yaw_error_deg": -2.9769057974249336e-07,
+      "speed_cv": 0.29472792614258264,
+      "step_cv": 0.29358289457943937,
+      "interval_cv": 0.38731799035811215,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.005816902307998362,
+      "latitude_span": 0.0016295953150020637
+    },
+    {
+      "seed": 16584415223832449073,
+      "attempt": 0,
+      "parameters": [
+        -5.406331172440649e-10,
+        0.900993726795554,
+        0.6950660098718872
+      ],
+      "anchor": [
+        -73.9726463152882,
+        40.60168938030648
+      ],
+      "trajectory_id": "wt7_0029",
+      "points": 311,
+      "distance_error_m": -6.54109635433997e-06,
+      "detour_error": -2.9105606813573104e-09,
+      "yaw_error_deg": -1.6444893446987408e-07,
+      "speed_cv": 0.3625603521480922,
+      "step_cv": 0.28959328826443353,
+      "interval_cv": 0.4620241605668361,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.02073283332300946,
+      "latitude_span": 0.006441188671999498
+    },
+    {
+      "seed": 15454863027039074121,
+      "attempt": 0,
+      "parameters": [
+        1.081630531859929e-09,
+        0.19083030476758436,
+        0.763419375531856
+      ],
+      "anchor": [
+        -73.97244446041317,
+        40.60435482797961
+      ],
+      "trajectory_id": "wt7_0030",
+      "points": 694,
+      "distance_error_m": 1.4032727904123021e-06,
+      "detour_error": 9.883123208709321e-10,
+      "yaw_error_deg": 9.147951729460146e-08,
+      "speed_cv": 0.2554275490832036,
+      "step_cv": 0.2911556869543913,
+      "interval_cv": 0.40723097925451196,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.007999095742007967,
+      "latitude_span": 0.0009148997789978353
+    },
+    {
+      "seed": 9054538387692396597,
+      "attempt": 0,
+      "parameters": [
+        2.7606135644723817e-09,
+        0.8313325687179296,
+        0.3530359699637938
+      ],
+      "anchor": [
+        -73.96968915399306,
+        40.60264795622743
+      ],
+      "trajectory_id": "wt7_0031",
+      "points": 353,
+      "distance_error_m": -3.686250238388311e-06,
+      "detour_error": 2.2852342240753387e-10,
+      "yaw_error_deg": -8.613412205704662e-10,
+      "speed_cv": 0.2861688630618857,
+      "step_cv": 0.2534853233961148,
+      "interval_cv": 0.31721134264634987,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.029073272101996395,
+      "latitude_span": 0.008066929744998674
+    },
+    {
+      "seed": 7273512098259413512,
+      "attempt": 0,
+      "parameters": [
+        4.449589273491634e-09,
+        0.6469283422441762,
+        0.613922233447151
+      ],
+      "anchor": [
+        -73.97285858729924,
+        40.60325850980713
+      ],
+      "trajectory_id": "wt7_0032",
+      "points": 1164,
+      "distance_error_m": 5.353287178877508e-06,
+      "detour_error": 7.657801059934854e-10,
+      "yaw_error_deg": 2.464023900472512e-07,
+      "speed_cv": 0.2879325312030124,
+      "step_cv": 0.2965429948895438,
+      "interval_cv": 0.503588867678818,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.008969054870007653,
+      "latitude_span": 0.0021397286500004498
+    },
+    {
+      "seed": 6023161707636098366,
+      "attempt": 0,
+      "parameters": [
+        4.490105023100107e-09,
+        0.8279927131727142,
+        0.6248576553649465
+      ],
+      "anchor": [
+        -73.97235642795279,
+        40.60295907393542
+      ],
+      "trajectory_id": "wt7_0033",
+      "points": 387,
+      "distance_error_m": -3.278964868513867e-07,
+      "detour_error": -1.1833978241782006e-10,
+      "yaw_error_deg": 3.8350655984231707e-10,
+      "speed_cv": 0.34203443323206584,
+      "step_cv": 0.3132405184668956,
+      "interval_cv": 0.44842709300671224,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.03322208264199844,
+      "latitude_span": 0.011567979048002996
+    },
+    {
+      "seed": 3106057176589765711,
+      "attempt": 0,
+      "parameters": [
+        8.45262788353202e-10,
+        0.5958506377550914,
+        0.4831637913985678
+      ],
+      "anchor": [
+        -73.97155394133766,
+        40.602990194611614
+      ],
+      "trajectory_id": "wt7_0034",
+      "points": 452,
+      "distance_error_m": 3.699767603393411e-07,
+      "detour_error": 1.0093370583774686e-10,
+      "yaw_error_deg": 3.53540237085781e-08,
+      "speed_cv": 0.26397900587692963,
+      "step_cv": 0.29020424840860787,
+      "interval_cv": 0.3545722664190423,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.004653226669006472,
+      "latitude_span": 0.001191887600000996
+    },
+    {
+      "seed": 6950956611288909474,
+      "attempt": 0,
+      "parameters": [
+        1.191776012864357e-08,
+        0.9878578383170914,
+        0.4300862303640862
+      ],
+      "anchor": [
+        -73.97020085664346,
+        40.603803599199935
+      ],
+      "trajectory_id": "wt7_0035",
+      "points": 414,
+      "distance_error_m": -3.589466359699145e-07,
+      "detour_error": -1.1063638893915595e-10,
+      "yaw_error_deg": -2.700810597389136e-08,
+      "speed_cv": 0.3009909738451772,
+      "step_cv": 0.27944163631154273,
+      "interval_cv": 0.4579916383012392,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.036838749185008623,
+      "latitude_span": 0.014185894024002721
+    },
+    {
+      "seed": 7377706175148189363,
+      "attempt": 0,
+      "parameters": [
+        2.103652384720003e-11,
+        0.6445505767526376,
+        0.5783598777073573
+      ],
+      "anchor": [
+        -73.97139899005211,
+        40.60362296559068
+      ],
+      "trajectory_id": "wt7_0036",
+      "points": 883,
+      "distance_error_m": 2.208848854934331e-07,
+      "detour_error": 6.551030828916282e-10,
+      "yaw_error_deg": -1.363007200438915e-07,
+      "speed_cv": 0.2721015770918494,
+      "step_cv": 0.3069294795698579,
+      "interval_cv": 0.5333987130692694,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.005824483118004764,
+      "latitude_span": 0.0017096777519967077
+    },
+    {
+      "seed": 3892718183252809046,
+      "attempt": 0,
+      "parameters": [
+        8.637348437544339e-11,
+        0.35415049546660576,
+        0.1046819508950677
+      ],
+      "anchor": [
+        -73.96975663130799,
+        40.60447262278081
+      ],
+      "trajectory_id": "wt7_0037",
+      "points": 131,
+      "distance_error_m": 4.1487510316073895e-08,
+      "detour_error": 3.3462610460333053e-10,
+      "yaw_error_deg": -6.627159709893249e-08,
+      "speed_cv": 0.2883568171211825,
+      "step_cv": 0.3327002249057136,
+      "interval_cv": 0.39511836521170884,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.006874060339001176,
+      "latitude_span": 0.0014526766030016347
+    },
+    {
+      "seed": 18238891294510204570,
+      "attempt": 1,
+      "parameters": [
+        7.975758998322252e-10,
+        0.43860621147859535,
+        0.16860369642806694
+      ],
+      "anchor": [
+        -73.96975259724192,
+        40.60192918142182
+      ],
+      "trajectory_id": "wt7_0038",
+      "points": 131,
+      "distance_error_m": 4.0800807710184017e-07,
+      "detour_error": -5.83078030302886e-11,
+      "yaw_error_deg": -1.1374790798157619e-07,
+      "speed_cv": 0.21183939210061456,
+      "step_cv": 0.25133904044969363,
+      "interval_cv": 0.45495303596709646,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.0076419657010120545,
+      "latitude_span": 0.001732302038000455
+    },
+    {
+      "seed": 9101712418528318696,
+      "attempt": 0,
+      "parameters": [
+        4.5856086940329374e-10,
+        0.4732194571625565,
+        0.13653286378395918
+      ],
+      "anchor": [
+        -73.9699547765607,
+        40.60355641809781
+      ],
+      "trajectory_id": "wt7_0039",
+      "points": 132,
+      "distance_error_m": 1.3945623322797474e-07,
+      "detour_error": -1.099484947530982e-10,
+      "yaw_error_deg": -8.233564585680142e-08,
+      "speed_cv": 0.30616432242792635,
+      "step_cv": 0.2963747616312687,
+      "interval_cv": 0.5563393111580676,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.008160533609000709,
+      "latitude_span": 0.002236550703003104
+    },
+    {
+      "seed": 1005738275130931736,
+      "attempt": 0,
+      "parameters": [
+        1.8990980685823168e-10,
+        0.5886017019840993,
+        0.1548006891115075
+      ],
+      "anchor": [
+        -73.97128399032779,
+        40.60388350379623
+      ],
+      "trajectory_id": "wt7_0040",
+      "points": 133,
+      "distance_error_m": -9.718860383145511e-09,
+      "detour_error": 2.230815532300312e-11,
+      "yaw_error_deg": -9.211217033566754e-08,
+      "speed_cv": 0.22474697373473962,
+      "step_cv": 0.310405166530181,
+      "interval_cv": 0.36034964713789763,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.009027584958005264,
+      "latitude_span": 0.0019295462190029866
+    },
+    {
+      "seed": 3638488694524136479,
+      "attempt": 0,
+      "parameters": [
+        -8.720986043111798e-09,
+        0.30494355409960955,
+        0.25724537426020866
+      ],
+      "anchor": [
+        -73.97008855343849,
+        40.60297624846112
+      ],
+      "trajectory_id": "wt7_0041",
+      "points": 133,
+      "distance_error_m": -8.802416914477362e-06,
+      "detour_error": 1.0900909064304187e-09,
+      "yaw_error_deg": 3.264699710570085e-08,
+      "speed_cv": 0.34837195558820044,
+      "step_cv": 0.28035102814667323,
+      "interval_cv": 0.4307796700874135,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.010410114262001002,
+      "latitude_span": 0.0024564225579979393
+    },
+    {
+      "seed": 9820042479241900558,
+      "attempt": 0,
+      "parameters": [
+        8.142883770417138e-11,
+        0.43707243440669385,
+        0.10124348653324582
+      ],
+      "anchor": [
+        -73.97003067073207,
+        40.604483950368085
+      ],
+      "trajectory_id": "wt7_0042",
+      "points": 216,
+      "distance_error_m": -1.5607656678184867e-07,
+      "detour_error": -3.3944669297625296e-10,
+      "yaw_error_deg": -1.7139087482576087e-08,
+      "speed_cv": 0.36939288951459714,
+      "step_cv": 0.28728175670097,
+      "interval_cv": 0.4301833436586952,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.011208647250001036,
+      "latitude_span": 0.0025241499189974093
+    },
+    {
+      "seed": 3342134575061669538,
+      "attempt": 0,
+      "parameters": [
+        7.07911121220341e-11,
+        0.5162997842549174,
+        0.11154426192291092
+      ],
+      "anchor": [
+        -73.97053154980121,
+        40.60300220239487
+      ],
+      "trajectory_id": "wt7_0043",
+      "points": 207,
+      "distance_error_m": -3.834086328424746e-07,
+      "detour_error": -2.713014257693658e-10,
+      "yaw_error_deg": -6.084955650464963e-08,
+      "speed_cv": 0.29971769242207563,
+      "step_cv": 0.2861600836725482,
+      "interval_cv": 0.46188727044942735,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.011936795769997843,
+      "latitude_span": 0.0019431381699988037
+    },
+    {
+      "seed": 11343989921027670388,
+      "attempt": 0,
+      "parameters": [
+        1.1213524778396637e-09,
+        0.5396575316558133,
+        0.13801375075855696
+      ],
+      "anchor": [
+        -73.9723517507504,
+        40.603870403449285
+      ],
+      "trajectory_id": "wt7_0044",
+      "points": 201,
+      "distance_error_m": 7.618591553182341e-07,
+      "detour_error": 1.6599027485852957e-08,
+      "yaw_error_deg": 8.38645330958343e-09,
+      "speed_cv": 0.308479768928364,
+      "step_cv": 0.2871103279240602,
+      "interval_cv": 0.46288337739595653,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.012098502190994509,
+      "latitude_span": 0.00329667114700527
+    },
+    {
+      "seed": 16384684742284604567,
+      "attempt": 0,
+      "parameters": [
+        3.1795157276312264e-11,
+        0.30683214950531285,
+        0.237278310189018
+      ],
+      "anchor": [
+        -73.9714327864011,
+        40.60355478055405
+      ],
+      "trajectory_id": "wt7_0045",
+      "points": 195,
+      "distance_error_m": -4.87234956381144e-07,
+      "detour_error": 5.972941852228075e-08,
+      "yaw_error_deg": -2.848712767899997e-07,
+      "speed_cv": 0.36869420860666713,
+      "step_cv": 0.29981921040804893,
+      "interval_cv": 0.44353126071442806,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.014158052845999691,
+      "latitude_span": 0.0026671030069991275
+    },
+    {
+      "seed": 6429331344669475513,
+      "attempt": 0,
+      "parameters": [
+        8.203067495105772e-10,
+        0.40710477133427625,
+        0.18376081346556875
+      ],
+      "anchor": [
+        -73.97212422247723,
+        40.60209480581902
+      ],
+      "trajectory_id": "wt7_0046",
+      "points": 191,
+      "distance_error_m": 5.0942617235705256e-08,
+      "detour_error": -1.3178569346905533e-11,
+      "yaw_error_deg": 2.4606306325836158e-08,
+      "speed_cv": 0.23661546199735897,
+      "step_cv": 0.32739851581997753,
+      "interval_cv": 0.5503862317671765,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.014590851357013435,
+      "latitude_span": 0.0027432937869988905
+    },
+    {
+      "seed": 243471987937339201,
+      "attempt": 0,
+      "parameters": [
+        4.579251333998553e-09,
+        0.4992769725906968,
+        0.12239155453202488
+      ],
+      "anchor": [
+        -73.97148104628563,
+        40.60280358664414
+      ],
+      "trajectory_id": "wt7_0047",
+      "points": 841,
+      "distance_error_m": 3.0797309591434896e-08,
+      "detour_error": -1.1513012765362873e-11,
+      "yaw_error_deg": 1.2658448511615461e-08,
+      "speed_cv": 0.27077011300867004,
+      "step_cv": 0.2959970489673455,
+      "interval_cv": 0.5154686181856667,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.042555522320995465,
+      "latitude_span": 0.007311960346001456
+    },
+    {
+      "seed": 12957888549368407595,
+      "attempt": 0,
+      "parameters": [
+        5.6104966423063424e-09,
+        0.5581215259498321,
+        0.10871590740255438
+      ],
+      "anchor": [
+        -73.97183103425334,
+        40.602715585934725
+      ],
+      "trajectory_id": "wt7_0048",
+      "points": 892,
+      "distance_error_m": -2.098875484080054e-06,
+      "detour_error": 2.236301144264985e-09,
+      "yaw_error_deg": -9.764223207753275e-09,
+      "speed_cv": 0.2853521405000682,
+      "step_cv": 0.29552937190558604,
+      "interval_cv": 0.42549178695349765,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.049937311123997574,
+      "latitude_span": 0.007189801246994421
+    },
+    {
+      "seed": 7185972343045370168,
+      "attempt": 0,
+      "parameters": [
+        3.1385192969834165e-09,
+        0.5966636573512422,
+        0.09216955900910949
+      ],
+      "anchor": [
+        -73.9722844157204,
+        40.60263651627153
+      ],
+      "trajectory_id": "wt7_0049",
+      "points": 701,
+      "distance_error_m": 9.92703292013175e-07,
+      "detour_error": 3.4574838547740683e-09,
+      "yaw_error_deg": -2.2853484127338675e-07,
+      "speed_cv": 0.29985057499412526,
+      "step_cv": 0.3049311357157794,
+      "interval_cv": 0.425978740196438,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.003450519032000443,
+      "latitude_span": 0.0007850033129983558
+    },
+    {
+      "seed": 738090785113846015,
+      "attempt": 0,
+      "parameters": [
+        -2.796343666407468e-09,
+        0.6321664413744704,
+        0.14302487163706715
+      ],
+      "anchor": [
+        -73.97052886869136,
+        40.6026803890216
+      ],
+      "trajectory_id": "wt7_0050",
+      "points": 737,
+      "distance_error_m": -1.2360037544567604e-06,
+      "detour_error": 2.2602941740501592e-10,
+      "yaw_error_deg": -2.6221663951275787e-08,
+      "speed_cv": 0.27113805839946964,
+      "step_cv": 0.3047657272040505,
+      "interval_cv": 0.5003588693988811,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.0042981281279992345,
+      "latitude_span": 0.0009796725090041036
+    },
+    {
+      "seed": 4978041928439605212,
+      "attempt": 1,
+      "parameters": [
+        -3.07287491171774e-09,
+        0.6483648792827229,
+        0.11637484074651618
+      ],
+      "anchor": [
+        -73.97172022461442,
+        40.60438634924186
+      ],
+      "trajectory_id": "wt7_0051",
+      "points": 762,
+      "distance_error_m": -1.9191654700989602e-06,
+      "detour_error": -5.330431651628942e-10,
+      "yaw_error_deg": -4.864160603190726e-07,
+      "speed_cv": 0.3130473331664267,
+      "step_cv": 0.2788210799473811,
+      "interval_cv": 0.36041437654964525,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.004995816046005075,
+      "latitude_span": 0.0009131383130025483
+    },
+    {
+      "seed": 14694900294738448065,
+      "attempt": 0,
+      "parameters": [
+        -9.896180693205239e-10,
+        0.599175967403656,
+        0.17514976758562967
+      ],
+      "anchor": [
+        -73.97295797032476,
+        40.60376565442074
+      ],
+      "trajectory_id": "wt7_0052",
+      "points": 1301,
+      "distance_error_m": -7.071000709402142e-07,
+      "detour_error": -7.503229149108392e-10,
+      "yaw_error_deg": -1.9551869900880092e-07,
+      "speed_cv": 0.28775527809315143,
+      "step_cv": 0.2861797929386257,
+      "interval_cv": 0.3880670856723654,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.006416125276999196,
+      "latitude_span": 0.0008726114680044361
+    },
+    {
+      "seed": 8166546730908838222,
+      "attempt": 0,
+      "parameters": [
+        1.1662602906100282e-09,
+        0.4530418504846455,
+        0.07409805031441277
+      ],
+      "anchor": [
+        -73.96937559724387,
+        40.60325179305757
+      ],
+      "trajectory_id": "wt7_0053",
+      "points": 217,
+      "distance_error_m": 8.319067319462192e-07,
+      "detour_error": 7.28038962449773e-10,
+      "yaw_error_deg": -1.3637103890573599e-07,
+      "speed_cv": 0.31650733808989306,
+      "step_cv": 0.2736810506091708,
+      "interval_cv": 0.5247029268551224,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.009604347083993048,
+      "latitude_span": 0.002004900381997743
+    },
+    {
+      "seed": 11718379775465064967,
+      "attempt": 0,
+      "parameters": [
+        1.3218064100407063e-09,
+        0.47849103409875193,
+        0.130253855686985
+      ],
+      "anchor": [
+        -73.96971619541225,
+        40.60253883086887
+      ],
+      "trajectory_id": "wt7_0054",
+      "points": 250,
+      "distance_error_m": 1.1916874882444972e-06,
+      "detour_error": 3.1194224980879426e-10,
+      "yaw_error_deg": -2.1509072745118374e-07,
+      "speed_cv": 0.30732375902801073,
+      "step_cv": 0.27802717259462595,
+      "interval_cv": 0.3911253549099812,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.01180796936600359,
+      "latitude_span": 0.003402652489000957
+    },
+    {
+      "seed": 4196712516179767030,
+      "attempt": 0,
+      "parameters": [
+        7.560048868421627e-10,
+        0.5911749237349466,
+        0.15304632548667707
+      ],
+      "anchor": [
+        -73.97124767069558,
+        40.60167886160422
+      ],
+      "trajectory_id": "wt7_0055",
+      "points": 277,
+      "distance_error_m": 4.7191406338242814e-08,
+      "detour_error": -7.468692331258353e-12,
+      "yaw_error_deg": 6.067641855622696e-08,
+      "speed_cv": 0.2777707764852911,
+      "step_cv": 0.2828895213650635,
+      "interval_cv": 0.39658048541176544,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.014170889162997469,
+      "latitude_span": 0.0028961011560042493
+    },
+    {
+      "seed": 7760349184096058481,
+      "attempt": 0,
+      "parameters": [
+        1.7570927849164395e-09,
+        0.3621942166966787,
+        0.15172306404456756
+      ],
+      "anchor": [
+        -73.97005346107207,
+        40.60253569055289
+      ],
+      "trajectory_id": "wt7_0056",
+      "points": 299,
+      "distance_error_m": 1.7154079614556395e-06,
+      "detour_error": 3.9794501027756723e-10,
+      "yaw_error_deg": 2.3085091171992644e-07,
+      "speed_cv": 0.29831264195040913,
+      "step_cv": 0.2991473174064099,
+      "interval_cv": 0.441374593954935,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.018667579088003095,
+      "latitude_span": 0.0020801189710013546
+    },
+    {
+      "seed": 14205941781827374785,
+      "attempt": 0,
+      "parameters": [
+        2.9379117618472125e-10,
+        0.541737209634065,
+        0.08470116320201451
+      ],
+      "anchor": [
+        -73.97218310343324,
+        40.60372851989913
+      ],
+      "trajectory_id": "wt7_0057",
+      "points": 485,
+      "distance_error_m": -1.8618811736814678e-07,
+      "detour_error": 1.9515500326861002e-11,
+      "yaw_error_deg": -1.7873622581987547e-09,
+      "speed_cv": 0.3014788981340038,
+      "step_cv": 0.3054964368244933,
+      "interval_cv": 0.5000899179017189,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.020859163527006785,
+      "latitude_span": 0.0031331844609994164
+    },
+    {
+      "seed": 8352066504084022746,
+      "attempt": 0,
+      "parameters": [
+        1.329923564481918e-09,
+        0.5416488333679583,
+        0.1366371303246514
+      ],
+      "anchor": [
+        -73.97272655621599,
+        40.60163034954871
+      ],
+      "trajectory_id": "wt7_0058",
+      "points": 488,
+      "distance_error_m": 9.783616405911744e-08,
+      "detour_error": 3.689248906368903e-11,
+      "yaw_error_deg": 3.3464710114117224e-08,
+      "speed_cv": 0.29657959914652376,
+      "step_cv": 0.27866501241084496,
+      "interval_cv": 0.44080387804684323,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.023048919844001148,
+      "latitude_span": 0.0042853142959984325
+    },
+    {
+      "seed": 3239124452330731349,
+      "attempt": 0,
+      "parameters": [
+        -1.23569856009593e-10,
+        0.42049807145684215,
+        0.08957401758393288
+      ],
+      "anchor": [
+        -73.97280423199024,
+        40.60279818473183
+      ],
+      "trajectory_id": "wt7_0059",
+      "points": 171,
+      "distance_error_m": -3.734635356522631e-07,
+      "detour_error": -1.920164027779947e-10,
+      "yaw_error_deg": -6.77218983113903e-08,
+      "speed_cv": 0.27631702719506906,
+      "step_cv": 0.2834018156898467,
+      "interval_cv": 0.43905936498703513,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.009542154049000828,
+      "latitude_span": 0.0020157189260032737
+    },
+    {
+      "seed": 5257193889078908206,
+      "attempt": 0,
+      "parameters": [
+        3.8518820427342136e-10,
+        0.6160434678677084,
+        0.0820348683839951
+      ],
+      "anchor": [
+        -73.97216393419384,
+        40.60378218022783
+      ],
+      "trajectory_id": "wt7_0060",
+      "points": 1051,
+      "distance_error_m": 1.5756268112454563e-07,
+      "detour_error": 1.2928813575285858e-10,
+      "yaw_error_deg": 3.7467225189047326e-07,
+      "speed_cv": 0.285403448592148,
+      "step_cv": 0.268138174700287,
+      "interval_cv": 0.3914044344834507,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.00524027867000143,
+      "latitude_span": 0.0009664256919990066
+    },
+    {
+      "seed": 7969740996937297984,
+      "attempt": 0,
+      "parameters": [
+        3.421931986688381e-10,
+        0.6858021544750968,
+        0.14512138601885327
+      ],
+      "anchor": [
+        -73.96913843184878,
+        40.602247867309956
+      ],
+      "trajectory_id": "wt7_0061",
+      "points": 491,
+      "distance_error_m": 1.3833812317898264e-07,
+      "detour_error": -5.82944803539931e-11,
+      "yaw_error_deg": -2.5780579626655253e-07,
+      "speed_cv": 0.341050393120413,
+      "step_cv": 0.2693331676326251,
+      "interval_cv": 0.3265630669337268,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.0027322940520093653,
+      "latitude_span": 0.0007123752330002731
+    },
+    {
+      "seed": 12065983073312071183,
+      "attempt": 0,
+      "parameters": [
+        -8.928619842680233e-10,
+        0.5543383747550592,
+        0.07501915358410026
+      ],
+      "anchor": [
+        -73.97202937717923,
+        40.60233311152305
+      ],
+      "trajectory_id": "wt7_0062",
+      "points": 913,
+      "distance_error_m": -3.1198720762404264e-07,
+      "detour_error": -4.008198217775316e-10,
+      "yaw_error_deg": 4.654914094182061e-07,
+      "speed_cv": 0.31517653640334325,
+      "step_cv": 0.29096809950544,
+      "interval_cv": 0.3635574173960243,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.0036677620229994545,
+      "latitude_span": 0.0011176238320018683
+    },
+    {
+      "seed": 3984636172521229530,
+      "attempt": 0,
+      "parameters": [
+        2.1267882208165874e-10,
+        0.20904474122506966,
+        0.08344964942513895
+      ],
+      "anchor": [
+        -73.97264039442463,
+        40.603176620536885
+      ],
+      "trajectory_id": "wt7_0063",
+      "points": 167,
+      "distance_error_m": 2.9803231882397085e-08,
+      "detour_error": 6.822098441716662e-12,
+      "yaw_error_deg": 4.533608599643912e-09,
+      "speed_cv": 0.3078074005915768,
+      "step_cv": 0.30702988025036126,
+      "interval_cv": 0.4555007762279082,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.020750459702995272,
+      "latitude_span": 0.00123355360700117
+    },
+    {
+      "seed": 1303320629952601550,
+      "attempt": 0,
+      "parameters": [
+        5.998047367715324e-10,
+        0.23561234516936458,
+        0.1066818439477562
+      ],
+      "anchor": [
+        -73.96966547421894,
+        40.60382468989126
+      ],
+      "trajectory_id": "wt7_0064",
+      "points": 202,
+      "distance_error_m": -3.563127393135801e-08,
+      "detour_error": 2.0903279107642447e-12,
+      "yaw_error_deg": 1.6645948619498085e-08,
+      "speed_cv": 0.32160192002149296,
+      "step_cv": 0.32523130663253363,
+      "interval_cv": 0.5671423705238732,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.026268494389995567,
+      "latitude_span": 0.0019192238990015653
+    },
+    {
+      "seed": 11430732772151043286,
+      "attempt": 0,
+      "parameters": [
+        5.19031641604913e-10,
+        0.2691271687287791,
+        0.1125193060544347
+      ],
+      "anchor": [
+        -73.97107113917657,
+        40.60276636871629
+      ],
+      "trajectory_id": "wt7_0065",
+      "points": 235,
+      "distance_error_m": -2.5474400899838656e-07,
+      "detour_error": -1.1929790488807157e-11,
+      "yaw_error_deg": -6.810974007009918e-08,
+      "speed_cv": 0.2936366593021458,
+      "step_cv": 0.26365879037496576,
+      "interval_cv": 0.4217300962591582,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.030408831532000136,
+      "latitude_span": 0.006576296379996904
+    },
+    {
+      "seed": 15688160609538037181,
+      "attempt": 0,
+      "parameters": [
+        -5.40907178444874e-10,
+        0.5006420699170093,
+        0.12410890975493036
+      ],
+      "anchor": [
+        -73.97049481853115,
+        40.60380059004318
+      ],
+      "trajectory_id": "wt7_0066",
+      "points": 655,
+      "distance_error_m": -2.9267971513036173e-07,
+      "detour_error": -2.8140645369489903e-10,
+      "yaw_error_deg": -6.444931006654997e-07,
+      "speed_cv": 0.262415029363432,
+      "step_cv": 0.28974363153794824,
+      "interval_cv": 0.41264322862569136,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.004110009720989183,
+      "latitude_span": 0.0008570834909988889
+    },
+    {
+      "seed": 4503372492377955708,
+      "attempt": 1,
+      "parameters": [
+        4.2405574211881717e-10,
+        0.4171986257105357,
+        0.1854162853171322
+      ],
+      "anchor": [
+        -73.97065328705816,
+        40.60282785415665
+      ],
+      "trajectory_id": "wt7_0067",
+      "points": 734,
+      "distance_error_m": 2.204593556598411e-07,
+      "detour_error": 6.863782875399238e-10,
+      "yaw_error_deg": 4.781841136392018e-07,
+      "speed_cv": 0.27378036671910494,
+      "step_cv": 0.29269837770506596,
+      "interval_cv": 0.37296939354975905,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.005590601920999916,
+      "latitude_span": 0.0009979157900019686
+    },
+    {
+      "seed": 4486270161532424783,
+      "attempt": 0,
+      "parameters": [
+        -7.696104237406907e-09,
+        0.4895277499978589,
+        0.19287703214987537
+      ],
+      "anchor": [
+        -73.97078694454962,
+        40.601912941180146
+      ],
+      "trajectory_id": "wt7_0068",
+      "points": 793,
+      "distance_error_m": -5.253411927697016e-06,
+      "detour_error": -7.283900149701594e-10,
+      "yaw_error_deg": -3.612041181710879e-07,
+      "speed_cv": 0.2858906340609954,
+      "step_cv": 0.3077553059944198,
+      "interval_cv": 0.5876103606572114,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "longitude_span": 0.006792358141993304,
+      "latitude_span": 0.0007155571700039332
+    }
+  ],
+  "plotted_columns_preserved": [
+    "trajectory_id",
+    "travel_mode",
+    "avg_speed_kmh",
+    "distance_meters",
+    "detour_score",
+    "points",
+    "weather_condition",
+    "temperature_2m_c",
+    "mean_yaw_change_deg"
+  ],
+  "original_plotted_metrics_and_point_counts_retained": false,
+  "distance_adjustment_report": "results/dataset_quality/worldtrace07_short6_20261008/repair.json",
+  "distance_adjustment_geometry": [
+    {
+      "seed": 3342134575061669538,
+      "attempt": 0,
+      "parameters": [
+        8.191025982781957e-10,
+        0.5162997871075496,
+        0.1115442505686935
+      ],
+      "anchor": [
+        -73.97053154980121,
+        40.60300220239487
+      ],
+      "trajectory_id": "wt7_0043",
+      "old_distance_m": 1160.0,
+      "new_distance_m": 1793.0,
+      "points": 207
+    },
+    {
+      "seed": 11343989921027670388,
+      "attempt": 0,
+      "parameters": [
+        1.0117605132075298e-09,
+        0.5396575254056712,
+        0.13801378198270953
+      ],
+      "anchor": [
+        -73.9723517507504,
+        40.603870403449285
+      ],
+      "trajectory_id": "wt7_0044",
+      "old_distance_m": 1245.0,
+      "new_distance_m": 2176.0,
+      "points": 201
+    },
+    {
+      "seed": 16384684742284604567,
+      "attempt": 0,
+      "parameters": [
+        9.845513468411018e-10,
+        0.30683198695758873,
+        0.23727830292271576
+      ],
+      "anchor": [
+        -73.9714327864011,
+        40.60355478055405
+      ],
+      "trajectory_id": "wt7_0045",
+      "old_distance_m": 1330.0,
+      "new_distance_m": 2426.0,
+      "points": 195
+    },
+    {
+      "seed": 6429331344669475513,
+      "attempt": 0,
+      "parameters": [
+        3.9450894667689275e-09,
+        0.4071048515375428,
+        0.183760702679883
+      ],
+      "anchor": [
+        -73.97212422247723,
+        40.60209480581902
+      ],
+      "trajectory_id": "wt7_0046",
+      "old_distance_m": 1415.0,
+      "new_distance_m": 3187.0,
+      "points": 191
+    }
+  ],
+  "distance_adjustment_note": "Four synthetic cold-rain car tracks were lengthened at user request to leave six short, four medium and two long tracks. Point counts, mean speeds, detour and mean heading change are preserved; GPS and timestamp durations are adjusted consistently. All original insight text is preserved."
+}

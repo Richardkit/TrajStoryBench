@@ -1,0 +1,22 @@
+# Partial specification for data construction.
+# Fill in only the concepts and constraints you want to control.
+# Any omitted IDs, timestamps, GPS points, metrics, or support tables may be
+# added when they are necessary to realize the supplied goal and insights.
+
+pre_schema_version: "1.0"
+
+# Optional one-line context for the constructor.
+domain: "" # e.g., urban_multimodal_mobility
+goal: "Compare mobility patterns of trajectories remaining within one urban area and those crossing between different areas of Montréal."
+insights_type_list: [overall_pattern, group_comparison, temporal_dynamics, exception_deviation]
+insights:
+  - "Within-area trips are dominated by shopping, dining, and leisure, whereas cross-area trips contain larger shares of work and education travel."
+  - "Walking and cycling concentrate in short within-area movements, while public transit and motor vehicles dominate longer cross-area trajectories."
+  - "Cross-area work and education trips cluster around morning and evening peaks, whereas within-area discretionary travel is distributed more broadly."
+  - "A small set of cross-area leisure trips occurs late at night and follows unusually direct routes compared with other discretionary travel."
+
+explanation:
+ 
+fields:
+    
+constraints:

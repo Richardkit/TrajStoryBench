@@ -1,0 +1,1219 @@
+{
+  "reconstruction": "Synthetic reconstructed GPS and timestamps are provided in trajectory_points.csv. All 48 distance profiles have been revised to reflect the requested regional distance scales, preserving trajectory IDs, start positions, mode shares, mean speeds and route-indirectness scores. These are not recovered WorldTrace observations or road-matched paths. See reconstruction_provenance.json.",
+  "trajectories": 48,
+  "points": 4105,
+  "summary": "04_geographic_group_differences.csv",
+  "source_summary_snapshot": "results/dataset_quality/worldtrace04_distances_20261008/before/case/04_geographic_group_differences.csv",
+  "previous_provenance": "results/dataset_quality/worldtrace04_distances_20261008/before/case/reconstruction_provenance.json",
+  "repair_report": "results/dataset_quality/worldtrace04_distances_20261008/repair.json",
+  "metric_definitions": {
+    "distance_meters": "sum of consecutive-point haversine distances, R=6371008.8 m",
+    "avg_speed_kmh": "total GPS distance / elapsed timestamp duration * 3.6",
+    "detour_score": "total GPS distance / endpoint haversine distance",
+    "mean_yaw_change_deg": "mean absolute wrapped change of consecutive GPS segment bearings; horizontal heading-change proxy, not measured IMU yaw"
+  },
+  "geographic_note": "Region labels use the existing approximate NYC bounding-box convention, not official administrative polygons. These synthetic paths are not road-map matched.",
+  "historical_source_trajectory_id_note": "Retained identifiers in sample 04 document old summary lineage only; reconstructed coordinates are not the original trajectories.",
+  "geometry_parameters": [
+    {
+      "seed": 5832708811058563153,
+      "attempt": 0,
+      "parameters": [
+        -2.5215408538086702e-09,
+        0.09877040826010951
+      ],
+      "anchor": [
+        -73.95555852778821,
+        40.653923687289485
+      ],
+      "trajectory_id": "7862685",
+      "points": 80,
+      "old_distance_m": 109.332906015522,
+      "new_distance_m": 192.73793514346178,
+      "start_region": [
+        "Central Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "Central Brooklyn",
+        "Brooklyn"
+      ]
+    },
+    {
+      "seed": 7462650920286950381,
+      "attempt": 0,
+      "parameters": [
+        -1.0819118979509057e-09,
+        0.11873869820760549
+      ],
+      "anchor": [
+        -73.95436222580169,
+        40.65196681408738
+      ],
+      "trajectory_id": "8249446",
+      "points": 55,
+      "old_distance_m": 112.132107069552,
+      "new_distance_m": 109.43000249440885,
+      "start_region": [
+        "Central Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "Central Brooklyn",
+        "Brooklyn"
+      ]
+    },
+    {
+      "seed": 8797087915404813928,
+      "attempt": 0,
+      "parameters": [
+        9.085245623111269e-10,
+        0.11317845258366498
+      ],
+      "anchor": [
+        -73.97245333133253,
+        40.60297869421923
+      ],
+      "trajectory_id": "5659171",
+      "points": 56,
+      "old_distance_m": 117.078014501944,
+      "new_distance_m": 198.1522112968162,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ]
+    },
+    {
+      "seed": 638288281645184231,
+      "attempt": 0,
+      "parameters": [
+        -3.850282451921366e-12,
+        0.16176406144959626
+      ],
+      "anchor": [
+        -74.0195,
+        40.67935
+      ],
+      "trajectory_id": "6480042",
+      "points": 46,
+      "old_distance_m": 149.660098299976,
+      "new_distance_m": 242.3854765544445,
+      "start_region": [
+        "Brooklyn waterfront edge",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "Downtown Brooklyn",
+        "Brooklyn"
+      ]
+    },
+    {
+      "seed": 13137145413130898,
+      "attempt": 0,
+      "parameters": [
+        2.6465204287913658e-11,
+        0.5072537710932649
+      ],
+      "anchor": [
+        -74.00554483982529,
+        40.718527292592455
+      ],
+      "trajectory_id": "7592680",
+      "points": 45,
+      "old_distance_m": 146.059817361645,
+      "new_distance_m": 1504.1604809645564,
+      "start_region": [
+        "Lower Manhattan",
+        "Manhattan"
+      ],
+      "end_region": [
+        "Lower Manhattan",
+        "Manhattan"
+      ]
+    },
+    {
+      "seed": 5197743046952649934,
+      "attempt": 0,
+      "parameters": [
+        1.123110797523139e-09,
+        0.5597376415627511
+      ],
+      "anchor": [
+        -73.9513126076175,
+        40.81695717890847
+      ],
+      "trajectory_id": "7615003",
+      "points": 48,
+      "old_distance_m": 151.060792534002,
+      "new_distance_m": 1945.635709339738,
+      "start_region": [
+        "Upper Manhattan",
+        "Manhattan"
+      ],
+      "end_region": [
+        "Upper Manhattan",
+        "Manhattan"
+      ]
+    },
+    {
+      "seed": 3731849846447259818,
+      "attempt": 0,
+      "parameters": [
+        -9.431657842361828e-10,
+        0.5097033378856499
+      ],
+      "anchor": [
+        -74.00338227414784,
+        40.71686630568542
+      ],
+      "trajectory_id": "10741797",
+      "points": 120,
+      "old_distance_m": 157.814728912694,
+      "new_distance_m": 448.5842141982676,
+      "start_region": [
+        "Lower Manhattan",
+        "Manhattan"
+      ],
+      "end_region": [
+        "Lower Manhattan",
+        "Manhattan"
+      ]
+    },
+    {
+      "seed": 1801050665551371635,
+      "attempt": 0,
+      "parameters": [
+        6.011680445339498e-10,
+        0.5926477378673609
+      ],
+      "anchor": [
+        -73.98782581342405,
+        40.75275636193153
+      ],
+      "trajectory_id": "11116464",
+      "points": 54,
+      "old_distance_m": 175.482446793288,
+      "new_distance_m": 1401.4927285605743,
+      "start_region": [
+        "Midtown Manhattan",
+        "Manhattan"
+      ],
+      "end_region": [
+        "Midtown Manhattan",
+        "Manhattan"
+      ]
+    },
+    {
+      "seed": 2663015870686840756,
+      "attempt": 0,
+      "parameters": [
+        1.3894959092609338e-09,
+        1.2008540902683984
+      ],
+      "anchor": [
+        -74.27062084163676,
+        40.75605364928545
+      ],
+      "trajectory_id": "10939693",
+      "points": 42,
+      "old_distance_m": 141.655580349948,
+      "new_distance_m": 3029.471056488194,
+      "start_region": [
+        "Outer North New Jersey",
+        "NJ side"
+      ],
+      "end_region": [
+        "Outer North New Jersey",
+        "NJ side"
+      ]
+    },
+    {
+      "seed": 2202414896178591959,
+      "attempt": 0,
+      "parameters": [
+        3.018465244562163e-09,
+        1.3384489285815675
+      ],
+      "anchor": [
+        -74.17434798971267,
+        40.67113073144805
+      ],
+      "trajectory_id": "5811256",
+      "points": 66,
+      "old_distance_m": 206.842650463938,
+      "new_distance_m": 5355.070252588453,
+      "start_region": [
+        "Newark / Elizabeth",
+        "NJ side"
+      ],
+      "end_region": [
+        "Newark / Elizabeth",
+        "NJ side"
+      ]
+    },
+    {
+      "seed": 14241158280125495291,
+      "attempt": 0,
+      "parameters": [
+        4.4854410326763887e-10,
+        1.0450429434118869
+      ],
+      "anchor": [
+        -74.05443792030874,
+        40.73986032311839
+      ],
+      "trajectory_id": "4288100",
+      "points": 113,
+      "old_distance_m": 214.355086836153,
+      "new_distance_m": 951.1281648333746,
+      "start_region": [
+        "Jersey City / Hoboken",
+        "NJ side"
+      ],
+      "end_region": [
+        "Jersey City / Hoboken",
+        "NJ side"
+      ]
+    },
+    {
+      "seed": 15462743978162575975,
+      "attempt": 0,
+      "parameters": [
+        1.7912311295608102e-09,
+        1.1915180872138946
+      ],
+      "anchor": [
+        -74.05766926390598,
+        40.7396499485631
+      ],
+      "trajectory_id": "5607555",
+      "points": 66,
+      "old_distance_m": 215.353710358225,
+      "new_distance_m": 2119.702981357187,
+      "start_region": [
+        "Jersey City / Hoboken",
+        "NJ side"
+      ],
+      "end_region": [
+        "Jersey City / Hoboken",
+        "NJ side"
+      ]
+    },
+    {
+      "seed": 14097504794758176533,
+      "attempt": 0,
+      "parameters": [
+        1.5706103677466676e-09,
+        0.4357907659818737
+      ],
+      "anchor": [
+        -73.83088571153462,
+        40.77926755827713
+      ],
+      "trajectory_id": "5831089",
+      "points": 54,
+      "old_distance_m": 176.839641142048,
+      "new_distance_m": 2620.5938517022582,
+      "start_region": [
+        "North Queens",
+        "Queens"
+      ],
+      "end_region": [
+        "North Queens",
+        "Queens"
+      ]
+    },
+    {
+      "seed": 9333501744861534748,
+      "attempt": 0,
+      "parameters": [
+        1.213330817370518e-08,
+        0.5572319097566742
+      ],
+      "anchor": [
+        -73.72209056802026,
+        40.756342924666264
+      ],
+      "trajectory_id": "6622932",
+      "points": 68,
+      "old_distance_m": 214.824699366883,
+      "new_distance_m": 5910.845652992417,
+      "start_region": [
+        "Eastern Queens edge",
+        "Queens"
+      ],
+      "end_region": [
+        "Eastern Queens edge",
+        "Queens"
+      ]
+    },
+    {
+      "seed": 17012637916996495242,
+      "attempt": 0,
+      "parameters": [
+        1.1688507258936833e-10,
+        0.5241500017417806
+      ],
+      "anchor": [
+        -73.93083956680456,
+        40.76091804297976
+      ],
+      "trajectory_id": "10837849",
+      "points": 115,
+      "old_distance_m": 216.672932364037,
+      "new_distance_m": 607.4252148147398,
+      "start_region": [
+        "Astoria / Long Island City",
+        "Queens"
+      ],
+      "end_region": [
+        "Astoria / Long Island City",
+        "Queens"
+      ]
+    },
+    {
+      "seed": 7528993429193869899,
+      "attempt": 0,
+      "parameters": [
+        1.3400591156428084e-09,
+        0.6296049128636309
+      ],
+      "anchor": [
+        -73.92877800204823,
+        40.762077811982095
+      ],
+      "trajectory_id": "11116189",
+      "points": 68,
+      "old_distance_m": 224.723891542789,
+      "new_distance_m": 1872.4027428427894,
+      "start_region": [
+        "Astoria / Long Island City",
+        "Queens"
+      ],
+      "end_region": [
+        "Upper Manhattan",
+        "Manhattan"
+      ]
+    },
+    {
+      "seed": 3983993590846524780,
+      "attempt": 0,
+      "parameters": [
+        -1.9906855644167186e-11,
+        0.40774019591945504
+      ],
+      "anchor": [
+        -73.95291182455883,
+        40.652464034092866
+      ],
+      "trajectory_id": "wt04_aug_017",
+      "points": 213,
+      "old_distance_m": 198.315417837661,
+      "new_distance_m": 144.91420829510417,
+      "start_region": [
+        "Central Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "Central Brooklyn",
+        "Brooklyn"
+      ]
+    },
+    {
+      "seed": 13213282670533104405,
+      "attempt": 0,
+      "parameters": [
+        -2.4185685836935983e-11,
+        0.21600116674482808
+      ],
+      "anchor": [
+        -73.96948788266124,
+        40.60328654015718
+      ],
+      "trajectory_id": "wt04_aug_018",
+      "points": 60,
+      "old_distance_m": 155.983736952065,
+      "new_distance_m": 249.9679197659753,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ]
+    },
+    {
+      "seed": 9088053139118144210,
+      "attempt": 0,
+      "parameters": [
+        -2.3605081385308715e-09,
+        0.21971544132278042
+      ],
+      "anchor": [
+        -73.97114871539948,
+        40.60216621217062
+      ],
+      "trajectory_id": "wt04_aug_019",
+      "points": 109,
+      "old_distance_m": 142.959241751336,
+      "new_distance_m": 126.07515165281917,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ]
+    },
+    {
+      "seed": 5186531855214209588,
+      "attempt": 0,
+      "parameters": [
+        -2.323593505672205e-12,
+        0.20175041006742292
+      ],
+      "anchor": [
+        -73.9531663524289,
+        40.653490589796505
+      ],
+      "trajectory_id": "wt04_aug_020",
+      "points": 82,
+      "old_distance_m": 192.055134446013,
+      "new_distance_m": 341.3630916586758,
+      "start_region": [
+        "Central Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "Central Brooklyn",
+        "Brooklyn"
+      ]
+    },
+    {
+      "seed": 12327453074775893630,
+      "attempt": 0,
+      "parameters": [
+        -8.204403654150662e-13,
+        0.23776568911817894
+      ],
+      "anchor": [
+        -73.97241771504164,
+        40.601945817882594
+      ],
+      "trajectory_id": "wt04_aug_021",
+      "points": 28,
+      "old_distance_m": 79.701781842445,
+      "new_distance_m": 277.07523659653896,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ]
+    },
+    {
+      "seed": 1494498154884659535,
+      "attempt": 0,
+      "parameters": [
+        1.0138402656569447e-09,
+        0.16647788339405412
+      ],
+      "anchor": [
+        -73.97005644162833,
+        40.60397080378354
+      ],
+      "trajectory_id": "wt04_aug_022",
+      "points": 39,
+      "old_distance_m": 83.832526357964,
+      "new_distance_m": 353.01132023920735,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ]
+    },
+    {
+      "seed": 9960063421054997618,
+      "attempt": 0,
+      "parameters": [
+        -5.839425116920239e-11,
+        0.3248376201766097
+      ],
+      "anchor": [
+        -73.95288171654524,
+        40.654497618192586
+      ],
+      "trajectory_id": "wt04_aug_023",
+      "points": 206,
+      "old_distance_m": 200.92510303591,
+      "new_distance_m": 165.23507961712124,
+      "start_region": [
+        "Central Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "Central Brooklyn",
+        "Brooklyn"
+      ]
+    },
+    {
+      "seed": 17133835326525698343,
+      "attempt": 0,
+      "parameters": [
+        8.711660395464847e-10,
+        0.34425987858252793
+      ],
+      "anchor": [
+        -73.97155991410304,
+        40.60250374594949
+      ],
+      "trajectory_id": "wt04_aug_024",
+      "points": 71,
+      "old_distance_m": 177.882321440701,
+      "new_distance_m": 120.84054689864072,
+      "start_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ],
+      "end_region": [
+        "South Brooklyn",
+        "Brooklyn"
+      ]
+    },
+    {
+      "seed": 1426694057467492317,
+      "attempt": 0,
+      "parameters": [
+        1.9292857920225824e-10,
+        0.9764579095030735
+      ],
+      "anchor": [
+        -74.00291682816791,
+        40.718014511618605
+      ],
+      "trajectory_id": "wt04_aug_025",
+      "points": 95,
+      "old_distance_m": 196.304221838157,
+      "new_distance_m": 651.4460257451079,
+      "start_region": [
+        "Lower Manhattan",
+        "Manhattan"
+      ],
+      "end_region": [
+        "Lower Manhattan",
+        "Manhattan"
+      ]
+    },
+    {
+      "seed": 3693101007321649921,
+      "attempt": 0,
+      "parameters": [
+        1.046157148402057e-09,
+        0.34083257040027215
+      ],
+      "anchor": [
+        -73.95291977063471,
+        40.81590693973631
+      ],
+      "trajectory_id": "wt04_aug_026",
+      "points": 39,
+      "old_distance_m": 183.519106904053,
+      "new_distance_m": 2180.587528613018,
+      "start_region": [
+        "Upper Manhattan",
+        "Manhattan"
+      ],
+      "end_region": [
+        "Upper Manhattan",
+        "Manhattan"
+      ]
+    },
+    {
+      "seed": 8886537142028327100,
+      "attempt": 0,
+      "parameters": [
+        3.9351920259365646e-10,
+        0.3911479030694616
+      ],
+      "anchor": [
+        -73.98621481931922,
+        40.75272493067947
+      ],
+      "trajectory_id": "wt04_aug_027",
+      "points": 69,
+      "old_distance_m": 199.712896299615,
+      "new_distance_m": 1510.9855684665988,
+      "start_region": [
+        "Midtown Manhattan",
+        "Manhattan"
+      ],
+      "end_region": [
+        "Midtown Manhattan",
+        "Manhattan"
+      ]
+    },
+    {
+      "seed": 14304965971398141365,
+      "attempt": 0,
+      "parameters": [
+        1.8726814120748034e-10,
+        0.8336328294299191
+      ],
+      "anchor": [
+        -73.98682202953479,
+        40.750679821789745
+      ],
+      "trajectory_id": "wt04_aug_028",
+      "points": 86,
+      "old_distance_m": 373.121965075922,
+      "new_distance_m": 1438.7181448064046,
+      "start_region": [
+        "Midtown Manhattan",
+        "Manhattan"
+      ],
+      "end_region": [
+        "Midtown Manhattan",
+        "Manhattan"
+      ]
+    },
+    {
+      "seed": 4024240428206665890,
+      "attempt": 0,
+      "parameters": [
+        2.3222076946108386e-09,
+        0.948854904261977
+      ],
+      "anchor": [
+        -74.00299421882845,
+        40.718423097118134
+      ],
+      "trajectory_id": "wt04_aug_029",
+      "points": 28,
+      "old_distance_m": 121.326934816951,
+      "new_distance_m": 2057.9391351713557,
+      "start_region": [
+        "Lower Manhattan",
+        "Manhattan"
+      ],
+      "end_region": [
+        "Lower Manhattan",
+        "Manhattan"
+      ]
+    },
+    {
+      "seed": 10216590181413299842,
+      "attempt": 0,
+      "parameters": [
+        1.3409365965167688e-09,
+        0.336575584184449
+      ],
+      "anchor": [
+        -73.9505201155725,
+        40.81742895709548
+      ],
+      "trajectory_id": "wt04_aug_030",
+      "points": 82,
+      "old_distance_m": 291.308139071867,
+      "new_distance_m": 2690.9658718709957,
+      "start_region": [
+        "Upper Manhattan",
+        "Manhattan"
+      ],
+      "end_region": [
+        "Upper Manhattan",
+        "Manhattan"
+      ]
+    },
+    {
+      "seed": 1003227163937770029,
+      "attempt": 0,
+      "parameters": [
+        1.3266756426692287e-09,
+        0.7004784798492953
+      ],
+      "anchor": [
+        -73.98680935240978,
+        40.75324551213213
+      ],
+      "trajectory_id": "wt04_aug_031",
+      "points": 28,
+      "old_distance_m": 155.450022421535,
+      "new_distance_m": 2128.445949178474,
+      "start_region": [
+        "Midtown Manhattan",
+        "Manhattan"
+      ],
+      "end_region": [
+        "Midtown Manhattan",
+        "Manhattan"
+      ]
+    },
+    {
+      "seed": 5525703008358607645,
+      "attempt": 0,
+      "parameters": [
+        8.813532063419219e-10,
+        0.710661995771645
+      ],
+      "anchor": [
+        -73.98543278206766,
+        40.753497356703086
+      ],
+      "trajectory_id": "wt04_aug_032",
+      "points": 33,
+      "old_distance_m": 150.686887665215,
+      "new_distance_m": 1841.520418152636,
+      "start_region": [
+        "Midtown Manhattan",
+        "Manhattan"
+      ],
+      "end_region": [
+        "Midtown Manhattan",
+        "Manhattan"
+      ]
+    },
+    {
+      "seed": 10640994586638160250,
+      "attempt": 0,
+      "parameters": [
+        -1.8470164850842753e-10,
+        1.0689560678193826
+      ],
+      "anchor": [
+        -74.26920430628927,
+        40.75564547548974
+      ],
+      "trajectory_id": "wt04_aug_033",
+      "points": 157,
+      "old_distance_m": 379.565230101716,
+      "new_distance_m": 690.1508130408104,
+      "start_region": [
+        "Outer North New Jersey",
+        "NJ side"
+      ],
+      "end_region": [
+        "Outer North New Jersey",
+        "NJ side"
+      ]
+    },
+    {
+      "seed": 11511485497928591875,
+      "attempt": 0,
+      "parameters": [
+        4.539666911225372e-09,
+        1.0235101932703614
+      ],
+      "anchor": [
+        -74.05549198006992,
+        40.73918166929424
+      ],
+      "trajectory_id": "wt04_aug_034",
+      "points": 79,
+      "old_distance_m": 327.186621923993,
+      "new_distance_m": 4432.756949784499,
+      "start_region": [
+        "Jersey City / Hoboken",
+        "NJ side"
+      ],
+      "end_region": [
+        "Jersey City / Hoboken",
+        "NJ side"
+      ]
+    },
+    {
+      "seed": 17309240558955651065,
+      "attempt": 0,
+      "parameters": [
+        6.944742975565931e-10,
+        1.0639927847808406
+      ],
+      "anchor": [
+        -74.05477517965296,
+        40.73822449595575
+      ],
+      "trajectory_id": "wt04_aug_035",
+      "points": 87,
+      "old_distance_m": 422.108487879616,
+      "new_distance_m": 2332.7232125149426,
+      "start_region": [
+        "Jersey City / Hoboken",
+        "NJ side"
+      ],
+      "end_region": [
+        "Jersey City / Hoboken",
+        "NJ side"
+      ]
+    },
+    {
+      "seed": 17823685727369428113,
+      "attempt": 0,
+      "parameters": [
+        2.0220531019688128e-10,
+        1.141162338884975
+      ],
+      "anchor": [
+        -74.2723921769122,
+        40.756468192660535
+      ],
+      "trajectory_id": "wt04_aug_036",
+      "points": 322,
+      "old_distance_m": 484.644337281186,
+      "new_distance_m": 531.3687032471954,
+      "start_region": [
+        "Outer North New Jersey",
+        "NJ side"
+      ],
+      "end_region": [
+        "Outer North New Jersey",
+        "NJ side"
+      ]
+    },
+    {
+      "seed": 14118111303994047855,
+      "attempt": 0,
+      "parameters": [
+        2.0398034970897956e-09,
+        0.9010149777477314
+      ],
+      "anchor": [
+        -74.27292812709325,
+        40.75565226173576
+      ],
+      "trajectory_id": "wt04_aug_037",
+      "points": 48,
+      "old_distance_m": 320.35267990212,
+      "new_distance_m": 2331.767233407605,
+      "start_region": [
+        "Outer North New Jersey",
+        "NJ side"
+      ],
+      "end_region": [
+        "Outer North New Jersey",
+        "NJ side"
+      ]
+    },
+    {
+      "seed": 15259366765628580363,
+      "attempt": 0,
+      "parameters": [
+        2.050570609910058e-09,
+        1.1360890949493507
+      ],
+      "anchor": [
+        -74.17583973705617,
+        40.67344882393357
+      ],
+      "trajectory_id": "wt04_aug_038",
+      "points": 52,
+      "old_distance_m": 225.687380321706,
+      "new_distance_m": 2451.8270731639022,
+      "start_region": [
+        "Newark / Elizabeth",
+        "NJ side"
+      ],
+      "end_region": [
+        "Newark / Elizabeth",
+        "NJ side"
+      ]
+    },
+    {
+      "seed": 13618687673925745806,
+      "attempt": 0,
+      "parameters": [
+        1.015558766514358e-09,
+        0.8824344724744291
+      ],
+      "anchor": [
+        -74.17546043982901,
+        40.67342403289513
+      ],
+      "trajectory_id": "wt04_aug_039",
+      "points": 66,
+      "old_distance_m": 296.475897613034,
+      "new_distance_m": 1898.9838531178204,
+      "start_region": [
+        "Newark / Elizabeth",
+        "NJ side"
+      ],
+      "end_region": [
+        "Newark / Elizabeth",
+        "NJ side"
+      ]
+    },
+    {
+      "seed": 17860376091077974102,
+      "attempt": 0,
+      "parameters": [
+        8.497855831166847e-09,
+        1.2727724262948519
+      ],
+      "anchor": [
+        -74.17680919231373,
+        40.67262355942626
+      ],
+      "trajectory_id": "wt04_aug_040",
+      "points": 66,
+      "old_distance_m": 194.847051896236,
+      "new_distance_m": 6598.522587904124,
+      "start_region": [
+        "Newark / Elizabeth",
+        "NJ side"
+      ],
+      "end_region": [
+        "Newark / Elizabeth",
+        "NJ side"
+      ]
+    },
+    {
+      "seed": 2909741335550524918,
+      "attempt": 0,
+      "parameters": [
+        8.118518671804422e-09,
+        0.49602765114794245
+      ],
+      "anchor": [
+        -73.8311134465025,
+        40.77871729364016
+      ],
+      "trajectory_id": "wt04_aug_041",
+      "points": 152,
+      "old_distance_m": 434.734198856706,
+      "new_distance_m": 4443.610328198828,
+      "start_region": [
+        "North Queens",
+        "Queens"
+      ],
+      "end_region": [
+        "North Queens",
+        "Queens"
+      ]
+    },
+    {
+      "seed": 903531194943380527,
+      "attempt": 0,
+      "parameters": [
+        3.9862625539073046e-10,
+        0.36195088224445027
+      ],
+      "anchor": [
+        -73.93059751400862,
+        40.76210791233446
+      ],
+      "trajectory_id": "wt04_aug_042",
+      "points": 44,
+      "old_distance_m": 407.707801510621,
+      "new_distance_m": 2228.611126842836,
+      "start_region": [
+        "Astoria / Long Island City",
+        "Queens"
+      ],
+      "end_region": [
+        "Astoria / Long Island City",
+        "Queens"
+      ]
+    },
+    {
+      "seed": 13982958513826173188,
+      "attempt": 0,
+      "parameters": [
+        8.205593722612482e-10,
+        0.8298234905413822
+      ],
+      "anchor": [
+        -73.92736940279735,
+        40.7606448919496
+      ],
+      "trajectory_id": "wt04_aug_043",
+      "points": 95,
+      "old_distance_m": 287.094798820538,
+      "new_distance_m": 1434.0222641545797,
+      "start_region": [
+        "Astoria / Long Island City",
+        "Queens"
+      ],
+      "end_region": [
+        "Astoria / Long Island City",
+        "Queens"
+      ]
+    },
+    {
+      "seed": 11020997951532670471,
+      "attempt": 0,
+      "parameters": [
+        2.4265898401371723e-09,
+        0.6784464211942189
+      ],
+      "anchor": [
+        -73.83118308914806,
+        40.77968117023071
+      ],
+      "trajectory_id": "wt04_aug_044",
+      "points": 56,
+      "old_distance_m": 421.984293650159,
+      "new_distance_m": 2358.3158622738997,
+      "start_region": [
+        "North Queens",
+        "Queens"
+      ],
+      "end_region": [
+        "North Queens",
+        "Queens"
+      ]
+    },
+    {
+      "seed": 12757946198436803828,
+      "attempt": 0,
+      "parameters": [
+        9.472910659067094e-09,
+        0.6246772737366273
+      ],
+      "anchor": [
+        -73.7237406366939,
+        40.756251897703216
+      ],
+      "trajectory_id": "wt04_aug_045",
+      "points": 70,
+      "old_distance_m": 298.560812703802,
+      "new_distance_m": 5036.1708518423975,
+      "start_region": [
+        "Eastern Queens edge",
+        "Queens"
+      ],
+      "end_region": [
+        "Eastern Queens edge",
+        "Queens"
+      ]
+    },
+    {
+      "seed": 130175880640367459,
+      "attempt": 0,
+      "parameters": [
+        1.4745085540477202e-10,
+        0.8654087127015762
+      ],
+      "anchor": [
+        -73.72175533780624,
+        40.754902682973146
+      ],
+      "trajectory_id": "wt04_aug_046",
+      "points": 179,
+      "old_distance_m": 352.050729863697,
+      "new_distance_m": 687.2148194297708,
+      "start_region": [
+        "Eastern Queens edge",
+        "Queens"
+      ],
+      "end_region": [
+        "Eastern Queens edge",
+        "Queens"
+      ]
+    },
+    {
+      "seed": 4609444273032204493,
+      "attempt": 0,
+      "parameters": [
+        5.015625475315172e-09,
+        0.8156262783650465
+      ],
+      "anchor": [
+        -73.72481514537195,
+        40.754593459853
+      ],
+      "trajectory_id": "wt04_aug_047",
+      "points": 40,
+      "old_distance_m": 311.749546532145,
+      "new_distance_m": 3897.285906458624,
+      "start_region": [
+        "Eastern Queens edge",
+        "Queens"
+      ],
+      "end_region": [
+        "Eastern Queens edge",
+        "Queens"
+      ]
+    },
+    {
+      "seed": 8864775936893501816,
+      "attempt": 0,
+      "parameters": [
+        1.6616449878907821e-10,
+        0.7222295131400281
+      ],
+      "anchor": [
+        -73.82960165154742,
+        40.780460224123665
+      ],
+      "trajectory_id": "wt04_aug_048",
+      "points": 228,
+      "old_distance_m": 436.45599513332,
+      "new_distance_m": 641.456265740034,
+      "start_region": [
+        "North Queens",
+        "Queens"
+      ],
+      "end_region": [
+        "North Queens",
+        "Queens"
+      ]
+    }
+  ],
+  "original_16_tracks_preserved": false,
+  "all_48_ids_and_start_positions_preserved": true,
+  "preserved_summary_columns": [
+    "user_id",
+    "trajectory_id",
+    "owner",
+    "travel_mode",
+    "avg_speed_kmh",
+    "detour_score",
+    "vehicle_class",
+    "start_time",
+    "hour",
+    "temperature_2m_c",
+    "points",
+    "start_region",
+    "start_region_coarse",
+    "source_trajectory_id"
+  ],
+  "distance_generation": {
+    "seed": 202610080404,
+    "lognormal_medians_by_region_walking_car": {
+      "Brooklyn": [
+        155,
+        310
+      ],
+      "Manhattan": [
+        520,
+        1800
+      ],
+      "NJ side": [
+        770,
+        3350
+      ],
+      "Queens": [
+        740,
+        3250
+      ]
+    },
+    "walking_log_sigma": 0.32,
+    "car_log_sigma": 0.35,
+    "note": "Draw varied distances independently within region/mode groups; no uniform scaling of the old regional distances."
+  },
+  "mean_distance_m": {
+    "Brooklyn": 210.1,
+    "Manhattan": 1650.04,
+    "NJ side": 2726.96,
+    "Queens": 2644.83
+  }
+}

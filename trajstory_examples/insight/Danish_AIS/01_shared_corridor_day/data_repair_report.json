@@ -1,0 +1,110 @@
+{
+  "case_id": "danish_ais_01_shared_corridor_day",
+  "data_revision": "2026-10-06-waterborne-mixed-quiet-traffic",
+  "before": {
+    "land_intersecting_points": 149,
+    "land_intersecting_segments": 148,
+    "minimum_coast_clearance_m": 0.0,
+    "affected_tracks": [
+      "day_1_corridor_01",
+      "day_1_corridor_02",
+      "day_1_corridor_03",
+      "day_1_corridor_04",
+      "day_1_corridor_05",
+      "day_1_corridor_06",
+      "day_1_corridor_07",
+      "day_1_corridor_08",
+      "day_1_corridor_09",
+      "day_1_corridor_10",
+      "day_1_corridor_11",
+      "day_1_corridor_12",
+      "day_1_edge_02",
+      "day_1_edge_04"
+    ],
+    "reference": "dataset/construct_danish_ais/assets/ne_10m_land.geojson",
+    "scope": "Point and full line-segment intersections against bundled Natural Earth land; not a bathymetric or navigational safety assessment."
+  },
+  "after": {
+    "land_intersecting_points": 0,
+    "land_intersecting_segments": 0,
+    "minimum_coast_clearance_m": 2791.9,
+    "affected_tracks": [],
+    "reference": "dataset/construct_danish_ais/assets/ne_10m_land.geojson",
+    "scope": "Point and full line-segment intersections against bundled Natural Earth land; not a bathymetric or navigational safety assessment."
+  },
+  "points": 1136,
+  "trajectories": 48,
+  "previous_points": 376,
+  "previous_trajectories": 16,
+  "normal_moving_vessels": 36,
+  "slow_moving_vessels": 8,
+  "holding_vessels": 4,
+  "spatial_group_counts": {
+    "Corridor vicinity": 28,
+    "Outside corridor": 20
+  },
+  "native_schema_preserved": true,
+  "reported_sog_unique_values": 1045,
+  "max_geometric_vs_mean_reported_sog_error_kn": 0.0143,
+  "active_vessels_by_four_hour_period": {
+    "0": 8,
+    "4": 24,
+    "8": 8,
+    "12": 8
+  },
+  "period_comparison": {
+    "0": {
+      "active_vessels": 8,
+      "corridor_vessels": 1,
+      "outside_corridor_vessels": 7,
+      "median_vessel_lateral_offset_km": 2.851,
+      "share_positions_outside_08km_band": 0.7979,
+      "moving_vessels": 7,
+      "median_full_moving_route_length_km": 31.908,
+      "min_full_moving_route_length_km": 9.473,
+      "max_full_moving_route_length_km": 35.695
+    },
+    "4": {
+      "active_vessels": 24,
+      "corridor_vessels": 24,
+      "outside_corridor_vessels": 0,
+      "median_vessel_lateral_offset_km": 0.117,
+      "share_positions_outside_08km_band": 0.0,
+      "moving_vessels": 23,
+      "median_full_moving_route_length_km": 34.227,
+      "min_full_moving_route_length_km": 33.143,
+      "max_full_moving_route_length_km": 35.644
+    },
+    "8": {
+      "active_vessels": 8,
+      "corridor_vessels": 2,
+      "outside_corridor_vessels": 6,
+      "median_vessel_lateral_offset_km": 3.139,
+      "share_positions_outside_08km_band": 0.6915,
+      "moving_vessels": 7,
+      "median_full_moving_route_length_km": 28.677,
+      "min_full_moving_route_length_km": 11.009,
+      "max_full_moving_route_length_km": 35.093
+    },
+    "12": {
+      "active_vessels": 8,
+      "corridor_vessels": 1,
+      "outside_corridor_vessels": 7,
+      "median_vessel_lateral_offset_km": 2.807,
+      "share_positions_outside_08km_band": 0.8085,
+      "moving_vessels": 7,
+      "median_full_moving_route_length_km": 31.327,
+      "min_full_moving_route_length_km": 11.359,
+      "max_full_moving_route_length_km": 34.651
+    }
+  },
+  "reference_band_full_north_south_width_km": 1.6,
+  "offset_definition": "Absolute north-south latitude residual from the GPS-derived dominant ridge, multiplied by 111.32 km per degree. Each vessel contributes one median offset. This is not shortest geodesic distance.",
+  "length_definition": "Full GPS polyline length by haversine segment distances. Moving-route summaries exclude paths <=1 km using GPS alone; length never defines peripheral movement.",
+  "all_tracks_complete_within_one_window": true,
+  "authored_text_preserved": true,
+  "raw_archives_modified": false,
+  "historical_model_scores_rejudged": false,
+  "data_provenance": "Explicit reconstruction of an existing constructed case, not a recovered real AIS day. SOG values are varied supplied AIS-style quantities; movement timing is constrained by SOG and geometry, not used to derive SOG.",
+  "sampling_note": "Points, time windows and counting units are shared across plots and executable analysis; absent later-day observations are not evidence of zero real-world traffic."
+}

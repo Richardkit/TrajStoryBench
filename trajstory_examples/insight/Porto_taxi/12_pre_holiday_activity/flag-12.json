@@ -1,0 +1,121 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/12_pre_holiday_activity/trips.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Porto_taxi/12_pre_holiday_activity/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/12_pre_holiday_activity/trajectory_points.csv",
+      "role": "Timestamped GPS observations along Porto roads"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/12_pre_holiday_activity/calendar_reference.csv",
+      "role": "Classification and comparison design for pre-holiday/special and ordinary dates"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze how taxi activity differs around holidays and special days.",
+    "role": "Taxi demand analyst",
+    "category": "Holiday-conditioned demand and trip composition",
+    "header": "Porto Taxi Activity before Holidays and Special Days",
+    "dataset_description": "A constructed comparison of 320 road-aligned Porto taxi trips across four pre-holiday or special days and four seasonally matched ordinary weekdays in 2014. Trip time, distance class, request type, and GPS traces support all four comparisons."
+  },
+  "insight_list": [
+    {
+      "data_type": "preholiday_late_evening_concentration",
+      "insight": "Days immediately preceding holidays or special days show a stronger concentration of taxi trips in the late evening than ordinary days.",
+      "plot": {
+        "plot_type": "grouped_period_share_chart",
+        "file": "visualizations/preholiday_vs_ordinary_time_distribution.png",
+        "title": "How does the within-day trip distribution differ between pre-holiday/special days and comparable ordinary days",
+        "description": "The visualization summarizes the fields needed to evaluate this insight directly from the supplied tables."
+      },
+      "question": "How does the within-day trip distribution differ between pre-holiday/special days and comparable ordinary days?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "departure_time",
+        "day_class",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "preholiday_evening_destination_direction",
+      "insight": "The trips on pre-holiday day evenings are usually towards north of the city, while trips on ordinary evenings are more evenly distributed.",
+      "plot": {
+        "plot_type": "normalized_destination_direction_bar_chart",
+        "file": "visualizations/evening_destination_direction_by_day_class.png",
+        "title": "How do evening destination directions differ between pre-holiday/special days and ordinary days",
+        "description": "The visualization summarizes the fields needed to evaluate this insight directly from the supplied tables."
+      },
+      "question": "How do evening destination directions differ between pre-holiday/special days and ordinary days?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "departure_time",
+        "day_class",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "preholiday_trip_distance_mix",
+      "insight": "Pre-holiday trips contain a higher proportion of medium- and long-distance journeys than trips during comparable ordinary evenings.",
+      "plot": {
+        "plot_type": "normalized_stacked_bar_chart",
+        "file": "visualizations/distance_mix_by_day_class.png",
+        "title": "Does the trip-distance composition differ between pre-holiday/special days and ordinary comparison days",
+        "description": "The visualization summarizes the fields needed to evaluate this insight directly from the supplied tables."
+      },
+      "question": "Does the trip-distance composition differ between pre-holiday/special days and ordinary comparison days?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "departure_time",
+        "day_class",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "request_type_change_over_day",
+      "insight": "Street-hail trips take a larger share in the morning of both pre-holiday and ordinary days, but the proportion decreases after mid-day, especially in pre-holiday periods.",
+      "plot": {
+        "plot_type": "request_share_line_chart",
+        "file": "visualizations/street_hail_share_over_day.png",
+        "title": "How does the street-hail share change over the day for each day class",
+        "description": "The visualization summarizes the fields needed to evaluate this insight directly from the supplied tables."
+      },
+      "question": "How does the street-hail share change over the day for each day class?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "departure_time",
+        "day_class",
+        "request_source",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Days immediately preceding holidays or special days show a stronger concentration of taxi trips in the late evening than ordinary days.",
+    "The trips on pre-holiday day evenings are usually towards north of the city, while trips on ordinary evenings are more evenly distributed.",
+    "Pre-holiday trips contain a higher proportion of medium- and long-distance journeys than trips during comparable ordinary evenings.",
+    "Street-hail trips take a larger share in the morning of both pre-holiday and ordinary days, but the proportion decreases after mid-day, especially in pre-holiday periods."
+  ],
+  "summary": "Pre-holiday and special-day activity is disproportionately concentrated late in the evening, and those evening trips are usually directed north while ordinary-evening destinations are more evenly distributed across north, east, central, west, and south sectors. Pre-holiday evenings also contain a much larger medium/long-distance share. Street hails lead in the morning for both day classes, then decline after midday, especially on pre-holiday days."
+}

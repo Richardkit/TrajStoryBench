@@ -1,0 +1,128 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/11_three_user_weekday_periodicity/trajectories.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/11_three_user_weekday_periodicity/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/MTL_Trajet/11_three_user_weekday_periodicity/trajectory_points.csv",
+      "role": "Timestamped trajectory points linked by trajectory_id"
+    }
+  ],
+  "metadata": {
+    "goal": "Find same points and differences of three users based on given trajectories within five weekdays.",
+    "role": "Urban mobility analyst",
+    "category": "Three-user riverside-hub periodicity, café repetition, shopping-area coordination, and driving behaviour",
+    "header": "MTL Trajet: 11 Three-user Weekday Periodicity",
+    "dataset_description": "Three users visit a shared riverside-recreation hub on successive weekdays and then follow different driving or shopping routines. Official land-use labels follow the unchanged endpoints; Unmapped denotes an endpoint outside reference polygons.",
+    "metric_note": "`mid_trajectory_speed_kmh` is the mean point speed from 20% to 80% trajectory progress; `passes_riverside` denotes a riverside context for motor-vehicle trips. Same-day hub dwell time is derived by subtracting the inbound `arrival_time` from the subsequent outbound `start_time`; all such gaps are between 3.25 and 4.67 hours.",
+    "land_use_reference": "Archived PUM2050 Affectatio polygons (2025). Labels describe reference-map zoning at fixed endpoints, not surveyed activities at the time of travel.",
+    "fixed_gps_repair": "2026-10-08: existing CSV coordinates preserved; see results/dataset_quality/fixed_gps_repairs_20261008/repair.json.",
+    "motion_consistency_note": "Point speed is the incoming segment GPS great-circle distance divided by elapsed time; the first point repeats the first outgoing segment speed. Earth radius: 6371.0088 km. Trip distance is the sum of these segment distances. avg_speed_kmh and mean_speed_kmh are total distance / elapsed time; avg_point_speed_kmh and point_speed_mean_kmh are unweighted means of the delivered point speeds. speed_cv is the population coefficient of variation of incoming segment speeds, excluding the duplicated first endpoint. trajectory_progress is point_index / (point_count - 1), not elapsed-time fraction. Timestamps and speed fields were reconstructed for internal consistency on 2026-10-09; GPS positions and insight wording were preserved. These are curated example records, not newly recovered observations.",
+    "motion_consistency_repair": "results/dataset_quality/motion_consistency_repair_20261009/repair.json"
+  },
+  "insight_list": [
+    {
+      "data_type": "shared_mixte_hub_periodicity",
+      "insight": "Weekday arrival times at the shared riverside-recreation hub differ across users, while remaining relatively consistent for each individual.",
+      "insight_type": "group_comparison",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Shared Riverside Hub and Weekday Periodicity",
+        "description": "Recomputed from the delivered fixed GPS coordinates and the archived official PUM2050 Affectatio polygons; Unmapped denotes no containing polygon.",
+        "file": "visualizations/weekday_periodicity_repeated_destinations.png"
+      },
+      "question": "For each user, are arrivals at the same riverside-recreation hub stable across the five weekdays despite differing origins?",
+      "code": "import pandas as pd\nimport numpy as np\nfrom pathlib import Path\ndf = pd.read_csv(dataset_path)\npoints = pd.read_csv(Path(dataset_path).with_name('trajectory_points.csv'))\nhub=df[df.trip_stage.eq('to_shared_hub')]; print(hub.groupby('user_id').arrival_hour.agg(['min','max','mean','std'])); print(hub.destination_land_use.value_counts())\n",
+      "evidence": "All 15 hub endpoints occupy the same GPS location, mapped as Récréation et accès aux rives. The arrival windows remain distinct across users.",
+      "insight_value": {
+        "user_A": {
+          "min": 8.18,
+          "max": 8.45,
+          "mean": 8.32,
+          "std": 0.10319883720275111
+        },
+        "user_B": {
+          "min": 9.32,
+          "max": 9.55,
+          "mean": 9.440000000000001,
+          "std": 0.09027735042633894
+        },
+        "user_C": {
+          "min": 10.4,
+          "max": 10.65,
+          "mean": 10.542,
+          "std": 0.1047377677822092
+        }
+      },
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "user_id",
+        "trajectory_timestamp",
+        "trajectory_id",
+        "gps_position",
+        "land_use_reference"
+      ]
+    },
+    {
+      "data_type": "shared_hub_cafe_shopping_destination",
+      "insight": "After spending several hours at the shared hub, User A follows a fixed driving routine, while Users B and C show more variable public-transit shopping patterns.",
+      "insight_type": "group_comparison",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "User A Café and B/C Shopping from the Shared Hub",
+        "description": "Recomputed from the delivered fixed GPS coordinates and the archived official PUM2050 Affectatio polygons; Unmapped denotes no containing polygon.",
+        "file": "visualizations/user_mode_and_shopping_destinations.png"
+      },
+      "question": "From the shared riverside-recreation hub, how do User A's café trip and B/C shopping trips differ in mode and destination pattern?",
+      "code": "import pandas as pd\nimport numpy as np\nfrom pathlib import Path\ndf = pd.read_csv(dataset_path)\npoints = pd.read_csv(Path(dataset_path).with_name('trajectory_points.csv'))\nfollow=df[df.purpose_group.isin(['cafe','shopping'])]; print(pd.crosstab(follow.user_id,follow.mode_group)); print(follow.groupby(['weekday','destination_id']).user_id.apply(list))\n",
+      "evidence": "The hub is a riverside-recreation location. Follow-up destination identities are canonical groups of identical endpoint coordinates; endpoints outside the supplied polygons have Unmapped land use.",
+      "difficulty_level": 7,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "user_id",
+        "trajectory_timestamp",
+        "trajectory_id",
+        "gps_position",
+        "land_use_reference",
+        "transport_mode",
+        "trip_purpose"
+      ]
+    },
+    {
+      "data_type": "driving_speed_riverside_comparison",
+      "insight": "Motor-vehicle trips maintain similarly stable mid-trip speeds across users and route destinations.",
+      "insight_type": "group_comparison",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Driving Speeds and Riverside Context",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/driving_speed_and_riverside_corridor.png"
+      },
+      "question": "Across users and destinations, how similar are motor-vehicle speed profiles, and do the routes share a riverside context?",
+      "code": "df[df.mode_group.eq('motor_vehicle')].groupby('user_id').mid_trajectory_speed_kmh.agg(['mean','std']); df[df.mode_group.eq('motor_vehicle')].passes_riverside.value_counts()",
+      "evidence": "Across the three users' motor-vehicle trips, mid-trajectory speeds remain near 35 km/h. The routes include the shared hub and café destination, and all pass through riverside contexts.",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "user_id",
+        "transport_mode",
+        "gps_position",
+        "point_speed",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Weekday arrival times at the shared riverside-recreation hub differ across users, while remaining relatively consistent for each individual.",
+    "After spending several hours at the shared hub, User A follows a fixed driving routine, while Users B and C show more variable public-transit shopping patterns.",
+    "Motor-vehicle trips maintain similarly stable mid-trip speeds across users and route destinations."
+  ],
+  "summary": "Weekday arrival times at the shared riverside-recreation hub differ across users, while remaining relatively consistent for each individual. After spending several hours at the shared hub, User A follows a fixed driving routine, while Users B and C show more variable public-transit shopping patterns. Motor-vehicle trips maintain similarly stable mid-trip speeds across users and route destinations.",
+  "evidence_policy": "Claims describe patterns in this dataset and do not establish causal relationships."
+}

@@ -1,0 +1,601 @@
+segment_id,driver_id,order_id,operating_state,region,timestamp,point_index,longitude,latitude,speed_kmh
+seg_01,taxi_driver_27,,cruising,central district,2016-06-16 10:00:00,0,-8.64133,41.161695,17.54
+seg_01,taxi_driver_27,,cruising,central district,2016-06-16 10:01:05,1,-8.637241,41.163826,18.01
+seg_01,taxi_driver_27,,cruising,central district,2016-06-16 10:02:10,2,-8.641574,41.160404,19.35
+seg_01,taxi_driver_27,,cruising,central district,2016-06-16 10:03:16,3,-8.642829,41.159236,17.5
+seg_01,taxi_driver_27,,cruising,central district,2016-06-16 10:04:21,4,-8.642957,41.158466,16.63
+seg_01,taxi_driver_27,,cruising,central district,2016-06-16 10:05:27,5,-8.642534,41.157293,15.99
+seg_01,taxi_driver_27,,cruising,central district,2016-06-16 10:06:32,6,-8.636487,41.157944,15.84
+seg_01,taxi_driver_27,,cruising,central district,2016-06-16 10:07:38,7,-8.632688,41.157958,17.07
+seg_01,taxi_driver_27,,cruising,central district,2016-06-16 10:08:43,8,-8.630079,41.157285,18.46
+seg_01,taxi_driver_27,,cruising,central district,2016-06-16 10:09:49,9,-8.628754,41.157013,19.16
+seg_01,taxi_driver_27,,cruising,central district,2016-06-16 10:10:54,10,-8.626963,41.154998,17.75
+seg_01,taxi_driver_27,,cruising,central district,2016-06-16 10:12:00,11,-8.624877,41.156037,17.37
+seg_02,taxi_driver_27,,cruising,western inner city,2016-06-16 10:12:00,0,-8.624877,41.156037,15.25
+seg_02,taxi_driver_27,,cruising,western inner city,2016-06-16 10:13:49,1,-8.626566,41.154391,17.07
+seg_02,taxi_driver_27,,cruising,western inner city,2016-06-16 10:15:38,2,-8.626064,41.15218,17.09
+seg_02,taxi_driver_27,,cruising,western inner city,2016-06-16 10:17:27,3,-8.624557,41.15278,16.79
+seg_02,taxi_driver_27,,cruising,western inner city,2016-06-16 10:19:16,4,-8.621045,41.153587,15.14
+seg_02,taxi_driver_27,,cruising,western inner city,2016-06-16 10:21:05,5,-8.61887,41.155293,13.85
+seg_02,taxi_driver_27,,cruising,western inner city,2016-06-16 10:22:54,6,-8.620787,41.156537,14.94
+seg_02,taxi_driver_27,,cruising,western inner city,2016-06-16 10:24:43,7,-8.626563,41.157453,15.45
+seg_02,taxi_driver_27,,cruising,western inner city,2016-06-16 10:26:32,8,-8.628419,41.157148,16.71
+seg_02,taxi_driver_27,,cruising,western inner city,2016-06-16 10:28:21,9,-8.6299,41.157153,16.73
+seg_02,taxi_driver_27,,cruising,western inner city,2016-06-16 10:30:10,10,-8.632239,41.157489,16.45
+seg_02,taxi_driver_27,,cruising,western inner city,2016-06-16 10:32:00,11,-8.63388,41.157786,16.46
+seg_03,taxi_driver_27,order_01,driving_to_pickup,western inner city,2016-06-16 10:32:00,0,-8.63388,41.157786,31.36
+seg_03,taxi_driver_27,order_01,driving_to_pickup,western inner city,2016-06-16 10:32:21,1,-8.63388,41.157786,31.23
+seg_03,taxi_driver_27,order_01,driving_to_pickup,western inner city,2016-06-16 10:32:43,2,-8.63388,41.157786,32.42
+seg_03,taxi_driver_27,order_01,driving_to_pickup,western inner city,2016-06-16 10:33:05,3,-8.63388,41.157786,30.97
+seg_03,taxi_driver_27,order_01,driving_to_pickup,western inner city,2016-06-16 10:33:27,4,-8.63388,41.157786,30.28
+seg_03,taxi_driver_27,order_01,driving_to_pickup,western inner city,2016-06-16 10:33:49,5,-8.63388,41.157786,29.83
+seg_03,taxi_driver_27,order_01,driving_to_pickup,western inner city,2016-06-16 10:34:10,6,-8.63388,41.157786,29.78
+seg_03,taxi_driver_27,order_01,driving_to_pickup,western inner city,2016-06-16 10:34:32,7,-8.63388,41.157786,30.36
+seg_03,taxi_driver_27,order_01,driving_to_pickup,western inner city,2016-06-16 10:34:54,8,-8.63388,41.157786,31.57
+seg_03,taxi_driver_27,order_01,driving_to_pickup,western inner city,2016-06-16 10:35:16,9,-8.63388,41.157786,32.48
+seg_03,taxi_driver_27,order_01,driving_to_pickup,western inner city,2016-06-16 10:35:38,10,-8.63388,41.157786,32.59
+seg_03,taxi_driver_27,order_01,driving_to_pickup,western inner city,2016-06-16 10:36:00,11,-8.63388,41.157786,30.82
+seg_04,taxi_driver_27,order_01,passenger_trip,western inner city,2016-06-16 10:36:00,0,-8.63388,41.157786,34.67
+seg_04,taxi_driver_27,order_01,passenger_trip,western inner city,2016-06-16 10:37:05,1,-8.632239,41.157489,35.98
+seg_04,taxi_driver_27,order_01,passenger_trip,western inner city,2016-06-16 10:38:10,2,-8.630639,41.155655,36.28
+seg_04,taxi_driver_27,order_01,passenger_trip,western inner city,2016-06-16 10:39:16,3,-8.629998,41.155455,35.9
+seg_04,taxi_driver_27,order_01,passenger_trip,western inner city,2016-06-16 10:40:21,4,-8.628179,41.154528,33.75
+seg_04,taxi_driver_27,order_01,passenger_trip,western inner city,2016-06-16 10:41:27,5,-8.624486,41.153172,33.18
+seg_04,taxi_driver_27,order_01,passenger_trip,western inner city,2016-06-16 10:42:32,6,-8.617951,41.152235,33.08
+seg_04,taxi_driver_27,order_01,passenger_trip,western inner city,2016-06-16 10:43:38,7,-8.616205,41.148825,33.92
+seg_04,taxi_driver_27,order_01,passenger_trip,western inner city,2016-06-16 10:44:43,8,-8.61593,41.148214,35.9
+seg_04,taxi_driver_27,order_01,passenger_trip,western inner city,2016-06-16 10:45:49,9,-8.614414,41.148198,36.16
+seg_04,taxi_driver_27,order_01,passenger_trip,western inner city,2016-06-16 10:46:54,10,-8.612464,41.148135,34.87
+seg_04,taxi_driver_27,order_01,passenger_trip,western inner city,2016-06-16 10:48:00,11,-8.610881,41.148079,33.84
+seg_05,taxi_driver_27,,cruising,central district,2016-06-16 10:48:00,0,-8.610881,41.148079,16.93
+seg_05,taxi_driver_27,,cruising,central district,2016-06-16 10:49:21,1,-8.612153,41.148204,17.66
+seg_05,taxi_driver_27,,cruising,central district,2016-06-16 10:50:43,2,-8.611975,41.153615,18.22
+seg_05,taxi_driver_27,,cruising,central district,2016-06-16 10:52:05,3,-8.612327,41.148101,18.37
+seg_05,taxi_driver_27,,cruising,central district,2016-06-16 10:53:27,4,-8.612061,41.145401,17.1
+seg_05,taxi_driver_27,,cruising,central district,2016-06-16 10:54:49,5,-8.610841,41.144891,15.65
+seg_05,taxi_driver_27,,cruising,central district,2016-06-16 10:56:10,6,-8.61014,41.142843,15.3
+seg_05,taxi_driver_27,,cruising,central district,2016-06-16 10:57:32,7,-8.610357,41.143318,16.0
+seg_05,taxi_driver_27,,cruising,central district,2016-06-16 10:58:54,8,-8.61149,41.144738,17.36
+seg_05,taxi_driver_27,,cruising,central district,2016-06-16 11:00:16,9,-8.612213,41.146065,18.26
+seg_05,taxi_driver_27,,cruising,central district,2016-06-16 11:01:38,10,-8.615081,41.148311,17.61
+seg_05,taxi_driver_27,,cruising,central district,2016-06-16 11:03:00,11,-8.61486,41.150977,17.14
+seg_06,taxi_driver_27,,cruising,riverside area,2016-06-16 11:03:00,0,-8.61486,41.150977,19.15
+seg_06,taxi_driver_27,,cruising,riverside area,2016-06-16 11:05:00,1,-8.61385,41.151669,20.38
+seg_06,taxi_driver_27,,cruising,riverside area,2016-06-16 11:07:00,2,-8.613264,41.153739,21.63
+seg_06,taxi_driver_27,,cruising,riverside area,2016-06-16 11:09:00,3,-8.615229,41.15454,20.2
+seg_06,taxi_driver_27,,cruising,riverside area,2016-06-16 11:11:00,4,-8.613437,41.15421,18.77
+seg_06,taxi_driver_27,,cruising,riverside area,2016-06-16 11:13:00,5,-8.6132,41.153691,18.43
+seg_06,taxi_driver_27,,cruising,riverside area,2016-06-16 11:15:00,6,-8.61199,41.153535,18.52
+seg_06,taxi_driver_27,,cruising,riverside area,2016-06-16 11:17:00,7,-8.612153,41.148204,18.83
+seg_06,taxi_driver_27,,cruising,riverside area,2016-06-16 11:19:00,8,-8.613021,41.148251,21.27
+seg_06,taxi_driver_27,,cruising,riverside area,2016-06-16 11:21:00,9,-8.61299,41.148297,21.26
+seg_06,taxi_driver_27,,cruising,riverside area,2016-06-16 11:23:00,10,-8.6143,41.149946,20.24
+seg_06,taxi_driver_27,,cruising,riverside area,2016-06-16 11:25:00,11,-8.61486,41.150977,19.44
+seg_07,taxi_driver_27,order_02,driving_to_pickup,riverside area,2016-06-16 11:25:00,0,-8.61486,41.150977,27.38
+seg_07,taxi_driver_27,order_02,driving_to_pickup,riverside area,2016-06-16 11:25:21,1,-8.614815,41.149842,28.25
+seg_07,taxi_driver_27,order_02,driving_to_pickup,riverside area,2016-06-16 11:25:43,2,-8.615147,41.148134,28.45
+seg_07,taxi_driver_27,order_02,driving_to_pickup,riverside area,2016-06-16 11:26:05,3,-8.615328,41.147255,28.42
+seg_07,taxi_driver_27,order_02,driving_to_pickup,riverside area,2016-06-16 11:26:27,4,-8.615346,41.146286,26.97
+seg_07,taxi_driver_27,order_02,driving_to_pickup,riverside area,2016-06-16 11:26:49,5,-8.616641,41.144958,26.76
+seg_07,taxi_driver_27,order_02,driving_to_pickup,riverside area,2016-06-16 11:27:10,6,-8.618275,41.143327,26.81
+seg_07,taxi_driver_27,order_02,driving_to_pickup,riverside area,2016-06-16 11:27:32,7,-8.61857,41.142758,26.47
+seg_07,taxi_driver_27,order_02,driving_to_pickup,riverside area,2016-06-16 11:27:54,8,-8.618042,41.142138,28.36
+seg_07,taxi_driver_27,order_02,driving_to_pickup,riverside area,2016-06-16 11:28:16,9,-8.619958,41.142885,28.59
+seg_07,taxi_driver_27,order_02,driving_to_pickup,riverside area,2016-06-16 11:28:38,10,-8.619824,41.142218,28.87
+seg_07,taxi_driver_27,order_02,driving_to_pickup,riverside area,2016-06-16 11:29:00,11,-8.621013,41.142935,26.94
+seg_08,taxi_driver_27,order_02,passenger_trip,riverside area,2016-06-16 11:29:00,0,-8.621013,41.142935,32.85
+seg_08,taxi_driver_27,order_02,passenger_trip,riverside area,2016-06-16 11:30:16,1,-8.614599,41.142844,34.18
+seg_08,taxi_driver_27,order_02,passenger_trip,riverside area,2016-06-16 11:31:32,2,-8.609497,41.146735,34.25
+seg_08,taxi_driver_27,order_02,passenger_trip,riverside area,2016-06-16 11:32:49,3,-8.601878,41.147242,33.43
+seg_08,taxi_driver_27,order_02,passenger_trip,riverside area,2016-06-16 11:34:05,4,-8.599236,41.149597,31.67
+seg_08,taxi_driver_27,order_02,passenger_trip,riverside area,2016-06-16 11:35:21,5,-8.595503,41.154877,30.63
+seg_08,taxi_driver_27,order_02,passenger_trip,riverside area,2016-06-16 11:36:38,6,-8.59316,41.158595,31.72
+seg_08,taxi_driver_27,order_02,passenger_trip,riverside area,2016-06-16 11:37:54,7,-8.586142,41.161485,31.92
+seg_08,taxi_driver_27,order_02,passenger_trip,riverside area,2016-06-16 11:39:10,8,-8.582081,41.165658,33.81
+seg_08,taxi_driver_27,order_02,passenger_trip,riverside area,2016-06-16 11:40:27,9,-8.578089,41.169323,33.74
+seg_08,taxi_driver_27,order_02,passenger_trip,riverside area,2016-06-16 11:41:43,10,-8.573217,41.173936,33.92
+seg_08,taxi_driver_27,order_02,passenger_trip,riverside area,2016-06-16 11:43:00,11,-8.571779,41.173257,32.33
+seg_09,taxi_driver_27,,cruising,central district,2016-06-16 11:43:00,0,-8.571779,41.173257,19.75
+seg_09,taxi_driver_27,,cruising,central district,2016-06-16 11:44:10,1,-8.570177,41.173853,20.63
+seg_09,taxi_driver_27,,cruising,central district,2016-06-16 11:45:21,2,-8.566976,41.175069,20.84
+seg_09,taxi_driver_27,,cruising,central district,2016-06-16 11:46:32,3,-8.563531,41.176232,19.57
+seg_09,taxi_driver_27,,cruising,central district,2016-06-16 11:47:43,4,-8.563493,41.176155,18.17
+seg_09,taxi_driver_27,,cruising,central district,2016-06-16 11:48:54,5,-8.566898,41.175177,17.56
+seg_09,taxi_driver_27,,cruising,central district,2016-06-16 11:50:05,6,-8.57157,41.175146,18.07
+seg_09,taxi_driver_27,,cruising,central district,2016-06-16 11:51:16,7,-8.580832,41.174292,18.37
+seg_09,taxi_driver_27,,cruising,central district,2016-06-16 11:52:27,8,-8.589302,41.169809,19.5
+seg_09,taxi_driver_27,,cruising,central district,2016-06-16 11:53:38,9,-8.598687,41.165369,21.46
+seg_09,taxi_driver_27,,cruising,central district,2016-06-16 11:54:49,10,-8.603437,41.15348,20.08
+seg_09,taxi_driver_27,,cruising,central district,2016-06-16 11:56:00,11,-8.606987,41.148983,18.69
+seg_10,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 11:56:00,0,-8.606987,41.148983,17.76
+seg_10,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 11:57:43,1,-8.603147,41.149124,18.93
+seg_10,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 11:59:27,2,-8.607862,41.148761,18.9
+seg_10,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 12:01:10,3,-8.610279,41.149162,18.32
+seg_10,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 12:02:54,4,-8.605365,41.150957,16.68
+seg_10,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 12:04:38,5,-8.597925,41.15186,16.57
+seg_10,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 12:06:21,6,-8.595647,41.154628,16.2
+seg_10,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 12:08:05,7,-8.593451,41.158404,16.76
+seg_10,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 12:09:49,8,-8.590409,41.163024,18.41
+seg_10,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 12:11:32,9,-8.581222,41.163305,18.75
+seg_10,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 12:13:16,10,-8.57789,41.165449,18.59
+seg_10,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 12:15:00,11,-8.573668,41.168672,17.44
+seg_11,taxi_driver_27,order_03,driving_to_pickup,eastern neighbourhood,2016-06-16 12:15:00,0,-8.573668,41.168672,26.64
+seg_11,taxi_driver_27,order_03,driving_to_pickup,eastern neighbourhood,2016-06-16 12:15:21,1,-8.573668,41.168672,27.92
+seg_11,taxi_driver_27,order_03,driving_to_pickup,eastern neighbourhood,2016-06-16 12:15:43,2,-8.573668,41.168672,28.03
+seg_11,taxi_driver_27,order_03,driving_to_pickup,eastern neighbourhood,2016-06-16 12:16:05,3,-8.573668,41.168672,27.26
+seg_11,taxi_driver_27,order_03,driving_to_pickup,eastern neighbourhood,2016-06-16 12:16:27,4,-8.573668,41.168672,25.77
+seg_11,taxi_driver_27,order_03,driving_to_pickup,eastern neighbourhood,2016-06-16 12:16:49,5,-8.573668,41.168672,25.97
+seg_11,taxi_driver_27,order_03,driving_to_pickup,eastern neighbourhood,2016-06-16 12:17:10,6,-8.573668,41.168672,25.23
+seg_11,taxi_driver_27,order_03,driving_to_pickup,eastern neighbourhood,2016-06-16 12:17:32,7,-8.573668,41.168672,26.53
+seg_11,taxi_driver_27,order_03,driving_to_pickup,eastern neighbourhood,2016-06-16 12:17:54,8,-8.573668,41.168672,27.23
+seg_11,taxi_driver_27,order_03,driving_to_pickup,eastern neighbourhood,2016-06-16 12:18:16,9,-8.573668,41.168672,28.66
+seg_11,taxi_driver_27,order_03,driving_to_pickup,eastern neighbourhood,2016-06-16 12:18:38,10,-8.573668,41.168672,27.37
+seg_11,taxi_driver_27,order_03,driving_to_pickup,eastern neighbourhood,2016-06-16 12:19:00,11,-8.573668,41.168672,26.1
+seg_12,taxi_driver_27,order_03,passenger_trip,eastern neighbourhood,2016-06-16 12:19:00,0,-8.573668,41.168672,34.49
+seg_12,taxi_driver_27,order_03,passenger_trip,eastern neighbourhood,2016-06-16 12:20:16,1,-8.577573,41.165781,36.23
+seg_12,taxi_driver_27,order_03,passenger_trip,eastern neighbourhood,2016-06-16 12:21:32,2,-8.57939,41.164181,36.6
+seg_12,taxi_driver_27,order_03,passenger_trip,eastern neighbourhood,2016-06-16 12:22:49,3,-8.581856,41.163215,35.64
+seg_12,taxi_driver_27,order_03,passenger_trip,eastern neighbourhood,2016-06-16 12:24:05,4,-8.589556,41.164015,34.21
+seg_12,taxi_driver_27,order_03,passenger_trip,eastern neighbourhood,2016-06-16 12:25:21,5,-8.592603,41.159866,33.46
+seg_12,taxi_driver_27,order_03,passenger_trip,eastern neighbourhood,2016-06-16 12:26:38,6,-8.594412,41.156728,33.41
+seg_12,taxi_driver_27,order_03,passenger_trip,eastern neighbourhood,2016-06-16 12:27:54,7,-8.595674,41.154581,34.29
+seg_12,taxi_driver_27,order_03,passenger_trip,eastern neighbourhood,2016-06-16 12:29:10,8,-8.597822,41.153435,35.4
+seg_12,taxi_driver_27,order_03,passenger_trip,eastern neighbourhood,2016-06-16 12:30:27,9,-8.611531,41.153591,35.68
+seg_12,taxi_driver_27,order_03,passenger_trip,eastern neighbourhood,2016-06-16 12:31:43,10,-8.613837,41.15171,35.34
+seg_12,taxi_driver_27,order_03,passenger_trip,eastern neighbourhood,2016-06-16 12:33:00,11,-8.615985,41.15104,34.88
+seg_13,taxi_driver_27,,cruising,northern neighbourhood,2016-06-16 12:33:00,0,-8.615985,41.15104,19.62
+seg_13,taxi_driver_27,,cruising,northern neighbourhood,2016-06-16 12:36:21,1,-8.620969,41.155619,20.59
+seg_13,taxi_driver_27,,cruising,northern neighbourhood,2016-06-16 12:39:43,2,-8.622562,41.155816,20.0
+seg_13,taxi_driver_27,,cruising,northern neighbourhood,2016-06-16 12:43:05,3,-8.617612,41.151588,20.26
+seg_13,taxi_driver_27,,cruising,northern neighbourhood,2016-06-16 12:46:27,4,-8.61613,41.147213,18.42
+seg_13,taxi_driver_27,,cruising,northern neighbourhood,2016-06-16 12:49:49,5,-8.616757,41.147105,18.52
+seg_13,taxi_driver_27,,cruising,northern neighbourhood,2016-06-16 12:53:10,6,-8.615583,41.145519,17.85
+seg_13,taxi_driver_27,,cruising,northern neighbourhood,2016-06-16 12:56:32,7,-8.616971,41.144857,19.09
+seg_13,taxi_driver_27,,cruising,northern neighbourhood,2016-06-16 12:59:54,8,-8.616574,41.147051,20.03
+seg_13,taxi_driver_27,,cruising,northern neighbourhood,2016-06-16 13:03:16,9,-8.616366,41.147151,21.19
+seg_13,taxi_driver_27,,cruising,northern neighbourhood,2016-06-16 13:06:38,10,-8.616454,41.149388,20.72
+seg_13,taxi_driver_27,,cruising,northern neighbourhood,2016-06-16 13:10:00,11,-8.615985,41.15104,18.97
+seg_14,taxi_driver_27,,taxi_stand_wait,Boavista taxi stand,2016-06-16 13:10:00,0,-8.615985,41.15104,0.53
+seg_14,taxi_driver_27,,taxi_stand_wait,Boavista taxi stand,2016-06-16 13:10:54,1,-8.61643,41.150744,1.25
+seg_14,taxi_driver_27,,taxi_stand_wait,Boavista taxi stand,2016-06-16 13:11:49,2,-8.61714,41.150683,1.6
+seg_14,taxi_driver_27,,taxi_stand_wait,Boavista taxi stand,2016-06-16 13:12:43,3,-8.618004,41.152348,0.96
+seg_14,taxi_driver_27,,taxi_stand_wait,Boavista taxi stand,2016-06-16 13:13:38,4,-8.618305,41.153049,0
+seg_14,taxi_driver_27,,taxi_stand_wait,Boavista taxi stand,2016-06-16 13:14:32,5,-8.618764,41.154343,0
+seg_14,taxi_driver_27,,taxi_stand_wait,Boavista taxi stand,2016-06-16 13:15:27,6,-8.619098,41.15524,0
+seg_14,taxi_driver_27,,taxi_stand_wait,Boavista taxi stand,2016-06-16 13:16:21,7,-8.61933,41.15621,0
+seg_14,taxi_driver_27,,taxi_stand_wait,Boavista taxi stand,2016-06-16 13:17:16,8,-8.621271,41.156611,0.42
+seg_14,taxi_driver_27,,taxi_stand_wait,Boavista taxi stand,2016-06-16 13:18:10,9,-8.623759,41.157038,1.72
+seg_14,taxi_driver_27,,taxi_stand_wait,Boavista taxi stand,2016-06-16 13:19:05,10,-8.624895,41.157173,0.89
+seg_14,taxi_driver_27,,taxi_stand_wait,Boavista taxi stand,2016-06-16 13:20:00,11,-8.626078,41.1571,0.59
+seg_15,taxi_driver_27,,cruising,central district,2016-06-16 13:20:00,0,-8.626078,41.1571,18.79
+seg_15,taxi_driver_27,,cruising,central district,2016-06-16 13:21:27,1,-8.625905,41.1554,19.98
+seg_15,taxi_driver_27,,cruising,central district,2016-06-16 13:22:54,2,-8.626824,41.154586,21.28
+seg_15,taxi_driver_27,,cruising,central district,2016-06-16 13:24:21,3,-8.626827,41.154452,20.15
+seg_15,taxi_driver_27,,cruising,central district,2016-06-16 13:25:49,4,-8.625685,41.154667,18.23
+seg_15,taxi_driver_27,,cruising,central district,2016-06-16 13:27:16,5,-8.623762,41.155592,17.58
+seg_15,taxi_driver_27,,cruising,central district,2016-06-16 13:28:43,6,-8.622879,41.155792,18.07
+seg_15,taxi_driver_27,,cruising,central district,2016-06-16 13:30:10,7,-8.621427,41.155986,18.21
+seg_15,taxi_driver_27,,cruising,central district,2016-06-16 13:31:38,8,-8.620805,41.157046,20.09
+seg_15,taxi_driver_27,,cruising,central district,2016-06-16 13:33:05,9,-8.61933,41.15621,21.13
+seg_15,taxi_driver_27,,cruising,central district,2016-06-16 13:34:32,10,-8.618727,41.154237,20.8
+seg_15,taxi_driver_27,,cruising,central district,2016-06-16 13:36:00,11,-8.615797,41.152686,18.69
+seg_16,taxi_driver_27,,cruising,western outer city,2016-06-16 13:36:00,0,-8.615797,41.152686,17.58
+seg_16,taxi_driver_27,,cruising,western outer city,2016-06-16 13:38:32,1,-8.620749,41.152552,19.23
+seg_16,taxi_driver_27,,cruising,western outer city,2016-06-16 13:41:05,2,-8.613279,41.153759,20.11
+seg_16,taxi_driver_27,,cruising,western outer city,2016-06-16 13:43:38,3,-8.613023,41.156714,19.25
+seg_16,taxi_driver_27,,cruising,western outer city,2016-06-16 13:46:10,4,-8.612611,41.15682,17.71
+seg_16,taxi_driver_27,,cruising,western outer city,2016-06-16 13:48:43,5,-8.613361,41.155414,17.51
+seg_16,taxi_driver_27,,cruising,western outer city,2016-06-16 13:51:16,6,-8.62425,41.157114,17.12
+seg_16,taxi_driver_27,,cruising,western outer city,2016-06-16 13:53:49,7,-8.628354,41.158687,18.15
+seg_16,taxi_driver_27,,cruising,western outer city,2016-06-16 13:56:21,8,-8.631684,41.160995,19.13
+seg_16,taxi_driver_27,,cruising,western outer city,2016-06-16 13:58:54,9,-8.634854,41.16376,19.26
+seg_16,taxi_driver_27,,cruising,western outer city,2016-06-16 14:01:27,10,-8.639586,41.16464,18.91
+seg_16,taxi_driver_27,,cruising,western outer city,2016-06-16 14:04:00,11,-8.642982,41.164298,17.89
+seg_17,taxi_driver_27,order_04,driving_to_pickup,western outer city,2016-06-16 14:04:00,0,-8.642982,41.164298,30.74
+seg_17,taxi_driver_27,order_04,driving_to_pickup,western outer city,2016-06-16 14:04:21,1,-8.642982,41.164298,31.85
+seg_17,taxi_driver_27,order_04,driving_to_pickup,western outer city,2016-06-16 14:04:43,2,-8.642982,41.164298,31.71
+seg_17,taxi_driver_27,order_04,driving_to_pickup,western outer city,2016-06-16 14:05:05,3,-8.642982,41.164298,31.76
+seg_17,taxi_driver_27,order_04,driving_to_pickup,western outer city,2016-06-16 14:05:27,4,-8.642982,41.164298,30.46
+seg_17,taxi_driver_27,order_04,driving_to_pickup,western outer city,2016-06-16 14:05:49,5,-8.642982,41.164298,29.49
+seg_17,taxi_driver_27,order_04,driving_to_pickup,western outer city,2016-06-16 14:06:10,6,-8.642982,41.164298,28.84
+seg_17,taxi_driver_27,order_04,driving_to_pickup,western outer city,2016-06-16 14:06:32,7,-8.642982,41.164298,30.27
+seg_17,taxi_driver_27,order_04,driving_to_pickup,western outer city,2016-06-16 14:06:54,8,-8.642982,41.164298,31.92
+seg_17,taxi_driver_27,order_04,driving_to_pickup,western outer city,2016-06-16 14:07:16,9,-8.642982,41.164298,32.25
+seg_17,taxi_driver_27,order_04,driving_to_pickup,western outer city,2016-06-16 14:07:38,10,-8.642982,41.164298,32.17
+seg_17,taxi_driver_27,order_04,driving_to_pickup,western outer city,2016-06-16 14:08:00,11,-8.642982,41.164298,29.9
+seg_18,taxi_driver_27,order_04,passenger_trip,western outer city,2016-06-16 14:08:00,0,-8.642982,41.164298,33.73
+seg_18,taxi_driver_27,order_04,passenger_trip,western outer city,2016-06-16 14:09:16,1,-8.637811,41.16183,35.97
+seg_18,taxi_driver_27,order_04,passenger_trip,western outer city,2016-06-16 14:10:32,2,-8.635237,41.158975,36.42
+seg_18,taxi_driver_27,order_04,passenger_trip,western outer city,2016-06-16 14:11:49,3,-8.630392,41.158005,35.74
+seg_18,taxi_driver_27,order_04,passenger_trip,western outer city,2016-06-16 14:13:05,4,-8.62857,41.157079,34.11
+seg_18,taxi_driver_27,order_04,passenger_trip,western outer city,2016-06-16 14:14:21,5,-8.626603,41.154412,32.85
+seg_18,taxi_driver_27,order_04,passenger_trip,western outer city,2016-06-16 14:15:38,6,-8.617133,41.150663,32.6
+seg_18,taxi_driver_27,order_04,passenger_trip,western outer city,2016-06-16 14:16:54,7,-8.615947,41.148218,33.48
+seg_18,taxi_driver_27,order_04,passenger_trip,western outer city,2016-06-16 14:18:10,8,-8.612213,41.146065,35.59
+seg_18,taxi_driver_27,order_04,passenger_trip,western outer city,2016-06-16 14:19:27,9,-8.607263,41.146158,36.39
+seg_18,taxi_driver_27,order_04,passenger_trip,western outer city,2016-06-16 14:20:43,10,-8.60707,41.14492,34.96
+seg_18,taxi_driver_27,order_04,passenger_trip,western outer city,2016-06-16 14:22:00,11,-8.604016,41.142978,34.42
+seg_19,taxi_driver_27,,cruising,southern riverside,2016-06-16 14:22:00,0,-8.604016,41.142978,18.85
+seg_19,taxi_driver_27,,cruising,southern riverside,2016-06-16 14:23:27,1,-8.606994,41.144741,20.1
+seg_19,taxi_driver_27,,cruising,southern riverside,2016-06-16 14:24:54,2,-8.609005,41.144331,20.38
+seg_19,taxi_driver_27,,cruising,southern riverside,2016-06-16 14:26:21,3,-8.606959,41.144717,20.3
+seg_19,taxi_driver_27,,cruising,southern riverside,2016-06-16 14:27:49,4,-8.602195,41.143062,18.62
+seg_19,taxi_driver_27,,cruising,southern riverside,2016-06-16 14:29:16,5,-8.60399,41.137832,17.74
+seg_19,taxi_driver_27,,cruising,southern riverside,2016-06-16 14:30:43,6,-8.604633,41.13845,17.93
+seg_19,taxi_driver_27,,cruising,southern riverside,2016-06-16 14:32:10,7,-8.606655,41.136928,19.34
+seg_19,taxi_driver_27,,cruising,southern riverside,2016-06-16 14:33:38,8,-8.609985,41.136886,20.38
+seg_19,taxi_driver_27,,cruising,southern riverside,2016-06-16 14:35:05,9,-8.609155,41.139037,20.84
+seg_19,taxi_driver_27,,cruising,southern riverside,2016-06-16 14:36:32,10,-8.613015,41.141569,20.18
+seg_19,taxi_driver_27,,cruising,southern riverside,2016-06-16 14:38:00,11,-8.615145,41.142797,19.53
+seg_20,taxi_driver_27,,cruising,central district,2016-06-16 14:38:00,0,-8.615145,41.142797,19.2
+seg_20,taxi_driver_27,,cruising,central district,2016-06-16 14:40:27,1,-8.610725,41.14601,20.06
+seg_20,taxi_driver_27,,cruising,central district,2016-06-16 14:42:54,2,-8.609515,41.148325,20.42
+seg_20,taxi_driver_27,,cruising,central district,2016-06-16 14:45:21,3,-8.614064,41.148348,18.95
+seg_20,taxi_driver_27,,cruising,central district,2016-06-16 14:47:49,4,-8.616214,41.147179,17.67
+seg_20,taxi_driver_27,,cruising,central district,2016-06-16 14:50:16,5,-8.619902,41.146074,17.99
+seg_20,taxi_driver_27,,cruising,central district,2016-06-16 14:52:43,6,-8.623484,41.144844,17.46
+seg_20,taxi_driver_27,,cruising,central district,2016-06-16 14:55:10,7,-8.623809,41.144776,18.84
+seg_20,taxi_driver_27,,cruising,central district,2016-06-16 14:57:38,8,-8.624057,41.145579,19.83
+seg_20,taxi_driver_27,,cruising,central district,2016-06-16 15:00:05,9,-8.624373,41.148283,19.95
+seg_20,taxi_driver_27,,cruising,central district,2016-06-16 15:02:32,10,-8.626248,41.152777,20.32
+seg_20,taxi_driver_27,,cruising,central district,2016-06-16 15:05:00,11,-8.626078,41.1571,18.53
+seg_21,taxi_driver_27,order_05,driving_to_pickup,Boavista taxi stand,2016-06-16 15:05:00,0,-8.626078,41.1571,30.4
+seg_21,taxi_driver_27,order_05,driving_to_pickup,Boavista taxi stand,2016-06-16 15:05:21,1,-8.626078,41.1571,30.5
+seg_21,taxi_driver_27,order_05,driving_to_pickup,Boavista taxi stand,2016-06-16 15:05:43,2,-8.626078,41.1571,31.74
+seg_21,taxi_driver_27,order_05,driving_to_pickup,Boavista taxi stand,2016-06-16 15:06:05,3,-8.626078,41.1571,30.76
+seg_21,taxi_driver_27,order_05,driving_to_pickup,Boavista taxi stand,2016-06-16 15:06:27,4,-8.626078,41.1571,30.19
+seg_21,taxi_driver_27,order_05,driving_to_pickup,Boavista taxi stand,2016-06-16 15:06:49,5,-8.626078,41.1571,28.5
+seg_21,taxi_driver_27,order_05,driving_to_pickup,Boavista taxi stand,2016-06-16 15:07:10,6,-8.626078,41.1571,28.98
+seg_21,taxi_driver_27,order_05,driving_to_pickup,Boavista taxi stand,2016-06-16 15:07:32,7,-8.626078,41.1571,30.18
+seg_21,taxi_driver_27,order_05,driving_to_pickup,Boavista taxi stand,2016-06-16 15:07:54,8,-8.626078,41.1571,30.63
+seg_21,taxi_driver_27,order_05,driving_to_pickup,Boavista taxi stand,2016-06-16 15:08:16,9,-8.626078,41.1571,31.93
+seg_21,taxi_driver_27,order_05,driving_to_pickup,Boavista taxi stand,2016-06-16 15:08:38,10,-8.626078,41.1571,31.63
+seg_21,taxi_driver_27,order_05,driving_to_pickup,Boavista taxi stand,2016-06-16 15:09:00,11,-8.626078,41.1571,29.99
+seg_22,taxi_driver_27,order_05,passenger_trip,Boavista taxi stand,2016-06-16 15:09:00,0,-8.626078,41.1571,31.23
+seg_22,taxi_driver_27,order_05,passenger_trip,Boavista taxi stand,2016-06-16 15:10:16,1,-8.623759,41.157038,33.35
+seg_22,taxi_driver_27,order_05,passenger_trip,Boavista taxi stand,2016-06-16 15:11:32,2,-8.619356,41.156299,33.11
+seg_22,taxi_driver_27,order_05,passenger_trip,Boavista taxi stand,2016-06-16 15:12:49,3,-8.618806,41.1552,31.79
+seg_22,taxi_driver_27,order_05,passenger_trip,Boavista taxi stand,2016-06-16 15:14:05,4,-8.615229,41.15454,30.94
+seg_22,taxi_driver_27,order_05,passenger_trip,Boavista taxi stand,2016-06-16 15:15:21,5,-8.613279,41.153759,30.87
+seg_22,taxi_driver_27,order_05,passenger_trip,Boavista taxi stand,2016-06-16 15:16:38,6,-8.613043,41.153649,30.86
+seg_22,taxi_driver_27,order_05,passenger_trip,Boavista taxi stand,2016-06-16 15:17:54,7,-8.610879,41.152298,31.64
+seg_22,taxi_driver_27,order_05,passenger_trip,Boavista taxi stand,2016-06-16 15:19:10,8,-8.61071,41.151109,31.89
+seg_22,taxi_driver_27,order_05,passenger_trip,Boavista taxi stand,2016-06-16 15:20:27,9,-8.610851,41.150386,32.79
+seg_22,taxi_driver_27,order_05,passenger_trip,Boavista taxi stand,2016-06-16 15:21:43,10,-8.611246,41.14973,32.71
+seg_22,taxi_driver_27,order_05,passenger_trip,Boavista taxi stand,2016-06-16 15:23:00,11,-8.611205,41.148956,31.99
+seg_23,taxi_driver_27,,cruising,central district,2016-06-16 15:23:00,0,-8.611205,41.148956,17.09
+seg_23,taxi_driver_27,,cruising,central district,2016-06-16 15:26:21,1,-8.607941,41.147245,17.71
+seg_23,taxi_driver_27,,cruising,central district,2016-06-16 15:29:43,2,-8.607421,41.145489,18.47
+seg_23,taxi_driver_27,,cruising,central district,2016-06-16 15:33:05,3,-8.604543,41.144896,16.69
+seg_23,taxi_driver_27,,cruising,central district,2016-06-16 15:36:27,4,-8.607128,41.14501,15.42
+seg_23,taxi_driver_27,,cruising,central district,2016-06-16 15:39:49,5,-8.610126,41.146109,15.72
+seg_23,taxi_driver_27,,cruising,central district,2016-06-16 15:43:10,6,-8.613368,41.147548,15.4
+seg_23,taxi_driver_27,,cruising,central district,2016-06-16 15:46:32,7,-8.616148,41.14847,16.58
+seg_23,taxi_driver_27,,cruising,central district,2016-06-16 15:49:54,8,-8.619275,41.152414,17.91
+seg_23,taxi_driver_27,,cruising,central district,2016-06-16 15:53:16,9,-8.616148,41.14847,17.59
+seg_23,taxi_driver_27,,cruising,central district,2016-06-16 15:56:38,10,-8.614333,41.148328,18.24
+seg_23,taxi_driver_27,,cruising,central district,2016-06-16 16:00:00,11,-8.610881,41.148079,16.48
+seg_24,taxi_driver_27,,cruising,central district,2016-06-16 16:00:00,0,-8.610881,41.148079,17.77
+seg_24,taxi_driver_27,,cruising,central district,2016-06-16 16:00:38,1,-8.608664,41.147397,19.84
+seg_24,taxi_driver_27,,cruising,central district,2016-06-16 16:01:16,2,-8.606639,41.146988,19.42
+seg_24,taxi_driver_27,,cruising,central district,2016-06-16 16:01:54,3,-8.603844,41.146768,18.45
+seg_24,taxi_driver_27,,cruising,central district,2016-06-16 16:02:32,4,-8.604098,41.149312,18.07
+seg_24,taxi_driver_27,,cruising,central district,2016-06-16 16:03:10,5,-8.605873,41.149805,16.63
+seg_24,taxi_driver_27,,cruising,central district,2016-06-16 16:03:49,6,-8.60775,41.150227,17.06
+seg_24,taxi_driver_27,,cruising,central district,2016-06-16 16:04:27,7,-8.608833,41.151234,17.99
+seg_24,taxi_driver_27,,cruising,central district,2016-06-16 16:05:05,8,-8.610075,41.151845,19.23
+seg_24,taxi_driver_27,,cruising,central district,2016-06-16 16:05:43,9,-8.612134,41.148928,19.25
+seg_24,taxi_driver_27,,cruising,central district,2016-06-16 16:06:21,10,-8.612159,41.147951,18.87
+seg_24,taxi_driver_27,,cruising,central district,2016-06-16 16:07:00,11,-8.610881,41.148079,18.86
+seg_25,taxi_driver_27,order_06,driving_to_pickup,central district,2016-06-16 16:07:00,0,-8.610881,41.148079,30.22
+seg_25,taxi_driver_27,order_06,driving_to_pickup,central district,2016-06-16 16:07:10,1,-8.610881,41.148079,31.32
+seg_25,taxi_driver_27,order_06,driving_to_pickup,central district,2016-06-16 16:07:21,2,-8.610881,41.148079,32.5
+seg_25,taxi_driver_27,order_06,driving_to_pickup,central district,2016-06-16 16:07:32,3,-8.610881,41.148079,31.66
+seg_25,taxi_driver_27,order_06,driving_to_pickup,central district,2016-06-16 16:07:43,4,-8.610881,41.148079,30.57
+seg_25,taxi_driver_27,order_06,driving_to_pickup,central district,2016-06-16 16:07:54,5,-8.610881,41.148079,29.23
+seg_25,taxi_driver_27,order_06,driving_to_pickup,central district,2016-06-16 16:08:05,6,-8.610881,41.148079,28.81
+seg_25,taxi_driver_27,order_06,driving_to_pickup,central district,2016-06-16 16:08:16,7,-8.610881,41.148079,29.21
+seg_25,taxi_driver_27,order_06,driving_to_pickup,central district,2016-06-16 16:08:27,8,-8.610881,41.148079,31.17
+seg_25,taxi_driver_27,order_06,driving_to_pickup,central district,2016-06-16 16:08:38,9,-8.610881,41.148079,31.51
+seg_25,taxi_driver_27,order_06,driving_to_pickup,central district,2016-06-16 16:08:49,10,-8.610881,41.148079,32.0
+seg_25,taxi_driver_27,order_06,driving_to_pickup,central district,2016-06-16 16:09:00,11,-8.610881,41.148079,30.22
+seg_26,taxi_driver_27,order_06,passenger_trip,central district,2016-06-16 16:09:00,0,-8.610881,41.148079,31.7
+seg_26,taxi_driver_27,order_06,passenger_trip,central district,2016-06-16 16:09:49,1,-8.610559,41.148988,32.17
+seg_26,taxi_driver_27,order_06,passenger_trip,central district,2016-06-16 16:10:38,2,-8.609657,41.149124,32.07
+seg_26,taxi_driver_27,order_06,passenger_trip,central district,2016-06-16 16:11:27,3,-8.609126,41.149122,31.57
+seg_26,taxi_driver_27,order_06,passenger_trip,central district,2016-06-16 16:12:16,4,-8.607862,41.148761,30.96
+seg_26,taxi_driver_27,order_06,passenger_trip,central district,2016-06-16 16:13:05,5,-8.60724,41.149984,29.22
+seg_26,taxi_driver_27,order_06,passenger_trip,central district,2016-06-16 16:13:54,6,-8.606773,41.15086,30.58
+seg_26,taxi_driver_27,order_06,passenger_trip,central district,2016-06-16 16:14:43,7,-8.605782,41.150968,30.62
+seg_26,taxi_driver_27,order_06,passenger_trip,central district,2016-06-16 16:15:32,8,-8.604256,41.150986,32.42
+seg_26,taxi_driver_27,order_06,passenger_trip,central district,2016-06-16 16:16:21,9,-8.603524,41.153261,32.68
+seg_26,taxi_driver_27,order_06,passenger_trip,central district,2016-06-16 16:17:10,10,-8.603015,41.154577,32.1
+seg_26,taxi_driver_27,order_06,passenger_trip,central district,2016-06-16 16:18:00,11,-8.60251,41.154466,31.18
+seg_27,taxi_driver_27,,cruising,central district,2016-06-16 16:18:00,0,-8.60251,41.154466,18.95
+seg_27,taxi_driver_27,,cruising,central district,2016-06-16 16:18:54,1,-8.603015,41.154577,20.17
+seg_27,taxi_driver_27,,cruising,central district,2016-06-16 16:19:49,2,-8.603524,41.153261,20.45
+seg_27,taxi_driver_27,,cruising,central district,2016-06-16 16:20:43,3,-8.604256,41.150986,19.53
+seg_27,taxi_driver_27,,cruising,central district,2016-06-16 16:21:38,4,-8.605782,41.150968,18.39
+seg_27,taxi_driver_27,,cruising,central district,2016-06-16 16:22:32,5,-8.606773,41.15086,16.83
+seg_27,taxi_driver_27,,cruising,central district,2016-06-16 16:23:27,6,-8.60724,41.149984,17.32
+seg_27,taxi_driver_27,,cruising,central district,2016-06-16 16:24:21,7,-8.607862,41.148761,17.48
+seg_27,taxi_driver_27,,cruising,central district,2016-06-16 16:25:16,8,-8.609126,41.149122,19.44
+seg_27,taxi_driver_27,,cruising,central district,2016-06-16 16:26:10,9,-8.609657,41.149124,19.37
+seg_27,taxi_driver_27,,cruising,central district,2016-06-16 16:27:05,10,-8.610559,41.148988,19.24
+seg_27,taxi_driver_27,,cruising,central district,2016-06-16 16:28:00,11,-8.610881,41.148079,18.0
+seg_28,taxi_driver_27,order_07,driving_to_pickup,central district,2016-06-16 16:28:00,0,-8.610881,41.148079,26.2
+seg_28,taxi_driver_27,order_07,driving_to_pickup,central district,2016-06-16 16:28:10,1,-8.610881,41.148079,27.83
+seg_28,taxi_driver_27,order_07,driving_to_pickup,central district,2016-06-16 16:28:21,2,-8.610881,41.148079,27.99
+seg_28,taxi_driver_27,order_07,driving_to_pickup,central district,2016-06-16 16:28:32,3,-8.610881,41.148079,27.31
+seg_28,taxi_driver_27,order_07,driving_to_pickup,central district,2016-06-16 16:28:43,4,-8.610881,41.148079,25.59
+seg_28,taxi_driver_27,order_07,driving_to_pickup,central district,2016-06-16 16:28:54,5,-8.610881,41.148079,24.31
+seg_28,taxi_driver_27,order_07,driving_to_pickup,central district,2016-06-16 16:29:05,6,-8.610881,41.148079,24.5
+seg_28,taxi_driver_27,order_07,driving_to_pickup,central district,2016-06-16 16:29:16,7,-8.610881,41.148079,25.59
+seg_28,taxi_driver_27,order_07,driving_to_pickup,central district,2016-06-16 16:29:27,8,-8.610881,41.148079,26.46
+seg_28,taxi_driver_27,order_07,driving_to_pickup,central district,2016-06-16 16:29:38,9,-8.610881,41.148079,28.09
+seg_28,taxi_driver_27,order_07,driving_to_pickup,central district,2016-06-16 16:29:49,10,-8.610881,41.148079,27.13
+seg_28,taxi_driver_27,order_07,driving_to_pickup,central district,2016-06-16 16:30:00,11,-8.610881,41.148079,26.8
+seg_29,taxi_driver_27,order_07,passenger_trip,central district,2016-06-16 16:30:00,0,-8.610881,41.148079,33.88
+seg_29,taxi_driver_27,order_07,passenger_trip,central district,2016-06-16 16:30:43,1,-8.60811,41.147278,34.47
+seg_29,taxi_driver_27,order_07,passenger_trip,central district,2016-06-16 16:31:27,2,-8.605625,41.14676,34.94
+seg_29,taxi_driver_27,order_07,passenger_trip,central district,2016-06-16 16:32:10,3,-8.601953,41.147161,33.83
+seg_29,taxi_driver_27,order_07,passenger_trip,central district,2016-06-16 16:32:54,4,-8.598684,41.148226,32.88
+seg_29,taxi_driver_27,order_07,passenger_trip,central district,2016-06-16 16:33:38,5,-8.595271,41.150239,32.33
+seg_29,taxi_driver_27,order_07,passenger_trip,central district,2016-06-16 16:34:21,6,-8.593868,41.150906,32.15
+seg_29,taxi_driver_27,order_07,passenger_trip,central district,2016-06-16 16:35:05,7,-8.592383,41.151786,32.12
+seg_29,taxi_driver_27,order_07,passenger_trip,central district,2016-06-16 16:35:49,8,-8.591126,41.154654,33.8
+seg_29,taxi_driver_27,order_07,passenger_trip,central district,2016-06-16 16:36:32,9,-8.58543,41.155554,34.04
+seg_29,taxi_driver_27,order_07,passenger_trip,central district,2016-06-16 16:37:16,10,-8.580664,41.156138,34.26
+seg_29,taxi_driver_27,order_07,passenger_trip,central district,2016-06-16 16:38:00,11,-8.578628,41.15792,32.99
+seg_30,taxi_driver_27,,cruising,central district,2016-06-16 16:38:00,0,-8.578628,41.15792,15.01
+seg_30,taxi_driver_27,,cruising,central district,2016-06-16 16:39:10,1,-8.580664,41.156138,16.81
+seg_30,taxi_driver_27,,cruising,central district,2016-06-16 16:40:21,2,-8.58543,41.155554,16.04
+seg_30,taxi_driver_27,,cruising,central district,2016-06-16 16:41:32,3,-8.591126,41.154654,16.52
+seg_30,taxi_driver_27,,cruising,central district,2016-06-16 16:42:43,4,-8.592383,41.151786,14.51
+seg_30,taxi_driver_27,,cruising,central district,2016-06-16 16:43:54,5,-8.593868,41.150906,14.0
+seg_30,taxi_driver_27,,cruising,central district,2016-06-16 16:45:05,6,-8.595271,41.150239,13.67
+seg_30,taxi_driver_27,,cruising,central district,2016-06-16 16:46:16,7,-8.598684,41.148226,14.88
+seg_30,taxi_driver_27,,cruising,central district,2016-06-16 16:47:27,8,-8.601953,41.147161,15.57
+seg_30,taxi_driver_27,,cruising,central district,2016-06-16 16:48:38,9,-8.605625,41.14676,17.06
+seg_30,taxi_driver_27,,cruising,central district,2016-06-16 16:49:49,10,-8.60811,41.147278,15.95
+seg_30,taxi_driver_27,,cruising,central district,2016-06-16 16:51:00,11,-8.610881,41.148079,15.61
+seg_31,taxi_driver_27,order_08,driving_to_pickup,central district,2016-06-16 16:51:00,0,-8.610881,41.148079,30.09
+seg_31,taxi_driver_27,order_08,driving_to_pickup,central district,2016-06-16 16:51:10,1,-8.610881,41.148079,32.04
+seg_31,taxi_driver_27,order_08,driving_to_pickup,central district,2016-06-16 16:51:21,2,-8.610881,41.148079,31.56
+seg_31,taxi_driver_27,order_08,driving_to_pickup,central district,2016-06-16 16:51:32,3,-8.610881,41.148079,30.87
+seg_31,taxi_driver_27,order_08,driving_to_pickup,central district,2016-06-16 16:51:43,4,-8.610881,41.148079,30.51
+seg_31,taxi_driver_27,order_08,driving_to_pickup,central district,2016-06-16 16:51:54,5,-8.610881,41.148079,29.78
+seg_31,taxi_driver_27,order_08,driving_to_pickup,central district,2016-06-16 16:52:05,6,-8.610881,41.148079,29.12
+seg_31,taxi_driver_27,order_08,driving_to_pickup,central district,2016-06-16 16:52:16,7,-8.610881,41.148079,30.61
+seg_31,taxi_driver_27,order_08,driving_to_pickup,central district,2016-06-16 16:52:27,8,-8.610881,41.148079,31.72
+seg_31,taxi_driver_27,order_08,driving_to_pickup,central district,2016-06-16 16:52:38,9,-8.610881,41.148079,32.32
+seg_31,taxi_driver_27,order_08,driving_to_pickup,central district,2016-06-16 16:52:49,10,-8.610881,41.148079,32.16
+seg_31,taxi_driver_27,order_08,driving_to_pickup,central district,2016-06-16 16:53:00,11,-8.610881,41.148079,29.99
+seg_32,taxi_driver_27,order_08,passenger_trip,central district,2016-06-16 16:53:00,0,-8.610881,41.148079,30.77
+seg_32,taxi_driver_27,order_08,passenger_trip,central district,2016-06-16 16:53:54,1,-8.610672,41.148718,32.22
+seg_32,taxi_driver_27,order_08,passenger_trip,central district,2016-06-16 16:54:49,2,-8.610548,41.149013,32.8
+seg_32,taxi_driver_27,order_08,passenger_trip,central district,2016-06-16 16:55:43,3,-8.609657,41.149124,30.77
+seg_32,taxi_driver_27,order_08,passenger_trip,central district,2016-06-16 16:56:38,4,-8.609491,41.149162,30.64
+seg_32,taxi_driver_27,order_08,passenger_trip,central district,2016-06-16 16:57:32,5,-8.609517,41.149376,29.4
+seg_32,taxi_driver_27,order_08,passenger_trip,central district,2016-06-16 16:58:27,6,-8.609495,41.149823,28.68
+seg_32,taxi_driver_27,order_08,passenger_trip,central district,2016-06-16 16:59:21,7,-8.609421,41.150163,30.43
+seg_32,taxi_driver_27,order_08,passenger_trip,central district,2016-06-16 17:00:16,8,-8.608911,41.150485,31.46
+seg_32,taxi_driver_27,order_08,passenger_trip,central district,2016-06-16 17:01:10,9,-8.607736,41.15026,31.68
+seg_32,taxi_driver_27,order_08,passenger_trip,central district,2016-06-16 17:02:05,10,-8.607671,41.150416,32.09
+seg_32,taxi_driver_27,order_08,passenger_trip,central district,2016-06-16 17:03:00,11,-8.606911,41.150982,31.06
+seg_33,taxi_driver_27,,cruising,central district,2016-06-16 17:03:00,0,-8.606911,41.150982,18.07
+seg_33,taxi_driver_27,,cruising,central district,2016-06-16 17:03:54,1,-8.607671,41.150416,19.95
+seg_33,taxi_driver_27,,cruising,central district,2016-06-16 17:04:49,2,-8.607736,41.15026,19.22
+seg_33,taxi_driver_27,,cruising,central district,2016-06-16 17:05:43,3,-8.608911,41.150485,18.75
+seg_33,taxi_driver_27,,cruising,central district,2016-06-16 17:06:38,4,-8.609421,41.150163,17.46
+seg_33,taxi_driver_27,,cruising,central district,2016-06-16 17:07:32,5,-8.609495,41.149823,16.45
+seg_33,taxi_driver_27,,cruising,central district,2016-06-16 17:08:27,6,-8.609517,41.149376,16.18
+seg_33,taxi_driver_27,,cruising,central district,2016-06-16 17:09:21,7,-8.609491,41.149162,17.38
+seg_33,taxi_driver_27,,cruising,central district,2016-06-16 17:10:16,8,-8.609657,41.149124,19.57
+seg_33,taxi_driver_27,,cruising,central district,2016-06-16 17:11:10,9,-8.610548,41.149013,19.79
+seg_33,taxi_driver_27,,cruising,central district,2016-06-16 17:12:05,10,-8.610672,41.148718,18.96
+seg_33,taxi_driver_27,,cruising,central district,2016-06-16 17:13:00,11,-8.610881,41.148079,18.31
+seg_34,taxi_driver_27,order_09,driving_to_pickup,central district,2016-06-16 17:13:00,0,-8.610881,41.148079,26.95
+seg_34,taxi_driver_27,order_09,driving_to_pickup,central district,2016-06-16 17:13:10,1,-8.610881,41.148079,27.0
+seg_34,taxi_driver_27,order_09,driving_to_pickup,central district,2016-06-16 17:13:21,2,-8.610881,41.148079,28.35
+seg_34,taxi_driver_27,order_09,driving_to_pickup,central district,2016-06-16 17:13:32,3,-8.610881,41.148079,27.3
+seg_34,taxi_driver_27,order_09,driving_to_pickup,central district,2016-06-16 17:13:43,4,-8.610881,41.148079,25.28
+seg_34,taxi_driver_27,order_09,driving_to_pickup,central district,2016-06-16 17:13:54,5,-8.610881,41.148079,24.78
+seg_34,taxi_driver_27,order_09,driving_to_pickup,central district,2016-06-16 17:14:05,6,-8.610881,41.148079,24.92
+seg_34,taxi_driver_27,order_09,driving_to_pickup,central district,2016-06-16 17:14:16,7,-8.610881,41.148079,25.95
+seg_34,taxi_driver_27,order_09,driving_to_pickup,central district,2016-06-16 17:14:27,8,-8.610881,41.148079,27.48
+seg_34,taxi_driver_27,order_09,driving_to_pickup,central district,2016-06-16 17:14:38,9,-8.610881,41.148079,27.29
+seg_34,taxi_driver_27,order_09,driving_to_pickup,central district,2016-06-16 17:14:49,10,-8.610881,41.148079,27.74
+seg_34,taxi_driver_27,order_09,driving_to_pickup,central district,2016-06-16 17:15:00,11,-8.610881,41.148079,26.37
+seg_35,taxi_driver_27,order_09,passenger_trip,central district,2016-06-16 17:15:00,0,-8.610881,41.148079,30.0
+seg_35,taxi_driver_27,order_09,passenger_trip,central district,2016-06-16 17:15:54,1,-8.609563,41.151368,30.81
+seg_35,taxi_driver_27,order_09,passenger_trip,central district,2016-06-16 17:16:49,2,-8.609754,41.154171,31.88
+seg_35,taxi_driver_27,order_09,passenger_trip,central district,2016-06-16 17:17:43,3,-8.605277,41.160511,30.95
+seg_35,taxi_driver_27,order_09,passenger_trip,central district,2016-06-16 17:18:38,4,-8.602766,41.162911,29.54
+seg_35,taxi_driver_27,order_09,passenger_trip,central district,2016-06-16 17:19:32,5,-8.597488,41.16607,28.09
+seg_35,taxi_driver_27,order_09,passenger_trip,central district,2016-06-16 17:20:27,6,-8.589091,41.16984,28.98
+seg_35,taxi_driver_27,order_09,passenger_trip,central district,2016-06-16 17:21:21,7,-8.584585,41.17436,29.23
+seg_35,taxi_driver_27,order_09,passenger_trip,central district,2016-06-16 17:22:16,8,-8.576567,41.1778,29.83
+seg_35,taxi_driver_27,order_09,passenger_trip,central district,2016-06-16 17:23:10,9,-8.573504,41.179424,31.06
+seg_35,taxi_driver_27,order_09,passenger_trip,central district,2016-06-16 17:24:05,10,-8.570912,41.17951,30.3
+seg_35,taxi_driver_27,order_09,passenger_trip,central district,2016-06-16 17:25:00,11,-8.568912,41.181022,29.64
+seg_36,taxi_driver_27,,cruising,central district,2016-06-16 17:25:00,0,-8.568912,41.181022,16.8
+seg_36,taxi_driver_27,,cruising,central district,2016-06-16 17:26:16,1,-8.570912,41.17951,17.75
+seg_36,taxi_driver_27,,cruising,central district,2016-06-16 17:27:32,2,-8.573504,41.179424,18.95
+seg_36,taxi_driver_27,,cruising,central district,2016-06-16 17:28:49,3,-8.576567,41.1778,17.92
+seg_36,taxi_driver_27,,cruising,central district,2016-06-16 17:30:05,4,-8.584585,41.17436,16.91
+seg_36,taxi_driver_27,,cruising,central district,2016-06-16 17:31:21,5,-8.589091,41.16984,15.76
+seg_36,taxi_driver_27,,cruising,central district,2016-06-16 17:32:38,6,-8.597488,41.16607,15.39
+seg_36,taxi_driver_27,,cruising,central district,2016-06-16 17:33:54,7,-8.602766,41.162911,16.94
+seg_36,taxi_driver_27,,cruising,central district,2016-06-16 17:35:10,8,-8.605277,41.160511,17.44
+seg_36,taxi_driver_27,,cruising,central district,2016-06-16 17:36:27,9,-8.609754,41.154171,18.57
+seg_36,taxi_driver_27,,cruising,central district,2016-06-16 17:37:43,10,-8.609563,41.151368,17.72
+seg_36,taxi_driver_27,,cruising,central district,2016-06-16 17:39:00,11,-8.610881,41.148079,16.73
+seg_37,taxi_driver_27,order_10,driving_to_pickup,central district,2016-06-16 17:39:00,0,-8.610881,41.148079,28.92
+seg_37,taxi_driver_27,order_10,driving_to_pickup,central district,2016-06-16 17:39:10,1,-8.610881,41.148079,30.27
+seg_37,taxi_driver_27,order_10,driving_to_pickup,central district,2016-06-16 17:39:21,2,-8.610881,41.148079,30.61
+seg_37,taxi_driver_27,order_10,driving_to_pickup,central district,2016-06-16 17:39:32,3,-8.610881,41.148079,29.91
+seg_37,taxi_driver_27,order_10,driving_to_pickup,central district,2016-06-16 17:39:43,4,-8.610881,41.148079,28.42
+seg_37,taxi_driver_27,order_10,driving_to_pickup,central district,2016-06-16 17:39:54,5,-8.610881,41.148079,27.35
+seg_37,taxi_driver_27,order_10,driving_to_pickup,central district,2016-06-16 17:40:05,6,-8.610881,41.148079,27.82
+seg_37,taxi_driver_27,order_10,driving_to_pickup,central district,2016-06-16 17:40:16,7,-8.610881,41.148079,28.49
+seg_37,taxi_driver_27,order_10,driving_to_pickup,central district,2016-06-16 17:40:27,8,-8.610881,41.148079,30.14
+seg_37,taxi_driver_27,order_10,driving_to_pickup,central district,2016-06-16 17:40:38,9,-8.610881,41.148079,30.5
+seg_37,taxi_driver_27,order_10,driving_to_pickup,central district,2016-06-16 17:40:49,10,-8.610881,41.148079,30.8
+seg_37,taxi_driver_27,order_10,driving_to_pickup,central district,2016-06-16 17:41:00,11,-8.610881,41.148079,28.56
+seg_38,taxi_driver_27,order_10,passenger_trip,central district,2016-06-16 17:41:00,0,-8.610881,41.148079,30.84
+seg_38,taxi_driver_27,order_10,passenger_trip,central district,2016-06-16 17:41:38,1,-8.610953,41.147775,32.47
+seg_38,taxi_driver_27,order_10,passenger_trip,central district,2016-06-16 17:42:16,2,-8.611109,41.146997,33.2
+seg_38,taxi_driver_27,order_10,passenger_trip,central district,2016-06-16 17:42:54,3,-8.611147,41.146816,32.74
+seg_38,taxi_driver_27,order_10,passenger_trip,central district,2016-06-16 17:43:32,4,-8.611267,41.146271,30.52
+seg_38,taxi_driver_27,order_10,passenger_trip,central district,2016-06-16 17:44:10,5,-8.611465,41.146048,30.12
+seg_38,taxi_driver_27,order_10,passenger_trip,central district,2016-06-16 17:44:49,6,-8.612439,41.145972,30.47
+seg_38,taxi_driver_27,order_10,passenger_trip,central district,2016-06-16 17:45:27,7,-8.61342,41.145877,30.38
+seg_38,taxi_driver_27,order_10,passenger_trip,central district,2016-06-16 17:46:05,8,-8.613562,41.145841,31.75
+seg_38,taxi_driver_27,order_10,passenger_trip,central district,2016-06-16 17:46:43,9,-8.613566,41.145807,32.72
+seg_38,taxi_driver_27,order_10,passenger_trip,central district,2016-06-16 17:47:21,10,-8.613503,41.145645,32.66
+seg_38,taxi_driver_27,order_10,passenger_trip,central district,2016-06-16 17:48:00,11,-8.613845,41.144862,31.56
+seg_39,taxi_driver_27,,cruising,central district,2016-06-16 17:48:00,0,-8.613845,41.144862,19.54
+seg_39,taxi_driver_27,,cruising,central district,2016-06-16 17:48:32,1,-8.613503,41.145645,20.42
+seg_39,taxi_driver_27,,cruising,central district,2016-06-16 17:49:05,2,-8.613566,41.145807,21.57
+seg_39,taxi_driver_27,,cruising,central district,2016-06-16 17:49:38,3,-8.613562,41.145841,20.73
+seg_39,taxi_driver_27,,cruising,central district,2016-06-16 17:50:10,4,-8.61342,41.145877,19.33
+seg_39,taxi_driver_27,,cruising,central district,2016-06-16 17:50:43,5,-8.612439,41.145972,18.99
+seg_39,taxi_driver_27,,cruising,central district,2016-06-16 17:51:16,6,-8.611465,41.146048,18.91
+seg_39,taxi_driver_27,,cruising,central district,2016-06-16 17:51:49,7,-8.611267,41.146271,19.23
+seg_39,taxi_driver_27,,cruising,central district,2016-06-16 17:52:21,8,-8.611147,41.146816,20.36
+seg_39,taxi_driver_27,,cruising,central district,2016-06-16 17:52:54,9,-8.611109,41.146997,21.77
+seg_39,taxi_driver_27,,cruising,central district,2016-06-16 17:53:27,10,-8.610953,41.147775,21.47
+seg_39,taxi_driver_27,,cruising,central district,2016-06-16 17:54:00,11,-8.610881,41.148079,19.32
+seg_40,taxi_driver_27,order_11,driving_to_pickup,central district,2016-06-16 17:54:00,0,-8.610881,41.148079,28.79
+seg_40,taxi_driver_27,order_11,driving_to_pickup,central district,2016-06-16 17:54:10,1,-8.610881,41.148079,29.36
+seg_40,taxi_driver_27,order_11,driving_to_pickup,central district,2016-06-16 17:54:21,2,-8.610881,41.148079,30.14
+seg_40,taxi_driver_27,order_11,driving_to_pickup,central district,2016-06-16 17:54:32,3,-8.610881,41.148079,30.09
+seg_40,taxi_driver_27,order_11,driving_to_pickup,central district,2016-06-16 17:54:43,4,-8.610881,41.148079,28.32
+seg_40,taxi_driver_27,order_11,driving_to_pickup,central district,2016-06-16 17:54:54,5,-8.610881,41.148079,26.78
+seg_40,taxi_driver_27,order_11,driving_to_pickup,central district,2016-06-16 17:55:05,6,-8.610881,41.148079,27.45
+seg_40,taxi_driver_27,order_11,driving_to_pickup,central district,2016-06-16 17:55:16,7,-8.610881,41.148079,27.57
+seg_40,taxi_driver_27,order_11,driving_to_pickup,central district,2016-06-16 17:55:27,8,-8.610881,41.148079,29.82
+seg_40,taxi_driver_27,order_11,driving_to_pickup,central district,2016-06-16 17:55:38,9,-8.610881,41.148079,30.47
+seg_40,taxi_driver_27,order_11,driving_to_pickup,central district,2016-06-16 17:55:49,10,-8.610881,41.148079,29.84
+seg_40,taxi_driver_27,order_11,driving_to_pickup,central district,2016-06-16 17:56:00,11,-8.610881,41.148079,28.12
+seg_41,taxi_driver_27,order_11,passenger_trip,central district,2016-06-16 17:56:00,0,-8.610881,41.148079,28.99
+seg_41,taxi_driver_27,order_11,passenger_trip,central district,2016-06-16 17:56:21,1,-8.610699,41.148645,30.08
+seg_41,taxi_driver_27,order_11,passenger_trip,central district,2016-06-16 17:56:43,2,-8.610559,41.148988,31.28
+seg_41,taxi_driver_27,order_11,passenger_trip,central district,2016-06-16 17:57:05,3,-8.61045,41.149199,30.5
+seg_41,taxi_driver_27,order_11,passenger_trip,central district,2016-06-16 17:57:27,4,-8.609657,41.149124,29.49
+seg_41,taxi_driver_27,order_11,passenger_trip,central district,2016-06-16 17:57:49,5,-8.609487,41.149138,28.37
+seg_41,taxi_driver_27,order_11,passenger_trip,central district,2016-06-16 17:58:10,6,-8.6095,41.149217,28.04
+seg_41,taxi_driver_27,order_11,passenger_trip,central district,2016-06-16 17:58:32,7,-8.609519,41.149471,28.44
+seg_41,taxi_driver_27,order_11,passenger_trip,central district,2016-06-16 17:58:54,8,-8.60944,41.150075,30.3
+seg_41,taxi_driver_27,order_11,passenger_trip,central district,2016-06-16 17:59:16,9,-8.609421,41.150163,30.75
+seg_41,taxi_driver_27,order_11,passenger_trip,central district,2016-06-16 17:59:38,10,-8.608911,41.150485,30.65
+seg_41,taxi_driver_27,order_11,passenger_trip,central district,2016-06-16 18:00:00,11,-8.60775,41.150227,28.72
+seg_42,taxi_driver_27,,cruising,central district,2016-06-16 18:00:00,0,-8.60775,41.150227,18.97
+seg_42,taxi_driver_27,,cruising,central district,2016-06-16 18:01:05,1,-8.610063,41.153502,20.29
+seg_42,taxi_driver_27,,cruising,central district,2016-06-16 18:02:10,2,-8.612001,41.154924,20.52
+seg_42,taxi_driver_27,,cruising,central district,2016-06-16 18:03:16,3,-8.613851,41.151475,19.55
+seg_42,taxi_driver_27,,cruising,central district,2016-06-16 18:04:21,4,-8.616082,41.147514,19.05
+seg_42,taxi_driver_27,,cruising,central district,2016-06-16 18:05:27,5,-8.616849,41.147133,17.54
+seg_42,taxi_driver_27,,cruising,central district,2016-06-16 18:06:32,6,-8.615771,41.146082,17.3
+seg_42,taxi_driver_27,,cruising,central district,2016-06-16 18:07:38,7,-8.616757,41.147105,19.06
+seg_42,taxi_driver_27,,cruising,central district,2016-06-16 18:08:43,8,-8.616214,41.147179,19.83
+seg_42,taxi_driver_27,,cruising,central district,2016-06-16 18:09:49,9,-8.613128,41.148277,20.7
+seg_42,taxi_driver_27,,cruising,central district,2016-06-16 18:10:54,10,-8.607999,41.148502,21.01
+seg_42,taxi_driver_27,,cruising,central district,2016-06-16 18:12:00,11,-8.603524,41.153261,19.99
+seg_43,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 18:12:00,0,-8.603524,41.153261,18.75
+seg_43,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 18:13:49,1,-8.606508,41.15098,19.79
+seg_43,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 18:15:38,2,-8.6017,41.148909,20.55
+seg_43,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 18:17:27,3,-8.599422,41.149445,18.89
+seg_43,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 18:19:16,4,-8.599003,41.151095,18.43
+seg_43,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 18:21:05,5,-8.596351,41.153365,17.16
+seg_43,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 18:22:54,6,-8.594882,41.155934,17.63
+seg_43,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 18:24:43,7,-8.593,41.159193,18.78
+seg_43,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 18:26:32,8,-8.589913,41.16351,19.22
+seg_43,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 18:28:21,9,-8.586968,41.166664,19.64
+seg_43,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 18:30:10,10,-8.581384,41.17011,19.9
+seg_43,taxi_driver_27,,cruising,eastern neighbourhood,2016-06-16 18:32:00,11,-8.577335,41.173189,18.17
+seg_44,taxi_driver_27,order_12,driving_to_pickup,eastern neighbourhood,2016-06-16 18:32:00,0,-8.577335,41.173189,28.4
+seg_44,taxi_driver_27,order_12,driving_to_pickup,eastern neighbourhood,2016-06-16 18:32:21,1,-8.577335,41.173189,29.67
+seg_44,taxi_driver_27,order_12,driving_to_pickup,eastern neighbourhood,2016-06-16 18:32:43,2,-8.577335,41.173189,30.54
+seg_44,taxi_driver_27,order_12,driving_to_pickup,eastern neighbourhood,2016-06-16 18:33:05,3,-8.577335,41.173189,29.05
+seg_44,taxi_driver_27,order_12,driving_to_pickup,eastern neighbourhood,2016-06-16 18:33:27,4,-8.577335,41.173189,27.67
+seg_44,taxi_driver_27,order_12,driving_to_pickup,eastern neighbourhood,2016-06-16 18:33:49,5,-8.577335,41.173189,27.69
+seg_44,taxi_driver_27,order_12,driving_to_pickup,eastern neighbourhood,2016-06-16 18:34:10,6,-8.577335,41.173189,27.16
+seg_44,taxi_driver_27,order_12,driving_to_pickup,eastern neighbourhood,2016-06-16 18:34:32,7,-8.577335,41.173189,28.61
+seg_44,taxi_driver_27,order_12,driving_to_pickup,eastern neighbourhood,2016-06-16 18:34:54,8,-8.577335,41.173189,29.83
+seg_44,taxi_driver_27,order_12,driving_to_pickup,eastern neighbourhood,2016-06-16 18:35:16,9,-8.577335,41.173189,30.27
+seg_44,taxi_driver_27,order_12,driving_to_pickup,eastern neighbourhood,2016-06-16 18:35:38,10,-8.577335,41.173189,28.99
+seg_44,taxi_driver_27,order_12,driving_to_pickup,eastern neighbourhood,2016-06-16 18:36:00,11,-8.577335,41.173189,28.99
+seg_45,taxi_driver_27,order_12,passenger_trip,eastern neighbourhood,2016-06-16 18:36:00,0,-8.577335,41.173189,33.03
+seg_45,taxi_driver_27,order_12,passenger_trip,eastern neighbourhood,2016-06-16 18:37:16,1,-8.580812,41.170594,34.33
+seg_45,taxi_driver_27,order_12,passenger_trip,eastern neighbourhood,2016-06-16 18:38:32,2,-8.585325,41.170219,34.67
+seg_45,taxi_driver_27,order_12,passenger_trip,eastern neighbourhood,2016-06-16 18:39:49,3,-8.589469,41.169658,33.59
+seg_45,taxi_driver_27,order_12,passenger_trip,eastern neighbourhood,2016-06-16 18:41:05,4,-8.59773,41.166003,32.4
+seg_45,taxi_driver_27,order_12,passenger_trip,eastern neighbourhood,2016-06-16 18:42:21,5,-8.601679,41.163742,31.2
+seg_45,taxi_driver_27,order_12,passenger_trip,eastern neighbourhood,2016-06-16 18:43:38,6,-8.604986,41.160862,31.24
+seg_45,taxi_driver_27,order_12,passenger_trip,eastern neighbourhood,2016-06-16 18:44:54,7,-8.61014,41.157233,32.34
+seg_45,taxi_driver_27,order_12,passenger_trip,eastern neighbourhood,2016-06-16 18:46:10,8,-8.612004,41.154878,33.66
+seg_45,taxi_driver_27,order_12,passenger_trip,eastern neighbourhood,2016-06-16 18:47:27,9,-8.613493,41.153343,34.13
+seg_45,taxi_driver_27,order_12,passenger_trip,eastern neighbourhood,2016-06-16 18:48:43,10,-8.623454,41.150515,34.04
+seg_45,taxi_driver_27,order_12,passenger_trip,eastern neighbourhood,2016-06-16 18:50:00,11,-8.6251,41.151967,33.43
+seg_46,taxi_driver_27,,cruising,central district,2016-06-16 18:50:00,0,-8.6251,41.151967,14.96
+seg_46,taxi_driver_27,,cruising,central district,2016-06-16 18:51:16,1,-8.62365,41.150627,16.66
+seg_46,taxi_driver_27,,cruising,central district,2016-06-16 18:52:32,2,-8.625803,41.148672,17.02
+seg_46,taxi_driver_27,,cruising,central district,2016-06-16 18:53:49,3,-8.628913,41.151264,16.16
+seg_46,taxi_driver_27,,cruising,central district,2016-06-16 18:55:05,4,-8.63081,41.15089,14.67
+seg_46,taxi_driver_27,,cruising,central district,2016-06-16 18:56:21,5,-8.628421,41.151025,14.02
+seg_46,taxi_driver_27,,cruising,central district,2016-06-16 18:57:38,6,-8.625271,41.148515,14.44
+seg_46,taxi_driver_27,,cruising,central district,2016-06-16 18:58:54,7,-8.622245,41.147467,14.68
+seg_46,taxi_driver_27,,cruising,central district,2016-06-16 19:00:10,8,-8.621848,41.147563,16.03
+seg_46,taxi_driver_27,,cruising,central district,2016-06-16 19:01:27,9,-8.618183,41.148072,16.58
+seg_46,taxi_driver_27,,cruising,central district,2016-06-16 19:02:43,10,-8.616495,41.149473,15.84
+seg_46,taxi_driver_27,,cruising,central district,2016-06-16 19:04:00,11,-8.614152,41.150981,14.83
+seg_47,taxi_driver_27,,cruising,western neighbourhood,2016-06-16 19:04:00,0,-8.614152,41.150981,19.72
+seg_47,taxi_driver_27,,cruising,western neighbourhood,2016-06-16 19:06:21,1,-8.613309,41.153798,20.65
+seg_47,taxi_driver_27,,cruising,western neighbourhood,2016-06-16 19:08:43,2,-8.617711,41.15603,20.88
+seg_47,taxi_driver_27,,cruising,western neighbourhood,2016-06-16 19:11:05,3,-8.618507,41.153618,20.95
+seg_47,taxi_driver_27,,cruising,western neighbourhood,2016-06-16 19:13:27,4,-8.617705,41.149109,19.45
+seg_47,taxi_driver_27,,cruising,western neighbourhood,2016-06-16 19:15:49,5,-8.619292,41.148689,18.6
+seg_47,taxi_driver_27,,cruising,western neighbourhood,2016-06-16 19:18:10,6,-8.620854,41.149539,18.95
+seg_47,taxi_driver_27,,cruising,western neighbourhood,2016-06-16 19:20:32,7,-8.624072,41.152918,19.59
+seg_47,taxi_driver_27,,cruising,western neighbourhood,2016-06-16 19:22:54,8,-8.628788,41.154601,20.34
+seg_47,taxi_driver_27,,cruising,western neighbourhood,2016-06-16 19:25:16,9,-8.630378,41.155349,21.08
+seg_47,taxi_driver_27,,cruising,western neighbourhood,2016-06-16 19:27:38,10,-8.632356,41.157612,20.97
+seg_47,taxi_driver_27,,cruising,western neighbourhood,2016-06-16 19:30:00,11,-8.637325,41.15809,20.01
+seg_48,taxi_driver_27,order_13,driving_to_pickup,western neighbourhood,2016-06-16 19:30:00,0,-8.637325,41.15809,28.86
+seg_48,taxi_driver_27,order_13,driving_to_pickup,western neighbourhood,2016-06-16 19:30:21,1,-8.637325,41.15809,29.89
+seg_48,taxi_driver_27,order_13,driving_to_pickup,western neighbourhood,2016-06-16 19:30:43,2,-8.637325,41.15809,30.08
+seg_48,taxi_driver_27,order_13,driving_to_pickup,western neighbourhood,2016-06-16 19:31:05,3,-8.637325,41.15809,29.92
+seg_48,taxi_driver_27,order_13,driving_to_pickup,western neighbourhood,2016-06-16 19:31:27,4,-8.637325,41.15809,27.34
+seg_48,taxi_driver_27,order_13,driving_to_pickup,western neighbourhood,2016-06-16 19:31:49,5,-8.637325,41.15809,26.6
+seg_48,taxi_driver_27,order_13,driving_to_pickup,western neighbourhood,2016-06-16 19:32:10,6,-8.637325,41.15809,27.48
+seg_48,taxi_driver_27,order_13,driving_to_pickup,western neighbourhood,2016-06-16 19:32:32,7,-8.637325,41.15809,27.97
+seg_48,taxi_driver_27,order_13,driving_to_pickup,western neighbourhood,2016-06-16 19:32:54,8,-8.637325,41.15809,29.24
+seg_48,taxi_driver_27,order_13,driving_to_pickup,western neighbourhood,2016-06-16 19:33:16,9,-8.637325,41.15809,30.26
+seg_48,taxi_driver_27,order_13,driving_to_pickup,western neighbourhood,2016-06-16 19:33:38,10,-8.637325,41.15809,29.52
+seg_48,taxi_driver_27,order_13,driving_to_pickup,western neighbourhood,2016-06-16 19:34:00,11,-8.637325,41.15809,28.04
+seg_49,taxi_driver_27,order_13,passenger_trip,western neighbourhood,2016-06-16 19:34:00,0,-8.637325,41.15809,34.79
+seg_49,taxi_driver_27,order_13,passenger_trip,western neighbourhood,2016-06-16 19:35:16,1,-8.632759,41.157923,35.72
+seg_49,taxi_driver_27,order_13,passenger_trip,western neighbourhood,2016-06-16 19:36:32,2,-8.630704,41.155802,36.48
+seg_49,taxi_driver_27,order_13,passenger_trip,western neighbourhood,2016-06-16 19:37:49,3,-8.630082,41.155351,35.87
+seg_49,taxi_driver_27,order_13,passenger_trip,western neighbourhood,2016-06-16 19:39:05,4,-8.627942,41.154536,34.95
+seg_49,taxi_driver_27,order_13,passenger_trip,western neighbourhood,2016-06-16 19:40:21,5,-8.624072,41.152918,33.54
+seg_49,taxi_driver_27,order_13,passenger_trip,western neighbourhood,2016-06-16 19:41:38,6,-8.616886,41.150189,33.58
+seg_49,taxi_driver_27,order_13,passenger_trip,western neighbourhood,2016-06-16 19:42:54,7,-8.616129,41.148475,33.94
+seg_49,taxi_driver_27,order_13,passenger_trip,western neighbourhood,2016-06-16 19:44:10,8,-8.615141,41.148009,36.38
+seg_49,taxi_driver_27,order_13,passenger_trip,western neighbourhood,2016-06-16 19:45:27,9,-8.613167,41.14828,36.39
+seg_49,taxi_driver_27,order_13,passenger_trip,western neighbourhood,2016-06-16 19:46:43,10,-8.610786,41.147815,36.25
+seg_49,taxi_driver_27,order_13,passenger_trip,western neighbourhood,2016-06-16 19:48:00,11,-8.608144,41.146972,35.28
+seg_50,taxi_driver_27,,cruising,central district,2016-06-16 19:48:00,0,-8.608144,41.146972,17.78
+seg_50,taxi_driver_27,,cruising,central district,2016-06-16 19:49:05,1,-8.604301,41.146488,19.55
+seg_50,taxi_driver_27,,cruising,central district,2016-06-16 19:50:10,2,-8.601918,41.146284,19.39
+seg_50,taxi_driver_27,,cruising,central district,2016-06-16 19:51:16,3,-8.60154,41.144506,18.74
+seg_50,taxi_driver_27,,cruising,central district,2016-06-16 19:52:21,4,-8.601516,41.145425,16.82
+seg_50,taxi_driver_27,,cruising,central district,2016-06-16 19:53:27,5,-8.602132,41.14699,17.15
+seg_50,taxi_driver_27,,cruising,central district,2016-06-16 19:54:32,6,-8.606807,41.147025,16.5
+seg_50,taxi_driver_27,,cruising,central district,2016-06-16 19:55:38,7,-8.611113,41.147867,17.3
+seg_50,taxi_driver_27,,cruising,central district,2016-06-16 19:56:43,8,-8.614242,41.148354,19.32
+seg_50,taxi_driver_27,,cruising,central district,2016-06-16 19:57:49,9,-8.614242,41.148354,19.27
+seg_50,taxi_driver_27,,cruising,central district,2016-06-16 19:58:54,10,-8.611062,41.14786,18.54
+seg_50,taxi_driver_27,,cruising,central district,2016-06-16 20:00:00,11,-8.608144,41.146972,18.09

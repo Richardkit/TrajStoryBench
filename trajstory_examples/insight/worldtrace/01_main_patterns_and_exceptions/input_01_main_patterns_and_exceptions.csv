@@ -1,0 +1,15 @@
+user_id,trajectory_id,owner,travel_mode,vehicle_class,start_time,temperature_2m_c,distance_meters,duration_seconds,points,start_region,end_region,start_region_coarse,end_region_coarse,source_trajectory_id
+user_032,4739000,sunnypilot,walking,compact,2022-08-02 10:44:09,26.9,713.2550718950956,2343.0,2344,Newark / Elizabeth,Newark / Elizabeth,NJ side,NJ side,4739000
+user_017,5491379,sunnypilot,walking,mid_size,2022-11-30 16:58:11,12.5,230.98999457370923,600.0,601,Westchester / North NYC,Westchester / North NYC,Westchester,Westchester,5491379
+user_012,5365320,sunnypilot,walking,mid_size,2022-11-16 07:41:09,9.2,888.2796713784901,2291.0,2292,Central Queens,Central Queens,Queens,Queens,5365320
+user_019,4812476,sunnypilot,walking,mid_size,2022-08-23 22:17:28,23.5,807.6363155741809,1596.0,1597,Bronx,Bronx,Bronx,Bronx,4812476
+user_022,5070417,sunnypilot,walking,mid_size,2022-10-07 00:44:37,13.3,265.0565045441416,498.0,499,Jersey City / Hoboken,Jersey City / Hoboken,NJ side,NJ side,5070417
+user_028,6304171,dragonpilot,car,large,2023-02-15 14:46:27,15.9,288.2458339991418,123.0,124,North Brooklyn,North Brooklyn,Brooklyn,Brooklyn,6304171
+user_007,5454891,sunnypilot,car,large,2022-11-27 01:18:23,6.5,582.1319997878484,228.0,229,Lower Manhattan,Lower Manhattan,Manhattan,Manhattan,5454891
+user_004,10827863,sunnypilot,car,mid_size,2023-10-04 23:11:11,16.4,299.2866341603666,117.0,118,North Queens,North Queens,Queens,Queens,10827863
+user_028,10872409,sunnypilot,car,large,2023-10-07 22:00:05,12.0,205.50951004609408,75.0,76,Downtown Brooklyn,Downtown Brooklyn,Brooklyn,Brooklyn,10872409
+user_024,6421656,sunnypilot,car,mid_size,2023-02-25 01:26:52,-4.0,254.91580522242452,93.0,94,South Staten Island,South Staten Island,Staten Island,Staten Island,6421656
+user_028,5373484,sunnypilot,car,large,2022-11-17 13:58:53,7.7,286.61942506865876,104.0,105,South Brooklyn,South Brooklyn,Brooklyn,Brooklyn,5373484
+user_002,4537999,sunnypilot,walking,large,2022-07-01 18:19:41,30.7,1968.97556806978,1632.0,1633,East Brooklyn,East Brooklyn,Brooklyn,Brooklyn,4537999
+user_043,5082645,sunnypilot,car,compact,2022-10-08 04:53:35,11.4,19192.467757880022,600.0,601,West Nassau / Long Island,East Long Island edge,Long Island,Long Island,5082645
+user_023,5690633,sunnypilot,car,compact,2022-12-21 06:37:13,-3.8,19015.66158415556,600.0,601,West Nassau / Long Island,East Long Island edge,Long Island,Long Island,5690633

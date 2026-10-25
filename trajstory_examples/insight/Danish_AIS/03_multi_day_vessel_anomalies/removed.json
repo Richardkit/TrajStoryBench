@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "goal": "Analyze the repeated passages of one vessel through the same maritime corridor over multiple days and identify possible trajectory anomalies.",
+    "role": "Maritime trajectory analyst",
+    "category": "Maritime corridor and vessel behavior",
+    "dataset_description": "The main table contains four days of eastbound and westbound AIS-like trajectory segments for one cargo vessel in a constructed Fehmarn Belt corridor. The secondary table contains stable vessel attributes.",
+    "header": "Multi-day Vessel Passage and Trajectory Anomalies"
+  },
+  "insight_list": [
+    {
+      "data_type": "anomaly",
+      "insight": "On the eastbound trajectory beginning on 2026-07-22 at 06:00, the vessel reaches the recurring turn point near 54.660°N, 10.980°E at point index 5 (06:30) but does not make the expected north-east course change observed in the other eastbound passages.",
+      "question": "At the recurring turn near 54.660°N, 10.980°E, does the eastbound passage on 2026-07-22 change course as the other eastbound passages do?",
+    },
+    {
+      "data_type": "anomaly",
+      "insight": "After missing the expected turn, the 2026-07-22 eastbound trajectory makes a distinct corrective turn around point index 20 (08:00) and then rejoins the typical corridor. The resulting off-center section is limited to a small part of the complete passage.",
+      "question": "How does the 2026-07-22 eastbound trajectory recover after passing the recurring turn without changing course?",
+    },
+    {
+      "data_type": "anomaly",
+      "insight": "On the westbound trajectory beginning on 2026-07-21 at 18:00, the vessel leaves the main corridor near the central bend, spends several observations on a separated path with speeds close to 1 knot, and then returns to the corridor and resumes normal forward movement.",
+      "question": "Does any repeated passage leave the main corridor and lose most of its forward speed before returning to normal movement?",
+    }
+  ],
+  "insights": [
+    "On the eastbound trajectory beginning on 2026-07-22 at 06:00, the vessel reaches the recurring turn point near 54.660°N, 10.980°E at point index 5 (06:30) but does not make the expected north-east course change observed in the other eastbound passages.",
+    "After missing the expected turn, the 2026-07-22 eastbound trajectory makes a distinct corrective turn around point index 20 (08:00) and then rejoins the typical corridor. The resulting off-center section is limited to a small part of the complete passage.",
+    "On the westbound trajectory beginning on 2026-07-21 at 18:00, the vessel leaves the main corridor near the central bend, spends several observations on a separated path with speeds close to 1 knot, and then returns to the corridor and resumes normal forward movement."
+  ],
+  "summary": "Across four days of repeated eastbound and westbound passages by one vessel, most trajectories follow the same corridor geometry. One eastbound passage misses a recurring turn and later corrects its course, while another westbound passage temporarily leaves the corridor, slows substantially, and then resumes the normal route."
+}

@@ -1,0 +1,196 @@
+{
+  "scope": "MTL Trajet ex10, data/text/plot consistency and insight evidence; no external road-map validation",
+  "checks": {
+    "no_missing_values": true,
+    "unique_ids": true,
+    "foreign_keys": true,
+    "weekday_labels": true,
+    "point_order_and_shared_fields": true,
+    "time_boundaries_and_speed_statistics": true,
+    "derived_values": true,
+    "json_sync": true,
+    "paths_resolve": true,
+    "schema_sync": true,
+    "notebook_insights": true,
+    "notebook_goal_summary": true,
+    "embedded_pngs_match": true,
+    "builder_reproduces_csv": true,
+    "existing_rows_preserved": true,
+    "exactly_requested_additions": true,
+    "ranges_preserved": true,
+    "plot_reproduction": true,
+    "insight_1": true,
+    "insight_2": true,
+    "insight_3": true,
+    "bus_stable": true
+  },
+  "max_numeric_errors": {
+    "local_distance_km": 0.0005848543672684059,
+    "segment_speed_kmh": 7.417494884975895e-08,
+    "duration_minutes": 2.4288127065119625e-11,
+    "point_speed_aggregates": 7.105427357601002e-15
+  },
+  "mean_speed_by_temperature": {
+    "cycling": {
+      "5": 14.6,
+      "10": 14.4,
+      "15": 14.3,
+      "20": 14.05,
+      "25": 13.9,
+      "30": 13.85,
+      "35": 13.6
+    },
+    "motor_vehicle": {
+      "5": 20.8,
+      "10": 21.5,
+      "15": 22.9,
+      "20": 24.2,
+      "25": 25.1,
+      "30": 26.8,
+      "35": 28.0
+    },
+    "public_transit": {
+      "5": 20.5,
+      "10": 20.5,
+      "15": 20.5,
+      "20": 20.5,
+      "25": 20.5,
+      "30": 20.5,
+      "35": 20.5
+    },
+    "walking": {
+      "5": 4.8,
+      "10": 4.75,
+      "15": 4.65,
+      "20": 4.55,
+      "25": 4.52,
+      "30": 4.4,
+      "35": 4.35
+    }
+  },
+  "mode_shares": {
+    "cycling": {
+      "5": 0.13636363636363635,
+      "10": 0.13636363636363635,
+      "15": 0.1,
+      "20": 0.1,
+      "25": 0.1,
+      "30": 0.1,
+      "35": 0.1
+    },
+    "motor_vehicle": {
+      "5": 0.5909090909090909,
+      "10": 0.5227272727272727,
+      "15": 0.5,
+      "20": 0.425,
+      "25": 0.375,
+      "30": 0.375,
+      "35": 0.55
+    },
+    "public_transit": {
+      "5": 0.18181818181818182,
+      "10": 0.22727272727272727,
+      "15": 0.3,
+      "20": 0.35,
+      "25": 0.375,
+      "30": 0.4,
+      "35": 0.3
+    },
+    "walking": {
+      "5": 0.09090909090909091,
+      "10": 0.11363636363636363,
+      "15": 0.1,
+      "20": 0.125,
+      "25": 0.15,
+      "30": 0.125,
+      "35": 0.05
+    }
+  },
+  "low_temperature_distance_ranges": {
+    "cycling": {
+      "count": 12,
+      "min": 0.455,
+      "max": 2.448
+    },
+    "motor_vehicle": {
+      "count": 49,
+      "min": 0.923,
+      "max": 4.892
+    },
+    "public_transit": {
+      "count": 18,
+      "min": 0.877,
+      "max": 3.491
+    },
+    "walking": {
+      "count": 9,
+      "min": 0.835,
+      "max": 1.605
+    }
+  },
+  "shared_distance_range_km": [
+    0.923,
+    1.605
+  ],
+  "quality": {
+    "cycling": {
+      "n": 32,
+      "unique_mean_speeds": 32,
+      "temperature_speed_pearson": -0.47754896144678305
+    },
+    "motor_vehicle": {
+      "n": 138,
+      "unique_mean_speeds": 138,
+      "temperature_speed_pearson": 0.8448378702965175
+    },
+    "public_transit": {
+      "n": 87,
+      "unique_mean_speeds": 87,
+      "temperature_speed_pearson": 3.169457209188127e-09
+    },
+    "walking": {
+      "n": 31,
+      "unique_mean_speeds": 31,
+      "temperature_speed_pearson": -0.42011588846504466
+    }
+  },
+  "sampling": {
+    "points_per_trajectory": [
+      12,
+      34,
+      51,
+      53,
+      71,
+      73,
+      81,
+      125
+    ],
+    "max_segment_km": 0.5222689608209098,
+    "minimum_time_step_seconds": 0.124284847
+  },
+  "notes": [
+    "Temperature remains the existing seven discrete groups. Low-temperature walking and cycling samples increased to 9 and 12, with ranges retained.",
+    "Average point speed is not distance divided by elapsed time.",
+    "No CSV, insight, plot or notebook modified by this audit."
+  ],
+  "additional_review": {
+    "pre_schema_motor_share_30c": {
+      "status": "mismatch",
+      "specified": 0.4,
+      "observed": 0.375,
+      "count": 15,
+      "denominator": 40,
+      "affects_current_insights": false
+    },
+    "trajectory_progress_endpoints": {
+      "status": "within_floating_point_tolerance",
+      "max_endpoint_error": 4.44e-16
+    },
+    "fig3_case_counts": {
+      "trajectories": 288,
+      "gps_points": 3973,
+      "status": "passed"
+    },
+    "overall": "Current data and insights agree; one legacy pre-schema numeric requirement differs from actual data. No case data modified."
+  }
+}

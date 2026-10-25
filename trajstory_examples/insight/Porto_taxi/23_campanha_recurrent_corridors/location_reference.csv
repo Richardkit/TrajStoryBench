@@ -1,0 +1,4 @@
+location_id,display_alias,real_name,longitude,latitude,role
+origin,Campanhã Station,Campanhã Station,-8.5855,41.1488,common origin
+place_A,place A,Freixo Marina area,-8.5593,41.1411,eastern corridor destination
+place_B,place B,Shopping Cidade do Porto area,-8.6303,41.158,western corridor destination

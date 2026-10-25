@@ -1,0 +1,125 @@
+{
+  "dataset_csv_path": "trajectories.csv",
+  "user_dataset_csv_path": "trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajectory_points.csv",
+      "role": "Timestamped GPS trajectory points linked by trajectory_id"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze mobility patterns associated with pick-up and drop-off activities.",
+    "role": "Urban mobility-pattern analyst",
+    "category": "Complete daily histories for users with pick-up/drop-off activity, including ordered chain legs, activities, modes, follow-up gaps, destination areas, GPS positions, and point speeds.",
+    "header": "MTL Trajet: 21 Pickup Dropoff Daily Chains",
+    "dataset_description": "Complete daily histories for users with pick-up/drop-off activity, including ordered chain legs, activities, modes, follow-up gaps, destination areas, GPS positions, and point speeds.",
+    "metric_note": "Distances are calculated from delivered GPS polylines; average point speed and duration are synchronized with the point table. Montréal's long island axis runs approximately southwest–northeast, so signed axis displacement summarizes the dominant travel direction."
+  },
+  "insight_list": [
+    {
+      "data_type": "morning_pudo_followup",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Morning Pick-up/Drop-off and Work Follow-up",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/morning_pudo_followup_work.png"
+      },
+      "question": "Are morning pick-up/drop-off trips short and motorized, and what follows them?",
+      "code": "df[df.pickup_dropoff_period.eq('morning')].groupby('mode_group').size(); df[df.pickup_dropoff_period.eq('morning')][['distance_km','next_departure_gap_minutes','next_trip_purpose']]",
+      "insight": "Morning pick-up/drop-off trips are mostly motorized, relatively short, and often followed by longer work trips departing soon from the same area.",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 6,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trip_purpose",
+        "trajectory_timestamp",
+        "user_id",
+        "trajectory_id",
+        "transport_mode",
+        "gps_position"
+      ]
+    },
+    {
+      "data_type": "afternoon_pudo_followup",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Afternoon Pick-up/Drop-off Chain Position",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/afternoon_pudo_chain_position.png"
+      },
+      "question": "Where do afternoon pick-up/drop-off trips occur in daily chains and what follows them?",
+      "code": "df[df.pickup_dropoff_period.eq('afternoon')].groupby(['leg_index','next_trip_purpose']).size()",
+      "insight": "Afternoon pick-up/drop-off trips occur later in daily chains and are more often followed by return-home trips than additional work travel.",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trip_purpose",
+        "trajectory_timestamp",
+        "user_id",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "repeated_pudo_daily_variation",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Repeated PUDO Windows and Daily Variation",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/repeated_pudo_windows_daily_variation.png"
+      },
+      "question": "Do repeated users retain similar pick-up/drop-off windows and areas while the rest of their day varies?",
+      "code": "df[df.is_pickup_dropoff].groupby(['user_id','pickup_dropoff_period'])[['start_hour','user_period_destination_spread_km']].agg(['std','max']); df.groupby(['user_id','chain_id']).first().daily_non_pudo_distance_km",
+      "insight": "Users with repeated pick-up/drop-off days keep similar departure windows and destination areas, while their remaining daily routes vary.",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "user_id",
+        "trajectory_timestamp",
+        "trajectory_id",
+        "trip_purpose",
+        "gps_position"
+      ]
+    },
+    {
+      "data_type": "active_pudo_exception",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Active-mode Pick-up/Drop-off Exceptions",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/active_pudo_exceptions.png"
+      },
+      "question": "Which pick-up/drop-off trips use active modes without an immediate motorized follow-up?",
+      "code": "df[df.is_active_exception][['mode_group','distance_km','next_departure_gap_minutes','immediate_motorized_followup']]",
+      "insight": "A few pick-up/drop-off trips use walking or cycling within mixed-use areas and are not followed by an immediate motorized trip.",
+      "insight_type": "exception_deviation",
+      "difficulty_level": 6,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trip_purpose",
+        "trajectory_timestamp",
+        "user_id",
+        "trajectory_id",
+        "transport_mode",
+        "gps_position"
+      ]
+    }
+  ],
+  "insights": [
+    "Morning pick-up/drop-off trips are mostly motorized, relatively short, and often followed by longer work trips departing soon from the same area.",
+    "Afternoon pick-up/drop-off trips occur later in daily chains and are more often followed by return-home trips than additional work travel.",
+    "Users with repeated pick-up/drop-off days keep similar departure windows and destination areas, while their remaining daily routes vary.",
+    "A few pick-up/drop-off trips use walking or cycling within mixed-use areas and are not followed by an immediate motorized trip."
+  ],
+  "summary": "Morning pick-up/drop-off is short and predominantly motorized; most, but not all, are promptly followed from the same area by longer work travel. Afternoon pick-up/drop-off occurs later and usually precedes home; repeat users retain stable PUDO windows and areas despite variation elsewhere in the day, with six delayed active-mode exceptions.",
+  "evidence_policy": "Claims describe patterns in this controlled constructed dataset and do not establish causal relationships."
+}

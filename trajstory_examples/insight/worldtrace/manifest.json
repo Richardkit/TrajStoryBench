@@ -1,0 +1,213 @@
+{
+  "format": "trajstory-insight-v0.1",
+  "cases": [
+    {
+      "case_id": "01_main_patterns_and_exceptions",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/01_main_patterns_and_exceptions/01_main_patterns_and_exceptions.csv",
+      "trajectory_points_path": "trajstory_examples/insight/worldtrace/01_main_patterns_and_exceptions/01_main_patterns_and_exceptions_points.csv",
+      "trajectory_count": 14,
+      "trajectory_points": 10914,
+      "category": "Main Patterns and Exceptions",
+      "insight_json": "trajstory_examples/insight/worldtrace/01_main_patterns_and_exceptions/insight.json"
+    },
+    {
+      "case_id": "02_user_consistency_and_variation",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/02_user_consistency_and_variation/02_user_consistency_and_variation_points.csv",
+      "trajectory_count": 18,
+      "category": "User Consistency and Variation",
+      "insight_json": "trajstory_examples/insight/worldtrace/02_user_consistency_and_variation/insight.json"
+    },
+    {
+      "case_id": "03_unusual_trajectories",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/03_unusual_trajectories/03_unusual_trajectories.csv",
+      "trajectory_count": 24,
+      "category": "Unusual Trajectories",
+      "insight_json": "trajstory_examples/insight/worldtrace/03_unusual_trajectories/insight.json"
+    },
+    {
+      "case_id": "04_geographic_group_differences",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/04_geographic_group_differences/04_geographic_group_differences.csv",
+      "trajectory_count": 16,
+      "category": "Geographic Group Differences",
+      "insight_json": "trajstory_examples/insight/worldtrace/04_geographic_group_differences/insight.json"
+    },
+    {
+      "case_id": "05_context_conditioned_patterns",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/05_context_conditioned_patterns/05_context_conditioned_patterns.csv",
+      "trajectory_count": 64,
+      "category": "Time-Conditioned Trajectory Characteristics",
+      "insight_json": "trajstory_examples/insight/worldtrace/05_context_conditioned_patterns/insight.json",
+      "trajectory_points_path": "trajstory_examples/insight/worldtrace/05_context_conditioned_patterns/trajectory_points.csv",
+      "trajectory_points": 3650
+    },
+    {
+      "case_id": "06_user_normal_pattern_and_anomaly",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/06_user_normal_pattern_and_anomaly/06_user_normal_pattern_and_anomaly_points.csv",
+      "trajectory_count": 40,
+      "category": "User Normal Pattern and Anomaly",
+      "insight_json": "trajstory_examples/insight/worldtrace/06_user_normal_pattern_and_anomaly/insight.json"
+    },
+    {
+      "case_id": "07_weather_conditioned_user_behavior",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/07_weather_conditioned_user_behavior/07_weather_conditioned_user_behavior.csv",
+      "trajectory_count": 68,
+      "category": "Weather-Conditioned User Behavior",
+      "insight_json": "trajstory_examples/insight/worldtrace/07_weather_conditioned_user_behavior/insight.json"
+    },
+    {
+      "case_id": "08_repeated_route_choice_tradeoffs",
+      "insight_json": "trajstory_examples/insight/worldtrace/08_repeated_route_choice_tradeoffs/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/08_repeated_route_choice_tradeoffs/08_repeated_route_choice_tradeoffs.csv",
+      "trajectory_points_path": "trajstory_examples/insight/worldtrace/08_repeated_route_choice_tradeoffs/08_repeated_route_choice_tradeoffs_points.csv"
+    },
+    {
+      "case_id": "09_trip_movement_changes",
+      "insight_json": "trajstory_examples/insight/worldtrace/09_trip_movement_changes/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/09_trip_movement_changes/09_trip_movement_changes.csv"
+    },
+    {
+      "case_id": "10_multi_user_commuting_route_convergence",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/10_multi_user_commuting_route_convergence/trajectories.csv",
+      "trajectory_points_path": "trajstory_examples/insight/worldtrace/10_multi_user_commuting_route_convergence/trajectory_points.csv",
+      "trajectory_count": 120,
+      "trajectory_points": 4080,
+      "category": "Multi-User Commuting Route Convergence",
+      "insight_json": "trajstory_examples/insight/worldtrace/10_multi_user_commuting_route_convergence/insight.json"
+    },
+    {
+      "case_id": "11_new_location_mobility_patterns",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/11_new_location_mobility_patterns/trajectories.csv",
+      "trajectory_points_path": "trajstory_examples/insight/worldtrace/11_new_location_mobility_patterns/trajectory_points.csv",
+      "trajectory_count": 250,
+      "trajectory_points": 17180,
+      "category": "Exploration and preferential return",
+      "insight_json": "trajstory_examples/insight/worldtrace/11_new_location_mobility_patterns/insight.json"
+    },
+    {
+      "case_id": "12_new_location_visit_regularities",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/12_new_location_visit_regularities/trajectories.csv",
+      "trajectory_points_path": "trajstory_examples/insight/worldtrace/12_new_location_visit_regularities/trajectory_points.csv",
+      "trajectory_count": 240,
+      "trajectory_points": 16370,
+      "category": "Exploration bursts, familiarity, speed, and directness",
+      "insight_json": "trajstory_examples/insight/worldtrace/12_new_location_visit_regularities/insight.json"
+    },
+    {
+      "case_id": "13_individual_route_regularity_and_heat_exception",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/13_individual_route_regularity_and_heat_exception/trajectories.csv",
+      "trajectory_points_path": "trajstory_examples/insight/worldtrace/13_individual_route_regularity_and_heat_exception/trajectory_points.csv",
+      "trajectory_count": 216,
+      "trajectory_points": 16767,
+      "category": "Repeated routes, irregular timing, shared speed pattern, and heat exception",
+      "insight_json": "trajstory_examples/insight/worldtrace/13_individual_route_regularity_and_heat_exception/insight.json"
+    },
+    {
+      "case_id": "14_direction_time_mode_concentration",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/14_direction_time_mode_concentration/trajectories.csv",
+      "trajectory_points_path": "trajstory_examples/insight/worldtrace/14_direction_time_mode_concentration/trajectory_points.csv",
+      "trajectory_count": 100,
+      "trajectory_points": 6629,
+      "category": "Directional concentration and mode preference",
+      "insight_json": "trajstory_examples/insight/worldtrace/14_direction_time_mode_concentration/insight.json"
+    },
+    {
+      "case_id": "15_vehicle_type_trajectory_variations",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/15_vehicle_type_trajectory_variations/trajectories.csv",
+      "trajectory_points_path": "trajstory_examples/insight/worldtrace/15_vehicle_type_trajectory_variations/trajectory_points.csv",
+      "trajectory_count": 180,
+      "trajectory_points": 12204,
+      "category": "Vehicle size, geometry, speed stability, GPS alignment, and temperature",
+      "insight_json": "trajstory_examples/insight/worldtrace/15_vehicle_type_trajectory_variations/insight.json"
+    },
+    {
+      "case_id": "16_weather_and_mode_mobility_patterns",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/16_weather_and_mode_mobility_patterns/trajectories.csv",
+      "trajectory_points_path": "trajstory_examples/insight/worldtrace/16_weather_and_mode_mobility_patterns/trajectory_points.csv",
+      "trajectory_count": 320,
+      "trajectory_points": 16312,
+      "category": "Weather, mode choice, distance, speed, and GPS alignment",
+      "insight_json": "trajstory_examples/insight/worldtrace/16_weather_and_mode_mobility_patterns/insight.json"
+    },
+    {
+      "case_id": "17_environmental_condition_travel_behavior",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/17_environmental_condition_travel_behavior/trajectories.csv",
+      "trajectory_points_path": "trajstory_examples/insight/worldtrace/17_environmental_condition_travel_behavior/trajectory_points.csv",
+      "trajectory_count": 700,
+      "trajectory_points": 48062,
+      "category": "Distance-conditioned weather speed gaps, turn reductions, and spatial extent",
+      "insight_json": "trajstory_examples/insight/worldtrace/17_environmental_condition_travel_behavior/insight.json"
+    },
+    {
+      "case_id": "18_movement_efficiency_and_stability",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/18_movement_efficiency_and_stability/trajectories.csv",
+      "trajectory_points_path": "trajstory_examples/insight/worldtrace/18_movement_efficiency_and_stability/trajectory_points.csv",
+      "trajectory_count": 243,
+      "trajectory_points": 16793,
+      "category": "Peak period, vehicle size, speed stability, and detour exceptions",
+      "insight_json": "trajstory_examples/insight/worldtrace/18_movement_efficiency_and_stability/insight.json"
+    },
+    {
+      "case_id": "19_acceleration_braking_and_gps_exceptions",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/19_acceleration_braking_and_gps_exceptions/trajectories.csv",
+      "trajectory_points_path": "trajstory_examples/insight/worldtrace/19_acceleration_braking_and_gps_exceptions/trajectory_points.csv",
+      "trajectory_count": 180,
+      "trajectory_points": 67050,
+      "category": "Spatial braking clusters and positioning-error exceptions",
+      "insight_json": "trajstory_examples/insight/worldtrace/19_acceleration_braking_and_gps_exceptions/insight.json"
+    },
+    {
+      "case_id": "20_weekday_weekend_mode_patterns",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/20_weekday_weekend_mode_patterns/trajectories.csv",
+      "trajectory_points_path": "trajstory_examples/insight/worldtrace/20_weekday_weekend_mode_patterns/trajectory_points.csv",
+      "trajectory_count": 400,
+      "trajectory_points": 42690,
+      "category": "Day type, travel mode, time, distance, and spatial extent",
+      "insight_json": "trajstory_examples/insight/worldtrace/20_weekday_weekend_mode_patterns/insight.json"
+    },
+    {
+      "case_id": "21_recurrent_corridor_directional_efficiency",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/21_recurrent_corridor_directional_efficiency/trajectories.csv",
+      "trajectory_points_path": "trajstory_examples/insight/worldtrace/21_recurrent_corridor_directional_efficiency/trajectory_points.csv",
+      "trajectory_count": 200,
+      "trajectory_points": 80044,
+      "category": "Repeated corridor geometry, directional efficiency, and exceptions",
+      "insight_json": "trajstory_examples/insight/worldtrace/21_recurrent_corridor_directional_efficiency/insight.json"
+    },
+    {
+      "case_id": "22_weather_temperature_mode_spatial_patterns",
+      "insight_json": "trajstory_examples/insight/worldtrace/22_weather_temperature_mode_spatial_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/22_weather_temperature_mode_spatial_patterns/trajectories.csv",
+      "trajectory_points_path": "trajstory_examples/insight/worldtrace/22_weather_temperature_mode_spatial_patterns/trajectory_points.csv",
+      "trajectory_count": 244,
+      "trajectory_points": 14153,
+      "category": "22_weather_temperature_mode_spatial_patterns"
+    },
+    {
+      "case_id": "23_vehicle_turning_positioning_quality",
+      "insight_json": "trajstory_examples/insight/worldtrace/23_vehicle_turning_positioning_quality/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/23_vehicle_turning_positioning_quality/trajectories.csv",
+      "trajectory_points_path": "trajstory_examples/insight/worldtrace/23_vehicle_turning_positioning_quality/trajectory_points.csv",
+      "trajectory_count": 214,
+      "trajectory_points": 14567,
+      "category": "23_vehicle_turning_positioning_quality"
+    },
+    {
+      "case_id": "24_mode_distance_travel_efficiency",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/24_mode_distance_travel_efficiency/trajectories.csv",
+      "trajectory_points_path": "trajstory_examples/insight/worldtrace/24_mode_distance_travel_efficiency/trajectory_points.csv",
+      "trajectory_count": 172,
+      "trajectory_points": 26020,
+      "category": "Travel mode, distance, travel time, and short-trip exceptions",
+      "insight_json": "trajstory_examples/insight/worldtrace/24_mode_distance_travel_efficiency/insight.json"
+    },
+    {
+      "case_id": "25_daily_chain_mode_weather_structure",
+      "dataset_csv_path": "trajstory_examples/insight/worldtrace/25_daily_chain_mode_weather_structure/trajectories.csv",
+      "trajectory_points_path": "trajstory_examples/insight/worldtrace/25_daily_chain_mode_weather_structure/trajectory_points.csv",
+      "trajectory_count": 168,
+      "trajectory_points": 26093,
+      "category": "Daily trip chains, mode allocation, weather, temperature, and route replacement",
+      "insight_json": "trajstory_examples/insight/worldtrace/25_daily_chain_mode_weather_structure/insight.json"
+    }
+  ]
+}

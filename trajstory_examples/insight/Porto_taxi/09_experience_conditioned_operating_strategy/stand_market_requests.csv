@@ -1,0 +1,266 @@
+market_request_id,service_date,day_type,experience_period,request_time,time_period,stand_id,stand_name,region,taxi_id,request_source
+market_2026-06-02_x_0,2026-06-02,Tuesday,early,2026-06-02 20:00:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_00,taxi_stand
+market_2026-06-02_x_1,2026-06-02,Tuesday,early,2026-06-02 20:12:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_01,taxi_stand
+market_2026-06-02_x_2,2026-06-02,Tuesday,early,2026-06-02 20:24:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_02,taxi_stand
+evening18_2026-06-02_00,2026-06-02,Tuesday,early,2026-06-02T18:21:39.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_00,taxi_stand
+evening18_2026-06-02_01,2026-06-02,Tuesday,early,2026-06-02T18:34:59.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_01,taxi_stand
+market_2026-06-05_19_0,2026-06-05,Friday,early,2026-06-05 19:00:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_00,taxi_stand
+market_2026-06-05_19_2,2026-06-05,Friday,early,2026-06-05 19:06:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_02,taxi_stand
+market_2026-06-05_19_3,2026-06-05,Friday,early,2026-06-05 19:09:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_03,taxi_stand
+market_2026-06-05_19_4,2026-06-05,Friday,early,2026-06-05 19:12:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_04,taxi_stand
+market_2026-06-05_19_5,2026-06-05,Friday,early,2026-06-05 19:15:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_05,taxi_stand
+market_2026-06-05_19_6,2026-06-05,Friday,early,2026-06-05 19:18:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_06,taxi_stand
+market_2026-06-05_19_7,2026-06-05,Friday,early,2026-06-05 19:21:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_07,taxi_stand
+market_2026-06-05_19_8,2026-06-05,Friday,early,2026-06-05 19:24:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_08,taxi_stand
+market_2026-06-05_19_9,2026-06-05,Friday,early,2026-06-05 19:27:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_09,taxi_stand
+market_2026-06-05_19_11,2026-06-05,Friday,early,2026-06-05 19:33:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_11,taxi_stand
+market_2026-06-05_19_12,2026-06-05,Friday,early,2026-06-05 19:36:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_12,taxi_stand
+market_2026-06-05_19_13,2026-06-05,Friday,early,2026-06-05 19:39:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_13,taxi_stand
+market_2026-06-05_19_14,2026-06-05,Friday,early,2026-06-05 19:42:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_14,taxi_stand
+market_2026-06-05_19_15,2026-06-05,Friday,early,2026-06-05 19:45:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_15,taxi_stand
+market_2026-06-05_20_0,2026-06-05,Friday,early,2026-06-05 20:00:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_00,taxi_stand
+market_2026-06-05_20_1,2026-06-05,Friday,early,2026-06-05 20:03:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_01,taxi_stand
+market_2026-06-05_20_2,2026-06-05,Friday,early,2026-06-05 20:06:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_02,taxi_stand
+market_2026-06-05_20_3,2026-06-05,Friday,early,2026-06-05 20:09:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_03,taxi_stand
+market_2026-06-05_20_4,2026-06-05,Friday,early,2026-06-05 20:12:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_04,taxi_stand
+market_2026-06-05_20_5,2026-06-05,Friday,early,2026-06-05 20:15:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_05,taxi_stand
+market_2026-06-05_20_6,2026-06-05,Friday,early,2026-06-05 20:18:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_06,taxi_stand
+market_2026-06-05_20_7,2026-06-05,Friday,early,2026-06-05 20:21:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_07,taxi_stand
+market_2026-06-05_20_8,2026-06-05,Friday,early,2026-06-05 20:24:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_08,taxi_stand
+market_2026-06-05_20_9,2026-06-05,Friday,early,2026-06-05 20:27:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_09,taxi_stand
+market_2026-06-05_20_10,2026-06-05,Friday,early,2026-06-05 20:30:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_10,taxi_stand
+market_2026-06-05_20_11,2026-06-05,Friday,early,2026-06-05 20:33:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_11,taxi_stand
+market_2026-06-05_20_12,2026-06-05,Friday,early,2026-06-05 20:36:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_12,taxi_stand
+market_2026-06-05_20_13,2026-06-05,Friday,early,2026-06-05 20:39:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_13,taxi_stand
+market_2026-06-05_20_14,2026-06-05,Friday,early,2026-06-05 20:42:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_14,taxi_stand
+market_2026-06-05_20_15,2026-06-05,Friday,early,2026-06-05 20:45:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_15,taxi_stand
+market_2026-06-05_21_0,2026-06-05,Friday,early,2026-06-05 21:00:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_00,taxi_stand
+market_2026-06-05_21_1,2026-06-05,Friday,early,2026-06-05 21:03:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_01,taxi_stand
+market_2026-06-05_21_2,2026-06-05,Friday,early,2026-06-05 21:06:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_02,taxi_stand
+market_2026-06-05_21_3,2026-06-05,Friday,early,2026-06-05 21:09:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_03,taxi_stand
+market_2026-06-05_21_4,2026-06-05,Friday,early,2026-06-05 21:12:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_04,taxi_stand
+market_2026-06-05_21_5,2026-06-05,Friday,early,2026-06-05 21:15:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_05,taxi_stand
+market_2026-06-05_21_6,2026-06-05,Friday,early,2026-06-05 21:18:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_06,taxi_stand
+market_2026-06-05_21_7,2026-06-05,Friday,early,2026-06-05 21:21:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_07,taxi_stand
+market_2026-06-05_21_8,2026-06-05,Friday,early,2026-06-05 21:24:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_08,taxi_stand
+market_2026-06-05_21_9,2026-06-05,Friday,early,2026-06-05 21:27:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_09,taxi_stand
+market_2026-06-05_21_10,2026-06-05,Friday,early,2026-06-05 21:30:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_10,taxi_stand
+market_2026-06-05_21_11,2026-06-05,Friday,early,2026-06-05 21:33:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_11,taxi_stand
+market_2026-06-05_21_12,2026-06-05,Friday,early,2026-06-05 21:36:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_12,taxi_stand
+market_2026-06-05_21_13,2026-06-05,Friday,early,2026-06-05 21:39:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_13,taxi_stand
+market_2026-06-05_21_14,2026-06-05,Friday,early,2026-06-05 21:42:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_14,taxi_stand
+market_2026-06-05_21_15,2026-06-05,Friday,early,2026-06-05 21:45:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_15,taxi_stand
+evening18_2026-06-05_00,2026-06-05,Friday,early,2026-06-05T18:01:53.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_00,taxi_stand
+market_2026-06-05_19_1,2026-06-05,Friday,early,2026-06-05T18:05:42.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,taxi_driver_41,taxi_stand
+evening18_2026-06-05_01,2026-06-05,Friday,early,2026-06-05T18:14:51.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_01,taxi_stand
+evening18_2026-06-05_02,2026-06-05,Friday,early,2026-06-05T18:14:53.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_02,taxi_stand
+evening18_2026-06-05_03,2026-06-05,Friday,early,2026-06-05T18:22:21.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_03,taxi_stand
+evening18_2026-06-05_04,2026-06-05,Friday,early,2026-06-05T18:24:03.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_04,taxi_stand
+evening18_2026-06-05_05,2026-06-05,Friday,early,2026-06-05T18:36:13.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_05,taxi_stand
+evening18_2026-06-05_06,2026-06-05,Friday,early,2026-06-05T18:39:30.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_06,taxi_stand
+evening18_2026-06-05_07,2026-06-05,Friday,early,2026-06-05T18:40:14.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_07,taxi_stand
+evening18_2026-06-05_08,2026-06-05,Friday,early,2026-06-05T18:45:40.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_08,taxi_stand
+evening18_2026-06-05_09,2026-06-05,Friday,early,2026-06-05T18:45:44.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_09,taxi_stand
+evening18_2026-06-05_10,2026-06-05,Friday,early,2026-06-05T18:53:51.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_10,taxi_stand
+market_2026-06-05_19_10,2026-06-05,Friday,early,2026-06-05T19:15:12.074031,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,taxi_driver_41,taxi_stand
+friday_extension_order_116,2026-06-05,Friday,early,2026-06-05T21:36:22.056022,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,taxi_driver_41,taxi_stand
+market_2026-06-09_x_0,2026-06-09,Tuesday,early,2026-06-09 20:00:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_00,taxi_stand
+market_2026-06-09_x_1,2026-06-09,Tuesday,early,2026-06-09 20:12:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_01,taxi_stand
+market_2026-06-09_x_2,2026-06-09,Tuesday,early,2026-06-09 20:24:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_02,taxi_stand
+evening18_2026-06-09_00,2026-06-09,Tuesday,early,2026-06-09T18:39:40.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_00,taxi_stand
+market_2026-06-12_19_0,2026-06-12,Friday,early,2026-06-12 19:00:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_00,taxi_stand
+market_2026-06-12_19_2,2026-06-12,Friday,early,2026-06-12 19:06:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_02,taxi_stand
+market_2026-06-12_19_3,2026-06-12,Friday,early,2026-06-12 19:09:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_03,taxi_stand
+market_2026-06-12_19_4,2026-06-12,Friday,early,2026-06-12 19:12:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_04,taxi_stand
+market_2026-06-12_19_5,2026-06-12,Friday,early,2026-06-12 19:15:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_05,taxi_stand
+market_2026-06-12_19_6,2026-06-12,Friday,early,2026-06-12 19:18:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_06,taxi_stand
+market_2026-06-12_19_7,2026-06-12,Friday,early,2026-06-12 19:21:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_07,taxi_stand
+market_2026-06-12_19_8,2026-06-12,Friday,early,2026-06-12 19:24:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_08,taxi_stand
+market_2026-06-12_19_9,2026-06-12,Friday,early,2026-06-12 19:27:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_09,taxi_stand
+market_2026-06-12_19_11,2026-06-12,Friday,early,2026-06-12 19:33:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_11,taxi_stand
+market_2026-06-12_19_12,2026-06-12,Friday,early,2026-06-12 19:36:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_12,taxi_stand
+market_2026-06-12_19_13,2026-06-12,Friday,early,2026-06-12 19:39:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_13,taxi_stand
+market_2026-06-12_19_14,2026-06-12,Friday,early,2026-06-12 19:42:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_14,taxi_stand
+market_2026-06-12_19_15,2026-06-12,Friday,early,2026-06-12 19:45:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_15,taxi_stand
+market_2026-06-12_20_0,2026-06-12,Friday,early,2026-06-12 20:00:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_00,taxi_stand
+market_2026-06-12_20_1,2026-06-12,Friday,early,2026-06-12 20:03:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_01,taxi_stand
+market_2026-06-12_20_2,2026-06-12,Friday,early,2026-06-12 20:06:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_02,taxi_stand
+market_2026-06-12_20_3,2026-06-12,Friday,early,2026-06-12 20:09:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_03,taxi_stand
+market_2026-06-12_20_4,2026-06-12,Friday,early,2026-06-12 20:12:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_04,taxi_stand
+market_2026-06-12_20_5,2026-06-12,Friday,early,2026-06-12 20:15:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_05,taxi_stand
+market_2026-06-12_20_6,2026-06-12,Friday,early,2026-06-12 20:18:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_06,taxi_stand
+market_2026-06-12_20_7,2026-06-12,Friday,early,2026-06-12 20:21:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_07,taxi_stand
+market_2026-06-12_20_8,2026-06-12,Friday,early,2026-06-12 20:24:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_08,taxi_stand
+market_2026-06-12_20_9,2026-06-12,Friday,early,2026-06-12 20:27:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_09,taxi_stand
+market_2026-06-12_20_10,2026-06-12,Friday,early,2026-06-12 20:30:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_10,taxi_stand
+market_2026-06-12_20_11,2026-06-12,Friday,early,2026-06-12 20:33:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_11,taxi_stand
+market_2026-06-12_20_12,2026-06-12,Friday,early,2026-06-12 20:36:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_12,taxi_stand
+market_2026-06-12_20_13,2026-06-12,Friday,early,2026-06-12 20:39:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_13,taxi_stand
+market_2026-06-12_20_14,2026-06-12,Friday,early,2026-06-12 20:42:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_14,taxi_stand
+market_2026-06-12_20_15,2026-06-12,Friday,early,2026-06-12 20:45:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_15,taxi_stand
+market_2026-06-12_21_0,2026-06-12,Friday,early,2026-06-12 21:00:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_00,taxi_stand
+market_2026-06-12_21_1,2026-06-12,Friday,early,2026-06-12 21:03:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_01,taxi_stand
+market_2026-06-12_21_2,2026-06-12,Friday,early,2026-06-12 21:06:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_02,taxi_stand
+market_2026-06-12_21_3,2026-06-12,Friday,early,2026-06-12 21:09:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_03,taxi_stand
+market_2026-06-12_21_4,2026-06-12,Friday,early,2026-06-12 21:12:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_04,taxi_stand
+market_2026-06-12_21_5,2026-06-12,Friday,early,2026-06-12 21:15:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_05,taxi_stand
+market_2026-06-12_21_6,2026-06-12,Friday,early,2026-06-12 21:18:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_06,taxi_stand
+market_2026-06-12_21_7,2026-06-12,Friday,early,2026-06-12 21:21:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_07,taxi_stand
+market_2026-06-12_21_8,2026-06-12,Friday,early,2026-06-12 21:24:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_08,taxi_stand
+market_2026-06-12_21_9,2026-06-12,Friday,early,2026-06-12 21:27:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_09,taxi_stand
+market_2026-06-12_21_10,2026-06-12,Friday,early,2026-06-12 21:30:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_10,taxi_stand
+market_2026-06-12_21_11,2026-06-12,Friday,early,2026-06-12 21:33:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_11,taxi_stand
+market_2026-06-12_21_12,2026-06-12,Friday,early,2026-06-12 21:36:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_12,taxi_stand
+market_2026-06-12_21_13,2026-06-12,Friday,early,2026-06-12 21:39:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_13,taxi_stand
+market_2026-06-12_21_14,2026-06-12,Friday,early,2026-06-12 21:42:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_14,taxi_stand
+market_2026-06-12_21_15,2026-06-12,Friday,early,2026-06-12 21:45:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_15,taxi_stand
+market_2026-06-12_19_1,2026-06-12,Friday,early,2026-06-12T18:07:24.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,taxi_driver_41,taxi_stand
+evening18_2026-06-12_00,2026-06-12,Friday,early,2026-06-12T18:09:37.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_00,taxi_stand
+evening18_2026-06-12_01,2026-06-12,Friday,early,2026-06-12T18:10:47.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_01,taxi_stand
+evening18_2026-06-12_02,2026-06-12,Friday,early,2026-06-12T18:16:49.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_02,taxi_stand
+evening18_2026-06-12_03,2026-06-12,Friday,early,2026-06-12T18:19:05.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_03,taxi_stand
+evening18_2026-06-12_04,2026-06-12,Friday,early,2026-06-12T18:22:21.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_04,taxi_stand
+evening18_2026-06-12_05,2026-06-12,Friday,early,2026-06-12T18:24:05.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_05,taxi_stand
+evening18_2026-06-12_06,2026-06-12,Friday,early,2026-06-12T18:24:14.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_06,taxi_stand
+evening18_2026-06-12_07,2026-06-12,Friday,early,2026-06-12T18:24:52.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_07,taxi_stand
+evening18_2026-06-12_08,2026-06-12,Friday,early,2026-06-12T18:26:08.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_08,taxi_stand
+evening18_2026-06-12_09,2026-06-12,Friday,early,2026-06-12T18:30:42.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_09,taxi_stand
+evening18_2026-06-12_10,2026-06-12,Friday,early,2026-06-12T18:33:16.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_10,taxi_stand
+evening18_2026-06-12_11,2026-06-12,Friday,early,2026-06-12T18:34:59.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_11,taxi_stand
+evening18_2026-06-12_12,2026-06-12,Friday,early,2026-06-12T18:37:09.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_12,taxi_stand
+evening18_2026-06-12_13,2026-06-12,Friday,early,2026-06-12T18:48:23.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_13,taxi_stand
+market_2026-06-12_19_10,2026-06-12,Friday,early,2026-06-12T19:13:50.975218,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,taxi_driver_41,taxi_stand
+friday_extension_order_120,2026-06-12,Friday,early,2026-06-12T21:33:21.997652,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,taxi_driver_41,taxi_stand
+market_2026-07-01_x_0,2026-07-01,Wednesday,later,2026-07-01 20:00:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_00,taxi_stand
+market_2026-07-01_x_1,2026-07-01,Wednesday,later,2026-07-01 20:12:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_01,taxi_stand
+market_2026-07-01_x_2,2026-07-01,Wednesday,later,2026-07-01 20:24:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_02,taxi_stand
+evening18_2026-07-01_00,2026-07-01,Wednesday,later,2026-07-01T18:11:40.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_00,taxi_stand
+evening18_2026-07-01_01,2026-07-01,Wednesday,later,2026-07-01T18:33:34.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_01,taxi_stand
+market_2026-07-03_19_0,2026-07-03,Friday,later,2026-07-03 19:00:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_00,taxi_stand
+market_2026-07-03_19_1,2026-07-03,Friday,later,2026-07-03 19:03:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_01,taxi_stand
+market_2026-07-03_19_2,2026-07-03,Friday,later,2026-07-03 19:06:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_02,taxi_stand
+market_2026-07-03_19_3,2026-07-03,Friday,later,2026-07-03 19:09:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_03,taxi_stand
+market_2026-07-03_19_4,2026-07-03,Friday,later,2026-07-03 19:12:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_04,taxi_stand
+market_2026-07-03_19_5,2026-07-03,Friday,later,2026-07-03 19:15:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_05,taxi_stand
+market_2026-07-03_19_6,2026-07-03,Friday,later,2026-07-03 19:18:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_06,taxi_stand
+market_2026-07-03_19_7,2026-07-03,Friday,later,2026-07-03 19:21:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_07,taxi_stand
+market_2026-07-03_19_8,2026-07-03,Friday,later,2026-07-03 19:24:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_08,taxi_stand
+market_2026-07-03_19_9,2026-07-03,Friday,later,2026-07-03 19:27:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_09,taxi_stand
+market_2026-07-03_19_10,2026-07-03,Friday,later,2026-07-03 19:30:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_10,taxi_stand
+market_2026-07-03_19_11,2026-07-03,Friday,later,2026-07-03 19:33:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_11,taxi_stand
+market_2026-07-03_19_12,2026-07-03,Friday,later,2026-07-03 19:36:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_12,taxi_stand
+market_2026-07-03_19_13,2026-07-03,Friday,later,2026-07-03 19:39:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_13,taxi_stand
+market_2026-07-03_19_14,2026-07-03,Friday,later,2026-07-03 19:42:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_14,taxi_stand
+market_2026-07-03_19_15,2026-07-03,Friday,later,2026-07-03 19:45:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_15,taxi_stand
+market_2026-07-03_20_0,2026-07-03,Friday,later,2026-07-03 20:00:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_00,taxi_stand
+market_2026-07-03_20_2,2026-07-03,Friday,later,2026-07-03 20:06:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_02,taxi_stand
+market_2026-07-03_20_3,2026-07-03,Friday,later,2026-07-03 20:09:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_03,taxi_stand
+market_2026-07-03_20_4,2026-07-03,Friday,later,2026-07-03 20:12:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_04,taxi_stand
+market_2026-07-03_20_5,2026-07-03,Friday,later,2026-07-03 20:15:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_05,taxi_stand
+market_2026-07-03_20_6,2026-07-03,Friday,later,2026-07-03 20:18:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_06,taxi_stand
+market_2026-07-03_20_7,2026-07-03,Friday,later,2026-07-03 20:21:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_07,taxi_stand
+market_2026-07-03_20_8,2026-07-03,Friday,later,2026-07-03 20:24:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_08,taxi_stand
+market_2026-07-03_20_9,2026-07-03,Friday,later,2026-07-03 20:27:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_09,taxi_stand
+market_2026-07-03_20_11,2026-07-03,Friday,later,2026-07-03 20:33:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_11,taxi_stand
+market_2026-07-03_20_12,2026-07-03,Friday,later,2026-07-03 20:36:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_12,taxi_stand
+market_2026-07-03_20_13,2026-07-03,Friday,later,2026-07-03 20:39:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_13,taxi_stand
+market_2026-07-03_20_14,2026-07-03,Friday,later,2026-07-03 20:42:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_14,taxi_stand
+market_2026-07-03_20_15,2026-07-03,Friday,later,2026-07-03 20:45:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_15,taxi_stand
+market_2026-07-03_21_0,2026-07-03,Friday,later,2026-07-03 21:00:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_00,taxi_stand
+market_2026-07-03_21_1,2026-07-03,Friday,later,2026-07-03 21:03:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_01,taxi_stand
+market_2026-07-03_21_2,2026-07-03,Friday,later,2026-07-03 21:06:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_02,taxi_stand
+market_2026-07-03_21_3,2026-07-03,Friday,later,2026-07-03 21:09:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_03,taxi_stand
+market_2026-07-03_21_4,2026-07-03,Friday,later,2026-07-03 21:12:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_04,taxi_stand
+market_2026-07-03_21_5,2026-07-03,Friday,later,2026-07-03 21:15:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_05,taxi_stand
+market_2026-07-03_21_6,2026-07-03,Friday,later,2026-07-03 21:18:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_06,taxi_stand
+market_2026-07-03_21_7,2026-07-03,Friday,later,2026-07-03 21:21:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_07,taxi_stand
+market_2026-07-03_21_8,2026-07-03,Friday,later,2026-07-03 21:24:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_08,taxi_stand
+market_2026-07-03_21_9,2026-07-03,Friday,later,2026-07-03 21:27:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_09,taxi_stand
+market_2026-07-03_21_10,2026-07-03,Friday,later,2026-07-03 21:30:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_10,taxi_stand
+market_2026-07-03_21_11,2026-07-03,Friday,later,2026-07-03 21:33:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_11,taxi_stand
+market_2026-07-03_21_12,2026-07-03,Friday,later,2026-07-03 21:36:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_12,taxi_stand
+market_2026-07-03_21_13,2026-07-03,Friday,later,2026-07-03 21:39:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_13,taxi_stand
+market_2026-07-03_21_14,2026-07-03,Friday,later,2026-07-03 21:42:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_14,taxi_stand
+market_2026-07-03_21_15,2026-07-03,Friday,later,2026-07-03 21:45:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_15,taxi_stand
+evening18_2026-07-03_00,2026-07-03,Friday,later,2026-07-03T18:07:21.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_00,taxi_stand
+evening18_2026-07-03_01,2026-07-03,Friday,later,2026-07-03T18:13:11.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_01,taxi_stand
+market_2026-07-03_20_1,2026-07-03,Friday,later,2026-07-03T18:16:48.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,taxi_driver_41,taxi_stand
+evening18_2026-07-03_02,2026-07-03,Friday,later,2026-07-03T18:24:17.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_02,taxi_stand
+evening18_2026-07-03_03,2026-07-03,Friday,later,2026-07-03T18:30:39.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_03,taxi_stand
+evening18_2026-07-03_04,2026-07-03,Friday,later,2026-07-03T18:31:19.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_04,taxi_stand
+evening18_2026-07-03_05,2026-07-03,Friday,later,2026-07-03T18:33:53.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_05,taxi_stand
+evening18_2026-07-03_06,2026-07-03,Friday,later,2026-07-03T18:34:25.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_06,taxi_stand
+evening18_2026-07-03_07,2026-07-03,Friday,later,2026-07-03T18:44:26.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_07,taxi_stand
+evening18_2026-07-03_08,2026-07-03,Friday,later,2026-07-03T18:47:14.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_08,taxi_stand
+market_2026-07-03_20_10,2026-07-03,Friday,later,2026-07-03T19:17:55.671483,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,taxi_driver_41,taxi_stand
+friday_extension_order_121,2026-07-03,Friday,later,2026-07-03T20:00:45.439584,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,taxi_driver_41,taxi_stand
+friday_extension_order_122,2026-07-03,Friday,later,2026-07-03T20:43:19.824058,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,taxi_driver_41,taxi_stand
+friday_extension_order_123,2026-07-03,Friday,later,2026-07-03T21:25:48.403143,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,taxi_driver_41,taxi_stand
+market_2026-07-08_x_0,2026-07-08,Wednesday,later,2026-07-08 20:00:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_00,taxi_stand
+market_2026-07-08_x_1,2026-07-08,Wednesday,later,2026-07-08 20:12:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_01,taxi_stand
+market_2026-07-08_x_2,2026-07-08,Wednesday,later,2026-07-08 20:24:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_02,taxi_stand
+evening18_2026-07-08_00,2026-07-08,Wednesday,later,2026-07-08T18:50:47.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_00,taxi_stand
+market_2026-07-10_19_0,2026-07-10,Friday,later,2026-07-10 19:00:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_00,taxi_stand
+market_2026-07-10_19_1,2026-07-10,Friday,later,2026-07-10 19:03:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_01,taxi_stand
+market_2026-07-10_19_2,2026-07-10,Friday,later,2026-07-10 19:06:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_02,taxi_stand
+market_2026-07-10_19_3,2026-07-10,Friday,later,2026-07-10 19:09:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_03,taxi_stand
+market_2026-07-10_19_4,2026-07-10,Friday,later,2026-07-10 19:12:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_04,taxi_stand
+market_2026-07-10_19_5,2026-07-10,Friday,later,2026-07-10 19:15:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_05,taxi_stand
+market_2026-07-10_19_6,2026-07-10,Friday,later,2026-07-10 19:18:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_06,taxi_stand
+market_2026-07-10_19_7,2026-07-10,Friday,later,2026-07-10 19:21:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_07,taxi_stand
+market_2026-07-10_19_8,2026-07-10,Friday,later,2026-07-10 19:24:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_08,taxi_stand
+market_2026-07-10_19_9,2026-07-10,Friday,later,2026-07-10 19:27:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_09,taxi_stand
+market_2026-07-10_19_10,2026-07-10,Friday,later,2026-07-10 19:30:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_10,taxi_stand
+market_2026-07-10_19_11,2026-07-10,Friday,later,2026-07-10 19:33:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_11,taxi_stand
+market_2026-07-10_19_12,2026-07-10,Friday,later,2026-07-10 19:36:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_12,taxi_stand
+market_2026-07-10_19_13,2026-07-10,Friday,later,2026-07-10 19:39:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_13,taxi_stand
+market_2026-07-10_19_14,2026-07-10,Friday,later,2026-07-10 19:42:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_14,taxi_stand
+market_2026-07-10_19_15,2026-07-10,Friday,later,2026-07-10 19:45:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_15,taxi_stand
+market_2026-07-10_20_0,2026-07-10,Friday,later,2026-07-10 20:00:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_00,taxi_stand
+market_2026-07-10_20_2,2026-07-10,Friday,later,2026-07-10 20:06:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_02,taxi_stand
+market_2026-07-10_20_3,2026-07-10,Friday,later,2026-07-10 20:09:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_03,taxi_stand
+market_2026-07-10_20_4,2026-07-10,Friday,later,2026-07-10 20:12:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_04,taxi_stand
+market_2026-07-10_20_5,2026-07-10,Friday,later,2026-07-10 20:15:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_05,taxi_stand
+market_2026-07-10_20_6,2026-07-10,Friday,later,2026-07-10 20:18:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_06,taxi_stand
+market_2026-07-10_20_7,2026-07-10,Friday,later,2026-07-10 20:21:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_07,taxi_stand
+market_2026-07-10_20_8,2026-07-10,Friday,later,2026-07-10 20:24:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_08,taxi_stand
+market_2026-07-10_20_9,2026-07-10,Friday,later,2026-07-10 20:27:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_09,taxi_stand
+market_2026-07-10_20_11,2026-07-10,Friday,later,2026-07-10 20:33:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_11,taxi_stand
+market_2026-07-10_20_12,2026-07-10,Friday,later,2026-07-10 20:36:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_12,taxi_stand
+market_2026-07-10_20_13,2026-07-10,Friday,later,2026-07-10 20:39:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_13,taxi_stand
+market_2026-07-10_20_14,2026-07-10,Friday,later,2026-07-10 20:42:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_14,taxi_stand
+market_2026-07-10_20_15,2026-07-10,Friday,later,2026-07-10 20:45:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_15,taxi_stand
+market_2026-07-10_21_0,2026-07-10,Friday,later,2026-07-10 21:00:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_00,taxi_stand
+market_2026-07-10_21_1,2026-07-10,Friday,later,2026-07-10 21:03:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_01,taxi_stand
+market_2026-07-10_21_2,2026-07-10,Friday,later,2026-07-10 21:06:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_02,taxi_stand
+market_2026-07-10_21_3,2026-07-10,Friday,later,2026-07-10 21:09:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_03,taxi_stand
+market_2026-07-10_21_4,2026-07-10,Friday,later,2026-07-10 21:12:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_04,taxi_stand
+market_2026-07-10_21_5,2026-07-10,Friday,later,2026-07-10 21:15:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_05,taxi_stand
+market_2026-07-10_21_6,2026-07-10,Friday,later,2026-07-10 21:18:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_06,taxi_stand
+market_2026-07-10_21_7,2026-07-10,Friday,later,2026-07-10 21:21:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_07,taxi_stand
+market_2026-07-10_21_8,2026-07-10,Friday,later,2026-07-10 21:24:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_08,taxi_stand
+market_2026-07-10_21_9,2026-07-10,Friday,later,2026-07-10 21:27:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_09,taxi_stand
+market_2026-07-10_21_10,2026-07-10,Friday,later,2026-07-10 21:30:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_10,taxi_stand
+market_2026-07-10_21_11,2026-07-10,Friday,later,2026-07-10 21:33:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_11,taxi_stand
+market_2026-07-10_21_12,2026-07-10,Friday,later,2026-07-10 21:36:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_12,taxi_stand
+market_2026-07-10_21_13,2026-07-10,Friday,later,2026-07-10 21:39:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_13,taxi_stand
+market_2026-07-10_21_14,2026-07-10,Friday,later,2026-07-10 21:42:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_14,taxi_stand
+market_2026-07-10_21_15,2026-07-10,Friday,later,2026-07-10 21:45:00,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,other_taxi_15,taxi_stand
+evening18_2026-07-10_00,2026-07-10,Friday,later,2026-07-10T18:06:04.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_00,taxi_stand
+evening18_2026-07-10_01,2026-07-10,Friday,later,2026-07-10T18:08:09.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_01,taxi_stand
+evening18_2026-07-10_02,2026-07-10,Friday,later,2026-07-10T18:12:29.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_02,taxi_stand
+evening18_2026-07-10_03,2026-07-10,Friday,later,2026-07-10T18:18:40.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_03,taxi_stand
+market_2026-07-10_20_1,2026-07-10,Friday,later,2026-07-10T18:19:12.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,taxi_driver_41,taxi_stand
+evening18_2026-07-10_04,2026-07-10,Friday,later,2026-07-10T18:35:55.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_04,taxi_stand
+evening18_2026-07-10_05,2026-07-10,Friday,later,2026-07-10T18:36:21.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_05,taxi_stand
+evening18_2026-07-10_06,2026-07-10,Friday,later,2026-07-10T18:38:26.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_06,taxi_stand
+evening18_2026-07-10_07,2026-07-10,Friday,later,2026-07-10T18:44:51.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_07,taxi_stand
+evening18_2026-07-10_08,2026-07-10,Friday,later,2026-07-10T18:46:18.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_08,taxi_stand
+evening18_2026-07-10_09,2026-07-10,Friday,later,2026-07-10T18:49:26.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_09,taxi_stand
+evening18_2026-07-10_10,2026-07-10,Friday,later,2026-07-10T18:52:09.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_10,taxi_stand
+evening18_2026-07-10_11,2026-07-10,Friday,later,2026-07-10T18:52:27.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_11,taxi_stand
+evening18_2026-07-10_12,2026-07-10,Friday,later,2026-07-10T18:54:15.000000,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,evening_other_12,taxi_stand
+market_2026-07-10_20_10,2026-07-10,Friday,later,2026-07-10T19:12:38.875241,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,taxi_driver_41,taxi_stand
+friday_extension_order_124,2026-07-10,Friday,later,2026-07-10T20:04:54.031235,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,taxi_driver_41,taxi_stand
+friday_extension_order_125,2026-07-10,Friday,later,2026-07-10T20:45:21.928683,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,taxi_driver_41,taxi_stand
+friday_extension_order_126,2026-07-10,Friday,later,2026-07-10T21:30:04.709118,18:00–22:00,C01,Central Arena Stand (C),Central Arena District,taxi_driver_41,taxi_stand

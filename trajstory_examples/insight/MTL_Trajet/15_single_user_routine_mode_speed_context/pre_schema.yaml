@@ -1,0 +1,21 @@
+# Partial specification for data construction.
+# Fill in only the concepts and constraints you want to control.
+# Any omitted IDs, timestamps, GPS points, metrics, or support tables may be
+# added when they are necessary to realize the supplied goal and insights.
+
+pre_schema_version: "1.0"
+
+# Optional one-line context for the constructor.
+domain: "" # e.g., urban_multimodal_mobility
+goal: "Analyze individual mobility patterns across activity purposes and spatial contexts."
+insights:
+  - "Work-related trips exhibit highly regular departure times and recurrent spatial patterns, forming the most stable component of the user's mobility routine.."
+  - "The user shows substantially greater mode flexibility for shopping, dining, and leisure trips than for recurrent work trips."
+  - "Short discretionary trips involve multiple transport modes, whereas longer trips tend to converge toward a smaller set of preferred motorized or public-transport modes.."
+  - "The user's travel speed decreases in center area while increases in suburban area across all transportation modes."
+
+# Only list core fields that must appear in the final data.
+# Delete unused examples and add as few fields as you need.
+fields:
+
+constraints:

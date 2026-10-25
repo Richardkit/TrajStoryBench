@@ -1,0 +1,185 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/20_vessel_type_movement_comparison/trajectory_points.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Danish_AIS/20_vessel_type_movement_comparison/vessels.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Danish_AIS/20_vessel_type_movement_comparison/vessels.csv",
+      "role": "Vessel attributes linked by vessel_id"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze how movement patterns differ among vessel types operating in the same maritime area.",
+    "role": "Maritime traffic analyst",
+    "category": "movement patterns across vessel types",
+    "header": "Movement patterns across vessel types",
+    "dataset_description": "Three constructed voyages per cargo, tanker, and fishing vessel around Skagen: cargo and tankers repeatedly use long continuous passage lanes around the headland, while fishing voyages connect Hirtshals, Skagen, and Frederikshavn through alternating direct-transit and low-speed manoeuvring phases before returning to harbour.",
+    "source_note": "Danish maritime geography is used as context; the visible trajectories and attributes are constructed derived data."
+  },
+  "insight_list": [
+    {
+      "data_type": "vessel_type_spatial_pattern",
+      "insight": "Cargo and tanker vessels mainly make long, continuous passages across the area, while fishing vessels repeatedly remain within smaller local operating regions before continuing their trips.",
+      "insight_value": {
+        "trajectory_counts": {
+          "Cargo": 60,
+          "Tanker": 48,
+          "Fishing": 36
+        },
+        "median_fishing_local_phase_share": 0.478
+      },
+      "plot": {
+        "plot_type": "type_colored_trajectory_map",
+        "title": "Movement Geometry by Vessel Type",
+        "file": "visualizations/vessel_type_overview.png",
+        "description": "Compare long passages around Skagen with harbour-connected localized operating regions."
+      },
+      "question": "How do spatial movement patterns differ by vessel type?",
+      "actionable_insight": "Compare long passages around Skagen with harbour-connected localized operating regions.",
+      "code": "import pandas as pd\ndf=pd.read_csv(dataset_path).merge(pd.read_csv(user_dataset_path),on=\"vessel_id\"); print(df.groupby(\"ship_type\").trajectory_id.nunique())",
+      "insight_type": "group_comparison",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "ship_type",
+        "gps_position",
+        "vessel_id",
+        "trajectory_timestamp"
+      ]
+    },
+    {
+      "data_type": "type_speed_direction_dynamics",
+      "insight": "Fishing trajectories alternate between direct transit and low-speed manoeuvring, while cargo and tanker trajectories remain more stable in speed and direction.",
+      "insight_value": {
+        "median_mean_speed_knots": {
+          "Cargo": 14.53,
+          "Fishing": 6.87,
+          "Tanker": 12.95
+        },
+        "median_speed_sd_knots": {
+          "Cargo": 0.34,
+          "Fishing": 3.33,
+          "Tanker": 0.34
+        },
+        "median_direction_change_deg": {
+          "Cargo": 0.49,
+          "Fishing": 9.23,
+          "Tanker": 0.51
+        },
+        "median_fishing_speed_by_status_knots": {
+          "Under way fishing": 3.44,
+          "Under way using engine": 9.93
+        },
+        "fishing_status_sequence": [
+          "Under way using engine",
+          "Under way fishing",
+          "Under way using engine",
+          "Under way fishing",
+          "Under way using engine"
+        ],
+        "fishing_status_transitions_per_trajectory": 4
+      },
+      "plot": {
+        "plot_type": "representative_speed_profiles_and_direction_distribution",
+        "title": "Speed and Direction Dynamics by Type",
+        "file": "visualizations/speed_direction_by_type.png",
+        "description": "Show the actual five-stage fishing status sequence along trajectory distance and compare trajectory-level successive COG changes across vessel types."
+      },
+      "question": "How do speed and direction dynamics differ among vessel types?",
+      "actionable_insight": "Show the actual five-stage fishing status sequence along trajectory distance and compare trajectory-level successive COG changes across vessel types.",
+      "code": "import pandas as pd\ndf=pd.read_csv(dataset_path).merge(pd.read_csv(user_dataset_path),on=\"vessel_id\"); print(df.groupby([\"ship_type\",\"trajectory_id\"]).sog_knots.std().groupby(level=0).describe())",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 7,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "ship_type",
+        "gps_position",
+        "point_speed",
+        "course_over_ground",
+        "navigation_status",
+        "vessel_id",
+        "trajectory_timestamp"
+      ]
+    },
+    {
+      "data_type": "type_trajectory_recurrence",
+      "insight": "Vessel type is associated with trajectory recurrence: fishing vessels frequently revisit the same local operating areas, while cargo and tanker vessels are more likely to pass through without repeated local movements.",
+      "insight_value": {
+        "median_repeated_fishing_route_dispersion_km": 4.55,
+        "median_route_dispersion_km_by_type": {
+          "Cargo": 0.61,
+          "Fishing": 4.55,
+          "Tanker": 0.65
+        },
+        "vessels_reusing_route_corridor": {
+          "Cargo": 20,
+          "Tanker": 16,
+          "Fishing": 12
+        },
+        "vessels_revisiting_local_areas": {
+          "Cargo": 0,
+          "Tanker": 0,
+          "Fishing": 12
+        },
+        "total_vessels_by_type": {
+          "Cargo": 20,
+          "Fishing": 12,
+          "Tanker": 16
+        },
+        "observed_voyages_per_vessel_range_by_type": {
+          "Cargo": [
+            3,
+            3
+          ],
+          "Tanker": [
+            3,
+            3
+          ],
+          "Fishing": [
+            3,
+            3
+          ]
+        },
+        "route_reuse_threshold_km": 8.0,
+        "local_revisit_threshold_km": 6.0,
+        "working_region_count_range_across_fishing_vessels": [
+          2,
+          4
+        ],
+        "fishing_vessels_with_shifted_working_regions": 9,
+        "passage_vessels_with_repeated_local_movements": 0
+      },
+      "plot": {
+        "plot_type": "route_reuse_and_revisited_working_region_comparison",
+        "title": "Route Reuse and Local Recurrence by Vessel Type",
+        "file": "visualizations/trajectory_recurrence_by_type.png",
+        "description": "Overlay three voyages from one fishing vessel to show partial spatial recurrence and compare repeated route/corridor use with repeated local low-speed operating-region activity."
+      },
+      "question": "How is vessel type associated with trajectory recurrence?",
+      "actionable_insight": "Overlay three voyages from one fishing vessel to show partial spatial recurrence and compare repeated route/corridor use with repeated local low-speed operating-region activity.",
+      "code": "import pandas as pd\ndf=pd.read_csv(dataset_path).merge(pd.read_csv(user_dataset_path),on=\"vessel_id\"); print(df.groupby([\"ship_type\",\"vessel_id\"]).trajectory_id.nunique().describe())",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 6,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "vessel_id",
+        "ship_type",
+        "gps_position",
+        "trajectory_timestamp",
+        "point_speed",
+        "navigation_status"
+      ]
+    }
+  ],
+  "insights": [
+    "Cargo and tanker vessels mainly make long, continuous passages across the area, while fishing vessels repeatedly remain within smaller local operating regions before continuing their trips.",
+    "Fishing trajectories alternate between direct transit and low-speed manoeuvring, while cargo and tanker trajectories remain more stable in speed and direction.",
+    "Vessel type is associated with trajectory recurrence: fishing vessels frequently revisit the same local operating areas, while cargo and tanker vessels are more likely to pass through without repeated local movements."
+  ],
+  "summary": "Cargo and tanker vessels mainly make long, continuous passages across the area, while fishing vessels repeatedly remain within smaller local operating regions before continuing their trips. Fishing trajectories alternate between direct transit and low-speed manoeuvring, while cargo and tanker trajectories remain more stable in speed and direction. Vessel type is associated with trajectory recurrence: fishing vessels frequently revisit the same local operating areas, while cargo and tanker vessels are more likely to pass through without repeated local movements."
+}

@@ -1,0 +1,35 @@
+# Partial specification for data construction.
+# Fill in only the concepts and constraints you want to control.
+# Any omitted IDs, timestamps, GPS points, metrics, or support tables may be
+# added when they are necessary to realize the supplied goal and insights.
+
+pre_schema_version: "1.0"
+
+# Optional one-line context for the constructor.
+domain: "" # e.g., urban_multimodal_mobility
+goal: "Identify overall situation across all usages for morning and evening rush hours and find some anomalies during this period."
+insights:
+  - "Work and education account for the largest shares of rush-hour trips."
+  - "Speed distributions are generally similar across usage groups, whereas route-directness distributions vary across them."
+  - "Most trajectories end in Mixte destinations in the city-center area."
+  - "A small number of health-related trajectories are unusually direct and travel from the city center to outside the city."
+
+# Only list core fields that must appear in the final data.
+# Delete unused examples and add as few fields as you need.
+fields:
+  - name: "mean health-relevant trajectories route directness rate"
+    semantic_type: "" # categorical | numeric | temporal | spatial | identifier
+    type: float64
+    mean_value: [1.5] 
+
+  - name: "anoamly health-relevant trajectories route directness rate"
+    semantic_type: "" # categorical | numeric | temporal | spatial | identifier
+    type: float64
+    route directness rate: [1.2,1.15] 
+
+constraints:
+  - "其他的usage的route directness rate都和health-relevant的差不多"
+  - "25条工作相关轨迹，25条教育相关轨迹，健康相关的10条，其他目的各3条"
+
+# Optional prohibitions, for example a sensitive field or an unwanted label.
+# prohibited_fields: []

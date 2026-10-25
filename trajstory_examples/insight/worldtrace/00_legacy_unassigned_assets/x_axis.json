@@ -1,0 +1,306 @@
+{
+    "name": "Important spatial x-axis points",
+    "description": "Trajectory points with the largest normalized movement changes.",
+    "value": [
+        {
+            "point_index": 28,
+            "x_km": 4.365,
+            "y_km": 1.526,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 100,
+            "x_km": 15.081,
+            "y_km": 5.275,
+            "movement_phase": "destination_circuit"
+        },
+        {
+            "point_index": 103,
+            "x_km": 14.979,
+            "y_km": 5.577,
+            "movement_phase": "destination_circuit"
+        },
+        {
+            "point_index": 18,
+            "x_km": 3.179,
+            "y_km": 0.267,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 101,
+            "x_km": 14.939,
+            "y_km": 5.39,
+            "movement_phase": "destination_circuit"
+        },
+        {
+            "point_index": 27,
+            "x_km": 4.179,
+            "y_km": 1.512,
+            "movement_phase": "sharp_bend"
+        },
+        {
+            "point_index": 92,
+            "x_km": 14.719,
+            "y_km": 4.535,
+            "movement_phase": "destination_circuit"
+        },
+        {
+            "point_index": 102,
+            "x_km": 14.806,
+            "y_km": 5.505,
+            "movement_phase": "destination_circuit"
+        },
+        {
+            "point_index": 17,
+            "x_km": 3.075,
+            "y_km": 0.115,
+            "movement_phase": "sharp_bend"
+        },
+        {
+            "point_index": 93,
+            "x_km": 14.601,
+            "y_km": 4.678,
+            "movement_phase": "destination_circuit"
+        },
+        {
+            "point_index": 91,
+            "x_km": 14.839,
+            "y_km": 4.394,
+            "movement_phase": "destination_circuit"
+        },
+        {
+            "point_index": 95,
+            "x_km": 14.696,
+            "y_km": 4.874,
+            "movement_phase": "destination_circuit"
+        },
+        {
+            "point_index": 78,
+            "x_km": 13.138,
+            "y_km": 3.313,
+            "movement_phase": "destination_circuit"
+        },
+        {
+            "point_index": 59,
+            "x_km": 10.064,
+            "y_km": 1.844,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 42,
+            "x_km": 6.942,
+            "y_km": 1.696,
+            "movement_phase": "mid_trip_disruption"
+        },
+        {
+            "point_index": 94,
+            "x_km": 14.524,
+            "y_km": 4.809,
+            "movement_phase": "destination_circuit"
+        },
+        {
+            "point_index": 99,
+            "x_km": 15.225,
+            "y_km": 5.157,
+            "movement_phase": "destination_circuit"
+        },
+        {
+            "point_index": 90,
+            "x_km": 14.954,
+            "y_km": 4.253,
+            "movement_phase": "destination_circuit"
+        },
+        {
+            "point_index": 19,
+            "x_km": 3.281,
+            "y_km": 0.42,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 20,
+            "x_km": 3.383,
+            "y_km": 0.575,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 21,
+            "x_km": 3.486,
+            "y_km": 0.731,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 96,
+            "x_km": 14.871,
+            "y_km": 4.937,
+            "movement_phase": "destination_circuit"
+        },
+        {
+            "point_index": 73,
+            "x_km": 12.221,
+            "y_km": 3.223,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 84,
+            "x_km": 14.191,
+            "y_km": 3.55,
+            "movement_phase": "destination_circuit"
+        },
+        {
+            "point_index": 22,
+            "x_km": 3.587,
+            "y_km": 0.883,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 60,
+            "x_km": 10.216,
+            "y_km": 1.95,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 23,
+            "x_km": 3.689,
+            "y_km": 1.035,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 24,
+            "x_km": 3.794,
+            "y_km": 1.189,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 25,
+            "x_km": 3.895,
+            "y_km": 1.343,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 104,
+            "x_km": 15.147,
+            "y_km": 5.651,
+            "movement_phase": "destination_circuit"
+        },
+        {
+            "point_index": 26,
+            "x_km": 4.0,
+            "y_km": 1.498,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 70,
+            "x_km": 11.728,
+            "y_km": 3.01,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 2,
+            "x_km": 0.37,
+            "y_km": -0.002,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 3,
+            "x_km": 0.554,
+            "y_km": -0.002,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 67,
+            "x_km": 11.273,
+            "y_km": 2.692,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 12,
+            "x_km": 2.214,
+            "y_km": 0.001,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 4,
+            "x_km": 0.737,
+            "y_km": 0.001,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 33,
+            "x_km": 5.285,
+            "y_km": 1.586,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 16,
+            "x_km": 2.955,
+            "y_km": 0.002,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 31,
+            "x_km": 4.918,
+            "y_km": 1.561,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 66,
+            "x_km": 11.122,
+            "y_km": 2.587,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 83,
+            "x_km": 14.045,
+            "y_km": 3.438,
+            "movement_phase": "destination_circuit"
+        },
+        {
+            "point_index": 11,
+            "x_km": 2.031,
+            "y_km": -0.002,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 13,
+            "x_km": 2.4,
+            "y_km": -0.001,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 32,
+            "x_km": 5.102,
+            "y_km": 1.571,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 15,
+            "x_km": 2.767,
+            "y_km": 0.002,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 41,
+            "x_km": 6.758,
+            "y_km": 1.686,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 30,
+            "x_km": 4.731,
+            "y_km": 1.549,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 10,
+            "x_km": 1.848,
+            "y_km": 0.002,
+            "movement_phase": "stable_corridor"
+        },
+        {
+            "point_index": 105,
+            "x_km": 15.315,
+            "y_km": 5.722,
+            "movement_phase": "destination_circuit"
+        }
+    ]
+}

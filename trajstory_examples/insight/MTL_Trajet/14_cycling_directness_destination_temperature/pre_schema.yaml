@@ -1,0 +1,20 @@
+# Accepted reference synchronized on 2026-10-09.
+# Original construction draft: results/dataset_quality/legacy_content_cleanup_20261009/before/trajstory_examples/insight/MTL_Trajet/14_cycling_directness_destination_temperature/pre_schema.yaml
+pre_schema_version: '1.0'
+domain: MTL Trajet
+status: accepted_reference
+authoritative_source: trajstory_examples/insight/MTL_Trajet/14_cycling_directness_destination_temperature/insight.json
+goal: Find obvious cycling patterns in the city and exceptional cases if possible based on trajectories of different users.
+insights:
+- Cycling trajectories usually follow a route directness ratio lower than 1.5.
+- The four cycling trajectories with a route directness ratio above 1.5 all contain bike-lane points along only part of the
+  route.
+- Cycling destinations form distinct morning, midday, and evening spatial clusters. Morning endpoints are mainly in diversified-activity
+  areas and midday endpoints are in Mixte areas; evening endpoints span several mapped land uses, with four outside the reference
+  polygons.
+- Cycling speed generally increases with temperature.
+fields: null
+constraints:
+- Preserve the accepted goal and full insight records; changes require a new explicit user instruction.
+- Use the current delivered CSV tables and official fixed-GPS land-use labels. Historical construction targets are archived,
+  not current data constraints.

@@ -1,0 +1,130 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/08_rush_hour_usage_destination_anomalies/trajectories.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/08_rush_hour_usage_destination_anomalies/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/MTL_Trajet/08_rush_hour_usage_destination_anomalies/trajectory_points.csv",
+      "role": "Timestamped trajectory points linked by trajectory_id"
+    }
+  ],
+  "metadata": {
+    "goal": "Identify overall situation across all usages for morning and evening rush hours and find some anomalies during this period.",
+    "role": "Urban trajectory analyst",
+    "category": "Rush-hour usage, speed, route directness, destination land-use, and spatial anomalies",
+    "header": "MTL Trajet: 08 Rush-hour Usage Destination Anomalies",
+    "dataset_description": "MTL urban trajectories with usage, rush-hour timing, route directness, speed, destination land-use, endpoints, and timestamped point records.",
+    "metric_note": "`route_directness_ratio` is route length divided by straight-line distance; values closer to 1 indicate more direct trajectories.",
+    "map_context_note": "The destination-land-use visualization uses a static OpenStreetMap background only as geographic context; the plotted destination coordinates are from the supplied case tables.",
+    "land_use_reference": "Archived PUM2050 Affectatio polygons (2025). Labels describe reference-map zoning at fixed endpoints, not surveyed activities at the time of travel.",
+    "fixed_gps_repair": "2026-10-08: existing CSV coordinates preserved; see results/dataset_quality/fixed_gps_repairs_20261008/repair.json.",
+    "motion_consistency_note": "Point speed is the incoming segment GPS great-circle distance divided by elapsed time; the first point repeats the first outgoing segment speed. Earth radius: 6371.0088 km. Trip distance is the sum of these segment distances. avg_speed_kmh and mean_speed_kmh are total distance / elapsed time; avg_point_speed_kmh and point_speed_mean_kmh are unweighted means of the delivered point speeds. speed_cv is the population coefficient of variation of incoming segment speeds, excluding the duplicated first endpoint. trajectory_progress is point_index / (point_count - 1), not elapsed-time fraction. Timestamps and speed fields were reconstructed for internal consistency on 2026-10-09; GPS positions and insight wording were preserved. These are curated example records, not newly recovered observations.",
+    "motion_consistency_repair": "results/dataset_quality/motion_consistency_repair_20261009/repair.json"
+  },
+  "insight_list": [
+    {
+      "data_type": "rush_hour_usage_composition",
+      "insight": "Work and education account for the largest shares of rush-hour trips.",
+      "insight_type": "group_comparison",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Rush-hour Trip Usage",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/rush_hour_usage_composition.png"
+      },
+      "question": "Which usages account for the largest share of trips during rush hours?",
+      "code": "pd.crosstab(df.usage, df.time_period)",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trip_purpose",
+        "trajectory_timestamp",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "usage_speed_directness_distribution",
+      "insight": "Speed distributions are generally similar across usage groups, whereas route-directness distributions vary across them.",
+      "insight_type": "group_comparison",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Speed and Route Directness Across Usages",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/speed_directness_by_usage.png"
+      },
+      "question": "How do speed and route-directness distributions vary across the usage groups?",
+      "code": "df.groupby('usage')[['avg_speed_kmh','route_directness_ratio']].agg(['mean','median','std'])",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trip_purpose",
+        "point_speed",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "destination_land_use_spatial_distribution",
+      "insight": "Most trajectories end in Mixte destinations in the city-center area.",
+      "insight_type": "overall_pattern",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Destination Land-use and City-center Pattern",
+        "description": "Recomputed from the delivered fixed GPS coordinates and the archived official PUM2050 Affectatio polygons; Unmapped denotes no containing polygon.",
+        "file": "visualizations/destination_land_use_city_center.png"
+      },
+      "question": "Which land-use type dominates destinations, and where are these destinations located?",
+      "code": "import pandas as pd\nimport numpy as np\nfrom pathlib import Path\ndf = pd.read_csv(dataset_path)\npoints = pd.read_csv(Path(dataset_path).with_name('trajectory_points.csv'))\nprint(pd.crosstab(df.destination_land_use, df.destination_area))\n",
+      "insight_value": {
+        "Mixte": 57,
+        "Activités économiques": 9,
+        "Activités diversifiées": 3,
+        "Résidentiel": 3
+      },
+      "evidence": "57 of 72 endpoints fall in official Mixte polygons; destination-area labels are shown separately from land-use categories.",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "land_use_reference",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "health_direct_route_exception",
+      "insight": "A small number of health-related trajectories are unusually direct and travel from the city center to outside the city.",
+      "insight_type": "exception_deviation",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Direct Health-route Anomalies",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/health_direct_route_anomalies.png"
+      },
+      "question": "Which health-relevant trajectories are unusually direct, and where do they travel from and to?",
+      "code": "df[df.usage.eq('health')][['route_directness_ratio','origin_area','destination_area']].sort_values('route_directness_ratio')",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trip_purpose",
+        "gps_position",
+        "trajectory_id",
+        "point_speed"
+      ]
+    }
+  ],
+  "insights": [
+    "Work and education account for the largest shares of rush-hour trips.",
+    "Speed distributions are generally similar across usage groups, whereas route-directness distributions vary across them.",
+    "Most trajectories end in Mixte destinations in the city-center area.",
+    "A small number of health-related trajectories are unusually direct and travel from the city center to outside the city."
+  ],
+  "summary": "Work and education account for the largest shares of rush-hour trips. Speed distributions are generally similar across usage groups, whereas route-directness distributions vary across them. Most trajectories end in Mixte destinations in the city-center area. A small number of health-related trajectories are unusually direct and travel from the city center to outside the city.",
+  "evidence_policy": "Claims describe patterns in this dataset and do not establish causal relationships."
+}

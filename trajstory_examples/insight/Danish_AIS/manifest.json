@@ -1,0 +1,201 @@
+{
+  "format": "trajstory-insightbench-v0.1",
+  "source": "Danish AIS geographic context; visible cases are constructed derived cases",
+  "cases": [
+    {
+      "case_id": "01_shared_corridor_day",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/01_shared_corridor_day/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/01_shared_corridor_day/trajectory_points.csv",
+      "trajectory_segments": 48,
+      "trajectory_points": 1136,
+      "data_revision": "2026-10-06-waterborne-mixed-quiet-traffic"
+    },
+    {
+      "case_id": "02_passage_and_holding_area",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/02_passage_and_holding_area/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/02_passage_and_holding_area/trajectory_points.csv",
+      "trajectory_segments": 58,
+      "trajectory_points": 1108
+    },
+    {
+      "case_id": "03_multi_day_vessel_anomalies",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/03_multi_day_vessel_anomalies/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/03_multi_day_vessel_anomalies/trajectory_points.csv"
+    },
+    {
+      "case_id": "04_bornholmsgat_vs_great_belt",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/04_bornholmsgat_vs_great_belt/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/04_bornholmsgat_vs_great_belt/trajectory_points.csv",
+      "vessels": 36,
+      "trajectory_segments": 36,
+      "trajectory_points": 576
+    },
+    {
+      "case_id": "05_structured_corridor_voyage_behaviors",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/05_structured_corridor_voyage_behaviors/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/05_structured_corridor_voyage_behaviors/trajectory_points.csv",
+      "trajectory_segments": 10,
+      "trajectory_points": 421
+    },
+    {
+      "case_id": "06_kattegat_route_structure",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/06_kattegat_route_structure/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/06_kattegat_route_structure/trajectory_points.csv",
+      "vessels": 47,
+      "trajectory_segments": 47,
+      "trajectory_points": 1692
+    },
+    {
+      "case_id": "07_kattegat_ferry_traffic_patterns",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/07_kattegat_ferry_traffic_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/07_kattegat_ferry_traffic_patterns/trajectory_points.csv",
+      "vessels": 2,
+      "trajectory_segments": 20,
+      "trajectory_points": 880
+    },
+    {
+      "case_id": "08_kattegat_fishing_vessel_patterns",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/08_kattegat_fishing_vessel_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/08_kattegat_fishing_vessel_patterns/trajectory_points.csv",
+      "vessels": 26,
+      "trajectory_segments": 26,
+      "trajectory_points": 1096
+    },
+    {
+      "case_id": "09_single_vessel_sailing_stages",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/09_single_vessel_sailing_stages/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/09_single_vessel_sailing_stages/trajectory_points.csv",
+      "vessels": 1,
+      "trajectory_segments": 12,
+      "trajectory_points": 534
+    },
+    {
+      "case_id": "10_dynamic_vessel_status_over_time",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/10_dynamic_vessel_status_over_time/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/10_dynamic_vessel_status_over_time/trajectory_points.csv",
+      "vessels": 1,
+      "trajectory_segments": 1,
+      "trajectory_points": 144
+    },
+    {
+      "case_id": "11_individual_vessel_movement_patterns",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/11_individual_vessel_movement_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/11_individual_vessel_movement_patterns/trajectory_points.csv",
+      "vessels": 5,
+      "trajectory_segments": 150,
+      "trajectory_points": 8545
+    },
+    {
+      "case_id": "12_vessel_characteristics_and_route_choice",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/12_vessel_characteristics_and_route_choice/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/12_vessel_characteristics_and_route_choice/trajectory_points.csv",
+      "vessels": 100,
+      "trajectory_segments": 100,
+      "trajectory_points": 4578
+    },
+    {
+      "case_id": "13_anholt_island_route_use",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/13_anholt_island_route_use/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/13_anholt_island_route_use/trajectory_points.csv",
+      "vessels": 60,
+      "trajectory_segments": 60,
+      "trajectory_points": 2680
+    },
+    {
+      "case_id": "14_time_of_day_vessel_dynamics",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/14_time_of_day_vessel_dynamics/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/14_time_of_day_vessel_dynamics/trajectory_points.csv",
+      "vessels": 88,
+      "trajectory_segments": 88,
+      "trajectory_points": 4785
+    },
+    {
+      "case_id": "15_summer_winter_vessel_type_changes",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/15_summer_winter_vessel_type_changes/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/15_summer_winter_vessel_type_changes/trajectory_points.csv",
+      "vessels": 131,
+      "trajectory_segments": 131,
+      "trajectory_points": 5163
+    },
+    {
+      "case_id": "16_vessel_factors_and_movement",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/16_vessel_factors_and_movement/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/16_vessel_factors_and_movement/trajectory_points.csv",
+      "vessels": 57,
+      "trajectory_segments": 94,
+      "trajectory_points": 4797
+    },
+    {
+      "case_id": "17_constrained_area_navigation_adjustment",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/17_constrained_area_navigation_adjustment/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/17_constrained_area_navigation_adjustment/trajectory_points.csv",
+      "vessels": 44,
+      "trajectory_segments": 88,
+      "trajectory_points": 6298
+    },
+    {
+      "case_id": "18_long_straight_passage_dynamics",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/18_long_straight_passage_dynamics/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/18_long_straight_passage_dynamics/trajectory_points.csv",
+      "vessels": 1,
+      "trajectory_segments": 18,
+      "trajectory_points": 1565
+    },
+    {
+      "case_id": "19_harbour_offshore_repeated_operations",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/19_harbour_offshore_repeated_operations/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/19_harbour_offshore_repeated_operations/trajectory_points.csv",
+      "vessels": 7,
+      "trajectory_segments": 52,
+      "trajectory_points": 4796
+    },
+    {
+      "case_id": "20_vessel_type_movement_comparison",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/20_vessel_type_movement_comparison/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/20_vessel_type_movement_comparison/trajectory_points.csv",
+      "vessels": 48,
+      "trajectory_segments": 144,
+      "trajectory_points": 15190
+    },
+    {
+      "case_id": "21_bidirectional_traffic_flow",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/21_bidirectional_traffic_flow/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/21_bidirectional_traffic_flow/trajectory_points.csv",
+      "vessels": 90,
+      "trajectory_segments": 90,
+      "trajectory_points": 10118
+    },
+    {
+      "case_id": "22_constrained_area_bypass_dynamics",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/22_constrained_area_bypass_dynamics/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/22_constrained_area_bypass_dynamics/trajectory_points.csv",
+      "vessels": 62,
+      "trajectory_segments": 62,
+      "trajectory_points": 5352
+    },
+    {
+      "case_id": "23_tourist_vessel_coastal_activity",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/23_tourist_vessel_coastal_activity/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/23_tourist_vessel_coastal_activity/trajectory_points.csv",
+      "vessels": 40,
+      "trajectory_segments": 132,
+      "trajectory_points": 9996
+    },
+    {
+      "case_id": "24_mon_mixed_traffic_interactions",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/24_mon_mixed_traffic_interactions/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/24_mon_mixed_traffic_interactions/trajectory_points.csv",
+      "vessels": 102,
+      "trajectory_segments": 156,
+      "trajectory_points": 11644
+    },
+    {
+      "case_id": "25_great_belt_bend_manoeuvring",
+      "insight_json": "trajstory_examples/insight/Danish_AIS/25_great_belt_bend_manoeuvring/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/25_great_belt_bend_manoeuvring/trajectory_points.csv",
+      "vessels": 76,
+      "trajectory_segments": 76,
+      "trajectory_points": 7651
+    }
+  ]
+}

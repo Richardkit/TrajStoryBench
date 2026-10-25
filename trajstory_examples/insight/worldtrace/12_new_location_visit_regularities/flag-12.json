@@ -1,0 +1,133 @@
+{
+  "dataset_csv_path": "trajectories.csv",
+  "user_dataset_csv_path": "trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajectory_points.csv",
+      "role": "Timestamped GPS points with map-matched road coordinates and OSM way identifiers"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze location-visiting patterns and driving behavior across first and repeated visits.",
+    "role": "Urban mobility analyst",
+    "category": "Exploration bursts, familiarity, speed, and directness",
+    "header": "New-Location Visit Regularities",
+    "dataset_description": "A constructed WorldTrace case with 240 trajectories. Route geometries come from observed NYC WorldTrace records and retain map-matched coordinates and OSM way identifiers. User, visit sequence, time, mode, vehicle, and weather context are arranged to realize the stated analysis goal."
+  },
+  "insight_list": [
+    {
+      "data_type": "worldtrace_ex12_insight_1",
+      "insight": "Although new-area visits account for only a small portion of the trajectory history, they are not evenly distributed over time.",
+      "plot": {
+        "plot_type": "map_and_statistical_summary",
+        "files": [
+          "visualizations/trajectory_map.png",
+          "visualizations/insight_1.png"
+        ],
+        "title": "New-Location Visit Regularities: Insight 1",
+        "description": "The geographic panel uses map-matched WorldTrace route geometry; the question-specific statistical plot summarizes the corresponding pattern."
+      },
+      "question": "What portion of the user’s trajectory history consists of new-area visits, and where do those visits occur in the sequence?",
+      "actionable_insight": "Locate all new-location visits along the ordered trip history and compare them with familiar returns.",
+      "code": "new=df[df.is_new_location_visit]; print('new visits',len(new),'share',len(new)/len(df)); print(new.trip_index.tolist()); plt.scatter(df.trip_index,df.is_new_location_visit.astype(int),c=np.where(df.is_new_location_visit,'#f97316','#cbd5e1')); plt.yticks([0,1],['familiar','new']); plt.show()",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trajectory_timestamp",
+        "trajectory_id",
+        "gps_position",
+        "matched_road_position"
+      ]
+    },
+    {
+      "data_type": "worldtrace_ex12_insight_2",
+      "insight": "Most new-area visits occur in several short sequences of consecutive explorations, separated by substantially longer periods dominated by returns to familiar areas.",
+      "plot": {
+        "plot_type": "map_and_statistical_summary",
+        "files": [
+          "visualizations/trajectory_map.png",
+          "visualizations/insight_2.png"
+        ],
+        "title": "New-Location Visit Regularities: Insight 2",
+        "description": "The geographic panel uses map-matched WorldTrace route geometry; the question-specific statistical plot summarizes the corresponding pattern."
+      },
+      "question": "Do new-area visits form short exploration sequences separated by longer periods dominated by familiar returns?",
+      "actionable_insight": "Inspect the trip indices and intervals separating successive new-location visits.",
+      "code": "idx=df.loc[df.is_new_location_visit,'trip_index'].to_numpy(); print('indices',idx.tolist()); print('gaps',np.diff(idx).tolist()); pd.Series(np.isin(df.trip_index,idx).astype(int),index=df.trip_index).plot(drawstyle='steps-mid'); plt.ylabel('new-location visit'); plt.show()",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trajectory_timestamp",
+        "trajectory_id",
+        "gps_position",
+        "matched_road_position"
+      ]
+    },
+    {
+      "data_type": "worldtrace_ex12_insight_3",
+      "insight": "The more times the user visit the same location, the more likely the user drive faster to that location.",
+      "plot": {
+        "plot_type": "map_and_statistical_summary",
+        "files": [
+          "visualizations/trajectory_map.png",
+          "visualizations/insight_3.png"
+        ],
+        "title": "New-Location Visit Regularities: Insight 3",
+        "description": "The geographic panel uses map-matched WorldTrace route geometry; the question-specific statistical plot summarizes the corresponding pattern."
+      },
+      "question": "How does driving speed vary with the number of visits made to each location?",
+      "actionable_insight": "Compare location visit counts with mean driving speeds and quantify their association.",
+      "code": "g=df.groupby('visited_location').agg(visits=('trajectory_id','size'),speed=('mean_speed_kmh','mean')); print(g); print('correlation',g.visits.corr(g.speed)); plt.scatter(g.visits,g.speed); plt.xlabel('visits'); plt.ylabel('mean speed (km/h)'); plt.show()",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "trajectory_timestamp",
+        "trajectory_id",
+        "matched_road_position"
+      ]
+    },
+    {
+      "data_type": "worldtrace_ex12_insight_4",
+      "insight": "The more times the user visit the same location, the more likely the user drive with smaller route directness rate to that location.",
+      "plot": {
+        "plot_type": "map_and_statistical_summary",
+        "files": [
+          "visualizations/trajectory_map.png",
+          "visualizations/insight_4.png"
+        ],
+        "title": "New-Location Visit Regularities: Insight 4",
+        "description": "The geographic panel uses map-matched WorldTrace route geometry; the question-specific statistical plot summarizes the corresponding pattern."
+      },
+      "question": "How does route directness vary with the number of visits made to each location?",
+      "actionable_insight": "Compare location visit counts with route-distance-to-straight-line ratios; smaller ratios indicate greater directness.",
+      "code": "g=df.groupby('visited_location').agg(visits=('trajectory_id','size'),ratio=('route_directness_ratio','mean')); print(g); print('correlation',g.visits.corr(g.ratio)); plt.scatter(g.visits,g.ratio); plt.xlabel('visits'); plt.ylabel('route / straight-line distance'); plt.show()",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "trajectory_id",
+        "matched_road_position"
+      ]
+    }
+  ],
+  "insights": [
+    "Although new-area visits account for only a small portion of the trajectory history, they are not evenly distributed over time.",
+    "Most new-area visits occur in several short sequences of consecutive explorations, separated by substantially longer periods dominated by returns to familiar areas.",
+    "The more times the user visit the same location, the more likely the user drive faster to that location.",
+    "The more times the user visit the same location, the more likely the user drive with smaller route directness rate to that location."
+  ],
+  "summary": "Although new-area visits account for only a small portion of the trajectory history, they are not evenly distributed over time. Most new-area visits occur in several short sequences of consecutive explorations, separated by substantially longer periods dominated by returns to familiar areas. The more times the user visit the same location, the more likely the user drive faster to that location. The more times the user visit the same location, the more likely the user drive with smaller route directness rate to that location."
+}

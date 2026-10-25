@@ -1,0 +1,41 @@
+vessel_id,ship_type,vessel_subtype,length_m,passenger_capacity
+tour_001,Tourist vessel,Wildlife tour boat,24.3,86
+tour_002,Tourist vessel,Coastal excursion boat,19.5,35
+tour_003,Tourist vessel,Wildlife tour boat,38.0,78
+tour_004,Tourist vessel,Wildlife tour boat,22.1,35
+tour_005,Tourist vessel,Sightseeing boat,29.9,38
+tour_006,Tourist vessel,Sightseeing boat,28.3,77
+tour_007,Tourist vessel,Wildlife tour boat,33.2,86
+tour_008,Tourist vessel,Sightseeing boat,20.5,90
+tour_009,Tourist vessel,Sightseeing boat,34.2,30
+tour_010,Tourist vessel,Sightseeing boat,36.9,51
+tour_011,Tourist vessel,Wildlife tour boat,35.2,90
+tour_012,Tourist vessel,Sightseeing boat,31.5,84
+tour_013,Tourist vessel,Wildlife tour boat,23.6,53
+tour_014,Tourist vessel,Wildlife tour boat,12.6,42
+tour_015,Tourist vessel,Coastal excursion boat,33.8,63
+tour_016,Tourist vessel,Sightseeing boat,36.3,72
+tour_017,Tourist vessel,Coastal excursion boat,32.9,50
+tour_018,Tourist vessel,Sightseeing boat,17.5,31
+tour_019,Tourist vessel,Wildlife tour boat,31.6,31
+tour_020,Tourist vessel,Coastal excursion boat,31.1,84
+tour_021,Tourist vessel,Sightseeing boat,13.2,90
+tour_022,Tourist vessel,Sightseeing boat,26.7,24
+tour_023,Tourist vessel,Wildlife tour boat,13.9,32
+tour_024,Tourist vessel,Wildlife tour boat,33.5,18
+tour_025,Tourist vessel,Coastal excursion boat,36.2,85
+tour_026,Tourist vessel,Wildlife tour boat,26.6,33
+tour_027,Tourist vessel,Wildlife tour boat,18.3,58
+tour_028,Tourist vessel,Sightseeing boat,36.8,65
+tour_029,Tourist vessel,Coastal excursion boat,20.7,36
+tour_030,Tourist vessel,Wildlife tour boat,23.9,85
+tour_031,Tourist vessel,Coastal excursion boat,37.8,39
+tour_032,Tourist vessel,Sightseeing boat,33.1,94
+tour_033,Tourist vessel,Sightseeing boat,12.4,58
+tour_034,Tourist vessel,Wildlife tour boat,36.1,23
+tour_035,Tourist vessel,Sightseeing boat,37.1,36
+tour_036,Tourist vessel,Coastal excursion boat,23.9,37
+tour_037,Tourist vessel,Coastal excursion boat,27.7,85
+tour_038,Tourist vessel,Sightseeing boat,26.7,84
+tour_039,Tourist vessel,Coastal excursion boat,37.6,42
+tour_040,Tourist vessel,Coastal excursion boat,35.2,62

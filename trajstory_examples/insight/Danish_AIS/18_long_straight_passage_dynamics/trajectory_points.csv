@@ -1,0 +1,1566 @@
+trajectory_id,vessel_id,timestamp,point_index,lat,lon,sog_knots,cog,heading,nav_status
+passage_trip_01,passage_001,2026-06-03 09:00:00,0,55.159999,7.336018,2.1,1.1,1.4,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 09:41:21,1,55.180242,7.33672,1.4,1.1,359.3,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 10:14:29,2,55.200486,7.33738,2.95,1.0,0.7,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 10:42:07,3,55.220729,7.33802,2.34,1.2,0.3,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 11:09:31,4,55.240971,7.338839,2.9,1.2,2.3,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 11:32:03,5,55.261214,7.339504,3.63,1.0,359.9,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 11:52:18,6,55.281458,7.340068,3.58,1.1,1.0,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 12:09:06,7,55.301701,7.340817,5.1,1.2,0.7,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 12:22:44,8,55.321944,7.341506,5.5,1.1,0.9,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 12:35:12,9,55.342186,7.342244,6.3,1.2,1.8,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 12:45:55,10,55.362429,7.342943,7.22,1.2,359.5,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 12:55:30,11,55.382671,7.343707,7.94,1.2,1.0,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 13:04:33,12,55.402913,7.344491,8.25,1.4,0.8,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 13:12:53,13,55.423153,7.345441,9.33,1.3,0.2,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 13:20:13,14,55.443396,7.346137,10.19,1.2,358.4,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 13:27:04,15,55.463638,7.346907,10.75,1.0,358.9,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 13:33:46,16,55.483881,7.347436,11.0,0.6,0.2,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 13:40:13,17,55.504127,7.347685,11.63,0.3,359.4,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 13:46:17,18,55.524374,7.3478,12.18,0.2,358.6,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 13:52:08,19,55.54462,7.347976,12.25,0.3,0.4,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 13:57:58,20,55.564867,7.348121,12.98,0.3,0.3,Restricted manoeuverability
+passage_trip_01,passage_001,2026-06-03 14:03:33,21,55.585113,7.34833,13.19,0.3,0.7,Under way using engine
+passage_trip_01,passage_001,2026-06-03 14:09:11,22,55.605358,7.348524,12.56,0.0,359.9,Under way using engine
+passage_trip_01,passage_001,2026-06-03 14:14:49,23,55.625601,7.348388,12.83,359.6,357.7,Under way using engine
+passage_trip_01,passage_001,2026-06-03 14:20:32,24,55.645847,7.348073,12.63,359.6,0.7,Under way using engine
+passage_trip_01,passage_001,2026-06-03 14:26:15,25,55.666094,7.347836,12.51,359.7,1.5,Under way using engine
+passage_trip_01,passage_001,2026-06-03 14:32:00,26,55.68634,7.347658,12.99,359.6,357.0,Under way using engine
+passage_trip_01,passage_001,2026-06-03 14:37:44,27,55.706586,7.347297,12.63,359.5,359.3,Under way using engine
+passage_trip_01,passage_001,2026-06-03 14:43:29,28,55.726831,7.347082,12.7,359.5,359.4,Under way using engine
+passage_trip_01,passage_001,2026-06-03 14:49:15,29,55.747072,7.346638,12.57,359.1,359.7,Under way using engine
+passage_trip_01,passage_001,2026-06-03 14:54:56,30,55.767313,7.345906,12.99,358.9,0.4,Under way using engine
+passage_trip_01,passage_001,2026-06-03 15:00:33,31,55.787557,7.345313,12.65,358.9,359.3,Under way using engine
+passage_trip_01,passage_001,2026-06-03 15:06:12,32,55.807799,7.344529,12.72,358.9,359.3,Under way using engine
+passage_trip_01,passage_001,2026-06-03 15:11:53,33,55.828043,7.343904,12.95,359.0,0.7,Under way using engine
+passage_trip_01,passage_001,2026-06-03 15:17:37,34,55.848286,7.343268,12.41,359.0,0.4,Under way using engine
+passage_trip_01,passage_001,2026-06-03 15:23:22,35,55.868527,7.342596,12.8,358.5,358.3,Under way using engine
+passage_trip_01,passage_001,2026-06-03 15:29:08,36,55.88876,7.341441,12.5,358.2,358.4,Under way using engine
+passage_trip_01,passage_001,2026-06-03 15:34:51,37,55.908998,7.34037,12.63,358.2,357.9,Under way using engine
+passage_trip_01,passage_001,2026-06-03 15:40:33,38,55.929233,7.339183,12.73,358.3,357.7,Under way using engine
+passage_trip_01,passage_001,2026-06-03 15:46:17,39,55.949473,7.3382,12.84,358.3,358.8,Under way using engine
+passage_trip_01,passage_001,2026-06-03 15:51:58,40,55.969709,7.337045,12.57,358.2,359.8,Under way using engine
+passage_trip_01,passage_001,2026-06-03 15:57:47,41,55.989947,7.335963,12.53,358.5,358.5,Under way using engine
+passage_trip_01,passage_001,2026-06-03 16:03:30,42,56.01019,7.335151,12.72,358.8,357.8,Under way using engine
+passage_trip_01,passage_001,2026-06-03 16:09:05,43,56.030434,7.334461,13.12,358.9,359.0,Under way using engine
+passage_trip_01,passage_001,2026-06-03 16:14:44,44,56.050676,7.33373,12.64,358.9,359.1,Under way using engine
+passage_trip_01,passage_001,2026-06-03 16:20:31,45,56.07092,7.33308,12.29,359.0,2.0,Under way using engine
+passage_trip_01,passage_001,2026-06-03 16:26:16,46,56.091164,7.332442,13.27,358.9,358.5,Under way using engine
+passage_trip_01,passage_001,2026-06-03 16:31:53,47,56.111407,7.331738,12.42,359.0,357.4,Under way using engine
+passage_trip_01,passage_001,2026-06-03 16:37:43,48,56.13165,7.331127,12.69,359.0,357.5,Under way using engine
+passage_trip_01,passage_001,2026-06-03 16:43:24,49,56.151892,7.330437,12.69,359.0,359.4,Under way using engine
+passage_trip_01,passage_001,2026-06-03 16:49:00,50,56.172136,7.329891,12.86,359.1,358.8,Under way using engine
+passage_trip_01,passage_001,2026-06-03 16:54:37,51,56.19238,7.329336,12.65,359.2,0.0,Under way using engine
+passage_trip_01,passage_001,2026-06-03 17:00:26,52,56.212625,7.328874,12.53,359.1,0.3,Under way using engine
+passage_trip_01,passage_001,2026-06-03 17:06:08,53,56.232868,7.328161,12.82,359.1,358.1,Under way using engine
+passage_trip_01,passage_001,2026-06-03 17:11:41,54,56.253113,7.327715,13.11,359.2,359.5,Under way using engine
+passage_trip_01,passage_001,2026-06-03 17:17:16,55,56.273357,7.327136,12.88,359.1,358.0,Under way using engine
+passage_trip_01,passage_001,2026-06-03 17:22:52,56,56.293599,7.326606,13.06,359.3,0.9,Under way using engine
+passage_trip_01,passage_001,2026-06-03 17:28:32,57,56.313844,7.326235,12.63,359.4,1.0,Under way using engine
+passage_trip_01,passage_001,2026-06-03 17:34:14,58,56.33409,7.325862,12.55,359.4,358.3,Under way using engine
+passage_trip_01,passage_001,2026-06-03 17:39:52,59,56.354335,7.325467,12.99,359.5,358.7,Under way using engine
+passage_trip_01,passage_001,2026-06-03 17:45:37,60,56.374582,7.325271,12.55,359.4,0.6,Under way using engine
+passage_trip_01,passage_001,2026-06-03 17:51:22,61,56.394827,7.324697,13.0,359.3,359.1,Under way using engine
+passage_trip_01,passage_001,2026-06-03 17:56:55,62,56.415072,7.324362,13.02,359.5,0.1,Under way using engine
+passage_trip_01,passage_001,2026-06-03 18:02:39,63,56.435317,7.324036,12.55,359.6,359.2,Under way using engine
+passage_trip_01,passage_001,2026-06-03 18:08:22,64,56.455562,7.323819,12.64,359.7,0.4,Under way using engine
+passage_trip_01,passage_001,2026-06-03 18:14:03,65,56.475809,7.323642,13.22,359.7,357.3,Under way using engine
+passage_trip_01,passage_001,2026-06-03 18:19:35,66,56.496055,7.323436,12.67,359.6,1.1,Under way using engine
+passage_trip_01,passage_001,2026-06-03 18:25:24,67,56.516302,7.323189,12.36,359.7,0.1,Under way using engine
+passage_trip_01,passage_001,2026-06-03 18:31:15,68,56.536548,7.323043,12.7,359.7,359.3,Under way using engine
+passage_trip_01,passage_001,2026-06-03 18:37:02,69,56.556795,7.322773,12.35,359.7,359.7,Under way using engine
+passage_trip_01,passage_001,2026-06-03 18:42:52,70,56.577041,7.322673,12.64,359.8,0.4,Under way using engine
+passage_trip_01,passage_001,2026-06-03 18:48:38,71,56.597288,7.32258,12.73,359.9,358.3,Under way using engine
+passage_trip_01,passage_001,2026-06-03 18:54:20,72,56.617534,7.322481,12.94,359.9,0.9,Under way using engine
+passage_trip_01,passage_001,2026-06-03 19:00:00,73,56.637781,7.322433,12.95,0.0,0.8,Under way using engine
+passage_trip_01,passage_001,2026-06-03 19:05:34,74,56.658028,7.322421,12.96,359.9,359.4,Under way using engine
+passage_trip_01,passage_001,2026-06-03 19:11:17,75,56.678275,7.322285,12.69,359.8,0.9,Under way using engine
+passage_trip_01,passage_001,2026-06-03 19:16:59,76,56.698521,7.322212,12.86,359.8,358.7,Under way using engine
+passage_trip_01,passage_001,2026-06-03 19:22:39,77,56.718768,7.32205,13.0,359.8,359.1,Under way using engine
+passage_trip_01,passage_001,2026-06-03 19:28:17,78,56.739014,7.321939,12.8,359.9,0.8,Under way using engine
+passage_trip_01,passage_001,2026-06-03 19:34:00,79,56.759261,7.321962,12.61,359.9,1.1,Under way using engine
+passage_trip_01,passage_001,2026-06-03 19:39:38,80,56.779508,7.321786,12.97,359.7,359.0,Under way using engine
+passage_trip_01,passage_001,2026-06-03 19:45:14,81,56.799754,7.321564,12.75,359.8,0.2,Under way using engine
+passage_trip_01,passage_001,2026-06-03 19:51:00,82,56.820001,7.321494,12.67,359.9,359.9,Under way using engine
+passage_trip_02,passage_001,2026-06-04 11:00:00,0,56.819989,7.352795,1.99,178.4,178.2,Restricted manoeuverability
+passage_trip_02,passage_001,2026-06-04 11:34:49,1,56.800231,7.353789,2.1,178.3,176.7,Restricted manoeuverability
+passage_trip_02,passage_001,2026-06-04 12:05:08,2,56.780475,7.354935,2.61,178.3,177.1,Restricted manoeuverability
+passage_trip_02,passage_001,2026-06-04 12:31:46,3,56.760717,7.355925,2.75,178.5,176.3,Restricted manoeuverability
+passage_trip_02,passage_001,2026-06-04 12:53:45,4,56.740958,7.356831,3.68,178.4,180.0,Restricted manoeuverability
+passage_trip_02,passage_001,2026-06-04 13:11:40,5,56.721201,7.357904,4.28,178.3,178.5,Restricted manoeuverability
+passage_trip_02,passage_001,2026-06-04 13:28:22,6,56.701445,7.359016,4.31,178.3,178.7,Restricted manoeuverability
+passage_trip_02,passage_001,2026-06-04 13:42:31,7,56.681688,7.360103,5.62,178.2,177.6,Restricted manoeuverability
+passage_trip_02,passage_001,2026-06-04 13:54:26,8,56.661933,7.361238,6.4,178.4,178.6,Restricted manoeuverability
+passage_trip_02,passage_001,2026-06-04 14:05:13,9,56.642173,7.362158,6.78,178.4,175.5,Restricted manoeuverability
+passage_trip_02,passage_001,2026-06-04 14:14:53,10,56.622417,7.363233,7.66,178.2,177.1,Restricted manoeuverability
+passage_trip_02,passage_001,2026-06-04 14:23:53,11,56.602662,7.364431,8.08,178.2,176.1,Restricted manoeuverability
+passage_trip_02,passage_001,2026-06-04 14:32:09,12,56.582905,7.365507,8.93,178.5,178.0,Restricted manoeuverability
+passage_trip_02,passage_001,2026-06-04 14:39:36,13,56.563144,7.366323,9.92,178.6,179.9,Restricted manoeuverability
+passage_trip_02,passage_001,2026-06-04 14:46:28,14,56.543386,7.36728,10.67,178.5,178.1,Restricted manoeuverability
+passage_trip_02,passage_001,2026-06-04 14:53:01,15,56.523627,7.368232,10.93,178.5,177.5,Restricted manoeuverability
+passage_trip_02,passage_001,2026-06-04 14:59:22,16,56.503868,7.369183,11.36,178.4,179.2,Restricted manoeuverability
+passage_trip_02,passage_001,2026-06-04 15:05:34,17,56.48411,7.370172,11.33,178.3,178.7,Restricted manoeuverability
+passage_trip_02,passage_001,2026-06-04 15:11:38,18,56.464354,7.371248,11.92,178.4,175.6,Under way using engine
+passage_trip_02,passage_001,2026-06-04 15:17:38,19,56.444596,7.372193,11.49,178.5,179.8,Under way using engine
+passage_trip_02,passage_001,2026-06-04 15:23:43,20,56.424839,7.373166,11.73,178.8,178.4,Under way using engine
+passage_trip_02,passage_001,2026-06-04 15:29:37,21,56.405077,7.373733,11.96,179.1,180.2,Under way using engine
+passage_trip_02,passage_001,2026-06-04 15:35:36,22,56.385313,7.374237,11.67,179.2,176.9,Under way using engine
+passage_trip_02,passage_001,2026-06-04 15:41:38,23,56.365549,7.374775,11.93,179.1,179.1,Under way using engine
+passage_trip_02,passage_001,2026-06-04 15:47:32,24,56.345786,7.375358,12.12,179.2,179.1,Under way using engine
+passage_trip_02,passage_001,2026-06-04 15:53:33,25,56.326021,7.375716,11.75,179.4,179.6,Under way using engine
+passage_trip_02,passage_001,2026-06-04 15:59:34,26,56.306256,7.376162,12.06,179.3,177.2,Under way using engine
+passage_trip_02,passage_001,2026-06-04 16:05:37,27,56.286494,7.376539,11.49,179.6,180.1,Under way using engine
+passage_trip_02,passage_001,2026-06-04 16:11:41,28,56.266731,7.376632,11.57,179.9,179.9,Under way using engine
+passage_trip_02,passage_001,2026-06-04 16:17:40,29,56.246966,7.37667,11.94,179.8,179.1,Under way using engine
+passage_trip_02,passage_001,2026-06-04 16:23:42,30,56.2272,7.376881,11.77,179.8,180.7,Under way using engine
+passage_trip_02,passage_001,2026-06-04 16:29:50,31,56.207434,7.376946,11.52,179.7,180.3,Under way using engine
+passage_trip_02,passage_001,2026-06-04 16:35:53,32,56.187668,7.377213,11.82,179.7,177.1,Under way using engine
+passage_trip_02,passage_001,2026-06-04 16:41:55,33,56.167902,7.377344,11.59,179.7,180.4,Under way using engine
+passage_trip_02,passage_001,2026-06-04 16:47:55,34,56.148136,7.377592,11.8,179.9,179.5,Under way using engine
+passage_trip_02,passage_001,2026-06-04 16:53:56,35,56.128369,7.377413,11.52,180.6,181.6,Under way using engine
+passage_trip_02,passage_001,2026-06-04 17:00:09,36,56.108605,7.37691,11.49,180.8,180.8,Under way using engine
+passage_trip_02,passage_001,2026-06-04 17:06:07,37,56.088841,7.376378,12.09,180.8,181.9,Under way using engine
+passage_trip_02,passage_001,2026-06-04 17:12:03,38,56.069076,7.375968,11.95,180.8,181.5,Under way using engine
+passage_trip_02,passage_001,2026-06-04 17:18:02,39,56.049312,7.375446,11.61,180.7,180.9,Under way using engine
+passage_trip_02,passage_001,2026-06-04 17:24:05,40,56.029547,7.375058,11.9,180.6,180.1,Under way using engine
+passage_trip_02,passage_001,2026-06-04 17:30:02,41,56.009779,7.374682,12.22,181.0,179.7,Under way using engine
+passage_trip_02,passage_001,2026-06-04 17:35:58,42,55.990015,7.373846,11.6,181.5,180.4,Under way using engine
+passage_trip_02,passage_001,2026-06-04 17:42:04,43,55.970254,7.372838,11.91,181.8,183.7,Under way using engine
+passage_trip_02,passage_001,2026-06-04 17:48:05,44,55.950501,7.371586,11.65,182.0,182.0,Under way using engine
+passage_trip_02,passage_001,2026-06-04 17:54:11,45,55.930747,7.370339,11.8,182.0,181.2,Under way using engine
+passage_trip_02,passage_001,2026-06-04 18:00:07,46,55.910994,7.369081,12.03,182.0,180.6,Under way using engine
+passage_trip_02,passage_001,2026-06-04 18:05:59,47,55.891239,7.367899,11.82,182.0,180.7,Under way using engine
+passage_trip_02,passage_001,2026-06-04 18:12:00,48,55.871489,7.366621,11.62,181.8,181.9,Under way using engine
+passage_trip_02,passage_001,2026-06-04 18:18:04,49,55.851733,7.365735,11.78,181.4,181.0,Under way using engine
+passage_trip_02,passage_001,2026-06-04 18:23:57,50,55.831972,7.36496,12.26,181.2,181.7,Under way using engine
+passage_trip_02,passage_001,2026-06-04 18:29:51,51,55.812209,7.364318,11.98,181.1,180.9,Under way using engine
+passage_trip_02,passage_001,2026-06-04 18:35:46,52,55.792448,7.363571,11.63,181.2,181.8,Under way using engine
+passage_trip_02,passage_001,2026-06-04 18:41:43,53,55.772687,7.362786,12.08,181.4,181.3,Under way using engine
+passage_trip_02,passage_001,2026-06-04 18:47:31,54,55.752927,7.361913,12.27,181.4,181.3,Under way using engine
+passage_trip_02,passage_001,2026-06-04 18:53:23,55,55.73317,7.361079,11.97,181.0,181.6,Under way using engine
+passage_trip_02,passage_001,2026-06-04 18:59:23,56,55.713407,7.360645,11.64,180.9,180.2,Under way using engine
+passage_trip_02,passage_001,2026-06-04 19:05:25,57,55.693644,7.360011,11.98,180.9,180.5,Under way using engine
+passage_trip_02,passage_001,2026-06-04 19:11:13,58,55.67388,7.359503,12.27,180.8,181.9,Under way using engine
+passage_trip_02,passage_001,2026-06-04 19:17:10,59,55.654116,7.359013,11.82,180.9,179.1,Under way using engine
+passage_trip_02,passage_001,2026-06-04 19:23:04,60,55.634352,7.3584,12.24,180.9,183.7,Under way using engine
+passage_trip_02,passage_001,2026-06-04 19:28:59,61,55.614588,7.357946,11.92,180.4,178.6,Under way using engine
+passage_trip_02,passage_001,2026-06-04 19:34:53,62,55.594822,7.357885,11.77,180.1,178.5,Under way using engine
+passage_trip_02,passage_001,2026-06-04 19:40:47,63,55.575056,7.357879,12.07,180.0,178.0,Under way using engine
+passage_trip_02,passage_001,2026-06-04 19:46:41,64,55.55529,7.357936,12.13,180.0,178.8,Under way using engine
+passage_trip_02,passage_001,2026-06-04 19:52:31,65,55.535524,7.357916,12.05,180.1,180.4,Under way using engine
+passage_trip_02,passage_001,2026-06-04 19:58:34,66,55.515758,7.357863,11.67,179.9,181.3,Under way using engine
+passage_trip_02,passage_001,2026-06-04 20:04:26,67,55.495992,7.358044,12.12,179.7,180.1,Under way using engine
+passage_trip_02,passage_001,2026-06-04 20:10:21,68,55.476225,7.35818,11.77,179.6,180.1,Under way using engine
+passage_trip_02,passage_001,2026-06-04 20:16:24,69,55.45646,7.358587,11.98,179.2,179.5,Under way using engine
+passage_trip_02,passage_001,2026-06-04 20:22:16,70,55.436697,7.35912,11.8,179.2,180.9,Under way using engine
+passage_trip_02,passage_001,2026-06-04 20:28:20,71,55.416932,7.359571,11.64,179.3,178.8,Under way using engine
+passage_trip_02,passage_001,2026-06-04 20:34:22,72,55.397168,7.360007,11.64,179.2,177.4,Under way using engine
+passage_trip_02,passage_001,2026-06-04 20:40:31,73,55.377404,7.360531,11.59,179.1,178.8,Under way using engine
+passage_trip_02,passage_001,2026-06-04 20:46:29,74,55.35764,7.361043,11.83,179.3,180.8,Under way using engine
+passage_trip_02,passage_001,2026-06-04 20:52:24,75,55.337875,7.361384,12.1,179.3,176.4,Under way using engine
+passage_trip_02,passage_001,2026-06-04 20:58:16,76,55.318111,7.361917,11.74,179.3,178.4,Under way using engine
+passage_trip_02,passage_001,2026-06-04 21:04:18,77,55.298346,7.362257,11.61,179.3,178.6,Under way using engine
+passage_trip_02,passage_001,2026-06-04 21:10:18,78,55.278582,7.362744,11.85,179.2,178.7,Under way using engine
+passage_trip_02,passage_001,2026-06-04 21:16:15,79,55.258818,7.363167,11.66,179.3,180.6,Under way using engine
+passage_trip_02,passage_001,2026-06-04 21:22:17,80,55.239053,7.363618,12.11,179.3,179.1,Under way using engine
+passage_trip_02,passage_001,2026-06-04 21:28:11,81,55.219289,7.364024,11.81,179.2,179.3,Under way using engine
+passage_trip_02,passage_001,2026-06-04 21:34:20,82,55.199525,7.364531,11.47,179.3,178.1,Under way using engine
+passage_trip_02,passage_001,2026-06-04 21:40:27,83,55.17976,7.364888,11.87,179.4,181.0,Under way using engine
+passage_trip_02,passage_001,2026-06-04 21:46:36,84,55.159995,7.365295,11.43,179.3,179.5,Under way using engine
+passage_trip_03,passage_001,2026-06-05 12:00:00,0,55.159998,7.47188,2.49,1.6,0.7,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 12:30:14,1,55.178437,7.472799,1.93,1.6,359.9,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 13:05:33,2,55.196877,7.473658,1.77,1.6,1.7,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 13:35:55,3,55.215316,7.474587,2.52,1.7,1.2,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 14:00:08,4,55.233754,7.475558,2.96,1.7,1.6,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 14:22:19,5,55.252192,7.47652,3.04,1.7,1.5,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 14:42:12,6,55.270631,7.47748,3.62,1.7,3.4,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 14:58:47,7,55.28907,7.478385,4.42,1.6,0.1,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 15:12:51,8,55.30751,7.479239,4.87,1.5,2.7,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 15:25:30,9,55.325949,7.48012,5.64,1.5,2.7,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 15:36:41,10,55.344389,7.48099,6.07,1.5,0.4,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 15:47:00,11,55.362828,7.481859,6.86,1.5,2.4,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 15:56:07,12,55.381269,7.482683,7.81,1.4,0.6,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 16:03:50,13,55.399709,7.483485,9.15,1.5,2.3,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 16:11:15,14,55.418148,7.48441,8.78,1.6,1.2,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 16:18:25,15,55.436588,7.485302,9.82,1.7,1.2,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 16:24:57,16,55.455026,7.486287,10.58,1.7,1.1,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 16:31:02,17,55.473467,7.487194,11.07,1.3,0.6,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 16:36:52,18,55.491913,7.487725,11.76,0.9,0.9,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 16:42:30,19,55.510358,7.488256,11.95,0.8,0.8,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 16:48:02,20,55.528802,7.488685,12.29,0.8,2.5,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 16:53:30,21,55.547247,7.489123,12.02,0.7,0.6,Restricted manoeuverability
+passage_trip_03,passage_001,2026-06-05 16:59:03,22,55.565692,7.489489,12.1,0.7,1.1,Under way using engine
+passage_trip_03,passage_001,2026-06-05 17:04:25,23,55.584137,7.489918,12.43,0.7,2.8,Under way using engine
+passage_trip_03,passage_001,2026-06-05 17:09:51,24,55.602583,7.490297,12.14,0.4,0.4,Under way using engine
+passage_trip_03,passage_001,2026-06-05 17:15:17,25,55.62103,7.490365,12.36,0.1,357.8,Under way using engine
+passage_trip_03,passage_001,2026-06-05 17:20:43,26,55.639477,7.49041,12.22,0.1,2.3,Under way using engine
+passage_trip_03,passage_001,2026-06-05 17:26:10,27,55.657923,7.490509,12.14,0.1,359.5,Under way using engine
+passage_trip_03,passage_001,2026-06-05 17:31:36,28,55.676369,7.490516,11.98,0.0,359.5,Under way using engine
+passage_trip_03,passage_001,2026-06-05 17:36:56,29,55.694815,7.490557,12.61,0.1,359.8,Under way using engine
+passage_trip_03,passage_001,2026-06-05 17:42:15,30,55.713262,7.490575,12.07,0.0,358.1,Under way using engine
+passage_trip_03,passage_001,2026-06-05 17:47:33,31,55.731707,7.490585,12.82,359.9,1.1,Under way using engine
+passage_trip_03,passage_001,2026-06-05 17:52:52,32,55.750152,7.490481,11.85,359.7,359.2,Under way using engine
+passage_trip_03,passage_001,2026-06-05 17:58:22,33,55.768597,7.490217,12.21,359.6,357.3,Under way using engine
+passage_trip_03,passage_001,2026-06-05 18:03:48,34,55.787043,7.489974,11.97,359.6,358.5,Under way using engine
+passage_trip_03,passage_001,2026-06-05 18:09:13,35,55.805488,7.489714,12.41,359.6,358.7,Under way using engine
+passage_trip_03,passage_001,2026-06-05 18:14:32,36,55.823934,7.489544,12.64,359.7,359.1,Under way using engine
+passage_trip_03,passage_001,2026-06-05 18:19:49,37,55.84238,7.489332,12.14,359.6,1.5,Under way using engine
+passage_trip_03,passage_001,2026-06-05 18:25:15,38,55.860825,7.4891,12.53,359.4,357.2,Under way using engine
+passage_trip_03,passage_001,2026-06-05 18:30:36,39,55.879267,7.488663,12.34,359.1,359.1,Under way using engine
+passage_trip_03,passage_001,2026-06-05 18:35:57,40,55.897709,7.488093,12.62,359.0,358.6,Under way using engine
+passage_trip_03,passage_001,2026-06-05 18:41:16,41,55.916153,7.487553,12.18,359.1,358.8,Under way using engine
+passage_trip_03,passage_001,2026-06-05 18:46:45,42,55.934597,7.487094,11.88,359.2,359.8,Under way using engine
+passage_trip_03,passage_001,2026-06-05 18:52:10,43,55.953042,7.486637,12.39,359.1,359.9,Under way using engine
+passage_trip_03,passage_001,2026-06-05 18:57:31,44,55.971485,7.486054,12.37,359.1,359.1,Under way using engine
+passage_trip_03,passage_001,2026-06-05 19:02:52,45,55.98993,7.485634,12.15,359.4,0.7,Under way using engine
+passage_trip_03,passage_001,2026-06-05 19:08:13,46,56.008377,7.48536,12.16,359.5,0.0,Under way using engine
+passage_trip_03,passage_001,2026-06-05 19:13:40,47,56.026823,7.485066,11.79,359.4,359.6,Under way using engine
+passage_trip_03,passage_001,2026-06-05 19:19:16,48,56.045268,7.484685,12.07,359.3,359.1,Under way using engine
+passage_trip_03,passage_001,2026-06-05 19:24:47,49,56.063712,7.484275,12.03,359.4,357.5,Under way using engine
+passage_trip_03,passage_001,2026-06-05 19:30:10,50,56.082157,7.483935,12.3,359.5,359.5,Under way using engine
+passage_trip_03,passage_001,2026-06-05 19:35:35,51,56.100603,7.483655,12.4,359.5,357.9,Under way using engine
+passage_trip_03,passage_001,2026-06-05 19:40:56,52,56.119048,7.483348,12.06,359.4,359.2,Under way using engine
+passage_trip_03,passage_001,2026-06-05 19:46:26,53,56.137494,7.482952,12.16,359.5,0.1,Under way using engine
+passage_trip_03,passage_001,2026-06-05 19:51:52,54,56.15594,7.48277,11.94,359.8,357.5,Under way using engine
+passage_trip_03,passage_001,2026-06-05 19:57:18,55,56.174387,7.482731,12.6,359.8,359.1,Under way using engine
+passage_trip_03,passage_001,2026-06-05 20:02:35,56,56.192833,7.482562,12.66,359.7,1.6,Under way using engine
+passage_trip_03,passage_001,2026-06-05 20:07:54,57,56.211278,7.48235,12.56,359.6,359.2,Under way using engine
+passage_trip_03,passage_001,2026-06-05 20:13:14,58,56.229724,7.482156,12.28,359.6,359.8,Under way using engine
+passage_trip_03,passage_001,2026-06-05 20:18:45,59,56.24817,7.48185,11.97,359.5,359.8,Under way using engine
+passage_trip_03,passage_001,2026-06-05 20:24:18,60,56.266615,7.48157,12.07,359.6,357.0,Under way using engine
+passage_trip_03,passage_001,2026-06-05 20:29:48,61,56.285062,7.48143,12.12,359.8,2.7,Under way using engine
+passage_trip_03,passage_001,2026-06-05 20:35:20,62,56.303508,7.481313,12.09,359.8,0.1,Under way using engine
+passage_trip_03,passage_001,2026-06-05 20:40:46,63,56.321954,7.481241,12.36,359.9,0.8,Under way using engine
+passage_trip_03,passage_001,2026-06-05 20:46:12,64,56.340401,7.481224,12.33,0.0,0.2,Under way using engine
+passage_trip_03,passage_001,2026-06-05 20:51:33,65,56.358847,7.481197,12.38,359.9,359.2,Under way using engine
+passage_trip_03,passage_001,2026-06-05 20:56:49,66,56.377293,7.481119,12.54,359.9,0.3,Under way using engine
+passage_trip_03,passage_001,2026-06-05 21:02:08,67,56.395739,7.481114,12.55,359.9,359.3,Under way using engine
+passage_trip_03,passage_001,2026-06-05 21:07:24,68,56.414185,7.480989,12.36,359.8,359.2,Under way using engine
+passage_trip_03,passage_001,2026-06-05 21:12:47,69,56.432632,7.480933,12.09,0.1,4.0,Under way using engine
+passage_trip_03,passage_001,2026-06-05 21:18:11,70,56.451078,7.481139,12.5,0.2,1.4,Under way using engine
+passage_trip_03,passage_001,2026-06-05 21:23:37,71,56.469524,7.481178,11.91,0.1,358.9,Under way using engine
+passage_trip_03,passage_001,2026-06-05 21:29:13,72,56.487971,7.48124,11.72,0.3,0.0,Under way using engine
+passage_trip_03,passage_001,2026-06-05 21:34:42,73,56.506416,7.481481,12.49,0.3,359.8,Under way using engine
+passage_trip_03,passage_001,2026-06-05 21:39:58,74,56.524863,7.481556,12.3,0.2,0.5,Under way using engine
+passage_trip_03,passage_001,2026-06-05 21:45:24,75,56.543308,7.481762,12.25,0.3,1.7,Under way using engine
+passage_trip_03,passage_001,2026-06-05 21:50:53,76,56.561754,7.481963,12.01,0.3,1.1,Under way using engine
+passage_trip_03,passage_001,2026-06-05 21:56:24,77,56.5802,7.482109,12.03,0.3,0.6,Under way using engine
+passage_trip_03,passage_001,2026-06-05 22:01:48,78,56.598646,7.482335,12.28,0.3,358.6,Under way using engine
+passage_trip_03,passage_001,2026-06-05 22:07:15,79,56.617092,7.482516,12.16,0.3,358.6,Under way using engine
+passage_trip_03,passage_001,2026-06-05 22:12:37,80,56.635538,7.482639,12.53,0.4,1.2,Under way using engine
+passage_trip_03,passage_001,2026-06-05 22:17:59,81,56.653984,7.482949,12.24,0.4,359.7,Under way using engine
+passage_trip_03,passage_001,2026-06-05 22:23:20,82,56.67243,7.483063,12.08,0.3,0.8,Under way using engine
+passage_trip_03,passage_001,2026-06-05 22:28:47,83,56.690876,7.483342,12.14,0.3,0.5,Under way using engine
+passage_trip_03,passage_001,2026-06-05 22:34:19,84,56.709322,7.483455,11.76,0.2,359.2,Under way using engine
+passage_trip_03,passage_001,2026-06-05 22:39:42,85,56.727768,7.483588,12.51,0.2,1.2,Under way using engine
+passage_trip_03,passage_001,2026-06-05 22:45:01,86,56.746214,7.483702,12.61,0.2,1.7,Under way using engine
+passage_trip_03,passage_001,2026-06-05 22:50:18,87,56.76466,7.483859,12.22,0.2,1.6,Under way using engine
+passage_trip_03,passage_001,2026-06-05 22:55:42,88,56.783106,7.483887,12.41,0.1,359.8,Under way using engine
+passage_trip_03,passage_001,2026-06-05 23:01:00,89,56.801552,7.483994,12.51,0.0,0.4,Under way using engine
+passage_trip_03,passage_001,2026-06-05 23:06:17,90,56.819999,7.48393,12.33,359.9,359.3,Under way using engine
+passage_trip_04,passage_001,2026-06-06 00:00:00,0,56.819994,7.452992,1.25,178.9,183.2,Restricted manoeuverability
+passage_trip_04,passage_001,2026-06-06 00:39:04,1,56.801752,7.453637,2.13,178.9,178.0,Restricted manoeuverability
+passage_trip_04,passage_001,2026-06-06 01:09:37,2,56.783511,7.45432,2.18,178.8,177.9,Restricted manoeuverability
+passage_trip_04,passage_001,2026-06-06 01:34:39,3,56.765269,7.455025,3.05,178.8,178.5,Restricted manoeuverability
+passage_trip_04,passage_001,2026-06-06 01:55:29,4,56.747028,7.455731,3.22,178.8,181.2,Restricted manoeuverability
+passage_trip_04,passage_001,2026-06-06 02:13:32,5,56.728786,7.456394,4.01,178.8,177.7,Restricted manoeuverability
+passage_trip_04,passage_001,2026-06-06 02:28:34,6,56.710545,7.457112,4.61,178.7,177.6,Restricted manoeuverability
+passage_trip_04,passage_001,2026-06-06 02:41:44,7,56.692305,7.457904,5.27,178.7,180.2,Restricted manoeuverability
+passage_trip_04,passage_001,2026-06-06 02:52:24,8,56.674064,7.458626,6.84,178.8,179.6,Restricted manoeuverability
+passage_trip_04,passage_001,2026-06-06 03:02:02,9,56.655823,7.459328,6.8,178.8,179.6,Restricted manoeuverability
+passage_trip_04,passage_001,2026-06-06 03:10:47,10,56.637581,7.459995,8.24,178.8,180.4,Restricted manoeuverability
+passage_trip_04,passage_001,2026-06-06 03:18:13,11,56.61934,7.460729,9.49,178.7,177.1,Restricted manoeuverability
+passage_trip_04,passage_001,2026-06-06 03:24:54,12,56.6011,7.4615,10.19,178.8,178.2,Restricted manoeuverability
+passage_trip_04,passage_001,2026-06-06 03:31:01,13,56.582858,7.462159,11.02,178.8,177.9,Restricted manoeuverability
+passage_trip_04,passage_001,2026-06-06 03:36:52,14,56.564617,7.462835,11.5,178.8,179.2,Restricted manoeuverability
+passage_trip_04,passage_001,2026-06-06 03:42:23,15,56.546376,7.463555,12.35,178.8,178.3,Restricted manoeuverability
+passage_trip_04,passage_001,2026-06-06 03:47:32,16,56.528134,7.464225,13.15,178.9,180.5,Restricted manoeuverability
+passage_trip_04,passage_001,2026-06-06 03:52:21,17,56.509892,7.464845,13.64,178.8,179.7,Restricted manoeuverability
+passage_trip_04,passage_001,2026-06-06 03:57:09,18,56.491651,7.465587,13.74,178.7,179.1,Restricted manoeuverability
+passage_trip_04,passage_001,2026-06-06 04:01:56,19,56.47341,7.46635,13.89,178.7,178.9,Restricted manoeuverability
+passage_trip_04,passage_001,2026-06-06 04:06:33,20,56.455169,7.467032,14.37,178.8,179.2,Under way using engine
+passage_trip_04,passage_001,2026-06-06 04:11:06,21,56.436927,7.467695,14.35,179.1,178.2,Under way using engine
+passage_trip_04,passage_001,2026-06-06 04:15:38,22,56.418682,7.4681,14.4,179.4,180.5,Under way using engine
+passage_trip_04,passage_001,2026-06-06 04:20:08,23,56.400437,7.46841,14.44,179.4,178.9,Under way using engine
+passage_trip_04,passage_001,2026-06-06 04:24:41,24,56.382192,7.46875,13.94,179.5,182.1,Under way using engine
+passage_trip_04,passage_001,2026-06-06 04:29:21,25,56.363947,7.468931,14.27,179.7,178.8,Under way using engine
+passage_trip_04,passage_001,2026-06-06 04:34:00,26,56.345702,7.469119,13.92,179.6,180.7,Under way using engine
+passage_trip_04,passage_001,2026-06-06 04:38:40,27,56.327457,7.469336,14.11,179.6,179.4,Under way using engine
+passage_trip_04,passage_001,2026-06-06 04:43:12,28,56.309212,7.469606,14.43,179.6,182.0,Under way using engine
+passage_trip_04,passage_001,2026-06-06 04:47:47,29,56.290966,7.469749,14.27,179.9,181.8,Under way using engine
+passage_trip_04,passage_001,2026-06-06 04:52:19,30,56.272719,7.469695,14.4,180.2,180.3,Under way using engine
+passage_trip_04,passage_001,2026-06-06 04:56:51,31,56.254474,7.469466,14.45,180.4,181.5,Under way using engine
+passage_trip_04,passage_001,2026-06-06 05:01:26,32,56.236229,7.469192,14.26,180.4,179.1,Under way using engine
+passage_trip_04,passage_001,2026-06-06 05:05:59,33,56.217984,7.468971,14.39,180.4,182.6,Under way using engine
+passage_trip_04,passage_001,2026-06-06 05:10:31,34,56.199739,7.468768,14.51,180.4,181.0,Under way using engine
+passage_trip_04,passage_001,2026-06-06 05:15:05,35,56.181494,7.468508,13.9,180.4,179.6,Under way using engine
+passage_trip_04,passage_001,2026-06-06 05:19:42,36,56.163248,7.468347,14.02,180.3,178.3,Under way using engine
+passage_trip_04,passage_001,2026-06-06 05:24:15,37,56.145003,7.46813,14.36,180.7,179.0,Under way using engine
+passage_trip_04,passage_001,2026-06-06 05:28:47,38,56.126759,7.467585,14.41,181.1,183.2,Under way using engine
+passage_trip_04,passage_001,2026-06-06 05:33:24,39,56.108517,7.466915,14.12,181.2,179.9,Under way using engine
+passage_trip_04,passage_001,2026-06-06 05:37:58,40,56.090276,7.466201,14.38,181.2,180.3,Under way using engine
+passage_trip_04,passage_001,2026-06-06 05:42:38,41,56.072035,7.465518,14.05,181.2,179.2,Under way using engine
+passage_trip_04,passage_001,2026-06-06 05:47:13,42,56.053793,7.464831,14.55,181.3,180.6,Under way using engine
+passage_trip_04,passage_001,2026-06-06 05:51:48,43,56.035552,7.46409,14.15,181.3,178.3,Under way using engine
+passage_trip_04,passage_001,2026-06-06 05:56:28,44,56.017312,7.46333,14.16,181.4,182.6,Under way using engine
+passage_trip_04,passage_001,2026-06-06 06:01:00,45,55.99907,7.462549,14.59,181.8,182.9,Under way using engine
+passage_trip_04,passage_001,2026-06-06 06:05:33,46,55.980838,7.461265,13.99,182.2,182.7,Under way using engine
+passage_trip_04,passage_001,2026-06-06 06:10:13,47,55.962606,7.460031,14.42,182.2,182.8,Under way using engine
+passage_trip_04,passage_001,2026-06-06 06:14:43,48,55.944375,7.458708,14.4,182.3,182.4,Under way using engine
+passage_trip_04,passage_001,2026-06-06 06:19:14,49,55.926144,7.457417,14.61,182.2,182.7,Under way using engine
+passage_trip_04,passage_001,2026-06-06 06:23:47,50,55.907913,7.456154,14.27,182.2,182.1,Under way using engine
+passage_trip_04,passage_001,2026-06-06 06:28:17,51,55.88968,7.454952,14.55,182.2,181.9,Under way using engine
+passage_trip_04,passage_001,2026-06-06 06:32:49,52,55.871449,7.4537,14.34,181.9,181.5,Under way using engine
+passage_trip_04,passage_001,2026-06-06 06:37:24,53,55.853211,7.452821,14.46,181.5,183.1,Under way using engine
+passage_trip_04,passage_001,2026-06-06 06:42:03,54,55.834971,7.452004,14.08,181.4,182.9,Under way using engine
+passage_trip_04,passage_001,2026-06-06 06:46:43,55,55.816731,7.451267,14.03,181.4,180.5,Under way using engine
+passage_trip_04,passage_001,2026-06-06 06:51:20,56,55.798491,7.450448,14.1,181.4,181.1,Under way using engine
+passage_trip_04,passage_001,2026-06-06 06:55:54,57,55.780251,7.449675,14.29,181.4,180.5,Under way using engine
+passage_trip_04,passage_001,2026-06-06 07:00:24,58,55.762011,7.448844,14.59,181.4,180.5,Under way using engine
+passage_trip_04,passage_001,2026-06-06 07:04:59,59,55.743771,7.448043,14.16,181.1,180.9,Under way using engine
+passage_trip_04,passage_001,2026-06-06 07:09:34,60,55.725529,7.447557,14.0,180.8,181.0,Under way using engine
+passage_trip_04,passage_001,2026-06-06 07:14:12,61,55.707285,7.447151,14.25,180.7,181.8,Under way using engine
+passage_trip_04,passage_001,2026-06-06 07:18:44,62,55.68904,7.446762,14.35,180.6,180.3,Under way using engine
+passage_trip_04,passage_001,2026-06-06 07:23:18,63,55.670796,7.446448,13.99,180.6,180.8,Under way using engine
+passage_trip_04,passage_001,2026-06-06 07:27:57,64,55.652551,7.446092,14.21,180.6,180.8,Under way using engine
+passage_trip_04,passage_001,2026-06-06 07:32:26,65,55.634307,7.445753,14.65,180.6,180.8,Under way using engine
+passage_trip_04,passage_001,2026-06-06 07:36:54,66,55.616061,7.445386,14.52,180.4,181.0,Under way using engine
+passage_trip_04,passage_001,2026-06-06 07:41:24,67,55.597815,7.445258,14.62,179.9,179.7,Under way using engine
+passage_trip_04,passage_001,2026-06-06 07:45:53,68,55.579569,7.445495,14.28,179.6,178.8,Under way using engine
+passage_trip_04,passage_001,2026-06-06 07:50:29,69,55.561324,7.445701,14.48,179.7,178.4,Under way using engine
+passage_trip_04,passage_001,2026-06-06 07:55:05,70,55.543078,7.445838,14.38,179.7,178.7,Under way using engine
+passage_trip_04,passage_001,2026-06-06 07:59:40,71,55.524833,7.446025,14.33,179.7,179.4,Under way using engine
+passage_trip_04,passage_001,2026-06-06 08:04:14,72,55.506588,7.446206,14.45,179.7,180.0,Under way using engine
+passage_trip_04,passage_001,2026-06-06 08:08:42,73,55.488341,7.44637,14.59,179.4,179.3,Under way using engine
+passage_trip_04,passage_001,2026-06-06 08:13:09,74,55.470097,7.44692,14.81,178.9,178.7,Under way using engine
+passage_trip_04,passage_001,2026-06-06 08:17:36,75,55.451854,7.447586,14.62,178.8,178.6,Under way using engine
+passage_trip_04,passage_001,2026-06-06 08:22:08,76,55.433612,7.448227,13.99,178.7,178.9,Under way using engine
+passage_trip_04,passage_001,2026-06-06 08:26:51,77,55.415372,7.449015,13.98,178.7,178.4,Under way using engine
+passage_trip_04,passage_001,2026-06-06 08:31:25,78,55.397131,7.449715,14.35,178.7,179.5,Under way using engine
+passage_trip_04,passage_001,2026-06-06 08:35:52,79,55.37889,7.450443,14.64,178.6,179.0,Under way using engine
+passage_trip_04,passage_001,2026-06-06 08:40:26,80,55.36065,7.451238,14.04,178.7,180.8,Under way using engine
+passage_trip_04,passage_001,2026-06-06 08:44:55,81,55.342409,7.451922,14.98,178.7,178.0,Under way using engine
+passage_trip_04,passage_001,2026-06-06 08:49:26,82,55.324168,7.452692,14.3,178.6,179.5,Under way using engine
+passage_trip_04,passage_001,2026-06-06 08:53:56,83,55.305928,7.453492,14.41,178.7,178.7,Under way using engine
+passage_trip_04,passage_001,2026-06-06 08:58:30,84,55.287687,7.454199,14.45,178.7,178.3,Under way using engine
+passage_trip_04,passage_001,2026-06-06 09:03:00,85,55.269447,7.45498,14.44,178.6,176.9,Under way using engine
+passage_trip_04,passage_001,2026-06-06 09:07:33,86,55.251206,7.45572,14.58,178.8,178.9,Under way using engine
+passage_trip_04,passage_001,2026-06-06 09:12:07,87,55.232964,7.456368,14.03,178.8,177.0,Under way using engine
+passage_trip_04,passage_001,2026-06-06 09:16:46,88,55.214723,7.457101,14.08,178.7,176.1,Under way using engine
+passage_trip_04,passage_001,2026-06-06 09:21:18,89,55.196482,7.457808,14.51,178.7,181.6,Under way using engine
+passage_trip_04,passage_001,2026-06-06 09:25:51,90,55.178241,7.458518,14.53,178.7,178.3,Under way using engine
+passage_trip_04,passage_001,2026-06-06 09:30:27,91,55.16,7.459217,14.25,178.7,177.4,Under way using engine
+passage_trip_05,passage_001,2026-06-07 03:00:00,0,55.159994,7.339212,2.1,0.9,359.1,Restricted manoeuverability
+passage_trip_05,passage_001,2026-06-07 03:35:14,1,55.178857,7.339753,1.7,0.8,1.7,Restricted manoeuverability
+passage_trip_05,passage_001,2026-06-07 04:07:12,2,55.197721,7.340167,2.57,0.8,359.5,Restricted manoeuverability
+passage_trip_05,passage_001,2026-06-07 04:33:44,3,55.216585,7.34063,2.6,0.6,0.5,Restricted manoeuverability
+passage_trip_05,passage_001,2026-06-07 04:59:36,4,55.23545,7.340875,2.64,0.5,359.2,Restricted manoeuverability
+passage_trip_05,passage_001,2026-06-07 05:20:15,5,55.254314,7.341208,3.96,0.6,0.6,Restricted manoeuverability
+passage_trip_05,passage_001,2026-06-07 05:35:55,6,55.273179,7.341544,4.66,0.8,358.4,Restricted manoeuverability
+passage_trip_05,passage_001,2026-06-07 05:49:56,7,55.292042,7.34208,5.04,0.7,2.0,Restricted manoeuverability
+passage_trip_05,passage_001,2026-06-07 06:02:54,8,55.310906,7.342397,5.34,0.6,0.9,Restricted manoeuverability
+passage_trip_05,passage_001,2026-06-07 06:13:49,9,55.32977,7.342739,7.08,0.5,0.9,Restricted manoeuverability
+passage_trip_05,passage_001,2026-06-07 06:23:04,10,55.348635,7.343032,7.72,0.7,358.9,Restricted manoeuverability
+passage_trip_05,passage_001,2026-06-07 06:31:22,11,55.367499,7.343493,8.39,0.7,359.5,Restricted manoeuverability
+passage_trip_05,passage_001,2026-06-07 06:38:50,12,55.386363,7.343806,9.87,0.6,1.5,Restricted manoeuverability
+passage_trip_05,passage_001,2026-06-07 06:45:32,13,55.405228,7.344145,10.45,0.6,1.0,Restricted manoeuverability
+passage_trip_05,passage_001,2026-06-07 06:51:39,14,55.424092,7.344452,11.48,0.5,0.9,Restricted manoeuverability
+passage_trip_05,passage_001,2026-06-07 06:57:28,15,55.442957,7.344758,11.93,0.6,0.2,Restricted manoeuverability
+passage_trip_05,passage_001,2026-06-07 07:03:04,16,55.461821,7.345137,12.42,0.6,1.3,Restricted manoeuverability
+passage_trip_05,passage_001,2026-06-07 07:08:18,17,55.480686,7.345432,13.52,0.6,2.2,Restricted manoeuverability
+passage_trip_05,passage_001,2026-06-07 07:13:20,18,55.499549,7.345839,13.69,0.7,359.3,Restricted manoeuverability
+passage_trip_05,passage_001,2026-06-07 07:18:10,19,55.518414,7.346219,14.13,0.6,0.6,Restricted manoeuverability
+passage_trip_05,passage_001,2026-06-07 07:22:56,20,55.537278,7.346501,14.12,0.6,2.2,Under way using engine
+passage_trip_05,passage_001,2026-06-07 07:27:48,21,55.556143,7.34686,13.57,0.7,359.0,Under way using engine
+passage_trip_05,passage_001,2026-06-07 07:32:39,22,55.575007,7.347277,14.13,0.7,0.1,Under way using engine
+passage_trip_05,passage_001,2026-06-07 07:37:33,23,55.593871,7.34767,13.86,0.8,0.0,Under way using engine
+passage_trip_05,passage_001,2026-06-07 07:42:21,24,55.612734,7.34817,13.88,0.7,1.0,Under way using engine
+passage_trip_05,passage_001,2026-06-07 07:47:14,25,55.631599,7.348471,14.06,0.7,1.3,Under way using engine
+passage_trip_05,passage_001,2026-06-07 07:52:04,26,55.650462,7.348943,13.78,0.9,1.2,Under way using engine
+passage_trip_05,passage_001,2026-06-07 07:56:59,27,55.669325,7.349521,13.64,0.9,2.5,Under way using engine
+passage_trip_05,passage_001,2026-06-07 08:01:53,28,55.688188,7.350002,14.23,0.7,359.7,Under way using engine
+passage_trip_05,passage_001,2026-06-07 08:06:37,29,55.707052,7.350375,14.11,0.8,1.5,Under way using engine
+passage_trip_05,passage_001,2026-06-07 08:11:24,30,55.725915,7.350901,13.88,0.8,359.7,Under way using engine
+passage_trip_05,passage_001,2026-06-07 08:16:11,31,55.744779,7.351358,14.1,0.9,1.5,Under way using engine
+passage_trip_05,passage_001,2026-06-07 08:21:04,32,55.763641,7.351959,13.9,0.9,359.8,Under way using engine
+passage_trip_05,passage_001,2026-06-07 08:25:58,33,55.782505,7.352399,13.84,0.8,359.8,Under way using engine
+passage_trip_05,passage_001,2026-06-07 08:30:52,34,55.801369,7.352849,13.84,0.8,359.5,Under way using engine
+passage_trip_05,passage_001,2026-06-07 08:35:44,35,55.820232,7.35329,13.64,0.7,0.2,Under way using engine
+passage_trip_05,passage_001,2026-06-07 08:40:38,36,55.839096,7.353724,13.79,0.7,0.6,Under way using engine
+passage_trip_05,passage_001,2026-06-07 08:45:27,37,55.85796,7.354088,14.09,0.7,359.8,Under way using engine
+passage_trip_05,passage_001,2026-06-07 08:50:17,38,55.876824,7.354573,14.12,0.7,2.6,Under way using engine
+passage_trip_05,passage_001,2026-06-07 08:55:08,39,55.895688,7.354939,14.01,0.6,2.0,Under way using engine
+passage_trip_05,passage_001,2026-06-07 09:04:49,40,55.933416,7.355681,13.95,0.6,9.5,Under way using engine
+passage_trip_05,passage_001,2026-06-07 09:10:58,41,55.933416,7.355681,0.14,0.7,17.5,At anchor
+passage_trip_05,passage_001,2026-06-07 09:17:00,42,55.933416,7.355681,0.41,0.7,28.8,At anchor
+passage_trip_05,passage_001,2026-06-07 09:22:17,43,55.933416,7.355681,0.3,0.7,38.8,At anchor
+passage_trip_05,passage_001,2026-06-07 09:29:03,44,55.933416,7.355681,0.25,0.7,43.3,At anchor
+passage_trip_05,passage_001,2026-06-07 09:34:24,45,55.933416,7.355681,0.11,0.7,37.4,At anchor
+passage_trip_05,passage_001,2026-06-07 09:40:57,46,55.933416,7.355681,0.09,0.7,30.8,At anchor
+passage_trip_05,passage_001,2026-06-07 09:45:27,47,55.933416,7.355681,0.4,0.7,16.7,At anchor
+passage_trip_05,passage_001,2026-06-07 09:55:12,48,55.95228,7.356109,13.55,0.7,10.2,Under way using engine
+passage_trip_05,passage_001,2026-06-07 10:00:10,49,55.971144,7.356534,13.85,0.8,4.0,Under way using engine
+passage_trip_05,passage_001,2026-06-07 10:05:01,50,55.990007,7.357022,13.96,0.7,2.8,Under way using engine
+passage_trip_05,passage_001,2026-06-07 10:09:54,51,56.00887,7.357301,13.72,0.4,359.4,Under way using engine
+passage_trip_05,passage_001,2026-06-07 10:14:49,52,56.027734,7.357459,13.66,0.3,359.7,Under way using engine
+passage_trip_05,passage_001,2026-06-07 10:19:38,53,56.046599,7.357607,14.17,0.2,0.7,Under way using engine
+passage_trip_05,passage_001,2026-06-07 10:24:25,54,56.065465,7.357733,14.08,0.2,0.7,Under way using engine
+passage_trip_05,passage_001,2026-06-07 10:29:19,55,56.08433,7.357833,13.81,0.2,0.3,Under way using engine
+passage_trip_05,passage_001,2026-06-07 10:34:12,56,56.103195,7.358023,13.89,0.2,0.6,Under way using engine
+passage_trip_05,passage_001,2026-06-07 10:39:04,57,56.12206,7.358081,14.08,0.1,358.8,Under way using engine
+passage_trip_05,passage_001,2026-06-07 10:43:57,58,56.140923,7.358165,13.93,0.0,359.3,Under way using engine
+passage_trip_05,passage_001,2026-06-07 10:48:45,59,56.159786,7.358096,13.97,359.8,1.5,Under way using engine
+passage_trip_05,passage_001,2026-06-07 10:53:39,60,56.178652,7.35798,13.8,359.9,0.3,Under way using engine
+passage_trip_05,passage_001,2026-06-07 10:58:29,61,56.197517,7.357993,13.8,0.0,0.2,Under way using engine
+passage_trip_05,passage_001,2026-06-07 11:03:14,62,56.216382,7.357948,14.47,359.9,359.9,Under way using engine
+passage_trip_05,passage_001,2026-06-07 11:08:00,63,56.235248,7.357838,13.83,359.9,0.2,Under way using engine
+passage_trip_05,passage_001,2026-06-07 11:12:53,64,56.254113,7.357868,13.86,0.0,359.8,Under way using engine
+passage_trip_05,passage_001,2026-06-07 11:17:51,65,56.272978,7.35781,13.56,359.8,359.9,Under way using engine
+passage_trip_05,passage_001,2026-06-07 11:22:51,66,56.291841,7.357621,13.52,359.6,359.7,Under way using engine
+passage_trip_05,passage_001,2026-06-07 11:27:50,67,56.310706,7.35738,13.92,359.6,357.9,Under way using engine
+passage_trip_05,passage_001,2026-06-07 11:32:42,68,56.32957,7.357094,13.98,359.6,358.8,Under way using engine
+passage_trip_05,passage_001,2026-06-07 11:37:29,69,56.348435,7.356856,14.05,359.7,359.7,Under way using engine
+passage_trip_05,passage_001,2026-06-07 11:42:24,70,56.367301,7.356745,13.58,359.6,359.4,Under way using engine
+passage_trip_05,passage_001,2026-06-07 11:47:17,71,56.386165,7.356385,14.04,359.5,359.6,Under way using engine
+passage_trip_05,passage_001,2026-06-07 11:51:59,72,56.40503,7.356167,14.42,359.6,359.8,Under way using engine
+passage_trip_05,passage_001,2026-06-07 11:56:45,73,56.423896,7.355899,14.07,359.4,359.8,Under way using engine
+passage_trip_05,passage_001,2026-06-07 12:01:33,74,56.44276,7.355486,13.67,359.2,359.6,Under way using engine
+passage_trip_05,passage_001,2026-06-07 12:06:28,75,56.461623,7.354892,13.86,359.1,359.3,Under way using engine
+passage_trip_05,passage_001,2026-06-07 12:11:19,76,56.480486,7.354367,14.05,359.0,357.2,Under way using engine
+passage_trip_05,passage_001,2026-06-07 12:16:11,77,56.499347,7.353684,13.62,359.0,357.8,Under way using engine
+passage_trip_05,passage_001,2026-06-07 12:21:09,78,56.518211,7.353176,13.96,359.1,0.0,Under way using engine
+passage_trip_05,passage_001,2026-06-07 12:25:58,79,56.537073,7.352642,13.77,359.0,358.7,Under way using engine
+passage_trip_05,passage_001,2026-06-07 12:30:52,80,56.555935,7.351986,13.64,358.9,359.5,Under way using engine
+passage_trip_05,passage_001,2026-06-07 12:35:47,81,56.574797,7.351377,13.49,359.0,358.5,Under way using engine
+passage_trip_05,passage_001,2026-06-07 12:40:46,82,56.59366,7.350812,14.04,359.0,359.0,Under way using engine
+passage_trip_05,passage_001,2026-06-07 12:45:36,83,56.612522,7.35019,14.0,358.9,358.3,Under way using engine
+passage_trip_05,passage_001,2026-06-07 12:50:31,84,56.631384,7.349546,13.83,359.0,358.1,Under way using engine
+passage_trip_05,passage_001,2026-06-07 12:55:31,85,56.650246,7.348946,13.56,359.0,358.4,Under way using engine
+passage_trip_05,passage_001,2026-06-07 13:00:31,86,56.669108,7.348326,13.65,358.9,358.4,Under way using engine
+passage_trip_05,passage_001,2026-06-07 13:05:23,87,56.68797,7.347683,14.43,358.9,356.6,Under way using engine
+passage_trip_05,passage_001,2026-06-07 13:10:06,88,56.706832,7.347015,13.92,358.7,357.6,Under way using engine
+passage_trip_05,passage_001,2026-06-07 13:14:54,89,56.725692,7.346173,14.14,358.7,357.5,Under way using engine
+passage_trip_05,passage_001,2026-06-07 13:19:40,90,56.744553,7.345495,13.87,359.0,0.0,Under way using engine
+passage_trip_05,passage_001,2026-06-07 13:24:30,91,56.763416,7.344921,13.83,359.0,358.0,Under way using engine
+passage_trip_05,passage_001,2026-06-07 13:29:15,92,56.782277,7.344256,14.27,358.9,357.5,Under way using engine
+passage_trip_05,passage_001,2026-06-07 13:34:04,93,56.801138,7.34356,13.91,358.9,357.7,Under way using engine
+passage_trip_05,passage_001,2026-06-07 13:38:49,94,56.820001,7.342988,14.17,359.0,0.1,Under way using engine
+passage_trip_06,passage_001,2026-06-08 06:00:00,0,56.819998,7.430192,2.14,181.7,182.9,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 06:39:18,1,56.799508,7.429102,1.59,181.6,181.6,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 07:20:09,2,56.779018,7.428038,2.04,181.7,183.8,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 07:53:15,3,56.758529,7.426941,2.45,181.7,179.2,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 08:21:56,4,56.738039,7.425878,2.72,181.6,181.7,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 08:43:17,5,56.717548,7.424887,4.25,181.5,180.5,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 08:59:40,6,56.697058,7.423861,4.6,181.6,182.5,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 09:15:23,7,56.676568,7.42279,4.81,181.6,182.7,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 09:30:30,8,56.656078,7.421744,4.91,181.6,180.7,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 09:43:37,9,56.635587,7.420722,6.15,181.5,183.9,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 09:54:38,10,56.615096,7.419729,7.21,181.6,182.3,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 10:04:40,11,56.594606,7.418662,7.6,181.6,180.4,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 10:13:59,12,56.574116,7.417602,8.37,181.6,180.7,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 10:22:13,13,56.553626,7.416538,9.29,181.6,180.5,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 10:29:58,14,56.533136,7.415495,9.67,181.6,182.2,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 10:37:17,15,56.512645,7.414476,10.55,181.7,180.7,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 10:44:17,16,56.492157,7.413349,10.66,181.7,181.0,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 10:50:57,17,56.471667,7.412291,11.6,181.7,182.9,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 10:57:10,18,56.451177,7.41121,12.09,181.7,180.0,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 11:03:07,19,56.430688,7.410132,12.34,181.5,180.9,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 11:09:04,20,56.410195,7.40931,12.36,181.3,180.5,Restricted manoeuverability
+passage_trip_06,passage_001,2026-06-08 11:15:01,21,56.389702,7.40843,12.68,181.4,182.1,Under way using engine
+passage_trip_06,passage_001,2026-06-08 11:20:52,22,56.36921,7.407518,12.51,181.3,180.6,Under way using engine
+passage_trip_06,passage_001,2026-06-08 11:26:41,23,56.348717,7.40669,12.76,181.4,180.7,Under way using engine
+passage_trip_06,passage_001,2026-06-08 11:32:26,24,56.328225,7.405748,12.64,181.4,182.0,Under way using engine
+passage_trip_06,passage_001,2026-06-08 11:38:15,25,56.307733,7.404846,12.5,181.4,182.2,Under way using engine
+passage_trip_06,passage_001,2026-06-08 11:44:07,26,56.287241,7.403944,12.48,181.3,181.3,Under way using engine
+passage_trip_06,passage_001,2026-06-08 11:50:01,27,56.266747,7.403187,12.4,181.2,179.9,Under way using engine
+passage_trip_06,passage_001,2026-06-08 11:55:59,28,56.246253,7.402412,12.29,181.2,182.5,Under way using engine
+passage_trip_06,passage_001,2026-06-08 12:01:48,29,56.225758,7.401685,12.82,181.2,181.0,Under way using engine
+passage_trip_06,passage_001,2026-06-08 12:07:38,30,56.205264,7.400925,12.66,181.2,182.3,Under way using engine
+passage_trip_06,passage_001,2026-06-08 12:13:28,31,56.184769,7.400204,12.49,181.1,181.2,Under way using engine
+passage_trip_06,passage_001,2026-06-08 12:19:11,32,56.164275,7.399472,13.02,181.2,182.2,Under way using engine
+passage_trip_06,passage_001,2026-06-08 12:24:58,33,56.14378,7.398711,12.64,181.0,181.0,Under way using engine
+passage_trip_06,passage_001,2026-06-08 12:30:44,34,56.123283,7.39817,12.74,180.8,181.3,Under way using engine
+passage_trip_06,passage_001,2026-06-08 12:36:36,35,56.102786,7.397746,12.51,180.7,180.0,Under way using engine
+passage_trip_06,passage_001,2026-06-08 12:42:32,36,56.082289,7.397291,12.31,180.7,181.2,Under way using engine
+passage_trip_06,passage_001,2026-06-08 12:48:22,37,56.061792,7.396828,12.89,180.7,181.3,Under way using engine
+passage_trip_06,passage_001,2026-06-08 12:54:08,38,56.041294,7.396388,12.36,180.7,180.0,Under way using engine
+passage_trip_06,passage_001,2026-06-08 13:00:08,39,56.020797,7.395971,12.46,180.6,179.6,Under way using engine
+passage_trip_06,passage_001,2026-06-08 13:05:58,40,56.000299,7.395568,12.84,180.5,179.5,Under way using engine
+passage_trip_06,passage_001,2026-06-08 13:11:47,41,55.9798,7.395362,12.38,180.3,178.8,Under way using engine
+passage_trip_06,passage_001,2026-06-08 13:17:42,42,55.959302,7.395154,12.25,180.3,180.1,Under way using engine
+passage_trip_06,passage_001,2026-06-08 13:23:30,43,55.938803,7.394999,12.9,180.3,182.2,Under way using engine
+passage_trip_06,passage_001,2026-06-08 13:29:15,44,55.918305,7.394797,12.32,180.3,180.6,Under way using engine
+passage_trip_06,passage_001,2026-06-08 13:35:08,45,55.897806,7.394662,12.67,180.2,180.3,Under way using engine
+passage_trip_06,passage_001,2026-06-08 13:41:01,46,55.877308,7.394483,12.37,180.2,179.9,Under way using engine
+passage_trip_06,passage_001,2026-06-08 13:46:55,47,55.856808,7.394469,12.62,179.9,181.2,Under way using engine
+passage_trip_06,passage_001,2026-06-08 13:52:42,48,55.83631,7.39459,12.87,179.8,179.8,Under way using engine
+passage_trip_06,passage_001,2026-06-08 13:58:27,49,55.815811,7.394697,12.31,179.8,177.7,Under way using engine
+passage_trip_06,passage_001,2026-06-08 14:04:23,50,55.795312,7.394782,12.59,179.8,180.9,Under way using engine
+passage_trip_06,passage_001,2026-06-08 14:10:13,51,55.774814,7.394916,12.53,179.8,178.9,Under way using engine
+passage_trip_06,passage_001,2026-06-08 14:16:06,52,55.754315,7.394984,12.76,179.8,180.9,Under way using engine
+passage_trip_06,passage_001,2026-06-08 14:21:58,53,55.733816,7.395135,12.37,179.5,179.1,Under way using engine
+passage_trip_06,passage_001,2026-06-08 14:27:50,54,55.713318,7.395562,12.57,179.3,178.5,Under way using engine
+passage_trip_06,passage_001,2026-06-08 14:33:46,55,55.692821,7.395991,12.36,179.3,181.6,Under way using engine
+passage_trip_06,passage_001,2026-06-08 14:39:38,56,55.672324,7.396406,12.5,179.4,176.6,Under way using engine
+passage_trip_06,passage_001,2026-06-08 14:45:29,57,55.651826,7.396811,12.64,179.4,179.6,Under way using engine
+passage_trip_06,passage_001,2026-06-08 14:51:14,58,55.631329,7.397224,12.98,179.3,182.0,Under way using engine
+passage_trip_06,passage_001,2026-06-08 14:56:55,59,55.610832,7.397667,12.85,179.1,179.6,Under way using engine
+passage_trip_06,passage_001,2026-06-08 15:02:32,60,55.590337,7.398334,12.96,178.9,177.4,Under way using engine
+passage_trip_06,passage_001,2026-06-08 15:08:21,61,55.569841,7.398998,12.55,178.9,179.6,Under way using engine
+passage_trip_06,passage_001,2026-06-08 15:14:15,62,55.549346,7.399671,12.44,178.9,179.4,Under way using engine
+passage_trip_06,passage_001,2026-06-08 15:20:06,63,55.528851,7.400376,12.42,178.9,178.3,Under way using engine
+passage_trip_06,passage_001,2026-06-08 15:26:01,64,55.508356,7.40105,12.55,178.9,179.1,Under way using engine
+passage_trip_06,passage_001,2026-06-08 15:31:56,65,55.487862,7.401755,12.27,178.8,179.0,Under way using engine
+passage_trip_06,passage_001,2026-06-08 15:37:52,66,55.467369,7.402616,12.64,178.5,179.2,Under way using engine
+passage_trip_06,passage_001,2026-06-08 15:43:42,67,55.446878,7.403602,12.38,178.4,178.0,Under way using engine
+passage_trip_06,passage_001,2026-06-08 15:49:29,68,55.426387,7.404594,13.0,178.5,178.0,Under way using engine
+passage_trip_06,passage_001,2026-06-08 15:55:17,69,55.405895,7.405529,12.49,178.5,177.4,Under way using engine
+passage_trip_06,passage_001,2026-06-08 16:01:12,70,55.385404,7.406536,12.62,178.4,178.6,Under way using engine
+passage_trip_06,passage_001,2026-06-08 16:07:02,71,55.364913,7.407512,12.4,178.4,177.3,Under way using engine
+passage_trip_06,passage_001,2026-06-08 16:12:51,72,55.344422,7.408537,12.52,178.4,179.9,Under way using engine
+passage_trip_06,passage_001,2026-06-08 16:18:44,73,55.323931,7.409524,12.56,178.4,178.8,Under way using engine
+passage_trip_06,passage_001,2026-06-08 16:24:39,74,55.303441,7.410568,12.61,178.4,178.2,Under way using engine
+passage_trip_06,passage_001,2026-06-08 16:30:29,75,55.28295,7.411548,12.68,178.4,179.5,Under way using engine
+passage_trip_06,passage_001,2026-06-08 16:36:12,76,55.26246,7.41262,12.64,178.3,179.7,Under way using engine
+passage_trip_06,passage_001,2026-06-08 16:42:01,77,55.24197,7.413679,12.88,178.3,179.9,Under way using engine
+passage_trip_06,passage_001,2026-06-08 16:47:54,78,55.221481,7.414789,11.95,178.3,176.9,Under way using engine
+passage_trip_06,passage_001,2026-06-08 16:53:49,79,55.20099,7.415777,12.79,178.4,177.7,Under way using engine
+passage_trip_06,passage_001,2026-06-08 16:59:35,80,55.180499,7.416773,12.77,178.4,177.9,Under way using engine
+passage_trip_06,passage_001,2026-06-08 17:05:21,81,55.160007,7.417742,12.48,178.5,178.3,Under way using engine
+passage_trip_07,passage_001,2026-06-09 03:00:00,0,55.160002,7.484419,1.52,0.5,2.5,Restricted manoeuverability
+passage_trip_07,passage_001,2026-06-09 03:41:05,1,55.178654,7.484715,1.76,0.5,359.1,Restricted manoeuverability
+passage_trip_07,passage_001,2026-06-09 04:14:47,2,55.197305,7.484991,2.2,0.4,359.0,Restricted manoeuverability
+passage_trip_07,passage_001,2026-06-09 04:42:15,3,55.215957,7.485187,2.66,0.4,2.3,Restricted manoeuverability
+passage_trip_07,passage_001,2026-06-09 05:03:00,4,55.234608,7.485412,3.73,0.5,1.6,Restricted manoeuverability
+passage_trip_07,passage_001,2026-06-09 05:18:38,5,55.253259,7.485752,4.85,0.6,0.8,Restricted manoeuverability
+passage_trip_07,passage_001,2026-06-09 05:31:28,6,55.271911,7.486056,5.62,0.6,359.8,Restricted manoeuverability
+passage_trip_07,passage_001,2026-06-09 05:42:25,7,55.290562,7.486382,6.41,0.6,0.4,Restricted manoeuverability
+passage_trip_07,passage_001,2026-06-09 05:51:36,8,55.309212,7.48675,8.12,0.6,357.4,Restricted manoeuverability
+passage_trip_07,passage_001,2026-06-09 05:59:45,9,55.327864,7.487046,8.5,0.7,359.1,Restricted manoeuverability
+passage_trip_07,passage_001,2026-06-09 06:06:56,10,55.346514,7.487567,9.94,0.8,0.2,Restricted manoeuverability
+passage_trip_07,passage_001,2026-06-09 06:13:33,11,55.365164,7.487944,10.46,0.6,0.1,Restricted manoeuverability
+passage_trip_07,passage_001,2026-06-09 06:19:43,12,55.383815,7.488295,11.05,0.6,358.5,Restricted manoeuverability
+passage_trip_07,passage_001,2026-06-09 06:25:27,13,55.402466,7.488687,12.05,0.7,0.1,Restricted manoeuverability
+passage_trip_07,passage_001,2026-06-09 06:30:52,14,55.421117,7.489085,12.96,0.6,1.6,Restricted manoeuverability
+passage_trip_07,passage_001,2026-06-09 06:36:01,15,55.439768,7.489377,13.23,0.7,1.3,Restricted manoeuverability
+passage_trip_07,passage_001,2026-06-09 06:41:07,16,55.458418,7.489843,13.25,0.7,0.1,Under way using engine
+passage_trip_07,passage_001,2026-06-09 06:46:06,17,55.477069,7.49014,13.28,0.6,2.9,Under way using engine
+passage_trip_07,passage_001,2026-06-09 06:51:06,18,55.49572,7.490488,13.09,0.6,2.0,Under way using engine
+passage_trip_07,passage_001,2026-06-09 06:56:10,19,55.514371,7.490809,13.34,0.6,359.7,Under way using engine
+passage_trip_07,passage_001,2026-06-09 07:01:05,20,55.533022,7.491232,13.71,0.8,0.7,Under way using engine
+passage_trip_07,passage_001,2026-06-09 07:05:58,21,55.551672,7.491675,13.61,0.8,0.5,Under way using engine
+passage_trip_07,passage_001,2026-06-09 07:10:56,22,55.570323,7.492125,13.21,0.7,0.8,Under way using engine
+passage_trip_07,passage_001,2026-06-09 07:15:58,23,55.588974,7.492449,13.2,0.6,2.1,Under way using engine
+passage_trip_07,passage_001,2026-06-09 07:21:02,24,55.607625,7.492852,13.51,0.7,359.6,Under way using engine
+passage_trip_07,passage_001,2026-06-09 07:26:05,25,55.626276,7.493208,13.31,0.6,1.0,Under way using engine
+passage_trip_07,passage_001,2026-06-09 07:31:06,26,55.644927,7.493509,13.35,0.5,0.7,Under way using engine
+passage_trip_07,passage_001,2026-06-09 07:36:07,27,55.663579,7.493774,13.08,0.3,1.2,Under way using engine
+passage_trip_07,passage_001,2026-06-09 07:41:11,28,55.682231,7.493906,13.4,0.3,359.7,Under way using engine
+passage_trip_07,passage_001,2026-06-09 07:46:05,29,55.700882,7.494113,13.73,0.5,358.8,Under way using engine
+passage_trip_07,passage_001,2026-06-09 07:50:57,30,55.719533,7.49446,13.6,0.4,1.6,Under way using engine
+passage_trip_07,passage_001,2026-06-09 07:55:54,31,55.738185,7.494614,13.15,0.3,1.9,Under way using engine
+passage_trip_07,passage_001,2026-06-09 08:00:59,32,55.756838,7.494782,13.5,0.2,359.3,Under way using engine
+passage_trip_07,passage_001,2026-06-09 08:05:54,33,55.77549,7.494868,13.8,0.1,359.1,Under way using engine
+passage_trip_07,passage_001,2026-06-09 08:10:54,34,55.794142,7.494854,13.09,0.1,357.1,Under way using engine
+passage_trip_07,passage_001,2026-06-09 08:15:57,35,55.812794,7.494958,13.59,0.1,0.1,Under way using engine
+passage_trip_07,passage_001,2026-06-09 08:20:50,36,55.831446,7.495009,13.71,0.0,359.8,Under way using engine
+passage_trip_07,passage_001,2026-06-09 08:25:41,37,55.850098,7.494999,13.41,0.2,0.4,Under way using engine
+passage_trip_07,passage_001,2026-06-09 08:30:39,38,55.86875,7.495233,13.39,0.1,358.1,Under way using engine
+passage_trip_07,passage_001,2026-06-09 08:35:40,39,55.887402,7.495124,13.19,359.9,359.9,Under way using engine
+passage_trip_07,passage_001,2026-06-09 08:40:37,40,55.906054,7.495168,13.83,0.2,357.4,Under way using engine
+passage_trip_07,passage_001,2026-06-09 08:45:36,41,55.924706,7.495336,13.09,0.1,0.3,Under way using engine
+passage_trip_07,passage_001,2026-06-09 08:50:31,42,55.943358,7.495286,13.76,0.1,0.5,Under way using engine
+passage_trip_07,passage_001,2026-06-09 08:55:23,43,55.96201,7.495418,13.83,0.2,359.5,Under way using engine
+passage_trip_07,passage_001,2026-06-09 09:00:17,44,55.980662,7.495488,13.45,0.1,0.7,Under way using engine
+passage_trip_07,passage_001,2026-06-09 09:05:11,45,55.999313,7.495563,13.62,0.0,0.1,Under way using engine
+passage_trip_07,passage_001,2026-06-09 09:10:13,46,56.017966,7.495519,13.33,0.1,1.3,Under way using engine
+passage_trip_07,passage_001,2026-06-09 09:15:12,47,56.036617,7.495672,13.25,0.1,359.4,Under way using engine
+passage_trip_07,passage_001,2026-06-09 09:20:08,48,56.055269,7.495661,13.6,0.1,2.1,Under way using engine
+passage_trip_07,passage_001,2026-06-09 09:25:06,49,56.073921,7.495828,13.2,0.1,0.4,Under way using engine
+passage_trip_07,passage_001,2026-06-09 09:30:10,50,56.092573,7.495736,13.02,0.0,359.3,Under way using engine
+passage_trip_07,passage_001,2026-06-09 09:35:13,51,56.111225,7.495816,13.2,0.0,1.2,Under way using engine
+passage_trip_07,passage_001,2026-06-09 09:40:12,52,56.129877,7.495755,13.41,0.1,359.7,Under way using engine
+passage_trip_07,passage_001,2026-06-09 09:45:05,53,56.148529,7.49595,13.57,0.2,359.2,Under way using engine
+passage_trip_07,passage_001,2026-06-09 09:50:02,54,56.167181,7.495935,13.56,0.1,358.2,Under way using engine
+passage_trip_07,passage_001,2026-06-09 09:55:03,55,56.185833,7.49606,13.07,0.1,359.6,Under way using engine
+passage_trip_07,passage_001,2026-06-09 10:00:02,56,56.204485,7.496019,13.6,0.1,359.7,Under way using engine
+passage_trip_07,passage_001,2026-06-09 10:04:55,57,56.223137,7.496216,13.44,0.1,1.3,Under way using engine
+passage_trip_07,passage_001,2026-06-09 10:09:47,58,56.241789,7.496171,13.66,0.0,0.8,Under way using engine
+passage_trip_07,passage_001,2026-06-09 10:14:45,59,56.260441,7.496231,13.53,0.1,1.8,Under way using engine
+passage_trip_07,passage_001,2026-06-09 10:19:43,60,56.279093,7.496267,13.34,0.0,0.8,Under way using engine
+passage_trip_07,passage_001,2026-06-09 10:24:42,61,56.297745,7.496231,13.5,0.0,2.6,Under way using engine
+passage_trip_07,passage_001,2026-06-09 10:29:39,62,56.316397,7.496211,13.42,0.1,0.6,Under way using engine
+passage_trip_07,passage_001,2026-06-09 10:34:39,63,56.335049,7.496341,13.28,0.0,0.1,Under way using engine
+passage_trip_07,passage_001,2026-06-09 10:39:39,64,56.353701,7.496259,13.35,359.9,358.9,Under way using engine
+passage_trip_07,passage_001,2026-06-09 10:44:37,65,56.372353,7.496258,13.36,359.9,0.8,Under way using engine
+passage_trip_07,passage_001,2026-06-09 10:49:42,66,56.391005,7.49617,13.29,359.8,0.6,Under way using engine
+passage_trip_07,passage_001,2026-06-09 10:54:47,67,56.409657,7.496033,13.19,359.8,1.4,Under way using engine
+passage_trip_07,passage_001,2026-06-09 10:59:47,68,56.428309,7.495962,13.57,359.7,0.7,Under way using engine
+passage_trip_07,passage_001,2026-06-09 11:04:51,69,56.446961,7.495704,13.12,359.6,357.6,Under way using engine
+passage_trip_07,passage_001,2026-06-09 11:09:58,70,56.465613,7.495525,13.16,359.7,357.7,Under way using engine
+passage_trip_07,passage_001,2026-06-09 11:15:06,71,56.484265,7.495408,13.13,359.8,359.7,Under way using engine
+passage_trip_07,passage_001,2026-06-09 11:20:09,72,56.502917,7.495332,13.45,359.9,1.4,Under way using engine
+passage_trip_07,passage_001,2026-06-09 11:25:14,73,56.521569,7.495338,13.17,0.0,359.3,Under way using engine
+passage_trip_07,passage_001,2026-06-09 11:30:15,74,56.540221,7.495296,13.2,359.9,358.5,Under way using engine
+passage_trip_07,passage_001,2026-06-09 11:35:16,75,56.558873,7.495229,13.46,0.0,0.8,Under way using engine
+passage_trip_07,passage_001,2026-06-09 11:40:15,76,56.577525,7.495299,13.46,0.0,0.7,Under way using engine
+passage_trip_07,passage_001,2026-06-09 11:45:14,77,56.596177,7.495262,13.19,0.0,358.9,Under way using engine
+passage_trip_07,passage_001,2026-06-09 11:50:14,78,56.614829,7.495255,13.3,0.0,1.1,Under way using engine
+passage_trip_07,passage_001,2026-06-09 11:55:20,79,56.63348,7.495253,13.27,359.9,359.9,Under way using engine
+passage_trip_07,passage_001,2026-06-09 12:00:21,80,56.652132,7.495194,13.49,359.9,359.7,Under way using engine
+passage_trip_07,passage_001,2026-06-09 12:05:18,81,56.670784,7.495153,13.45,0.0,358.3,Under way using engine
+passage_trip_07,passage_001,2026-06-09 12:10:09,82,56.689436,7.495165,13.78,0.0,0.8,Under way using engine
+passage_trip_07,passage_001,2026-06-09 12:15:03,83,56.708088,7.495183,13.73,0.0,2.2,Under way using engine
+passage_trip_07,passage_001,2026-06-09 12:20:04,84,56.72674,7.495208,13.23,0.0,1.8,Under way using engine
+passage_trip_07,passage_001,2026-06-09 12:24:58,85,56.745392,7.495242,14.02,0.0,0.2,Under way using engine
+passage_trip_07,passage_001,2026-06-09 12:29:49,86,56.764044,7.495228,13.29,0.0,0.8,Under way using engine
+passage_trip_07,passage_001,2026-06-09 12:34:48,87,56.782696,7.495266,13.82,0.1,0.7,Under way using engine
+passage_trip_07,passage_001,2026-06-09 12:39:40,88,56.801348,7.495384,13.58,0.2,359.8,Under way using engine
+passage_trip_07,passage_001,2026-06-09 12:44:38,89,56.82,7.495466,13.68,0.1,0.7,Under way using engine
+passage_trip_08,passage_001,2026-06-10 01:00:00,0,56.820001,7.416404,1.68,179.9,181.8,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 01:37:17,1,56.800239,7.416437,2.1,179.9,178.6,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 02:08:08,2,56.780476,7.416481,2.52,180.0,179.8,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 02:34:21,3,56.760714,7.41649,2.95,179.9,181.8,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 02:59:24,4,56.740952,7.416665,2.74,179.9,180.5,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 03:23:04,5,56.72119,7.416679,3.29,180.0,180.3,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 03:42:42,6,56.701428,7.416666,4.0,180.0,180.2,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 03:59:07,7,56.681666,7.416695,4.61,180.0,180.2,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 04:13:16,8,56.661904,7.416691,5.37,180.0,179.7,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 04:24:53,9,56.642141,7.416718,6.75,180.0,179.4,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 04:34:55,10,56.622379,7.416658,7.23,180.1,179.8,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 04:44:08,11,56.602617,7.416567,8.29,180.0,180.0,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 04:52:27,12,56.582855,7.416633,8.97,179.9,180.9,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 05:00:15,13,56.563092,7.416632,9.31,179.9,178.7,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 05:07:33,14,56.54333,7.4167,9.98,179.9,179.8,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 05:14:15,15,56.523568,7.416779,10.87,179.9,180.9,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 05:20:21,16,56.503806,7.416884,12.28,179.8,179.8,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 05:26:03,17,56.484044,7.417035,12.71,179.8,177.7,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 05:31:35,18,56.464282,7.417126,12.81,179.9,179.3,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 05:37:01,19,56.44452,7.417177,13.51,179.8,179.2,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 05:42:06,20,56.424758,7.417337,14.01,179.8,179.1,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 05:47:06,21,56.404996,7.417423,14.15,179.9,179.1,Restricted manoeuverability
+passage_trip_08,passage_001,2026-06-10 05:52:08,22,56.385234,7.417505,14.1,179.8,179.8,Under way using engine
+passage_trip_08,passage_001,2026-06-10 05:57:04,23,56.365472,7.417613,14.49,179.9,178.6,Under way using engine
+passage_trip_08,passage_001,2026-06-10 06:02:03,24,56.34571,7.417686,13.69,179.8,179.3,Under way using engine
+passage_trip_08,passage_001,2026-06-10 06:07:08,25,56.325948,7.417868,14.21,179.7,180.9,Under way using engine
+passage_trip_08,passage_001,2026-06-10 06:12:08,26,56.306186,7.418007,14.24,179.9,181.1,Under way using engine
+passage_trip_08,passage_001,2026-06-10 06:17:05,27,56.286424,7.41805,14.48,179.9,181.7,Under way using engine
+passage_trip_08,passage_001,2026-06-10 06:21:57,28,56.266662,7.418126,14.35,179.9,181.0,Under way using engine
+passage_trip_08,passage_001,2026-06-10 06:26:55,29,56.2469,7.418174,14.24,179.9,178.5,Under way using engine
+passage_trip_08,passage_001,2026-06-10 06:31:48,30,56.227138,7.418205,14.38,179.9,182.0,Under way using engine
+passage_trip_08,passage_001,2026-06-10 06:36:48,31,56.207376,7.418309,14.03,179.9,179.5,Under way using engine
+passage_trip_08,passage_001,2026-06-10 06:41:49,32,56.187613,7.418338,14.16,179.9,179.9,Under way using engine
+passage_trip_08,passage_001,2026-06-10 06:46:44,33,56.167851,7.418405,14.34,179.8,178.8,Under way using engine
+passage_trip_08,passage_001,2026-06-10 06:51:39,34,56.148089,7.418541,14.55,179.9,179.9,Under way using engine
+passage_trip_08,passage_001,2026-06-10 06:56:30,35,56.128327,7.418529,14.52,180.0,180.4,Under way using engine
+passage_trip_08,passage_001,2026-06-10 07:01:29,36,56.108565,7.418585,14.12,180.0,180.1,Under way using engine
+passage_trip_08,passage_001,2026-06-10 07:06:33,37,56.088803,7.418556,14.16,180.0,180.6,Under way using engine
+passage_trip_08,passage_001,2026-06-10 07:11:34,38,56.069041,7.418603,14.12,180.0,179.5,Under way using engine
+passage_trip_08,passage_001,2026-06-10 07:16:40,39,56.049279,7.41856,13.87,180.1,182.7,Under way using engine
+passage_trip_08,passage_001,2026-06-10 07:21:42,40,56.029516,7.418477,14.44,180.1,179.3,Under way using engine
+passage_trip_08,passage_001,2026-06-10 07:26:38,41,56.009754,7.418479,13.94,179.8,179.7,Under way using engine
+passage_trip_08,passage_001,2026-06-10 07:31:42,42,55.989992,7.418666,14.19,179.8,179.0,Under way using engine
+passage_trip_08,passage_001,2026-06-10 07:36:41,43,55.97023,7.418783,14.49,179.8,179.8,Under way using engine
+passage_trip_08,passage_001,2026-06-10 07:41:39,44,55.950468,7.418871,14.32,179.9,178.7,Under way using engine
+passage_trip_08,passage_001,2026-06-10 07:46:45,45,55.930706,7.41893,13.8,179.8,181.3,Under way using engine
+passage_trip_08,passage_001,2026-06-10 07:51:54,46,55.910944,7.419109,13.74,179.7,181.9,Under way using engine
+passage_trip_08,passage_001,2026-06-10 07:57:07,47,55.891182,7.4193,13.79,179.7,179.0,Under way using engine
+passage_trip_08,passage_001,2026-06-10 08:02:14,48,55.87142,7.41948,14.27,179.8,180.2,Under way using engine
+passage_trip_08,passage_001,2026-06-10 08:07:11,49,55.851658,7.419525,14.16,179.8,180.9,Under way using engine
+passage_trip_08,passage_001,2026-06-10 08:12:15,50,55.831896,7.419744,14.06,179.6,178.2,Under way using engine
+passage_trip_08,passage_001,2026-06-10 08:17:11,51,55.812134,7.420043,14.46,179.5,177.8,Under way using engine
+passage_trip_08,passage_001,2026-06-10 08:22:01,52,55.792373,7.420299,14.44,179.7,180.8,Under way using engine
+passage_trip_08,passage_001,2026-06-10 08:26:55,53,55.772611,7.420463,14.09,179.6,179.4,Under way using engine
+passage_trip_08,passage_001,2026-06-10 08:31:58,54,55.752849,7.420787,14.37,179.6,180.6,Under way using engine
+passage_trip_08,passage_001,2026-06-10 08:37:03,55,55.733087,7.42101,13.81,179.6,181.0,Under way using engine
+passage_trip_08,passage_001,2026-06-10 08:42:04,56,55.713326,7.42129,14.29,179.6,177.9,Under way using engine
+passage_trip_08,passage_001,2026-06-10 08:46:58,57,55.693564,7.421491,14.63,179.7,178.9,Under way using engine
+passage_trip_08,passage_001,2026-06-10 08:51:51,58,55.673802,7.421637,14.09,179.7,179.6,Under way using engine
+passage_trip_08,passage_001,2026-06-10 08:56:45,59,55.654041,7.421815,14.42,179.6,179.5,Under way using engine
+passage_trip_08,passage_001,2026-06-10 09:01:38,60,55.634279,7.422066,14.19,179.7,179.8,Under way using engine
+passage_trip_08,passage_001,2026-06-10 09:06:37,61,55.614517,7.422158,14.34,179.8,179.1,Under way using engine
+passage_trip_08,passage_001,2026-06-10 09:11:40,62,55.594755,7.422276,13.81,179.7,181.1,Under way using engine
+passage_trip_08,passage_001,2026-06-10 09:16:39,63,55.574994,7.422493,14.56,179.7,177.6,Under way using engine
+passage_trip_08,passage_001,2026-06-10 09:21:33,64,55.555232,7.422658,14.08,179.7,179.1,Under way using engine
+passage_trip_08,passage_001,2026-06-10 09:26:31,65,55.53547,7.422899,14.24,179.6,181.3,Under way using engine
+passage_trip_08,passage_001,2026-06-10 09:31:25,66,55.515709,7.423161,14.2,179.6,180.4,Under way using engine
+passage_trip_08,passage_001,2026-06-10 09:36:23,67,55.495947,7.423368,14.35,179.7,180.4,Under way using engine
+passage_trip_08,passage_001,2026-06-10 09:41:15,68,55.476185,7.423516,14.37,179.7,179.8,Under way using engine
+passage_trip_08,passage_001,2026-06-10 09:46:06,69,55.456424,7.423766,14.5,179.6,181.3,Under way using engine
+passage_trip_08,passage_001,2026-06-10 09:50:58,70,55.436662,7.424032,14.17,179.6,179.6,Under way using engine
+passage_trip_08,passage_001,2026-06-10 09:55:51,71,55.4169,7.42425,14.37,179.6,179.1,Under way using engine
+passage_trip_08,passage_001,2026-06-10 10:00:48,72,55.397139,7.424466,14.3,179.6,180.1,Under way using engine
+passage_trip_08,passage_001,2026-06-10 10:05:39,73,55.377377,7.424698,14.53,179.7,180.6,Under way using engine
+passage_trip_08,passage_001,2026-06-10 10:10:39,74,55.357615,7.424876,13.99,179.6,177.9,Under way using engine
+passage_trip_08,passage_001,2026-06-10 10:15:35,75,55.337853,7.425126,14.59,179.5,179.6,Under way using engine
+passage_trip_08,passage_001,2026-06-10 10:20:25,76,55.318092,7.425478,14.35,179.5,179.6,Under way using engine
+passage_trip_08,passage_001,2026-06-10 10:25:20,77,55.298331,7.425792,14.6,179.5,180.8,Under way using engine
+passage_trip_08,passage_001,2026-06-10 10:30:12,78,55.278569,7.426067,14.72,179.6,178.7,Under way using engine
+passage_trip_08,passage_001,2026-06-10 10:34:58,79,55.258807,7.426289,14.64,179.7,179.9,Under way using engine
+passage_trip_08,passage_001,2026-06-10 10:39:57,80,55.239045,7.426474,14.09,179.6,179.2,Under way using engine
+passage_trip_08,passage_001,2026-06-10 10:45:01,81,55.219284,7.426795,13.98,179.5,179.8,Under way using engine
+passage_trip_08,passage_001,2026-06-10 10:50:04,82,55.199523,7.427107,14.18,179.5,178.4,Under way using engine
+passage_trip_08,passage_001,2026-06-10 10:55:05,83,55.179761,7.427353,14.02,179.6,180.0,Under way using engine
+passage_trip_08,passage_001,2026-06-10 11:00:10,84,55.159999,7.427602,14.11,179.6,176.6,Under way using engine
+passage_trip_09,passage_001,2026-06-11 05:00:00,0,55.16,7.340198,2.44,359.9,1.3,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 05:27:40,1,55.178867,7.340133,2.43,359.8,358.7,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 05:59:20,2,55.197734,7.339999,1.89,359.8,0.4,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 06:32:14,3,55.216601,7.339847,2.17,359.8,2.5,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 07:01:32,4,55.235468,7.339785,2.49,359.8,357.7,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 07:22:07,5,55.254334,7.339659,4.14,359.8,0.1,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 07:39:23,6,55.273201,7.339549,3.79,359.8,359.3,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 07:55:07,7,55.292068,7.339471,4.89,359.9,357.4,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 08:08:45,8,55.310935,7.33942,5.12,0.0,359.1,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 08:21:19,9,55.329802,7.339512,5.52,0.2,359.1,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 08:31:57,10,55.348669,7.339644,7.06,0.2,359.0,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 08:41:19,11,55.367536,7.339691,7.16,0.1,359.2,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 08:49:48,12,55.386403,7.33981,8.8,0.2,358.8,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 08:57:27,13,55.40527,7.339922,8.97,0.2,3.5,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 09:04:51,14,55.424137,7.340054,9.32,0.2,359.7,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 09:11:46,15,55.443004,7.340211,10.4,0.1,358.4,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 09:18:00,16,55.461871,7.340199,11.14,0.1,1.2,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 09:23:57,17,55.480738,7.340274,11.69,0.3,359.7,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 09:29:29,18,55.499604,7.340571,12.57,0.5,2.3,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 09:34:50,19,55.51847,7.340905,12.63,0.4,1.1,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 09:40:01,20,55.537336,7.341094,13.36,0.4,359.8,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 09:45:01,21,55.556203,7.341372,13.53,0.5,2.8,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 09:49:59,22,55.575069,7.341661,13.78,0.6,1.0,Restricted manoeuverability
+passage_trip_09,passage_001,2026-06-11 09:54:57,23,55.593935,7.342034,13.8,0.7,1.6,Under way using engine
+passage_trip_09,passage_001,2026-06-11 09:59:47,24,55.612799,7.342438,13.83,0.8,359.2,Under way using engine
+passage_trip_09,passage_001,2026-06-11 10:04:46,25,55.631663,7.342947,13.46,0.9,359.9,Under way using engine
+passage_trip_09,passage_001,2026-06-11 10:09:45,26,55.650527,7.343495,13.51,1.0,1.2,Under way using engine
+passage_trip_09,passage_001,2026-06-11 10:14:41,27,55.669391,7.344132,13.73,0.9,0.2,Under way using engine
+passage_trip_09,passage_001,2026-06-11 10:19:34,28,55.688256,7.344555,14.12,0.8,0.0,Under way using engine
+passage_trip_09,passage_001,2026-06-11 10:24:20,29,55.707122,7.345009,13.86,0.9,0.4,Under way using engine
+passage_trip_09,passage_001,2026-06-11 10:29:05,30,55.725985,7.345608,14.21,0.9,2.7,Under way using engine
+passage_trip_09,passage_001,2026-06-11 10:33:50,31,55.744848,7.346061,13.87,1.1,3.5,Under way using engine
+passage_trip_09,passage_001,2026-06-11 10:38:53,32,55.763709,7.346846,13.31,1.1,1.8,Under way using engine
+passage_trip_09,passage_001,2026-06-11 10:43:55,33,55.782574,7.347384,13.4,1.0,359.9,Under way using engine
+passage_trip_09,passage_001,2026-06-11 10:48:54,34,55.801438,7.347969,13.82,1.1,2.7,Under way using engine
+passage_trip_09,passage_001,2026-06-11 10:53:46,35,55.820301,7.348682,13.59,1.2,0.5,Under way using engine
+passage_trip_09,passage_001,2026-06-11 10:58:42,36,55.839164,7.349366,13.7,1.1,2.0,Under way using engine
+passage_trip_09,passage_001,2026-06-11 11:03:38,37,55.858028,7.349934,13.55,1.2,2.6,Under way using engine
+passage_trip_09,passage_001,2026-06-11 11:08:30,38,55.876887,7.350819,13.92,1.4,1.2,Under way using engine
+passage_trip_09,passage_001,2026-06-11 11:13:22,39,55.895749,7.351574,13.78,1.5,359.8,Under way using engine
+passage_trip_09,passage_001,2026-06-11 11:18:11,40,55.914607,7.35258,13.91,1.7,2.6,Under way using engine
+passage_trip_09,passage_001,2026-06-11 11:23:04,41,55.933466,7.35355,13.9,1.7,1.2,Under way using engine
+passage_trip_09,passage_001,2026-06-11 11:27:56,42,55.952325,7.354523,13.59,1.5,4.6,Under way using engine
+passage_trip_09,passage_001,2026-06-11 11:32:48,43,55.971187,7.355339,13.82,1.4,3.2,Under way using engine
+passage_trip_09,passage_001,2026-06-11 11:37:42,44,55.990049,7.356157,13.78,1.2,0.2,Under way using engine
+passage_trip_09,passage_001,2026-06-11 11:42:32,45,56.008913,7.356759,13.96,0.8,1.7,Under way using engine
+passage_trip_09,passage_001,2026-06-11 11:47:18,46,56.027779,7.357122,14.41,0.7,1.2,Under way using engine
+passage_trip_09,passage_001,2026-06-11 11:52:12,47,56.046644,7.357528,13.34,0.6,2.7,Under way using engine
+passage_trip_09,passage_001,2026-06-11 11:57:10,48,56.06551,7.357872,13.54,0.6,1.7,Under way using engine
+passage_trip_09,passage_001,2026-06-11 12:02:12,49,56.084376,7.35826,13.71,0.7,1.2,Under way using engine
+passage_trip_09,passage_001,2026-06-11 12:07:12,50,56.103241,7.358731,13.66,0.8,2.9,Under way using engine
+passage_trip_09,passage_001,2026-06-11 12:12:02,51,56.122106,7.359235,13.99,0.7,1.4,Under way using engine
+passage_trip_09,passage_001,2026-06-11 12:16:58,52,56.140972,7.359592,13.72,0.3,1.1,Under way using engine
+passage_trip_09,passage_001,2026-06-11 12:21:59,53,56.159839,7.359616,13.51,359.8,0.8,Under way using engine
+passage_trip_09,passage_001,2026-06-11 12:26:58,54,56.178706,7.359405,13.91,359.7,0.9,Under way using engine
+passage_trip_09,passage_001,2026-06-11 12:31:56,55,56.197573,7.359269,13.74,359.8,2.7,Under way using engine
+passage_trip_09,passage_001,2026-06-11 12:36:52,56,56.216439,7.35916,13.47,359.8,1.7,Under way using engine
+passage_trip_09,passage_001,2026-06-11 12:41:50,57,56.235306,7.359034,13.96,359.8,359.3,Under way using engine
+passage_trip_09,passage_001,2026-06-11 12:46:45,58,56.254173,7.358939,13.86,359.9,0.7,Under way using engine
+passage_trip_09,passage_001,2026-06-11 12:51:41,59,56.27304,7.35888,13.82,359.7,0.3,Under way using engine
+passage_trip_09,passage_001,2026-06-11 12:56:37,60,56.291906,7.358641,13.52,359.4,357.4,Under way using engine
+passage_trip_09,passage_001,2026-06-11 13:01:34,61,56.310772,7.35821,13.89,359.2,0.0,Under way using engine
+passage_trip_09,passage_001,2026-06-11 13:06:27,62,56.329636,7.357718,13.47,359.1,359.6,Under way using engine
+passage_trip_09,passage_001,2026-06-11 13:11:31,63,56.3485,7.357125,13.25,359.1,359.8,Under way using engine
+passage_trip_09,passage_001,2026-06-11 13:16:26,64,56.367365,7.356605,13.91,359.1,357.5,Under way using engine
+passage_trip_09,passage_001,2026-06-11 13:21:22,65,56.386229,7.356006,13.8,359.0,359.2,Under way using engine
+passage_trip_09,passage_001,2026-06-11 13:26:12,66,56.405093,7.355385,13.92,358.8,358.9,Under way using engine
+passage_trip_09,passage_001,2026-06-11 13:31:01,67,56.423955,7.354599,13.77,358.5,358.7,Under way using engine
+passage_trip_09,passage_001,2026-06-11 13:35:56,68,56.442813,7.353633,13.57,358.3,359.3,Under way using engine
+passage_trip_09,passage_001,2026-06-11 13:40:55,69,56.46167,7.352615,13.61,358.3,358.3,Under way using engine
+passage_trip_09,passage_001,2026-06-11 13:45:55,70,56.480528,7.351596,13.38,358.3,358.2,Under way using engine
+passage_trip_09,passage_001,2026-06-11 13:51:01,71,56.499386,7.350556,13.34,358.2,359.7,Under way using engine
+passage_trip_09,passage_001,2026-06-11 13:56:06,72,56.518243,7.349476,13.57,358.2,358.7,Under way using engine
+passage_trip_09,passage_001,2026-06-11 14:01:10,73,56.537101,7.348437,13.16,358.4,356.8,Under way using engine
+passage_trip_09,passage_001,2026-06-11 14:06:07,74,56.555962,7.347574,13.79,358.5,357.6,Under way using engine
+passage_trip_09,passage_001,2026-06-11 14:11:03,75,56.574821,7.346613,13.92,358.2,359.5,Under way using engine
+passage_trip_09,passage_001,2026-06-11 14:16:00,76,56.593677,7.345463,13.65,358.3,358.3,Under way using engine
+passage_trip_09,passage_001,2026-06-11 14:20:52,77,56.612538,7.344576,13.98,358.5,358.7,Under way using engine
+passage_trip_09,passage_001,2026-06-11 14:25:42,78,56.631398,7.343663,13.67,358.3,358.7,Under way using engine
+passage_trip_09,passage_001,2026-06-11 14:30:35,79,56.650255,7.342594,13.69,358.4,358.4,Under way using engine
+passage_trip_09,passage_001,2026-06-11 14:35:30,80,56.669115,7.341709,13.66,358.4,358.6,Under way using engine
+passage_trip_09,passage_001,2026-06-11 14:40:24,81,56.687974,7.340727,14.03,358.5,356.9,Under way using engine
+passage_trip_09,passage_001,2026-06-11 14:45:18,82,56.706835,7.33986,13.65,358.6,358.6,Under way using engine
+passage_trip_09,passage_001,2026-06-11 14:50:13,83,56.725697,7.339107,13.98,358.6,356.6,Under way using engine
+passage_trip_09,passage_001,2026-06-11 14:55:06,84,56.744557,7.338162,13.54,358.5,356.8,Under way using engine
+passage_trip_09,passage_001,2026-06-11 15:00:00,85,56.763417,7.337261,13.75,358.6,359.2,Under way using engine
+passage_trip_09,passage_001,2026-06-11 15:04:51,86,56.782279,7.33649,14.01,358.6,359.5,Under way using engine
+passage_trip_09,passage_001,2026-06-11 15:09:42,87,56.801139,7.335576,13.74,358.5,357.9,Under way using engine
+passage_trip_09,passage_001,2026-06-11 15:14:42,88,56.819999,7.334669,13.55,358.5,359.8,Under way using engine
+passage_trip_10,passage_001,2026-06-12 03:00:00,0,56.820006,7.454912,2.52,181.2,181.5,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 03:27:05,1,56.800009,7.454137,2.74,181.2,179.4,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 03:54:10,2,56.780011,7.453379,2.51,181.1,180.8,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 04:20:57,3,56.760013,7.452708,2.91,181.1,180.2,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 04:46:57,4,56.740015,7.452007,2.56,181.1,182.3,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 05:12:31,5,56.720017,7.451285,2.99,181.2,180.1,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 05:32:40,6,56.700019,7.450527,4.13,181.2,181.1,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 05:48:47,7,56.680022,7.449762,4.81,181.2,180.7,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 06:02:30,8,56.660025,7.448977,5.58,181.2,180.9,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 06:14:41,9,56.640027,7.448255,6.05,181.2,181.9,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 06:25:21,10,56.62003,7.447415,7.26,181.2,179.5,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 06:34:39,11,56.600032,7.446744,7.91,181.1,180.9,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 06:43:25,12,56.580034,7.446031,8.52,181.1,180.5,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 06:51:40,13,56.560035,7.44537,9.09,181.1,179.9,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 06:59:07,14,56.540037,7.444651,10.19,181.1,178.3,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 07:05:53,15,56.520038,7.443993,10.67,181.1,178.9,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 07:12:10,16,56.50004,7.44328,12.05,181.2,180.7,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 07:18:07,17,56.480043,7.442517,12.17,181.2,180.3,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 07:23:58,18,56.460045,7.441768,12.37,181.2,179.6,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 07:29:43,19,56.440048,7.441011,12.63,181.2,181.4,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 07:35:18,20,56.420052,7.440203,13.08,181.0,181.0,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 07:40:39,21,56.400052,7.439721,13.46,180.8,181.2,Restricted manoeuverability
+passage_trip_10,passage_001,2026-06-12 07:45:55,22,56.380053,7.439142,13.89,180.9,180.7,Under way using engine
+passage_trip_10,passage_001,2026-06-12 07:51:09,23,56.360053,7.438584,13.35,180.9,178.9,Under way using engine
+passage_trip_10,passage_001,2026-06-12 07:56:29,24,56.340053,7.438061,13.2,180.9,182.0,Under way using engine
+passage_trip_10,passage_001,2026-06-12 08:01:55,25,56.320054,7.437462,13.39,181.0,182.8,Under way using engine
+passage_trip_10,passage_001,2026-06-12 08:07:14,26,56.300055,7.436861,13.47,180.9,178.3,Under way using engine
+passage_trip_10,passage_001,2026-06-12 08:12:30,27,56.280056,7.436377,13.69,180.7,180.5,Under way using engine
+passage_trip_10,passage_001,2026-06-12 08:17:41,28,56.260056,7.435977,13.75,180.6,180.5,Under way using engine
+passage_trip_10,passage_001,2026-06-12 08:22:57,29,56.240055,7.435571,13.59,180.6,181.3,Under way using engine
+passage_trip_10,passage_001,2026-06-12 08:28:10,30,56.220054,7.435186,13.58,180.7,182.1,Under way using engine
+passage_trip_10,passage_001,2026-06-12 08:33:28,31,56.200054,7.434745,13.73,180.7,181.1,Under way using engine
+passage_trip_10,passage_001,2026-06-12 08:38:43,32,56.180053,7.434316,13.71,180.6,181.1,Under way using engine
+passage_trip_10,passage_001,2026-06-12 08:43:51,33,56.160052,7.433958,13.86,180.6,182.3,Under way using engine
+passage_trip_10,passage_001,2026-06-12 08:49:02,34,56.140052,7.433535,13.83,180.6,182.0,Under way using engine
+passage_trip_10,passage_001,2026-06-12 08:54:20,35,56.120051,7.433261,13.53,180.3,180.1,Under way using engine
+passage_trip_10,passage_001,2026-06-12 08:59:33,36,56.100049,7.433103,13.58,180.3,180.4,Under way using engine
+passage_trip_10,passage_001,2026-06-12 09:04:50,37,56.080047,7.432934,13.39,180.2,179.9,Under way using engine
+passage_trip_10,passage_001,2026-06-12 09:10:04,38,56.060045,7.432879,13.88,180.1,179.6,Under way using engine
+passage_trip_10,passage_001,2026-06-12 09:15:13,39,56.040043,7.432776,13.71,180.2,180.7,Under way using engine
+passage_trip_10,passage_001,2026-06-12 09:20:37,40,56.020042,7.432617,13.22,180.2,181.8,Under way using engine
+passage_trip_10,passage_001,2026-06-12 09:25:50,41,56.00004,7.432539,14.02,179.9,179.9,Under way using engine
+passage_trip_10,passage_001,2026-06-12 09:31:03,42,55.980039,7.432787,13.58,179.7,178.7,Under way using engine
+passage_trip_10,passage_001,2026-06-12 09:36:26,43,55.960037,7.432904,13.05,179.8,179.9,Under way using engine
+passage_trip_10,passage_001,2026-06-12 09:41:49,44,55.940035,7.432987,13.8,179.9,180.1,Under way using engine
+passage_trip_10,passage_001,2026-06-12 09:46:52,45,55.920033,7.43306,14.32,179.9,182.9,Under way using engine
+passage_trip_10,passage_001,2026-06-12 09:52:00,46,55.900031,7.433162,13.65,179.8,179.4,Under way using engine
+passage_trip_10,passage_001,2026-06-12 09:57:14,47,55.880029,7.433285,13.51,179.8,178.2,Under way using engine
+passage_trip_10,passage_001,2026-06-12 10:02:33,48,55.860027,7.433392,13.45,179.8,178.4,Under way using engine
+passage_trip_10,passage_001,2026-06-12 10:07:48,49,55.840025,7.43349,13.6,179.7,180.1,Under way using engine
+passage_trip_10,passage_001,2026-06-12 10:13:02,50,55.820024,7.433722,13.88,179.7,179.4,Under way using engine
+passage_trip_10,passage_001,2026-06-12 10:18:08,51,55.800022,7.433893,13.86,179.7,180.5,Under way using engine
+passage_trip_10,passage_001,2026-06-12 10:23:19,52,55.78002,7.434085,13.73,179.7,180.9,Under way using engine
+passage_trip_10,passage_001,2026-06-12 10:28:36,53,55.760018,7.434268,13.14,179.7,178.7,Under way using engine
+passage_trip_10,passage_001,2026-06-12 10:33:57,54,55.740017,7.434468,13.85,179.6,179.9,Under way using engine
+passage_trip_10,passage_001,2026-06-12 10:39:04,55,55.720016,7.434792,13.93,179.6,178.4,Under way using engine
+passage_trip_10,passage_001,2026-06-12 10:44:17,56,55.700014,7.435,13.68,179.6,181.2,Under way using engine
+passage_trip_10,passage_001,2026-06-12 10:49:31,57,55.680012,7.435279,13.38,179.5,181.1,Under way using engine
+passage_trip_10,passage_001,2026-06-12 10:54:49,58,55.660011,7.435566,13.73,179.6,178.5,Under way using engine
+passage_trip_10,passage_001,2026-06-12 11:00:03,59,55.640009,7.435764,13.73,179.7,178.8,Under way using engine
+passage_trip_10,passage_001,2026-06-12 11:05:16,60,55.620007,7.435924,13.76,179.7,180.9,Under way using engine
+passage_trip_10,passage_001,2026-06-12 11:10:31,61,55.600005,7.43616,13.63,179.5,179.3,Under way using engine
+passage_trip_10,passage_001,2026-06-12 11:15:40,62,55.580004,7.43653,13.79,179.3,179.9,Under way using engine
+passage_trip_10,passage_001,2026-06-12 11:20:56,63,55.560004,7.43698,13.35,179.4,179.0,Under way using engine
+passage_trip_10,passage_001,2026-06-12 11:26:10,64,55.540002,7.437252,13.68,179.5,180.2,Under way using engine
+passage_trip_10,passage_001,2026-06-12 11:31:25,65,55.520001,7.437558,13.81,179.4,177.0,Under way using engine
+passage_trip_10,passage_001,2026-06-12 11:36:36,66,55.5,7.437999,13.84,179.2,180.7,Under way using engine
+passage_trip_10,passage_001,2026-06-12 11:41:50,67,55.48,7.438505,13.59,179.2,179.5,Under way using engine
+passage_trip_10,passage_001,2026-06-12 11:47:00,68,55.459999,7.43901,13.84,179.3,178.9,Under way using engine
+passage_trip_10,passage_001,2026-06-12 11:52:13,69,55.439998,7.439394,13.86,179.3,179.4,Under way using engine
+passage_trip_10,passage_001,2026-06-12 11:57:25,70,55.419998,7.439842,13.67,179.2,179.8,Under way using engine
+passage_trip_10,passage_001,2026-06-12 12:02:46,71,55.399998,7.440372,13.25,179.1,177.5,Under way using engine
+passage_trip_10,passage_001,2026-06-12 12:08:06,72,55.379999,7.440947,13.6,179.1,180.1,Under way using engine
+passage_trip_10,passage_001,2026-06-12 12:13:23,73,55.359998,7.441429,13.6,179.2,180.1,Under way using engine
+passage_trip_10,passage_001,2026-06-12 12:18:42,74,55.339998,7.441905,13.65,179.2,178.7,Under way using engine
+passage_trip_10,passage_001,2026-06-12 12:23:54,75,55.319998,7.442393,13.66,179.2,180.3,Under way using engine
+passage_trip_10,passage_001,2026-06-12 12:29:10,76,55.299998,7.442946,13.41,179.1,178.0,Under way using engine
+passage_trip_10,passage_001,2026-06-12 12:34:34,77,55.279998,7.443451,13.37,179.1,178.5,Under way using engine
+passage_trip_10,passage_001,2026-06-12 12:39:58,78,55.259999,7.444031,13.46,179.1,180.0,Under way using engine
+passage_trip_10,passage_001,2026-06-12 12:45:15,79,55.239999,7.444568,13.28,179.2,180.4,Under way using engine
+passage_trip_10,passage_001,2026-06-12 12:50:35,80,55.219999,7.445048,13.59,179.2,178.5,Under way using engine
+passage_trip_10,passage_001,2026-06-12 12:55:49,81,55.199999,7.445587,13.76,179.1,179.5,Under way using engine
+passage_trip_10,passage_001,2026-06-12 13:01:06,82,55.18,7.446179,13.58,179.0,179.0,Under way using engine
+passage_trip_10,passage_001,2026-06-12 13:06:16,83,55.160001,7.446772,14.08,179.0,178.8,Under way using engine
+passage_trip_11,passage_001,2026-06-13 00:00:00,0,55.160004,7.376394,2.17,1.3,1.1,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 00:30:07,1,55.178864,7.377168,2.3,1.3,359.7,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 00:56:33,2,55.197725,7.377871,2.79,1.2,359.9,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 01:22:15,3,55.216586,7.378509,2.53,1.1,358.9,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 01:45:25,4,55.235448,7.379134,3.38,1.2,2.7,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 02:04:38,5,55.254308,7.379867,3.71,1.3,1.5,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 02:21:43,6,55.273168,7.380644,4.11,1.3,1.8,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 02:37:11,7,55.292028,7.381412,4.74,1.3,0.6,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 02:50:50,8,55.310889,7.382109,5.08,1.2,1.5,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 03:03:30,9,55.329749,7.382855,5.74,1.4,358.6,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 03:15:00,10,55.348607,7.383787,5.92,1.5,0.4,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 03:25:09,11,55.367468,7.384535,7.46,1.3,359.2,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 03:33:39,12,55.386328,7.385282,8.27,1.2,0.7,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 03:41:26,13,55.40519,7.385882,9.26,1.1,2.5,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 03:48:40,14,55.42405,7.386603,9.67,1.2,0.8,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 03:55:27,15,55.442912,7.387242,10.26,1.1,0.1,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 04:01:52,16,55.461773,7.387914,10.54,0.9,1.7,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 04:08:04,17,55.480637,7.388344,11.26,0.8,1.2,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 04:13:57,18,55.4995,7.388873,11.48,0.9,358.1,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 04:19:42,19,55.518363,7.38937,11.71,0.9,2.2,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 04:25:22,20,55.537225,7.389974,12.07,0.9,0.6,Restricted manoeuverability
+passage_trip_11,passage_001,2026-06-13 04:30:59,21,55.556088,7.390443,12.21,0.9,2.0,Under way using engine
+passage_trip_11,passage_001,2026-06-13 04:36:39,22,55.57495,7.391036,11.95,1.0,358.7,Under way using engine
+passage_trip_11,passage_001,2026-06-13 04:42:19,23,55.593812,7.3916,11.79,1.0,1.1,Under way using engine
+passage_trip_11,passage_001,2026-06-13 04:47:58,24,55.612674,7.392241,12.3,0.8,0.6,Under way using engine
+passage_trip_11,passage_001,2026-06-13 04:53:33,25,55.631539,7.392529,11.84,0.6,0.9,Under way using engine
+passage_trip_11,passage_001,2026-06-13 04:59:10,26,55.650402,7.392973,12.25,0.7,358.6,Under way using engine
+passage_trip_11,passage_001,2026-06-13 05:04:46,27,55.669266,7.393347,12.01,0.8,1.3,Under way using engine
+passage_trip_11,passage_001,2026-06-13 05:10:20,28,55.688129,7.393898,11.96,0.6,0.7,Under way using engine
+passage_trip_11,passage_001,2026-06-13 05:15:46,29,55.706994,7.394098,12.62,0.4,359.7,Under way using engine
+passage_trip_11,passage_001,2026-06-13 05:21:13,30,55.725858,7.394365,12.22,0.4,1.3,Under way using engine
+passage_trip_11,passage_001,2026-06-13 05:26:58,31,55.744723,7.394586,11.38,0.5,1.0,Under way using engine
+passage_trip_11,passage_001,2026-06-13 05:32:45,32,55.763588,7.394898,12.02,0.5,357.9,Under way using engine
+passage_trip_11,passage_001,2026-06-13 05:38:27,33,55.782452,7.39514,11.88,0.5,1.2,Under way using engine
+passage_trip_11,passage_001,2026-06-13 05:44:10,34,55.801316,7.395476,11.84,0.4,0.0,Under way using engine
+passage_trip_11,passage_001,2026-06-13 05:49:49,35,55.820182,7.395582,12.27,0.5,1.6,Under way using engine
+passage_trip_11,passage_001,2026-06-13 05:55:20,36,55.839044,7.396078,12.38,0.8,0.7,Under way using engine
+passage_trip_11,passage_001,2026-06-13 06:00:52,37,55.857908,7.396464,12.32,0.6,1.8,Under way using engine
+passage_trip_11,passage_001,2026-06-13 06:06:25,38,55.876772,7.396794,12.14,0.7,1.4,Under way using engine
+passage_trip_11,passage_001,2026-06-13 06:11:56,39,55.895635,7.397248,12.1,0.7,0.9,Under way using engine
+passage_trip_11,passage_001,2026-06-13 06:17:28,40,55.914498,7.397636,12.24,0.6,0.1,Under way using engine
+passage_trip_11,passage_001,2026-06-13 06:23:04,41,55.933362,7.39797,11.6,0.6,359.4,Under way using engine
+passage_trip_11,passage_001,2026-06-13 06:28:40,42,55.952226,7.398384,12.21,0.6,359.5,Under way using engine
+passage_trip_11,passage_001,2026-06-13 06:34:06,43,55.97109,7.398655,12.32,0.5,2.3,Under way using engine
+passage_trip_11,passage_001,2026-06-13 06:39:42,44,55.989954,7.398968,12.16,0.5,0.5,Under way using engine
+passage_trip_11,passage_001,2026-06-13 06:45:13,45,56.008818,7.399266,12.37,0.4,359.5,Under way using engine
+passage_trip_11,passage_001,2026-06-13 06:50:45,46,56.027682,7.399431,11.97,0.3,359.0,Under way using engine
+passage_trip_11,passage_001,2026-06-13 06:56:11,47,56.046547,7.399627,12.62,0.4,359.1,Under way using engine
+passage_trip_11,passage_001,2026-06-13 07:01:45,48,56.065411,7.399874,11.87,0.4,0.6,Under way using engine
+passage_trip_11,passage_001,2026-06-13 07:07:12,49,56.084276,7.400111,12.53,0.4,0.0,Under way using engine
+passage_trip_11,passage_001,2026-06-13 07:12:45,50,56.10314,7.400344,12.06,0.4,0.9,Under way using engine
+passage_trip_11,passage_001,2026-06-13 07:18:25,51,56.122004,7.400552,12.03,0.3,0.0,Under way using engine
+passage_trip_11,passage_001,2026-06-13 07:23:58,52,56.140869,7.400648,12.17,0.1,0.6,Under way using engine
+passage_trip_11,passage_001,2026-06-13 07:29:30,53,56.159734,7.400652,12.34,0.0,0.0,Under way using engine
+passage_trip_11,passage_001,2026-06-13 07:35:06,54,56.178599,7.400699,11.87,0.1,0.0,Under way using engine
+passage_trip_11,passage_001,2026-06-13 07:40:51,55,56.197464,7.400725,11.64,359.9,0.5,Under way using engine
+passage_trip_11,passage_001,2026-06-13 07:46:23,56,56.216329,7.400616,12.7,359.9,359.2,Under way using engine
+passage_trip_11,passage_001,2026-06-13 07:51:54,57,56.235194,7.400553,12.03,359.9,359.6,Under way using engine
+passage_trip_11,passage_001,2026-06-13 07:57:32,58,56.254059,7.40055,12.06,0.1,1.1,Under way using engine
+passage_trip_11,passage_001,2026-06-13 08:03:07,59,56.272923,7.400635,11.94,0.0,358.3,Under way using engine
+passage_trip_11,passage_001,2026-06-13 08:08:50,60,56.291787,7.400569,11.96,359.8,2.7,Under way using engine
+passage_trip_11,passage_001,2026-06-13 08:14:23,61,56.310651,7.400434,12.29,359.9,358.1,Under way using engine
+passage_trip_11,passage_001,2026-06-13 08:20:05,62,56.329516,7.400392,11.54,0.0,358.4,Under way using engine
+passage_trip_11,passage_001,2026-06-13 08:25:44,63,56.348381,7.400398,12.2,359.9,357.9,Under way using engine
+passage_trip_11,passage_001,2026-06-13 08:31:11,64,56.367246,7.400273,12.26,359.8,358.7,Under way using engine
+passage_trip_11,passage_001,2026-06-13 08:36:46,65,56.386111,7.400205,11.9,359.9,0.3,Under way using engine
+passage_trip_11,passage_001,2026-06-13 08:42:25,66,56.404976,7.400172,12.02,0.0,1.4,Under way using engine
+passage_trip_11,passage_001,2026-06-13 08:48:02,67,56.42384,7.400264,12.18,0.0,0.4,Under way using engine
+passage_trip_11,passage_001,2026-06-13 08:53:40,68,56.442704,7.400192,12.11,359.8,0.4,Under way using engine
+passage_trip_11,passage_001,2026-06-13 08:59:15,69,56.461568,7.400042,11.78,359.8,0.1,Under way using engine
+passage_trip_11,passage_001,2026-06-13 09:04:54,70,56.480433,7.399979,11.78,0.0,1.7,Under way using engine
+passage_trip_11,passage_001,2026-06-13 09:10:38,71,56.499298,7.400099,12.15,0.1,359.6,Under way using engine
+passage_trip_11,passage_001,2026-06-13 09:16:12,72,56.518163,7.400146,12.34,0.0,358.2,Under way using engine
+passage_trip_11,passage_001,2026-06-13 09:21:45,73,56.537028,7.400041,11.9,359.9,359.5,Under way using engine
+passage_trip_11,passage_001,2026-06-13 09:27:26,74,56.555893,7.400013,12.14,0.0,1.5,Under way using engine
+passage_trip_11,passage_001,2026-06-13 09:32:57,75,56.574758,7.400069,12.34,0.1,357.2,Under way using engine
+passage_trip_11,passage_001,2026-06-13 09:38:29,76,56.593623,7.400098,11.94,0.1,359.2,Under way using engine
+passage_trip_11,passage_001,2026-06-13 09:44:11,77,56.612488,7.400143,11.89,0.0,359.3,Under way using engine
+passage_trip_11,passage_001,2026-06-13 09:50:00,78,56.631353,7.400099,11.53,359.9,359.4,Under way using engine
+passage_trip_11,passage_001,2026-06-13 09:55:42,79,56.650218,7.400071,12.26,0.0,1.4,Under way using engine
+passage_trip_11,passage_001,2026-06-13 10:01:22,80,56.669083,7.400154,11.89,0.0,359.8,Under way using engine
+passage_trip_11,passage_001,2026-06-13 10:07:06,81,56.687948,7.400088,12.03,359.9,359.9,Under way using engine
+passage_trip_11,passage_001,2026-06-13 10:12:42,82,56.706813,7.400009,12.26,359.9,358.7,Under way using engine
+passage_trip_11,passage_001,2026-06-13 10:18:15,83,56.725677,7.399947,11.9,359.9,1.6,Under way using engine
+passage_trip_11,passage_001,2026-06-13 10:23:49,84,56.744542,7.399908,12.05,359.9,0.1,Under way using engine
+passage_trip_11,passage_001,2026-06-13 10:29:26,85,56.763407,7.399825,12.13,359.8,359.2,Under way using engine
+passage_trip_11,passage_001,2026-06-13 10:34:57,86,56.782272,7.399717,12.31,359.8,359.6,Under way using engine
+passage_trip_11,passage_001,2026-06-13 10:40:30,87,56.801137,7.399641,11.88,359.9,0.7,Under way using engine
+passage_trip_11,passage_001,2026-06-13 10:46:15,88,56.820002,7.399596,11.86,359.9,358.6,Under way using engine
+passage_trip_12,passage_001,2026-06-14 00:00:00,0,56.82,7.43504,1.93,180.1,179.4,Restricted manoeuverability
+passage_trip_12,passage_001,2026-06-14 00:42:31,1,56.797259,7.434987,1.86,180.1,180.6,Restricted manoeuverability
+passage_trip_12,passage_001,2026-06-14 01:23:55,2,56.774518,7.434901,2.02,180.2,180.8,Restricted manoeuverability
+passage_trip_12,passage_001,2026-06-14 01:56:38,3,56.751776,7.434748,2.96,180.2,180.3,Restricted manoeuverability
+passage_trip_12,passage_001,2026-06-14 02:21:14,4,56.729035,7.434573,3.76,180.1,179.7,Restricted manoeuverability
+passage_trip_12,passage_001,2026-06-14 02:41:02,5,56.706294,7.434564,4.53,180.1,180.2,Restricted manoeuverability
+passage_trip_12,passage_001,2026-06-14 02:59:01,6,56.683553,7.434412,4.57,180.3,182.3,Restricted manoeuverability
+passage_trip_12,passage_001,2026-06-14 03:13:48,7,56.660812,7.434174,6.37,180.4,180.0,Restricted manoeuverability
+passage_trip_12,passage_001,2026-06-14 03:25:57,8,56.638071,7.433866,7.12,180.4,182.7,Restricted manoeuverability
+passage_trip_12,passage_001,2026-06-14 03:36:54,9,56.61533,7.433621,7.83,180.3,179.7,Restricted manoeuverability
+passage_trip_12,passage_001,2026-06-14 03:46:19,10,56.592589,7.433457,9.68,180.3,180.0,Restricted manoeuverability
+passage_trip_12,passage_001,2026-06-14 03:54:02,11,56.569848,7.433223,11.15,180.3,179.2,Restricted manoeuverability
+passage_trip_12,passage_001,2026-06-14 04:01:13,12,56.547107,7.433017,11.31,180.2,180.9,Restricted manoeuverability
+passage_trip_12,passage_001,2026-06-14 04:08:23,13,56.524366,7.432873,11.63,180.1,177.8,Restricted manoeuverability
+passage_trip_12,passage_001,2026-06-14 04:15:14,14,56.501625,7.43286,12.03,180.0,181.5,Restricted manoeuverability
+passage_trip_12,passage_001,2026-06-14 04:21:59,15,56.478884,7.432837,12.2,180.1,179.8,Under way using engine
+passage_trip_12,passage_001,2026-06-14 04:28:32,16,56.456143,7.432747,12.39,180.1,179.1,Under way using engine
+passage_trip_12,passage_001,2026-06-14 04:35:05,17,56.433401,7.432653,12.21,180.0,180.3,Under way using engine
+passage_trip_12,passage_001,2026-06-14 04:41:54,18,56.410659,7.432701,11.67,180.0,180.3,Under way using engine
+passage_trip_12,passage_001,2026-06-14 04:48:38,19,56.387918,7.432636,12.2,180.0,179.4,Under way using engine
+passage_trip_12,passage_001,2026-06-14 04:55:29,20,56.365177,7.432674,11.82,179.9,180.0,Under way using engine
+passage_trip_12,passage_001,2026-06-14 05:02:21,21,56.342436,7.432765,11.75,179.9,180.4,Under way using engine
+passage_trip_12,passage_001,2026-06-14 05:09:06,22,56.319695,7.432853,12.14,179.8,180.0,Under way using engine
+passage_trip_12,passage_001,2026-06-14 05:15:53,23,56.296954,7.433001,12.15,179.8,179.4,Under way using engine
+passage_trip_12,passage_001,2026-06-14 05:22:39,24,56.274212,7.433155,12.14,179.8,179.3,Under way using engine
+passage_trip_12,passage_001,2026-06-14 05:29:21,25,56.251471,7.433296,12.3,179.7,179.7,Under way using engine
+passage_trip_12,passage_001,2026-06-14 05:35:59,26,56.22873,7.433533,12.16,179.7,179.6,Under way using engine
+passage_trip_12,passage_001,2026-06-14 05:42:46,27,56.205989,7.433779,12.16,179.8,179.2,Under way using engine
+passage_trip_12,passage_001,2026-06-14 05:49:34,28,56.183248,7.433848,11.88,179.8,178.8,Under way using engine
+passage_trip_12,passage_001,2026-06-14 05:56:23,29,56.160507,7.434069,12.02,179.8,178.5,Under way using engine
+passage_trip_12,passage_001,2026-06-14 06:02:59,30,56.137766,7.434186,12.64,179.7,176.2,Under way using engine
+passage_trip_12,passage_001,2026-06-14 06:16:07,31,56.092284,7.434628,12.31,179.7,171.3,Under way using engine
+passage_trip_12,passage_001,2026-06-14 06:20:05,32,56.092284,7.434628,0.16,179.7,163.4,At anchor
+passage_trip_12,passage_001,2026-06-14 06:25:29,33,56.092284,7.434628,0.12,179.7,152.2,At anchor
+passage_trip_12,passage_001,2026-06-14 06:30:38,34,56.092284,7.434628,0.33,179.7,141.2,At anchor
+passage_trip_12,passage_001,2026-06-14 06:37:20,35,56.092284,7.434628,0.22,179.7,136.2,At anchor
+passage_trip_12,passage_001,2026-06-14 06:41:50,36,56.092284,7.434628,0.14,179.7,143.1,At anchor
+passage_trip_12,passage_001,2026-06-14 06:46:27,37,56.092284,7.434628,0.34,179.7,151.7,At anchor
+passage_trip_12,passage_001,2026-06-14 06:51:48,38,56.092284,7.434628,0.37,179.7,161.6,At anchor
+passage_trip_12,passage_001,2026-06-14 07:05:02,39,56.069543,7.434861,11.97,179.6,172.4,Under way using engine
+passage_trip_12,passage_001,2026-06-14 07:11:53,40,56.046803,7.435163,12.0,179.7,177.1,Under way using engine
+passage_trip_12,passage_001,2026-06-14 07:18:33,41,56.024062,7.435306,12.25,179.8,179.7,Under way using engine
+passage_trip_12,passage_001,2026-06-14 07:25:13,42,56.001321,7.435461,12.05,179.6,180.3,Under way using engine
+passage_trip_12,passage_001,2026-06-14 07:31:58,43,55.97858,7.435807,12.21,179.5,179.2,Under way using engine
+passage_trip_12,passage_001,2026-06-14 07:38:43,44,55.95584,7.436164,12.06,179.5,180.4,Under way using engine
+passage_trip_12,passage_001,2026-06-14 07:45:23,45,55.933099,7.436449,12.19,179.6,180.3,Under way using engine
+passage_trip_12,passage_001,2026-06-14 07:51:58,46,55.910359,7.436694,12.63,179.8,179.7,Under way using engine
+passage_trip_12,passage_001,2026-06-14 07:58:35,47,55.887617,7.436779,12.13,179.8,179.5,Under way using engine
+passage_trip_12,passage_001,2026-06-14 08:05:21,48,55.864876,7.436912,12.07,180.0,179.8,Under way using engine
+passage_trip_12,passage_001,2026-06-14 08:11:56,49,55.842135,7.43684,12.57,180.1,180.9,Under way using engine
+passage_trip_12,passage_001,2026-06-14 08:18:31,50,55.819394,7.436704,12.5,180.1,180.2,Under way using engine
+passage_trip_12,passage_001,2026-06-14 08:25:11,51,55.796652,7.43666,12.2,180.0,179.5,Under way using engine
+passage_trip_12,passage_001,2026-06-14 08:31:56,52,55.773911,7.436752,12.26,179.9,178.6,Under way using engine
+passage_trip_12,passage_001,2026-06-14 08:38:35,53,55.75117,7.436819,12.09,180.0,180.3,Under way using engine
+passage_trip_12,passage_001,2026-06-14 08:45:16,54,55.728428,7.436718,12.29,180.2,180.6,Under way using engine
+passage_trip_12,passage_001,2026-06-14 08:51:46,55,55.705687,7.436575,12.4,180.3,181.0,Under way using engine
+passage_trip_12,passage_001,2026-06-14 08:58:25,56,55.682946,7.436335,11.99,180.3,178.3,Under way using engine
+passage_trip_12,passage_001,2026-06-14 09:05:12,57,55.660205,7.436203,12.22,180.3,180.5,Under way using engine
+passage_trip_12,passage_001,2026-06-14 09:11:56,58,55.637464,7.435898,12.08,180.4,181.4,Under way using engine
+passage_trip_12,passage_001,2026-06-14 09:18:37,59,55.614723,7.435613,12.05,180.6,180.4,Under way using engine
+passage_trip_12,passage_001,2026-06-14 09:25:28,60,55.591982,7.435069,11.86,180.8,180.2,Under way using engine
+passage_trip_12,passage_001,2026-06-14 09:32:19,61,55.569243,7.434527,12.09,180.8,180.8,Under way using engine
+passage_trip_12,passage_001,2026-06-14 09:38:56,62,55.546504,7.43395,12.31,180.8,180.0,Under way using engine
+passage_trip_12,passage_001,2026-06-14 09:45:39,63,55.523765,7.433449,12.24,180.8,180.0,Under way using engine
+passage_trip_12,passage_001,2026-06-14 09:52:24,64,55.501026,7.432796,12.08,180.9,182.5,Under way using engine
+passage_trip_12,passage_001,2026-06-14 09:59:09,65,55.478285,7.432242,11.91,181.1,180.2,Under way using engine
+passage_trip_12,passage_001,2026-06-14 10:05:50,66,55.455549,7.431282,12.42,181.4,180.3,Under way using engine
+passage_trip_12,passage_001,2026-06-14 10:12:36,67,55.432815,7.430248,11.97,181.5,180.7,Under way using engine
+passage_trip_12,passage_001,2026-06-14 10:19:24,68,55.410081,7.42923,11.98,181.4,180.5,Under way using engine
+passage_trip_12,passage_001,2026-06-14 10:26:10,69,55.387346,7.428269,12.33,181.5,181.4,Under way using engine
+passage_trip_12,passage_001,2026-06-14 10:32:48,70,55.364613,7.427201,12.32,181.4,179.8,Under way using engine
+passage_trip_12,passage_001,2026-06-14 10:39:29,71,55.341878,7.426275,12.41,181.5,180.0,Under way using engine
+passage_trip_12,passage_001,2026-06-14 10:46:09,72,55.319145,7.425143,12.33,181.6,182.7,Under way using engine
+passage_trip_12,passage_001,2026-06-14 10:53:03,73,55.296413,7.423989,11.47,181.5,181.1,Under way using engine
+passage_trip_12,passage_001,2026-06-14 11:00:02,74,55.273677,7.423103,11.78,181.4,181.1,Under way using engine
+passage_trip_12,passage_001,2026-06-14 11:06:52,75,55.250944,7.422024,12.06,181.5,181.8,Under way using engine
+passage_trip_12,passage_001,2026-06-14 11:13:30,76,55.228209,7.421067,12.28,181.4,181.0,Under way using engine
+passage_trip_12,passage_001,2026-06-14 11:20:16,77,55.205476,7.420013,11.99,181.6,179.9,Under way using engine
+passage_trip_12,passage_001,2026-06-14 11:27:06,78,55.182743,7.418899,12.09,181.5,181.0,Under way using engine
+passage_trip_12,passage_001,2026-06-14 11:33:48,79,55.160008,7.417966,11.95,181.3,180.4,Under way using engine
+passage_trip_13,passage_001,2026-06-15 09:00:00,0,55.159998,7.421103,2.54,359.1,3.4,Restricted manoeuverability
+passage_trip_13,passage_001,2026-06-15 09:24:27,1,55.178239,7.420595,2.75,359.1,358.2,Restricted manoeuverability
+passage_trip_13,passage_001,2026-06-15 09:55:18,2,55.196478,7.420049,1.52,359.0,358.1,Restricted manoeuverability
+passage_trip_13,passage_001,2026-06-15 10:28:16,3,55.214718,7.419491,2.5,359.0,358.7,Restricted manoeuverability
+passage_trip_13,passage_001,2026-06-15 10:54:04,4,55.232958,7.41896,2.56,359.0,1.4,Restricted manoeuverability
+passage_trip_13,passage_001,2026-06-15 11:14:56,5,55.251198,7.418409,3.67,359.0,357.9,Restricted manoeuverability
+passage_trip_13,passage_001,2026-06-15 11:31:04,6,55.269438,7.417881,4.55,359.0,357.8,Restricted manoeuverability
+passage_trip_13,passage_001,2026-06-15 11:44:33,7,55.287677,7.417261,5.13,358.9,0.4,Restricted manoeuverability
+passage_trip_13,passage_001,2026-06-15 11:56:59,8,55.305917,7.416676,5.47,359.0,359.8,Restricted manoeuverability
+passage_trip_13,passage_001,2026-06-15 12:07:45,9,55.324157,7.41613,6.67,359.1,359.9,Restricted manoeuverability
+passage_trip_13,passage_001,2026-06-15 12:16:43,10,55.342397,7.415631,7.89,359.1,0.7,Restricted manoeuverability
+passage_trip_13,passage_001,2026-06-15 12:25:04,11,55.360638,7.415149,7.92,359.1,357.4,Restricted manoeuverability
+passage_trip_13,passage_001,2026-06-15 12:32:37,12,55.378878,7.414602,9.5,359.0,358.4,Restricted manoeuverability
+passage_trip_13,passage_001,2026-06-15 12:39:17,13,55.397117,7.414002,9.81,359.1,358.1,Restricted manoeuverability
+passage_trip_13,passage_001,2026-06-15 12:45:43,14,55.415358,7.413548,10.37,359.1,359.5,Restricted manoeuverability
+passage_trip_13,passage_001,2026-06-15 12:51:50,15,55.433598,7.413041,10.86,359.1,358.6,Restricted manoeuverability
+passage_trip_13,passage_001,2026-06-15 12:57:36,16,55.451839,7.412555,11.66,359.0,0.7,Restricted manoeuverability
+passage_trip_13,passage_001,2026-06-15 13:03:08,17,55.470078,7.411951,11.88,359.1,0.0,Restricted manoeuverability
+passage_trip_13,passage_001,2026-06-15 13:08:33,18,55.488319,7.411536,12.44,359.4,359.7,Restricted manoeuverability
+passage_trip_13,passage_001,2026-06-15 13:13:43,19,55.506561,7.411263,13.02,359.5,359.7,Restricted manoeuverability
+passage_trip_13,passage_001,2026-06-15 13:18:44,20,55.524803,7.411027,13.21,359.5,359.9,Under way using engine
+passage_trip_13,passage_001,2026-06-15 13:23:42,21,55.543045,7.410732,12.95,359.5,358.6,Under way using engine
+passage_trip_13,passage_001,2026-06-15 13:28:43,22,55.561287,7.410457,12.99,359.5,0.6,Under way using engine
+passage_trip_13,passage_001,2026-06-15 13:33:46,23,55.579529,7.41015,12.94,359.5,359.0,Under way using engine
+passage_trip_13,passage_001,2026-06-15 13:38:51,24,55.597771,7.4099,12.87,359.6,2.1,Under way using engine
+passage_trip_13,passage_001,2026-06-15 13:43:56,25,55.616012,7.409668,12.8,359.7,358.8,Under way using engine
+passage_trip_13,passage_001,2026-06-15 13:49:02,26,55.634255,7.40955,13.05,359.8,0.9,Under way using engine
+passage_trip_13,passage_001,2026-06-15 13:54:04,27,55.652497,7.409457,12.98,359.9,359.7,Under way using engine
+passage_trip_13,passage_001,2026-06-15 13:59:06,28,55.67074,7.409381,12.78,359.9,2.3,Under way using engine
+passage_trip_13,passage_001,2026-06-15 14:04:08,29,55.688982,7.409348,13.42,359.9,1.8,Under way using engine
+passage_trip_13,passage_001,2026-06-15 14:09:03,30,55.707225,7.409301,12.99,0.0,0.0,Under way using engine
+passage_trip_13,passage_001,2026-06-15 14:14:00,31,55.725467,7.40931,13.16,0.1,1.1,Under way using engine
+passage_trip_13,passage_001,2026-06-15 14:19:04,32,55.743709,7.409438,13.03,0.3,358.9,Under way using engine
+passage_trip_13,passage_001,2026-06-15 14:24:01,33,55.76195,7.409607,13.09,0.3,2.5,Under way using engine
+passage_trip_13,passage_001,2026-06-15 14:29:07,34,55.780193,7.409819,12.92,0.3,0.9,Under way using engine
+passage_trip_13,passage_001,2026-06-15 14:34:11,35,55.798435,7.409965,12.84,0.3,359.5,Under way using engine
+passage_trip_13,passage_001,2026-06-15 14:39:16,36,55.816677,7.41011,12.87,0.3,358.3,Under way using engine
+passage_trip_13,passage_001,2026-06-15 14:44:32,37,55.83492,7.410248,12.29,0.2,358.5,Under way using engine
+passage_trip_13,passage_001,2026-06-15 14:49:41,38,55.853162,7.410339,13.07,0.1,2.3,Under way using engine
+passage_trip_13,passage_001,2026-06-15 14:54:45,39,55.871403,7.410397,12.87,0.3,359.0,Under way using engine
+passage_trip_13,passage_001,2026-06-15 14:59:47,40,55.889644,7.41071,13.1,0.5,359.6,Under way using engine
+passage_trip_13,passage_001,2026-06-15 15:04:48,41,55.907886,7.411008,13.16,0.5,358.5,Under way using engine
+passage_trip_13,passage_001,2026-06-15 15:09:45,42,55.926127,7.411322,12.86,0.6,359.9,Under way using engine
+passage_trip_13,passage_001,2026-06-15 15:14:44,43,55.944369,7.41164,13.14,0.5,357.5,Under way using engine
+passage_trip_13,passage_001,2026-06-15 15:19:40,44,55.962611,7.41192,13.11,0.5,1.7,Under way using engine
+passage_trip_13,passage_001,2026-06-15 15:24:52,45,55.980853,7.412172,12.34,0.4,1.6,Under way using engine
+passage_trip_13,passage_001,2026-06-15 15:30:10,46,55.999095,7.412427,12.66,0.4,0.9,Under way using engine
+passage_trip_13,passage_001,2026-06-15 15:35:18,47,56.017337,7.412658,13.03,0.4,0.9,Under way using engine
+passage_trip_13,passage_001,2026-06-15 15:40:16,48,56.035579,7.412832,12.94,0.3,0.4,Under way using engine
+passage_trip_13,passage_001,2026-06-15 15:45:14,49,56.053822,7.412986,13.02,0.3,0.7,Under way using engine
+passage_trip_13,passage_001,2026-06-15 15:50:13,50,56.072064,7.413118,13.12,0.3,0.2,Under way using engine
+passage_trip_13,passage_001,2026-06-15 15:55:14,51,56.090307,7.413303,13.23,0.4,0.2,Under way using engine
+passage_trip_13,passage_001,2026-06-15 16:00:14,52,56.108548,7.413625,12.78,0.5,0.1,Under way using engine
+passage_trip_13,passage_001,2026-06-15 16:05:19,53,56.12679,7.413873,12.87,0.4,2.0,Under way using engine
+passage_trip_13,passage_001,2026-06-15 16:10:29,54,56.145032,7.414068,12.56,0.3,1.9,Under way using engine
+passage_trip_13,passage_001,2026-06-15 16:15:41,55,56.163275,7.414258,12.71,0.4,359.5,Under way using engine
+passage_trip_13,passage_001,2026-06-15 16:20:44,56,56.181517,7.414505,13.21,0.4,0.1,Under way using engine
+passage_trip_13,passage_001,2026-06-15 16:25:47,57,56.199759,7.414702,12.6,0.3,359.4,Under way using engine
+passage_trip_13,passage_001,2026-06-15 16:30:51,58,56.218001,7.414878,13.05,0.2,359.3,Under way using engine
+passage_trip_13,passage_001,2026-06-15 16:35:50,59,56.236243,7.414971,13.22,0.2,0.0,Under way using engine
+passage_trip_13,passage_001,2026-06-15 16:40:49,60,56.254486,7.415128,12.67,0.3,0.6,Under way using engine
+passage_trip_13,passage_001,2026-06-15 16:45:54,61,56.272728,7.415348,12.73,0.3,1.4,Under way using engine
+passage_trip_13,passage_001,2026-06-15 16:51:02,62,56.29097,7.415454,12.86,0.2,359.8,Under way using engine
+passage_trip_13,passage_001,2026-06-15 16:56:04,63,56.309213,7.415523,13.51,0.2,0.4,Under way using engine
+passage_trip_13,passage_001,2026-06-15 17:01:04,64,56.327455,7.415653,12.71,0.2,0.5,Under way using engine
+passage_trip_13,passage_001,2026-06-15 17:06:08,65,56.345697,7.415799,13.08,0.3,0.5,Under way using engine
+passage_trip_13,passage_001,2026-06-15 17:11:13,66,56.36394,7.416011,12.96,0.4,0.9,Under way using engine
+passage_trip_13,passage_001,2026-06-15 17:16:14,67,56.382182,7.416209,13.07,0.2,0.0,Under way using engine
+passage_trip_13,passage_001,2026-06-15 17:21:19,68,56.400424,7.41627,12.76,0.2,359.5,Under way using engine
+passage_trip_13,passage_001,2026-06-15 17:26:32,69,56.418666,7.416456,12.46,0.3,359.0,Under way using engine
+passage_trip_13,passage_001,2026-06-15 17:31:43,70,56.436909,7.416586,12.89,0.1,359.2,Under way using engine
+passage_trip_13,passage_001,2026-06-15 17:36:38,71,56.455151,7.416607,13.43,0.1,359.8,Under way using engine
+passage_trip_13,passage_001,2026-06-15 17:41:34,72,56.473394,7.416732,12.72,0.1,0.5,Under way using engine
+passage_trip_13,passage_001,2026-06-15 17:46:39,73,56.491636,7.416776,13.03,0.1,0.0,Under way using engine
+passage_trip_13,passage_001,2026-06-15 17:51:41,74,56.509879,7.416815,13.04,0.1,359.9,Under way using engine
+passage_trip_13,passage_001,2026-06-15 17:56:43,75,56.528121,7.416897,12.66,0.1,359.8,Under way using engine
+passage_trip_13,passage_001,2026-06-15 18:01:45,76,56.546364,7.416898,13.13,0.0,0.2,Under way using engine
+passage_trip_13,passage_001,2026-06-15 18:06:46,77,56.564606,7.416935,13.05,0.1,359.9,Under way using engine
+passage_trip_13,passage_001,2026-06-15 18:11:51,78,56.582849,7.417032,12.75,0.1,0.9,Under way using engine
+passage_trip_13,passage_001,2026-06-15 18:16:55,79,56.601091,7.417053,12.88,0.1,0.4,Under way using engine
+passage_trip_13,passage_001,2026-06-15 18:21:54,80,56.619334,7.417105,13.3,0.1,2.3,Under way using engine
+passage_trip_13,passage_001,2026-06-15 18:26:55,81,56.637576,7.417208,12.91,0.1,359.4,Under way using engine
+passage_trip_13,passage_001,2026-06-15 18:31:56,82,56.655819,7.417212,12.85,0.1,1.0,Under way using engine
+passage_trip_13,passage_001,2026-06-15 18:37:03,83,56.674061,7.41727,12.79,0.1,0.2,Under way using engine
+passage_trip_13,passage_001,2026-06-15 18:42:13,84,56.692303,7.417376,12.68,0.2,359.8,Under way using engine
+passage_trip_13,passage_001,2026-06-15 18:47:25,85,56.710546,7.417454,12.71,0.1,358.4,Under way using engine
+passage_trip_13,passage_001,2026-06-15 18:52:33,86,56.728788,7.417516,12.72,0.1,0.3,Under way using engine
+passage_trip_13,passage_001,2026-06-15 18:57:43,87,56.747031,7.417622,12.63,0.1,358.4,Under way using engine
+passage_trip_13,passage_001,2026-06-15 19:02:59,88,56.765273,7.417674,12.2,0.2,357.6,Under way using engine
+passage_trip_13,passage_001,2026-06-15 19:08:11,89,56.783516,7.417836,12.83,0.2,3.1,Under way using engine
+passage_trip_13,passage_001,2026-06-15 19:13:16,90,56.801758,7.417946,12.89,0.2,359.7,Under way using engine
+passage_trip_13,passage_001,2026-06-15 19:18:24,91,56.82,7.418018,12.51,0.1,358.8,Under way using engine
+passage_trip_14,passage_001,2026-06-16 07:00:00,0,56.820001,7.480828,1.95,180.1,180.9,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 07:33:50,1,56.800698,7.480754,2.11,180.1,180.6,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 08:05:53,2,56.781394,7.480682,2.17,180.1,180.7,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 08:31:47,3,56.762091,7.480643,3.23,180.0,178.9,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 08:54:01,4,56.742787,7.480691,3.03,180.1,180.6,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 09:16:03,5,56.723484,7.480491,3.31,180.2,181.8,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 09:36:46,6,56.704181,7.480407,3.41,180.1,183.6,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 09:55:29,7,56.684877,7.480408,3.93,180.1,181.0,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 10:12:06,8,56.665574,7.480275,4.38,180.2,182.7,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 10:26:44,9,56.646271,7.480163,5.14,180.2,181.8,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 10:39:16,10,56.626967,7.480047,6.02,180.3,181.1,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 10:50:04,11,56.607664,7.479857,6.69,180.2,179.5,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 10:59:49,12,56.588361,7.479831,7.58,180.2,181.1,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 11:08:37,13,56.569058,7.479613,8.07,180.3,179.3,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 11:17:18,14,56.549755,7.479438,8.06,180.2,180.7,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 11:25:08,15,56.530451,7.479371,9.35,180.2,181.4,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 11:32:13,16,56.511148,7.479251,10.46,180.2,179.3,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 11:38:46,17,56.491845,7.479088,10.68,180.2,179.7,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 11:45:09,18,56.472541,7.478963,10.82,180.3,179.7,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 11:51:34,19,56.453239,7.478679,10.87,180.4,181.7,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 11:57:46,20,56.433935,7.478504,11.63,180.3,178.8,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 12:03:38,21,56.414632,7.478315,11.96,180.4,179.9,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 12:09:24,22,56.395329,7.477989,11.77,180.5,181.1,Restricted manoeuverability
+passage_trip_14,passage_001,2026-06-16 12:15:15,23,56.376027,7.477743,12.02,180.4,180.4,Under way using engine
+passage_trip_14,passage_001,2026-06-16 12:20:55,24,56.356724,7.477483,12.17,180.4,181.0,Under way using engine
+passage_trip_14,passage_001,2026-06-16 12:26:41,25,56.337421,7.477219,11.82,180.4,179.4,Under way using engine
+passage_trip_14,passage_001,2026-06-16 12:32:28,26,56.318118,7.476998,12.1,180.4,182.5,Under way using engine
+passage_trip_14,passage_001,2026-06-16 12:38:30,27,56.298815,7.476747,11.1,180.5,180.6,Under way using engine
+passage_trip_14,passage_001,2026-06-16 12:44:35,28,56.279512,7.476408,11.48,180.4,180.1,Under way using engine
+passage_trip_14,passage_001,2026-06-16 12:50:27,29,56.260209,7.476247,12.19,180.3,181.4,Under way using engine
+passage_trip_14,passage_001,2026-06-16 12:56:05,30,56.240906,7.476064,12.28,180.4,178.8,Under way using engine
+passage_trip_14,passage_001,2026-06-16 13:01:46,31,56.221603,7.475778,12.21,180.5,178.4,Under way using engine
+passage_trip_14,passage_001,2026-06-16 13:07:29,32,56.202301,7.475414,12.19,180.4,180.6,Under way using engine
+passage_trip_14,passage_001,2026-06-16 13:13:11,33,56.182998,7.475264,11.75,180.2,179.3,Under way using engine
+passage_trip_14,passage_001,2026-06-16 13:18:59,34,56.163694,7.475131,12.17,180.2,180.6,Under way using engine
+passage_trip_14,passage_001,2026-06-16 13:24:44,35,56.144391,7.475024,11.89,180.3,181.1,Under way using engine
+passage_trip_14,passage_001,2026-06-16 13:30:30,36,56.125088,7.47475,12.38,180.5,180.6,Under way using engine
+passage_trip_14,passage_001,2026-06-16 13:36:08,37,56.105786,7.47441,11.93,180.4,181.5,Under way using engine
+passage_trip_14,passage_001,2026-06-16 13:42:01,38,56.086482,7.474266,11.9,180.2,180.4,Under way using engine
+passage_trip_14,passage_001,2026-06-16 13:47:47,39,56.067179,7.474216,11.99,180.2,177.9,Under way using engine
+passage_trip_14,passage_001,2026-06-16 13:53:26,40,56.047876,7.473981,12.15,180.5,180.1,Under way using engine
+passage_trip_14,passage_001,2026-06-16 13:59:08,41,56.028573,7.473604,11.75,180.6,182.0,Under way using engine
+passage_trip_14,passage_001,2026-06-16 14:04:53,42,56.009271,7.473264,12.04,180.5,179.1,Under way using engine
+passage_trip_14,passage_001,2026-06-16 14:10:48,43,55.989968,7.472942,11.54,180.5,179.3,Under way using engine
+passage_trip_14,passage_001,2026-06-16 14:16:42,44,55.970665,7.472667,12.08,180.6,181.4,Under way using engine
+passage_trip_14,passage_001,2026-06-16 14:22:25,45,55.951363,7.472266,11.92,180.7,178.9,Under way using engine
+passage_trip_14,passage_001,2026-06-16 14:28:08,46,55.932061,7.471807,12.05,180.7,182.2,Under way using engine
+passage_trip_14,passage_001,2026-06-16 14:33:50,47,55.912759,7.471379,12.37,180.6,180.5,Under way using engine
+passage_trip_14,passage_001,2026-06-16 14:39:39,48,55.893457,7.47108,11.75,180.6,183.3,Under way using engine
+passage_trip_14,passage_001,2026-06-16 14:45:28,49,55.874155,7.470645,11.8,180.7,181.4,Under way using engine
+passage_trip_14,passage_001,2026-06-16 14:51:20,50,55.854853,7.470269,12.03,180.7,179.5,Under way using engine
+passage_trip_14,passage_001,2026-06-16 14:57:06,51,55.835551,7.469813,11.94,180.8,179.7,Under way using engine
+passage_trip_14,passage_001,2026-06-16 15:03:02,52,55.816249,7.46932,11.73,180.8,183.0,Under way using engine
+passage_trip_14,passage_001,2026-06-16 15:08:54,53,55.796948,7.46887,12.2,180.8,180.6,Under way using engine
+passage_trip_14,passage_001,2026-06-16 15:14:36,54,55.777646,7.468398,11.99,180.7,181.2,Under way using engine
+passage_trip_14,passage_001,2026-06-16 15:20:21,55,55.758344,7.467976,12.35,180.7,180.4,Under way using engine
+passage_trip_14,passage_001,2026-06-16 15:26:08,56,55.739042,7.467543,11.7,180.8,178.4,Under way using engine
+passage_trip_14,passage_001,2026-06-16 15:31:46,57,55.719742,7.466983,12.62,180.9,182.2,Under way using engine
+passage_trip_14,passage_001,2026-06-16 15:37:25,58,55.700441,7.466475,12.15,180.8,178.8,Under way using engine
+passage_trip_14,passage_001,2026-06-16 15:43:07,59,55.681139,7.465993,12.06,180.8,180.5,Under way using engine
+passage_trip_14,passage_001,2026-06-16 15:48:56,60,55.661838,7.465475,11.83,180.7,180.5,Under way using engine
+passage_trip_14,passage_001,2026-06-16 15:54:45,61,55.642535,7.46513,12.06,180.7,181.0,Under way using engine
+passage_trip_14,passage_001,2026-06-16 16:00:26,62,55.623234,7.464691,12.11,180.7,179.6,Under way using engine
+passage_trip_14,passage_001,2026-06-16 16:06:10,63,55.603932,7.464268,11.75,180.7,179.3,Under way using engine
+passage_trip_14,passage_001,2026-06-16 16:11:58,64,55.584631,7.463826,11.83,180.8,180.5,Under way using engine
+passage_trip_14,passage_001,2026-06-16 16:17:48,65,55.56533,7.46329,11.86,180.8,181.5,Under way using engine
+passage_trip_14,passage_001,2026-06-16 16:23:29,66,55.546027,7.462927,12.18,180.6,181.5,Under way using engine
+passage_trip_14,passage_001,2026-06-16 16:29:13,67,55.526725,7.462591,11.94,180.7,180.4,Under way using engine
+passage_trip_14,passage_001,2026-06-16 16:34:53,68,55.507423,7.462115,12.17,180.8,181.0,Under way using engine
+passage_trip_14,passage_001,2026-06-16 16:40:36,69,55.488122,7.461662,11.94,180.8,180.5,Under way using engine
+passage_trip_14,passage_001,2026-06-16 16:46:23,70,55.46882,7.461223,11.83,180.8,178.2,Under way using engine
+passage_trip_14,passage_001,2026-06-16 16:52:19,71,55.449519,7.460667,11.79,180.8,179.8,Under way using engine
+passage_trip_14,passage_001,2026-06-16 16:58:00,72,55.430218,7.460231,12.26,180.8,179.9,Under way using engine
+passage_trip_14,passage_001,2026-06-16 17:03:41,73,55.410916,7.459744,11.89,180.9,182.3,Under way using engine
+passage_trip_14,passage_001,2026-06-16 17:09:30,74,55.391615,7.459212,12.19,180.9,180.4,Under way using engine
+passage_trip_14,passage_001,2026-06-16 17:15:13,75,55.372314,7.458722,11.95,180.8,180.4,Under way using engine
+passage_trip_14,passage_001,2026-06-16 17:20:58,76,55.353012,7.458285,12.43,180.8,180.1,Under way using engine
+passage_trip_14,passage_001,2026-06-16 17:26:30,77,55.33371,7.457819,12.58,180.7,180.5,Under way using engine
+passage_trip_14,passage_001,2026-06-16 17:32:08,78,55.314408,7.457416,12.35,180.7,180.7,Under way using engine
+passage_trip_14,passage_001,2026-06-16 17:37:47,79,55.295106,7.456949,12.0,180.8,181.4,Under way using engine
+passage_trip_14,passage_001,2026-06-16 17:43:30,80,55.275805,7.456483,12.13,180.8,180.8,Under way using engine
+passage_trip_14,passage_001,2026-06-16 17:49:17,81,55.256503,7.45601,12.0,180.8,179.6,Under way using engine
+passage_trip_14,passage_001,2026-06-16 17:54:58,82,55.237202,7.455491,12.16,181.0,180.0,Under way using engine
+passage_trip_14,passage_001,2026-06-16 18:00:43,83,55.217902,7.45485,11.99,181.0,182.3,Under way using engine
+passage_trip_14,passage_001,2026-06-16 18:06:26,84,55.198601,7.454325,12.36,180.9,180.2,Under way using engine
+passage_trip_14,passage_001,2026-06-16 18:12:10,85,55.1793,7.453785,11.9,180.9,183.1,Under way using engine
+passage_trip_14,passage_001,2026-06-16 18:17:56,86,55.159999,7.453244,12.43,180.9,180.2,Under way using engine
+passage_trip_15,passage_001,2026-06-17 07:00:00,0,55.16,7.330517,1.95,358.8,0.0,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 07:29:54,1,55.178444,7.329817,2.43,358.8,358.7,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 08:01:37,2,55.196888,7.329116,1.76,358.8,0.9,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 08:34:50,3,55.215333,7.328512,2.25,359.0,356.5,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 09:02:35,4,55.233779,7.327939,2.5,359.0,359.2,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 09:25:18,5,55.252225,7.327404,3.32,358.9,357.8,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 09:45:26,6,55.270669,7.326698,3.31,358.5,359.5,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 10:03:32,7,55.28911,7.325759,3.98,358.7,359.8,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 10:20:15,8,55.307556,7.325221,4.0,359.0,358.1,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 10:34:07,9,55.326002,7.324644,5.57,358.9,1.3,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 10:45:09,10,55.344446,7.323984,6.35,358.7,359.4,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 10:55:50,11,55.362888,7.323119,6.18,358.3,357.1,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 11:05:29,12,55.381329,7.322102,7.41,358.5,357.5,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 11:14:09,13,55.399773,7.321366,7.81,358.9,357.8,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 11:22:23,14,55.41822,7.320894,8.11,359.0,359.5,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 11:30:06,15,55.436664,7.320205,9.04,358.7,357.8,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 11:37:13,16,55.455107,7.319388,9.54,358.7,358.0,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 11:44:06,17,55.473554,7.318691,9.81,359.2,0.4,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 11:50:44,18,55.492005,7.318452,10.27,359.9,358.2,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 11:56:51,19,55.510455,7.318532,11.18,359.8,359.2,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 12:02:41,20,55.528902,7.318252,11.38,359.5,358.7,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 12:08:16,21,55.54735,7.317995,11.97,359.6,0.2,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 12:13:53,22,55.565798,7.317759,11.21,359.8,359.0,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 12:19:34,23,55.584247,7.317715,11.93,359.8,359.1,Restricted manoeuverability
+passage_trip_15,passage_001,2026-06-17 12:25:02,24,55.602698,7.317516,11.92,0.1,0.7,Under way using engine
+passage_trip_15,passage_001,2026-06-17 12:30:38,25,55.621149,7.317843,11.77,0.6,1.4,Under way using engine
+passage_trip_15,passage_001,2026-06-17 12:36:11,26,55.639598,7.318179,11.85,0.7,0.8,Under way using engine
+passage_trip_15,passage_001,2026-06-17 12:41:42,27,55.658044,7.31869,11.99,0.9,359.6,Under way using engine
+passage_trip_15,passage_001,2026-06-17 12:47:07,28,55.676491,7.319152,12.04,0.9,2.2,Under way using engine
+passage_trip_15,passage_001,2026-06-17 12:52:37,29,55.694937,7.319667,11.81,0.8,0.7,Under way using engine
+passage_trip_15,passage_001,2026-06-17 12:58:09,30,55.713384,7.320028,11.99,0.7,1.8,Under way using engine
+passage_trip_15,passage_001,2026-06-17 13:03:44,31,55.731832,7.320476,11.77,1.0,1.0,Under way using engine
+passage_trip_15,passage_001,2026-06-17 13:09:23,32,55.750279,7.321115,11.58,1.4,2.5,Under way using engine
+passage_trip_15,passage_001,2026-06-17 13:15:03,33,55.768721,7.32209,11.86,1.8,1.7,Under way using engine
+passage_trip_15,passage_001,2026-06-17 13:20:36,34,55.78716,7.323129,11.96,1.7,2.3,Under way using engine
+passage_trip_15,passage_001,2026-06-17 13:25:57,35,55.805601,7.324056,12.41,1.6,0.9,Under way using engine
+passage_trip_15,passage_001,2026-06-17 13:31:29,36,55.824042,7.324936,11.74,1.6,2.1,Under way using engine
+passage_trip_15,passage_001,2026-06-17 13:37:09,37,55.842483,7.325892,11.33,1.6,2.2,Under way using engine
+passage_trip_15,passage_001,2026-06-17 13:42:54,38,55.860926,7.326744,11.72,2.0,1.2,Under way using engine
+passage_trip_15,passage_001,2026-06-17 13:48:28,39,55.879359,7.328137,12.18,2.5,1.4,Under way using engine
+passage_trip_15,passage_001,2026-06-17 13:53:58,40,55.897788,7.329652,11.81,2.6,1.7,Under way using engine
+passage_trip_15,passage_001,2026-06-17 13:59:26,41,55.916217,7.331139,12.09,2.6,1.1,Under way using engine
+passage_trip_15,passage_001,2026-06-17 14:04:50,42,55.934645,7.332663,12.41,2.6,2.4,Under way using engine
+passage_trip_15,passage_001,2026-06-17 14:10:08,43,55.953074,7.334177,12.17,2.7,4.6,Under way using engine
+passage_trip_15,passage_001,2026-06-17 14:15:38,44,55.971501,7.335778,12.13,2.8,3.1,Under way using engine
+passage_trip_15,passage_001,2026-06-17 14:21:01,45,55.989929,7.337383,12.18,2.5,2.6,Under way using engine
+passage_trip_15,passage_001,2026-06-17 14:26:30,46,56.008365,7.338697,12.07,2.0,1.8,Under way using engine
+passage_trip_15,passage_001,2026-06-17 14:32:01,47,56.026806,7.339692,12.18,1.8,3.1,Under way using engine
+passage_trip_15,passage_001,2026-06-17 14:37:27,48,56.045244,7.340787,11.88,1.9,1.9,Under way using engine
+passage_trip_15,passage_001,2026-06-17 14:43:02,49,56.063682,7.341926,11.87,1.8,359.6,Under way using engine
+passage_trip_15,passage_001,2026-06-17 14:48:35,50,56.082122,7.342891,11.86,1.6,2.7,Under way using engine
+passage_trip_15,passage_001,2026-06-17 14:54:05,51,56.100564,7.343774,12.1,1.6,0.7,Under way using engine
+passage_trip_15,passage_001,2026-06-17 14:59:33,52,56.119003,7.344784,12.04,1.7,2.8,Under way using engine
+passage_trip_15,passage_001,2026-06-17 15:05:16,53,56.137446,7.345728,11.38,1.5,1.0,Under way using engine
+passage_trip_15,passage_001,2026-06-17 15:11:02,54,56.155892,7.346482,11.85,1.2,0.4,Under way using engine
+passage_trip_15,passage_001,2026-06-17 15:16:38,55,56.174337,7.347123,11.67,1.1,3.3,Under way using engine
+passage_trip_15,passage_001,2026-06-17 15:22:14,56,56.192783,7.347698,12.05,1.0,358.3,Under way using engine
+passage_trip_15,passage_001,2026-06-17 15:27:56,57,56.211228,7.348337,11.27,1.3,1.6,Under way using engine
+passage_trip_15,passage_001,2026-06-17 15:33:42,58,56.229669,7.349241,11.83,1.3,3.9,Under way using engine
+passage_trip_15,passage_001,2026-06-17 15:39:15,59,56.248115,7.349815,11.77,1.1,1.6,Under way using engine
+passage_trip_15,passage_001,2026-06-17 15:44:47,60,56.266559,7.350543,11.96,1.1,359.6,Under way using engine
+passage_trip_15,passage_001,2026-06-17 15:50:21,61,56.285006,7.351134,11.95,0.7,1.3,Under way using engine
+passage_trip_15,passage_001,2026-06-17 15:55:47,62,56.303456,7.351307,12.21,0.4,0.8,Under way using engine
+passage_trip_15,passage_001,2026-06-17 16:01:15,63,56.321904,7.351577,12.22,0.7,0.0,Under way using engine
+passage_trip_15,passage_001,2026-06-17 16:06:41,64,56.34035,7.352065,12.29,0.6,0.8,Under way using engine
+passage_trip_15,passage_001,2026-06-17 16:12:12,65,56.358799,7.352224,11.75,0.5,0.8,Under way using engine
+passage_trip_15,passage_001,2026-06-17 16:17:49,66,56.377245,7.352654,12.0,0.7,1.3,Under way using engine
+passage_trip_15,passage_001,2026-06-17 16:23:21,67,56.395693,7.35298,12.05,0.7,0.3,Under way using engine
+passage_trip_15,passage_001,2026-06-17 16:28:53,68,56.414139,7.35344,12.15,0.8,0.4,Under way using engine
+passage_trip_15,passage_001,2026-06-17 16:34:27,69,56.432586,7.353927,11.73,0.5,359.4,Under way using engine
+passage_trip_15,passage_001,2026-06-17 16:39:54,70,56.451035,7.354071,12.25,0.2,0.4,Under way using engine
+passage_trip_15,passage_001,2026-06-17 16:45:20,71,56.469483,7.354169,11.9,0.2,359.2,Under way using engine
+passage_trip_15,passage_001,2026-06-17 16:50:47,72,56.487932,7.354358,12.14,0.4,1.9,Under way using engine
+passage_trip_15,passage_001,2026-06-17 16:56:15,73,56.506379,7.354599,11.81,0.4,0.7,Under way using engine
+passage_trip_15,passage_001,2026-06-17 17:01:51,74,56.524828,7.354783,11.9,0.2,0.0,Under way using engine
+passage_trip_15,passage_001,2026-06-17 17:07:25,75,56.543276,7.354873,11.64,0.3,1.4,Under way using engine
+passage_trip_15,passage_001,2026-06-17 17:13:01,76,56.561724,7.355094,12.1,0.3,1.6,Under way using engine
+passage_trip_15,passage_001,2026-06-17 17:18:36,77,56.580172,7.355204,11.65,0.1,1.7,Under way using engine
+passage_trip_15,passage_001,2026-06-17 17:24:09,78,56.598621,7.355206,11.88,0.0,358.6,Under way using engine
+passage_trip_15,passage_001,2026-06-17 17:29:42,79,56.617069,7.355235,11.68,359.9,359.2,Under way using engine
+passage_trip_15,passage_001,2026-06-17 17:35:18,80,56.635518,7.355118,12.18,0.0,359.4,Under way using engine
+passage_trip_15,passage_001,2026-06-17 17:40:51,81,56.653966,7.355194,11.92,0.1,0.0,Under way using engine
+passage_trip_15,passage_001,2026-06-17 17:46:20,82,56.672414,7.355226,12.25,0.0,0.5,Under way using engine
+passage_trip_15,passage_001,2026-06-17 17:51:47,83,56.690863,7.355221,11.96,0.0,0.0,Under way using engine
+passage_trip_15,passage_001,2026-06-17 17:57:19,84,56.709311,7.355259,11.71,0.2,358.9,Under way using engine
+passage_trip_15,passage_001,2026-06-17 18:02:59,85,56.727759,7.355471,11.73,0.3,1.5,Under way using engine
+passage_trip_15,passage_001,2026-06-17 18:08:44,86,56.746207,7.355622,11.58,0.2,0.2,Under way using engine
+passage_trip_15,passage_001,2026-06-17 18:14:35,87,56.764656,7.355739,11.19,0.1,359.6,Under way using engine
+passage_trip_15,passage_001,2026-06-17 18:20:22,88,56.783104,7.355689,11.89,0.0,358.7,Under way using engine
+passage_trip_15,passage_001,2026-06-17 18:25:54,89,56.801553,7.355742,11.94,0.1,357.6,Under way using engine
+passage_trip_15,passage_001,2026-06-17 18:31:30,90,56.820001,7.3558,11.59,0.1,359.8,Under way using engine
+passage_trip_16,passage_001,2026-06-18 12:00:00,0,56.819997,7.471826,1.84,181.3,183.2,Restricted manoeuverability
+passage_trip_16,passage_001,2026-06-18 12:36:17,1,56.79844,7.470948,2.45,181.3,180.0,Restricted manoeuverability
+passage_trip_16,passage_001,2026-06-18 13:05:42,2,56.776884,7.469987,2.79,181.5,180.1,Restricted manoeuverability
+passage_trip_16,passage_001,2026-06-18 13:35:40,3,56.755329,7.468951,2.36,181.5,183.4,Restricted manoeuverability
+passage_trip_16,passage_001,2026-06-18 14:03:29,4,56.733774,7.467968,3.17,181.4,182.5,Restricted manoeuverability
+passage_trip_16,passage_001,2026-06-18 14:24:52,5,56.712218,7.467061,4.01,181.4,181.6,Restricted manoeuverability
+passage_trip_16,passage_001,2026-06-18 14:43:44,6,56.690662,7.46606,4.07,181.5,180.8,Restricted manoeuverability
+passage_trip_16,passage_001,2026-06-18 14:59:04,7,56.669109,7.464967,5.89,181.6,181.5,Restricted manoeuverability
+passage_trip_16,passage_001,2026-06-18 15:12:01,8,56.647555,7.463837,5.89,181.6,178.4,Restricted manoeuverability
+passage_trip_16,passage_001,2026-06-18 15:24:45,9,56.626001,7.462802,6.18,181.5,179.9,Restricted manoeuverability
+passage_trip_16,passage_001,2026-06-18 15:36:09,10,56.604445,7.461847,7.41,181.5,180.9,Restricted manoeuverability
+passage_trip_16,passage_001,2026-06-18 15:45:38,11,56.582891,7.460723,8.64,181.6,181.1,Restricted manoeuverability
+passage_trip_16,passage_001,2026-06-18 15:54:08,12,56.561338,7.459629,9.37,181.7,179.5,Restricted manoeuverability
+passage_trip_16,passage_001,2026-06-18 16:01:59,13,56.539785,7.45845,10.15,181.5,181.0,Restricted manoeuverability
+passage_trip_16,passage_001,2026-06-18 16:09:22,14,56.518228,7.457571,10.83,181.3,182.3,Restricted manoeuverability
+passage_trip_16,passage_001,2026-06-18 16:16:10,15,56.496673,7.456611,11.81,181.5,182.1,Restricted manoeuverability
+passage_trip_16,passage_001,2026-06-18 16:22:41,16,56.475119,7.455522,11.94,181.6,181.0,Restricted manoeuverability
+passage_trip_16,passage_001,2026-06-18 16:29:07,17,56.453566,7.454368,12.38,181.6,184.0,Restricted manoeuverability
+passage_trip_16,passage_001,2026-06-18 16:35:13,18,56.432009,7.453376,12.82,181.3,182.7,Restricted manoeuverability
+passage_trip_16,passage_001,2026-06-18 16:41:04,19,56.410451,7.452582,13.27,181.1,180.2,Restricted manoeuverability
+passage_trip_16,passage_001,2026-06-18 16:46:52,20,56.388892,7.451869,13.14,181.3,181.3,Under way using engine
+passage_trip_16,passage_001,2026-06-18 16:52:51,21,56.367337,7.450833,12.88,181.5,181.2,Under way using engine
+passage_trip_16,passage_001,2026-06-18 16:58:54,22,56.345782,7.449816,12.93,181.3,181.4,Under way using engine
+passage_trip_16,passage_001,2026-06-18 17:04:50,23,56.324223,7.449075,12.96,181.1,182.6,Under way using engine
+passage_trip_16,passage_001,2026-06-18 17:10:44,24,56.302665,7.448271,13.1,181.1,180.1,Under way using engine
+passage_trip_16,passage_001,2026-06-18 17:16:44,25,56.281105,7.447592,12.95,180.9,181.3,Under way using engine
+passage_trip_16,passage_001,2026-06-18 17:22:46,26,56.259543,7.447043,12.97,180.8,181.0,Under way using engine
+passage_trip_16,passage_001,2026-06-18 17:28:40,27,56.237982,7.446571,13.04,180.6,181.5,Under way using engine
+passage_trip_16,passage_001,2026-06-18 17:34:34,28,56.21642,7.446246,13.41,180.5,179.9,Under way using engine
+passage_trip_16,passage_001,2026-06-18 17:40:22,29,56.194858,7.44588,13.12,180.7,179.0,Under way using engine
+passage_trip_16,passage_001,2026-06-18 17:46:11,30,56.173298,7.445302,13.16,180.7,181.8,Under way using engine
+passage_trip_16,passage_001,2026-06-18 17:52:02,31,56.151736,7.444939,13.44,180.6,182.2,Under way using engine
+passage_trip_16,passage_001,2026-06-18 17:57:52,32,56.130175,7.44449,13.29,180.6,179.7,Under way using engine
+passage_trip_16,passage_001,2026-06-18 18:03:42,33,56.108613,7.444095,13.25,180.6,179.6,Under way using engine
+passage_trip_16,passage_001,2026-06-18 18:09:35,34,56.087052,7.443676,12.66,180.6,177.6,Under way using engine
+passage_trip_16,passage_001,2026-06-18 18:15:34,35,56.065491,7.443255,13.28,180.6,180.5,Under way using engine
+passage_trip_16,passage_001,2026-06-18 18:21:29,36,56.043929,7.44292,12.95,180.5,180.2,Under way using engine
+passage_trip_16,passage_001,2026-06-18 18:27:29,37,56.022367,7.442613,13.0,180.4,180.7,Under way using engine
+passage_trip_16,passage_001,2026-06-18 18:33:28,38,56.000806,7.44234,12.93,180.3,178.3,Under way using engine
+passage_trip_16,passage_001,2026-06-18 18:39:11,39,55.979243,7.442242,13.72,180.1,180.1,Under way using engine
+passage_trip_16,passage_001,2026-06-18 18:44:50,40,55.957681,7.442155,13.35,180.2,177.4,Under way using engine
+passage_trip_16,passage_001,2026-06-18 18:50:36,41,55.936119,7.441975,13.25,180.2,180.5,Under way using engine
+passage_trip_16,passage_001,2026-06-18 18:56:30,42,55.914556,7.441826,12.71,180.2,180.6,Under way using engine
+passage_trip_16,passage_001,2026-06-18 19:02:26,43,55.892994,7.441728,13.19,180.2,179.5,Under way using engine
+passage_trip_16,passage_001,2026-06-18 19:08:23,44,55.871432,7.441592,12.71,180.1,180.7,Under way using engine
+passage_trip_16,passage_001,2026-06-18 19:14:22,45,55.84987,7.441562,13.15,179.9,180.0,Under way using engine
+passage_trip_16,passage_001,2026-06-18 19:20:14,46,55.828308,7.441725,13.48,179.7,181.0,Under way using engine
+passage_trip_16,passage_001,2026-06-18 19:26:07,47,55.806745,7.441922,12.88,179.6,178.9,Under way using engine
+passage_trip_16,passage_001,2026-06-18 19:32:01,48,55.785183,7.4422,13.4,179.7,181.7,Under way using engine
+passage_trip_16,passage_001,2026-06-18 19:37:43,49,55.763621,7.442278,13.41,179.9,180.2,Under way using engine
+passage_trip_16,passage_001,2026-06-18 19:43:36,50,55.742059,7.442341,13.11,179.7,179.0,Under way using engine
+passage_trip_16,passage_001,2026-06-18 19:49:24,51,55.720498,7.442689,13.14,179.5,180.6,Under way using engine
+passage_trip_16,passage_001,2026-06-18 19:55:08,52,55.698937,7.443025,13.55,179.5,179.1,Under way using engine
+passage_trip_16,passage_001,2026-06-18 20:00:59,53,55.677375,7.443402,12.85,179.4,178.4,Under way using engine
+passage_trip_16,passage_001,2026-06-18 20:07:05,54,55.655814,7.443768,12.86,179.5,177.6,Under way using engine
+passage_trip_16,passage_001,2026-06-18 20:13:09,55,55.634251,7.444027,12.65,179.4,178.9,Under way using engine
+passage_trip_16,passage_001,2026-06-18 20:19:12,56,55.612691,7.444538,13.13,179.1,178.7,Under way using engine
+passage_trip_16,passage_001,2026-06-18 20:25:06,57,55.591133,7.445218,12.98,178.9,180.1,Under way using engine
+passage_trip_16,passage_001,2026-06-18 20:31:01,58,55.569574,7.445967,13.03,178.8,179.6,Under way using engine
+passage_trip_16,passage_001,2026-06-18 20:36:50,59,55.548017,7.44678,13.24,178.9,180.6,Under way using engine
+passage_trip_16,passage_001,2026-06-18 20:42:36,60,55.526458,7.447487,13.52,179.0,179.7,Under way using engine
+passage_trip_16,passage_001,2026-06-18 20:48:24,61,55.504898,7.44813,13.11,178.9,181.5,Under way using engine
+passage_trip_16,passage_001,2026-06-18 20:54:13,62,55.483342,7.448947,13.39,178.8,179.2,Under way using engine
+passage_trip_16,passage_001,2026-06-18 20:59:54,63,55.461786,7.449786,13.46,178.6,178.7,Under way using engine
+passage_trip_16,passage_001,2026-06-18 21:05:43,64,55.44023,7.450754,13.5,178.6,177.5,Under way using engine
+passage_trip_16,passage_001,2026-06-18 21:11:30,65,55.418674,7.451709,12.94,178.5,179.4,Under way using engine
+passage_trip_16,passage_001,2026-06-18 21:17:28,66,55.397119,7.452702,13.0,178.5,179.3,Under way using engine
+passage_trip_16,passage_001,2026-06-18 21:23:30,67,55.375564,7.453668,12.91,178.5,180.1,Under way using engine
+passage_trip_16,passage_001,2026-06-18 21:29:32,68,55.354008,7.454676,12.99,178.5,179.5,Under way using engine
+passage_trip_16,passage_001,2026-06-18 21:35:39,69,55.332452,7.455599,12.64,178.5,176.5,Under way using engine
+passage_trip_16,passage_001,2026-06-18 21:41:30,70,55.310897,7.456622,13.46,178.5,176.4,Under way using engine
+passage_trip_16,passage_001,2026-06-18 21:47:19,71,55.289342,7.457638,12.84,178.5,178.4,Under way using engine
+passage_trip_16,passage_001,2026-06-18 21:53:24,72,55.267786,7.458558,12.9,178.7,180.2,Under way using engine
+passage_trip_16,passage_001,2026-06-18 21:59:20,73,55.246227,7.45931,13.04,178.8,178.1,Under way using engine
+passage_trip_16,passage_001,2026-06-18 22:05:17,74,55.224671,7.460186,12.78,178.7,177.3,Under way using engine
+passage_trip_16,passage_001,2026-06-18 22:11:17,75,55.203114,7.461056,13.28,178.7,179.6,Under way using engine
+passage_trip_16,passage_001,2026-06-18 22:17:15,76,55.181556,7.461859,12.7,178.8,179.4,Under way using engine
+passage_trip_16,passage_001,2026-06-18 22:23:21,77,55.159998,7.462675,12.52,178.8,177.7,Under way using engine
+passage_trip_17,passage_001,2026-06-19 02:00:00,0,55.160005,7.368133,1.95,359.1,358.2,Restricted manoeuverability
+passage_trip_17,passage_001,2026-06-19 02:37:22,1,55.181289,7.367559,2.17,359.1,358.6,Restricted manoeuverability
+passage_trip_17,passage_001,2026-06-19 03:14:44,2,55.202573,7.366901,1.9,359.0,359.2,Restricted manoeuverability
+passage_trip_17,passage_001,2026-06-19 03:45:25,3,55.223857,7.366293,3.06,359.0,0.1,Restricted manoeuverability
+passage_trip_17,passage_001,2026-06-19 04:11:16,4,55.245141,7.365646,2.91,359.0,357.7,Restricted manoeuverability
+passage_trip_17,passage_001,2026-06-19 04:36:37,5,55.266425,7.365031,3.19,359.1,359.3,Restricted manoeuverability
+passage_trip_17,passage_001,2026-06-19 04:55:38,6,55.287709,7.364436,4.86,359.0,358.3,Restricted manoeuverability
+passage_trip_17,passage_001,2026-06-19 05:10:29,7,55.308992,7.363766,5.5,358.9,359.0,Restricted manoeuverability
+passage_trip_17,passage_001,2026-06-19 05:23:40,8,55.330275,7.363043,6.24,359.0,357.0,Restricted manoeuverability
+passage_trip_17,passage_001,2026-06-19 05:34:42,9,55.351559,7.362411,7.55,358.9,357.6,Restricted manoeuverability
+passage_trip_17,passage_001,2026-06-19 05:44:20,10,55.372842,7.361667,8.37,358.8,0.1,Restricted manoeuverability
+passage_trip_17,passage_001,2026-06-19 05:53:11,11,55.394124,7.360873,8.78,358.7,359.8,Restricted manoeuverability
+passage_trip_17,passage_001,2026-06-19 06:01:49,12,55.415405,7.360005,9.09,358.7,0.4,Restricted manoeuverability
+passage_trip_17,passage_001,2026-06-19 06:09:44,13,55.436687,7.359214,10.02,358.8,358.1,Restricted manoeuverability
+passage_trip_17,passage_001,2026-06-19 06:17:07,14,55.457969,7.358433,10.81,358.8,357.7,Restricted manoeuverability
+passage_trip_17,passage_001,2026-06-19 06:23:57,15,55.479251,7.357655,11.51,359.2,0.6,Restricted manoeuverability
+passage_trip_17,passage_001,2026-06-19 06:30:29,16,55.500536,7.35744,11.95,359.7,359.0,Restricted manoeuverability
+passage_trip_17,passage_001,2026-06-19 06:36:46,17,55.521822,7.357209,12.51,359.7,1.6,Restricted manoeuverability
+passage_trip_17,passage_001,2026-06-19 06:42:52,18,55.543109,7.356992,12.74,359.6,0.4,Restricted manoeuverability
+passage_trip_17,passage_001,2026-06-19 06:48:52,19,55.564395,7.356726,12.9,359.6,359.5,Under way using engine
+passage_trip_17,passage_001,2026-06-19 06:54:50,20,55.585682,7.356521,12.51,359.7,358.2,Under way using engine
+passage_trip_17,passage_001,2026-06-19 07:00:46,21,55.606969,7.356386,12.88,0.2,359.7,Under way using engine
+passage_trip_17,passage_001,2026-06-19 07:06:46,22,55.628255,7.356808,12.63,0.6,359.9,Under way using engine
+passage_trip_17,passage_001,2026-06-19 07:12:50,23,55.64954,7.357171,12.88,0.5,1.0,Under way using engine
+passage_trip_17,passage_001,2026-06-19 07:18:47,24,55.670826,7.357517,12.58,0.6,0.6,Under way using engine
+passage_trip_17,passage_001,2026-06-19 07:24:52,25,55.692112,7.357956,12.79,0.7,1.7,Under way using engine
+passage_trip_17,passage_001,2026-06-19 07:30:50,26,55.713397,7.358426,12.71,0.6,0.0,Under way using engine
+passage_trip_17,passage_001,2026-06-19 07:36:45,27,55.734683,7.358804,13.31,0.9,359.2,Under way using engine
+passage_trip_17,passage_001,2026-06-19 07:42:30,28,55.755964,7.359648,12.98,1.2,1.0,Under way using engine
+passage_trip_17,passage_001,2026-06-19 07:48:30,29,55.777246,7.360442,12.56,1.2,1.7,Under way using engine
+passage_trip_17,passage_001,2026-06-19 07:54:25,30,55.798528,7.361267,13.17,1.4,3.0,Under way using engine
+passage_trip_17,passage_001,2026-06-19 08:00:12,31,55.819807,7.36229,12.98,1.4,5.9,Under way using engine
+passage_trip_17,passage_001,2026-06-19 08:12:14,32,55.862368,7.364125,12.41,1.4,11.6,Under way using engine
+passage_trip_17,passage_001,2026-06-19 08:16:55,33,55.862368,7.364125,0.27,1.9,18.4,At anchor
+passage_trip_17,passage_001,2026-06-19 08:21:14,34,55.862368,7.364125,0.13,1.9,29.7,At anchor
+passage_trip_17,passage_001,2026-06-19 08:27:33,35,55.862368,7.364125,0.39,1.9,39.5,At anchor
+passage_trip_17,passage_001,2026-06-19 08:31:40,36,55.862368,7.364125,0.09,1.9,44.5,At anchor
+passage_trip_17,passage_001,2026-06-19 08:36:13,37,55.862368,7.364125,0.26,1.9,40.7,At anchor
+passage_trip_17,passage_001,2026-06-19 08:40:31,38,55.862368,7.364125,0.3,1.9,32.0,At anchor
+passage_trip_17,passage_001,2026-06-19 08:44:57,39,55.862368,7.364125,0.25,1.9,19.8,At anchor
+passage_trip_17,passage_001,2026-06-19 08:56:43,40,55.883643,7.36535,12.86,2.0,9.2,Under way using engine
+passage_trip_17,passage_001,2026-06-19 09:02:34,41,55.904916,7.366711,12.91,2.0,4.2,Under way using engine
+passage_trip_17,passage_001,2026-06-19 09:08:29,42,55.92619,7.368042,12.9,2.0,4.2,Under way using engine
+passage_trip_17,passage_001,2026-06-19 09:14:33,43,55.947463,7.369391,12.57,2.0,2.3,Under way using engine
+passage_trip_17,passage_001,2026-06-19 09:20:35,44,55.968737,7.370717,12.91,2.0,0.6,Under way using engine
+passage_trip_17,passage_001,2026-06-19 09:26:30,45,55.99001,7.372004,13.15,1.8,2.5,Under way using engine
+passage_trip_17,passage_001,2026-06-19 09:32:26,46,56.011284,7.373119,12.61,1.4,2.0,Under way using engine
+passage_trip_17,passage_001,2026-06-19 09:38:26,47,56.032565,7.373917,12.54,1.1,1.5,Under way using engine
+passage_trip_17,passage_001,2026-06-19 09:44:32,48,56.053848,7.374624,12.54,1.1,0.9,Under way using engine
+passage_trip_17,passage_001,2026-06-19 09:50:30,49,56.07513,7.375389,12.75,1.1,1.2,Under way using engine
+passage_trip_17,passage_001,2026-06-19 09:56:19,50,56.096413,7.37612,13.08,1.1,358.7,Under way using engine
+passage_trip_17,passage_001,2026-06-19 10:02:12,51,56.117696,7.376822,12.69,1.2,2.3,Under way using engine
+passage_trip_17,passage_001,2026-06-19 10:08:01,52,56.138976,7.377683,13.14,0.6,2.2,Under way using engine
+passage_trip_17,passage_001,2026-06-19 10:13:50,53,56.160262,7.377584,12.71,359.9,359.6,Under way using engine
+passage_trip_17,passage_001,2026-06-19 10:19:53,54,56.181548,7.377563,12.26,0.0,359.0,Under way using engine
+passage_trip_17,passage_001,2026-06-19 10:26:07,55,56.202835,7.377642,12.23,0.1,0.3,Under way using engine
+passage_trip_17,passage_001,2026-06-19 10:32:16,56,56.224122,7.377741,12.81,0.2,0.9,Under way using engine
+passage_trip_17,passage_001,2026-06-19 10:38:11,57,56.245408,7.377931,13.22,0.1,359.6,Under way using engine
+passage_trip_17,passage_001,2026-06-19 10:43:58,58,56.266695,7.377915,12.75,359.9,358.8,Under way using engine
+passage_trip_17,passage_001,2026-06-19 10:49:53,59,56.287977,7.377837,12.65,359.8,359.4,Under way using engine
+passage_trip_17,passage_001,2026-06-19 10:56:03,60,56.309261,7.377603,12.31,359.6,0.9,Under way using engine
+passage_trip_17,passage_001,2026-06-19 11:02:01,61,56.330548,7.377297,12.9,359.4,0.7,Under way using engine
+passage_trip_17,passage_001,2026-06-19 11:08:01,62,56.351833,7.376833,12.89,359.4,359.0,Under way using engine
+passage_trip_17,passage_001,2026-06-19 11:13:53,63,56.373119,7.37645,12.98,359.4,359.9,Under way using engine
+passage_trip_17,passage_001,2026-06-19 11:19:43,64,56.394404,7.375986,12.85,359.5,359.1,Under way using engine
+passage_trip_17,passage_001,2026-06-19 11:25:33,65,56.41569,7.375745,12.89,359.5,359.6,Under way using engine
+passage_trip_17,passage_001,2026-06-19 11:31:27,66,56.436975,7.375257,12.88,358.9,358.8,Under way using engine
+passage_trip_17,passage_001,2026-06-19 11:37:18,67,56.458255,7.374301,13.07,358.6,359.1,Under way using engine
+passage_trip_17,passage_001,2026-06-19 11:43:16,68,56.479535,7.373322,12.66,358.7,357.9,Under way using engine
+passage_trip_17,passage_001,2026-06-19 11:49:10,69,56.500817,7.37252,13.03,358.7,0.1,Under way using engine
+passage_trip_17,passage_001,2026-06-19 11:55:07,70,56.522098,7.371613,12.77,358.7,358.8,Under way using engine
+passage_trip_17,passage_001,2026-06-19 12:01:07,71,56.543378,7.370711,12.76,358.6,357.7,Under way using engine
+passage_trip_17,passage_001,2026-06-19 12:07:01,72,56.564658,7.369731,12.88,358.6,356.3,Under way using engine
+passage_trip_17,passage_001,2026-06-19 12:13:05,73,56.585938,7.36877,12.45,358.5,359.7,Under way using engine
+passage_trip_17,passage_001,2026-06-19 12:19:07,74,56.607217,7.367773,12.87,358.6,356.5,Under way using engine
+passage_trip_17,passage_001,2026-06-19 12:25:05,75,56.628498,7.366877,12.74,358.5,358.2,Under way using engine
+passage_trip_17,passage_001,2026-06-19 12:31:05,76,56.649776,7.365786,12.72,358.5,358.8,Under way using engine
+passage_trip_17,passage_001,2026-06-19 12:37:01,77,56.671056,7.364793,13.04,358.5,359.4,Under way using engine
+passage_trip_17,passage_001,2026-06-19 12:42:58,78,56.692335,7.363822,12.68,358.5,358.5,Under way using engine
+passage_trip_17,passage_001,2026-06-19 12:48:58,79,56.713614,7.362764,12.77,358.5,357.8,Under way using engine
+passage_trip_17,passage_001,2026-06-19 12:54:58,80,56.734893,7.361791,12.74,358.5,357.8,Under way using engine
+passage_trip_17,passage_001,2026-06-19 13:01:01,81,56.756172,7.360747,12.81,358.4,358.0,Under way using engine
+passage_trip_17,passage_001,2026-06-19 13:06:57,82,56.777449,7.359622,12.58,358.4,356.5,Under way using engine
+passage_trip_17,passage_001,2026-06-19 13:12:54,83,56.798729,7.358608,12.89,358.5,357.0,Under way using engine
+passage_trip_17,passage_001,2026-06-19 13:18:50,84,56.820007,7.357547,12.77,358.4,358.1,Under way using engine
+passage_trip_18,passage_001,2026-06-20 04:00:00,0,56.82,7.46588,1.82,180.5,181.9,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 04:40:02,1,56.800696,7.465571,1.63,180.5,179.4,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 05:15:26,2,56.781391,7.465291,2.29,180.5,181.1,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 05:44:00,3,56.762087,7.464983,2.6,180.5,183.1,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 06:13:42,4,56.742782,7.464722,2.01,180.4,178.3,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 06:43:31,5,56.723478,7.464431,2.65,180.5,180.7,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 07:05:05,6,56.704174,7.464149,3.7,180.4,179.9,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 07:22:00,7,56.684869,7.463903,4.47,180.4,177.9,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 07:36:40,8,56.665565,7.463662,5.04,180.4,179.5,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 07:49:43,9,56.64626,7.463446,5.51,180.3,179.3,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 08:01:12,10,56.626955,7.463248,6.63,180.3,179.2,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 08:11:52,11,56.607651,7.463045,6.46,180.4,179.4,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 08:21:44,12,56.588346,7.462804,7.4,180.4,178.9,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 08:30:30,13,56.569041,7.462594,8.33,180.4,183.7,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 08:38:31,14,56.549737,7.462326,8.85,180.4,179.8,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 08:46:11,15,56.530432,7.462156,9.17,180.3,178.6,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 08:53:14,16,56.511127,7.461944,10.21,180.3,181.4,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 09:00:03,17,56.491823,7.461731,10.26,180.4,179.7,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 09:06:40,18,56.472518,7.461498,10.66,180.4,182.1,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 09:12:55,19,56.453214,7.461266,11.57,180.4,181.0,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 09:18:51,20,56.433909,7.461052,11.91,180.1,179.6,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 09:24:43,21,56.414603,7.461105,11.76,179.9,182.2,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 09:30:34,22,56.395298,7.461152,11.96,179.9,180.4,Restricted manoeuverability
+passage_trip_18,passage_001,2026-06-20 09:36:15,23,56.375993,7.461199,12.39,179.9,180.9,Under way using engine
+passage_trip_18,passage_001,2026-06-20 09:41:50,24,56.356688,7.461262,12.47,179.9,178.4,Under way using engine
+passage_trip_18,passage_001,2026-06-20 09:47:27,25,56.337383,7.461279,12.4,179.9,178.9,Under way using engine
+passage_trip_18,passage_001,2026-06-20 09:53:11,26,56.318078,7.461335,11.96,179.9,180.1,Under way using engine
+passage_trip_18,passage_001,2026-06-20 09:58:57,27,56.298773,7.461363,12.02,179.9,179.2,Under way using engine
+passage_trip_18,passage_001,2026-06-20 10:04:39,28,56.279468,7.461457,11.97,179.7,178.9,Under way using engine
+passage_trip_18,passage_001,2026-06-20 10:10:29,29,56.260164,7.461782,12.05,179.5,179.0,Under way using engine
+passage_trip_18,passage_001,2026-06-20 10:16:18,30,56.240859,7.46207,11.71,179.5,181.3,Under way using engine
+passage_trip_18,passage_001,2026-06-20 10:22:10,31,56.221555,7.462341,12.12,179.5,181.9,Under way using engine
+passage_trip_18,passage_001,2026-06-20 10:27:58,32,56.202251,7.462668,12.02,179.5,180.1,Under way using engine
+passage_trip_18,passage_001,2026-06-20 10:33:46,33,56.182947,7.462998,11.91,179.5,178.4,Under way using engine
+passage_trip_18,passage_001,2026-06-20 10:39:37,34,56.163642,7.463292,11.87,179.5,181.1,Under way using engine
+passage_trip_18,passage_001,2026-06-20 10:45:20,35,56.144338,7.463651,12.21,179.3,178.6,Under way using engine
+passage_trip_18,passage_001,2026-06-20 10:50:51,36,56.125035,7.464149,12.55,179.0,180.0,Under way using engine
+passage_trip_18,passage_001,2026-06-20 10:56:35,37,56.105734,7.464808,11.93,178.9,180.3,Under way using engine
+passage_trip_18,passage_001,2026-06-20 11:02:14,38,56.086432,7.465427,12.29,178.9,178.7,Under way using engine
+passage_trip_18,passage_001,2026-06-20 11:07:53,39,56.06713,7.466081,12.36,178.9,177.3,Under way using engine
+passage_trip_18,passage_001,2026-06-20 11:13:31,40,56.047828,7.466699,11.9,178.9,179.8,Under way using engine
+passage_trip_18,passage_001,2026-06-20 11:19:16,41,56.028527,7.467378,11.88,178.9,178.5,Under way using engine
+passage_trip_18,passage_001,2026-06-20 11:25:01,42,56.009225,7.467971,12.28,178.8,181.9,Under way using engine
+passage_trip_18,passage_001,2026-06-20 11:30:51,43,55.989926,7.468853,11.58,178.5,180.3,Under way using engine
+passage_trip_18,passage_001,2026-06-20 11:36:39,44,55.970629,7.469818,12.23,178.4,177.4,Under way using engine
+passage_trip_18,passage_001,2026-06-20 11:42:18,45,55.951332,7.470823,11.87,178.4,179.2,Under way using engine
+passage_trip_18,passage_001,2026-06-20 11:48:05,46,55.932035,7.471796,11.88,178.4,178.9,Under way using engine
+passage_trip_18,passage_001,2026-06-20 11:53:54,47,55.912738,7.472795,12.14,178.3,180.4,Under way using engine
+passage_trip_18,passage_001,2026-06-20 11:59:38,48,55.893441,7.473788,11.79,178.4,179.4,Under way using engine
+passage_trip_18,passage_001,2026-06-20 12:05:26,49,55.874144,7.474772,11.85,178.6,179.1,Under way using engine
+passage_trip_18,passage_001,2026-06-20 12:11:08,50,55.854842,7.475437,12.39,179.0,181.1,Under way using engine
+passage_trip_18,passage_001,2026-06-20 12:16:51,51,55.835539,7.475942,11.85,179.1,179.8,Under way using engine
+passage_trip_18,passage_001,2026-06-20 12:22:42,52,55.816236,7.476483,11.97,179.1,179.9,Under way using engine
+passage_trip_18,passage_001,2026-06-20 12:28:26,53,55.796934,7.477014,11.89,179.1,180.0,Under way using engine
+passage_trip_18,passage_001,2026-06-20 12:34:18,54,55.777631,7.477601,11.34,179.1,180.3,Under way using engine
+passage_trip_18,passage_001,2026-06-20 12:40:07,55,55.758328,7.478109,12.32,179.1,182.1,Under way using engine
+passage_trip_18,passage_001,2026-06-20 12:45:50,56,55.739024,7.478628,11.95,179.5,181.4,Under way using engine
+passage_trip_18,passage_001,2026-06-20 12:51:36,57,55.719718,7.478723,12.05,179.9,179.4,Under way using engine
+passage_trip_18,passage_001,2026-06-20 12:57:23,58,55.700413,7.478781,12.09,179.9,180.8,Under way using engine
+passage_trip_18,passage_001,2026-06-20 13:03:10,59,55.681108,7.478855,11.98,179.9,180.5,Under way using engine
+passage_trip_18,passage_001,2026-06-20 13:08:55,60,55.661803,7.478875,12.22,180.0,178.0,Under way using engine
+passage_trip_18,passage_001,2026-06-20 13:14:36,61,55.642498,7.478824,12.3,180.0,180.8,Under way using engine
+passage_trip_18,passage_001,2026-06-20 13:20:22,62,55.623193,7.478817,11.86,180.1,180.6,Under way using engine
+passage_trip_18,passage_001,2026-06-20 13:26:06,63,55.603887,7.478755,11.96,180.5,181.2,Under way using engine
+passage_trip_18,passage_001,2026-06-20 13:31:53,64,55.584583,7.478233,12.12,180.8,179.3,Under way using engine
+passage_trip_18,passage_001,2026-06-20 13:37:42,65,55.56528,7.477803,11.99,180.8,181.1,Under way using engine
+passage_trip_18,passage_001,2026-06-20 13:43:29,66,55.545977,7.477255,12.23,180.9,181.0,Under way using engine
+passage_trip_18,passage_001,2026-06-20 13:49:15,67,55.526674,7.476728,11.98,180.8,181.0,Under way using engine
+passage_trip_18,passage_001,2026-06-20 13:55:00,68,55.507371,7.47629,11.8,180.7,181.7,Under way using engine
+passage_trip_18,passage_001,2026-06-20 14:00:49,69,55.488067,7.475843,11.78,181.0,180.9,Under way using engine
+passage_trip_18,passage_001,2026-06-20 14:06:31,70,55.468767,7.475133,12.23,181.4,181.3,Under way using engine
+passage_trip_18,passage_001,2026-06-20 14:12:06,71,55.449469,7.474214,12.55,181.6,183.0,Under way using engine
+passage_trip_18,passage_001,2026-06-20 14:17:43,72,55.430172,7.473227,11.79,181.6,182.1,Under way using engine
+passage_trip_18,passage_001,2026-06-20 14:23:36,73,55.410874,7.472298,11.97,181.6,180.0,Under way using engine
+passage_trip_18,passage_001,2026-06-20 14:29:27,74,55.391576,7.471385,11.77,181.6,180.7,Under way using engine
+passage_trip_18,passage_001,2026-06-20 14:35:17,75,55.372278,7.470432,12.28,181.6,182.9,Under way using engine
+passage_trip_18,passage_001,2026-06-20 14:41:01,76,55.352981,7.469456,11.94,181.6,181.6,Under way using engine
+passage_trip_18,passage_001,2026-06-20 14:46:46,77,55.333683,7.46851,12.14,181.6,181.9,Under way using engine
+passage_trip_18,passage_001,2026-06-20 14:52:28,78,55.314386,7.467551,12.22,181.6,182.0,Under way using engine
+passage_trip_18,passage_001,2026-06-20 14:58:11,79,55.295088,7.466596,11.98,181.6,181.6,Under way using engine
+passage_trip_18,passage_001,2026-06-20 15:03:58,80,55.27579,7.4657,12.14,181.5,181.7,Under way using engine
+passage_trip_18,passage_001,2026-06-20 15:09:41,81,55.256492,7.464787,12.21,181.6,180.0,Under way using engine
+passage_trip_18,passage_001,2026-06-20 15:15:21,82,55.237194,7.463841,12.3,181.6,181.5,Under way using engine
+passage_trip_18,passage_001,2026-06-20 15:21:02,83,55.217896,7.462929,11.91,181.6,179.6,Under way using engine
+passage_trip_18,passage_001,2026-06-20 15:26:40,84,55.198598,7.461998,12.3,181.6,179.9,Under way using engine
+passage_trip_18,passage_001,2026-06-20 15:32:28,85,55.1793,7.461073,11.79,181.6,182.1,Under way using engine
+passage_trip_18,passage_001,2026-06-20 15:38:24,86,55.160002,7.460157,11.76,181.6,182.4,Under way using engine

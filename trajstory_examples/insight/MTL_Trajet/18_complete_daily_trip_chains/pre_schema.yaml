@@ -1,0 +1,21 @@
+# Partial specification for data construction.
+# Fill in only the concepts and constraints you want to control.
+# Any omitted IDs, timestamps, GPS points, metrics, or support tables may be
+# added when they are necessary to realize the supplied goal and insights.
+
+pre_schema_version: "1.0"
+
+# Optional one-line context for the constructor.
+domain: "" # e.g., urban_multimodal_mobility
+goal: "Identify characteristic patterns and differences among complete daily trip chains."
+insights_type_list: [overall_pattern, group_comparison, group_comparison]
+insights:
+  - "Work-centered chains usually contain a direct outbound commute and a return-home leg, while discretionary chains include more intermediate stops."
+  - "Chains with shopping or dining stops show greater destination dispersion and more frequent mode changes than work-centered chains."
+  - "Later return-home times are associated with chains containing additional leisure or dining stops, whereas work-centered chains return earlier and more regularly."
+
+explanation:
+  - "Note that work-centered chains are consecutive trips in places, not in time, man cannnot return home immediately after arriving work places."
+fields:
+    
+constraints:

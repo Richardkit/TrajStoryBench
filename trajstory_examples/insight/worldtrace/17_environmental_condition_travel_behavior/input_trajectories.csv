@@ -1,0 +1,701 @@
+trajectory_id,user_id,source_trajectory_id,departure_time,arrival_time,travel_mode,vehicle_type,temperature_c,visited_location,movement_direction,route_role,trajectory_distance_km,start_latitude,start_longitude,end_latitude,end_longitude,point_count,weather,condition_group,weather_group
+WT17_0001,driver_01,4388991,2025-02-03 06:00:00,2025-02-03 06:04:53.160,car,standard car,5,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0002,driver_02,4388991,2025-02-03 09:00:00,2025-02-03 09:04:53.155,car,standard car,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0003,driver_03,5772012,2025-02-03 12:00:00,2025-02-03 12:03:58.533,car,standard car,25,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0004,driver_04,6736854,2025-02-03 15:00:00,2025-02-03 15:10:06.794,car,standard car,35,,,poor_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,rainy,poor_weather,poor_weather
+WT17_0005,driver_05,6921513,2025-02-03 18:00:00,2025-02-03 18:03:06.096,car,standard car,5,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0006,driver_06,6921513,2025-02-03 21:00:00,2025-02-03 21:03:06.056,car,standard car,15,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0007,driver_07,6736854,2025-02-04 00:00:00,2025-02-04 00:10:06.823,car,standard car,25,,,poor_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,rainy,poor_weather,poor_weather
+WT17_0008,driver_08,5772012,2025-02-04 03:00:00,2025-02-04 03:03:58.499,car,standard car,35,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0009,driver_09,4635583,2025-02-04 06:00:00,2025-02-04 06:05:17.927,car,standard car,5,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0010,driver_10,4388991,2025-02-04 09:00:00,2025-02-04 09:04:53.155,car,standard car,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0011,driver_11,4635583,2025-02-04 12:00:00,2025-02-04 12:05:17.922,car,standard car,25,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0012,driver_12,4635583,2025-02-04 15:00:00,2025-02-04 15:05:17.939,car,standard car,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0013,driver_13,4635583,2025-02-04 18:00:00,2025-02-04 18:05:17.927,car,standard car,5,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0014,driver_14,4635583,2025-02-04 21:00:00,2025-02-04 21:05:17.857,car,standard car,15,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0015,driver_15,5772012,2025-02-05 00:00:00,2025-02-05 00:03:58.533,car,standard car,25,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0016,driver_16,4635583,2025-02-05 03:00:00,2025-02-05 03:05:17.939,car,standard car,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0017,driver_17,4635583,2025-02-05 06:00:00,2025-02-05 06:05:17.927,car,standard car,5,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0018,driver_18,5772012,2025-02-05 09:00:00,2025-02-05 09:03:58.528,car,standard car,15,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0019,driver_19,5772012,2025-02-05 12:00:00,2025-02-05 12:03:58.533,car,standard car,25,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0020,driver_20,4388991,2025-02-05 15:00:00,2025-02-05 15:04:53.124,car,standard car,35,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0021,driver_21,5772012,2025-02-05 18:00:00,2025-02-05 18:03:58.534,car,standard car,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0022,driver_22,5772012,2025-02-05 21:00:00,2025-02-05 21:03:58.528,car,standard car,15,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0023,driver_23,6921513,2025-02-06 00:00:00,2025-02-06 00:03:06.067,car,standard car,25,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0024,driver_24,4635583,2025-02-06 03:00:00,2025-02-06 03:05:17.939,car,standard car,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0025,driver_25,6921513,2025-02-06 06:00:00,2025-02-06 06:03:06.096,car,standard car,5,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0026,driver_26,4388991,2025-02-06 09:00:00,2025-02-06 09:04:53.155,car,standard car,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0027,driver_27,4388991,2025-02-06 12:00:00,2025-02-06 12:04:53.135,car,standard car,25,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0028,driver_28,5772012,2025-02-06 15:00:00,2025-02-06 15:03:58.499,car,standard car,35,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0029,driver_29,4388991,2025-02-06 18:00:00,2025-02-06 18:04:53.160,car,standard car,5,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0030,driver_30,5772012,2025-02-06 21:00:00,2025-02-06 21:03:58.528,car,standard car,15,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0031,driver_31,5772012,2025-02-07 00:00:00,2025-02-07 00:03:58.533,car,standard car,25,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0032,driver_32,4388991,2025-02-07 03:00:00,2025-02-07 03:04:53.124,car,standard car,35,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0033,driver_33,4635583,2025-02-07 06:00:00,2025-02-07 06:05:17.927,car,standard car,5,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0034,driver_34,5772012,2025-02-07 09:00:00,2025-02-07 09:03:58.528,car,standard car,15,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0035,driver_35,4635583,2025-02-07 12:00:00,2025-02-07 12:05:17.922,car,standard car,25,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0036,driver_36,4635583,2025-02-07 15:00:00,2025-02-07 15:05:17.939,car,standard car,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0037,driver_37,4635583,2025-02-07 18:00:00,2025-02-07 18:05:17.927,car,standard car,5,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0038,driver_38,5772012,2025-02-07 21:00:00,2025-02-07 21:03:58.528,car,standard car,15,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0039,driver_39,6921513,2025-02-08 00:00:00,2025-02-08 00:03:06.067,car,standard car,25,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0040,driver_40,5772012,2025-02-08 03:00:00,2025-02-08 03:03:58.499,car,standard car,35,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0041,driver_01,4635583,2025-02-08 06:00:00,2025-02-08 06:05:17.927,car,standard car,5,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0042,driver_02,4388991,2025-02-08 09:00:00,2025-02-08 09:04:53.155,car,standard car,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0043,driver_03,4635583,2025-02-08 12:00:00,2025-02-08 12:05:17.922,car,standard car,25,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0044,driver_04,4388991,2025-02-08 15:00:00,2025-02-08 15:04:53.124,car,standard car,35,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0045,driver_05,5772012,2025-02-08 18:00:00,2025-02-08 18:03:58.534,car,standard car,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0046,driver_06,6921513,2025-02-08 21:00:00,2025-02-08 21:03:06.056,car,standard car,15,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0047,driver_07,5772012,2025-02-09 00:00:00,2025-02-09 00:03:58.533,car,standard car,25,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0048,driver_08,5772012,2025-02-09 03:00:00,2025-02-09 03:03:58.499,car,standard car,35,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0049,driver_09,4388991,2025-02-09 06:00:00,2025-02-09 06:04:53.160,car,standard car,5,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0050,driver_10,4635583,2025-02-09 09:00:00,2025-02-09 09:05:17.857,car,standard car,15,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0051,driver_11,6921513,2025-02-09 12:00:00,2025-02-09 12:03:06.067,car,standard car,25,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0052,driver_12,5772012,2025-02-09 15:00:00,2025-02-09 15:03:58.499,car,standard car,35,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0053,driver_13,6921513,2025-02-09 18:00:00,2025-02-09 18:03:06.096,car,standard car,5,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0054,driver_14,6921513,2025-02-09 21:00:00,2025-02-09 21:03:06.056,car,standard car,15,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0055,driver_15,4635583,2025-02-10 00:00:00,2025-02-10 00:05:17.922,car,standard car,25,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0056,driver_16,4388991,2025-02-10 03:00:00,2025-02-10 03:04:53.124,car,standard car,35,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0057,driver_17,5772012,2025-02-10 06:00:00,2025-02-10 06:03:58.534,car,standard car,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0058,driver_18,4388991,2025-02-10 09:00:00,2025-02-10 09:04:53.155,car,standard car,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0059,driver_19,4635583,2025-02-10 12:00:00,2025-02-10 12:05:17.922,car,standard car,25,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0060,driver_20,5772012,2025-02-10 15:00:00,2025-02-10 15:03:58.499,car,standard car,35,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0061,driver_21,6921513,2025-02-10 18:00:00,2025-02-10 18:03:06.096,car,standard car,5,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0062,driver_22,4635583,2025-02-10 21:00:00,2025-02-10 21:05:17.857,car,standard car,15,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0063,driver_23,4388991,2025-02-11 00:00:00,2025-02-11 00:04:53.135,car,standard car,25,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0064,driver_24,4388991,2025-02-11 03:00:00,2025-02-11 03:04:53.124,car,standard car,35,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0065,driver_25,4635583,2025-02-11 06:00:00,2025-02-11 06:05:17.927,car,standard car,5,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0066,driver_26,4635583,2025-02-11 09:00:00,2025-02-11 09:05:17.857,car,standard car,15,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0067,driver_27,4635583,2025-02-11 12:00:00,2025-02-11 12:05:17.922,car,standard car,25,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0068,driver_28,4388991,2025-02-11 15:00:00,2025-02-11 15:04:53.124,car,standard car,35,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0069,driver_29,6921513,2025-02-11 18:00:00,2025-02-11 18:03:06.096,car,standard car,5,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0070,driver_30,4388991,2025-02-11 21:00:00,2025-02-11 21:04:53.155,car,standard car,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0071,driver_31,6921513,2025-02-12 00:00:00,2025-02-12 00:03:06.067,car,standard car,25,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0072,driver_32,4838142,2025-02-12 03:00:00,2025-02-12 03:19:02.576,car,standard car,35,,,poor_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,rainy,poor_weather,poor_weather
+WT17_0073,driver_33,4388991,2025-02-12 06:00:00,2025-02-12 06:04:53.160,car,standard car,5,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0074,driver_34,4388991,2025-02-12 09:00:00,2025-02-12 09:04:53.155,car,standard car,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0075,driver_35,6736854,2025-02-12 12:00:00,2025-02-12 12:10:06.823,car,standard car,25,,,poor_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,rainy,poor_weather,poor_weather
+WT17_0076,driver_36,5772012,2025-02-12 15:00:00,2025-02-12 15:03:58.499,car,standard car,35,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0077,driver_37,4388991,2025-02-12 18:00:00,2025-02-12 18:04:53.160,car,standard car,5,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0078,driver_38,6921513,2025-02-12 21:00:00,2025-02-12 21:03:06.056,car,standard car,15,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0079,driver_39,4388991,2025-02-13 00:00:00,2025-02-13 00:04:53.135,car,standard car,25,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0080,driver_40,5772012,2025-02-13 03:00:00,2025-02-13 03:03:58.499,car,standard car,35,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0081,driver_01,4388991,2025-02-13 06:00:00,2025-02-13 06:04:53.160,car,standard car,5,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0082,driver_02,6921513,2025-02-13 09:00:00,2025-02-13 09:03:06.056,car,standard car,15,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0083,driver_03,5772012,2025-02-13 12:00:00,2025-02-13 12:03:58.533,car,standard car,25,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0084,driver_04,4440438,2025-02-13 15:00:00,2025-02-13 15:09:43.758,car,standard car,35,,,poor_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,rainy,poor_weather,poor_weather
+WT17_0085,driver_05,5772012,2025-02-13 18:00:00,2025-02-13 18:03:58.534,car,standard car,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0086,driver_06,4388991,2025-02-13 21:00:00,2025-02-13 21:04:53.155,car,standard car,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0087,driver_07,4388991,2025-02-14 00:00:00,2025-02-14 00:04:53.135,car,standard car,25,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0088,driver_08,4388991,2025-02-14 03:00:00,2025-02-14 03:04:53.124,car,standard car,35,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0089,driver_09,4388991,2025-02-14 06:00:00,2025-02-14 06:04:53.160,car,standard car,5,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0090,driver_10,4388991,2025-02-14 09:00:00,2025-02-14 09:04:53.155,car,standard car,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0091,driver_11,5772012,2025-02-14 12:00:00,2025-02-14 12:03:58.533,car,standard car,25,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0092,driver_12,4388991,2025-02-14 15:00:00,2025-02-14 15:04:53.124,car,standard car,35,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0093,driver_13,4388991,2025-02-14 18:00:00,2025-02-14 18:04:53.160,car,standard car,5,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0094,driver_14,4635583,2025-02-14 21:00:00,2025-02-14 21:05:17.857,car,standard car,15,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0095,driver_15,4440438,2025-02-15 00:00:00,2025-02-15 00:09:43.786,car,standard car,25,,,poor_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,rainy,poor_weather,poor_weather
+WT17_0096,driver_16,4388991,2025-02-15 03:00:00,2025-02-15 03:04:53.124,car,standard car,35,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0097,driver_17,6921513,2025-02-15 06:00:00,2025-02-15 06:03:06.096,car,standard car,5,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0098,driver_18,4388991,2025-02-15 09:00:00,2025-02-15 09:04:53.155,car,standard car,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0099,driver_19,5772012,2025-02-15 12:00:00,2025-02-15 12:03:58.533,car,standard car,25,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0100,driver_20,6921513,2025-02-15 15:00:00,2025-02-15 15:03:06.068,car,standard car,35,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0101,driver_21,6921513,2025-02-15 18:00:00,2025-02-15 18:03:06.096,car,standard car,5,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0102,driver_22,4635583,2025-02-15 21:00:00,2025-02-15 21:05:17.857,car,standard car,15,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0103,driver_23,4388991,2025-02-16 00:00:00,2025-02-16 00:04:53.135,car,standard car,25,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0104,driver_24,4635583,2025-02-16 03:00:00,2025-02-16 03:05:17.939,car,standard car,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0105,driver_25,6736854,2025-02-16 06:00:00,2025-02-16 06:10:06.770,car,standard car,5,,,poor_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,rainy,poor_weather,poor_weather
+WT17_0106,driver_26,4440438,2025-02-16 09:00:00,2025-02-16 09:09:43.838,car,standard car,15,,,poor_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,rainy,poor_weather,poor_weather
+WT17_0107,driver_27,6921513,2025-02-16 12:00:00,2025-02-16 12:03:06.067,car,standard car,25,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0108,driver_28,4388991,2025-02-16 15:00:00,2025-02-16 15:04:53.124,car,standard car,35,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0109,driver_29,4388991,2025-02-16 18:00:00,2025-02-16 18:04:53.160,car,standard car,5,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0110,driver_30,6921513,2025-02-16 21:00:00,2025-02-16 21:03:06.056,car,standard car,15,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0111,driver_31,5772012,2025-02-17 00:00:00,2025-02-17 00:03:58.533,car,standard car,25,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0112,driver_32,4388991,2025-02-17 03:00:00,2025-02-17 03:04:53.124,car,standard car,35,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0113,driver_33,5772012,2025-02-17 06:00:00,2025-02-17 06:03:58.534,car,standard car,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0114,driver_34,6921513,2025-02-17 09:00:00,2025-02-17 09:03:06.056,car,standard car,15,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0115,driver_35,4388991,2025-02-17 12:00:00,2025-02-17 12:04:53.135,car,standard car,25,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0116,driver_36,4635583,2025-02-17 15:00:00,2025-02-17 15:05:17.939,car,standard car,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0117,driver_37,4635583,2025-02-17 18:00:00,2025-02-17 18:05:17.927,car,standard car,5,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0118,driver_38,5772012,2025-02-17 21:00:00,2025-02-17 21:03:58.528,car,standard car,15,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0119,driver_39,5772012,2025-02-18 00:00:00,2025-02-18 00:03:58.533,car,standard car,25,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0120,driver_40,4388991,2025-02-18 03:00:00,2025-02-18 03:04:53.124,car,standard car,35,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0121,driver_01,4635583,2025-02-18 06:00:00,2025-02-18 06:05:17.927,car,standard car,5,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0122,driver_02,6921513,2025-02-18 09:00:00,2025-02-18 09:03:06.056,car,standard car,15,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0123,driver_03,5772012,2025-02-18 12:00:00,2025-02-18 12:03:58.533,car,standard car,25,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0124,driver_04,6921513,2025-02-18 15:00:00,2025-02-18 15:03:06.068,car,standard car,35,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0125,driver_05,4635583,2025-02-18 18:00:00,2025-02-18 18:05:17.927,car,standard car,5,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0126,driver_06,4635583,2025-02-18 21:00:00,2025-02-18 21:05:17.857,car,standard car,15,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0127,driver_07,5772012,2025-02-19 00:00:00,2025-02-19 00:03:58.533,car,standard car,25,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0128,driver_08,6921513,2025-02-19 03:00:00,2025-02-19 03:03:06.068,car,standard car,35,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0129,driver_09,4635583,2025-02-19 06:00:00,2025-02-19 06:05:17.927,car,standard car,5,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0130,driver_10,4388991,2025-02-19 09:00:00,2025-02-19 09:04:53.155,car,standard car,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0131,driver_11,4388991,2025-02-19 12:00:00,2025-02-19 12:04:53.135,car,standard car,25,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0132,driver_12,4635583,2025-02-19 15:00:00,2025-02-19 15:05:17.939,car,standard car,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0133,driver_13,4635583,2025-02-19 18:00:00,2025-02-19 18:05:17.927,car,standard car,5,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0134,driver_14,6921513,2025-02-19 21:00:00,2025-02-19 21:03:06.056,car,standard car,15,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0135,driver_15,4388991,2025-02-20 00:00:00,2025-02-20 00:04:53.135,car,standard car,25,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0136,driver_16,4635583,2025-02-20 03:00:00,2025-02-20 03:05:17.939,car,standard car,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0137,driver_17,6921513,2025-02-20 06:00:00,2025-02-20 06:03:06.096,car,standard car,5,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0138,driver_18,6921513,2025-02-20 09:00:00,2025-02-20 09:03:06.056,car,standard car,15,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0139,driver_19,4635583,2025-02-20 12:00:00,2025-02-20 12:05:17.922,car,standard car,25,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0140,driver_20,4388991,2025-02-20 15:00:00,2025-02-20 15:04:53.124,car,standard car,35,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0141,driver_21,4635583,2025-02-20 18:00:00,2025-02-20 18:05:17.927,car,standard car,5,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0142,driver_22,4838142,2025-02-20 21:00:00,2025-02-20 21:19:02.617,car,standard car,15,,,poor_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,rainy,poor_weather,poor_weather
+WT17_0143,driver_23,6921513,2025-02-21 00:00:00,2025-02-21 00:03:06.067,car,standard car,25,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0144,driver_24,4635583,2025-02-21 03:00:00,2025-02-21 03:05:17.939,car,standard car,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0145,driver_25,4388991,2025-02-21 06:00:00,2025-02-21 06:04:53.160,car,standard car,5,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0146,driver_26,4635583,2025-02-21 09:00:00,2025-02-21 09:05:17.857,car,standard car,15,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0147,driver_27,6921513,2025-02-21 12:00:00,2025-02-21 12:03:06.067,car,standard car,25,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0148,driver_28,4635583,2025-02-21 15:00:00,2025-02-21 15:05:17.939,car,standard car,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0149,driver_29,4388991,2025-02-21 18:00:00,2025-02-21 18:04:53.160,car,standard car,5,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0150,driver_30,6921513,2025-02-21 21:00:00,2025-02-21 21:03:06.056,car,standard car,15,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0151,driver_31,6921513,2025-02-22 00:00:00,2025-02-22 00:03:06.067,car,standard car,25,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0152,driver_32,6921513,2025-02-22 03:00:00,2025-02-22 03:03:06.068,car,standard car,35,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0153,driver_33,4440438,2025-02-22 06:00:00,2025-02-22 06:09:43.899,car,standard car,5,,,poor_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,rainy,poor_weather,poor_weather
+WT17_0154,driver_34,5772012,2025-02-22 09:00:00,2025-02-22 09:03:58.528,car,standard car,15,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0155,driver_35,4635583,2025-02-22 12:00:00,2025-02-22 12:05:17.922,car,standard car,25,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0156,driver_36,4388991,2025-02-22 15:00:00,2025-02-22 15:04:53.124,car,standard car,35,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0157,driver_37,5772012,2025-02-22 18:00:00,2025-02-22 18:03:58.534,car,standard car,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0158,driver_38,4388991,2025-02-22 21:00:00,2025-02-22 21:04:53.155,car,standard car,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0159,driver_39,5772012,2025-02-23 00:00:00,2025-02-23 00:03:58.533,car,standard car,25,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0160,driver_40,6921513,2025-02-23 03:00:00,2025-02-23 03:03:06.068,car,standard car,35,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0161,driver_01,5772012,2025-02-23 06:00:00,2025-02-23 06:03:58.534,car,standard car,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0162,driver_02,4635583,2025-02-23 09:00:00,2025-02-23 09:05:17.857,car,standard car,15,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0163,driver_03,5772012,2025-02-23 12:00:00,2025-02-23 12:03:58.533,car,standard car,25,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0164,driver_04,5772012,2025-02-23 15:00:00,2025-02-23 15:03:58.499,car,standard car,35,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0165,driver_05,5772012,2025-02-23 18:00:00,2025-02-23 18:03:58.534,car,standard car,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0166,driver_06,5772012,2025-02-23 21:00:00,2025-02-23 21:03:58.528,car,standard car,15,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0167,driver_07,4388991,2025-02-24 00:00:00,2025-02-24 00:04:53.135,car,standard car,25,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0168,driver_08,6921513,2025-02-24 03:00:00,2025-02-24 03:03:06.068,car,standard car,35,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0169,driver_09,6921513,2025-02-24 06:00:00,2025-02-24 06:03:06.096,car,standard car,5,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0170,driver_10,4388991,2025-02-24 09:00:00,2025-02-24 09:04:53.155,car,standard car,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0171,driver_11,4635583,2025-02-24 12:00:00,2025-02-24 12:05:17.922,car,standard car,25,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0172,driver_12,6921513,2025-02-24 15:00:00,2025-02-24 15:03:06.068,car,standard car,35,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0173,driver_13,4635583,2025-02-24 18:00:00,2025-02-24 18:05:17.927,car,standard car,5,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0174,driver_14,4635583,2025-02-24 21:00:00,2025-02-24 21:05:17.857,car,standard car,15,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0175,driver_15,4635583,2025-02-25 00:00:00,2025-02-25 00:05:17.922,car,standard car,25,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0176,driver_16,5772012,2025-02-25 03:00:00,2025-02-25 03:03:58.499,car,standard car,35,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0177,driver_17,6921513,2025-02-25 06:00:00,2025-02-25 06:03:06.096,car,standard car,5,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0178,driver_18,5772012,2025-02-25 09:00:00,2025-02-25 09:03:58.528,car,standard car,15,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0179,driver_19,6921513,2025-02-25 12:00:00,2025-02-25 12:03:06.067,car,standard car,25,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0180,driver_20,5772012,2025-02-25 15:00:00,2025-02-25 15:03:58.499,car,standard car,35,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0181,driver_21,4388991,2025-02-25 18:00:00,2025-02-25 18:04:53.160,car,standard car,5,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0182,driver_22,6921513,2025-02-25 21:00:00,2025-02-25 21:03:06.056,car,standard car,15,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0183,driver_23,5772012,2025-02-26 00:00:00,2025-02-26 00:03:58.533,car,standard car,25,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0184,driver_24,5772012,2025-02-26 03:00:00,2025-02-26 03:03:58.499,car,standard car,35,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0185,driver_25,4635583,2025-02-26 06:00:00,2025-02-26 06:05:17.927,car,standard car,5,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0186,driver_26,5772012,2025-02-26 09:00:00,2025-02-26 09:03:58.528,car,standard car,15,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0187,driver_27,4388991,2025-02-26 12:00:00,2025-02-26 12:04:53.135,car,standard car,25,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0188,driver_28,6921513,2025-02-26 15:00:00,2025-02-26 15:03:06.068,car,standard car,35,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0189,driver_29,5772012,2025-02-26 18:00:00,2025-02-26 18:03:58.534,car,standard car,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0190,driver_30,6921513,2025-02-26 21:00:00,2025-02-26 21:03:06.056,car,standard car,15,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0191,driver_31,4388991,2025-02-27 00:00:00,2025-02-27 00:04:53.135,car,standard car,25,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0192,driver_32,6736854,2025-02-27 03:00:00,2025-02-27 03:10:06.794,car,standard car,35,,,poor_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,rainy,poor_weather,poor_weather
+WT17_0193,driver_33,4838142,2025-02-27 06:00:00,2025-02-27 06:19:02.168,car,standard car,5,,,poor_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,rainy,poor_weather,poor_weather
+WT17_0194,driver_34,6921513,2025-02-27 09:00:00,2025-02-27 09:03:06.056,car,standard car,15,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0195,driver_35,4388991,2025-02-27 12:00:00,2025-02-27 12:04:53.135,car,standard car,25,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0196,driver_36,6921513,2025-02-27 15:00:00,2025-02-27 15:03:06.068,car,standard car,35,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0197,driver_37,5772012,2025-02-27 18:00:00,2025-02-27 18:03:58.534,car,standard car,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0198,driver_38,6921513,2025-02-27 21:00:00,2025-02-27 21:03:06.056,car,standard car,15,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0199,driver_39,4635583,2025-02-28 00:00:00,2025-02-28 00:05:17.922,car,standard car,25,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0200,driver_40,4388991,2025-02-28 03:00:00,2025-02-28 03:04:53.124,car,standard car,35,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0201,driver_01,4635583,2025-02-28 06:00:00,2025-02-28 06:05:17.927,car,standard car,5,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0202,driver_02,4635583,2025-02-28 09:00:00,2025-02-28 09:05:17.857,car,standard car,15,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0203,driver_03,6921513,2025-02-28 12:00:00,2025-02-28 12:03:06.067,car,standard car,25,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0204,driver_04,4388991,2025-02-28 15:00:00,2025-02-28 15:04:53.124,car,standard car,35,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0205,driver_05,4635583,2025-02-28 18:00:00,2025-02-28 18:05:17.927,car,standard car,5,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0206,driver_06,5772012,2025-02-28 21:00:00,2025-02-28 21:03:58.528,car,standard car,15,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0207,driver_07,4388991,2025-03-01 00:00:00,2025-03-01 00:04:53.135,car,standard car,25,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0208,driver_08,4635583,2025-03-01 03:00:00,2025-03-01 03:05:17.939,car,standard car,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0209,driver_09,6921513,2025-03-01 06:00:00,2025-03-01 06:03:06.096,car,standard car,5,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0210,driver_10,4388991,2025-03-01 09:00:00,2025-03-01 09:04:53.155,car,standard car,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0211,driver_11,5772012,2025-03-01 12:00:00,2025-03-01 12:03:58.533,car,standard car,25,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0212,driver_12,5772012,2025-03-01 15:00:00,2025-03-01 15:03:58.499,car,standard car,35,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0213,driver_13,6921513,2025-03-01 18:00:00,2025-03-01 18:03:06.096,car,standard car,5,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0214,driver_14,5772012,2025-03-01 21:00:00,2025-03-01 21:03:58.528,car,standard car,15,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0215,driver_15,5772012,2025-03-02 00:00:00,2025-03-02 00:03:58.533,car,standard car,25,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0216,driver_16,4635583,2025-03-02 03:00:00,2025-03-02 03:05:17.939,car,standard car,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0217,driver_17,6736854,2025-03-02 06:00:00,2025-03-02 06:10:06.770,car,standard car,5,,,poor_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,rainy,poor_weather,poor_weather
+WT17_0218,driver_18,4388991,2025-03-02 09:00:00,2025-03-02 09:04:53.155,car,standard car,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0219,driver_19,6921513,2025-03-02 12:00:00,2025-03-02 12:03:06.067,car,standard car,25,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0220,driver_20,4838142,2025-03-02 15:00:00,2025-03-02 15:19:02.576,car,standard car,35,,,poor_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,rainy,poor_weather,poor_weather
+WT17_0221,driver_21,4388991,2025-03-02 18:00:00,2025-03-02 18:04:53.160,car,standard car,5,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0222,driver_22,6921513,2025-03-02 21:00:00,2025-03-02 21:03:06.056,car,standard car,15,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0223,driver_23,5772012,2025-03-03 00:00:00,2025-03-03 00:03:58.533,car,standard car,25,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0224,driver_24,5772012,2025-03-03 03:00:00,2025-03-03 03:03:58.499,car,standard car,35,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0225,driver_25,6921513,2025-03-03 06:00:00,2025-03-03 06:03:06.096,car,standard car,5,,,poor_weather,1.5,40.832293,-73.93664,40.843334,-73.931514,70,rainy,poor_weather,poor_weather
+WT17_0226,driver_26,6921513,2025-03-03 09:00:00,2025-03-03 09:03:06.056,car,standard car,15,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0227,driver_27,4635583,2025-03-03 12:00:00,2025-03-03 12:05:17.922,car,standard car,25,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0228,driver_28,4388991,2025-03-03 15:00:00,2025-03-03 15:04:53.124,car,standard car,35,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0229,driver_29,4440438,2025-03-03 18:00:00,2025-03-03 18:09:43.899,car,standard car,5,,,poor_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,rainy,poor_weather,poor_weather
+WT17_0230,driver_30,4635583,2025-03-03 21:00:00,2025-03-03 21:05:17.857,car,standard car,15,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0231,driver_31,5772012,2025-03-04 00:00:00,2025-03-04 00:03:58.533,car,standard car,25,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0232,driver_32,5772012,2025-03-04 03:00:00,2025-03-04 03:03:58.499,car,standard car,35,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0233,driver_33,4635583,2025-03-04 06:00:00,2025-03-04 06:05:17.927,car,standard car,5,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0234,driver_34,6921513,2025-03-04 09:00:00,2025-03-04 09:03:06.056,car,standard car,15,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0235,driver_35,5772012,2025-03-04 12:00:00,2025-03-04 12:03:58.533,car,standard car,25,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0236,driver_36,5772012,2025-03-04 15:00:00,2025-03-04 15:03:58.499,car,standard car,35,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0237,driver_37,4635583,2025-03-04 18:00:00,2025-03-04 18:05:17.927,car,standard car,5,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0238,driver_38,6921513,2025-03-04 21:00:00,2025-03-04 21:03:06.056,car,standard car,15,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0239,driver_39,4440438,2025-03-05 00:00:00,2025-03-05 00:09:43.786,car,standard car,25,,,poor_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,rainy,poor_weather,poor_weather
+WT17_0240,driver_40,6921513,2025-03-05 03:00:00,2025-03-05 03:03:06.068,car,standard car,35,,,poor_weather,1.5,40.843334,-73.931514,40.832293,-73.93664,72,rainy,poor_weather,poor_weather
+WT17_0241,driver_01,4440438,2025-03-05 06:00:00,2025-03-05 06:06:17.518,car,standard car,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0242,driver_02,6736854,2025-03-05 09:00:00,2025-03-05 09:06:40.025,car,standard car,15,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0243,driver_03,6736854,2025-03-05 12:00:00,2025-03-05 12:06:39.995,car,standard car,25,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0244,driver_04,6921513,2025-03-05 15:00:00,2025-03-05 15:02:02.582,car,standard car,35,,,mild_weather,1.3,40.843334,-73.931514,40.8321828,-73.9352214,61,sunny,mild_weather,mild_weather
+WT17_0245,driver_05,6921513,2025-03-05 18:00:00,2025-03-05 18:02:18.258,car,standard car,5,,,mild_weather,1.466,40.832293,-73.93664,40.843334,-73.931514,68,sunny,mild_weather,mild_weather
+WT17_0246,driver_06,4838142,2025-03-05 21:00:00,2025-03-05 21:09:42.374,car,standard car,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0247,driver_07,6736854,2025-03-06 00:00:00,2025-03-06 00:06:39.995,car,standard car,25,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0248,driver_08,4838142,2025-03-06 03:00:00,2025-03-06 03:09:42.438,car,standard car,35,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0249,driver_09,4440438,2025-03-06 06:00:00,2025-03-06 06:06:17.518,car,standard car,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0250,driver_10,4838142,2025-03-06 09:00:00,2025-03-06 09:09:42.374,car,standard car,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0251,driver_11,6736854,2025-03-06 12:00:00,2025-03-06 12:06:39.995,car,standard car,25,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0252,driver_12,4635583,2025-03-06 15:00:00,2025-03-06 15:03:47.102,car,standard car,35,,,mild_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,sunny,mild_weather,mild_weather
+WT17_0253,driver_13,5772012,2025-03-06 18:00:00,2025-03-06 18:03:01.364,car,standard car,5,,,mild_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,sunny,mild_weather,mild_weather
+WT17_0254,driver_14,4440438,2025-03-06 21:00:00,2025-03-06 21:06:17.519,car,standard car,15,,,mild_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild_weather,mild_weather
+WT17_0255,driver_15,4838142,2025-03-07 00:00:00,2025-03-07 00:09:42.422,car,standard car,25,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0256,driver_16,6736854,2025-03-07 03:00:00,2025-03-07 03:06:39.960,car,standard car,35,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0257,driver_17,4440438,2025-03-07 06:00:00,2025-03-07 06:06:17.518,car,standard car,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0258,driver_18,6736854,2025-03-07 09:00:00,2025-03-07 09:06:40.025,car,standard car,15,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0259,driver_19,6736854,2025-03-07 12:00:00,2025-03-07 12:06:39.995,car,standard car,25,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0260,driver_20,6736854,2025-03-07 15:00:00,2025-03-07 15:06:39.960,car,standard car,35,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0261,driver_21,4635583,2025-03-07 18:00:00,2025-03-07 18:03:47.092,car,standard car,5,,,mild_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,sunny,mild_weather,mild_weather
+WT17_0262,driver_22,4388991,2025-03-07 21:00:00,2025-03-07 21:03:34.375,car,standard car,15,,,mild_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,sunny,mild_weather,mild_weather
+WT17_0263,driver_23,6736854,2025-03-08 00:00:00,2025-03-08 00:06:39.995,car,standard car,25,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0264,driver_24,6921513,2025-03-08 03:00:00,2025-03-08 03:02:18.269,car,standard car,35,,,mild_weather,1.466,40.843334,-73.931514,40.832293,-73.93664,68,sunny,mild_weather,mild_weather
+WT17_0265,driver_25,4838142,2025-03-08 06:00:00,2025-03-08 06:09:42.383,car,standard car,5,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0266,driver_26,4440438,2025-03-08 09:00:00,2025-03-08 09:06:17.519,car,standard car,15,,,mild_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild_weather,mild_weather
+WT17_0267,driver_27,4838142,2025-03-08 12:00:00,2025-03-08 12:09:42.422,car,standard car,25,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0268,driver_28,4440438,2025-03-08 15:00:00,2025-03-08 15:06:17.530,car,standard car,35,,,mild_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild_weather,mild_weather
+WT17_0269,driver_29,4440438,2025-03-08 18:00:00,2025-03-08 18:06:17.518,car,standard car,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0270,driver_30,6736854,2025-03-08 21:00:00,2025-03-08 21:06:40.025,car,standard car,15,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0271,driver_31,6736854,2025-03-09 00:00:00,2025-03-09 00:06:39.995,car,standard car,25,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0272,driver_32,6736854,2025-03-09 03:00:00,2025-03-09 03:06:39.960,car,standard car,35,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0273,driver_33,4838142,2025-03-09 06:00:00,2025-03-09 06:09:42.383,car,standard car,5,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0274,driver_34,4440438,2025-03-09 09:00:00,2025-03-09 09:06:17.519,car,standard car,15,,,mild_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild_weather,mild_weather
+WT17_0275,driver_35,4440438,2025-03-09 12:00:00,2025-03-09 12:06:17.509,car,standard car,25,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0276,driver_36,4440438,2025-03-09 15:00:00,2025-03-09 15:06:17.530,car,standard car,35,,,mild_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild_weather,mild_weather
+WT17_0277,driver_37,4838142,2025-03-09 18:00:00,2025-03-09 18:09:42.383,car,standard car,5,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0278,driver_38,6736854,2025-03-09 21:00:00,2025-03-09 21:06:40.025,car,standard car,15,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0279,driver_39,6736854,2025-03-10 00:00:00,2025-03-10 00:06:39.995,car,standard car,25,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0280,driver_40,4388991,2025-03-10 03:00:00,2025-03-10 03:03:34.380,car,standard car,35,,,mild_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,sunny,mild_weather,mild_weather
+WT17_0281,driver_01,6736854,2025-03-10 06:00:00,2025-03-10 06:06:40.030,car,standard car,5,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0282,driver_02,4838142,2025-03-10 09:00:00,2025-03-10 09:09:42.374,car,standard car,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0283,driver_03,4838142,2025-03-10 12:00:00,2025-03-10 12:09:42.422,car,standard car,25,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0284,driver_04,4838142,2025-03-10 15:00:00,2025-03-10 15:09:42.438,car,standard car,35,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0285,driver_05,4388991,2025-03-10 18:00:00,2025-03-10 18:03:34.382,car,standard car,5,,,mild_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,sunny,mild_weather,mild_weather
+WT17_0286,driver_06,4440438,2025-03-10 21:00:00,2025-03-10 21:06:17.519,car,standard car,15,,,mild_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild_weather,mild_weather
+WT17_0287,driver_07,6736854,2025-03-11 00:00:00,2025-03-11 00:06:39.995,car,standard car,25,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0288,driver_08,4388991,2025-03-11 03:00:00,2025-03-11 03:03:34.380,car,standard car,35,,,mild_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,sunny,mild_weather,mild_weather
+WT17_0289,driver_09,4838142,2025-03-11 06:00:00,2025-03-11 06:09:42.383,car,standard car,5,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0290,driver_10,4440438,2025-03-11 09:00:00,2025-03-11 09:06:17.519,car,standard car,15,,,mild_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild_weather,mild_weather
+WT17_0291,driver_11,6921513,2025-03-11 12:00:00,2025-03-11 12:02:18.261,car,standard car,25,,,mild_weather,1.466,40.832293,-73.93664,40.843334,-73.931514,68,sunny,mild_weather,mild_weather
+WT17_0292,driver_12,4838142,2025-03-11 15:00:00,2025-03-11 15:09:42.438,car,standard car,35,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0293,driver_13,6736854,2025-03-11 18:00:00,2025-03-11 18:06:40.030,car,standard car,5,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0294,driver_14,4440438,2025-03-11 21:00:00,2025-03-11 21:06:17.519,car,standard car,15,,,mild_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild_weather,mild_weather
+WT17_0295,driver_15,4838142,2025-03-12 00:00:00,2025-03-12 00:09:42.422,car,standard car,25,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0296,driver_16,6736854,2025-03-12 03:00:00,2025-03-12 03:06:39.960,car,standard car,35,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0297,driver_17,6736854,2025-03-12 06:00:00,2025-03-12 06:06:40.030,car,standard car,5,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0298,driver_18,4440438,2025-03-12 09:00:00,2025-03-12 09:06:17.519,car,standard car,15,,,mild_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild_weather,mild_weather
+WT17_0299,driver_19,4440438,2025-03-12 12:00:00,2025-03-12 12:06:17.509,car,standard car,25,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0300,driver_20,5772012,2025-03-12 15:00:00,2025-03-12 15:03:01.350,car,standard car,35,,,mild_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,sunny,mild_weather,mild_weather
+WT17_0301,driver_21,4440438,2025-03-12 18:00:00,2025-03-12 18:06:17.518,car,standard car,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0302,driver_22,4838142,2025-03-12 21:00:00,2025-03-12 21:09:42.374,car,standard car,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0303,driver_23,4838142,2025-03-13 00:00:00,2025-03-13 00:09:42.422,car,standard car,25,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0304,driver_24,6736854,2025-03-13 03:00:00,2025-03-13 03:06:39.960,car,standard car,35,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0305,driver_25,4440438,2025-03-13 06:00:00,2025-03-13 06:06:17.518,car,standard car,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0306,driver_26,6736854,2025-03-13 09:00:00,2025-03-13 09:06:40.025,car,standard car,15,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0307,driver_27,4838142,2025-03-13 12:00:00,2025-03-13 12:09:42.422,car,standard car,25,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0308,driver_28,6736854,2025-03-13 15:00:00,2025-03-13 15:06:39.960,car,standard car,35,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0309,driver_29,4838142,2025-03-13 18:00:00,2025-03-13 18:09:42.383,car,standard car,5,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0310,driver_30,6736854,2025-03-13 21:00:00,2025-03-13 21:06:40.025,car,standard car,15,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0311,driver_31,4388991,2025-03-14 00:00:00,2025-03-14 00:03:34.353,car,standard car,25,,,mild_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,sunny,mild_weather,mild_weather
+WT17_0312,driver_32,5772012,2025-03-14 03:00:00,2025-03-14 03:03:01.350,car,standard car,35,,,mild_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,sunny,mild_weather,mild_weather
+WT17_0313,driver_33,6921513,2025-03-14 06:00:00,2025-03-14 06:02:18.258,car,standard car,5,,,mild_weather,1.466,40.832293,-73.93664,40.843334,-73.931514,68,sunny,mild_weather,mild_weather
+WT17_0314,driver_34,4440438,2025-03-14 09:00:00,2025-03-14 09:06:17.519,car,standard car,15,,,mild_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild_weather,mild_weather
+WT17_0315,driver_35,4440438,2025-03-14 12:00:00,2025-03-14 12:06:17.509,car,standard car,25,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0316,driver_36,6736854,2025-03-14 15:00:00,2025-03-14 15:06:39.960,car,standard car,35,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0317,driver_37,4838142,2025-03-14 18:00:00,2025-03-14 18:09:42.383,car,standard car,5,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0318,driver_38,4388991,2025-03-14 21:00:00,2025-03-14 21:03:34.375,car,standard car,15,,,mild_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,sunny,mild_weather,mild_weather
+WT17_0319,driver_39,4440438,2025-03-15 00:00:00,2025-03-15 00:06:17.509,car,standard car,25,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0320,driver_40,4838142,2025-03-15 03:00:00,2025-03-15 03:09:42.438,car,standard car,35,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0321,driver_01,5772012,2025-03-15 06:00:00,2025-03-15 06:03:01.364,car,standard car,5,,,mild_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,sunny,mild_weather,mild_weather
+WT17_0322,driver_02,4838142,2025-03-15 09:00:00,2025-03-15 09:09:42.374,car,standard car,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0323,driver_03,4838142,2025-03-15 12:00:00,2025-03-15 12:09:42.422,car,standard car,25,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0324,driver_04,6736854,2025-03-15 15:00:00,2025-03-15 15:06:39.960,car,standard car,35,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0325,driver_05,4838142,2025-03-15 18:00:00,2025-03-15 18:09:42.383,car,standard car,5,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0326,driver_06,4440438,2025-03-15 21:00:00,2025-03-15 21:06:17.519,car,standard car,15,,,mild_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild_weather,mild_weather
+WT17_0327,driver_07,6921513,2025-03-16 00:00:00,2025-03-16 00:02:18.261,car,standard car,25,,,mild_weather,1.466,40.832293,-73.93664,40.843334,-73.931514,68,sunny,mild_weather,mild_weather
+WT17_0328,driver_08,4838142,2025-03-16 03:00:00,2025-03-16 03:09:42.438,car,standard car,35,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0329,driver_09,4440438,2025-03-16 06:00:00,2025-03-16 06:06:17.518,car,standard car,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0330,driver_10,4838142,2025-03-16 09:00:00,2025-03-16 09:09:42.374,car,standard car,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0331,driver_11,6736854,2025-03-16 12:00:00,2025-03-16 12:06:39.995,car,standard car,25,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0332,driver_12,4838142,2025-03-16 15:00:00,2025-03-16 15:09:42.438,car,standard car,35,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0333,driver_13,6736854,2025-03-16 18:00:00,2025-03-16 18:06:40.030,car,standard car,5,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0334,driver_14,6921513,2025-03-16 21:00:00,2025-03-16 21:02:18.282,car,standard car,15,,,mild_weather,1.466,40.843334,-73.931514,40.832293,-73.93664,68,sunny,mild_weather,mild_weather
+WT17_0335,driver_15,4440438,2025-03-17 00:00:00,2025-03-17 00:06:17.509,car,standard car,25,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0336,driver_16,4388991,2025-03-17 03:00:00,2025-03-17 03:03:34.380,car,standard car,35,,,mild_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,sunny,mild_weather,mild_weather
+WT17_0337,driver_17,4440438,2025-03-17 06:00:00,2025-03-17 06:06:17.518,car,standard car,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0338,driver_18,4388991,2025-03-17 09:00:00,2025-03-17 09:03:34.375,car,standard car,15,,,mild_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,sunny,mild_weather,mild_weather
+WT17_0339,driver_19,6736854,2025-03-17 12:00:00,2025-03-17 12:06:39.995,car,standard car,25,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0340,driver_20,6736854,2025-03-17 15:00:00,2025-03-17 15:06:39.960,car,standard car,35,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0341,driver_21,6736854,2025-03-17 18:00:00,2025-03-17 18:06:40.030,car,standard car,5,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0342,driver_22,4440438,2025-03-17 21:00:00,2025-03-17 21:06:17.519,car,standard car,15,,,mild_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild_weather,mild_weather
+WT17_0343,driver_23,4838142,2025-03-18 00:00:00,2025-03-18 00:09:42.422,car,standard car,25,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0344,driver_24,4440438,2025-03-18 03:00:00,2025-03-18 03:06:17.530,car,standard car,35,,,mild_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild_weather,mild_weather
+WT17_0345,driver_25,6736854,2025-03-18 06:00:00,2025-03-18 06:06:40.030,car,standard car,5,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0346,driver_26,6736854,2025-03-18 09:00:00,2025-03-18 09:06:40.025,car,standard car,15,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0347,driver_27,4838142,2025-03-18 12:00:00,2025-03-18 12:09:42.422,car,standard car,25,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0348,driver_28,4440438,2025-03-18 15:00:00,2025-03-18 15:06:17.530,car,standard car,35,,,mild_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild_weather,mild_weather
+WT17_0349,driver_29,4388991,2025-03-18 18:00:00,2025-03-18 18:03:34.382,car,standard car,5,,,mild_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,sunny,mild_weather,mild_weather
+WT17_0350,driver_30,4838142,2025-03-18 21:00:00,2025-03-18 21:09:42.374,car,standard car,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0351,driver_31,6736854,2025-03-19 00:00:00,2025-03-19 00:06:39.995,car,standard car,25,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0352,driver_32,4388991,2025-03-19 03:00:00,2025-03-19 03:03:34.380,car,standard car,35,,,mild_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,sunny,mild_weather,mild_weather
+WT17_0353,driver_33,4440438,2025-03-19 06:00:00,2025-03-19 06:06:17.518,car,standard car,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0354,driver_34,4838142,2025-03-19 09:00:00,2025-03-19 09:09:42.374,car,standard car,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0355,driver_35,4440438,2025-03-19 12:00:00,2025-03-19 12:06:17.509,car,standard car,25,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0356,driver_36,5772012,2025-03-19 15:00:00,2025-03-19 15:03:01.350,car,standard car,35,,,mild_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,sunny,mild_weather,mild_weather
+WT17_0357,driver_37,4838142,2025-03-19 18:00:00,2025-03-19 18:09:42.383,car,standard car,5,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0358,driver_38,5772012,2025-03-19 21:00:00,2025-03-19 21:03:01.345,car,standard car,15,,,mild_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,sunny,mild_weather,mild_weather
+WT17_0359,driver_39,6736854,2025-03-20 00:00:00,2025-03-20 00:06:39.995,car,standard car,25,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0360,driver_40,4388991,2025-03-20 03:00:00,2025-03-20 03:03:34.380,car,standard car,35,,,mild_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,sunny,mild_weather,mild_weather
+WT17_0361,driver_01,4440438,2025-03-20 06:00:00,2025-03-20 06:06:17.518,car,standard car,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0362,driver_02,4635583,2025-03-20 09:00:00,2025-03-20 09:03:47.114,car,standard car,15,,,mild_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,sunny,mild_weather,mild_weather
+WT17_0363,driver_03,5772012,2025-03-20 12:00:00,2025-03-20 12:03:01.370,car,standard car,25,,,mild_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,sunny,mild_weather,mild_weather
+WT17_0364,driver_04,4838142,2025-03-20 15:00:00,2025-03-20 15:09:42.438,car,standard car,35,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0365,driver_05,6736854,2025-03-20 18:00:00,2025-03-20 18:06:40.030,car,standard car,5,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0366,driver_06,4388991,2025-03-20 21:00:00,2025-03-20 21:03:34.375,car,standard car,15,,,mild_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,sunny,mild_weather,mild_weather
+WT17_0367,driver_07,6736854,2025-03-21 00:00:00,2025-03-21 00:06:39.995,car,standard car,25,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0368,driver_08,4440438,2025-03-21 03:00:00,2025-03-21 03:06:17.530,car,standard car,35,,,mild_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild_weather,mild_weather
+WT17_0369,driver_09,4635583,2025-03-21 06:00:00,2025-03-21 06:03:47.092,car,standard car,5,,,mild_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,sunny,mild_weather,mild_weather
+WT17_0370,driver_10,4838142,2025-03-21 09:00:00,2025-03-21 09:09:42.374,car,standard car,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0371,driver_11,5772012,2025-03-21 12:00:00,2025-03-21 12:03:01.370,car,standard car,25,,,mild_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,sunny,mild_weather,mild_weather
+WT17_0372,driver_12,4838142,2025-03-21 15:00:00,2025-03-21 15:09:42.438,car,standard car,35,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0373,driver_13,5772012,2025-03-21 18:00:00,2025-03-21 18:03:01.364,car,standard car,5,,,mild_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,sunny,mild_weather,mild_weather
+WT17_0374,driver_14,6921513,2025-03-21 21:00:00,2025-03-21 21:02:18.282,car,standard car,15,,,mild_weather,1.466,40.843334,-73.931514,40.832293,-73.93664,68,sunny,mild_weather,mild_weather
+WT17_0375,driver_15,4440438,2025-03-22 00:00:00,2025-03-22 00:06:17.509,car,standard car,25,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0376,driver_16,4440438,2025-03-22 03:00:00,2025-03-22 03:06:17.530,car,standard car,35,,,mild_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild_weather,mild_weather
+WT17_0377,driver_17,4838142,2025-03-22 06:00:00,2025-03-22 06:09:42.383,car,standard car,5,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0378,driver_18,4838142,2025-03-22 09:00:00,2025-03-22 09:09:42.374,car,standard car,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0379,driver_19,4440438,2025-03-22 12:00:00,2025-03-22 12:06:17.509,car,standard car,25,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0380,driver_20,6736854,2025-03-22 15:00:00,2025-03-22 15:06:39.960,car,standard car,35,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0381,driver_21,4388991,2025-03-22 18:00:00,2025-03-22 18:03:34.382,car,standard car,5,,,mild_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,sunny,mild_weather,mild_weather
+WT17_0382,driver_22,4838142,2025-03-22 21:00:00,2025-03-22 21:09:42.374,car,standard car,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0383,driver_23,4838142,2025-03-23 00:00:00,2025-03-23 00:09:42.422,car,standard car,25,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0384,driver_24,4838142,2025-03-23 03:00:00,2025-03-23 03:09:42.438,car,standard car,35,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0385,driver_25,6736854,2025-03-23 06:00:00,2025-03-23 06:06:40.030,car,standard car,5,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0386,driver_26,6736854,2025-03-23 09:00:00,2025-03-23 09:06:40.025,car,standard car,15,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0387,driver_27,4838142,2025-03-23 12:00:00,2025-03-23 12:09:42.422,car,standard car,25,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0388,driver_28,6921513,2025-03-23 15:00:00,2025-03-23 15:02:18.269,car,standard car,35,,,mild_weather,1.466,40.843334,-73.931514,40.832293,-73.93664,68,sunny,mild_weather,mild_weather
+WT17_0389,driver_29,4838142,2025-03-23 18:00:00,2025-03-23 18:09:42.383,car,standard car,5,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0390,driver_30,6736854,2025-03-23 21:00:00,2025-03-23 21:06:40.025,car,standard car,15,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0391,driver_31,6736854,2025-03-24 00:00:00,2025-03-24 00:06:39.995,car,standard car,25,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0392,driver_32,4440438,2025-03-24 03:00:00,2025-03-24 03:06:17.530,car,standard car,35,,,mild_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild_weather,mild_weather
+WT17_0393,driver_33,4838142,2025-03-24 06:00:00,2025-03-24 06:09:42.383,car,standard car,5,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0394,driver_34,4838142,2025-03-24 09:00:00,2025-03-24 09:09:42.374,car,standard car,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0395,driver_35,4838142,2025-03-24 12:00:00,2025-03-24 12:09:42.422,car,standard car,25,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0396,driver_36,6736854,2025-03-24 15:00:00,2025-03-24 15:06:39.960,car,standard car,35,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0397,driver_37,4838142,2025-03-24 18:00:00,2025-03-24 18:09:42.383,car,standard car,5,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0398,driver_38,6736854,2025-03-24 21:00:00,2025-03-24 21:06:40.025,car,standard car,15,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0399,driver_39,4838142,2025-03-25 00:00:00,2025-03-25 00:09:42.422,car,standard car,25,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0400,driver_40,5772012,2025-03-25 03:00:00,2025-03-25 03:03:01.350,car,standard car,35,,,mild_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,sunny,mild_weather,mild_weather
+WT17_0401,driver_01,4440438,2025-03-25 06:00:00,2025-03-25 06:06:17.518,car,standard car,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0402,driver_02,4838142,2025-03-25 09:00:00,2025-03-25 09:09:42.374,car,standard car,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0403,driver_03,4838142,2025-03-25 12:00:00,2025-03-25 12:09:42.422,car,standard car,25,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0404,driver_04,4838142,2025-03-25 15:00:00,2025-03-25 15:09:42.438,car,standard car,35,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0405,driver_05,4635583,2025-03-25 18:00:00,2025-03-25 18:03:47.092,car,standard car,5,,,mild_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,sunny,mild_weather,mild_weather
+WT17_0406,driver_06,6736854,2025-03-25 21:00:00,2025-03-25 21:06:40.025,car,standard car,15,,,mild_weather,4.503,40.852395,-73.955996,40.832286,-73.936624,69,sunny,mild_weather,mild_weather
+WT17_0407,driver_07,4838142,2025-03-26 00:00:00,2025-03-26 00:09:42.422,car,standard car,25,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0408,driver_08,4440438,2025-03-26 03:00:00,2025-03-26 03:06:17.530,car,standard car,35,,,mild_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild_weather,mild_weather
+WT17_0409,driver_09,4838142,2025-03-26 06:00:00,2025-03-26 06:09:42.383,car,standard car,5,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0410,driver_10,4838142,2025-03-26 09:00:00,2025-03-26 09:09:42.374,car,standard car,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0411,driver_11,4388991,2025-03-26 12:00:00,2025-03-26 12:03:34.353,car,standard car,25,,,mild_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,sunny,mild_weather,mild_weather
+WT17_0412,driver_12,4838142,2025-03-26 15:00:00,2025-03-26 15:09:42.438,car,standard car,35,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0413,driver_13,6736854,2025-03-26 18:00:00,2025-03-26 18:06:40.030,car,standard car,5,,,mild_weather,4.503,40.832286,-73.936624,40.852395,-73.955996,69,sunny,mild_weather,mild_weather
+WT17_0414,driver_14,4388991,2025-03-26 21:00:00,2025-03-26 21:03:34.375,car,standard car,15,,,mild_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,sunny,mild_weather,mild_weather
+WT17_0415,driver_15,4440438,2025-03-27 00:00:00,2025-03-27 00:06:17.509,car,standard car,25,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0416,driver_16,4838142,2025-03-27 03:00:00,2025-03-27 03:09:42.438,car,standard car,35,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0417,driver_17,6921513,2025-03-27 06:00:00,2025-03-27 06:02:18.258,car,standard car,5,,,mild_weather,1.466,40.832293,-73.93664,40.843334,-73.931514,68,sunny,mild_weather,mild_weather
+WT17_0418,driver_18,4440438,2025-03-27 09:00:00,2025-03-27 09:06:17.519,car,standard car,15,,,mild_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild_weather,mild_weather
+WT17_0419,driver_19,4838142,2025-03-27 12:00:00,2025-03-27 12:09:42.422,car,standard car,25,,,mild_weather,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,mild_weather,mild_weather
+WT17_0420,driver_20,4440438,2025-03-27 15:00:00,2025-03-27 15:06:17.530,car,standard car,35,,,mild_weather,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild_weather,mild_weather
+WT17_0421,user_01,5772012,2025-03-27 18:00:00,2025-03-27 18:27:12.445,walking,,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0422,user_02,4388991,2025-03-27 21:00:00,2025-03-27 21:33:43.520,walking,,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0423,user_03,4212929,2025-03-28 00:00:00,2025-03-28 00:39:39.660,walking,,25,,,poor_weather,2.512,40.653368,-73.919061,40.658289,-73.89111,70,rainy,poor_weather,poor_weather
+WT17_0424,user_04,4635583,2025-03-28 03:00:00,2025-03-28 03:37:04.035,walking,,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0425,user_05,5772012,2025-03-28 06:00:00,2025-03-28 06:26:51.272,walking,,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0426,user_06,4388991,2025-03-28 09:00:00,2025-03-28 09:34:12.117,walking,,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0427,user_07,4212929,2025-03-28 12:00:00,2025-03-28 12:40:18.586,walking,,25,,,poor_weather,2.512,40.653368,-73.919061,40.658289,-73.89111,70,rainy,poor_weather,poor_weather
+WT17_0428,user_08,4635583,2025-03-28 15:00:00,2025-03-28 15:34:11.445,walking,,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0429,user_09,5772012,2025-03-28 18:00:00,2025-03-28 18:29:21.515,walking,,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0430,user_10,4388991,2025-03-28 21:00:00,2025-03-28 21:35:47.804,walking,,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0431,user_11,4212929,2025-03-29 00:00:00,2025-03-29 00:40:19.561,walking,,25,,,poor_weather,2.512,40.653368,-73.919061,40.658289,-73.89111,70,rainy,poor_weather,poor_weather
+WT17_0432,user_12,4635583,2025-03-29 03:00:00,2025-03-29 03:36:27.249,walking,,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0433,user_13,5772012,2025-03-29 06:00:00,2025-03-29 06:27:19.393,walking,,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0434,user_14,4388991,2025-03-29 09:00:00,2025-03-29 09:36:20.051,walking,,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0435,user_15,4212929,2025-03-29 12:00:00,2025-03-29 12:38:28.748,walking,,25,,,poor_weather,2.512,40.653368,-73.919061,40.658289,-73.89111,70,rainy,poor_weather,poor_weather
+WT17_0436,user_16,4635583,2025-03-29 15:00:00,2025-03-29 15:35:09.676,walking,,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0437,user_17,5772012,2025-03-29 18:00:00,2025-03-29 18:26:51.314,walking,,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0438,user_18,4388991,2025-03-29 21:00:00,2025-03-29 21:33:57.706,walking,,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0439,user_19,4212929,2025-03-30 00:00:00,2025-03-30 00:40:02.968,walking,,25,,,poor_weather,2.512,40.653368,-73.919061,40.658289,-73.89111,70,rainy,poor_weather,poor_weather
+WT17_0440,user_20,4635583,2025-03-30 03:00:00,2025-03-30 03:34:27.440,walking,,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0441,user_21,5772012,2025-03-30 06:00:00,2025-03-30 06:28:15.211,walking,,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0442,user_22,4388991,2025-03-30 09:00:00,2025-03-30 09:33:56.799,walking,,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0443,user_23,4212929,2025-03-30 12:00:00,2025-03-30 12:35:35.197,walking,,25,,,poor_weather,2.512,40.653368,-73.919061,40.658289,-73.89111,70,rainy,poor_weather,poor_weather
+WT17_0444,user_24,4635583,2025-03-30 15:00:00,2025-03-30 15:35:37.644,walking,,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0445,user_25,5772012,2025-03-30 18:00:00,2025-03-30 18:30:45.147,walking,,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0446,user_26,4388991,2025-03-30 21:00:00,2025-03-30 21:34:54.330,walking,,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0447,user_27,4212929,2025-03-31 00:00:00,2025-03-31 00:36:03.382,walking,,25,,,poor_weather,2.512,40.653368,-73.919061,40.658289,-73.89111,70,rainy,poor_weather,poor_weather
+WT17_0448,user_28,4635583,2025-03-31 03:00:00,2025-03-31 03:34:44.228,walking,,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0449,user_29,5772012,2025-03-31 06:00:00,2025-03-31 06:29:55.377,walking,,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0450,user_30,4388991,2025-03-31 09:00:00,2025-03-31 09:35:05.969,walking,,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0451,user_31,4212929,2025-03-31 12:00:00,2025-03-31 12:37:06.264,walking,,25,,,poor_weather,2.512,40.653368,-73.919061,40.658289,-73.89111,70,rainy,poor_weather,poor_weather
+WT17_0452,user_32,4635583,2025-03-31 15:00:00,2025-03-31 15:37:08.501,walking,,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0453,user_33,5772012,2025-03-31 18:00:00,2025-03-31 18:28:04.144,walking,,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0454,user_34,4388991,2025-03-31 21:00:00,2025-03-31 21:32:02.404,walking,,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0455,user_35,4212929,2025-04-01 00:00:00,2025-04-01 00:37:10.942,walking,,25,,,poor_weather,2.512,40.653368,-73.919061,40.658289,-73.89111,70,rainy,poor_weather,poor_weather
+WT17_0456,user_36,4635583,2025-04-01 03:00:00,2025-04-01 03:33:44.175,walking,,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0457,user_37,5772012,2025-04-01 06:00:00,2025-04-01 06:29:46.068,walking,,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0458,user_38,4388991,2025-04-01 09:00:00,2025-04-01 09:34:57.721,walking,,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0459,user_39,4212929,2025-04-01 12:00:00,2025-04-01 12:39:45.322,walking,,25,,,poor_weather,2.512,40.653368,-73.919061,40.658289,-73.89111,70,rainy,poor_weather,poor_weather
+WT17_0460,user_40,4635583,2025-04-01 15:00:00,2025-04-01 15:34:28.879,walking,,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0461,user_41,5772012,2025-04-01 18:00:00,2025-04-01 18:30:02.332,walking,,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0462,user_42,4388991,2025-04-01 21:00:00,2025-04-01 21:32:32.643,walking,,15,,,poor_weather,2.262,40.75305,-73.979853,40.757205,-73.996015,68,rainy,poor_weather,poor_weather
+WT17_0463,user_43,4212929,2025-04-02 00:00:00,2025-04-02 00:37:51.689,walking,,25,,,poor_weather,2.512,40.653368,-73.919061,40.658289,-73.89111,70,rainy,poor_weather,poor_weather
+WT17_0464,user_44,4635583,2025-04-02 03:00:00,2025-04-02 03:34:56.094,walking,,35,,,poor_weather,2.396,40.668117,-73.925644,40.651731,-73.917249,68,rainy,poor_weather,poor_weather
+WT17_0465,user_45,5772012,2025-04-02 06:00:00,2025-04-02 06:28:47.400,walking,,5,,,poor_weather,1.918,40.757047,-73.996462,40.749584,-73.999118,67,rainy,poor_weather,poor_weather
+WT17_0466,user_46,5772012,2025-04-02 09:00:00,2025-04-02 09:10:18.438,cycling,,5,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0467,user_47,4388991,2025-04-02 12:00:00,2025-04-02 12:12:21.759,cycling,,15,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0468,user_48,4212929,2025-04-02 15:00:00,2025-04-02 15:13:47.097,cycling,,25,,,poor_weather,2.512,40.658289,-73.89111,40.653368,-73.919061,70,rainy,poor_weather,poor_weather
+WT17_0469,user_49,4635583,2025-04-02 18:00:00,2025-04-02 18:13:20.764,cycling,,35,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0470,user_50,5772012,2025-04-02 21:00:00,2025-04-02 21:10:40.826,cycling,,5,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0471,user_51,4388991,2025-04-03 00:00:00,2025-04-03 00:12:20.260,cycling,,15,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0472,user_52,4212929,2025-04-03 03:00:00,2025-04-03 03:13:25.277,cycling,,25,,,poor_weather,2.512,40.658289,-73.89111,40.653368,-73.919061,70,rainy,poor_weather,poor_weather
+WT17_0473,user_53,4635583,2025-04-03 06:00:00,2025-04-03 06:13:27.098,cycling,,35,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0474,user_54,5772012,2025-04-03 09:00:00,2025-04-03 09:10:32.847,cycling,,5,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0475,user_55,4388991,2025-04-03 12:00:00,2025-04-03 12:11:58.261,cycling,,15,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0476,user_56,4212929,2025-04-03 15:00:00,2025-04-03 15:13:53.767,cycling,,25,,,poor_weather,2.512,40.658289,-73.89111,40.653368,-73.919061,70,rainy,poor_weather,poor_weather
+WT17_0477,user_57,4635583,2025-04-03 18:00:00,2025-04-03 18:13:25.938,cycling,,35,,,poor_weather,2.396,40.651731,-73.917249,40.668117,-73.925644,68,rainy,poor_weather,poor_weather
+WT17_0478,user_58,5772012,2025-04-03 21:00:00,2025-04-03 21:10:35.322,cycling,,5,,,poor_weather,1.918,40.749584,-73.999118,40.757047,-73.996462,67,rainy,poor_weather,poor_weather
+WT17_0479,user_59,4388991,2025-04-04 00:00:00,2025-04-04 00:12:00.264,cycling,,15,,,poor_weather,2.262,40.757205,-73.996015,40.75305,-73.979853,68,rainy,poor_weather,poor_weather
+WT17_0480,user_60,4212929,2025-04-04 03:00:00,2025-04-04 03:13:33.035,cycling,,25,,,poor_weather,2.512,40.658289,-73.89111,40.653368,-73.919061,70,rainy,poor_weather,poor_weather
+WT17_0481,user_01,4440438,2025-04-04 06:00:00,2025-04-04 06:50:26.347,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0482,user_02,4838142,2025-04-04 09:00:00,2025-04-04 10:17:40.970,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0483,user_03,4743742,2025-04-04 12:00:00,2025-04-04 13:24:39.357,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0484,user_04,6950519,2025-04-04 15:00:00,2025-04-04 16:23:23.482,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0485,user_05,4440438,2025-04-04 18:00:00,2025-04-04 18:50:14.153,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0486,user_06,4838142,2025-04-04 21:00:00,2025-04-04 22:17:05.323,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0487,user_07,4743742,2025-04-05 00:00:00,2025-04-05 01:18:10.343,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0488,user_08,6950519,2025-04-05 03:00:00,2025-04-05 04:22:10.796,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0489,user_09,4440438,2025-04-05 06:00:00,2025-04-05 06:51:09.826,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0490,user_10,4838142,2025-04-05 09:00:00,2025-04-05 10:18:58.560,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0491,user_11,4743742,2025-04-05 12:00:00,2025-04-05 13:18:31.070,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0492,user_12,6950519,2025-04-05 15:00:00,2025-04-05 16:23:04.189,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0493,user_13,4440438,2025-04-05 18:00:00,2025-04-05 18:51:43.547,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0494,user_14,4838142,2025-04-05 21:00:00,2025-04-05 22:23:13.296,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0495,user_15,4743742,2025-04-06 00:00:00,2025-04-06 01:19:53.732,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0496,user_16,6950519,2025-04-06 03:00:00,2025-04-06 04:21:52.870,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0497,user_17,4440438,2025-04-06 06:00:00,2025-04-06 06:48:29.358,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0498,user_18,4838142,2025-04-06 09:00:00,2025-04-06 10:14:32.818,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0499,user_19,4743742,2025-04-06 12:00:00,2025-04-06 13:19:52.952,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0500,user_20,6950519,2025-04-06 15:00:00,2025-04-06 16:22:51.046,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0501,user_21,4440438,2025-04-06 18:00:00,2025-04-06 18:47:37.796,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0502,user_22,4838142,2025-04-06 21:00:00,2025-04-06 22:17:18.857,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0503,user_23,4743742,2025-04-07 00:00:00,2025-04-07 01:23:46.293,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0504,user_24,6950519,2025-04-07 03:00:00,2025-04-07 04:22:41.253,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0505,user_25,4440438,2025-04-07 06:00:00,2025-04-07 06:52:07.900,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0506,user_26,4838142,2025-04-07 09:00:00,2025-04-07 10:16:52.055,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0507,user_27,4743742,2025-04-07 12:00:00,2025-04-07 13:23:47.192,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0508,user_28,6950519,2025-04-07 15:00:00,2025-04-07 16:20:52.571,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0509,user_29,4440438,2025-04-07 18:00:00,2025-04-07 18:52:09.218,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0510,user_30,4838142,2025-04-07 21:00:00,2025-04-07 22:22:29.322,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0511,user_31,4743742,2025-04-08 00:00:00,2025-04-08 01:17:55.309,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0512,user_32,6950519,2025-04-08 03:00:00,2025-04-08 04:22:03.488,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0513,user_33,4440438,2025-04-08 06:00:00,2025-04-08 06:52:32.289,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0514,user_34,4838142,2025-04-08 09:00:00,2025-04-08 10:18:45.979,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0515,user_35,4743742,2025-04-08 12:00:00,2025-04-08 13:18:20.848,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0516,user_36,6950519,2025-04-08 15:00:00,2025-04-08 16:15:45.438,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0517,user_37,4440438,2025-04-08 18:00:00,2025-04-08 18:48:28.742,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0518,user_38,4838142,2025-04-08 21:00:00,2025-04-08 22:22:45.253,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0519,user_39,4743742,2025-04-09 00:00:00,2025-04-09 01:17:42.107,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0520,user_40,6950519,2025-04-09 03:00:00,2025-04-09 04:23:08.811,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0521,user_41,4440438,2025-04-09 06:00:00,2025-04-09 06:50:00.394,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0522,user_42,4838142,2025-04-09 09:00:00,2025-04-09 10:21:33.317,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0523,user_43,4743742,2025-04-09 12:00:00,2025-04-09 13:21:14.634,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0524,user_44,6950519,2025-04-09 15:00:00,2025-04-09 16:23:22.272,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0525,user_45,4440438,2025-04-09 18:00:00,2025-04-09 18:49:41.546,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0526,user_46,4838142,2025-04-09 21:00:00,2025-04-09 22:16:02.668,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0527,user_47,4743742,2025-04-10 00:00:00,2025-04-10 01:18:20.766,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0528,user_48,6950519,2025-04-10 03:00:00,2025-04-10 04:17:10.329,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0529,user_49,4440438,2025-04-10 06:00:00,2025-04-10 06:48:45.957,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0530,user_50,4838142,2025-04-10 09:00:00,2025-04-10 10:19:43.617,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0531,user_51,4743742,2025-04-10 12:00:00,2025-04-10 13:16:59.350,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0532,user_52,6950519,2025-04-10 15:00:00,2025-04-10 16:15:30.331,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0533,user_53,4440438,2025-04-10 18:00:00,2025-04-10 18:50:17.115,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0534,user_54,4838142,2025-04-10 21:00:00,2025-04-10 22:15:31.085,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0535,user_55,4743742,2025-04-11 00:00:00,2025-04-11 01:18:20.575,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0536,user_56,6950519,2025-04-11 03:00:00,2025-04-11 04:21:51.826,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0537,user_57,4440438,2025-04-11 06:00:00,2025-04-11 06:48:32.853,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0538,user_58,4838142,2025-04-11 09:00:00,2025-04-11 10:20:06.437,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0539,user_59,4743742,2025-04-11 12:00:00,2025-04-11 13:20:56.855,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0540,user_60,6950519,2025-04-11 15:00:00,2025-04-11 16:16:23.406,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0541,user_01,4440438,2025-04-11 18:00:00,2025-04-11 18:53:33.789,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0542,user_02,4838142,2025-04-11 21:00:00,2025-04-11 22:18:52.443,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0543,user_03,4743742,2025-04-12 00:00:00,2025-04-12 01:18:37.433,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0544,user_04,6950519,2025-04-12 03:00:00,2025-04-12 04:19:02.908,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0545,user_05,4440438,2025-04-12 06:00:00,2025-04-12 06:50:47.501,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0546,user_06,4838142,2025-04-12 09:00:00,2025-04-12 10:20:04.504,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0547,user_07,4743742,2025-04-12 12:00:00,2025-04-12 13:18:26.403,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0548,user_08,6950519,2025-04-12 15:00:00,2025-04-12 16:18:06.182,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0549,user_09,4440438,2025-04-12 18:00:00,2025-04-12 18:49:59.807,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0550,user_10,4838142,2025-04-12 21:00:00,2025-04-12 22:17:27.625,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0551,user_11,4743742,2025-04-13 00:00:00,2025-04-13 01:25:09.504,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0552,user_12,6950519,2025-04-13 03:00:00,2025-04-13 04:18:01.424,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0553,user_13,4440438,2025-04-13 06:00:00,2025-04-13 06:49:14.272,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0554,user_14,4838142,2025-04-13 09:00:00,2025-04-13 10:16:06.418,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0555,user_15,4743742,2025-04-13 12:00:00,2025-04-13 13:19:35.574,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0556,user_16,6950519,2025-04-13 15:00:00,2025-04-13 16:15:13.370,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0557,user_17,4440438,2025-04-13 18:00:00,2025-04-13 18:52:45.193,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0558,user_18,4838142,2025-04-13 21:00:00,2025-04-13 22:21:27.511,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0559,user_19,4743742,2025-04-14 00:00:00,2025-04-14 01:22:33.060,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0560,user_20,6950519,2025-04-14 03:00:00,2025-04-14 04:21:25.938,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0561,user_21,4440438,2025-04-14 06:00:00,2025-04-14 06:52:35.187,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0562,user_22,4838142,2025-04-14 09:00:00,2025-04-14 10:15:33.506,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0563,user_23,4743742,2025-04-14 12:00:00,2025-04-14 13:24:46.899,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0564,user_24,6950519,2025-04-14 15:00:00,2025-04-14 16:20:01.094,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0565,user_25,4440438,2025-04-14 18:00:00,2025-04-14 18:48:34.923,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0566,user_26,4838142,2025-04-14 21:00:00,2025-04-14 22:15:19.015,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0567,user_27,4743742,2025-04-15 00:00:00,2025-04-15 01:23:29.173,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0568,user_28,6950519,2025-04-15 03:00:00,2025-04-15 04:19:46.215,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0569,user_29,4440438,2025-04-15 06:00:00,2025-04-15 06:49:39.721,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0570,user_30,4838142,2025-04-15 09:00:00,2025-04-15 10:18:13.078,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0571,user_31,4743742,2025-04-15 12:00:00,2025-04-15 13:22:04.136,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0572,user_32,6950519,2025-04-15 15:00:00,2025-04-15 16:22:58.755,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0573,user_33,4440438,2025-04-15 18:00:00,2025-04-15 18:50:02.538,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0574,user_34,4838142,2025-04-15 21:00:00,2025-04-15 22:16:24.550,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0575,user_35,4743742,2025-04-16 00:00:00,2025-04-16 01:22:44.670,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0576,user_36,6950519,2025-04-16 03:00:00,2025-04-16 04:18:29.160,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0577,user_37,4440438,2025-04-16 06:00:00,2025-04-16 06:49:29.646,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0578,user_38,4838142,2025-04-16 09:00:00,2025-04-16 10:18:06.728,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0579,user_39,4743742,2025-04-16 12:00:00,2025-04-16 13:19:07.358,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0580,user_40,6950519,2025-04-16 15:00:00,2025-04-16 16:19:55.827,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0581,user_41,4440438,2025-04-16 18:00:00,2025-04-16 18:47:42.706,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0582,user_42,4838142,2025-04-16 21:00:00,2025-04-16 22:21:03.496,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0583,user_43,4743742,2025-04-17 00:00:00,2025-04-17 01:16:40.914,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0584,user_44,6950519,2025-04-17 03:00:00,2025-04-17 04:23:50.073,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0585,user_45,4440438,2025-04-17 06:00:00,2025-04-17 06:48:02.709,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0586,user_46,4838142,2025-04-17 09:00:00,2025-04-17 10:19:06.028,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0587,user_47,4743742,2025-04-17 12:00:00,2025-04-17 13:22:03.502,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0588,user_48,6950519,2025-04-17 15:00:00,2025-04-17 16:19:38.046,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0589,user_49,4440438,2025-04-17 18:00:00,2025-04-17 18:47:36.246,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0590,user_50,4838142,2025-04-17 21:00:00,2025-04-17 22:20:20.252,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0591,user_51,4743742,2025-04-18 00:00:00,2025-04-18 01:19:51.840,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0592,user_52,6950519,2025-04-18 03:00:00,2025-04-18 04:22:32.432,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0593,user_53,4440438,2025-04-18 06:00:00,2025-04-18 06:48:31.784,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0594,user_54,4838142,2025-04-18 09:00:00,2025-04-18 10:17:13.546,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0595,user_55,4743742,2025-04-18 12:00:00,2025-04-18 13:19:41.106,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0596,user_56,6950519,2025-04-18 15:00:00,2025-04-18 16:23:02.259,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0597,user_57,4440438,2025-04-18 18:00:00,2025-04-18 18:49:24.231,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0598,user_58,4838142,2025-04-18 21:00:00,2025-04-18 22:22:57.287,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0599,user_59,4743742,2025-04-19 00:00:00,2025-04-19 01:17:24.964,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0600,user_60,6950519,2025-04-19 03:00:00,2025-04-19 04:21:13.507,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0601,user_01,4440438,2025-04-19 06:00:00,2025-04-19 06:50:24.521,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0602,user_02,4838142,2025-04-19 09:00:00,2025-04-19 10:16:09.181,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0603,user_03,4743742,2025-04-19 12:00:00,2025-04-19 13:18:48.674,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0604,user_04,6950519,2025-04-19 15:00:00,2025-04-19 16:23:52.014,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0605,user_05,4440438,2025-04-19 18:00:00,2025-04-19 18:48:02.898,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0606,user_06,4838142,2025-04-19 21:00:00,2025-04-19 22:17:09.733,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0607,user_07,4743742,2025-04-20 00:00:00,2025-04-20 01:22:18.965,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0608,user_08,6950519,2025-04-20 03:00:00,2025-04-20 04:23:13.492,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0609,user_09,4440438,2025-04-20 06:00:00,2025-04-20 06:48:25.565,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0610,user_10,4838142,2025-04-20 09:00:00,2025-04-20 10:16:12.100,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0611,user_11,4743742,2025-04-20 12:00:00,2025-04-20 13:21:03.497,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0612,user_12,6950519,2025-04-20 15:00:00,2025-04-20 16:22:56.743,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0613,user_13,4440438,2025-04-20 18:00:00,2025-04-20 18:47:21.213,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0614,user_14,4838142,2025-04-20 21:00:00,2025-04-20 22:15:11.604,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0615,user_15,4743742,2025-04-21 00:00:00,2025-04-21 01:24:44.317,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0616,user_16,6950519,2025-04-21 03:00:00,2025-04-21 04:14:59.117,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0617,user_17,4440438,2025-04-21 06:00:00,2025-04-21 06:50:13.980,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0618,user_18,4838142,2025-04-21 09:00:00,2025-04-21 10:18:16.587,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0619,user_19,4743742,2025-04-21 12:00:00,2025-04-21 13:21:16.974,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0620,user_20,6950519,2025-04-21 15:00:00,2025-04-21 16:19:13.506,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0621,user_21,4440438,2025-04-21 18:00:00,2025-04-21 18:52:48.573,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0622,user_22,4838142,2025-04-21 21:00:00,2025-04-21 22:20:22.282,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0623,user_23,4743742,2025-04-22 00:00:00,2025-04-22 01:16:47.611,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0624,user_24,6950519,2025-04-22 03:00:00,2025-04-22 04:18:26.531,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0625,user_25,4440438,2025-04-22 06:00:00,2025-04-22 06:53:14.522,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0626,user_26,4838142,2025-04-22 09:00:00,2025-04-22 10:17:52.809,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0627,user_27,4743742,2025-04-22 12:00:00,2025-04-22 13:16:09.451,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0628,user_28,6950519,2025-04-22 15:00:00,2025-04-22 16:17:00.252,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0629,user_29,4440438,2025-04-22 18:00:00,2025-04-22 18:49:02.041,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0630,user_30,4838142,2025-04-22 21:00:00,2025-04-22 22:21:22.621,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0631,user_31,4743742,2025-04-23 00:00:00,2025-04-23 01:21:12.731,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0632,user_32,6950519,2025-04-23 03:00:00,2025-04-23 04:15:50.863,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0633,user_33,4440438,2025-04-23 06:00:00,2025-04-23 06:53:04.541,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0634,user_34,4838142,2025-04-23 09:00:00,2025-04-23 10:18:19.316,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0635,user_35,4743742,2025-04-23 12:00:00,2025-04-23 13:24:41.010,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0636,user_36,6950519,2025-04-23 15:00:00,2025-04-23 16:17:06.062,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0637,user_37,4440438,2025-04-23 18:00:00,2025-04-23 18:53:30.049,walking,,5,,,mild_weather,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild_weather,mild_weather
+WT17_0638,user_38,4838142,2025-04-23 21:00:00,2025-04-23 22:16:08.420,walking,,15,,,mild_weather,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,mild_weather,mild_weather
+WT17_0639,user_39,4743742,2025-04-24 00:00:00,2025-04-24 01:16:56.635,walking,,25,,,mild_weather,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild_weather,mild_weather
+WT17_0640,user_40,6950519,2025-04-24 03:00:00,2025-04-24 04:17:54.585,walking,,35,,,mild_weather,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild_weather,mild_weather
+WT17_0641,user_41,4550608,2025-04-24 06:00:00,2025-04-24 06:10:14.725,cycling,,5,,,mild_weather,2.585,40.756817,-73.996163,40.749189,-73.988391,65,sunny,mild_weather,mild_weather
+WT17_0642,user_42,4483073,2025-04-24 09:00:00,2025-04-24 09:10:37.230,cycling,,15,,,mild_weather,2.669,40.744892,-73.975816,40.756893,-73.996326,67,sunny,mild_weather,mild_weather
+WT17_0643,user_43,6044776,2025-04-24 12:00:00,2025-04-24 12:11:58.937,cycling,,25,,,mild_weather,2.945,40.757049,-73.996466,40.77805,-73.987657,65,sunny,mild_weather,mild_weather
+WT17_0644,user_44,5310350,2025-04-24 15:00:00,2025-04-24 15:12:56.500,cycling,,35,,,mild_weather,3.256,40.640094,-73.925767,40.625306,-73.93388,68,sunny,mild_weather,mild_weather
+WT17_0645,user_45,4310466,2025-04-24 18:00:00,2025-04-24 18:13:02.842,cycling,,5,,,mild_weather,3.255,40.61328,-73.948822,40.597149,-73.952046,69,sunny,mild_weather,mild_weather
+WT17_0646,user_46,4838154,2025-04-24 21:00:00,2025-04-24 21:13:21.539,cycling,,15,,,mild_weather,3.231,40.688829,-73.953955,40.695931,-73.973395,71,sunny,mild_weather,mild_weather
+WT17_0647,user_47,4550608,2025-04-25 00:00:00,2025-04-25 00:10:17.177,cycling,,25,,,mild_weather,2.585,40.756817,-73.996163,40.749189,-73.988391,65,sunny,mild_weather,mild_weather
+WT17_0648,user_48,4483073,2025-04-25 03:00:00,2025-04-25 03:10:23.172,cycling,,35,,,mild_weather,2.669,40.744892,-73.975816,40.756893,-73.996326,67,sunny,mild_weather,mild_weather
+WT17_0649,user_49,6044776,2025-04-25 06:00:00,2025-04-25 06:11:35.824,cycling,,5,,,mild_weather,2.945,40.757049,-73.996466,40.77805,-73.987657,65,sunny,mild_weather,mild_weather
+WT17_0650,user_50,5310350,2025-04-25 09:00:00,2025-04-25 09:12:40.224,cycling,,15,,,mild_weather,3.256,40.640094,-73.925767,40.625306,-73.93388,68,sunny,mild_weather,mild_weather
+WT17_0651,user_51,4310466,2025-04-25 12:00:00,2025-04-25 12:12:53.219,cycling,,25,,,mild_weather,3.255,40.61328,-73.948822,40.597149,-73.952046,69,sunny,mild_weather,mild_weather
+WT17_0652,user_52,4838154,2025-04-25 15:00:00,2025-04-25 15:12:46.355,cycling,,35,,,mild_weather,3.231,40.688829,-73.953955,40.695931,-73.973395,71,sunny,mild_weather,mild_weather
+WT17_0653,user_53,4550608,2025-04-25 18:00:00,2025-04-25 18:10:22.706,cycling,,5,,,mild_weather,2.585,40.756817,-73.996163,40.749189,-73.988391,65,sunny,mild_weather,mild_weather
+WT17_0654,user_54,4483073,2025-04-25 21:00:00,2025-04-25 21:10:36.523,cycling,,15,,,mild_weather,2.669,40.744892,-73.975816,40.756893,-73.996326,67,sunny,mild_weather,mild_weather
+WT17_0655,user_55,6044776,2025-04-26 00:00:00,2025-04-26 00:11:53.960,cycling,,25,,,mild_weather,2.945,40.757049,-73.996466,40.77805,-73.987657,65,sunny,mild_weather,mild_weather
+WT17_0656,user_56,5310350,2025-04-26 03:00:00,2025-04-26 03:12:56.824,cycling,,35,,,mild_weather,3.256,40.640094,-73.925767,40.625306,-73.93388,68,sunny,mild_weather,mild_weather
+WT17_0657,user_57,4310466,2025-04-26 06:00:00,2025-04-26 06:12:43.695,cycling,,5,,,mild_weather,3.255,40.61328,-73.948822,40.597149,-73.952046,69,sunny,mild_weather,mild_weather
+WT17_0658,user_58,4838154,2025-04-26 09:00:00,2025-04-26 09:12:47.692,cycling,,15,,,mild_weather,3.231,40.688829,-73.953955,40.695931,-73.973395,71,sunny,mild_weather,mild_weather
+WT17_0659,user_59,4550608,2025-04-26 12:00:00,2025-04-26 12:10:16.863,cycling,,25,,,mild_weather,2.585,40.756817,-73.996163,40.749189,-73.988391,65,sunny,mild_weather,mild_weather
+WT17_0660,user_60,4483073,2025-04-26 15:00:00,2025-04-26 15:10:42.359,cycling,,35,,,mild_weather,2.669,40.744892,-73.975816,40.756893,-73.996326,67,sunny,mild_weather,mild_weather
+WT17_0661,user_01,6044776,2025-04-26 18:00:00,2025-04-26 18:11:36.844,cycling,,5,,,mild_weather,2.945,40.757049,-73.996466,40.77805,-73.987657,65,sunny,mild_weather,mild_weather
+WT17_0662,user_02,5310350,2025-04-26 21:00:00,2025-04-26 21:13:03.630,cycling,,15,,,mild_weather,3.256,40.640094,-73.925767,40.625306,-73.93388,68,sunny,mild_weather,mild_weather
+WT17_0663,user_03,4310466,2025-04-27 00:00:00,2025-04-27 00:12:56.007,cycling,,25,,,mild_weather,3.255,40.61328,-73.948822,40.597149,-73.952046,69,sunny,mild_weather,mild_weather
+WT17_0664,user_04,4838154,2025-04-27 03:00:00,2025-04-27 03:13:09.743,cycling,,35,,,mild_weather,3.231,40.688829,-73.953955,40.695931,-73.973395,71,sunny,mild_weather,mild_weather
+WT17_0665,user_05,4550608,2025-04-27 06:00:00,2025-04-27 06:10:29.988,cycling,,5,,,mild_weather,2.585,40.756817,-73.996163,40.749189,-73.988391,65,sunny,mild_weather,mild_weather
+WT17_0666,user_06,4483073,2025-04-27 09:00:00,2025-04-27 09:10:41.616,cycling,,15,,,mild_weather,2.669,40.744892,-73.975816,40.756893,-73.996326,67,sunny,mild_weather,mild_weather
+WT17_0667,user_07,6044776,2025-04-27 12:00:00,2025-04-27 12:11:37.626,cycling,,25,,,mild_weather,2.945,40.757049,-73.996466,40.77805,-73.987657,65,sunny,mild_weather,mild_weather
+WT17_0668,user_08,5310350,2025-04-27 15:00:00,2025-04-27 15:12:39.528,cycling,,35,,,mild_weather,3.256,40.640094,-73.925767,40.625306,-73.93388,68,sunny,mild_weather,mild_weather
+WT17_0669,user_09,4310466,2025-04-27 18:00:00,2025-04-27 18:12:48.559,cycling,,5,,,mild_weather,3.255,40.61328,-73.948822,40.597149,-73.952046,69,sunny,mild_weather,mild_weather
+WT17_0670,user_10,4838154,2025-04-27 21:00:00,2025-04-27 21:13:09.094,cycling,,15,,,mild_weather,3.231,40.688829,-73.953955,40.695931,-73.973395,71,sunny,mild_weather,mild_weather
+WT17_0671,user_11,4550608,2025-04-28 00:00:00,2025-04-28 00:10:13.148,cycling,,25,,,mild_weather,2.585,40.756817,-73.996163,40.749189,-73.988391,65,sunny,mild_weather,mild_weather
+WT17_0672,user_12,4483073,2025-04-28 03:00:00,2025-04-28 03:10:32.910,cycling,,35,,,mild_weather,2.669,40.744892,-73.975816,40.756893,-73.996326,67,sunny,mild_weather,mild_weather
+WT17_0673,user_13,6044776,2025-04-28 06:00:00,2025-04-28 06:11:53.875,cycling,,5,,,mild_weather,2.945,40.757049,-73.996466,40.77805,-73.987657,65,sunny,mild_weather,mild_weather
+WT17_0674,user_14,5310350,2025-04-28 09:00:00,2025-04-28 09:12:48.391,cycling,,15,,,mild_weather,3.256,40.640094,-73.925767,40.625306,-73.93388,68,sunny,mild_weather,mild_weather
+WT17_0675,user_15,4310466,2025-04-28 12:00:00,2025-04-28 12:13:04.093,cycling,,25,,,mild_weather,3.255,40.61328,-73.948822,40.597149,-73.952046,69,sunny,mild_weather,mild_weather
+WT17_0676,user_16,4838154,2025-04-28 15:00:00,2025-04-28 15:13:05.542,cycling,,35,,,mild_weather,3.231,40.688829,-73.953955,40.695931,-73.973395,71,sunny,mild_weather,mild_weather
+WT17_0677,user_17,4550608,2025-04-28 18:00:00,2025-04-28 18:10:27.162,cycling,,5,,,mild_weather,2.585,40.756817,-73.996163,40.749189,-73.988391,65,sunny,mild_weather,mild_weather
+WT17_0678,user_18,4483073,2025-04-28 21:00:00,2025-04-28 21:10:41.252,cycling,,15,,,mild_weather,2.669,40.744892,-73.975816,40.756893,-73.996326,67,sunny,mild_weather,mild_weather
+WT17_0679,user_19,6044776,2025-04-29 00:00:00,2025-04-29 00:11:51.038,cycling,,25,,,mild_weather,2.945,40.757049,-73.996466,40.77805,-73.987657,65,sunny,mild_weather,mild_weather
+WT17_0680,user_20,5310350,2025-04-29 03:00:00,2025-04-29 03:12:51.025,cycling,,35,,,mild_weather,3.256,40.640094,-73.925767,40.625306,-73.93388,68,sunny,mild_weather,mild_weather
+WT17_0681,user_21,4310466,2025-04-29 06:00:00,2025-04-29 06:13:05.247,cycling,,5,,,mild_weather,3.255,40.61328,-73.948822,40.597149,-73.952046,69,sunny,mild_weather,mild_weather
+WT17_0682,user_22,4838154,2025-04-29 09:00:00,2025-04-29 09:13:10.598,cycling,,15,,,mild_weather,3.231,40.688829,-73.953955,40.695931,-73.973395,71,sunny,mild_weather,mild_weather
+WT17_0683,user_23,4550608,2025-04-29 12:00:00,2025-04-29 12:10:32.220,cycling,,25,,,mild_weather,2.585,40.756817,-73.996163,40.749189,-73.988391,65,sunny,mild_weather,mild_weather
+WT17_0684,user_24,4483073,2025-04-29 15:00:00,2025-04-29 15:10:30.211,cycling,,35,,,mild_weather,2.669,40.744892,-73.975816,40.756893,-73.996326,67,sunny,mild_weather,mild_weather
+WT17_0685,user_25,6044776,2025-04-29 18:00:00,2025-04-29 18:11:33.591,cycling,,5,,,mild_weather,2.945,40.757049,-73.996466,40.77805,-73.987657,65,sunny,mild_weather,mild_weather
+WT17_0686,user_26,5310350,2025-04-29 21:00:00,2025-04-29 21:12:47.843,cycling,,15,,,mild_weather,3.256,40.640094,-73.925767,40.625306,-73.93388,68,sunny,mild_weather,mild_weather
+WT17_0687,user_27,4310466,2025-04-30 00:00:00,2025-04-30 00:12:48.256,cycling,,25,,,mild_weather,3.255,40.61328,-73.948822,40.597149,-73.952046,69,sunny,mild_weather,mild_weather
+WT17_0688,user_28,4838154,2025-04-30 03:00:00,2025-04-30 03:13:05.806,cycling,,35,,,mild_weather,3.231,40.688829,-73.953955,40.695931,-73.973395,71,sunny,mild_weather,mild_weather
+WT17_0689,user_29,4550608,2025-04-30 06:00:00,2025-04-30 06:10:31.197,cycling,,5,,,mild_weather,2.585,40.756817,-73.996163,40.749189,-73.988391,65,sunny,mild_weather,mild_weather
+WT17_0690,user_30,4483073,2025-04-30 09:00:00,2025-04-30 09:10:38.214,cycling,,15,,,mild_weather,2.669,40.744892,-73.975816,40.756893,-73.996326,67,sunny,mild_weather,mild_weather
+WT17_0691,user_31,6044776,2025-04-30 12:00:00,2025-04-30 12:11:33.369,cycling,,25,,,mild_weather,2.945,40.757049,-73.996466,40.77805,-73.987657,65,sunny,mild_weather,mild_weather
+WT17_0692,user_32,5310350,2025-04-30 15:00:00,2025-04-30 15:13:10.138,cycling,,35,,,mild_weather,3.256,40.640094,-73.925767,40.625306,-73.93388,68,sunny,mild_weather,mild_weather
+WT17_0693,user_33,4310466,2025-04-30 18:00:00,2025-04-30 18:13:01.972,cycling,,5,,,mild_weather,3.255,40.61328,-73.948822,40.597149,-73.952046,69,sunny,mild_weather,mild_weather
+WT17_0694,user_34,4838154,2025-04-30 21:00:00,2025-04-30 21:13:12.025,cycling,,15,,,mild_weather,3.231,40.688829,-73.953955,40.695931,-73.973395,71,sunny,mild_weather,mild_weather
+WT17_0695,user_35,4550608,2025-05-01 00:00:00,2025-05-01 00:10:22.883,cycling,,25,,,mild_weather,2.585,40.756817,-73.996163,40.749189,-73.988391,65,sunny,mild_weather,mild_weather
+WT17_0696,user_36,4483073,2025-05-01 03:00:00,2025-05-01 03:10:35.951,cycling,,35,,,mild_weather,2.669,40.744892,-73.975816,40.756893,-73.996326,67,sunny,mild_weather,mild_weather
+WT17_0697,user_37,6044776,2025-05-01 06:00:00,2025-05-01 06:11:38.518,cycling,,5,,,mild_weather,2.945,40.757049,-73.996466,40.77805,-73.987657,65,sunny,mild_weather,mild_weather
+WT17_0698,user_38,5310350,2025-05-01 09:00:00,2025-05-01 09:12:50.532,cycling,,15,,,mild_weather,3.256,40.640094,-73.925767,40.625306,-73.93388,68,sunny,mild_weather,mild_weather
+WT17_0699,user_39,4310466,2025-05-01 12:00:00,2025-05-01 12:12:44.828,cycling,,25,,,mild_weather,3.255,40.61328,-73.948822,40.597149,-73.952046,69,sunny,mild_weather,mild_weather
+WT17_0700,user_40,4838154,2025-05-01 15:00:00,2025-05-01 15:13:16.730,cycling,,35,,,mild_weather,3.231,40.688829,-73.953955,40.695931,-73.973395,71,sunny,mild_weather,mild_weather

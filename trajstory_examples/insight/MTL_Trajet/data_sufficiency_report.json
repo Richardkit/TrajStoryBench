@@ -1,0 +1,80 @@
+{
+  "candidate_pool_path": "dataset/MTL_Trajet/derived/mtl2016_pum2050_all_land_use_trajectory_pool.csv",
+  "candidate_trajectory_count": 211217,
+  "purpose_by_destination_land_use": {
+    "Activités diversifiées": {
+      "business": 35,
+      "dining": 228,
+      "education": 27,
+      "health": 49,
+      "leisure": 163,
+      "shopping": 208,
+      "work": 557
+    },
+    "work": {
+      "business": 52,
+      "dining": 224,
+      "education": 19,
+      "health": 25,
+      "leisure": 79,
+      "shopping": 161,
+      "work": 982
+    },
+    "Agricole": {
+      "business": 0,
+      "dining": 0,
+      "education": 0,
+      "health": 0,
+      "leisure": 0,
+      "shopping": 1,
+      "work": 0
+    },
+    "Conservation": {
+      "business": 1,
+      "dining": 18,
+      "education": 15,
+      "health": 12,
+      "leisure": 47,
+      "shopping": 5,
+      "work": 71
+    },
+    "Grande emprise ou grande infrastructure publique": {
+      "business": 1,
+      "dining": 4,
+      "education": 1,
+      "health": 0,
+      "leisure": 0,
+      "shopping": 1,
+      "work": 17
+    },
+    "Mixte": {
+      "business": 653,
+      "dining": 2954,
+      "education": 1402,
+      "health": 1307,
+      "leisure": 4011,
+      "shopping": 2913,
+      "work": 7727
+    },
+    "Récréation et accès aux rives": {
+      "business": 16,
+      "dining": 61,
+      "education": 22,
+      "health": 32,
+      "leisure": 214,
+      "shopping": 50,
+      "work": 277
+    },
+    "Résidentiel": {
+      "business": 202,
+      "dining": 1049,
+      "education": 560,
+      "health": 424,
+      "leisure": 1469,
+      "shopping": 967,
+      "work": 1787
+    }
+  },
+  "minimum_real_cell_count_before_fallback": 3,
+  "note": "Counts are from the successfully streamed candidate pool used for construction. Per-case fallback counts, where applicable, are retained in selection_audit.json."
+}

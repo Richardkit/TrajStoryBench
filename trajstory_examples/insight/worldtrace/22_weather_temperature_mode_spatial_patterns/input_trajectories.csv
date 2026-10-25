@@ -1,0 +1,245 @@
+trajectory_id,user_id,source_trajectory_id,departure_time,arrival_time,travel_mode,vehicle_type,temperature_c,visited_location,movement_direction,route_role,trajectory_distance_km,start_latitude,start_longitude,end_latitude,end_longitude,point_count,weather,condition_group,is_active_weather_exception,destination_area
+WT22_0001,user_22,4838142,2025-04-01 06:00:00,2025-04-01 06:10:34.875,car,standard car,25,frequent_area_2,,optimal,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,optimal,False,frequent_area_2
+WT22_0002,user_22,4440438,2025-04-01 08:00:00,2025-04-01 08:28:06.212,walking,,25,frequent_area_1,,optimal,2.329,40.756765,-73.996075,40.7382167,-74.005598,40,sunny,optimal,False,frequent_area_1
+WT22_0003,user_22,4838142,2025-04-01 10:00:00,2025-04-01 10:38:25.075,walking,,25,frequent_area_2,,optimal,3.228,40.737493,-73.992542,40.7148664,-73.9950261,43,sunny,optimal,False,frequent_area_2
+WT22_0004,user_22,6950519,2025-04-01 12:00:00,2025-04-01 12:09:41.925,car,standard car,25,frequent_area_4,,optimal,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,optimal,False,frequent_area_4
+WT22_0005,user_22,4838142,2025-04-01 14:00:00,2025-04-01 14:08:51.973,car,standard car,25,frequent_area_2,,optimal,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,optimal,False,frequent_area_2
+WT22_0006,user_22,4440438,2025-04-01 16:00:00,2025-04-01 16:32:12.842,walking,,25,frequent_area_1,,optimal,2.396,40.756765,-73.996075,40.7376109,-74.0056913,41,sunny,optimal,False,frequent_area_1
+WT22_0007,user_22,4743742,2025-04-01 18:00:00,2025-04-01 18:10:12.870,car,standard car,25,frequent_area_3,,optimal,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,optimal,False,frequent_area_3
+WT22_0008,user_22,4440438,2025-04-01 20:00:00,2025-04-01 20:05:35.341,car,standard car,25,frequent_area_1,,optimal,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,optimal,False,frequent_area_1
+WT22_0009,user_22,4440438,2025-04-01 22:00:00,2025-04-01 22:06:29.414,car,standard car,25,frequent_area_1,,optimal,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,optimal,False,frequent_area_1
+WT22_0010,user_22,4743742,2025-04-02 00:00:00,2025-04-02 00:12:17.593,cycling,,25,frequent_area_3,,optimal,2.848,40.668637,-73.996322,40.6919616,-73.998926,43,sunny,optimal,False,frequent_area_3
+WT22_0011,user_22,4440438,2025-04-02 02:00:00,2025-04-02 02:51:01.827,walking,,25,frequent_area_1,,optimal,3.568,40.756765,-73.996075,40.7275984,-74.0054726,63,sunny,optimal,False,frequent_area_1
+WT22_0012,user_22,4440438,2025-04-02 04:00:00,2025-04-02 04:06:32.862,car,standard car,25,frequent_area_1,,optimal,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,optimal,False,frequent_area_1
+WT22_0013,user_22,4743742,2025-04-02 06:00:00,2025-04-02 06:14:21.185,cycling,,25,frequent_area_3,,optimal,3.568,40.668637,-73.996322,40.6981325,-73.9970627,48,sunny,optimal,False,frequent_area_3
+WT22_0014,user_22,4743742,2025-04-02 08:00:00,2025-04-02 08:10:15.814,car,standard car,25,frequent_area_3,,optimal,6.706,40.712711,-73.993498,40.668637,-73.996322,68,sunny,optimal,False,frequent_area_3
+WT22_0015,user_22,4440438,2025-04-02 10:00:00,2025-04-02 10:29:18.703,walking,,25,frequent_area_1,,optimal,2.421,40.756765,-73.996075,40.7373913,-74.0057103,41,sunny,optimal,False,frequent_area_1
+WT22_0016,user_22,4743742,2025-04-02 12:00:00,2025-04-02 12:34:32.703,walking,,25,frequent_area_3,,optimal,2.56,40.668637,-73.996322,40.6898167,-73.9984316,38,sunny,optimal,False,frequent_area_3
+WT22_0017,user_22,4440438,2025-04-02 14:00:00,2025-04-02 14:10:07.346,cycling,,25,frequent_area_1,,optimal,2.681,40.756765,-73.996075,40.7351886,-74.0048988,47,sunny,optimal,False,frequent_area_1
+WT22_0018,user_22,6950519,2025-04-02 16:00:00,2025-04-02 16:28:49.039,walking,,25,frequent_area_4,,optimal,2.68,40.787455,-73.95064,40.8021008,-73.9327658,33,sunny,optimal,False,frequent_area_4
+WT22_0019,user_22,4440438,2025-04-02 18:00:00,2025-04-02 18:06:14.553,car,standard car,25,frequent_area_1,,optimal,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,optimal,False,frequent_area_1
+WT22_0020,user_22,4838142,2025-04-02 20:00:00,2025-04-02 20:26:14.403,walking,,25,frequent_area_2,,optimal,2.077,40.737493,-73.992542,40.7223314,-73.9993955,26,sunny,optimal,False,frequent_area_2
+WT22_0021,user_22,6950519,2025-04-02 22:00:00,2025-04-02 22:06:37.793,cycling,,25,frequent_area_4,,optimal,2.008,40.787455,-73.95064,40.8007201,-73.9380002,25,sunny,optimal,False,frequent_area_4
+WT22_0022,user_22,4838142,2025-04-03 00:00:00,2025-04-03 00:26:40.976,walking,,25,frequent_area_2,,optimal,2.124,40.737493,-73.992542,40.7219704,-73.9997016,26,sunny,optimal,False,frequent_area_2
+WT22_0023,user_22,6950519,2025-04-03 02:00:00,2025-04-03 02:31:32.716,walking,,25,frequent_area_4,,optimal,2.437,40.787455,-73.95064,40.8033857,-73.9350627,30,sunny,optimal,False,frequent_area_4
+WT22_0024,user_22,6950519,2025-04-03 04:00:00,2025-04-03 04:09:14.778,car,standard car,25,frequent_area_4,,optimal,6.606,40.787455,-73.95064,40.812906,-73.901446,70,sunny,optimal,False,frequent_area_4
+WT22_0025,user_22,6950519,2025-04-03 06:00:00,2025-04-03 06:10:04.109,cycling,,25,frequent_area_4,,optimal,2.774,40.787455,-73.95064,40.8016866,-73.9317859,33,sunny,optimal,False,frequent_area_4
+WT22_0026,user_22,6950519,2025-04-03 08:00:00,2025-04-03 08:14:31.194,cycling,,25,frequent_area_4,,optimal,3.365,40.787455,-73.95064,40.7993102,-73.9255165,37,sunny,optimal,False,frequent_area_4
+WT22_0027,user_22,4440438,2025-04-03 10:00:00,2025-04-03 10:12:12.295,cycling,,25,frequent_area_1,,optimal,3.252,40.756765,-73.996075,40.7303548,-74.0046728,59,sunny,optimal,False,frequent_area_1
+WT22_0028,user_22,4838142,2025-04-03 12:00:00,2025-04-03 12:09:32.569,cycling,,25,frequent_area_2,,optimal,2.49,40.737493,-73.992542,40.7191639,-74.0015397,35,sunny,optimal,False,frequent_area_2
+WT22_0029,user_22,4440438,2025-04-03 14:00:00,2025-04-03 14:06:49.556,car,standard car,25,frequent_area_1,,optimal,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,optimal,False,frequent_area_1
+WT22_0030,user_22,4838142,2025-04-03 16:00:00,2025-04-03 16:11:20.723,car,standard car,25,frequent_area_2,,optimal,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,optimal,False,frequent_area_2
+WT22_0031,user_22,4838142,2025-04-03 18:00:00,2025-04-03 18:14:31.600,cycling,,15,frequent_area_2,,mild,3.413,40.737493,-73.992542,40.7133343,-73.9941595,44,sunny,mild,False,frequent_area_2
+WT22_0032,user_22,6950519,2025-04-03 20:00:00,2025-04-03 20:10:05.139,car,standard car,15,frequent_area_4,,mild,6.606,40.787455,-73.95064,40.812906,-73.901446,70,sunny,mild,False,frequent_area_4
+WT22_0033,user_22,4440438,2025-04-03 22:00:00,2025-04-03 22:06:02.131,car,standard car,15,frequent_area_1,,mild,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild,False,frequent_area_1
+WT22_0034,user_22,4743742,2025-04-04 00:00:00,2025-04-04 00:30:22.286,walking,,15,frequent_area_3,,mild,2.435,40.668637,-73.996322,40.6887642,-73.998946,37,sunny,mild,False,frequent_area_3
+WT22_0035,user_22,4440438,2025-04-04 02:00:00,2025-04-04 02:06:33.591,car,standard car,15,frequent_area_1,,mild,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild,False,frequent_area_1
+WT22_0036,user_22,4743742,2025-04-04 04:00:00,2025-04-04 04:09:32.955,car,standard car,15,frequent_area_3,,mild,6.706,40.712711,-73.993498,40.668637,-73.996322,68,sunny,mild,False,frequent_area_3
+WT22_0037,user_22,4743742,2025-04-04 06:00:00,2025-04-04 06:12:37.366,cycling,,15,frequent_area_3,,mild,3.452,40.668637,-73.996322,40.6971523,-73.9975297,47,sunny,mild,False,frequent_area_3
+WT22_0038,user_22,6950519,2025-04-04 08:00:00,2025-04-04 08:09:55.266,car,standard car,15,frequent_area_4,,mild,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild,False,frequent_area_4
+WT22_0039,user_22,4440438,2025-04-04 10:00:00,2025-04-04 10:06:15.672,car,standard car,15,frequent_area_1,,mild,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,mild,False,frequent_area_1
+WT22_0040,user_22,4440438,2025-04-04 12:00:00,2025-04-04 12:10:49.754,cycling,,15,frequent_area_1,,mild,2.918,40.756765,-73.996075,40.7331458,-74.0041036,52,sunny,mild,False,frequent_area_1
+WT22_0041,user_22,6950519,2025-04-04 14:00:00,2025-04-04 14:34:39.121,walking,,15,frequent_area_4,,mild,2.945,40.787455,-73.95064,40.8010644,-73.9299324,35,sunny,mild,False,frequent_area_4
+WT22_0042,user_22,4743742,2025-04-04 16:00:00,2025-04-04 16:41:58.694,walking,,15,frequent_area_3,,mild,3.335,40.668637,-73.996322,40.6961614,-73.998002,46,sunny,mild,False,frequent_area_3
+WT22_0043,user_22,4838142,2025-04-04 18:00:00,2025-04-04 18:10:08.371,cycling,,15,frequent_area_2,,mild,2.245,40.737493,-73.992542,40.721057,-74.0004821,28,sunny,mild,False,frequent_area_2
+WT22_0044,user_22,4743742,2025-04-04 20:00:00,2025-04-04 20:09:07.957,car,standard car,15,frequent_area_3,,mild,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild,False,frequent_area_3
+WT22_0045,user_22,6950519,2025-04-04 22:00:00,2025-04-04 22:08:53.584,car,standard car,15,frequent_area_4,,mild,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,mild,False,frequent_area_4
+WT22_0046,user_22,4743742,2025-04-05 00:00:00,2025-04-05 00:10:30.935,car,standard car,15,frequent_area_3,,mild,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild,False,frequent_area_3
+WT22_0047,user_22,6950519,2025-04-05 02:00:00,2025-04-05 02:38:46.912,walking,,15,frequent_area_4,,mild,2.578,40.787455,-73.95064,40.802734,-73.9336294,32,sunny,mild,False,frequent_area_4
+WT22_0048,user_22,4440438,2025-04-05 04:00:00,2025-04-05 04:39:49.792,walking,,15,frequent_area_1,,mild,2.816,40.756765,-73.996075,40.7340001,-74.0045415,50,sunny,mild,False,frequent_area_1
+WT22_0049,user_22,4440438,2025-04-05 06:00:00,2025-04-05 06:06:43.118,car,standard car,15,frequent_area_1,,mild,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild,False,frequent_area_1
+WT22_0050,user_22,6950519,2025-04-05 08:00:00,2025-04-05 08:09:34.209,car,standard car,15,frequent_area_4,,mild,6.606,40.787455,-73.95064,40.812906,-73.901446,70,sunny,mild,False,frequent_area_4
+WT22_0051,user_22,4440438,2025-04-05 10:00:00,2025-04-05 10:06:03.785,car,standard car,15,frequent_area_1,,mild,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild,False,frequent_area_1
+WT22_0052,user_22,6950519,2025-04-05 12:00:00,2025-04-05 12:13:33.388,cycling,,15,frequent_area_4,,mild,3.525,40.787455,-73.95064,40.798595,-73.9238705,38,sunny,mild,False,frequent_area_4
+WT22_0053,user_22,4838142,2025-04-05 14:00:00,2025-04-05 14:10:17.977,cycling,,15,frequent_area_2,,mild,2.89,40.737493,-73.992542,40.7168652,-73.9979128,40,sunny,mild,False,frequent_area_2
+WT22_0054,user_22,6950519,2025-04-05 16:00:00,2025-04-05 16:50:24.596,walking,,15,frequent_area_4,,mild,3.413,40.787455,-73.95064,40.7991014,-73.9250195,37,sunny,mild,False,frequent_area_4
+WT22_0055,user_22,4743742,2025-04-05 18:00:00,2025-04-05 18:10:43.803,car,standard car,15,frequent_area_3,,mild,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,mild,False,frequent_area_3
+WT22_0056,user_22,4440438,2025-04-05 20:00:00,2025-04-05 20:06:16.528,car,standard car,15,frequent_area_1,,mild,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild,False,frequent_area_1
+WT22_0057,user_22,4838142,2025-04-05 22:00:00,2025-04-05 22:43:46.495,walking,,15,frequent_area_2,,mild,3.464,40.737493,-73.992542,40.712909,-73.9939216,44,sunny,mild,False,frequent_area_2
+WT22_0058,user_22,6950519,2025-04-06 00:00:00,2025-04-06 00:39:15.086,walking,,15,frequent_area_4,,mild,2.689,40.787455,-73.95064,40.8020614,-73.9326725,33,sunny,mild,False,frequent_area_4
+WT22_0059,user_22,4440438,2025-04-06 02:00:00,2025-04-06 02:21:14.732,walking,,15,frequent_area_1,,mild,1.806,40.756765,-73.996075,40.7427269,-74.004112,33,sunny,mild,False,frequent_area_1
+WT22_0060,user_22,4440438,2025-04-06 04:00:00,2025-04-06 04:05:41.547,car,standard car,15,frequent_area_1,,mild,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,mild,False,frequent_area_1
+WT22_0061,user_22,4440438,2025-04-06 06:00:00,2025-04-06 06:06:28.313,car,standard car,15,frequent_area_1,,mild,4.217,40.756765,-73.996075,40.722027,-74.005563,71,cloudy,mild,False,frequent_area_1
+WT22_0062,user_22,4743742,2025-04-06 08:00:00,2025-04-06 08:10:27.240,car,standard car,15,frequent_area_3,,mild,6.706,40.668637,-73.996322,40.712711,-73.993498,68,cloudy,mild,False,frequent_area_3
+WT22_0063,user_22,6950519,2025-04-06 10:00:00,2025-04-06 10:10:16.711,car,standard car,15,frequent_area_4,,mild,6.606,40.787455,-73.95064,40.812906,-73.901446,70,cloudy,mild,False,frequent_area_4
+WT22_0064,user_22,6950519,2025-04-06 12:00:00,2025-04-06 12:38:33.081,walking,,15,frequent_area_4,,mild,3.191,40.787455,-73.95064,40.8000725,-73.9273245,36,cloudy,mild,False,frequent_area_4
+WT22_0065,user_22,4440438,2025-04-06 14:00:00,2025-04-06 14:42:22.326,walking,,15,frequent_area_1,,mild,3.505,40.756765,-73.996075,40.7281678,-74.0053875,62,cloudy,mild,False,frequent_area_1
+WT22_0066,user_22,4838142,2025-04-06 16:00:00,2025-04-06 16:38:30.254,walking,,15,frequent_area_2,,mild,2.959,40.737493,-73.992542,40.7165862,-73.9971885,40,cloudy,mild,False,frequent_area_2
+WT22_0067,user_22,4838142,2025-04-06 18:00:00,2025-04-06 18:09:39.043,car,standard car,15,frequent_area_2,,mild,6.605,40.737493,-73.992542,40.696014,-73.973716,68,cloudy,mild,False,frequent_area_2
+WT22_0068,user_22,4838142,2025-04-06 20:00:00,2025-04-06 20:12:57.519,cycling,,15,frequent_area_2,,mild,3.467,40.737493,-73.992542,40.7128882,-73.9939099,44,cloudy,mild,False,frequent_area_2
+WT22_0069,user_22,4838142,2025-04-06 22:00:00,2025-04-06 22:34:31.718,walking,,15,frequent_area_2,,mild,2.63,40.737493,-73.992542,40.7182947,-74.000345,38,cloudy,mild,False,frequent_area_2
+WT22_0070,user_22,4440438,2025-04-07 00:00:00,2025-04-07 00:05:47.774,car,standard car,15,frequent_area_1,,mild,4.217,40.722027,-74.005563,40.756765,-73.996075,71,cloudy,mild,False,frequent_area_1
+WT22_0071,user_22,4743742,2025-04-07 02:00:00,2025-04-07 02:09:38.011,car,standard car,15,frequent_area_3,,mild,6.706,40.668637,-73.996322,40.712711,-73.993498,68,cloudy,mild,False,frequent_area_3
+WT22_0072,user_22,4838142,2025-04-07 04:00:00,2025-04-07 04:09:42.484,car,standard car,15,frequent_area_2,,mild,6.605,40.696014,-73.973716,40.737493,-73.992542,68,cloudy,mild,False,frequent_area_2
+WT22_0073,user_22,4838142,2025-04-07 06:00:00,2025-04-07 06:08:27.311,cycling,,15,frequent_area_2,,mild,1.918,40.737493,-73.992542,40.7235308,-73.9983797,25,cloudy,mild,False,frequent_area_2
+WT22_0074,user_22,4440438,2025-04-07 08:00:00,2025-04-07 08:07:00.107,car,standard car,15,frequent_area_1,,mild,4.217,40.722027,-74.005563,40.756765,-73.996075,71,cloudy,mild,False,frequent_area_1
+WT22_0075,user_22,4743742,2025-04-07 10:00:00,2025-04-07 10:10:01.379,car,standard car,15,frequent_area_3,,mild,6.706,40.668637,-73.996322,40.712711,-73.993498,68,cloudy,mild,False,frequent_area_3
+WT22_0076,user_22,6950519,2025-04-07 12:00:00,2025-04-07 12:11:02.055,car,standard car,15,frequent_area_4,,mild,6.606,40.812906,-73.901446,40.787455,-73.95064,70,cloudy,mild,False,frequent_area_4
+WT22_0077,user_22,4743742,2025-04-07 14:00:00,2025-04-07 14:09:38.789,car,standard car,15,frequent_area_3,,mild,6.706,40.668637,-73.996322,40.712711,-73.993498,68,cloudy,mild,False,frequent_area_3
+WT22_0078,user_22,6950519,2025-04-07 16:00:00,2025-04-07 16:08:58.665,car,standard car,15,frequent_area_4,,mild,6.606,40.812906,-73.901446,40.787455,-73.95064,70,cloudy,mild,False,frequent_area_4
+WT22_0079,user_22,4838142,2025-04-07 18:00:00,2025-04-07 18:43:55.734,walking,,15,frequent_area_2,,mild,3.296,40.737493,-73.992542,40.7142997,-73.9947052,43,cloudy,mild,False,frequent_area_2
+WT22_0080,user_22,6950519,2025-04-07 20:00:00,2025-04-07 20:09:17.973,car,standard car,15,frequent_area_4,,mild,6.606,40.787455,-73.95064,40.812906,-73.901446,70,cloudy,mild,False,frequent_area_4
+WT22_0081,user_22,6950519,2025-04-07 22:00:00,2025-04-07 22:09:30.443,car,standard car,15,frequent_area_4,,mild,6.606,40.787455,-73.95064,40.812906,-73.901446,70,cloudy,mild,False,frequent_area_4
+WT22_0082,user_22,6950519,2025-04-08 00:00:00,2025-04-08 00:38:35.644,walking,,15,frequent_area_4,,mild,2.901,40.787455,-73.95064,40.8012162,-73.9304159,34,cloudy,mild,False,frequent_area_4
+WT22_0083,user_22,4838142,2025-04-08 02:00:00,2025-04-08 02:10:11.531,car,standard car,15,frequent_area_2,,mild,6.605,40.696014,-73.973716,40.737493,-73.992542,68,cloudy,mild,False,frequent_area_2
+WT22_0084,user_22,4743742,2025-04-08 04:00:00,2025-04-08 04:33:14.605,walking,,15,frequent_area_3,,mild,2.584,40.668637,-73.996322,40.6900169,-73.998334,38,cloudy,mild,False,frequent_area_3
+WT22_0085,user_22,4838142,2025-04-08 06:00:00,2025-04-08 06:09:56.989,car,standard car,15,frequent_area_2,,mild,6.605,40.696014,-73.973716,40.737493,-73.992542,68,cloudy,mild,False,frequent_area_2
+WT22_0086,user_22,4440438,2025-04-08 08:00:00,2025-04-08 08:28:10.551,walking,,15,frequent_area_1,,mild,2.389,40.756765,-73.996075,40.7376792,-74.0056854,41,cloudy,mild,False,frequent_area_1
+WT22_0087,user_22,4743742,2025-04-08 10:00:00,2025-04-08 10:11:38.367,cycling,,15,frequent_area_3,,mild,2.788,40.668637,-73.996322,40.6915471,-73.9985237,42,cloudy,mild,False,frequent_area_3
+WT22_0088,user_22,6950519,2025-04-08 12:00:00,2025-04-08 12:10:09.408,car,standard car,15,frequent_area_4,,mild,6.606,40.787455,-73.95064,40.812906,-73.901446,70,cloudy,mild,False,frequent_area_4
+WT22_0089,user_22,4743742,2025-04-08 14:00:00,2025-04-08 14:09:57.514,car,standard car,15,frequent_area_3,,mild,6.706,40.712711,-73.993498,40.668637,-73.996322,68,cloudy,mild,False,frequent_area_3
+WT22_0090,user_22,4440438,2025-04-08 16:00:00,2025-04-08 16:13:40.192,cycling,,15,frequent_area_1,,mild,3.377,40.756765,-73.996075,40.7293061,-74.0052117,61,cloudy,mild,False,frequent_area_1
+WT22_0091,user_22,4440438,2025-04-08 18:00:00,2025-04-08 18:06:32.719,car,standard car,35,frequent_area_1,,hot,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,hot,False,frequent_area_1
+WT22_0092,user_22,6950519,2025-04-08 20:00:00,2025-04-08 20:11:59.315,car,standard car,35,frequent_area_4,,hot,6.606,40.787455,-73.95064,40.812906,-73.901446,70,sunny,hot,False,frequent_area_4
+WT22_0093,user_22,4743742,2025-04-08 22:00:00,2025-04-08 22:10:23.853,car,standard car,35,frequent_area_3,,hot,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,hot,False,frequent_area_3
+WT22_0094,user_22,4440438,2025-04-09 00:00:00,2025-04-09 00:05:58.189,cycling,,35,frequent_area_1,,hot,1.383,40.756765,-73.996075,40.7460626,-74.0016947,29,sunny,hot,False,frequent_area_1
+WT22_0095,user_22,4838142,2025-04-09 02:00:00,2025-04-09 02:11:18.764,walking,,35,frequent_area_2,,hot,0.956,40.737493,-73.992542,40.7308184,-73.9922155,15,sunny,hot,False,frequent_area_2
+WT22_0096,user_22,6950519,2025-04-09 04:00:00,2025-04-09 04:21:15.871,walking,,35,frequent_area_4,,hot,1.573,40.787455,-73.95064,40.7972929,-73.9405005,20,sunny,hot,False,frequent_area_4
+WT22_0097,user_22,4838142,2025-04-09 06:00:00,2025-04-09 06:09:17.586,car,standard car,35,frequent_area_2,,hot,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,hot,False,frequent_area_2
+WT22_0098,user_22,4440438,2025-04-09 08:00:00,2025-04-09 08:07:16.224,car,standard car,35,frequent_area_1,,hot,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,hot,False,frequent_area_1
+WT22_0099,user_22,4440438,2025-04-09 10:00:00,2025-04-09 10:07:33.751,car,standard car,35,frequent_area_1,,hot,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,hot,False,frequent_area_1
+WT22_0100,user_22,6950519,2025-04-09 12:00:00,2025-04-09 12:11:56.035,car,standard car,35,frequent_area_4,,hot,6.606,40.787455,-73.95064,40.812906,-73.901446,70,sunny,hot,False,frequent_area_4
+WT22_0101,user_22,6950519,2025-04-09 14:00:00,2025-04-09 14:11:08.179,car,standard car,35,frequent_area_4,,hot,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,hot,False,frequent_area_4
+WT22_0102,user_22,4743742,2025-04-09 16:00:00,2025-04-09 16:10:59.282,car,standard car,35,frequent_area_3,,hot,6.706,40.712711,-73.993498,40.668637,-73.996322,68,sunny,hot,False,frequent_area_3
+WT22_0103,user_22,4440438,2025-04-09 18:00:00,2025-04-09 18:07:10.481,car,standard car,35,frequent_area_1,,hot,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,hot,False,frequent_area_1
+WT22_0104,user_22,4440438,2025-04-09 20:00:00,2025-04-09 20:07:53.404,car,standard car,35,frequent_area_1,,hot,4.217,40.722027,-74.005563,40.756765,-73.996075,71,sunny,hot,False,frequent_area_1
+WT22_0105,user_22,6950519,2025-04-09 22:00:00,2025-04-09 22:11:17.097,car,standard car,35,frequent_area_4,,hot,6.606,40.787455,-73.95064,40.812906,-73.901446,70,sunny,hot,False,frequent_area_4
+WT22_0106,user_22,4743742,2025-04-10 00:00:00,2025-04-10 00:12:38.966,car,standard car,35,frequent_area_3,,hot,6.706,40.712711,-73.993498,40.668637,-73.996322,68,sunny,hot,False,frequent_area_3
+WT22_0107,user_22,4838142,2025-04-10 02:00:00,2025-04-10 02:12:49.481,car,standard car,35,frequent_area_2,,hot,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,hot,False,frequent_area_2
+WT22_0108,user_22,4743742,2025-04-10 04:00:00,2025-04-10 04:10:04.823,car,standard car,35,frequent_area_3,,hot,6.706,40.712711,-73.993498,40.668637,-73.996322,68,sunny,hot,False,frequent_area_3
+WT22_0109,user_22,4440438,2025-04-10 06:00:00,2025-04-10 06:04:11.982,cycling,,35,frequent_area_1,,hot,0.969,40.756765,-73.996075,40.7493172,-73.9993136,25,sunny,hot,False,frequent_area_1
+WT22_0110,user_22,6950519,2025-04-10 08:00:00,2025-04-10 08:04:31.757,cycling,,35,frequent_area_4,,hot,1.153,40.787455,-73.95064,40.7939884,-73.9429108,15,sunny,hot,False,frequent_area_4
+WT22_0111,user_22,4743742,2025-04-10 10:00:00,2025-04-10 10:12:26.404,car,standard car,35,frequent_area_3,,hot,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,hot,False,frequent_area_3
+WT22_0112,user_22,4838142,2025-04-10 12:00:00,2025-04-10 12:10:59.628,car,standard car,35,frequent_area_2,,hot,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,hot,False,frequent_area_2
+WT22_0113,user_22,4440438,2025-04-10 14:00:00,2025-04-10 14:07:04.819,car,standard car,35,frequent_area_1,,hot,4.217,40.756765,-73.996075,40.722027,-74.005563,71,sunny,hot,False,frequent_area_1
+WT22_0114,user_22,6950519,2025-04-10 16:00:00,2025-04-10 16:17:00.547,walking,,35,frequent_area_4,,hot,1.31,40.787455,-73.95064,40.7952224,-73.9420089,17,sunny,hot,False,frequent_area_4
+WT22_0115,user_22,6950519,2025-04-10 18:00:00,2025-04-10 18:14:17.384,walking,,35,frequent_area_4,,hot,1.076,40.787455,-73.95064,40.7933816,-73.9433549,14,sunny,hot,False,frequent_area_4
+WT22_0116,user_22,4838142,2025-04-10 20:00:00,2025-04-10 20:11:45.504,walking,,35,frequent_area_2,,hot,0.879,40.737493,-73.992542,40.7314221,-73.9917703,14,sunny,hot,False,frequent_area_2
+WT22_0117,user_22,4838142,2025-04-10 22:00:00,2025-04-10 22:10:15.049,car,standard car,35,frequent_area_2,,hot,6.605,40.737493,-73.992542,40.696014,-73.973716,68,sunny,hot,False,frequent_area_2
+WT22_0118,user_22,4743742,2025-04-11 00:00:00,2025-04-11 00:12:48.078,car,standard car,35,frequent_area_3,,hot,6.706,40.668637,-73.996322,40.712711,-73.993498,68,sunny,hot,False,frequent_area_3
+WT22_0119,user_22,6950519,2025-04-11 02:00:00,2025-04-11 02:11:03.333,car,standard car,35,frequent_area_4,,hot,6.606,40.812906,-73.901446,40.787455,-73.95064,70,sunny,hot,False,frequent_area_4
+WT22_0120,user_22,4838142,2025-04-11 04:00:00,2025-04-11 04:11:08.374,car,standard car,35,frequent_area_2,,hot,6.605,40.696014,-73.973716,40.737493,-73.992542,68,sunny,hot,False,frequent_area_2
+WT22_0121,user_22,4743742,2025-04-11 06:00:00,2025-04-11 06:13:29.802,car,standard car,5,frequent_area_3,,cold,6.706,40.712711,-73.993498,40.668637,-73.996322,68,cloudy,cold,False,frequent_area_3
+WT22_0122,user_22,6950519,2025-04-11 08:00:00,2025-04-11 08:11:28.526,car,standard car,5,frequent_area_4,,cold,6.606,40.787455,-73.95064,40.812906,-73.901446,70,cloudy,cold,False,frequent_area_4
+WT22_0123,user_22,4838142,2025-04-11 10:00:00,2025-04-11 10:02:42.822,cycling,,5,frequent_area_2,,cold,0.755,40.737493,-73.992542,40.7324695,-73.9913161,13,cloudy,cold,False,frequent_area_2
+WT22_0124,user_22,4838142,2025-04-11 12:00:00,2025-04-11 12:11:01.543,car,standard car,5,frequent_area_2,,cold,6.605,40.696014,-73.973716,40.737493,-73.992542,68,cloudy,cold,False,frequent_area_2
+WT22_0125,user_22,6950519,2025-04-11 14:00:00,2025-04-11 14:13:27.263,car,standard car,5,frequent_area_4,,cold,6.606,40.812906,-73.901446,40.787455,-73.95064,70,cloudy,cold,False,frequent_area_4
+WT22_0126,user_22,4440438,2025-04-11 16:00:00,2025-04-11 16:06:37.542,car,standard car,5,frequent_area_1,,cold,4.217,40.722027,-74.005563,40.756765,-73.996075,71,cloudy,cold,False,frequent_area_1
+WT22_0127,user_22,4838142,2025-04-11 18:00:00,2025-04-11 18:12:16.950,car,standard car,5,frequent_area_2,,cold,6.605,40.737493,-73.992542,40.696014,-73.973716,68,cloudy,cold,False,frequent_area_2
+WT22_0128,user_22,4838142,2025-04-11 20:00:00,2025-04-11 20:13:49.508,walking,,5,frequent_area_2,,cold,1.195,40.737493,-73.992542,40.7290081,-73.9937476,18,cloudy,cold,False,frequent_area_2
+WT22_0129,user_22,4838142,2025-04-11 22:00:00,2025-04-11 22:10:12.407,car,standard car,5,frequent_area_2,,cold,6.605,40.737493,-73.992542,40.696014,-73.973716,68,cloudy,cold,False,frequent_area_2
+WT22_0130,user_22,4743742,2025-04-12 00:00:00,2025-04-12 00:09:58.904,car,standard car,5,frequent_area_3,,cold,6.706,40.712711,-73.993498,40.668637,-73.996322,68,cloudy,cold,False,frequent_area_3
+WT22_0131,user_22,4838142,2025-04-12 02:00:00,2025-04-12 02:12:17.182,car,standard car,5,frequent_area_2,,cold,6.605,40.696014,-73.973716,40.737493,-73.992542,68,cloudy,cold,False,frequent_area_2
+WT22_0132,user_22,4440438,2025-04-12 04:00:00,2025-04-12 04:07:07.487,car,standard car,5,frequent_area_1,,cold,4.217,40.756765,-73.996075,40.722027,-74.005563,71,cloudy,cold,False,frequent_area_1
+WT22_0133,user_22,4440438,2025-04-12 06:00:00,2025-04-12 06:07:14.601,car,standard car,5,frequent_area_1,,cold,4.217,40.722027,-74.005563,40.756765,-73.996075,71,cloudy,cold,False,frequent_area_1
+WT22_0134,user_22,6950519,2025-04-12 08:00:00,2025-04-12 08:13:02.491,car,standard car,5,frequent_area_4,,cold,6.606,40.812906,-73.901446,40.787455,-73.95064,70,cloudy,cold,False,frequent_area_4
+WT22_0135,user_22,4838142,2025-04-12 10:00:00,2025-04-12 10:05:51.339,cycling,,5,frequent_area_2,,cold,1.314,40.737493,-73.992542,40.728106,-73.9945121,19,cloudy,cold,False,frequent_area_2
+WT22_0136,user_22,4838142,2025-04-12 12:00:00,2025-04-12 12:11:45.695,car,standard car,5,frequent_area_2,,cold,6.605,40.737493,-73.992542,40.696014,-73.973716,68,cloudy,cold,False,frequent_area_2
+WT22_0137,user_22,4440438,2025-04-12 14:00:00,2025-04-12 14:07:58.446,car,standard car,5,frequent_area_1,,cold,4.217,40.756765,-73.996075,40.722027,-74.005563,71,cloudy,cold,False,frequent_area_1
+WT22_0138,user_22,4838142,2025-04-12 16:00:00,2025-04-12 16:11:22.968,car,standard car,5,frequent_area_2,,cold,6.605,40.696014,-73.973716,40.737493,-73.992542,68,cloudy,cold,False,frequent_area_2
+WT22_0139,user_22,4440438,2025-04-12 18:00:00,2025-04-12 18:07:22.833,car,standard car,5,frequent_area_1,,cold,4.217,40.756765,-73.996075,40.722027,-74.005563,71,cloudy,cold,False,frequent_area_1
+WT22_0140,user_22,4440438,2025-04-12 20:00:00,2025-04-12 20:07:16.480,car,standard car,5,frequent_area_1,,cold,4.217,40.756765,-73.996075,40.722027,-74.005563,71,cloudy,cold,False,frequent_area_1
+WT22_0141,user_22,6950519,2025-04-12 22:00:00,2025-04-12 22:12:01.771,car,standard car,5,frequent_area_4,,cold,6.606,40.787455,-73.95064,40.812906,-73.901446,70,cloudy,cold,False,frequent_area_4
+WT22_0142,user_22,4440438,2025-04-13 00:00:00,2025-04-13 00:09:14.650,walking,,5,frequent_area_1,,cold,0.678,40.756765,-73.996075,40.751603,-73.9976388,22,cloudy,cold,False,frequent_area_1
+WT22_0143,user_22,4743742,2025-04-13 02:00:00,2025-04-13 02:10:33.452,car,standard car,5,frequent_area_3,,cold,6.706,40.668637,-73.996322,40.712711,-73.993498,68,cloudy,cold,False,frequent_area_3
+WT22_0144,user_22,4838142,2025-04-13 04:00:00,2025-04-13 04:10:32.201,car,standard car,5,frequent_area_2,,cold,6.605,40.696014,-73.973716,40.737493,-73.992542,68,cloudy,cold,False,frequent_area_2
+WT22_0145,user_22,6950519,2025-04-13 06:00:00,2025-04-13 06:10:38.979,walking,,5,frequent_area_4,,cold,0.918,40.787455,-73.95064,40.7921386,-73.9442584,13,cloudy,cold,False,frequent_area_4
+WT22_0146,user_22,4743742,2025-04-13 08:00:00,2025-04-13 08:11:26.082,car,standard car,5,frequent_area_3,,cold,6.706,40.668637,-73.996322,40.712711,-73.993498,68,cloudy,cold,False,frequent_area_3
+WT22_0147,user_22,4838142,2025-04-13 10:00:00,2025-04-13 10:11:29.539,car,standard car,5,frequent_area_2,,cold,6.605,40.696014,-73.973716,40.737493,-73.992542,68,cloudy,cold,False,frequent_area_2
+WT22_0148,user_22,4838142,2025-04-13 12:00:00,2025-04-13 12:12:22.529,car,standard car,5,frequent_area_2,,cold,6.605,40.696014,-73.973716,40.737493,-73.992542,68,cloudy,cold,False,frequent_area_2
+WT22_0149,user_22,4743742,2025-04-13 14:00:00,2025-04-13 14:14:05.518,walking,,5,frequent_area_3,,cold,1.162,40.668637,-73.996322,40.6780994,-74.0021424,15,cloudy,cold,False,frequent_area_3
+WT22_0150,user_22,4838142,2025-04-13 16:00:00,2025-04-13 16:10:40.039,car,standard car,5,frequent_area_2,,cold,6.605,40.737493,-73.992542,40.696014,-73.973716,68,cloudy,cold,False,frequent_area_2
+WT22_0151,user_22,4440438,2025-04-13 18:00:00,2025-04-13 18:07:53.381,car,standard car,15,frequent_area_1,,rainy,4.217,40.722027,-74.005563,40.756765,-73.996075,71,rainy,rainy,False,frequent_area_1
+WT22_0152,user_22,4838142,2025-04-13 20:00:00,2025-04-13 20:13:21.969,walking,,15,frequent_area_2,,rainy,1.04,40.737493,-73.992542,40.7301784,-73.9927563,16,rainy,rainy,False,frequent_area_2
+WT22_0153,user_22,4743742,2025-04-13 22:00:00,2025-04-13 22:11:27.202,car,standard car,15,frequent_area_3,,rainy,6.706,40.668637,-73.996322,40.712711,-73.993498,68,rainy,rainy,False,frequent_area_3
+WT22_0154,user_22,6950519,2025-04-14 00:00:00,2025-04-14 00:13:08.317,car,standard car,15,frequent_area_4,,rainy,6.606,40.787455,-73.95064,40.812906,-73.901446,70,rainy,rainy,False,frequent_area_4
+WT22_0155,user_22,4838142,2025-04-14 02:00:00,2025-04-14 02:11:02.592,car,standard car,15,frequent_area_2,,rainy,6.605,40.696014,-73.973716,40.737493,-73.992542,68,rainy,rainy,False,frequent_area_2
+WT22_0156,user_22,4440438,2025-04-14 04:00:00,2025-04-14 04:07:34.313,car,standard car,15,frequent_area_1,,rainy,4.217,40.756765,-73.996075,40.722027,-74.005563,71,rainy,rainy,False,frequent_area_1
+WT22_0157,user_22,4440438,2025-04-14 06:00:00,2025-04-14 06:08:02.972,car,standard car,15,frequent_area_1,,rainy,4.217,40.756765,-73.996075,40.722027,-74.005563,71,rainy,rainy,False,frequent_area_1
+WT22_0158,user_22,4440438,2025-04-14 08:00:00,2025-04-14 08:07:42.480,car,standard car,15,frequent_area_1,,rainy,4.217,40.756765,-73.996075,40.722027,-74.005563,71,rainy,rainy,False,frequent_area_1
+WT22_0159,user_22,4743742,2025-04-14 10:00:00,2025-04-14 10:12:52.635,car,standard car,15,frequent_area_3,,rainy,6.706,40.712711,-73.993498,40.668637,-73.996322,68,rainy,rainy,False,frequent_area_3
+WT22_0160,user_22,4838142,2025-04-14 12:00:00,2025-04-14 12:11:12.031,car,standard car,15,frequent_area_2,,rainy,6.605,40.696014,-73.973716,40.737493,-73.992542,68,rainy,rainy,False,frequent_area_2
+WT22_0161,user_22,4440438,2025-04-14 14:00:00,2025-04-14 14:07:21.709,car,standard car,15,frequent_area_1,,rainy,4.217,40.722027,-74.005563,40.756765,-73.996075,71,rainy,rainy,False,frequent_area_1
+WT22_0162,user_22,6950519,2025-04-14 16:00:00,2025-04-14 16:10:56.385,car,standard car,15,frequent_area_4,,rainy,6.606,40.812906,-73.901446,40.787455,-73.95064,70,rainy,rainy,False,frequent_area_4
+WT22_0163,user_22,6950519,2025-04-14 18:00:00,2025-04-14 18:10:57.392,car,standard car,15,frequent_area_4,,rainy,6.606,40.812906,-73.901446,40.787455,-73.95064,70,rainy,rainy,False,frequent_area_4
+WT22_0164,user_22,4743742,2025-04-14 20:00:00,2025-04-14 20:11:33.783,car,standard car,15,frequent_area_3,,rainy,6.706,40.712711,-73.993498,40.668637,-73.996322,68,rainy,rainy,False,frequent_area_3
+WT22_0165,user_22,4838142,2025-04-14 22:00:00,2025-04-14 22:10:36.224,car,standard car,15,frequent_area_2,,rainy,6.605,40.696014,-73.973716,40.737493,-73.992542,68,rainy,rainy,False,frequent_area_2
+WT22_0166,user_22,6950519,2025-04-15 00:00:00,2025-04-15 00:10:13.985,car,standard car,15,frequent_area_4,,rainy,6.606,40.812906,-73.901446,40.787455,-73.95064,70,rainy,rainy,False,frequent_area_4
+WT22_0167,user_22,4838142,2025-04-15 02:00:00,2025-04-15 02:12:13.280,car,standard car,15,frequent_area_2,,rainy,6.605,40.737493,-73.992542,40.696014,-73.973716,68,rainy,rainy,False,frequent_area_2
+WT22_0168,user_22,4440438,2025-04-15 04:00:00,2025-04-15 04:06:42.711,car,standard car,15,frequent_area_1,,rainy,4.217,40.722027,-74.005563,40.756765,-73.996075,71,rainy,rainy,False,frequent_area_1
+WT22_0169,user_22,6950519,2025-04-15 06:00:00,2025-04-15 06:09:51.185,car,standard car,15,frequent_area_4,,rainy,6.606,40.812906,-73.901446,40.787455,-73.95064,70,rainy,rainy,False,frequent_area_4
+WT22_0170,user_22,4743742,2025-04-15 08:00:00,2025-04-15 08:06:02.082,cycling,,15,frequent_area_3,,rainy,1.45,40.668637,-73.996322,40.6804362,-74.0029523,17,rainy,rainy,False,frequent_area_3
+WT22_0171,user_22,6950519,2025-04-15 10:00:00,2025-04-15 10:10:50.171,car,standard car,15,frequent_area_4,,rainy,6.606,40.812906,-73.901446,40.787455,-73.95064,70,rainy,rainy,False,frequent_area_4
+WT22_0172,user_22,6950519,2025-04-15 12:00:00,2025-04-15 12:10:45.436,car,standard car,15,frequent_area_4,,rainy,6.606,40.812906,-73.901446,40.787455,-73.95064,70,rainy,rainy,False,frequent_area_4
+WT22_0173,user_22,4440438,2025-04-15 14:00:00,2025-04-15 14:08:20.411,car,standard car,15,frequent_area_1,,rainy,4.217,40.756765,-73.996075,40.722027,-74.005563,71,rainy,rainy,False,frequent_area_1
+WT22_0174,user_22,4440438,2025-04-15 16:00:00,2025-04-15 16:07:15.728,car,standard car,15,frequent_area_1,,rainy,4.217,40.756765,-73.996075,40.722027,-74.005563,71,rainy,rainy,False,frequent_area_1
+WT22_0175,user_22,4838142,2025-04-15 18:00:00,2025-04-15 18:19:59.073,walking,,15,frequent_area_2,,rainy,1.637,40.737493,-73.992542,40.7256613,-73.9965782,22,rainy,rainy,False,frequent_area_2
+WT22_0176,user_22,4440438,2025-04-15 20:00:00,2025-04-15 20:06:38.042,car,standard car,15,frequent_area_1,,rainy,4.217,40.722027,-74.005563,40.756765,-73.996075,71,rainy,rainy,False,frequent_area_1
+WT22_0177,user_22,6950519,2025-04-15 22:00:00,2025-04-15 22:13:11.715,car,standard car,15,frequent_area_4,,rainy,6.606,40.787455,-73.95064,40.812906,-73.901446,70,rainy,rainy,False,frequent_area_4
+WT22_0178,user_22,4743742,2025-04-16 00:00:00,2025-04-16 00:12:19.336,car,standard car,15,frequent_area_3,,rainy,6.706,40.712711,-73.993498,40.668637,-73.996322,68,rainy,rainy,False,frequent_area_3
+WT22_0179,user_22,6950519,2025-04-16 02:00:00,2025-04-16 02:13:55.770,walking,,15,frequent_area_4,,rainy,1.118,40.787455,-73.95064,40.793714,-73.9431117,15,rainy,rainy,False,frequent_area_4
+WT22_0180,user_22,6950519,2025-04-16 04:00:00,2025-04-16 04:05:59.733,cycling,,15,frequent_area_4,,rainy,1.498,40.787455,-73.95064,40.7967049,-73.9409278,19,rainy,rainy,False,frequent_area_4
+WT22_0181,user_22,4838142,2025-04-16 06:00:00,2025-04-16 06:11:11.760,car,standard car,25,frequent_area_2,,rainy_hot,6.605,40.737493,-73.992542,40.696014,-73.973716,68,rainy,rainy_hot,False,frequent_area_2
+WT22_0182,user_22,4838142,2025-04-16 08:00:00,2025-04-16 08:10:37.537,car,standard car,25,frequent_area_2,,rainy_hot,6.605,40.737493,-73.992542,40.696014,-73.973716,68,rainy,rainy_hot,False,frequent_area_2
+WT22_0183,user_22,6950519,2025-04-16 10:00:00,2025-04-16 10:13:20.415,walking,,25,frequent_area_4,,rainy_hot,1.075,40.787455,-73.95064,40.7933726,-73.9433613,14,rainy,rainy_hot,False,frequent_area_4
+WT22_0184,user_22,4743742,2025-04-16 12:00:00,2025-04-16 12:11:01.241,car,standard car,25,frequent_area_3,,rainy_hot,6.706,40.712711,-73.993498,40.668637,-73.996322,68,rainy,rainy_hot,False,frequent_area_3
+WT22_0185,user_22,4440438,2025-04-16 14:00:00,2025-04-16 14:07:09.721,car,standard car,25,frequent_area_1,,rainy_hot,4.217,40.756765,-73.996075,40.722027,-74.005563,71,rainy,rainy_hot,False,frequent_area_1
+WT22_0186,user_22,4838142,2025-04-16 16:00:00,2025-04-16 16:12:06.283,car,standard car,25,frequent_area_2,,rainy_hot,6.605,40.737493,-73.992542,40.696014,-73.973716,68,rainy,rainy_hot,False,frequent_area_2
+WT22_0187,user_22,4838142,2025-04-16 18:00:00,2025-04-16 18:12:25.988,car,standard car,25,frequent_area_2,,rainy_hot,6.605,40.696014,-73.973716,40.737493,-73.992542,68,rainy,rainy_hot,False,frequent_area_2
+WT22_0188,user_22,4743742,2025-04-16 20:00:00,2025-04-16 20:10:37.411,car,standard car,25,frequent_area_3,,rainy_hot,6.706,40.712711,-73.993498,40.668637,-73.996322,68,rainy,rainy_hot,False,frequent_area_3
+WT22_0189,user_22,4440438,2025-04-16 22:00:00,2025-04-16 22:07:51.596,car,standard car,25,frequent_area_1,,rainy_hot,4.217,40.722027,-74.005563,40.756765,-73.996075,71,rainy,rainy_hot,False,frequent_area_1
+WT22_0190,user_22,4838142,2025-04-17 00:00:00,2025-04-17 00:10:31.205,car,standard car,25,frequent_area_2,,rainy_hot,6.605,40.696014,-73.973716,40.737493,-73.992542,68,rainy,rainy_hot,False,frequent_area_2
+WT22_0191,user_22,6950519,2025-04-17 02:00:00,2025-04-17 02:13:06.202,car,standard car,25,frequent_area_4,,rainy_hot,6.606,40.812906,-73.901446,40.787455,-73.95064,70,rainy,rainy_hot,False,frequent_area_4
+WT22_0192,user_22,4838142,2025-04-17 04:00:00,2025-04-17 04:05:57.320,cycling,,25,frequent_area_2,,rainy_hot,1.596,40.737493,-73.992542,40.7259739,-73.9963139,21,rainy,rainy_hot,False,frequent_area_2
+WT22_0193,user_22,4743742,2025-04-17 06:00:00,2025-04-17 06:11:57.904,walking,,25,frequent_area_3,,rainy_hot,0.88,40.668637,-73.996322,40.6757837,-74.0008071,11,rainy,rainy_hot,False,frequent_area_3
+WT22_0194,user_22,4440438,2025-04-17 08:00:00,2025-04-17 08:07:32.732,car,standard car,25,frequent_area_1,,rainy_hot,4.217,40.756765,-73.996075,40.722027,-74.005563,71,rainy,rainy_hot,False,frequent_area_1
+WT22_0195,user_22,4440438,2025-04-17 10:00:00,2025-04-17 10:06:53.761,car,standard car,25,frequent_area_1,,rainy_hot,4.217,40.756765,-73.996075,40.722027,-74.005563,71,rainy,rainy_hot,False,frequent_area_1
+WT22_0196,user_22,4838142,2025-04-17 12:00:00,2025-04-17 12:10:38.830,car,standard car,25,frequent_area_2,,rainy_hot,6.605,40.737493,-73.992542,40.696014,-73.973716,68,rainy,rainy_hot,False,frequent_area_2
+WT22_0197,user_22,6950519,2025-04-17 14:00:00,2025-04-17 14:10:23.770,car,standard car,25,frequent_area_4,,rainy_hot,6.606,40.812906,-73.901446,40.787455,-73.95064,70,rainy,rainy_hot,False,frequent_area_4
+WT22_0198,user_22,4743742,2025-04-17 16:00:00,2025-04-17 16:15:14.362,walking,,25,frequent_area_3,,rainy_hot,1.227,40.668637,-73.996322,40.6786014,-74.0025235,16,rainy,rainy_hot,False,frequent_area_3
+WT22_0199,user_22,4743742,2025-04-17 18:00:00,2025-04-17 18:09:37.429,car,standard car,25,frequent_area_3,,rainy_hot,6.706,40.712711,-73.993498,40.668637,-73.996322,68,rainy,rainy_hot,False,frequent_area_3
+WT22_0200,user_22,4743742,2025-04-17 20:00:00,2025-04-17 20:11:58.784,car,standard car,25,frequent_area_3,,rainy_hot,6.706,40.668637,-73.996322,40.712711,-73.993498,68,rainy,rainy_hot,False,frequent_area_3
+WT22_0201,user_22,4838142,2025-04-17 22:00:00,2025-04-17 22:14:41.662,car,standard car,25,frequent_area_2,,rainy_hot,6.605,40.737493,-73.992542,40.696014,-73.973716,68,rainy,rainy_hot,False,frequent_area_2
+WT22_0202,user_22,4838142,2025-04-18 00:00:00,2025-04-18 00:10:31.772,car,standard car,25,frequent_area_2,,rainy_hot,6.605,40.737493,-73.992542,40.696014,-73.973716,68,rainy,rainy_hot,False,frequent_area_2
+WT22_0203,user_22,6950519,2025-04-18 02:00:00,2025-04-18 02:11:30.968,car,standard car,25,frequent_area_4,,rainy_hot,6.606,40.787455,-73.95064,40.812906,-73.901446,70,rainy,rainy_hot,False,frequent_area_4
+WT22_0204,user_22,6950519,2025-04-18 04:00:00,2025-04-18 04:11:17.440,car,standard car,25,frequent_area_4,,rainy_hot,6.606,40.787455,-73.95064,40.812906,-73.901446,70,rainy,rainy_hot,False,frequent_area_4
+WT22_0205,user_22,4838142,2025-04-18 06:00:00,2025-04-18 06:13:40.380,car,standard car,25,frequent_area_2,,rainy_hot,6.605,40.737493,-73.992542,40.696014,-73.973716,68,rainy,rainy_hot,False,frequent_area_2
+WT22_0206,user_22,4838142,2025-04-18 08:00:00,2025-04-18 08:14:21.849,walking,,25,frequent_area_2,,rainy_hot,1.108,40.737493,-73.992542,40.7296623,-73.9931928,17,rainy,rainy_hot,False,frequent_area_2
+WT22_0207,user_22,4440438,2025-04-18 10:00:00,2025-04-18 10:07:40.648,car,standard car,25,frequent_area_1,,rainy_hot,4.217,40.722027,-74.005563,40.756765,-73.996075,71,rainy,rainy_hot,False,frequent_area_1
+WT22_0208,user_22,4838142,2025-04-18 12:00:00,2025-04-18 12:10:14.925,car,standard car,25,frequent_area_2,,rainy_hot,6.605,40.696014,-73.973716,40.737493,-73.992542,68,rainy,rainy_hot,False,frequent_area_2
+WT22_0209,user_22,4838142,2025-04-18 14:00:00,2025-04-18 14:04:42.166,cycling,,25,frequent_area_2,,rainy_hot,1.164,40.737493,-73.992542,40.729242,-73.9935493,17,rainy,rainy_hot,False,frequent_area_2
+WT22_0210,user_22,6950519,2025-04-18 16:00:00,2025-04-18 16:09:44.188,car,standard car,25,frequent_area_4,,rainy_hot,6.606,40.812906,-73.901446,40.787455,-73.95064,70,rainy,rainy_hot,False,frequent_area_4
+WT22_0211,user_22,4440438,2025-04-18 18:00:00,2025-04-18 18:06:39.291,car,standard car,5,frequent_area_1,,snowy_cold,4.217,40.722027,-74.005563,40.756765,-73.996075,71,snowy,snowy_cold,False,frequent_area_1
+WT22_0212,user_22,4440438,2025-04-18 20:00:00,2025-04-18 20:06:30.797,car,standard car,5,frequent_area_1,,snowy_cold,4.217,40.756765,-73.996075,40.722027,-74.005563,71,snowy,snowy_cold,False,frequent_area_1
+WT22_0213,user_22,4743742,2025-04-18 22:00:00,2025-04-18 22:11:25.248,car,standard car,5,frequent_area_3,,snowy_cold,6.706,40.712711,-73.993498,40.668637,-73.996322,68,snowy,snowy_cold,False,frequent_area_3
+WT22_0214,user_22,4838142,2025-04-19 00:00:00,2025-04-19 00:10:54.288,car,standard car,5,frequent_area_2,,snowy_cold,6.605,40.696014,-73.973716,40.737493,-73.992542,68,snowy,snowy_cold,False,frequent_area_2
+WT22_0215,user_22,6950519,2025-04-19 02:00:00,2025-04-19 02:11:14.619,car,standard car,5,frequent_area_4,,snowy_cold,6.606,40.787455,-73.95064,40.812906,-73.901446,70,snowy,snowy_cold,False,frequent_area_4
+WT22_0216,user_22,4743742,2025-04-19 04:00:00,2025-04-19 04:12:12.079,car,standard car,5,frequent_area_3,,snowy_cold,6.706,40.668637,-73.996322,40.712711,-73.993498,68,snowy,snowy_cold,False,frequent_area_3
+WT22_0217,user_22,4440438,2025-04-19 06:00:00,2025-04-19 06:04:42.935,cycling,,5,frequent_area_1,,snowy_cold,1.142,40.756765,-73.996075,40.7479552,-74.0003088,27,snowy,snowy_cold,False,frequent_area_1
+WT22_0218,user_22,4743742,2025-04-19 08:00:00,2025-04-19 08:11:28.981,car,standard car,5,frequent_area_3,,snowy_cold,6.706,40.668637,-73.996322,40.712711,-73.993498,68,snowy,snowy_cold,False,frequent_area_3
+WT22_0219,user_22,4838142,2025-04-19 10:00:00,2025-04-19 10:10:16.898,car,standard car,5,frequent_area_2,,snowy_cold,6.605,40.737493,-73.992542,40.696014,-73.973716,68,snowy,snowy_cold,False,frequent_area_2
+WT22_0220,user_22,4440438,2025-04-19 12:00:00,2025-04-19 12:07:35.059,car,standard car,5,frequent_area_1,,snowy_cold,4.217,40.722027,-74.005563,40.756765,-73.996075,71,snowy,snowy_cold,False,frequent_area_1
+WT22_0221,user_22,4838142,2025-04-19 14:00:00,2025-04-19 14:11:11.476,car,standard car,5,frequent_area_2,,snowy_cold,6.605,40.696014,-73.973716,40.737493,-73.992542,68,snowy,snowy_cold,False,frequent_area_2
+WT22_0222,user_22,4838142,2025-04-19 16:00:00,2025-04-19 16:13:41.166,walking,,5,frequent_area_2,,snowy_cold,1.034,40.737493,-73.992542,40.7302236,-73.9927182,16,snowy,snowy_cold,False,frequent_area_2
+WT22_0223,user_22,6950519,2025-04-19 18:00:00,2025-04-19 18:12:40.496,car,standard car,5,frequent_area_4,,snowy_cold,6.606,40.812906,-73.901446,40.787455,-73.95064,70,snowy,snowy_cold,False,frequent_area_4
+WT22_0224,user_22,6950519,2025-04-19 20:00:00,2025-04-19 20:11:45.313,car,standard car,5,frequent_area_4,,snowy_cold,6.606,40.812906,-73.901446,40.787455,-73.95064,70,snowy,snowy_cold,False,frequent_area_4
+WT22_0225,user_22,4838142,2025-04-19 22:00:00,2025-04-19 22:11:59.135,car,standard car,5,frequent_area_2,,snowy_cold,6.605,40.737493,-73.992542,40.696014,-73.973716,68,snowy,snowy_cold,False,frequent_area_2
+WT22_0226,user_22,4743742,2025-04-20 00:00:00,2025-04-20 00:11:05.405,car,standard car,5,frequent_area_3,,snowy_cold,6.706,40.668637,-73.996322,40.712711,-73.993498,68,snowy,snowy_cold,False,frequent_area_3
+WT22_0227,user_22,4743742,2025-04-20 02:00:00,2025-04-20 02:12:14.572,car,standard car,5,frequent_area_3,,snowy_cold,6.706,40.668637,-73.996322,40.712711,-73.993498,68,snowy,snowy_cold,False,frequent_area_3
+WT22_0228,user_22,6950519,2025-04-20 04:00:00,2025-04-20 04:11:22.621,car,standard car,5,frequent_area_4,,snowy_cold,6.606,40.787455,-73.95064,40.812906,-73.901446,70,snowy,snowy_cold,False,frequent_area_4
+WT22_0229,user_22,4440438,2025-04-20 06:00:00,2025-04-20 06:07:10.850,car,standard car,5,frequent_area_1,,snowy_cold,4.217,40.722027,-74.005563,40.756765,-73.996075,71,snowy,snowy_cold,False,frequent_area_1
+WT22_0230,user_22,6950519,2025-04-20 08:00:00,2025-04-20 08:12:50.596,car,standard car,5,frequent_area_4,,snowy_cold,6.606,40.787455,-73.95064,40.812906,-73.901446,70,snowy,snowy_cold,False,frequent_area_4
+WT22_0231,user_22,4838142,2025-04-20 10:00:00,2025-04-20 10:11:23.788,car,standard car,5,frequent_area_2,,snowy_cold,6.605,40.696014,-73.973716,40.737493,-73.992542,68,snowy,snowy_cold,False,frequent_area_2
+WT22_0232,user_22,4440438,2025-04-20 12:00:00,2025-04-20 12:08:21.293,car,standard car,5,frequent_area_1,,snowy_cold,4.217,40.722027,-74.005563,40.756765,-73.996075,71,snowy,snowy_cold,False,frequent_area_1
+WT22_0233,user_22,4838142,2025-04-20 14:00:00,2025-04-20 14:12:16.309,walking,,5,frequent_area_2,,snowy_cold,1.062,40.737493,-73.992542,40.7300158,-73.9928936,16,snowy,snowy_cold,False,frequent_area_2
+WT22_0234,user_22,4743742,2025-04-20 16:00:00,2025-04-20 16:10:52.512,car,standard car,5,frequent_area_3,,snowy_cold,6.706,40.668637,-73.996322,40.712711,-73.993498,68,snowy,snowy_cold,False,frequent_area_3
+WT22_0235,user_22,4838142,2025-04-20 18:00:00,2025-04-20 18:11:28.507,car,standard car,5,frequent_area_2,,snowy_cold,6.605,40.696014,-73.973716,40.737493,-73.992542,68,snowy,snowy_cold,False,frequent_area_2
+WT22_0236,user_22,4743742,2025-04-20 20:00:00,2025-04-20 20:12:30.653,car,standard car,5,frequent_area_3,,snowy_cold,6.706,40.668637,-73.996322,40.712711,-73.993498,68,snowy,snowy_cold,False,frequent_area_3
+WT22_0237,user_22,4743742,2025-04-20 22:00:00,2025-04-20 22:11:58.002,car,standard car,5,frequent_area_3,,snowy_cold,6.706,40.712711,-73.993498,40.668637,-73.996322,68,snowy,snowy_cold,False,frequent_area_3
+WT22_0238,user_22,4743742,2025-04-21 00:00:00,2025-04-21 00:11:28.607,car,standard car,5,frequent_area_3,,snowy_cold,6.706,40.712711,-73.993498,40.668637,-73.996322,68,snowy,snowy_cold,False,frequent_area_3
+WT22_0239,user_22,4440438,2025-04-21 02:00:00,2025-04-21 02:06:40.455,car,standard car,5,frequent_area_1,,snowy_cold,4.217,40.756765,-73.996075,40.722027,-74.005563,71,snowy,snowy_cold,False,frequent_area_1
+WT22_0240,user_22,4743742,2025-04-21 04:00:00,2025-04-21 04:11:06.712,car,standard car,5,frequent_area_3,,snowy_cold,6.706,40.712711,-73.993498,40.668637,-73.996322,68,snowy,snowy_cold,False,frequent_area_3
+WT22_0241,user_22,4440438,2025-04-21 06:00:00,2025-04-21 06:50:35.728,walking,,5,frequent_area_1,,rainy,4.217,40.756765,-73.996075,40.722027,-74.005563,71,rainy,rainy,True,frequent_area_1
+WT22_0242,user_22,4838142,2025-04-21 07:00:00,2025-04-21 07:24:46.799,cycling,,5,frequent_area_2,,rainy,6.605,40.737493,-73.992542,40.696014,-73.973716,68,rainy,rainy,True,frequent_area_2
+WT22_0243,user_22,4743742,2025-04-21 08:00:00,2025-04-21 09:20:26.690,walking,,5,frequent_area_3,,snowy_cold,6.706,40.668637,-73.996322,40.712711,-73.993498,68,snowy,snowy_cold,True,frequent_area_3
+WT22_0244,user_22,6950519,2025-04-21 09:00:00,2025-04-21 09:24:47.930,cycling,,5,frequent_area_4,,snowy_cold,6.606,40.787455,-73.95064,40.812906,-73.901446,70,snowy,snowy_cold,True,frequent_area_4

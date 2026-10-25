@@ -1,0 +1,97 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/14_area_time_taxi_stand_demand/trips.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Porto_taxi/14_area_time_taxi_stand_demand/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/14_area_time_taxi_stand_demand/trajectory_points.csv",
+      "role": "Timestamped road-aligned GPS observations for stand-originated trips"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/14_area_time_taxi_stand_demand/taxi_stands.csv",
+      "role": "Taxi-stand names, coordinates, areas, classes, and total constructed demand"
+    }
+  ],
+  "metadata": {
+    "goal": "Explore how taxi demand varies across different areas and times.",
+    "role": "Taxi demand planner",
+    "category": "Area- and time-conditioned taxi-stand demand",
+    "header": "Porto Taxi-Stand Demand across Areas and Hours",
+    "dataset_description": "A constructed set of 718 stand-originated Porto taxi trips from 12 named stands. Road-aligned trajectories, stand locations, pickup counts, and departure hours support demand concentration, hourly activity-width, and nearby-stand comparisons."
+  },
+  "insight_list": [
+    {
+      "data_type": "taxi_stand_demand_concentration",
+      "insight": "Taxi-stand demand is highly uneven, with a relatively small group of stands near the city center and the main train station accounting for a large share of stand-originated trips.",
+      "plot": {
+        "plot_type": "pareto_bar_and_cumulative_line",
+        "file": "visualizations/stand_demand_pareto.png",
+        "title": "Which taxi stands account for the largest share of stand-originated trips",
+        "description": "The visualization directly summarizes the fields used to evaluate this insight."
+      },
+      "question": "Which taxi stands account for the largest share of stand-originated trips?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "origin_stand",
+        "stand_location",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "stand_hourly_activity_width",
+      "insight": "High-demand central stands remain active across most hours of the day, whereas several peripheral stands show demand concentrated within narrower time periods.",
+      "plot": {
+        "plot_type": "normalized_stand_hour_heatmap",
+        "file": "visualizations/stand_hourly_demand_profiles.png",
+        "title": "How do hourly demand profiles differ between high-demand central and peripheral taxi stands",
+        "description": "The visualization directly summarizes the fields used to evaluate this insight."
+      },
+      "question": "How do hourly demand profiles differ between high-demand central and peripheral taxi stands?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "group_comparison",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "origin_stand",
+        "stand_location",
+        "departure_time",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "nearby_stand_rhythm_scale_difference",
+      "insight": "Nearby taxi stands can exhibit similar daily demand rhythms while differing substantially in their total number of pickups.",
+      "plot": {
+        "plot_type": "normalized_hourly_lines_and_total_bars",
+        "file": "visualizations/nearby_stands_rhythm_and_scale.png",
+        "title": "Can nearby stands share a daily demand rhythm while operating at substantially different pickup volumes",
+        "description": "The visualization directly summarizes the fields used to evaluate this insight."
+      },
+      "question": "Can nearby stands share a daily demand rhythm while operating at substantially different pickup volumes?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "origin_stand",
+        "stand_position",
+        "departure_time",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Taxi-stand demand is highly uneven, with a relatively small group of stands near the city center and the main train station accounting for a large share of stand-originated trips.",
+    "High-demand central stands remain active across most hours of the day, whereas several peripheral stands show demand concentrated within narrower time periods.",
+    "Nearby taxi stands can exhibit similar daily demand rhythms while differing substantially in their total number of pickups."
+  ],
+  "summary": "Stand demand is strongly concentrated at four central or station stands. Those high-demand stands remain active across broad daily windows, while peripheral stands exhibit narrower temporal peaks. São Bento Station and the nearby Ribeira Waterfront stand have similar normalized daily rhythms but markedly different total pickup volumes."
+}

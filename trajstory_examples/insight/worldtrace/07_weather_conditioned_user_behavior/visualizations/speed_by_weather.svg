@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="40" y="40" font-size="24" font-family="Arial" font-weight="bold">Average Speed by Weather Condition</text>
+<line x1="90" y1="510" x2="920" y2="510" stroke="#334155"/>
+<line x1="90" y1="80" x2="90" y2="510" stroke="#334155"/>
+<rect x="129.4" y="145.6" width="128.7" height="364.4" fill="#64748b"/>
+<text x="193.8" y="538" text-anchor="middle" font-size="14">dry</text>
+<text x="193.8" y="137.6" text-anchor="middle" font-size="13">22.7</text>
+<rect x="336.9" y="238.8" width="128.7" height="271.2" fill="#2563eb"/>
+<text x="401.2" y="538" text-anchor="middle" font-size="14">rainy</text>
+<text x="401.2" y="230.8" text-anchor="middle" font-size="13">16.9</text>
+<rect x="544.4" y="303.9" width="128.7" height="206.1" fill="#38bdf8"/>
+<text x="608.8" y="538" text-anchor="middle" font-size="14">snowy</text>
+<text x="608.8" y="295.9" text-anchor="middle" font-size="13">12.9</text>
+<rect x="751.9" y="160.4" width="128.7" height="349.6" fill="#ef4444"/>
+<text x="816.2" y="538" text-anchor="middle" font-size="14">very_hot</text>
+<text x="816.2" y="152.4" text-anchor="middle" font-size="13">21.8</text>
+<text x="25" y="295.0" transform="rotate(-90 25 295.0)" font-size="14">Average speed (km/h)</text>
+</svg>

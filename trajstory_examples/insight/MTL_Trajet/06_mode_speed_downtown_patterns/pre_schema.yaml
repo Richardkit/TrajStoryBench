@@ -1,0 +1,39 @@
+# Partial specification for data construction.
+# Fill in only the concepts and constraints you want to control.
+# Any omitted IDs, timestamps, GPS points, metrics, or support tables may be
+# added when they are necessary to realize the supplied goal and insights.
+
+pre_schema_version: "1.0"
+
+# Optional one-line context for the constructor.
+domain: "" # e.g., urban_multimodal_mobility
+goal: "Based on trajectories of motor vehicles and bikes, investigate differences of these two transportation modes"
+insights:
+  - "Although motor vehicles are generally faster, some cycling trajectories outperform slower car trajectories during peak periods."
+  - "The speed advantage of motor vehicles becomes larger with the distance to the downtown area"
+  - "Motor vehicle trajectories show larger speed variation than bikes with respect to trajectory progress generally"
+
+# Only list core fields that must appear in the final data.
+# Delete unused examples and add as few fields as you need.
+fields:
+  - name: ""
+    semantic_type: "categorical" # categorical | numeric | temporal | spatial | identifier
+    values: [] # optional; e.g., [work, shopping, leisure]
+    # range: [null, null] # optional numeric lower and upper bounds
+    # description: "" # optional clarification of meaning
+
+# Optional. Use only when a table itself must exist or have a fixed grain.
+# Otherwise omit this entire section and let construction infer the tables.
+# tables:
+#   - name: ""
+#     grain: "" # e.g., one row per completed trip
+#     required_fields: []
+
+# Short natural-language rules that the constructed data must satisfy.
+# Do not repeat the goal or ground-truth insights here unless the rule fixes
+# a data property that should not be left to construction.
+constraints:
+  - "这个example比较直白，而且insights来自基于MTL的数据分析报告，所以你可能不太需要大规模的数据构造，我也没必要加入具体的数据限制"
+
+# Optional prohibitions, for example a sensitive field or an unwanted label.
+# prohibited_fields: []

@@ -1,0 +1,335 @@
+{
+    "name": "Spatial locations and movement-phase change statistics",
+    "description": "Largest speed, yaw, and excess-distance changes by coordinate range and their correspondence with recorded movement phases.",
+    "value": {
+        "trajectory_id": "WT9_MAIN",
+        "coordinate_ranges": {
+            "speed_change": [
+                {
+                    "x_range_km": "[4,5)",
+                    "y_range_km": "[1,2)",
+                    "maximum_change": 34.536,
+                    "mean_change": 14.7564,
+                    "observations": 5
+                },
+                {
+                    "x_range_km": "[3,4)",
+                    "y_range_km": "[0,1)",
+                    "maximum_change": 34.084,
+                    "mean_change": 13.0147,
+                    "observations": 6
+                },
+                {
+                    "x_range_km": "[13,14)",
+                    "y_range_km": "[3,4)",
+                    "maximum_change": 29.236,
+                    "mean_change": 6.722,
+                    "observations": 5
+                },
+                {
+                    "x_range_km": "[10,11)",
+                    "y_range_km": "[1,2)",
+                    "maximum_change": 28.473,
+                    "mean_change": 15.4025,
+                    "observations": 2
+                },
+                {
+                    "x_range_km": "[6,7)",
+                    "y_range_km": "[1,2)",
+                    "maximum_change": 23.82,
+                    "mean_change": 5.6198,
+                    "observations": 6
+                }
+            ],
+            "yaw_change": [
+                {
+                    "x_range_km": "[14,15)",
+                    "y_range_km": "[5,6)",
+                    "maximum_change": 116.42,
+                    "mean_change": 39.5443,
+                    "observations": 3
+                },
+                {
+                    "x_range_km": "[14,15)",
+                    "y_range_km": "[4,5)",
+                    "maximum_change": 99.874,
+                    "mean_change": 22.6382,
+                    "observations": 9
+                },
+                {
+                    "x_range_km": "[15,16)",
+                    "y_range_km": "[5,6)",
+                    "maximum_change": 64.414,
+                    "mean_change": 13.9484,
+                    "observations": 9
+                },
+                {
+                    "x_range_km": "[4,5)",
+                    "y_range_km": "[1,2)",
+                    "maximum_change": 51.857,
+                    "mean_change": 10.967,
+                    "observations": 5
+                },
+                {
+                    "x_range_km": "[3,4)",
+                    "y_range_km": "[0,1)",
+                    "maximum_change": 43.562,
+                    "mean_change": 9.5355,
+                    "observations": 6
+                }
+            ],
+            "excess_distance_change": [
+                {
+                    "x_range_km": "[15,16)",
+                    "y_range_km": "[5,6)",
+                    "maximum_change": 0.2836,
+                    "mean_change": 0.0376,
+                    "observations": 9
+                },
+                {
+                    "x_range_km": "[14,15)",
+                    "y_range_km": "[5,6)",
+                    "maximum_change": 0.2781,
+                    "mean_change": 0.1795,
+                    "observations": 3
+                },
+                {
+                    "x_range_km": "[14,15)",
+                    "y_range_km": "[4,5)",
+                    "maximum_change": 0.2606,
+                    "mean_change": 0.1154,
+                    "observations": 9
+                },
+                {
+                    "x_range_km": "[3,4)",
+                    "y_range_km": "[0,1)",
+                    "maximum_change": 0.0711,
+                    "mean_change": 0.0582,
+                    "observations": 6
+                },
+                {
+                    "x_range_km": "[3,4)",
+                    "y_range_km": "[1,2)",
+                    "maximum_change": 0.0462,
+                    "mean_change": 0.041,
+                    "observations": 4
+                }
+            ]
+        },
+        "largest_events": {
+            "speed_change": [
+                {
+                    "point_index": 28,
+                    "timestamp": "2025-05-03 14:09:20",
+                    "x_km": 4.365,
+                    "y_km": 1.526,
+                    "x_range_km": "[4,5)",
+                    "y_range_km": "[1,2)",
+                    "movement_phase": "stable_corridor",
+                    "metric": "speed_change",
+                    "value": 34.536
+                },
+                {
+                    "point_index": 18,
+                    "timestamp": "2025-05-03 14:06:00",
+                    "x_km": 3.179,
+                    "y_km": 0.267,
+                    "x_range_km": "[3,4)",
+                    "y_range_km": "[0,1)",
+                    "movement_phase": "stable_corridor",
+                    "metric": "speed_change",
+                    "value": 34.084
+                },
+                {
+                    "point_index": 27,
+                    "timestamp": "2025-05-03 14:09:00",
+                    "x_km": 4.179,
+                    "y_km": 1.512,
+                    "x_range_km": "[4,5)",
+                    "y_range_km": "[1,2)",
+                    "movement_phase": "sharp_bend",
+                    "metric": "speed_change",
+                    "value": 32.643
+                },
+                {
+                    "point_index": 17,
+                    "timestamp": "2025-05-03 14:05:40",
+                    "x_km": 3.075,
+                    "y_km": 0.115,
+                    "x_range_km": "[3,4)",
+                    "y_range_km": "[0,1)",
+                    "movement_phase": "sharp_bend",
+                    "metric": "speed_change",
+                    "value": 31.469
+                },
+                {
+                    "point_index": 78,
+                    "timestamp": "2025-05-03 14:26:00",
+                    "x_km": 13.138,
+                    "y_km": 3.313,
+                    "x_range_km": "[13,14)",
+                    "y_range_km": "[3,4)",
+                    "movement_phase": "destination_circuit",
+                    "metric": "speed_change",
+                    "value": 29.236
+                }
+            ],
+            "yaw_change": [
+                {
+                    "point_index": 103,
+                    "timestamp": "2025-05-03 14:34:20",
+                    "x_km": 14.979,
+                    "y_km": 5.577,
+                    "x_range_km": "[14,15)",
+                    "y_range_km": "[5,6)",
+                    "movement_phase": "destination_circuit",
+                    "metric": "yaw_change",
+                    "value": 116.42
+                },
+                {
+                    "point_index": 95,
+                    "timestamp": "2025-05-03 14:31:40",
+                    "x_km": 14.696,
+                    "y_km": 4.874,
+                    "x_range_km": "[14,15)",
+                    "y_range_km": "[4,5)",
+                    "movement_phase": "destination_circuit",
+                    "metric": "yaw_change",
+                    "value": 99.874
+                },
+                {
+                    "point_index": 99,
+                    "timestamp": "2025-05-03 14:33:00",
+                    "x_km": 15.225,
+                    "y_km": 5.157,
+                    "x_range_km": "[15,16)",
+                    "y_range_km": "[5,6)",
+                    "movement_phase": "destination_circuit",
+                    "metric": "yaw_change",
+                    "value": 64.414
+                },
+                {
+                    "point_index": 91,
+                    "timestamp": "2025-05-03 14:30:20",
+                    "x_km": 14.839,
+                    "y_km": 4.394,
+                    "x_range_km": "[14,15)",
+                    "y_range_km": "[4,5)",
+                    "movement_phase": "destination_circuit",
+                    "metric": "yaw_change",
+                    "value": 59.115
+                },
+                {
+                    "point_index": 100,
+                    "timestamp": "2025-05-03 14:33:20",
+                    "x_km": 15.081,
+                    "y_km": 5.275,
+                    "x_range_km": "[15,16)",
+                    "y_range_km": "[5,6)",
+                    "movement_phase": "destination_circuit",
+                    "metric": "yaw_change",
+                    "value": 55.628
+                }
+            ],
+            "excess_distance_change": [
+                {
+                    "point_index": 100,
+                    "timestamp": "2025-05-03 14:33:20",
+                    "x_km": 15.081,
+                    "y_km": 5.275,
+                    "x_range_km": "[15,16)",
+                    "y_range_km": "[5,6)",
+                    "movement_phase": "destination_circuit",
+                    "metric": "excess_distance_change",
+                    "value": 0.2836
+                },
+                {
+                    "point_index": 101,
+                    "timestamp": "2025-05-03 14:33:40",
+                    "x_km": 14.939,
+                    "y_km": 5.39,
+                    "x_range_km": "[14,15)",
+                    "y_range_km": "[5,6)",
+                    "movement_phase": "destination_circuit",
+                    "metric": "excess_distance_change",
+                    "value": 0.2781
+                },
+                {
+                    "point_index": 92,
+                    "timestamp": "2025-05-03 14:30:40",
+                    "x_km": 14.719,
+                    "y_km": 4.535,
+                    "x_range_km": "[14,15)",
+                    "y_range_km": "[4,5)",
+                    "movement_phase": "destination_circuit",
+                    "metric": "excess_distance_change",
+                    "value": 0.2606
+                },
+                {
+                    "point_index": 102,
+                    "timestamp": "2025-05-03 14:34:00",
+                    "x_km": 14.806,
+                    "y_km": 5.505,
+                    "x_range_km": "[14,15)",
+                    "y_range_km": "[5,6)",
+                    "movement_phase": "destination_circuit",
+                    "metric": "excess_distance_change",
+                    "value": 0.2604
+                },
+                {
+                    "point_index": 93,
+                    "timestamp": "2025-05-03 14:31:00",
+                    "x_km": 14.601,
+                    "y_km": 4.678,
+                    "x_range_km": "[14,15)",
+                    "y_range_km": "[4,5)",
+                    "movement_phase": "destination_circuit",
+                    "metric": "excess_distance_change",
+                    "value": 0.2549
+                }
+            ]
+        },
+        "phase_summary": [
+            {
+                "movement_phase": "stable_corridor",
+                "observations": 59,
+                "mean_speed_change": 3.5506,
+                "maximum_speed_change": 34.536,
+                "mean_yaw_change": 1.7774,
+                "maximum_yaw_change": 22.921,
+                "mean_excess_distance_change": 0.0122,
+                "maximum_excess_distance_change": 0.0711
+            },
+            {
+                "movement_phase": "sharp_bend",
+                "observations": 2,
+                "mean_speed_change": 32.056,
+                "maximum_speed_change": 32.643,
+                "mean_yaw_change": 47.7095,
+                "maximum_yaw_change": 51.857,
+                "mean_excess_distance_change": 0.025,
+                "maximum_excess_distance_change": 0.0431
+            },
+            {
+                "movement_phase": "destination_circuit",
+                "observations": 32,
+                "mean_speed_change": 3.3867,
+                "maximum_speed_change": 29.236,
+                "mean_yaw_change": 15.2818,
+                "maximum_yaw_change": 116.42,
+                "mean_excess_distance_change": 0.0622,
+                "maximum_excess_distance_change": 0.2836
+            },
+            {
+                "movement_phase": "mid_trip_disruption",
+                "observations": 17,
+                "mean_speed_change": 2.2239,
+                "maximum_speed_change": 23.82,
+                "mean_yaw_change": 0.828,
+                "maximum_yaw_change": 1.945,
+                "mean_excess_distance_change": 0.0028,
+                "maximum_excess_distance_change": 0.0038
+            }
+        ]
+    }
+}

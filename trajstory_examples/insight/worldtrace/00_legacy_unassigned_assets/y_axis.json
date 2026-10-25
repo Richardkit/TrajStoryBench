@@ -1,0 +1,306 @@
+{
+    "name": "Important movement-change y-axis values",
+    "description": "Normalized movement-change values for important trajectory points.",
+    "value": [
+        {
+            "point_index": 28,
+            "speed_change_normalized": 1.0,
+            "yaw_change_normalized": 0.0013,
+            "excess_distance_change_normalized": 0.0226
+        },
+        {
+            "point_index": 100,
+            "speed_change_normalized": 0.037,
+            "yaw_change_normalized": 0.4778,
+            "excess_distance_change_normalized": 1.0
+        },
+        {
+            "point_index": 103,
+            "speed_change_normalized": 0.2098,
+            "yaw_change_normalized": 1.0,
+            "excess_distance_change_normalized": 0.0004
+        },
+        {
+            "point_index": 18,
+            "speed_change_normalized": 0.9869,
+            "yaw_change_normalized": 0.1049,
+            "excess_distance_change_normalized": 0.2507
+        },
+        {
+            "point_index": 101,
+            "speed_change_normalized": 0.1308,
+            "yaw_change_normalized": 0.0012,
+            "excess_distance_change_normalized": 0.9806
+        },
+        {
+            "point_index": 27,
+            "speed_change_normalized": 0.9452,
+            "yaw_change_normalized": 0.4454,
+            "excess_distance_change_normalized": 0.0243
+        },
+        {
+            "point_index": 92,
+            "speed_change_normalized": 0.1705,
+            "yaw_change_normalized": 0.0148,
+            "excess_distance_change_normalized": 0.9189
+        },
+        {
+            "point_index": 102,
+            "speed_change_normalized": 0.0678,
+            "yaw_change_normalized": 0.0178,
+            "excess_distance_change_normalized": 0.9182
+        },
+        {
+            "point_index": 17,
+            "speed_change_normalized": 0.9112,
+            "yaw_change_normalized": 0.3742,
+            "excess_distance_change_normalized": 0.152
+        },
+        {
+            "point_index": 93,
+            "speed_change_normalized": 0.0256,
+            "yaw_change_normalized": 0.0119,
+            "excess_distance_change_normalized": 0.8988
+        },
+        {
+            "point_index": 91,
+            "speed_change_normalized": 0.0667,
+            "yaw_change_normalized": 0.5078,
+            "excess_distance_change_normalized": 0.891
+        },
+        {
+            "point_index": 95,
+            "speed_change_normalized": 0.2527,
+            "yaw_change_normalized": 0.8579,
+            "excess_distance_change_normalized": 0.0004
+        },
+        {
+            "point_index": 78,
+            "speed_change_normalized": 0.8465,
+            "yaw_change_normalized": 0.009,
+            "excess_distance_change_normalized": 0.0081
+        },
+        {
+            "point_index": 59,
+            "speed_change_normalized": 0.8244,
+            "yaw_change_normalized": 0.1106,
+            "excess_distance_change_normalized": 0.0025
+        },
+        {
+            "point_index": 42,
+            "speed_change_normalized": 0.6897,
+            "yaw_change_normalized": 0.0114,
+            "excess_distance_change_normalized": 0.0116
+        },
+        {
+            "point_index": 94,
+            "speed_change_normalized": 0.0417,
+            "yaw_change_normalized": 0.0765,
+            "excess_distance_change_normalized": 0.6509
+        },
+        {
+            "point_index": 99,
+            "speed_change_normalized": 0.1652,
+            "yaw_change_normalized": 0.5533,
+            "excess_distance_change_normalized": 0.1894
+        },
+        {
+            "point_index": 90,
+            "speed_change_normalized": 0.24,
+            "yaw_change_normalized": 0.2697,
+            "excess_distance_change_normalized": 0.1953
+        },
+        {
+            "point_index": 19,
+            "speed_change_normalized": 0.0792,
+            "yaw_change_normalized": 0.0042,
+            "excess_distance_change_normalized": 0.2324
+        },
+        {
+            "point_index": 20,
+            "speed_change_normalized": 0.0994,
+            "yaw_change_normalized": 0.0051,
+            "excess_distance_change_normalized": 0.2183
+        },
+        {
+            "point_index": 21,
+            "speed_change_normalized": 0.0821,
+            "yaw_change_normalized": 0.0021,
+            "excess_distance_change_normalized": 0.1996
+        },
+        {
+            "point_index": 96,
+            "speed_change_normalized": 0.1994,
+            "yaw_change_normalized": 0.0062,
+            "excess_distance_change_normalized": 0.0004
+        },
+        {
+            "point_index": 73,
+            "speed_change_normalized": 0.0449,
+            "yaw_change_normalized": 0.1969,
+            "excess_distance_change_normalized": 0.0074
+        },
+        {
+            "point_index": 84,
+            "speed_change_normalized": 0.0299,
+            "yaw_change_normalized": 0.1828,
+            "excess_distance_change_normalized": 0.0547
+        },
+        {
+            "point_index": 22,
+            "speed_change_normalized": 0.1022,
+            "yaw_change_normalized": 0.001,
+            "excess_distance_change_normalized": 0.1774
+        },
+        {
+            "point_index": 60,
+            "speed_change_normalized": 0.0675,
+            "yaw_change_normalized": 0.1668,
+            "excess_distance_change_normalized": 0.0571
+        },
+        {
+            "point_index": 23,
+            "speed_change_normalized": 0.1031,
+            "yaw_change_normalized": 0.0,
+            "excess_distance_change_normalized": 0.1629
+        },
+        {
+            "point_index": 24,
+            "speed_change_normalized": 0.067,
+            "yaw_change_normalized": 0.0073,
+            "excess_distance_change_normalized": 0.1463
+        },
+        {
+            "point_index": 25,
+            "speed_change_normalized": 0.0221,
+            "yaw_change_normalized": 0.0093,
+            "excess_distance_change_normalized": 0.1403
+        },
+        {
+            "point_index": 104,
+            "speed_change_normalized": 0.1302,
+            "yaw_change_normalized": 0.0102,
+            "excess_distance_change_normalized": 0.0011
+        },
+        {
+            "point_index": 26,
+            "speed_change_normalized": 0.0184,
+            "yaw_change_normalized": 0.0041,
+            "excess_distance_change_normalized": 0.1287
+        },
+        {
+            "point_index": 70,
+            "speed_change_normalized": 0.1266,
+            "yaw_change_normalized": 0.0019,
+            "excess_distance_change_normalized": 0.0423
+        },
+        {
+            "point_index": 2,
+            "speed_change_normalized": 0.1223,
+            "yaw_change_normalized": 0.004,
+            "excess_distance_change_normalized": 0.0
+        },
+        {
+            "point_index": 3,
+            "speed_change_normalized": 0.1211,
+            "yaw_change_normalized": 0.0006,
+            "excess_distance_change_normalized": 0.0
+        },
+        {
+            "point_index": 67,
+            "speed_change_normalized": 0.1164,
+            "yaw_change_normalized": 0.0026,
+            "excess_distance_change_normalized": 0.0451
+        },
+        {
+            "point_index": 12,
+            "speed_change_normalized": 0.1093,
+            "yaw_change_normalized": 0.0168,
+            "excess_distance_change_normalized": 0.0
+        },
+        {
+            "point_index": 4,
+            "speed_change_normalized": 0.1082,
+            "yaw_change_normalized": 0.0049,
+            "excess_distance_change_normalized": 0.0
+        },
+        {
+            "point_index": 33,
+            "speed_change_normalized": 0.1012,
+            "yaw_change_normalized": 0.0111,
+            "excess_distance_change_normalized": 0.0148
+        },
+        {
+            "point_index": 16,
+            "speed_change_normalized": 0.0989,
+            "yaw_change_normalized": 0.0099,
+            "excess_distance_change_normalized": 0.0
+        },
+        {
+            "point_index": 31,
+            "speed_change_normalized": 0.0903,
+            "yaw_change_normalized": 0.0044,
+            "excess_distance_change_normalized": 0.0201
+        },
+        {
+            "point_index": 66,
+            "speed_change_normalized": 0.0897,
+            "yaw_change_normalized": 0.0046,
+            "excess_distance_change_normalized": 0.0472
+        },
+        {
+            "point_index": 83,
+            "speed_change_normalized": 0.0034,
+            "yaw_change_normalized": 0.0893,
+            "excess_distance_change_normalized": 0.0007
+        },
+        {
+            "point_index": 11,
+            "speed_change_normalized": 0.0887,
+            "yaw_change_normalized": 0.0123,
+            "excess_distance_change_normalized": 0.0
+        },
+        {
+            "point_index": 13,
+            "speed_change_normalized": 0.0874,
+            "yaw_change_normalized": 0.0139,
+            "excess_distance_change_normalized": 0.0
+        },
+        {
+            "point_index": 32,
+            "speed_change_normalized": 0.0839,
+            "yaw_change_normalized": 0.0021,
+            "excess_distance_change_normalized": 0.0194
+        },
+        {
+            "point_index": 15,
+            "speed_change_normalized": 0.0832,
+            "yaw_change_normalized": 0.0104,
+            "excess_distance_change_normalized": 0.0004
+        },
+        {
+            "point_index": 41,
+            "speed_change_normalized": 0.0756,
+            "yaw_change_normalized": 0.001,
+            "excess_distance_change_normalized": 0.0099
+        },
+        {
+            "point_index": 30,
+            "speed_change_normalized": 0.0752,
+            "yaw_change_normalized": 0.0085,
+            "excess_distance_change_normalized": 0.0201
+        },
+        {
+            "point_index": 10,
+            "speed_change_normalized": 0.0751,
+            "yaw_change_normalized": 0.0017,
+            "excess_distance_change_normalized": 0.0
+        },
+        {
+            "point_index": 105,
+            "speed_change_normalized": 0.0705,
+            "yaw_change_normalized": 0.0044,
+            "excess_distance_change_normalized": 0.0007
+        }
+    ]
+}

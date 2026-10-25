@@ -1,0 +1,321 @@
+trajectory_id,taxi_id,day_class,day_label,departure_time,arrival_time,request_type,distance_category,destination_sector,origin_longitude,origin_latitude,destination_longitude,destination_latitude
+holiday_305,taxi_19,ordinary day,matched ordinary weekday,2014-12-10 17:24:00,2014-12-10 17:28:40,phone_dispatch,short,west,-8.685028,41.168529,-8.675896,41.154595
+holiday_143,taxi_23,pre-holiday or special day,New Year's Eve,2014-12-31 22:02:00,2014-12-31 22:15:54,street_hail,medium,north,-8.628844,41.185863,-8.684774,41.198431
+holiday_116,taxi_08,pre-holiday or special day,Christmas Eve,2014-12-24 22:50:00,2014-12-24 23:05:37,phone_dispatch,medium,west,-8.630899,41.178599,-8.701496,41.176946
+holiday_253,taxi_11,ordinary day,matched ordinary weekday,2014-12-17 14:18:00,2014-12-17 14:23:57,street_hail,short,north,-8.66478,41.186301,-8.679098,41.197421
+holiday_064,taxi_47,pre-holiday or special day,eve of Assumption Day,2014-08-14 23:51:00,2014-08-15 00:10:20,street_hail,long,central,-8.652818,41.200453,-8.626075,41.142422
+holiday_023,taxi_19,pre-holiday or special day,eve of Portugal Day,2014-06-09 21:24:00,2014-06-09 21:32:27,phone_dispatch,short,north,-8.637699,41.192583,-8.668314,41.182472
+holiday_100,taxi_20,pre-holiday or special day,Christmas Eve,2014-12-24 19:45:00,2014-12-24 20:03:29,phone_dispatch,long,west,-8.670309,41.134854,-8.663295,41.169033
+holiday_273,taxi_43,ordinary day,matched ordinary weekday,2014-12-17 22:46:00,2014-12-17 22:50:19,phone_dispatch,short,west,-8.692598,41.178347,-8.684506,41.160727
+holiday_263,taxi_27,ordinary day,matched ordinary weekday,2014-12-17 19:08:00,2014-12-17 19:14:53,phone_dispatch,short,north,-8.66478,41.186301,-8.679098,41.197421
+holiday_194,taxi_20,ordinary day,matched ordinary weekday,2014-06-02 23:12:00,2014-06-02 23:27:52,phone_dispatch,medium,west,-8.669573,41.131694,-8.657863,41.147028
+holiday_251,taxi_36,ordinary day,matched ordinary weekday,2014-12-17 12:55:00,2014-12-17 13:03:54,street_hail,short,south,-8.586111,41.133133,-8.621817,41.126724
+holiday_306,taxi_30,ordinary day,matched ordinary weekday,2014-12-10 17:17:00,2014-12-10 17:33:30,street_hail,medium,central,-8.601505,41.199261,-8.640332,41.170361
+holiday_077,taxi_02,pre-holiday or special day,eve of Assumption Day,2014-08-14 22:09:00,2014-08-14 22:17:31,phone_dispatch,medium,north,-8.648456,41.159894,-8.67056,41.183098
+holiday_275,taxi_18,ordinary day,matched ordinary weekday,2014-12-17 23:16:00,2014-12-17 23:18:58,phone_dispatch,short,south,-8.663736,41.135542,-8.652318,41.127414
+holiday_039,taxi_07,pre-holiday or special day,eve of Portugal Day,2014-06-09 22:41:00,2014-06-09 22:51:21,street_hail,medium,north,-8.644378,41.160403,-8.698105,41.178739
+holiday_177,taxi_21,ordinary day,matched ordinary weekday,2014-06-02 14:34:00,2014-06-02 14:48:20,street_hail,medium,south,-8.630976,41.167905,-8.596427,41.129702
+holiday_054,taxi_31,pre-holiday or special day,eve of Assumption Day,2014-08-14 18:43:00,2014-08-14 18:58:09,street_hail,medium,north,-8.644378,41.160403,-8.698105,41.178739
+holiday_319,taxi_32,ordinary day,matched ordinary weekday,2014-12-10 21:38:00,2014-12-10 21:44:26,street_hail,short,east,-8.608096,41.181814,-8.585911,41.161163
+holiday_195,taxi_31,ordinary day,matched ordinary weekday,2014-06-02 23:53:00,2014-06-02 23:59:57,street_hail,short,south,-8.612976,41.13777,-8.58587,41.124992
+holiday_051,taxi_45,pre-holiday or special day,eve of Assumption Day,2014-08-14 12:06:00,2014-08-14 12:32:53,street_hail,long,north,-8.568084,41.200036,-8.68761,41.198651
+holiday_157,taxi_36,pre-holiday or special day,New Year's Eve,2014-12-31 23:21:00,2014-12-31 23:26:16,phone_dispatch,short,north,-8.627588,41.199786,-8.643476,41.181613
+holiday_094,taxi_01,pre-holiday or special day,Christmas Eve,2014-12-24 18:10:00,2014-12-24 18:23:45,phone_dispatch,medium,north,-8.681049,41.164214,-8.633987,41.189944
+holiday_221,taxi_35,ordinary day,matched ordinary weekday,2014-08-07 17:53:00,2014-08-07 18:15:35,phone_dispatch,medium,north,-8.616579,41.142924,-8.678342,41.178565
+holiday_270,taxi_10,ordinary day,matched ordinary weekday,2014-12-17 18:05:00,2014-12-17 18:12:33,street_hail,short,west,-8.637213,41.179601,-8.658116,41.16246
+holiday_183,taxi_40,ordinary day,matched ordinary weekday,2014-06-02 17:43:00,2014-06-02 17:52:22,phone_dispatch,short,west,-8.671272,41.147613,-8.689169,41.167586
+holiday_189,taxi_12,ordinary day,matched ordinary weekday,2014-06-02 20:48:00,2014-06-02 20:54:44,street_hail,short,south,-8.612976,41.13777,-8.58587,41.124992
+holiday_280,taxi_26,ordinary day,matched ordinary weekday,2014-12-17 22:53:00,2014-12-17 23:06:50,street_hail,medium,central,-8.577389,41.158599,-8.633834,41.141807
+holiday_203,taxi_25,ordinary day,matched ordinary weekday,2014-08-07 11:46:00,2014-08-07 12:01:06,phone_dispatch,long,central,-8.678703,41.19828,-8.607195,41.161578
+holiday_081,taxi_46,pre-holiday or special day,Christmas Eve,2014-12-24 11:43:00,2014-12-24 11:50:56,phone_dispatch,short,west,-8.697762,41.183747,-8.680799,41.155853
+holiday_079,taxi_24,pre-holiday or special day,eve of Assumption Day,2014-08-14 21:17:00,2014-08-14 21:21:18,phone_dispatch,short,north,-8.596968,41.191803,-8.584582,41.196994
+holiday_015,taxi_25,pre-holiday or special day,eve of Portugal Day,2014-06-09 17:25:00,2014-06-09 17:49:31,phone_dispatch,medium,north,-8.686699,41.164607,-8.62842,41.201369
+holiday_072,taxi_41,pre-holiday or special day,eve of Assumption Day,2014-08-14 22:15:00,2014-08-14 22:27:50,phone_dispatch,medium,north,-8.618385,41.192408,-8.687986,41.183922
+holiday_217,taxi_38,ordinary day,matched ordinary weekday,2014-08-07 13:34:00,2014-08-07 13:41:31,street_hail,short,west,-8.689083,41.167507,-8.659503,41.149251
+holiday_277,taxi_40,ordinary day,matched ordinary weekday,2014-12-17 22:47:00,2014-12-17 22:50:42,phone_dispatch,short,east,-8.566232,41.156766,-8.57198,41.147327
+holiday_047,taxi_01,pre-holiday or special day,eve of Assumption Day,2014-08-14 15:23:00,2014-08-14 15:31:50,phone_dispatch,short,south,-8.639495,41.137894,-8.639328,41.115876
+holiday_197,taxi_06,ordinary day,matched ordinary weekday,2014-06-02 22:55:00,2014-06-02 23:01:17,phone_dispatch,short,north,-8.619155,41.192102,-8.652816,41.183132
+holiday_068,taxi_44,pre-holiday or special day,eve of Assumption Day,2014-08-14 23:07:00,2014-08-14 23:22:04,street_hail,long,north,-8.580996,41.196556,-8.651342,41.197349
+holiday_038,taxi_43,pre-holiday or special day,eve of Portugal Day,2014-06-09 21:48:00,2014-06-09 22:03:19,phone_dispatch,medium,north,-8.616579,41.142924,-8.678342,41.178565
+holiday_142,taxi_12,pre-holiday or special day,New Year's Eve,2014-12-31 23:34:00,2014-12-31 23:49:02,phone_dispatch,medium,north,-8.578679,41.13866,-8.571758,41.188229
+holiday_205,taxi_47,ordinary day,matched ordinary weekday,2014-08-07 10:23:00,2014-08-07 10:38:07,phone_dispatch,medium,west,-8.601291,41.168389,-8.6689,41.155027
+holiday_210,taxi_08,ordinary day,matched ordinary weekday,2014-08-07 08:17:00,2014-08-07 08:24:34,street_hail,short,north,-8.605463,41.179595,-8.582445,41.195475
+holiday_090,taxi_04,pre-holiday or special day,Christmas Eve,2014-12-24 15:48:00,2014-12-24 15:53:17,street_hail,short,north,-8.658019,41.191706,-8.676113,41.189721
+holiday_127,taxi_35,pre-holiday or special day,New Year's Eve,2014-12-31 13:45:00,2014-12-31 13:51:15,phone_dispatch,short,north,-8.658875,41.172426,-8.65705,41.195496
+holiday_204,taxi_36,ordinary day,matched ordinary weekday,2014-08-07 07:56:00,2014-08-07 08:13:44,street_hail,medium,south,-8.569786,41.142528,-8.613499,41.117963
+holiday_048,taxi_12,pre-holiday or special day,eve of Assumption Day,2014-08-14 13:43:00,2014-08-14 14:01:53,street_hail,medium,north,-8.616579,41.142924,-8.678342,41.178565
+holiday_320,taxi_43,ordinary day,matched ordinary weekday,2014-12-10 21:27:00,2014-12-10 21:32:03,street_hail,short,west,-8.631807,41.146363,-8.660303,41.149083
+holiday_096,taxi_23,pre-holiday or special day,Christmas Eve,2014-12-24 19:51:00,2014-12-24 20:10:59,street_hail,long,south,-8.64807,41.16607,-8.581167,41.12093
+holiday_022,taxi_08,pre-holiday or special day,eve of Portugal Day,2014-06-09 20:04:00,2014-06-09 20:10:41,phone_dispatch,short,north,-8.658019,41.191706,-8.676113,41.189721
+holiday_181,taxi_18,ordinary day,matched ordinary weekday,2014-06-02 19:48:00,2014-06-02 20:07:21,street_hail,medium,west,-8.640209,41.134628,-8.689232,41.167676
+holiday_182,taxi_29,ordinary day,matched ordinary weekday,2014-06-02 19:52:00,2014-06-02 20:10:31,phone_dispatch,medium,south,-8.675313,41.177729,-8.649261,41.136307
+holiday_119,taxi_41,pre-holiday or special day,Christmas Eve,2014-12-24 21:50:00,2014-12-24 21:55:38,phone_dispatch,short,north,-8.602669,41.185929,-8.625408,41.188399
+holiday_014,taxi_14,pre-holiday or special day,eve of Portugal Day,2014-06-09 18:50:00,2014-06-09 19:14:53,phone_dispatch,long,north,-8.648149,41.123548,-8.688579,41.182685
+holiday_262,taxi_16,ordinary day,matched ordinary weekday,2014-12-17 20:24:00,2014-12-17 20:33:22,street_hail,short,north,-8.605463,41.179595,-8.582445,41.195475
+holiday_211,taxi_19,ordinary day,matched ordinary weekday,2014-08-07 13:06:00,2014-08-07 13:11:14,phone_dispatch,short,north,-8.658019,41.191706,-8.676113,41.189721
+holiday_040,taxi_18,pre-holiday or special day,eve of Portugal Day,2014-06-09 23:45:00,2014-06-09 23:59:02,phone_dispatch,medium,north,-8.616579,41.142924,-8.678342,41.178565
+holiday_206,taxi_11,ordinary day,matched ordinary weekday,2014-08-07 10:36:00,2014-08-07 10:42:53,street_hail,short,east,-8.59353,41.135396,-8.575677,41.15422
+holiday_214,taxi_05,ordinary day,matched ordinary weekday,2014-08-07 14:43:00,2014-08-07 14:54:47,street_hail,medium,central,-8.672034,41.173521,-8.627792,41.150152
+holiday_152,taxi_28,pre-holiday or special day,New Year's Eve,2014-12-31 23:12:00,2014-12-31 23:27:40,phone_dispatch,medium,north,-8.578679,41.13866,-8.571758,41.188229
+holiday_289,taxi_31,ordinary day,matched ordinary weekday,2014-12-10 11:53:00,2014-12-10 12:06:43,street_hail,medium,east,-8.62553,41.1645,-8.576943,41.152811
+holiday_279,taxi_15,ordinary day,matched ordinary weekday,2014-12-17 22:42:00,2014-12-17 22:44:48,street_hail,short,south,-8.663736,41.135542,-8.652318,41.127414
+holiday_309,taxi_16,ordinary day,matched ordinary weekday,2014-12-10 19:42:00,2014-12-10 19:51:58,phone_dispatch,short,east,-8.608096,41.181814,-8.585911,41.161163
+holiday_101,taxi_31,pre-holiday or special day,Christmas Eve,2014-12-24 18:50:00,2014-12-24 19:10:19,street_hail,medium,north,-8.589171,41.137333,-8.605725,41.185719
+holiday_084,taxi_32,pre-holiday or special day,Christmas Eve,2014-12-24 10:17:00,2014-12-24 10:29:37,street_hail,medium,north,-8.681049,41.164214,-8.633987,41.189944
+holiday_315,taxi_35,ordinary day,matched ordinary weekday,2014-12-10 23:48:00,2014-12-11 00:03:41,phone_dispatch,medium,north,-8.604214,41.171973,-8.660455,41.201093
+holiday_004,taxi_45,pre-holiday or special day,eve of Portugal Day,2014-06-09 07:37:00,2014-06-09 07:46:28,street_hail,medium,central,-8.631926,41.1421,-8.628487,41.158758
+holiday_186,taxi_26,ordinary day,matched ordinary weekday,2014-06-02 18:06:00,2014-06-02 18:13:26,phone_dispatch,short,east,-8.607938,41.147554,-8.598766,41.16973
+holiday_179,taxi_43,ordinary day,matched ordinary weekday,2014-06-02 16:44:00,2014-06-02 16:58:28,street_hail,long,west,-8.57802,41.129602,-8.661311,41.148829
+holiday_271,taxi_21,ordinary day,matched ordinary weekday,2014-12-17 18:05:00,2014-12-17 18:13:34,phone_dispatch,short,south,-8.586111,41.133133,-8.621817,41.126724
+holiday_266,taxi_13,ordinary day,matched ordinary weekday,2014-12-17 18:18:00,2014-12-17 18:29:41,phone_dispatch,medium,west,-8.618539,41.15811,-8.660941,41.169482
+holiday_099,taxi_09,pre-holiday or special day,Christmas Eve,2014-12-24 17:27:00,2014-12-24 17:45:19,phone_dispatch,medium,north,-8.589171,41.137333,-8.605725,41.185719
+holiday_238,taxi_34,ordinary day,matched ordinary weekday,2014-08-07 22:21:00,2014-08-07 22:29:27,phone_dispatch,medium,central,-8.568936,41.145572,-8.614529,41.145946
+holiday_124,taxi_02,pre-holiday or special day,New Year's Eve,2014-12-31 08:39:00,2014-12-31 08:46:36,street_hail,short,central,-8.615518,41.186281,-8.617027,41.166144
+holiday_180,taxi_07,ordinary day,matched ordinary weekday,2014-06-02 13:16:00,2014-06-02 13:28:15,street_hail,medium,west,-8.610217,41.17036,-8.668308,41.147539
+holiday_118,taxi_30,pre-holiday or special day,Christmas Eve,2014-12-24 21:27:00,2014-12-24 21:51:38,street_hail,long,north,-8.685798,41.163018,-8.57387,41.182527
+holiday_070,taxi_19,pre-holiday or special day,eve of Assumption Day,2014-08-14 22:22:00,2014-08-14 22:33:37,phone_dispatch,medium,north,-8.618385,41.192408,-8.687986,41.183922
+holiday_055,taxi_42,pre-holiday or special day,eve of Assumption Day,2014-08-14 17:44:00,2014-08-14 17:53:53,phone_dispatch,medium,east,-8.62553,41.1645,-8.576943,41.152811
+holiday_293,taxi_28,ordinary day,matched ordinary weekday,2014-12-10 12:21:00,2014-12-10 12:38:10,street_hail,medium,central,-8.577389,41.158599,-8.633834,41.141807
+holiday_129,taxi_10,pre-holiday or special day,New Year's Eve,2014-12-31 13:06:00,2014-12-31 13:32:33,street_hail,long,south,-8.697865,41.19618,-8.615498,41.125277
+holiday_006,taxi_20,pre-holiday or special day,eve of Portugal Day,2014-06-09 15:52:00,2014-06-09 16:07:18,street_hail,medium,north,-8.604214,41.171973,-8.660455,41.201093
+holiday_216,taxi_27,ordinary day,matched ordinary weekday,2014-08-07 14:06:00,2014-08-07 14:16:15,street_hail,medium,central,-8.672034,41.173521,-8.627792,41.150152
+holiday_287,taxi_09,ordinary day,matched ordinary weekday,2014-12-10 07:57:00,2014-12-10 08:04:50,street_hail,short,north,-8.658849,41.19543,-8.68535,41.177052
+holiday_010,taxi_17,pre-holiday or special day,eve of Portugal Day,2014-06-09 15:39:00,2014-06-09 15:45:26,street_hail,short,north,-8.654241,41.192251,-8.626527,41.193498
+holiday_095,taxi_12,pre-holiday or special day,Christmas Eve,2014-12-24 17:53:00,2014-12-24 17:58:38,street_hail,short,north,-8.66478,41.186301,-8.679098,41.197421
+holiday_034,taxi_46,pre-holiday or special day,eve of Portugal Day,2014-06-09 22:33:00,2014-06-09 22:51:22,phone_dispatch,long,north,-8.647677,41.133979,-8.688253,41.186627
+holiday_033,taxi_35,pre-holiday or special day,eve of Portugal Day,2014-06-09 21:07:00,2014-06-09 21:33:49,phone_dispatch,long,north,-8.568084,41.200036,-8.68761,41.198651
+holiday_098,taxi_45,pre-holiday or special day,Christmas Eve,2014-12-24 17:25:00,2014-12-24 17:39:27,phone_dispatch,medium,central,-8.577777,41.146951,-8.636537,41.148228
+holiday_248,taxi_03,ordinary day,matched ordinary weekday,2014-12-17 09:36:00,2014-12-17 09:43:31,street_hail,short,central,-8.615518,41.186281,-8.617027,41.166144
+holiday_296,taxi_14,ordinary day,matched ordinary weekday,2014-12-10 16:54:00,2014-12-10 16:59:25,street_hail,short,north,-8.602669,41.185929,-8.625408,41.188399
+holiday_114,taxi_33,pre-holiday or special day,Christmas Eve,2014-12-24 21:17:00,2014-12-24 21:38:40,phone_dispatch,long,north,-8.685798,41.163018,-8.57387,41.182527
+holiday_226,taxi_43,ordinary day,matched ordinary weekday,2014-08-07 17:05:00,2014-08-07 17:29:02,street_hail,long,south,-8.673663,41.183824,-8.582386,41.137296
+holiday_310,taxi_27,ordinary day,matched ordinary weekday,2014-12-10 20:31:00,2014-12-10 20:37:44,street_hail,short,west,-8.631807,41.146363,-8.660303,41.149083
+holiday_243,taxi_42,ordinary day,matched ordinary weekday,2014-12-17 09:43:00,2014-12-17 09:58:00,street_hail,medium,north,-8.686699,41.164607,-8.62842,41.201369
+holiday_187,taxi_37,ordinary day,matched ordinary weekday,2014-06-02 20:44:00,2014-06-02 21:01:40,street_hail,medium,east,-8.619947,41.198412,-8.565119,41.154704
+holiday_257,taxi_08,ordinary day,matched ordinary weekday,2014-12-17 12:04:00,2014-12-17 12:19:37,street_hail,medium,central,-8.685413,41.1871,-8.623991,41.157498
+holiday_297,taxi_25,ordinary day,matched ordinary weekday,2014-12-10 16:56:00,2014-12-10 17:11:27,street_hail,medium,central,-8.577389,41.158599,-8.633834,41.141807
+holiday_294,taxi_39,ordinary day,matched ordinary weekday,2014-12-10 15:48:00,2014-12-10 16:09:15,street_hail,long,west,-8.57609,41.142613,-8.680932,41.156018
+holiday_154,taxi_03,pre-holiday or special day,New Year's Eve,2014-12-31 22:40:00,2014-12-31 22:57:48,street_hail,long,north,-8.644894,41.141958,-8.653113,41.199878
+holiday_219,taxi_13,ordinary day,matched ordinary weekday,2014-08-07 16:12:00,2014-08-07 16:17:37,phone_dispatch,short,north,-8.658019,41.191706,-8.676113,41.189721
+holiday_148,taxi_31,pre-holiday or special day,New Year's Eve,2014-12-31 21:50:00,2014-12-31 22:04:08,street_hail,medium,north,-8.578679,41.13866,-8.571758,41.188229
+holiday_035,taxi_10,pre-holiday or special day,eve of Portugal Day,2014-06-09 22:08:00,2014-06-09 22:27:13,phone_dispatch,long,east,-8.646786,41.186303,-8.565442,41.162128
+holiday_028,taxi_27,pre-holiday or special day,eve of Portugal Day,2014-06-09 21:33:00,2014-06-09 21:48:26,phone_dispatch,long,central,-8.675975,41.19809,-8.609721,41.165704
+holiday_027,taxi_16,pre-holiday or special day,eve of Portugal Day,2014-06-09 22:56:00,2014-06-09 23:22:14,phone_dispatch,long,north,-8.568084,41.200036,-8.68761,41.198651
+holiday_005,taxi_09,pre-holiday or special day,eve of Portugal Day,2014-06-09 07:37:00,2014-06-09 07:57:15,phone_dispatch,long,east,-8.668757,41.191186,-8.585096,41.166406
+holiday_188,taxi_01,ordinary day,matched ordinary weekday,2014-06-02 18:15:00,2014-06-02 18:21:11,phone_dispatch,short,north,-8.658019,41.191706,-8.676113,41.189721
+holiday_316,taxi_46,ordinary day,matched ordinary weekday,2014-12-10 23:29:00,2014-12-10 23:46:08,street_hail,medium,west,-8.627472,41.126938,-8.677684,41.151253
+holiday_144,taxi_34,pre-holiday or special day,New Year's Eve,2014-12-31 23:16:00,2014-12-31 23:29:11,phone_dispatch,medium,east,-8.621391,41.185698,-8.59032,41.145078
+holiday_192,taxi_45,ordinary day,matched ordinary weekday,2014-06-02 19:31:00,2014-06-02 19:43:18,street_hail,medium,north,-8.677684,41.151253,-8.677847,41.187347
+holiday_071,taxi_30,pre-holiday or special day,eve of Assumption Day,2014-08-14 22:31:00,2014-08-14 22:40:29,phone_dispatch,medium,north,-8.648456,41.159894,-8.67056,41.183098
+holiday_020,taxi_33,pre-holiday or special day,eve of Portugal Day,2014-06-09 17:03:00,2014-06-09 17:25:45,phone_dispatch,long,north,-8.648149,41.123548,-8.688579,41.182685
+holiday_249,taxi_14,ordinary day,matched ordinary weekday,2014-12-17 13:21:00,2014-12-17 13:33:07,street_hail,medium,west,-8.601291,41.168389,-8.6689,41.155027
+holiday_290,taxi_42,ordinary day,matched ordinary weekday,2014-12-10 12:24:00,2014-12-10 12:29:09,phone_dispatch,short,east,-8.566232,41.156766,-8.57198,41.147327
+holiday_230,taxi_40,ordinary day,matched ordinary weekday,2014-08-07 19:57:00,2014-08-07 20:05:47,street_hail,short,west,-8.68489,41.165625,-8.660037,41.146951
+holiday_160,taxi_22,pre-holiday or special day,New Year's Eve,2014-12-31 22:51:00,2014-12-31 23:13:19,phone_dispatch,long,east,-8.674377,41.187732,-8.567578,41.168871
+holiday_139,taxi_26,pre-holiday or special day,New Year's Eve,2014-12-31 20:16:00,2014-12-31 20:31:24,street_hail,medium,north,-8.604214,41.171973,-8.660455,41.201093
+holiday_147,taxi_20,pre-holiday or special day,New Year's Eve,2014-12-31 23:17:00,2014-12-31 23:28:42,phone_dispatch,medium,north,-8.628844,41.185863,-8.684774,41.198431
+holiday_125,taxi_13,pre-holiday or special day,New Year's Eve,2014-12-31 09:43:00,2014-12-31 10:02:30,phone_dispatch,medium,east,-8.619947,41.198412,-8.565119,41.154704
+holiday_250,taxi_25,ordinary day,matched ordinary weekday,2014-12-17 16:41:00,2014-12-17 16:48:36,street_hail,short,west,-8.637213,41.179601,-8.658116,41.16246
+holiday_057,taxi_17,pre-holiday or special day,eve of Assumption Day,2014-08-14 20:02:00,2014-08-14 20:12:41,street_hail,short,central,-8.640472,41.172533,-8.61856,41.149955
+holiday_228,taxi_18,ordinary day,matched ordinary weekday,2014-08-07 18:43:00,2014-08-07 18:49:08,phone_dispatch,short,central,-8.623529,41.158613,-8.626626,41.14475
+holiday_252,taxi_47,ordinary day,matched ordinary weekday,2014-12-17 12:17:00,2014-12-17 12:25:26,phone_dispatch,short,north,-8.605463,41.179595,-8.582445,41.195475
+holiday_235,taxi_01,ordinary day,matched ordinary weekday,2014-08-07 22:22:00,2014-08-07 22:38:02,phone_dispatch,medium,east,-8.674716,41.14816,-8.592843,41.141017
+holiday_236,taxi_12,ordinary day,matched ordinary weekday,2014-08-07 23:57:00,2014-08-08 00:03:50,street_hail,short,north,-8.654241,41.192251,-8.626527,41.193498
+holiday_146,taxi_09,pre-holiday or special day,New Year's Eve,2014-12-31 22:10:00,2014-12-31 22:21:56,phone_dispatch,medium,central,-8.660037,41.146951,-8.626476,41.14248
+holiday_212,taxi_30,ordinary day,matched ordinary weekday,2014-08-07 13:43:00,2014-08-07 13:50:15,phone_dispatch,short,south,-8.612976,41.13777,-8.58587,41.124992
+holiday_018,taxi_11,pre-holiday or special day,eve of Portugal Day,2014-06-09 20:03:00,2014-06-09 20:14:36,street_hail,medium,north,-8.677684,41.151253,-8.677847,41.187347
+holiday_272,taxi_32,ordinary day,matched ordinary weekday,2014-12-17 23:13:00,2014-12-17 23:28:21,phone_dispatch,long,east,-8.63276,41.137587,-8.570422,41.16463
+holiday_109,taxi_25,pre-holiday or special day,Christmas Eve,2014-12-24 23:22:00,2014-12-24 23:36:12,phone_dispatch,medium,north,-8.618385,41.192408,-8.687986,41.183922
+holiday_013,taxi_03,pre-holiday or special day,eve of Portugal Day,2014-06-09 20:10:00,2014-06-09 20:25:42,street_hail,medium,north,-8.686699,41.164607,-8.62842,41.201369
+holiday_231,taxi_04,ordinary day,matched ordinary weekday,2014-08-07 18:14:00,2014-08-07 18:27:20,phone_dispatch,short,central,-8.640472,41.172533,-8.61856,41.149955
+holiday_062,taxi_25,pre-holiday or special day,eve of Assumption Day,2014-08-14 22:41:00,2014-08-14 22:56:23,street_hail,long,north,-8.580996,41.196556,-8.651342,41.197349
+holiday_193,taxi_09,ordinary day,matched ordinary weekday,2014-06-02 21:11:00,2014-06-02 21:16:43,phone_dispatch,short,east,-8.609126,41.149122,-8.591359,41.163306
+holiday_169,taxi_27,ordinary day,matched ordinary weekday,2014-06-02 11:54:00,2014-06-02 12:01:38,street_hail,short,north,-8.658849,41.19543,-8.68535,41.177052
+holiday_242,taxi_31,ordinary day,matched ordinary weekday,2014-12-17 10:23:00,2014-12-17 10:43:13,phone_dispatch,long,north,-8.648149,41.123548,-8.688579,41.182685
+holiday_053,taxi_20,pre-holiday or special day,eve of Assumption Day,2014-08-14 20:07:00,2014-08-14 20:22:18,phone_dispatch,medium,north,-8.616579,41.142924,-8.678342,41.178565
+holiday_304,taxi_08,ordinary day,matched ordinary weekday,2014-12-10 17:28:00,2014-12-10 17:34:33,street_hail,short,south,-8.63484,41.137036,-8.650664,41.123373
+holiday_134,taxi_18,pre-holiday or special day,New Year's Eve,2014-12-31 19:04:00,2014-12-31 19:19:30,phone_dispatch,medium,west,-8.627472,41.126938,-8.677684,41.151253
+holiday_135,taxi_29,pre-holiday or special day,New Year's Eve,2014-12-31 17:43:00,2014-12-31 18:11:35,street_hail,long,east,-8.699373,41.201443,-8.597958,41.150595
+holiday_256,taxi_44,ordinary day,matched ordinary weekday,2014-12-17 13:18:00,2014-12-17 13:29:23,phone_dispatch,short,north,-8.605463,41.179595,-8.582445,41.195475
+holiday_166,taxi_41,ordinary day,matched ordinary weekday,2014-06-02 08:09:00,2014-06-02 08:20:58,street_hail,medium,east,-8.60876,41.19153,-8.593451,41.158404
+holiday_002,taxi_23,pre-holiday or special day,eve of Portugal Day,2014-06-09 10:56:00,2014-06-09 11:01:13,street_hail,short,north,-8.658019,41.191706,-8.676113,41.189721
+holiday_097,taxi_34,pre-holiday or special day,Christmas Eve,2014-12-24 17:03:00,2014-12-24 17:18:35,phone_dispatch,long,north,-8.621707,41.16961,-8.681178,41.200177
+holiday_149,taxi_42,pre-holiday or special day,New Year's Eve,2014-12-31 22:13:00,2014-12-31 22:32:03,phone_dispatch,long,north,-8.685798,41.163018,-8.605366,41.199586
+holiday_200,taxi_39,ordinary day,matched ordinary weekday,2014-06-02 23:44:00,2014-06-02 23:51:46,street_hail,short,south,-8.621757,41.135908,-8.655794,41.135253
+holiday_190,taxi_23,ordinary day,matched ordinary weekday,2014-06-02 20:31:00,2014-06-02 20:37:38,phone_dispatch,short,east,-8.607938,41.147554,-8.598766,41.16973
+holiday_131,taxi_32,pre-holiday or special day,New Year's Eve,2014-12-31 16:32:00,2014-12-31 16:36:27,street_hail,short,east,-8.573795,41.158247,-8.567692,41.170481
+holiday_073,taxi_05,pre-holiday or special day,eve of Assumption Day,2014-08-14 23:02:00,2014-08-14 23:11:36,street_hail,medium,north,-8.648456,41.159894,-8.67056,41.183098
+holiday_058,taxi_28,pre-holiday or special day,eve of Assumption Day,2014-08-14 18:02:00,2014-08-14 18:10:19,phone_dispatch,short,north,-8.637699,41.192583,-8.668314,41.182472
+holiday_237,taxi_23,ordinary day,matched ordinary weekday,2014-08-07 21:24:00,2014-08-07 21:29:59,street_hail,short,west,-8.631807,41.146363,-8.660303,41.149083
+holiday_171,taxi_02,ordinary day,matched ordinary weekday,2014-06-02 15:04:00,2014-06-02 15:11:37,street_hail,short,south,-8.639793,41.144934,-8.610234,41.138128
+holiday_083,taxi_21,pre-holiday or special day,Christmas Eve,2014-12-24 08:49:00,2014-12-24 09:06:35,street_hail,long,east,-8.689271,41.167974,-8.593996,41.154871
+holiday_153,taxi_39,pre-holiday or special day,New Year's Eve,2014-12-31 22:10:00,2014-12-31 22:28:06,phone_dispatch,long,north,-8.685798,41.163018,-8.605366,41.199586
+holiday_265,taxi_02,ordinary day,matched ordinary weekday,2014-12-17 17:19:00,2014-12-17 17:31:59,street_hail,medium,south,-8.662058,41.133544,-8.600277,41.136493
+holiday_313,taxi_13,ordinary day,matched ordinary weekday,2014-12-10 23:39:00,2014-12-10 23:44:54,phone_dispatch,short,south,-8.6371,41.137727,-8.644407,41.122023
+holiday_029,taxi_38,pre-holiday or special day,eve of Portugal Day,2014-06-09 22:27:00,2014-06-09 22:52:35,phone_dispatch,long,north,-8.568084,41.200036,-8.68761,41.198651
+holiday_075,taxi_27,pre-holiday or special day,eve of Assumption Day,2014-08-14 23:11:00,2014-08-14 23:25:08,phone_dispatch,medium,west,-8.630899,41.178599,-8.701496,41.176946
+holiday_121,taxi_16,pre-holiday or special day,New Year's Eve,2014-12-31 08:04:00,2014-12-31 08:11:38,street_hail,short,south,-8.612976,41.13777,-8.58587,41.124992
+holiday_208,taxi_33,ordinary day,matched ordinary weekday,2014-08-07 07:15:00,2014-08-07 07:30:13,street_hail,medium,north,-8.681049,41.164214,-8.633987,41.189944
+holiday_199,taxi_28,ordinary day,matched ordinary weekday,2014-06-02 22:04:00,2014-06-02 22:15:47,phone_dispatch,medium,central,-8.672034,41.173521,-8.627792,41.150152
+holiday_078,taxi_13,pre-holiday or special day,eve of Assumption Day,2014-08-14 23:24:00,2014-08-14 23:28:42,phone_dispatch,short,north,-8.602669,41.185929,-8.625408,41.188399
+holiday_150,taxi_06,pre-holiday or special day,New Year's Eve,2014-12-31 21:23:00,2014-12-31 21:38:26,street_hail,medium,north,-8.578679,41.13866,-8.571758,41.188229
+holiday_201,taxi_03,ordinary day,matched ordinary weekday,2014-08-07 07:53:00,2014-08-07 08:09:26,street_hail,medium,central,-8.685413,41.1871,-8.623991,41.157498
+holiday_222,taxi_46,ordinary day,matched ordinary weekday,2014-08-07 19:41:00,2014-08-07 19:47:20,street_hail,short,central,-8.623529,41.158613,-8.626626,41.14475
+holiday_312,taxi_02,ordinary day,matched ordinary weekday,2014-12-10 22:15:00,2014-12-10 22:35:22,street_hail,long,east,-8.677647,41.151211,-8.572528,41.146837
+holiday_117,taxi_19,pre-holiday or special day,Christmas Eve,2014-12-24 21:25:00,2014-12-24 21:40:47,phone_dispatch,medium,north,-8.618385,41.192408,-8.687986,41.183922
+holiday_137,taxi_04,pre-holiday or special day,New Year's Eve,2014-12-31 18:42:00,2014-12-31 19:04:18,street_hail,long,north,-8.569557,41.153851,-8.636445,41.195732
+holiday_104,taxi_17,pre-holiday or special day,Christmas Eve,2014-12-24 21:26:00,2014-12-24 21:49:08,street_hail,long,north,-8.685798,41.163018,-8.57387,41.182527
+holiday_291,taxi_06,ordinary day,matched ordinary weekday,2014-12-10 13:52:00,2014-12-10 13:55:31,street_hail,short,east,-8.567462,41.181594,-8.56853,41.169383
+holiday_110,taxi_36,pre-holiday or special day,Christmas Eve,2014-12-24 22:02:00,2014-12-24 22:20:28,street_hail,medium,central,-8.577389,41.158599,-8.633834,41.141807
+holiday_178,taxi_32,ordinary day,matched ordinary weekday,2014-06-02 16:17:00,2014-06-02 16:32:29,street_hail,medium,north,-8.618385,41.192408,-8.687986,41.183922
+holiday_026,taxi_05,pre-holiday or special day,eve of Portugal Day,2014-06-09 22:54:00,2014-06-09 23:07:49,phone_dispatch,medium,north,-8.616579,41.142924,-8.678342,41.178565
+holiday_113,taxi_22,pre-holiday or special day,Christmas Eve,2014-12-24 22:51:00,2014-12-24 23:04:45,street_hail,medium,north,-8.618385,41.192408,-8.687986,41.183922
+holiday_308,taxi_05,ordinary day,matched ordinary weekday,2014-12-10 18:32:00,2014-12-10 18:36:58,street_hail,short,east,-8.573795,41.158247,-8.567692,41.170481
+holiday_128,taxi_46,pre-holiday or special day,New Year's Eve,2014-12-31 14:21:00,2014-12-31 14:30:53,street_hail,medium,central,-8.568936,41.145572,-8.614529,41.145946
+holiday_260,taxi_41,ordinary day,matched ordinary weekday,2014-12-17 16:57:00,2014-12-17 17:20:57,street_hail,long,east,-8.679974,41.198138,-8.586401,41.170747
+holiday_198,taxi_17,ordinary day,matched ordinary weekday,2014-06-02 21:03:00,2014-06-02 21:19:40,street_hail,long,west,-8.586774,41.195999,-8.660615,41.164552
+holiday_156,taxi_25,pre-holiday or special day,New Year's Eve,2014-12-31 23:22:00,2014-12-31 23:29:36,phone_dispatch,short,north,-8.631154,41.189078,-8.658675,41.197443
+holiday_288,taxi_20,ordinary day,matched ordinary weekday,2014-12-10 11:29:00,2014-12-10 11:37:56,street_hail,short,south,-8.639495,41.137894,-8.639328,41.115876
+holiday_276,taxi_29,ordinary day,matched ordinary weekday,2014-12-17 21:17:00,2014-12-17 21:23:42,phone_dispatch,short,west,-8.683531,41.190594,-8.689232,41.167676
+holiday_112,taxi_11,pre-holiday or special day,Christmas Eve,2014-12-24 23:12:00,2014-12-24 23:29:26,phone_dispatch,long,east,-8.63276,41.137587,-8.570422,41.16463
+holiday_167,taxi_05,ordinary day,matched ordinary weekday,2014-06-02 07:08:00,2014-06-02 07:19:13,phone_dispatch,short,north,-8.658849,41.19543,-8.68535,41.177052
+holiday_031,taxi_13,pre-holiday or special day,eve of Portugal Day,2014-06-09 22:11:00,2014-06-09 22:18:58,street_hail,short,north,-8.637699,41.192583,-8.668314,41.182472
+holiday_093,taxi_37,pre-holiday or special day,Christmas Eve,2014-12-24 20:27:00,2014-12-24 20:47:26,street_hail,long,east,-8.689271,41.167974,-8.593996,41.154871
+holiday_264,taxi_38,ordinary day,matched ordinary weekday,2014-12-17 18:52:00,2014-12-17 19:07:12,phone_dispatch,medium,central,-8.577777,41.146951,-8.636537,41.148228
+holiday_037,taxi_32,pre-holiday or special day,eve of Portugal Day,2014-06-09 23:27:00,2014-06-09 23:46:35,street_hail,long,central,-8.567319,41.199692,-8.631945,41.151206
+holiday_278,taxi_04,ordinary day,matched ordinary weekday,2014-12-17 21:45:00,2014-12-17 21:51:53,street_hail,medium,north,-8.648456,41.159894,-8.67056,41.183098
+holiday_284,taxi_23,ordinary day,matched ordinary weekday,2014-12-10 11:31:00,2014-12-10 11:51:19,street_hail,long,east,-8.646786,41.186303,-8.565442,41.162128
+holiday_274,taxi_07,ordinary day,matched ordinary weekday,2014-12-17 21:21:00,2014-12-17 21:31:02,street_hail,medium,north,-8.648456,41.159894,-8.67056,41.183098
+holiday_025,taxi_41,pre-holiday or special day,eve of Portugal Day,2014-06-09 22:16:00,2014-06-09 22:26:49,street_hail,medium,south,-8.582209,41.129398,-8.638757,41.134786
+holiday_227,taxi_07,ordinary day,matched ordinary weekday,2014-08-07 17:03:00,2014-08-07 17:07:50,street_hail,short,south,-8.629673,41.130419,-8.638305,41.117869
+holiday_132,taxi_43,pre-holiday or special day,New Year's Eve,2014-12-31 20:09:00,2014-12-31 20:16:54,phone_dispatch,short,north,-8.658875,41.172426,-8.65705,41.195496
+holiday_164,taxi_19,ordinary day,matched ordinary weekday,2014-06-02 10:32:00,2014-06-02 10:44:17,phone_dispatch,medium,north,-8.644378,41.160403,-8.698105,41.178739
+holiday_122,taxi_27,pre-holiday or special day,New Year's Eve,2014-12-31 09:28:00,2014-12-31 09:41:04,street_hail,medium,north,-8.677684,41.151253,-8.677847,41.187347
+holiday_092,taxi_26,pre-holiday or special day,Christmas Eve,2014-12-24 14:19:00,2014-12-24 14:36:52,phone_dispatch,long,west,-8.586774,41.195999,-8.660615,41.164552
+holiday_036,taxi_21,pre-holiday or special day,eve of Portugal Day,2014-06-09 23:35:00,2014-06-09 23:45:37,phone_dispatch,medium,west,-8.639438,41.200147,-8.666847,41.16834
+holiday_202,taxi_14,ordinary day,matched ordinary weekday,2014-08-07 07:33:00,2014-08-07 07:39:54,street_hail,short,west,-8.637213,41.179601,-8.658116,41.16246
+holiday_174,taxi_35,ordinary day,matched ordinary weekday,2014-06-02 15:22:00,2014-06-02 15:26:43,street_hail,short,east,-8.566232,41.156766,-8.57198,41.147327
+holiday_241,taxi_20,ordinary day,matched ordinary weekday,2014-12-17 08:03:00,2014-12-17 08:19:57,street_hail,medium,south,-8.5698,41.170699,-8.605732,41.12802
+holiday_063,taxi_36,pre-holiday or special day,eve of Assumption Day,2014-08-14 21:03:00,2014-08-14 21:18:54,street_hail,long,south,-8.637301,41.186677,-8.637662,41.132518
+holiday_317,taxi_10,ordinary day,matched ordinary weekday,2014-12-10 23:14:00,2014-12-10 23:22:57,phone_dispatch,medium,central,-8.568936,41.145572,-8.614529,41.145946
+holiday_215,taxi_16,ordinary day,matched ordinary weekday,2014-08-07 12:28:00,2014-08-07 12:46:08,street_hail,medium,west,-8.669573,41.131694,-8.657863,41.147028
+holiday_234,taxi_37,ordinary day,matched ordinary weekday,2014-08-07 21:04:00,2014-08-07 21:11:23,street_hail,short,north,-8.654241,41.192251,-8.626527,41.193498
+holiday_019,taxi_22,pre-holiday or special day,eve of Portugal Day,2014-06-09 17:50:00,2014-06-09 18:03:49,street_hail,medium,central,-8.672034,41.173521,-8.627792,41.150152
+holiday_091,taxi_15,pre-holiday or special day,Christmas Eve,2014-12-24 12:47:00,2014-12-24 12:54:36,street_hail,short,south,-8.612976,41.13777,-8.58587,41.124992
+holiday_267,taxi_24,ordinary day,matched ordinary weekday,2014-12-17 18:50:00,2014-12-17 19:04:46,street_hail,medium,east,-8.622996,41.159213,-8.580111,41.143805
+holiday_007,taxi_31,pre-holiday or special day,eve of Portugal Day,2014-06-09 12:42:00,2014-06-09 13:02:40,street_hail,long,west,-8.670242,41.134597,-8.679501,41.159796
+holiday_045,taxi_26,pre-holiday or special day,eve of Assumption Day,2014-08-14 11:10:00,2014-08-14 11:28:10,phone_dispatch,medium,north,-8.616579,41.142924,-8.678342,41.178565
+holiday_043,taxi_04,pre-holiday or special day,eve of Assumption Day,2014-08-14 08:26:00,2014-08-14 08:32:38,street_hail,short,east,-8.566994,41.163993,-8.579845,41.147217
+holiday_103,taxi_06,pre-holiday or special day,Christmas Eve,2014-12-24 20:55:00,2014-12-24 21:00:38,phone_dispatch,short,north,-8.66478,41.186301,-8.679098,41.197421
+holiday_220,taxi_24,ordinary day,matched ordinary weekday,2014-08-07 14:40:00,2014-08-07 14:58:31,street_hail,long,east,-8.668757,41.191186,-8.585096,41.166406
+holiday_163,taxi_08,ordinary day,matched ordinary weekday,2014-06-02 08:50:00,2014-06-02 09:03:16,street_hail,medium,east,-8.62553,41.1645,-8.576943,41.152811
+holiday_130,taxi_21,pre-holiday or special day,New Year's Eve,2014-12-31 14:40:00,2014-12-31 14:55:37,phone_dispatch,medium,north,-8.604214,41.171973,-8.660455,41.201093
+holiday_017,taxi_47,pre-holiday or special day,eve of Portugal Day,2014-06-09 18:17:00,2014-06-09 18:22:31,street_hail,short,east,-8.609126,41.149122,-8.591359,41.163306
+holiday_061,taxi_14,pre-holiday or special day,eve of Assumption Day,2014-08-14 19:04:00,2014-08-14 19:28:31,phone_dispatch,long,north,-8.647677,41.133979,-8.688253,41.186627
+holiday_303,taxi_44,ordinary day,matched ordinary weekday,2014-12-10 17:09:00,2014-12-10 17:30:25,street_hail,long,north,-8.569557,41.153851,-8.636445,41.195732
+holiday_213,taxi_41,ordinary day,matched ordinary weekday,2014-08-07 15:40:00,2014-08-07 15:55:27,street_hail,medium,south,-8.675313,41.177729,-8.649261,41.136307
+holiday_126,taxi_24,pre-holiday or special day,New Year's Eve,2014-12-31 15:42:00,2014-12-31 15:59:27,street_hail,medium,west,-8.60821,41.132499,-8.670339,41.157408
+holiday_066,taxi_22,pre-holiday or special day,eve of Assumption Day,2014-08-14 21:17:00,2014-08-14 21:33:29,phone_dispatch,long,east,-8.669649,41.132162,-8.597299,41.154617
+holiday_085,taxi_43,pre-holiday or special day,Christmas Eve,2014-12-24 15:14:00,2014-12-24 15:28:00,street_hail,medium,south,-8.5698,41.170699,-8.605732,41.12802
+holiday_286,taxi_45,ordinary day,matched ordinary weekday,2014-12-10 09:13:00,2014-12-10 09:21:29,street_hail,short,south,-8.639495,41.137894,-8.639328,41.115876
+holiday_246,taxi_28,ordinary day,matched ordinary weekday,2014-12-17 10:19:00,2014-12-17 10:28:16,street_hail,short,south,-8.621757,41.135908,-8.655794,41.135253
+holiday_172,taxi_13,ordinary day,matched ordinary weekday,2014-06-02 16:42:00,2014-06-02 16:47:19,street_hail,short,north,-8.602669,41.185929,-8.625408,41.188399
+holiday_050,taxi_34,pre-holiday or special day,eve of Assumption Day,2014-08-14 13:13:00,2014-08-14 13:25:12,street_hail,medium,central,-8.58898,41.193049,-8.624853,41.161228
+holiday_191,taxi_34,ordinary day,matched ordinary weekday,2014-06-02 18:52:00,2014-06-02 19:19:53,street_hail,long,central,-8.698105,41.178739,-8.601751,41.171219
+holiday_292,taxi_17,ordinary day,matched ordinary weekday,2014-12-10 14:48:00,2014-12-10 14:51:33,phone_dispatch,short,south,-8.663736,41.135542,-8.652318,41.127414
+holiday_021,taxi_44,pre-holiday or special day,eve of Portugal Day,2014-06-09 17:45:00,2014-06-09 18:03:08,phone_dispatch,medium,west,-8.640209,41.134628,-8.689232,41.167676
+holiday_024,taxi_30,pre-holiday or special day,eve of Portugal Day,2014-06-09 23:57:00,2014-06-10 00:05:19,street_hail,medium,east,-8.62553,41.1645,-8.576943,41.152811
+holiday_184,taxi_04,ordinary day,matched ordinary weekday,2014-06-02 18:05:00,2014-06-02 18:10:18,street_hail,short,north,-8.658019,41.191706,-8.676113,41.189721
+holiday_311,taxi_38,ordinary day,matched ordinary weekday,2014-12-10 20:02:00,2014-12-10 20:17:21,phone_dispatch,medium,north,-8.604214,41.171973,-8.660455,41.201093
+holiday_269,taxi_46,ordinary day,matched ordinary weekday,2014-12-17 18:49:00,2014-12-17 18:54:07,phone_dispatch,short,north,-8.66478,41.186301,-8.679098,41.197421
+holiday_108,taxi_14,pre-holiday or special day,Christmas Eve,2014-12-24 23:55:00,2014-12-24 23:59:38,phone_dispatch,short,north,-8.596968,41.191803,-8.584582,41.196994
+holiday_069,taxi_08,pre-holiday or special day,eve of Assumption Day,2014-08-14 23:35:00,2014-08-14 23:43:36,phone_dispatch,medium,north,-8.648456,41.159894,-8.67056,41.183098
+holiday_285,taxi_34,ordinary day,matched ordinary weekday,2014-12-10 08:36:00,2014-12-10 08:42:02,phone_dispatch,short,west,-8.687123,41.191312,-8.701875,41.176796
+holiday_224,taxi_21,ordinary day,matched ordinary weekday,2014-08-07 17:32:00,2014-08-07 17:44:18,phone_dispatch,medium,north,-8.644378,41.160403,-8.698105,41.178739
+holiday_225,taxi_32,ordinary day,matched ordinary weekday,2014-08-07 17:57:00,2014-08-07 18:01:22,street_hail,short,south,-8.629673,41.130419,-8.638305,41.117869
+holiday_300,taxi_11,ordinary day,matched ordinary weekday,2014-12-10 20:45:00,2014-12-10 21:01:18,phone_dispatch,medium,west,-8.627472,41.126938,-8.677684,41.151253
+holiday_105,taxi_28,pre-holiday or special day,Christmas Eve,2014-12-24 22:29:00,2014-12-24 22:42:28,phone_dispatch,medium,north,-8.618385,41.192408,-8.687986,41.183922
+holiday_314,taxi_24,ordinary day,matched ordinary weekday,2014-12-10 23:10:00,2014-12-10 23:20:33,phone_dispatch,medium,north,-8.670656,41.176749,-8.649967,41.199055
+holiday_268,taxi_35,ordinary day,matched ordinary weekday,2014-12-17 20:53:00,2014-12-17 20:59:56,street_hail,short,central,-8.666207,41.172005,-8.640601,41.164853
+holiday_041,taxi_29,pre-holiday or special day,eve of Assumption Day,2014-08-14 11:28:00,2014-08-14 11:36:51,street_hail,short,central,-8.640472,41.172533,-8.61856,41.149955
+holiday_136,taxi_40,pre-holiday or special day,New Year's Eve,2014-12-31 19:10:00,2014-12-31 19:38:41,phone_dispatch,long,north,-8.667361,41.128156,-8.613106,41.200004
+holiday_008,taxi_42,pre-holiday or special day,eve of Portugal Day,2014-06-09 16:39:00,2014-06-09 16:50:48,phone_dispatch,medium,south,-8.643217,41.163559,-8.628499,41.124566
+holiday_301,taxi_22,ordinary day,matched ordinary weekday,2014-12-10 19:11:00,2014-12-10 19:21:35,street_hail,medium,south,-8.643217,41.163559,-8.628499,41.124566
+holiday_106,taxi_39,pre-holiday or special day,Christmas Eve,2014-12-24 22:22:00,2014-12-24 22:40:58,phone_dispatch,long,south,-8.637301,41.186677,-8.637662,41.132518
+holiday_318,taxi_21,ordinary day,matched ordinary weekday,2014-12-10 23:49:00,2014-12-10 23:55:23,phone_dispatch,short,south,-8.63484,41.137036,-8.650664,41.123373
+holiday_088,taxi_29,pre-holiday or special day,Christmas Eve,2014-12-24 14:04:00,2014-12-24 14:14:45,phone_dispatch,medium,north,-8.677684,41.151253,-8.677847,41.187347
+holiday_185,taxi_15,ordinary day,matched ordinary weekday,2014-06-02 19:46:00,2014-06-02 19:54:41,street_hail,short,central,-8.642717,41.157511,-8.60469,41.154953
+holiday_120,taxi_05,pre-holiday or special day,Christmas Eve,2014-12-24 23:05:00,2014-12-24 23:12:58,phone_dispatch,medium,north,-8.648456,41.159894,-8.67056,41.183098
+holiday_161,taxi_33,ordinary day,matched ordinary weekday,2014-06-02 07:32:00,2014-06-02 07:39:40,street_hail,short,west,-8.687123,41.191312,-8.701875,41.176796
+holiday_239,taxi_45,ordinary day,matched ordinary weekday,2014-08-07 22:54:00,2014-08-07 23:13:22,phone_dispatch,long,east,-8.677647,41.151211,-8.572528,41.146837
+holiday_123,taxi_38,pre-holiday or special day,New Year's Eve,2014-12-31 11:24:00,2014-12-31 11:46:46,street_hail,long,west,-8.607723,41.201086,-8.689271,41.167974
+holiday_159,taxi_11,pre-holiday or special day,New Year's Eve,2014-12-31 23:43:00,2015-01-01 00:01:54,phone_dispatch,long,north,-8.685798,41.163018,-8.605366,41.199586
+holiday_162,taxi_44,ordinary day,matched ordinary weekday,2014-06-02 09:32:00,2014-06-02 09:45:34,phone_dispatch,medium,south,-8.582209,41.129398,-8.638757,41.134786
+holiday_307,taxi_41,ordinary day,matched ordinary weekday,2014-12-10 17:31:00,2014-12-10 17:36:12,street_hail,short,central,-8.586738,41.168815,-8.612946,41.170097
+holiday_244,taxi_06,ordinary day,matched ordinary weekday,2014-12-17 10:04:00,2014-12-17 10:13:29,phone_dispatch,short,west,-8.689083,41.167507,-8.659503,41.149251
+holiday_052,taxi_09,pre-holiday or special day,eve of Assumption Day,2014-08-14 12:23:00,2014-08-14 12:28:53,street_hail,short,east,-8.566994,41.163993,-8.579845,41.147217
+holiday_140,taxi_37,pre-holiday or special day,New Year's Eve,2014-12-31 18:07:00,2014-12-31 18:17:05,phone_dispatch,medium,north,-8.670656,41.176749,-8.649967,41.199055
+holiday_176,taxi_10,ordinary day,matched ordinary weekday,2014-06-02 13:34:00,2014-06-02 13:40:47,phone_dispatch,short,central,-8.60626,41.164466,-8.627145,41.148122
+holiday_302,taxi_33,ordinary day,matched ordinary weekday,2014-12-10 20:26:00,2014-12-10 20:33:17,phone_dispatch,short,central,-8.576949,41.170892,-8.602766,41.162911
+holiday_299,taxi_47,ordinary day,matched ordinary weekday,2014-12-10 14:09:00,2014-12-10 14:20:42,street_hail,medium,south,-8.630976,41.167905,-8.596427,41.129702
+holiday_281,taxi_37,ordinary day,matched ordinary weekday,2014-12-10 09:32:00,2014-12-10 09:43:02,phone_dispatch,medium,west,-8.639438,41.200147,-8.666847,41.16834
+holiday_254,taxi_22,ordinary day,matched ordinary weekday,2014-12-17 16:37:00,2014-12-17 16:53:48,street_hail,long,central,-8.700666,41.177387,-8.632876,41.146954
+holiday_245,taxi_17,ordinary day,matched ordinary weekday,2014-12-17 07:22:00,2014-12-17 07:34:00,street_hail,medium,central,-8.672034,41.173521,-8.627792,41.150152
+holiday_067,taxi_33,pre-holiday or special day,eve of Assumption Day,2014-08-14 23:02:00,2014-08-14 23:15:14,phone_dispatch,medium,central,-8.577389,41.158599,-8.633834,41.141807
+holiday_173,taxi_24,ordinary day,matched ordinary weekday,2014-06-02 14:46:00,2014-06-02 14:50:13,phone_dispatch,short,east,-8.567462,41.181594,-8.56853,41.169383
+holiday_283,taxi_12,ordinary day,matched ordinary weekday,2014-12-10 09:47:00,2014-12-10 10:02:52,phone_dispatch,medium,central,-8.58898,41.193049,-8.624853,41.161228
+holiday_115,taxi_44,pre-holiday or special day,Christmas Eve,2014-12-24 22:23:00,2014-12-24 22:45:08,phone_dispatch,long,east,-8.669649,41.132162,-8.597299,41.154617
+holiday_141,taxi_01,pre-holiday or special day,New Year's Eve,2014-12-31 18:08:00,2014-12-31 18:12:56,phone_dispatch,short,central,-8.586738,41.168815,-8.612946,41.170097
+holiday_042,taxi_40,pre-holiday or special day,eve of Assumption Day,2014-08-14 08:54:00,2014-08-14 09:02:17,phone_dispatch,short,north,-8.637699,41.192583,-8.668314,41.182472
+holiday_229,taxi_29,ordinary day,matched ordinary weekday,2014-08-07 19:22:00,2014-08-07 19:34:06,phone_dispatch,medium,west,-8.639438,41.200147,-8.666847,41.16834
+holiday_218,taxi_02,ordinary day,matched ordinary weekday,2014-08-07 14:45:00,2014-08-07 14:51:47,street_hail,short,east,-8.609126,41.149122,-8.591359,41.163306
+holiday_032,taxi_24,pre-holiday or special day,eve of Portugal Day,2014-06-09 22:29:00,2014-06-09 22:46:27,phone_dispatch,medium,north,-8.616579,41.142924,-8.678342,41.178565
+holiday_233,taxi_26,ordinary day,matched ordinary weekday,2014-08-07 20:54:00,2014-08-07 21:00:24,street_hail,short,east,-8.566994,41.163993,-8.579845,41.147217
+holiday_295,taxi_03,ordinary day,matched ordinary weekday,2014-12-10 13:37:00,2014-12-10 13:46:19,phone_dispatch,medium,north,-8.648456,41.159894,-8.67056,41.183098
+holiday_240,taxi_09,ordinary day,matched ordinary weekday,2014-08-07 22:25:00,2014-08-07 22:30:13,street_hail,short,south,-8.6371,41.137727,-8.644407,41.122023
+holiday_165,taxi_30,ordinary day,matched ordinary weekday,2014-06-02 11:49:00,2014-06-02 11:57:47,street_hail,short,central,-8.640472,41.172533,-8.61856,41.149955
+holiday_175,taxi_46,ordinary day,matched ordinary weekday,2014-06-02 12:34:00,2014-06-02 12:43:28,phone_dispatch,medium,north,-8.648456,41.159894,-8.67056,41.183098
+holiday_060,taxi_03,pre-holiday or special day,eve of Assumption Day,2014-08-14 20:53:00,2014-08-14 21:18:43,street_hail,long,north,-8.568084,41.200036,-8.68761,41.198651
+holiday_080,taxi_35,pre-holiday or special day,eve of Assumption Day,2014-08-14 22:17:00,2014-08-14 22:35:58,phone_dispatch,long,north,-8.580996,41.196556,-8.651342,41.197349
+holiday_107,taxi_03,pre-holiday or special day,Christmas Eve,2014-12-24 22:43:00,2014-12-24 22:55:25,phone_dispatch,medium,north,-8.618385,41.192408,-8.687986,41.183922
+holiday_138,taxi_15,pre-holiday or special day,New Year's Eve,2014-12-31 17:49:00,2014-12-31 18:01:01,phone_dispatch,medium,north,-8.670656,41.176749,-8.649967,41.199055
+holiday_086,taxi_07,pre-holiday or special day,Christmas Eve,2014-12-24 16:30:00,2014-12-24 16:54:26,phone_dispatch,long,east,-8.666562,41.146936,-8.582296,41.157221
+holiday_011,taxi_28,pre-holiday or special day,eve of Portugal Day,2014-06-09 13:22:00,2014-06-09 13:27:20,street_hail,short,east,-8.573795,41.158247,-8.567692,41.170481
+holiday_012,taxi_39,pre-holiday or special day,eve of Portugal Day,2014-06-09 12:32:00,2014-06-09 12:42:20,street_hail,medium,south,-8.643217,41.163559,-8.628499,41.124566
+holiday_009,taxi_06,pre-holiday or special day,eve of Portugal Day,2014-06-09 16:27:00,2014-06-09 16:33:14,phone_dispatch,short,central,-8.576949,41.170892,-8.602766,41.162911
+holiday_282,taxi_01,ordinary day,matched ordinary weekday,2014-12-10 10:08:00,2014-12-10 10:21:13,street_hail,medium,north,-8.644378,41.160403,-8.698105,41.178739
+holiday_046,taxi_37,pre-holiday or special day,eve of Assumption Day,2014-08-14 07:03:00,2014-08-14 07:35:51,street_hail,long,south,-8.673663,41.183824,-8.582386,41.137296
+holiday_247,taxi_39,ordinary day,matched ordinary weekday,2014-12-17 07:06:00,2014-12-17 07:11:08,street_hail,short,east,-8.609126,41.149122,-8.591359,41.163306
+holiday_030,taxi_02,pre-holiday or special day,eve of Portugal Day,2014-06-09 23:42:00,2014-06-09 23:58:06,phone_dispatch,long,north,-8.647677,41.133979,-8.688253,41.186627
+holiday_059,taxi_39,pre-holiday or special day,eve of Assumption Day,2014-08-14 19:35:00,2014-08-14 20:02:58,phone_dispatch,long,west,-8.581508,41.127335,-8.671917,41.166789
+holiday_259,taxi_30,ordinary day,matched ordinary weekday,2014-12-17 16:57:00,2014-12-17 17:07:51,phone_dispatch,medium,east,-8.622996,41.159213,-8.580111,41.143805
+holiday_170,taxi_38,ordinary day,matched ordinary weekday,2014-06-02 15:54:00,2014-06-02 16:01:25,phone_dispatch,short,central,-8.60626,41.164466,-8.627145,41.148122
+holiday_207,taxi_22,ordinary day,matched ordinary weekday,2014-08-07 09:34:00,2014-08-07 09:37:44,street_hail,short,east,-8.586922,41.145785,-8.577492,41.15557
+holiday_151,taxi_17,pre-holiday or special day,New Year's Eve,2014-12-31 23:48:00,2015-01-01 00:00:24,phone_dispatch,medium,west,-8.621634,41.164392,-8.678677,41.170437
+holiday_049,taxi_23,pre-holiday or special day,eve of Assumption Day,2014-08-14 14:20:00,2014-08-14 14:33:04,phone_dispatch,medium,west,-8.603844,41.146768,-8.671971,41.155375
+holiday_258,taxi_19,ordinary day,matched ordinary weekday,2014-12-17 15:02:00,2014-12-17 15:07:54,phone_dispatch,short,south,-8.636295,41.138015,-8.623286,41.122494
+holiday_065,taxi_11,pre-holiday or special day,eve of Assumption Day,2014-08-14 22:48:00,2014-08-14 23:15:06,phone_dispatch,long,north,-8.685798,41.163018,-8.57387,41.182527
+holiday_145,taxi_45,pre-holiday or special day,New Year's Eve,2014-12-31 22:45:00,2014-12-31 23:04:21,phone_dispatch,long,north,-8.685798,41.163018,-8.605366,41.199586
+holiday_001,taxi_12,pre-holiday or special day,eve of Portugal Day,2014-06-09 07:23:00,2014-06-09 07:30:30,street_hail,short,south,-8.612976,41.13777,-8.58587,41.124992
+holiday_056,taxi_06,pre-holiday or special day,eve of Assumption Day,2014-08-14 17:51:00,2014-08-14 18:04:55,street_hail,medium,north,-8.644378,41.160403,-8.698105,41.178739
+holiday_232,taxi_15,ordinary day,matched ordinary weekday,2014-08-07 19:46:00,2014-08-07 19:57:57,street_hail,medium,north,-8.644378,41.160403,-8.698105,41.178739
+holiday_074,taxi_16,pre-holiday or special day,eve of Assumption Day,2014-08-14 22:32:00,2014-08-14 22:45:50,phone_dispatch,medium,north,-8.618385,41.192408,-8.687986,41.183922
+holiday_044,taxi_15,pre-holiday or special day,eve of Assumption Day,2014-08-14 10:45:00,2014-08-14 11:01:45,street_hail,medium,west,-8.603844,41.146768,-8.671971,41.155375
+holiday_087,taxi_18,pre-holiday or special day,Christmas Eve,2014-12-24 12:14:00,2014-12-24 12:19:42,street_hail,short,east,-8.609126,41.149122,-8.591359,41.163306
+holiday_155,taxi_14,pre-holiday or special day,New Year's Eve,2014-12-31 21:21:00,2014-12-31 21:41:54,phone_dispatch,long,south,-8.576731,41.164172,-8.65798,41.121424
+holiday_089,taxi_40,pre-holiday or special day,Christmas Eve,2014-12-24 16:17:00,2014-12-24 16:26:23,street_hail,medium,central,-8.672034,41.173521,-8.627792,41.150152
+holiday_261,taxi_05,ordinary day,matched ordinary weekday,2014-12-17 20:13:00,2014-12-17 20:31:19,street_hail,long,east,-8.689271,41.167974,-8.593996,41.154871
+holiday_223,taxi_10,ordinary day,matched ordinary weekday,2014-08-07 20:49:00,2014-08-07 21:01:23,phone_dispatch,medium,east,-8.62553,41.1645,-8.576943,41.152811
+holiday_255,taxi_33,ordinary day,matched ordinary weekday,2014-12-17 15:22:00,2014-12-17 15:37:28,street_hail,medium,north,-8.589171,41.137333,-8.605725,41.185719
+holiday_196,taxi_42,ordinary day,matched ordinary weekday,2014-06-02 23:24:00,2014-06-02 23:32:43,street_hail,medium,north,-8.677684,41.151253,-8.677847,41.187347
+holiday_082,taxi_10,pre-holiday or special day,Christmas Eve,2014-12-24 07:10:00,2014-12-24 07:17:47,street_hail,short,central,-8.666207,41.172005,-8.640601,41.164853
+holiday_003,taxi_34,pre-holiday or special day,eve of Portugal Day,2014-06-09 07:47:00,2014-06-09 08:03:36,street_hail,medium,west,-8.640209,41.134628,-8.689232,41.167676
+holiday_102,taxi_42,pre-holiday or special day,Christmas Eve,2014-12-24 17:09:00,2014-12-24 17:23:03,street_hail,medium,north,-8.681049,41.164214,-8.633987,41.189944
+holiday_298,taxi_36,ordinary day,matched ordinary weekday,2014-12-10 12:06:00,2014-12-10 12:10:47,street_hail,short,west,-8.692598,41.178347,-8.684506,41.160727
+holiday_076,taxi_38,pre-holiday or special day,eve of Assumption Day,2014-08-14 23:03:00,2014-08-14 23:25:11,phone_dispatch,long,west,-8.57609,41.142613,-8.680932,41.156018
+holiday_168,taxi_16,ordinary day,matched ordinary weekday,2014-06-02 09:41:00,2014-06-02 09:59:44,street_hail,long,central,-8.567319,41.199692,-8.631945,41.151206
+holiday_209,taxi_44,ordinary day,matched ordinary weekday,2014-08-07 08:06:00,2014-08-07 08:12:10,phone_dispatch,short,north,-8.66478,41.186301,-8.679098,41.197421
+holiday_133,taxi_07,pre-holiday or special day,New Year's Eve,2014-12-31 19:21:00,2014-12-31 19:37:40,street_hail,medium,north,-8.604214,41.171973,-8.660455,41.201093
+holiday_016,taxi_36,pre-holiday or special day,eve of Portugal Day,2014-06-09 20:29:00,2014-06-09 20:52:17,phone_dispatch,long,north,-8.648149,41.123548,-8.688579,41.182685
+holiday_158,taxi_47,pre-holiday or special day,New Year's Eve,2014-12-31 23:24:00,2014-12-31 23:27:55,street_hail,short,central,-8.611109,41.146997,-8.628696,41.145075
+holiday_111,taxi_47,pre-holiday or special day,Christmas Eve,2014-12-24 22:31:00,2014-12-24 22:48:30,street_hail,long,north,-8.580996,41.196556,-8.651342,41.197349

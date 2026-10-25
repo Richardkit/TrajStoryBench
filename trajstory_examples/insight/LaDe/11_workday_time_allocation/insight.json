@@ -1,0 +1,113 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/LaDe/11_workday_time_allocation/delivery_visits.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/LaDe/11_workday_time_allocation/courier_trajectories.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/LaDe/11_workday_time_allocation/courier_trajectories.csv",
+      "role": "Continuous road-backed GPS trajectory with irregular sampling; service/waiting observations remain at their road location."
+    },
+    {
+      "path": "trajstory_examples/insight/LaDe/11_workday_time_allocation/courier_profile.csv",
+      "role": "Observed workday boundary and courier context"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze the courier's workday time allocation, delivery-visit efficiency, and unusually long visits.",
+    "role": "Last-mile delivery operations analyst",
+    "category": "workday time allocation and delivery-visit efficiency",
+    "header": "One Courier's Workday Time Allocation",
+    "dataset_description": "One continuous courier workday containing 17 delivery-location visits, task counts per visit, and timestamped GPS activity states. Road reconstruction: 1032 GPS points along the archived local OSM street network, with all road vertices retained and irregular moving intervals bounded by 45 m. Oneway tags are respected; turn-restriction relations are not modeled. Times are local Shanghai time; speed_kmh and activity_state describe the preceding segment. Task events and AOI locations are constructed, not authentic observations."
+  },
+  "insight_list": [
+    {
+      "data_type": "workday_activity_timeline",
+      "insight_type": "overall_pattern",
+      "insight": "The courier spends more time near delivery locations than travelling between them.",
+      "insight_value": {
+        "near_delivery_minutes": 250.4,
+        "travelling_minutes": 147.6
+      },
+      "plot": {
+        "plot_type": "activity_timeline_and_time_totals",
+        "title": "Workday Time Allocation",
+        "file": "visualizations/workday_time_allocation.png",
+        "description": "The complete activity timeline and totals compare time travelling with time spent near delivery locations."
+      },
+      "question": "How is the observed workday divided between travel and time near delivery locations?",
+      "actionable_insight": "Calculate durations from consecutive trajectory states and compare their totals.",
+      "code": "import pandas as pd\nimport matplotlib.pyplot as plt\n\ndef allocation(df, user_df):\n    import matplotlib.dates as mdates\n    from matplotlib.patches import Patch\n\n    q = user_df.sort_values('gps_time').copy()\n    stamps = pd.to_datetime(q.gps_time, format='mixed')\n    minutes = stamps.diff().dt.total_seconds()/60\n    totals = minutes.groupby(q.activity_state).sum()\n    colors = {'travelling': '#397aa7', 'near_delivery_location': '#c7813e'}\n    fig, (timeline, total) = plt.subplots(\n        2, 1, figsize=(11.8, 6.3), constrained_layout=True,\n        gridspec_kw={'height_ratios': [1, 1.1]})\n    # Each row's state describes its PRECEDING GPS interval.\n    for i in range(1, len(q)):\n        timeline.barh(0, mdates.date2num(stamps.iloc[i])-mdates.date2num(stamps.iloc[i-1]),\n            left=mdates.date2num(stamps.iloc[i-1]), height=.55,\n            color=colors[q.activity_state.iloc[i]], linewidth=0)\n    timeline.set(ylim=(-.6, 1.1), yticks=[], xlabel='Local Shanghai time',\n        title='Observed workday activity sequence')\n    timeline.xaxis_date()\n    timeline.xaxis.set_major_formatter(mdates.DateFormatter('%H:%M'))\n    timeline.legend(handles=[Patch(color=colors['travelling'], label='Travelling'),\n        Patch(color=colors['near_delivery_location'], label='Near delivery locations')],\n        loc='upper center', ncol=2, frameon=False)\n    values = [float(totals['travelling']), float(totals['near_delivery_location'])]\n    total.barh(['Travelling', 'Near delivery locations'], values,\n        color=list(colors.values()), height=.55)\n    for y, v in enumerate(values): total.text(v+3, y, f'{v:.0f} min', va='center')\n    total.set(xlim=(0, max(values)*1.18), xlabel='Total observed time (minutes)',\n        title='Time near delivery locations exceeds travel time')\n    for ax in [timeline, total]:\n        ax.spines[['top', 'right']].set_visible(False)\n    return {'travelling_minutes': round(values[0], 1), 'near_delivery_minutes': round(values[1], 1)}\n\nevidence = allocation(df, user_df)\nprint(evidence)\nplt.show()",
+      "difficulty_level": 2,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_time",
+        "gps_position"
+      ]
+    },
+    {
+      "data_type": "visit_size_service_time",
+      "insight_type": "factor_relationship",
+      "insight": "Visits with several completed deliveries generally take less time per delivery than visits with only one.",
+      "insight_value": {
+        "one_delivery_mean_minutes": 12.5,
+        "multi_delivery_time_per_delivery_range_minutes": [
+          2.0,
+          11.7
+        ]
+      },
+      "plot": {
+        "plot_type": "jittered_scatter_with_group_means",
+        "title": "Visit Size and Time per Delivery",
+        "file": "visualizations/visit_size_time_per_delivery.png",
+        "description": "Individual visits retain realistic overlap while visit-size means show the general reduction in time per delivery."
+      },
+      "question": "How does time per completed delivery vary with the number completed during a visit?",
+      "actionable_insight": "Compare the full visit-level distributions and means by completed-delivery count.",
+      "code": "print(df.groupby('completed_deliveries').time_per_delivery_min.agg(['count','mean','min','max']))",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_time",
+        "gps_position",
+        "completed_delivery_count"
+      ]
+    },
+    {
+      "data_type": "visit_duration_exception",
+      "insight_type": "exception_deviation",
+      "insight": "The longest visit includes only one completed delivery.",
+      "insight_value": {
+        "longest_visit_id": "visit_10",
+        "duration_minutes": 24.0,
+        "completed_deliveries": 1
+      },
+      "plot": {
+        "plot_type": "ranked_visit_duration_bars",
+        "title": "Longest Visit Exception",
+        "file": "visualizations/visit_duration_exception.png",
+        "description": "All visit durations are ranked, each bar explicitly labels its completed-delivery count, and the longest visit is highlighted."
+      },
+      "question": "What distinguishes the longest visit from the other visits?",
+      "actionable_insight": "Rank visits by duration and inspect the completed-delivery count of the maximum.",
+      "code": "import pandas as pd\nimport matplotlib.pyplot as plt\n\ndef visit_counts(df, user_df):\n    ordered = df.sort_values('visit_duration_min')\n    longest = ordered.iloc[-1]\n    colors = ['#b75858' if r.visit_id == longest.visit_id else '#4d8977'\n        if r.completed_deliveries > 1 else '#9aa7b1' for r in ordered.itertuples()]\n    fig, ax = plt.subplots(figsize=(10.6, 7.0), constrained_layout=True)\n    ax.barh(ordered.visit_id, ordered.visit_duration_min, color=colors, height=.68)\n    for y, row in enumerate(ordered.itertuples()):\n        n = int(row.completed_deliveries)\n        label = f\"{n} {'delivery' if n == 1 else 'deliveries'}\"\n        if row.visit_id == longest.visit_id: label += ' · longest visit'\n        ax.text(row.visit_duration_min+.25, y, label, va='center', fontsize=10,\n            fontweight='bold' if row.visit_id == longest.visit_id else 'normal')\n    ax.set(xlim=(0, longest.visit_duration_min*1.46), xlabel='Visit duration (minutes)',\n        ylabel='Visit', title='Duration and completed deliveries for every visit')\n    ax.set_axisbelow(True); ax.grid(axis='x', alpha=.18)\n    ax.spines[['top', 'right']].set_visible(False)\n    return {'longest_visit_id': str(longest.visit_id), 'duration_minutes': float(longest.visit_duration_min),\n        'completed_deliveries': int(longest.completed_deliveries)}\n\nevidence = visit_counts(df, user_df)\nprint(evidence)\nplt.show()",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_time",
+        "gps_position",
+        "completed_delivery_count"
+      ]
+    }
+  ],
+  "insights": [
+    "The courier spends more time near delivery locations than travelling between them.",
+    "Visits with several completed deliveries generally take less time per delivery than visits with only one.",
+    "The longest visit includes only one completed delivery."
+  ],
+  "summary": "Most observed time is spent near delivery locations. Multi-delivery visits usually use less time per completed delivery, although visit-level variation remains, and the single longest visit contains only one completion."
+}

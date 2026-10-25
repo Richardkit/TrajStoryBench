@@ -1,0 +1,22 @@
+# Partial specification for data construction.
+# Fill in only the concepts and constraints you want to control.
+# Any omitted IDs, timestamps, GPS points, metrics, or support tables may be
+# added when they are necessary to realize the supplied goal and insights.
+
+pre_schema_version: "1.0"
+
+# Optional one-line context for the constructor.
+domain: "" # e.g., urban_multimodal_mobility
+goal: "Find obvious locational features of given trajectories within one day."
+insights:
+  - "During morning rush hours most trajectories are from west part of the city to east part of the city, and during evening rush hours most trajectories are from east part of the city to west part of the city."
+  - "Very long distance trips only take place from the city center to the outskirts in night time."
+  - "Very short distance trips only take place within the city center by walking."
+  - "Agricultural-related trips always end in one rural area located in south-west of the city."
+
+
+# Only list core fields that must appear in the final data.
+# Delete unused examples and add as few fields as you need.
+fields:
+
+constraints:

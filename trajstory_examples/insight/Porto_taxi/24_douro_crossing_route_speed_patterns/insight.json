@@ -1,0 +1,123 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/24_douro_crossing_route_speed_patterns/trips.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Porto_taxi/24_douro_crossing_route_speed_patterns/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/24_douro_crossing_route_speed_patterns/trajectory_points.csv",
+      "role": "Dense GPS observations aligned to the cached Porto OSM road graph"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/24_douro_crossing_route_speed_patterns/trip_segments.csv",
+      "role": "Trip-level approach and river-crossing segment speeds and distances"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/24_douro_crossing_route_speed_patterns/location_reference.csv",
+      "role": "Named origin, destination, river, and crossing reference locations"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze taxi travel from central Porto to Vila Nova de Gaia across the Douro River.",
+    "role": "Porto taxi trajectory analyst",
+    "category": "Douro crossing route choice, segment speed, rain response, and late-night exceptions",
+    "header": "Porto Taxi Example 24",
+    "dataset_description": "A constructed Porto taxi trajectory case with road-routed GPS points and supporting tables designed to evaluate 4 mutually compatible insights."
+  },
+  "insight_list": [
+    {
+      "data_type": "douro_crossing_route_choice",
+      "insight": "Most trips follow one dominant river-crossing route, while a smaller alternative becomes more common during busy daytime periods.",
+      "plot": {
+        "plot_type": "route_map_and_period_share_line",
+        "file": "visualizations/crossing_route_choice_by_period.png",
+        "title": "Which river-crossing route dominates, and when does the alternative become more common",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "Which river-crossing route dominates, and when does the alternative become more common?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "departure_time",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "crossing_segment_speed",
+      "insight": "Speeds decline most near the river crossing during late-afternoon trips, while approach segments on either side remain less variable.",
+      "plot": {
+        "plot_type": "segment_route_map_and_speed_lines",
+        "file": "visualizations/segment_speed_across_day.png",
+        "title": "Where is the late-afternoon speed decline concentrated",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "Where is the late-afternoon speed decline concentrated?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trajectory_timestamp",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "crossing_rain_speed_effect",
+      "insight": "Rainy trips show a larger speed reduction near the river crossing than on comparable urban approach segments.",
+      "plot": {
+        "plot_type": "segment_reduction_bar",
+        "file": "visualizations/rain_speed_reduction_by_segment.png",
+        "title": "Which route segment shows the greatest rainy-trip speed reduction",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "Which route segment shows the greatest rainy-trip speed reduction?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "weather",
+        "trajectory_timestamp",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "late_night_crossing_exception",
+      "insight": "A small group of late-night trips uses the longer crossing alternative despite otherwise low corridor activity.",
+      "plot": {
+        "plot_type": "late_night_route_map_volume_and_distance",
+        "file": "visualizations/late_night_longer_crossing_exception.png",
+        "title": "Does the longer route still appear when late-night corridor activity is low",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "Does the longer route still appear when late-night corridor activity is low?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "exception_deviation",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "departure_time",
+        "gps_position",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Most trips follow one dominant river-crossing route, while a smaller alternative becomes more common during busy daytime periods.",
+    "Speeds decline most near the river crossing during late-afternoon trips, while approach segments on either side remain less variable.",
+    "Rainy trips show a larger speed reduction near the river crossing than on comparable urban approach segments.",
+    "A small group of late-night trips uses the longer crossing alternative despite otherwise low corridor activity."
+  ],
+  "summary": "A central crossing carries most trips, while the much longer alternative gains share in busy daytime periods and still appears among a small late-night group. Segment data localize late-afternoon and rainy slowdowns at the river crossing."
+}

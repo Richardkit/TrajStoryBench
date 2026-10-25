@@ -1,0 +1,9 @@
+caller_id,dominant_pickup_areas
+caller_01,Boavista|Cedofeita
+caller_02,Bonfim|Campanha
+caller_03,Cedofeita|Ribeira
+caller_04,Paranhos|Boavista
+caller_05,Foz do Douro|Matosinhos Sul
+caller_06,Bonfim|Campanha|Paranhos
+caller_07,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita
+caller_08,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha

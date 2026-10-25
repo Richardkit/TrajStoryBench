@@ -1,0 +1,139 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/16_vessel_factors_and_movement/trajectory_points.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Danish_AIS/16_vessel_factors_and_movement/vessels.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Danish_AIS/16_vessel_factors_and_movement/vessels.csv",
+      "role": "Vessel type, length, width, and draught linked by vessel_id"
+    },
+    {
+      "path": "trajstory_examples/insight/Danish_AIS/16_vessel_factors_and_movement/coastline_reference.csv",
+      "role": "Approximate west-Jutland coast reference used for route-distance analysis"
+    }
+  ],
+  "metadata": {
+    "goal": "Find what factors influence vessel movements in the sea area within the time period.",
+    "role": "Maritime traffic analyst",
+    "category": "vessel dimensions, draught, type, and movement characteristics",
+    "header": "Factors Associated with Vessel Movement",
+    "dataset_description": "A constructed Danish AIS-style case west of Jutland containing 94 complete trajectories from 57 vessels. Ordered points include speed, COG, heading, and navigation status; a vessel table supplies dimensions and type, while a separate coastline reference supports nearshore analysis.",
+    "source_note": "The geographic setting is west of Jutland; visible trajectories and factor relationships are constructed derived data."
+  },
+  "insight_list": [
+    {
+      "data_type": "vessel_size_heading_cog_relationship",
+      "insight": "Larger vessel size is associated with greater consistency between COG and heading, while smaller vessels show more frequent short-term differences.",
+      "insight_value": {
+        "vessel_size_proxy": "length_m × width_m",
+        "size_proxy_tertile_cutoffs_m2": [
+          941.7,
+          2575.2
+        ],
+        "median_heading_cog_gap_deg": {
+          "lower_size_tertile": 4.95,
+          "upper_size_tertile": 2.32
+        },
+        "median_gap_over_5_share": {
+          "lower_size_tertile": 0.495,
+          "upper_size_tertile": 0.164
+        }
+      },
+      "plot": {
+        "plot_type": "length_width_and_short_term_difference_frequency_scatter",
+        "title": "Vessel Size and COG–Heading Consistency",
+        "file": "visualizations/vessel_size_heading_cog_consistency.png",
+        "description": "The left panel shows both vessel dimensions; the right directly plots each vessel's length × width proxy against the share of its trajectory points whose absolute COG–heading gap exceeds 5°, with quartile medians showing how frequently short-term differences occur."
+      },
+      "question": "How is vessel size, considering both length and width, associated with the consistency between COG and heading?",
+      "actionable_insight": "Link both vessel dimensions to trajectory points, calculate length × width, and compare it with the frequency of circular COG–heading gaps over 5°.",
+      "code": "import pandas as pd\npoints=pd.read_csv(dataset_path); vessels=pd.read_csv(user_dataset_path); vessels['footprint_proxy_m2']=vessels.length_m*vessels.width_m; df=points.merge(vessels,on='vessel_id'); df['gap']=abs((df.heading-df.cog+180)%360-180); print(df.groupby('vessel_id').agg(footprint_proxy_m2=('footprint_proxy_m2','first'),gap_over_5_share=('gap',lambda x:(x>5).mean())).describe())",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 6,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "vessel_length",
+        "vessel_width",
+        "heading",
+        "course_over_ground",
+        "vessel_id",
+        "trajectory_timestamp"
+      ]
+    },
+    {
+      "data_type": "draught_coastal_route_relationship",
+      "insight": "Draught affects vessel routes, with shallow-draught vessels travelling closer to and sometimes along the coast.",
+      "insight_value": {
+        "median_coast_distance_km": {
+          "shallow_draught_at_most_5m": 7.87,
+          "deep_draught_over_10m": 47.82
+        }
+      },
+      "plot": {
+        "plot_type": "draught_route_map_and_scatter",
+        "title": "Draught and Coastal Route Use",
+        "file": "visualizations/draught_and_coastal_routes.png",
+        "description": "Trajectory geometry and continuous draught are compared with distance from the supplied west-Jutland coast reference."
+      },
+      "question": "How does vessel draught relate to route distance from the coast?",
+      "actionable_insight": "Measure each trajectory's distance to the supplied coast reference and compare it with linked vessel draught.",
+      "code": "import pandas as pd\nfrom pathlib import Path\npoints=pd.read_csv(dataset_path); vessels=pd.read_csv(user_dataset_path); coast=pd.read_csv(Path('coastline_reference.csv')); print(vessels.draught_m.describe()); print(coast.head())",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "draught",
+        "gps_position",
+        "coast_reference",
+        "vessel_id",
+        "trajectory_timestamp"
+      ]
+    },
+    {
+      "data_type": "ferry_speed_route_recurrence_relationship",
+      "insight": "Low-speed movements and recurrent routes are often associated with ferry vessels.",
+      "insight_value": {
+        "low_speed_trajectory_counts": {
+          "Ferry": 19,
+          "Fishing": 16,
+          "Service": 7,
+          "Tanker": 3
+        },
+        "median_route_dispersion_km": {
+          "ferry": 0.133,
+          "other_repeated_vessels": 32.236
+        }
+      },
+      "plot": {
+        "plot_type": "map_bar_and_recurrence_distribution",
+        "title": "Ferry Low-Speed and Recurrent Movement",
+        "file": "visualizations/ferry_low_speed_recurrence.png",
+        "description": "The map, low-speed counts, and within-vessel path dispersion jointly show the association without claiming that every low-speed movement is a ferry."
+      },
+      "question": "Which vessel types are associated with low-speed movements and recurrent routes?",
+      "actionable_insight": "Compare trajectory mean speed and repeated-path dispersion by ship type while retaining non-ferry low-speed cases.",
+      "code": "import pandas as pd\npoints=pd.read_csv(dataset_path); vessels=pd.read_csv(user_dataset_path); df=points.merge(vessels,on='vessel_id'); print(df.groupby(['ship_type','trajectory_id']).sog_knots.mean().groupby(level=0).describe())",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "vessel_id",
+        "ship_type",
+        "gps_position",
+        "point_speed",
+        "trajectory_timestamp"
+      ]
+    }
+  ],
+  "insights": [
+    "Larger vessel size is associated with greater consistency between COG and heading, while smaller vessels show more frequent short-term differences.",
+    "Draught affects vessel routes, with shallow-draught vessels travelling closer to and sometimes along the coast.",
+    "Low-speed movements and recurrent routes are often associated with ferry vessels."
+  ],
+  "summary": "Larger vessel size is associated with greater consistency between COG and heading, while smaller vessels show more frequent short-term differences. Draught affects vessel routes, with shallow-draught vessels travelling closer to and sometimes along the coast. Low-speed movements and recurrent routes are often associated with ferry vessels."
+}

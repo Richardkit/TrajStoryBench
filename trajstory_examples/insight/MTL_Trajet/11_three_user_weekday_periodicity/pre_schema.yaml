@@ -1,0 +1,18 @@
+# Accepted reference synchronized on 2026-10-09.
+# Original construction draft: results/dataset_quality/legacy_content_cleanup_20261009/before/trajstory_examples/insight/MTL_Trajet/11_three_user_weekday_periodicity/pre_schema.yaml
+pre_schema_version: '1.0'
+domain: MTL Trajet
+status: accepted_reference
+authoritative_source: trajstory_examples/insight/MTL_Trajet/11_three_user_weekday_periodicity/insight.json
+goal: Find same points and differences of three users based on given trajectories within five weekdays.
+insights:
+- Weekday arrival times at the shared riverside-recreation hub differ across users, while remaining relatively consistent
+  for each individual.
+- After spending several hours at the shared hub, User A follows a fixed driving routine, while Users B and C show more variable
+  public-transit shopping patterns.
+- Motor-vehicle trips maintain similarly stable mid-trip speeds across users and route destinations.
+fields: null
+constraints:
+- Preserve the accepted goal and full insight records; changes require a new explicit user instruction.
+- Use the current delivered CSV tables and official fixed-GPS land-use labels. Historical construction targets are archived,
+  not current data constraints.

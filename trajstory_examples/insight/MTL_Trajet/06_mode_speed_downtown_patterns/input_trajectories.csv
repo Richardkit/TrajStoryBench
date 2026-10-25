@@ -1,0 +1,97 @@
+trajectory_id,source_trajectory_id,mode_raw,mode_group,start_time,duration_seconds,avg_speed_kmh,start_lon,start_lat,end_lon,end_lat
+06_mode_speed_downtown_patterns_001,mtl_mode_template_0001,Motor vehicle,motor_vehicle,2016-10-03T07:11:00,374,14.07,-73.564309,45.519318,-73.563209,45.506277
+06_mode_speed_downtown_patterns_002,mtl_mode_template_0002,Motor vehicle,motor_vehicle,2016-10-03T08:12:00,495,13.24,-73.581628,45.521893,-73.567599,45.508904
+06_mode_speed_downtown_patterns_003,mtl_mode_template_0003,Motor vehicle,motor_vehicle,2016-10-03T07:13:00,433,14.04,-73.595106,45.513964,-73.574741,45.509036
+06_mode_speed_downtown_patterns_004,mtl_mode_template_0004,Motor vehicle,motor_vehicle,2016-10-03T08:14:00,589,12.54,-73.607099,45.500805,-73.58169,45.505524
+06_mode_speed_downtown_patterns_005,mtl_mode_template_0005,Motor vehicle,motor_vehicle,2016-10-03T07:15:00,519,13.26,-73.600973,45.485935,-73.584783,45.498844
+06_mode_speed_downtown_patterns_006,mtl_mode_template_0006,Motor vehicle,motor_vehicle,2016-10-03T08:16:00,568,14.88,-73.586154,45.469622,-73.582194,45.490519
+06_mode_speed_downtown_patterns_007,mtl_mode_template_0007,Motor vehicle,motor_vehicle,2016-10-03T07:17:00,482,16.5,-73.558777,45.467028,-73.571238,45.484808
+06_mode_speed_downtown_patterns_008,mtl_mode_template_0008,Motor vehicle,motor_vehicle,2016-10-03T08:18:00,532,17.04,-73.528792,45.474006,-73.556667,45.485304
+06_mode_speed_downtown_patterns_009,mtl_mode_template_0009,Motor vehicle,motor_vehicle,2016-10-03T07:19:00,590,16.31,-73.503693,45.490526,-73.537847,45.48892
+06_mode_speed_downtown_patterns_010,mtl_mode_template_0010,Motor vehicle,motor_vehicle,2016-10-03T08:20:00,593,18.77,-73.497491,45.519692,-73.528865,45.502695
+06_mode_speed_downtown_patterns_011,mtl_mode_template_0011,Motor vehicle,motor_vehicle,2016-10-03T07:21:00,608,18.21,-73.519467,45.545886,-73.531997,45.519667
+06_mode_speed_downtown_patterns_012,mtl_mode_template_0012,Motor vehicle,motor_vehicle,2016-10-03T08:22:00,624,20.51,-73.562378,45.564669,-73.550413,45.533812
+06_mode_speed_downtown_patterns_013,mtl_mode_template_0013,Motor vehicle,motor_vehicle,2016-10-03T07:23:00,652,19.59,-73.614167,45.559392,-73.579891,45.538489
+06_mode_speed_downtown_patterns_014,mtl_mode_template_0014,Motor vehicle,motor_vehicle,2016-10-03T08:24:00,660,21.95,-73.661798,45.534297,-73.61066,45.529789
+06_mode_speed_downtown_patterns_015,mtl_mode_template_0015,Motor vehicle,motor_vehicle,2016-10-03T07:25:00,643,22.4,-73.676468,45.492478,-73.630636,45.508644
+06_mode_speed_downtown_patterns_016,mtl_mode_template_0016,Motor vehicle,motor_vehicle,2016-10-03T08:26:00,688,23.45,-73.658395,45.446075,-73.630077,45.481189
+06_mode_speed_downtown_patterns_017,mtl_mode_template_0017,Motor vehicle,motor_vehicle,2016-10-03T07:27:00,644,26.29,-73.604066,45.411728,-73.608547,45.453953
+06_mode_speed_downtown_patterns_018,mtl_mode_template_0018,Motor vehicle,motor_vehicle,2016-10-03T08:28:00,727,26.21,-73.52161,45.40298,-73.563428,45.440499
+06_mode_speed_downtown_patterns_019,mtl_mode_template_0019,Motor vehicle,motor_vehicle,2016-10-03T07:29:00,659,29.46,-73.445395,45.432898,-73.511068,45.448006
+06_mode_speed_downtown_patterns_020,mtl_mode_template_0020,Motor vehicle,motor_vehicle,2016-10-03T08:30:00,700,30.18,-73.400782,45.492135,-73.473239,45.477844
+06_mode_speed_downtown_patterns_021,mtl_mode_template_0021,Motor vehicle,motor_vehicle,2016-10-03T07:31:00,640,33.93,-73.411318,45.56147,-73.461544,45.520172
+06_mode_speed_downtown_patterns_022,mtl_mode_template_0022,Motor vehicle,motor_vehicle,2016-10-03T08:32:00,749,32.18,-73.477989,45.622922,-73.488016,45.563064
+06_mode_speed_downtown_patterns_023,mtl_mode_template_0023,Motor vehicle,motor_vehicle,2016-10-03T07:33:00,723,34.37,-73.588787,45.646158,-73.5485,45.590816
+06_mode_speed_downtown_patterns_024,mtl_mode_template_0024,Motor vehicle,motor_vehicle,2016-10-03T08:34:00,745,36.77,-73.711876,45.622959,-73.626631,45.589612
+06_mode_speed_downtown_patterns_025,mtl_mode_template_0025,Motor vehicle,motor_vehicle,2016-10-03T11:35:00,291,17.99,-73.592433,45.503399,-73.573906,45.50447
+06_mode_speed_downtown_patterns_026,mtl_mode_template_0026,Motor vehicle,motor_vehicle,2016-10-03T12:36:00,358,18.21,-73.595702,45.491173,-73.577543,45.501325
+06_mode_speed_downtown_patterns_027,mtl_mode_template_0027,Motor vehicle,motor_vehicle,2016-10-03T13:37:00,321,18.92,-73.584113,45.481886,-73.577568,45.496305
+06_mode_speed_downtown_patterns_028,mtl_mode_template_0028,Motor vehicle,motor_vehicle,2016-10-03T14:38:00,402,18.46,-73.565118,45.473761,-73.572413,45.491504
+06_mode_speed_downtown_patterns_029,mtl_mode_template_0029,Motor vehicle,motor_vehicle,2016-10-03T15:39:00,342,20.2,-73.544102,45.478404,-73.562838,45.489483
+06_mode_speed_downtown_patterns_030,mtl_mode_template_0030,Motor vehicle,motor_vehicle,2016-10-03T16:40:00,399,21.14,-73.521232,45.489187,-73.551053,45.491492
+06_mode_speed_downtown_patterns_031,mtl_mode_template_0031,Motor vehicle,motor_vehicle,2016-10-03T17:41:00,371,21.37,-73.518166,45.508479,-73.543178,45.499319
+06_mode_speed_downtown_patterns_032,mtl_mode_template_0032,Motor vehicle,motor_vehicle,2016-10-03T18:42:00,414,21.83,-73.528779,45.529385,-73.544217,45.509544
+06_mode_speed_downtown_patterns_033,mtl_mode_template_0033,Motor vehicle,motor_vehicle,2016-10-03T11:43:00,427,22.56,-73.552855,45.54664,-73.54979,45.522683
+06_mode_speed_downtown_patterns_034,mtl_mode_template_0034,Motor vehicle,motor_vehicle,2016-10-03T12:44:00,486,22.92,-73.594492,45.550331,-73.569593,45.528679
+06_mode_speed_downtown_patterns_035,mtl_mode_template_0035,Motor vehicle,motor_vehicle,2016-10-03T13:45:00,453,24.4,-73.631255,45.534295,-73.593668,45.526091
+06_mode_speed_downtown_patterns_036,mtl_mode_template_0036,Motor vehicle,motor_vehicle,2016-10-03T14:46:00,522,24.48,-73.656998,45.50372,-73.613371,45.512831
+06_mode_speed_downtown_patterns_037,mtl_mode_template_0037,Motor vehicle,motor_vehicle,2016-10-03T15:47:00,499,25.55,-73.648309,45.467458,-73.619352,45.492015
+06_mode_speed_downtown_patterns_038,mtl_mode_template_0038,Motor vehicle,motor_vehicle,2016-10-03T16:48:00,534,27.11,-73.611518,45.434569,-73.606273,45.470597
+06_mode_speed_downtown_patterns_039,mtl_mode_template_0039,Motor vehicle,motor_vehicle,2016-10-03T17:49:00,534,27.01,-73.551687,45.425218,-73.575733,45.457046
+06_mode_speed_downtown_patterns_040,mtl_mode_template_0040,Motor vehicle,motor_vehicle,2016-10-03T18:50:00,574,28.14,-73.486083,45.438974,-73.536686,45.458066
+06_mode_speed_downtown_patterns_041,mtl_mode_template_0041,Motor vehicle,motor_vehicle,2016-10-03T11:51:00,554,30.56,-73.438456,45.477925,-73.498428,45.473814
+06_mode_speed_downtown_patterns_042,mtl_mode_template_0042,Motor vehicle,motor_vehicle,2016-10-03T12:52:00,596,31.93,-73.427893,45.536052,-73.480318,45.505817
+06_mode_speed_downtown_patterns_043,mtl_mode_template_0043,Motor vehicle,motor_vehicle,2016-10-03T13:53:00,590,32.9,-73.472199,45.588911,-73.492193,45.54243
+06_mode_speed_downtown_patterns_044,mtl_mode_template_0044,Motor vehicle,motor_vehicle,2016-10-03T14:54:00,639,33.09,-73.557493,45.6189,-73.535508,45.568324
+06_mode_speed_downtown_patterns_045,mtl_mode_template_0045,Motor vehicle,motor_vehicle,2016-10-03T15:10:00,616,35.25,-73.655896,45.609916,-73.595995,45.575574
+06_mode_speed_downtown_patterns_046,mtl_mode_template_0046,Motor vehicle,motor_vehicle,2016-10-03T16:11:00,639,37.7,-73.741802,45.561675,-73.656414,45.555998
+06_mode_speed_downtown_patterns_047,mtl_mode_template_0047,Motor vehicle,motor_vehicle,2016-10-03T17:12:00,668,37.17,-73.772331,45.483307,-73.694515,45.512872
+06_mode_speed_downtown_patterns_048,mtl_mode_template_0048,Motor vehicle,motor_vehicle,2016-10-03T18:13:00,672,40.76,-73.736515,45.397364,-73.691019,45.458012
+06_mode_speed_downtown_patterns_049,mtl_mode_template_0049,Cycling,cycling,2016-10-03T07:14:00,369,14.29,-73.569144,45.484005,-73.57109,45.496996
+06_mode_speed_downtown_patterns_050,mtl_mode_template_0050,Cycling,cycling,2016-10-03T08:15:00,427,15.35,-73.551675,45.481988,-73.566533,45.494513
+06_mode_speed_downtown_patterns_051,mtl_mode_template_0051,Cycling,cycling,2016-10-03T07:16:00,409,14.85,-73.538726,45.490341,-73.55939,45.49461
+06_mode_speed_downtown_patterns_052,mtl_mode_template_0052,Cycling,cycling,2016-10-03T08:17:00,476,15.51,-73.5276,45.503871,-73.552677,45.498341
+06_mode_speed_downtown_patterns_053,mtl_mode_template_0053,Cycling,cycling,2016-10-03T07:18:00,459,15.01,-73.534686,45.518529,-73.550021,45.505114
+06_mode_speed_downtown_patterns_054,mtl_mode_template_0054,Cycling,cycling,2016-10-03T08:19:00,567,14.9,-73.550549,45.534349,-73.553148,45.513347
+06_mode_speed_downtown_patterns_055,mtl_mode_template_0055,Cycling,cycling,2016-10-03T07:20:00,514,15.49,-73.578067,45.536063,-73.564463,45.518701
+06_mode_speed_downtown_patterns_056,mtl_mode_template_0056,Cycling,cycling,2016-10-03T08:21:00,644,14.07,-73.607567,45.52813,-73.578987,45.517737
+06_mode_speed_downtown_patterns_057,mtl_mode_template_0057,Cycling,cycling,2016-10-03T07:22:00,641,15.0,-73.631567,45.510822,-73.597552,45.513522
+06_mode_speed_downtown_patterns_058,mtl_mode_template_0058,Cycling,cycling,2016-10-03T08:23:00,776,14.33,-73.635867,45.481487,-73.605631,45.499473
+06_mode_speed_downtown_patterns_059,mtl_mode_template_0059,Cycling,cycling,2016-10-03T07:24:00,723,15.3,-73.612213,45.456026,-73.601399,45.482619
+06_mode_speed_downtown_patterns_060,mtl_mode_template_0060,Cycling,cycling,2016-10-03T08:25:00,902,14.2,-73.568127,45.438639,-73.582084,45.46908
+06_mode_speed_downtown_patterns_061,mtl_mode_template_0061,Cycling,cycling,2016-10-03T07:26:00,866,14.73,-73.516734,45.445571,-73.552332,45.465353
+06_mode_speed_downtown_patterns_062,mtl_mode_template_0062,Cycling,cycling,2016-10-03T08:27:00,1015,14.26,-73.470783,45.472169,-73.52216,45.475031
+06_mode_speed_downtown_patterns_063,mtl_mode_template_0063,Cycling,cycling,2016-10-03T07:28:00,964,14.94,-73.458845,45.514415,-73.503579,45.496795
+06_mode_speed_downtown_patterns_064,mtl_mode_template_0064,Cycling,cycling,2016-10-03T08:29:00,1101,14.65,-73.479914,45.560189,-73.505921,45.524203
+06_mode_speed_downtown_patterns_065,mtl_mode_template_0065,Cycling,cycling,2016-10-03T07:30:00,1183,14.31,-73.536417,45.592758,-73.529198,45.550721
+06_mode_speed_downtown_patterns_066,mtl_mode_template_0066,Cycling,cycling,2016-10-03T08:31:00,1347,14.15,-73.619356,45.598852,-73.575144,45.562713
+06_mode_speed_downtown_patterns_067,mtl_mode_template_0067,Cycling,cycling,2016-10-03T07:32:00,1397,13.89,-73.693548,45.566519,-73.626961,45.553534
+06_mode_speed_downtown_patterns_068,mtl_mode_template_0068,Cycling,cycling,2016-10-03T08:33:00,1479,14.29,-73.734266,45.505914,-73.662813,45.522514
+06_mode_speed_downtown_patterns_069,mtl_mode_template_0069,Cycling,cycling,2016-10-03T07:34:00,1594,13.62,-73.719236,45.436989,-73.671746,45.479854
+06_mode_speed_downtown_patterns_070,mtl_mode_template_0070,Cycling,cycling,2016-10-03T08:35:00,1845,13.06,-73.648643,45.37774,-73.642515,45.437856
+06_mode_speed_downtown_patterns_071,mtl_mode_template_0071,Cycling,cycling,2016-10-03T07:36:00,1859,13.37,-73.536451,45.358082,-73.580291,45.412074
+06_mode_speed_downtown_patterns_072,mtl_mode_template_0072,Cycling,cycling,2016-10-03T08:37:00,1953,14.03,-73.414997,45.385205,-73.50232,45.415783
+06_mode_speed_downtown_patterns_073,mtl_mode_template_0073,Cycling,cycling,2016-10-03T11:38:00,316,16.52,-73.542083,45.500809,-73.560521,45.499145
+06_mode_speed_downtown_patterns_074,mtl_mode_template_0074,Cycling,cycling,2016-10-03T12:39:00,393,16.59,-73.539612,45.513127,-73.557093,45.502403
+06_mode_speed_downtown_patterns_075,mtl_mode_template_0075,Cycling,cycling,2016-10-03T13:40:00,373,16.3,-73.551792,45.522033,-73.557394,45.507419
+06_mode_speed_downtown_patterns_076,mtl_mode_template_0076,Cycling,cycling,2016-10-03T14:41:00,455,16.29,-73.571295,45.52954,-73.562855,45.51205
+06_mode_speed_downtown_patterns_077,mtl_mode_template_0077,Cycling,cycling,2016-10-03T15:42:00,431,16.03,-73.591987,45.524228,-73.572551,45.513761
+06_mode_speed_downtown_patterns_078,mtl_mode_template_0078,Cycling,cycling,2016-10-03T16:43:00,543,15.52,-73.614132,45.512722,-73.584194,45.511376
+06_mode_speed_downtown_patterns_079,mtl_mode_template_0079,Cycling,cycling,2016-10-03T17:44:00,494,16.02,-73.615943,45.493352,-73.591552,45.503305
+06_mode_speed_downtown_patterns_080,mtl_mode_template_0080,Cycling,cycling,2016-10-03T18:45:00,553,16.37,-73.603982,45.472808,-73.58985,45.493123
+06_mode_speed_downtown_patterns_081,mtl_mode_template_0081,Cycling,cycling,2016-10-03T11:46:00,603,15.99,-73.578811,45.456343,-73.583428,45.480177
+06_mode_speed_downtown_patterns_082,mtl_mode_template_0082,Cycling,cycling,2016-10-03T12:47:00,690,16.16,-73.536977,45.453992,-73.563257,45.474823
+06_mode_speed_downtown_patterns_083,mtl_mode_template_0083,Cycling,cycling,2016-10-03T13:48:00,702,15.77,-73.501294,45.471191,-73.539375,45.47818
+06_mode_speed_downtown_patterns_084,mtl_mode_template_0084,Cycling,cycling,2016-10-03T14:49:00,855,14.95,-73.477564,45.502559,-73.520554,45.492059
+06_mode_speed_downtown_patterns_085,mtl_mode_template_0085,Cycling,cycling,2016-10-03T15:50:00,826,15.43,-73.4886,45.538505,-73.515931,45.513045
+06_mode_speed_downtown_patterns_086,mtl_mode_template_0086,Cycling,cycling,2016-10-03T16:51:00,894,16.2,-73.527489,45.570179,-73.530388,45.53402
+06_mode_speed_downtown_patterns_087,mtl_mode_template_0087,Cycling,cycling,2016-10-03T17:52:00,915,15.76,-73.587865,45.577602,-73.561776,45.546577
+06_mode_speed_downtown_patterns_088,mtl_mode_template_0088,Cycling,cycling,2016-10-03T18:53:00,1043,15.48,-73.652508,45.561755,-73.600717,45.544306
+06_mode_speed_downtown_patterns_089,mtl_mode_template_0089,Cycling,cycling,2016-10-03T11:54:00,1079,15.69,-73.697554,45.521317,-73.637912,45.527348
+06_mode_speed_downtown_patterns_090,mtl_mode_template_0090,Cycling,cycling,2016-10-03T12:10:00,1293,14.73,-73.70433,45.462912,-73.653924,45.494797
+06_mode_speed_downtown_patterns_091,mtl_mode_template_0091,Cycling,cycling,2016-10-03T13:11:00,1330,14.6,-73.656637,45.411529,-73.639683,45.458603
+06_mode_speed_downtown_patterns_092,mtl_mode_template_0092,Cycling,cycling,2016-10-03T14:12:00,1445,14.63,-73.569483,45.384307,-73.594731,45.434125
+06_mode_speed_downtown_patterns_093,mtl_mode_template_0093,Cycling,cycling,2016-10-03T15:13:00,1471,14.76,-73.471766,45.396439,-73.533836,45.428823
+06_mode_speed_downtown_patterns_094,mtl_mode_template_0094,Cycling,cycling,2016-10-03T16:14:00,1598,15.07,-73.389084,45.447385,-73.474752,45.450317
+06_mode_speed_downtown_patterns_095,mtl_mode_template_0095,Cycling,cycling,2016-10-03T17:15:00,1706,14.56,-73.363678,45.526651,-73.439491,45.49462
+06_mode_speed_downtown_patterns_096,mtl_mode_template_0096,Cycling,cycling,2016-10-03T18:16:00,1870,14.65,-73.40504,45.611356,-73.446549,45.549311

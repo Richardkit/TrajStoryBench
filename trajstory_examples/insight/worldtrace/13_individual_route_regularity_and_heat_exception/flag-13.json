@@ -1,0 +1,139 @@
+{
+  "dataset_csv_path": "trajectories.csv",
+  "user_dataset_csv_path": "trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajectory_points.csv",
+      "role": "Timestamped GPS points with map-matched road coordinates and OSM way identifiers"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze the route regularity in individual mobility among users and find possible abnormal patterns.",
+    "role": "Urban mobility analyst",
+    "category": "Repeated routes, irregular timing, shared speed pattern, and heat exception",
+    "header": "Individual Route Regularity and Heat Exception",
+    "dataset_description": "A constructed WorldTrace case with 216 trajectories. Regular geometries come from observed NYC WorldTrace records; the four heat exceptions start within one kilometer of the regular origin, preserve its destination, and are routed on the OSM road network through Lincoln or Holland Tunnel instead of the regular George Washington Bridge corridor."
+  },
+  "insight_list": [
+    {
+      "data_type": "worldtrace_ex13_insight_1",
+      "insight": "These users repeatedly follow a small number of highly similar route geometries across their travel histories.",
+      "plot": {
+        "plot_type": "annotated_convergence_separation_map",
+        "files": [
+          "visualizations/trajectory_map.png",
+          "visualizations/insight_1.png"
+        ],
+        "title": "Individual Route Regularity and Heat Exception: Insight 1",
+        "description": "Map-matched regular routes are annotated with their early convergence zone and later separation zone."
+      },
+      "question": "Where do the regular trajectories converge into a shared corridor and later separate toward different destinations, and what share follows this structure?",
+      "actionable_insight": "Measure the regular-route share and verify the normalized convergence and separation positions before reading the annotated route map.",
+      "code": "regular=df[df.route_role.eq('regular_corridor')]; print('regular share',len(regular)/len(df)); print('regular source geometries',regular.source_trajectory_id.nunique()); print(regular.groupby('user_id').agg(trips=('trajectory_id','size'),convergence=('convergence_fraction','median'),separation=('separation_fraction','median'),destination=('visited_location','first')))",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "user_id",
+        "gps_position",
+        "trajectory_id",
+        "matched_road_position",
+        "temperature"
+      ]
+    },
+    {
+      "data_type": "worldtrace_ex13_insight_2",
+      "insight": "These repeated routes are not necessarily associated with regular departure times, and the intervals between successive trips can vary substantially.",
+      "plot": {
+        "plot_type": "inter_trip_gap_distribution",
+        "files": [
+          "visualizations/trajectory_map.png",
+          "visualizations/insight_2.png"
+        ],
+        "title": "Individual Route Regularity and Heat Exception: Insight 2",
+        "description": "User-level inter-trip gap distributions show comparable irregularity with non-identical ranges."
+      },
+      "question": "Do users leave in a similar daily time window without following a fixed departure time, and do successive trip intervals vary substantially?",
+      "actionable_insight": "Plot each user’s departure hour across travel days, then compare the minimum, median, and maximum inter-trip gaps.",
+      "code": "d=df.sort_values(['user_id','departure_time']).copy()\nd['departure_hour']=d.departure_time.dt.hour+d.departure_time.dt.minute/60+d.departure_time.dt.second/3600\nd['gap_hours']=d.groupby('user_id').departure_time.diff().dt.total_seconds()/3600\nhour_summary=d.groupby('user_id').departure_hour.agg(['min','median','std','max'])\ngap_summary=d.groupby('user_id').gap_hours.agg(['min','median','mean','std','max'])\nprint('Departure-hour summary');print(hour_summary.round(2));print('Inter-trip-gap summary');print(gap_summary.round(2))\nfig,ax=plt.subplots(1,2,figsize=(14,4.8),constrained_layout=True)\nfor user,g in d.groupby('user_id'):\n    ax[0].plot(g.departure_time,g.departure_hour,marker='o',markersize=2.8,linewidth=.8,alpha=.78,label=user)\nax[0].set(xlabel='calendar date',ylabel='departure time of day',title='Similar morning window, no fixed daily departure time')\nax[0].set_yticks([6,7,8,9,10,11]);ax[0].set_yticklabels([f'{h:02d}:00' for h in [6,7,8,9,10,11]]);ax[0].legend(fontsize=7,ncol=2)\ngap_summary[['min','median','max']].plot.bar(ax=ax[1]);ax[1].set(ylabel='inter-trip gap (hours)',title='Successive-trip interval ranges vary by user');plt.show()",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "user_id",
+        "trajectory_timestamp",
+        "trajectory_id",
+        "matched_road_position",
+        "temperature"
+      ]
+    },
+    {
+      "data_type": "worldtrace_ex13_insight_3",
+      "insight": "The driving speed patterns of different users on this highly similar route are similar.",
+      "plot": {
+        "plot_type": "multi_metric_speed_profile",
+        "files": [
+          "visualizations/trajectory_map.png",
+          "visualizations/insight_3.png"
+        ],
+        "title": "Individual Route Regularity and Heat Exception: Insight 3",
+        "description": "Normalized location-wise speed profiles are shown together with mean, variance, and range summaries."
+      },
+      "question": "How similar are the users’ complete driving-speed patterns along the shared corridor, including location-wise profiles, means, variation, and ranges?",
+      "actionable_insight": "Normalize point positions along each regular trip and compare user-level speed profiles together with mean speed, within-trip variance, and observed ranges.",
+      "code": "regular=df[df.route_role.eq('regular_corridor')][['trajectory_id','user_id','point_count','mean_speed_kmh','within_trip_speed_sd_kmh']]\nq=user_df.merge(regular[['trajectory_id','user_id','point_count']],on=['trajectory_id','user_id'])\nq['progress']=q.point_index/(q.point_count-1);q['segment']=np.minimum((q.progress*20).astype(int),19)\nprofile=q.groupby(['user_id','segment']).speed_kmh.mean().unstack(0)\nstats=q.groupby('user_id').speed_kmh.agg(['mean','std','min','max']);print(stats);print('mean centered-profile correlation',profile.corr().where(~np.eye(len(profile.columns),dtype=bool)).stack().mean())\nfig,ax=plt.subplots(2,2,figsize=(13,8),constrained_layout=True)\nprofile.plot(ax=ax[0,0]);ax[0,0].set(xlabel='normalized route segment',ylabel='speed (km/h)',title='Location-wise speed profiles')\nstats['mean'].plot.bar(ax=ax[0,1]);ax[0,1].set(ylabel='km/h',title='Mean speed')\nregular.boxplot(column='within_trip_speed_sd_kmh',by='user_id',ax=ax[1,0],rot=25);ax[1,0].set(title='Within-trip speed variation',ylabel='speed SD (km/h)')\nstats[['min','max']].plot.bar(ax=ax[1,1]);ax[1,1].set(ylabel='km/h',title='Observed speed ranges');plt.suptitle('');plt.show()",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 6,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "user_id",
+        "gps_position",
+        "trajectory_timestamp",
+        "trajectory_id",
+        "matched_road_position",
+        "temperature"
+      ]
+    },
+    {
+      "data_type": "worldtrace_ex13_insight_4",
+      "insight": "A user change his routes during temperature over 30 degrees.",
+      "plot": {
+        "plot_type": "temperature_conditioned_route_exception_map",
+        "files": [
+          "visualizations/trajectory_map.png",
+          "visualizations/insight_4.png"
+        ],
+        "title": "Individual Route Regularity and Heat Exception: Insight 4",
+        "description": "The sole affected user’s normal route and four above-30°C alternatives with a nearby origin and identical destination are overlaid on an OSM basemap."
+      },
+      "question": "Is route changing above 30°C an isolated behavior belonging to one user, and what clearly different comparable-OD crossing routes does that user take?",
+      "actionable_insight": "Identify every above-30°C record, verify that only one user is involved, confirm a sub-kilometer origin difference and the same destination, and compare Lincoln/Holland Tunnel alternatives with the normal George Washington Bridge corridor.",
+      "code": "cols=['trip_index','user_id','temperature_c','route_role','source_trajectory_id','crossing_context','visited_location','start_latitude','start_longitude','end_latitude','end_longitude','trajectory_distance_km']\nhot=df[df.temperature_c.gt(30)][cols].sort_values('temperature_c').copy()\nnormal=df[df.user_id.eq('regular_user_04')&df.route_role.eq('regular_corridor')].iloc[0]\nhot['origin_error_km']=np.sqrt(((hot.start_latitude-normal.start_latitude)*111)**2+((hot.start_longitude-normal.start_longitude)*85)**2)\nhot['destination_error_km']=np.sqrt(((hot.end_latitude-normal.end_latitude)*111)**2+((hot.end_longitude-normal.end_longitude)*85)**2)\nprint(hot.to_string(index=False));print('regular distance km',normal.trajectory_distance_km);print('affected users',hot.user_id.unique().tolist());print('distinct hot routes',hot.source_trajectory_id.nunique());print('other users above 30°C',df[df.temperature_c.gt(30)&~df.user_id.eq('regular_user_04')].shape[0])",
+      "insight_type": "exception_deviation",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "user_id",
+        "gps_position",
+        "temperature",
+        "trajectory_id",
+        "matched_road_position"
+      ]
+    }
+  ],
+  "insights": [
+    "These users repeatedly follow a small number of highly similar route geometries across their travel histories.",
+    "These repeated routes are not necessarily associated with regular departure times, and the intervals between successive trips can vary substantially.",
+    "The driving speed patterns of different users on this highly similar route are similar.",
+    "A user change his routes during temperature over 30 degrees."
+  ],
+  "summary": "These users repeatedly follow a small number of highly similar route geometries across their travel histories. These repeated routes are not necessarily associated with regular departure times, and the intervals between successive trips can vary substantially. The driving speed patterns of different users on this highly similar route are similar. A user change his routes during temperature over 30 degrees."
+}

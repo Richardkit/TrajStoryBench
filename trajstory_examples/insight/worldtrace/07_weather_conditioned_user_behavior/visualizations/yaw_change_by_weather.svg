@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="40" y="40" font-size="24" font-family="Arial" font-weight="bold">Mean Yaw Change by Weather Condition</text>
+<line x1="90" y1="510" x2="920" y2="510" stroke="#334155"/>
+<line x1="90" y1="80" x2="90" y2="510" stroke="#334155"/>
+<rect x="129.4" y="145.6" width="128.7" height="364.4" fill="#64748b"/>
+<text x="193.8" y="538" text-anchor="middle" font-size="14">dry</text>
+<text x="193.8" y="137.6" text-anchor="middle" font-size="13">18.1</text>
+<rect x="336.9" y="409.2" width="128.7" height="100.8" fill="#2563eb"/>
+<text x="401.2" y="538" text-anchor="middle" font-size="14">rainy</text>
+<text x="401.2" y="401.2" text-anchor="middle" font-size="13">5.0</text>
+<rect x="544.4" y="434.1" width="128.7" height="75.9" fill="#38bdf8"/>
+<text x="608.8" y="538" text-anchor="middle" font-size="14">snowy</text>
+<text x="608.8" y="426.1" text-anchor="middle" font-size="13">3.8</text>
+<rect x="751.9" y="419.7" width="128.7" height="90.3" fill="#ef4444"/>
+<text x="816.2" y="538" text-anchor="middle" font-size="14">very_hot</text>
+<text x="816.2" y="411.7" text-anchor="middle" font-size="13">4.5</text>
+<text x="25" y="295.0" transform="rotate(-90 25 295.0)" font-size="14">Mean yaw change (degrees)</text>
+</svg>

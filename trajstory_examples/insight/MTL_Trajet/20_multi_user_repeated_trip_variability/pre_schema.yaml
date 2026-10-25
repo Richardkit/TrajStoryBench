@@ -1,0 +1,22 @@
+# Partial specification for data construction.
+# Fill in only the concepts and constraints you want to control.
+# Any omitted IDs, timestamps, GPS points, metrics, or support tables may be
+# added when they are necessary to realize the supplied goal and insights.
+
+pre_schema_version: "1.0"
+
+# Optional one-line context for the constructor.
+domain: "" # e.g., urban_multimodal_mobility
+goal: "Analyze variability in repeated urban trips across multiple users."
+insights_type_list: [temporal_dynamics, group_comparison, group_comparison]
+insights:
+  - "Work trips between similar locations are more mode-consistent, temporally concentrated, and route-direct on weekday mornings than at other times."
+  - "For similarly long trips, some users repeatedly travel between the same locations along similar routes, while others take varied routes with larger speed fluctuations."
+  - "Weekend repeats more often shift to shopping or leisure, depart later, and use different modes or routes than weekday repeats."
+
+
+explanation:
+ 
+fields:
+    
+constraints:

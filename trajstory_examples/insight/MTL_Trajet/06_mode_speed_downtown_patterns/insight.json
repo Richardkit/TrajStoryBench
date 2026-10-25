@@ -1,0 +1,95 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/06_mode_speed_downtown_patterns/trajectories.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/06_mode_speed_downtown_patterns/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/MTL_Trajet/06_mode_speed_downtown_patterns/trajectory_points.csv",
+      "role": "Timestamped trajectory points linked by trajectory_id"
+    }
+  ],
+  "metadata": {
+    "goal": "Based on trajectories of motor vehicles and bikes, investigate differences of these two transportation modes",
+    "role": "Urban trajectory analyst",
+    "category": "Transport mode, speed, time period, and downtown distance",
+    "header": "MTL Trajet: 06 Mode Speed Downtown Patterns",
+    "dataset_description": "MTL urban motor-vehicle and cycling trajectories with trip-level speed, downtown-distance, time-period, endpoint, and point-speed information."
+  },
+  "insight_list": [
+    {
+      "data_type": "mode_speed_time_period",
+      "insight": "Although motor vehicles are generally faster, some cycling trajectories outperform slower car trajectories during peak periods.",
+      "insight_type": "group_comparison",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Average Speed by Mode and Time Period",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/speed_by_mode_time_period.png"
+      },
+      "question": "During peak periods, do some cycling trajectories exceed the speeds of the slower motor-vehicle trajectories?",
+      "code": "df.groupby(['time_period','mode_group']).avg_speed_kmh.agg(['min','median','max'])",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "transport_mode",
+        "trajectory_timestamp",
+        "trajectory_id",
+        "point_speed"
+      ]
+    },
+    {
+      "data_type": "mode_speed_downtown_distance",
+      "insight": "The speed advantage of motor vehicles becomes larger with the distance to the downtown area",
+      "insight_type": "factor_relationship",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Speed Difference by Distance to Downtown",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/speed_gap_by_downtown_distance.png"
+      },
+      "question": "How does the motor-vehicle versus cycling speed difference change with distance to downtown?",
+      "code": "df.groupby(['distance_to_downtown_band','mode_group']).avg_speed_kmh.median()",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "transport_mode",
+        "gps_position",
+        "downtown_reference",
+        "point_speed",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "mode_point_speed_variation",
+      "insight": "Motor vehicle trajectories show larger speed variation than bikes with respect to trajectory progress generally",
+      "insight_type": "group_comparison",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Point-speed Variation by Mode",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/point_speed_variation_by_mode.png"
+      },
+      "question": "Which mode shows greater within-trajectory point-speed variation across urban trips?",
+      "code": "df.groupby('mode_group').point_speed_std_kmh.agg(['median','mean','max'])",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "transport_mode",
+        "point_speed",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Although motor vehicles are generally faster, some cycling trajectories outperform slower car trajectories during peak periods.",
+    "The speed advantage of motor vehicles becomes larger with the distance to the downtown area",
+    "Motor vehicle trajectories show larger speed variation than bikes with respect to trajectory progress generally"
+  ],
+  "summary": "Motor-vehicle trajectories are generally faster, but slow peak-period motor trips overlap with some cycling speeds. The motor-vehicle speed advantage grows farther from downtown, while motor-vehicle point speeds vary more within a trip than cycling point speeds.",
+  "evidence_policy": "Claims describe patterns in this dataset and do not establish causal relationships."
+}

@@ -1,0 +1,553 @@
+{
+  "schema_version": "1.0",
+  "dataset_family": "MTL_Trajet",
+  "case_count": 25,
+  "insight_count": 88,
+  "cases": [
+    {
+      "case_id": "mtl_trajet_01_purpose_destination_land_use",
+      "goal": "Analyze how trip purpose relates to official destination land-use, departure time, distance, and transport mode across the supplied multiple-user trajectories.",
+      "insights": [
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Mixte destinations occur in every trip-purpose group. Health and work trips both include substantial Mixte components, with diversified-activity destinations also represented in both groups.",
+          "evidence": "Official endpoint join: health has 22 Mixte and 18 diversified-activity destinations; work has 40 and 9, respectively."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Work- and education-related trajectories have clearly concentrated departure periods, whereas shopping, dining, and leisure trajectories are distributed across a broader set of departure times."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Shopping and dining trips are generally shorter and less motor-vehicle-oriented than work trips.",
+          "evidence": "Shopping and dining trajectories are generally short, whereas health trips are longer and span a broader distance range; work trips have the widest distance distribution and are generally the longest. Walking, cycling, and public transit together account for most modes in the first three purposes; work trips use all mode categories, with motor vehicles the largest single group."
+        }
+      ],
+      "summary": "Mixte destinations occur in every trip-purpose group. Health and work trips both include substantial Mixte components, with diversified-activity destinations also represented in both groups. Work- and education-related trajectories have clearly concentrated departure periods, whereas shopping, dining, and leisure trajectories are distributed across a broader set of departure times. Shopping and dining trips are generally shorter and less motor-vehicle-oriented than work trips."
+    },
+    {
+      "case_id": "mtl_trajet_02_land_use_purpose_attraction",
+      "goal": "Analyze how official destination land-use relates to trip purpose, departure-time concentration, distance, and transport mode across the supplied multiple-user trajectories.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Trajectories ending in employment areas more often correspond to work or business purposes, whereas Mixte destinations contain every purpose group represented in this case, including small work and business components alongside shopping, dining, leisure, health, and education."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Trips to employment destinations are more concentrated in weekday morning periods, whereas trips to Mixte destinations are distributed more broadly across the day."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Trips to Mixte destinations are typically shorter and more active-mode-oriented, whereas longer trips to employment areas rely more on motorized modes.",
+          "evidence": "Trajectories to Mixte destinations are generally short in this case. Transport-mode composition also changes substantially with trajectory distance and destination land-use: short trajectories to Mixte destinations more often use walking or cycling, while longer trajectories to employment destinations rely more on motor vehicles or public transit."
+        }
+      ],
+      "summary": "Employment destinations are more often associated with work or business purposes and with morning travel. Mixte destinations include every purpose group represented in this case, span a broader range of departure times, and more often receive short walking or cycling trips; longer trips to employment destinations rely more on motor vehicles or public transit."
+    },
+    {
+      "case_id": "mtl_trajet_03_purpose_time_distance_speed",
+      "goal": "Analyze differences in trajectory dynamics, speed change, and trip structure across trip purposes in the supplied multiple-user trajectories.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Work- and education-related trajectories have more stable point-wise speed profiles, whereas shopping, dining, and leisure trajectories more often contain marked decelerations, stop/restart events, and renewed acceleration."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Shopping and dining trajectories entering Mixte destinations begin a sustained low-speed approach earlier in their progress, whereas work trajectories typically decelerate only closer to the destination."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Within both motor-vehicle and public-transit subsets of comparable longer-distance trajectories, work trips have longer continuous stable segments, while shopping or leisure trips show greater point-wise speed variability."
+        }
+      ],
+      "summary": "Work and education trajectories have comparatively stable speed profiles, whereas shopping, dining, and leisure trajectories more often include deceleration and stop/restart behaviour. Shopping and dining trips begin sustained low-speed approaches to Mixte destinations earlier; within comparable longer motor-vehicle and public-transit trips, work retains longer continuous stable segments than shopping or leisure."
+    },
+    {
+      "case_id": "mtl_trajet_04_mode_purpose_land_use_joint_patterns",
+      "goal": "Analyze differences in trajectory behaviour across transport modes, trip purposes, and urban spatial environments in the supplied multiple-user trajectories.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Motor-vehicle trips reach the highest peak speeds, while public-transit trips maintain clearly longer continuous stable segments across work and shopping trips.",
+          "evidence": "Across work and shopping trips, motor-vehicle trajectories have the highest peak point speeds. Public-transit trajectories have the longest continuous stable-speed segments, clearly exceeding motor vehicles as well as active modes."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Active trips to residential destinations are short and begin slowing earlier near arrival than comparable riverside trips.",
+          "evidence": "Residential walking and cycling trips cover shorter distances and begin their terminal slowdown earlier on normalized trajectory progress than comparable cycling and motor-vehicle trips ending in riverside recreation areas."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "For shopping trips, active modes are shorter and slower, while motorized modes sustain longer continuous movement segments.",
+          "evidence": "Within shopping trips, walking and cycling trajectories are shorter and slower than motor-vehicle and public-transit trajectories; the motorized modes also sustain longer continuous stable-speed segments."
+        }
+      ],
+      "summary": "Across work and shopping trips, motor vehicles reach the highest peak speeds, while public transit maintains clearly longer continuous stable segments. Active trips to residential destinations are short and begin slowing earlier near arrival than comparable riverside trips. For shopping trips, active modes are shorter and slower, while motorized modes sustain longer continuous movement segments."
+    },
+    {
+      "case_id": "mtl_trajet_05_single_user_purpose_habits",
+      "goal": "Assess whether one user has stable individual mobility preferences across repeated trips, and whether those preferences change with trip purpose.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "This user repeatedly follows the same work-related corridor, with several work trajectories passing through the same road-area sequence; shopping and leisure trajectories are spatially more dispersed."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Even when trip distance and destination differ, this user's trajectories retain comparable typical speed levels and similar acceleration/deceleration rhythms within the same transport mode; the profiles change clearly when the mode changes."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "The user's routine work and education trips have more stable departure times and transport modes, while shopping, dining, and leisure trips vary more in departure time, mode, and trajectory length."
+        }
+      ],
+      "summary": "This single-user history contains a repeated work commute corridor and mode-consistent point-speed profiles. Work and education are routine-like in time and mode, whereas shopping, dining, and leisure cover more varied times, modes, destinations, and distances."
+    },
+    {
+      "case_id": "mtl_trajet_06_mode_speed_downtown_patterns",
+      "goal": "Based on trajectories of motor vehicles and bikes, investigate differences of these two transportation modes",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Although motor vehicles are generally faster, some cycling trajectories outperform slower car trajectories during peak periods."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "The speed advantage of motor vehicles becomes larger with the distance to the downtown area"
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Motor vehicle trajectories show larger speed variation than bikes with respect to trajectory progress generally"
+        }
+      ],
+      "summary": "Motor-vehicle trajectories are generally faster, but slow peak-period motor trips overlap with some cycling speeds. The motor-vehicle speed advantage grows farther from downtown, while motor-vehicle point speeds vary more within a trip than cycling point speeds."
+    },
+    {
+      "case_id": "mtl_trajet_07_usage_mode_distance_time_patterns",
+      "goal": "Based on trajectories with different usages, analyze the relationship between usages and other attributes",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Shopping, leisure, and pick-up trips show greater motor-vehicle reliance than education trips."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Trips for pick-up sustain relatively longer distances than other usages, but a few outliers with very long durations exist."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Education trips are concentrated in fixed morning and afternoon windows, whereas the other usages are more dispersed across the afternoon and evening."
+        }
+      ],
+      "summary": "Shopping, leisure, and pick-up trips have greater motor-vehicle reliance than education trips. Pick-up trips are relatively longer, with a small set of long-duration records forming the upper duration tail. Education trips occur in fixed morning and afternoon windows, whereas the other usages are more dispersed across the afternoon and evening."
+    },
+    {
+      "case_id": "mtl_trajet_08_rush_hour_usage_destination_anomalies",
+      "goal": "Identify overall situation across all usages for morning and evening rush hours and find some anomalies during this period.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Work and education account for the largest shares of rush-hour trips."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Speed distributions are generally similar across usage groups, whereas route-directness distributions vary across them."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Most trajectories end in Mixte destinations in the city-center area.",
+          "evidence": "57 of 72 endpoints fall in official Mixte polygons; destination-area labels are shown separately from land-use categories."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "A small number of health-related trajectories are unusually direct and travel from the city center to outside the city."
+        }
+      ],
+      "summary": "Work and education account for the largest shares of rush-hour trips. Speed distributions are generally similar across usage groups, whereas route-directness distributions vary across them. Most trajectories end in Mixte destinations in the city-center area. A small number of health-related trajectories are unusually direct and travel from the city center to outside the city."
+    },
+    {
+      "case_id": "mtl_trajet_09_land_use_mode_route_weekday_patterns",
+      "goal": "Identify the characteristics of three land-use types and their corresponding mobility behaviours from the trajectory data.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Mixte and economic-activity destinations each have diverse transport-mode compositions and share the same set of mode categories.",
+          "evidence": "Mixte and economic-activity destinations each have diverse transport-mode compositions and share the same set of mode categories."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Agricultural-area trajectories are all motor-vehicle trips with nearly identical route-directness values and closely overlapping routes.",
+          "evidence": "Agricultural-area trajectories are all motor-vehicle trips with nearly identical route-directness values and closely overlapping routes."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Mixte destinations occupy the central and eastern part of the study area; economic-activity destinations occur along the northern and southern edges as well as at scattered locations; agricultural destinations are confined to the southwest.",
+          "evidence": "Mixte destinations occupy the central and eastern part of the study area; economic-activity destinations occur along the northern and southern edges as well as at scattered locations; agricultural destinations are confined to the southwest."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Only Mixte-destination trajectories occur on both weekdays and weekends; economic-activity and agricultural destinations occur only on weekdays.",
+          "evidence": "Only Mixte-destination trajectories occur on both weekdays and weekends; economic-activity and agricultural destinations occur only on weekdays."
+        }
+      ],
+      "summary": "Mixte and economic-activity destinations each have diverse transport-mode compositions and share the same set of mode categories. Agricultural-area trajectories are all motor-vehicle trips with nearly identical route-directness values and closely overlapping routes. Mixte destinations occupy the central and eastern part of the study area; economic-activity destinations occur along the northern and southern edges as well as at scattered locations; agricultural destinations are confined to the southwest. Only Mixte-destination trajectories occur on both weekdays and weekends; economic-activity and agricultural destinations occur only on weekdays."
+    },
+    {
+      "case_id": "mtl_trajet_10_temperature_mode_distance_speed_patterns",
+      "goal": "Analyze how weekday mobility patterns vary with temperature.",
+      "insights": [
+        {
+          "insight_type": "factor_relationship",
+          "insight": "The share of public-transit trajectories increases as temperature rises, but declines in the hottest conditions as the share of motor-vehicle trajectories increases. Cycling maintains a relatively small and stable share across temperature conditions."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "At lower temperatures, the distance distributions of walking, cycling, and motor-vehicle trips partially overlap."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "As temperature rises, average motor-vehicle speed increases, while walking and cycling speeds decrease slightly."
+        }
+      ],
+      "summary": "The share of public-transit trajectories increases as temperature rises, but declines in the hottest conditions as the share of motor-vehicle trajectories increases. Cycling maintains a relatively small and stable share across temperature conditions. At lower temperatures, walking, cycling, and motor-vehicle distance distributions partially overlap, while average motor-vehicle speed increases with temperature and walking and cycling speeds decrease slightly."
+    },
+    {
+      "case_id": "mtl_trajet_11_three_user_weekday_periodicity",
+      "goal": "Find same points and differences of three users based on given trajectories within five weekdays.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Weekday arrival times at the shared riverside-recreation hub differ across users, while remaining relatively consistent for each individual.",
+          "evidence": "All 15 hub endpoints occupy the same GPS location, mapped as Récréation et accès aux rives. The arrival windows remain distinct across users."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "After spending several hours at the shared hub, User A follows a fixed driving routine, while Users B and C show more variable public-transit shopping patterns.",
+          "evidence": "The hub is a riverside-recreation location. Follow-up destination identities are canonical groups of identical endpoint coordinates; endpoints outside the supplied polygons have Unmapped land use."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Motor-vehicle trips maintain similarly stable mid-trip speeds across users and route destinations.",
+          "evidence": "Across the three users' motor-vehicle trips, mid-trajectory speeds remain near 35 km/h. The routes include the shared hub and café destination, and all pass through riverside contexts."
+        }
+      ],
+      "summary": "Weekday arrival times at the shared riverside-recreation hub differ across users, while remaining relatively consistent for each individual. After spending several hours at the shared hub, User A follows a fixed driving routine, while Users B and C show more variable public-transit shopping patterns. Motor-vehicle trips maintain similarly stable mid-trip speeds across users and route destinations."
+    },
+    {
+      "case_id": "mtl_trajet_12_single_user_routine_change_anomaly",
+      "goal": "Summarize the trip pattern and possible changes of the user and find anomalies from the usual behavior.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "The user has two recurring motor-vehicle routes from the same origin to a work destination in a mapped residential area: route A is shorter and used on sunny days, while every rainy-day commute uses the longer route B detour.",
+          "evidence": "Trip purpose is work; the official polygon at the work endpoint is Résidentiel. Work purpose does not imply an employment land-use category."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Across four weeks, shopping trips shift from a closer walking route toward a more remote motor-vehicle route."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Health visits occur on Thursday afternoons, and their destination area differs from the work and shopping destinations."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "The final day contains the user's only clear anomaly: an unusually long purposeless motor-vehicle trip that returns to its origin.",
+          "evidence": "The only clear departure from the routine occurs on the last day: an unusually long motor-vehicle trip with no declared purpose returns to its starting area with extremely long distance."
+        }
+      ],
+      "summary": "The user has two recurring motor-vehicle routes from the same origin to a work destination in a mapped residential area: route A is shorter and used on sunny days, while every rainy-day commute uses the longer route B detour. Across four weeks, shopping trips shift from a closer walking route toward a more remote motor-vehicle route. Health visits occur on Thursday afternoons, and their destination area differs from the work and shopping destinations. The final day contains the user's only clear anomaly: an unusually long purposeless motor-vehicle trip that returns to its origin."
+    },
+    {
+      "case_id": "mtl_trajet_13_single_day_locational_patterns",
+      "goal": "Find obvious locational features of given trajectories within one day.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "During the morning rush, most trajectories travel from the west part of the city to the east part; during the evening rush, most travel from east to west."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "Very long trips occur only at night and run from the city center to the outskirts."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Very short trips occur only within the city center and use walking."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Agricultural-related trips all end in one rural area in the southwest of the city."
+        }
+      ],
+      "summary": "This one-day trajectory set has opposing west–east and east–west rush-hour flows, night-only city-center-to-outskirts very-long trips, city-center walking-only short trips, and agricultural trips ending in one southwest rural area."
+    },
+    {
+      "case_id": "mtl_trajet_14_cycling_directness_destination_temperature",
+      "goal": "Find obvious cycling patterns in the city and exceptional cases if possible based on trajectories of different users.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Cycling trajectories usually follow a route directness ratio lower than 1.5."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "The four cycling trajectories with a route directness ratio above 1.5 all contain bike-lane points along only part of the route."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Cycling destinations form distinct morning, midday, and evening spatial clusters. Morning endpoints are mainly in diversified-activity areas and midday endpoints are in Mixte areas; evening endpoints span several mapped land uses, with four outside the reference polygons.",
+          "evidence": "Morning: 22 Activités diversifiées and 2 Mixte; midday: 20 Mixte; evening: 7 recreation/waterfront, 7 economic activities, 2 Mixte and 4 Unmapped."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Cycling speed generally increases with temperature.",
+          "evidence": "Average cycling speed increases with temperature, from 10 km/h at 10°C to 25 km/h at 20°C and 27 km/h at 30°C."
+        }
+      ],
+      "summary": "Cycling trajectories usually follow a route directness ratio lower than 1.5. The four cycling trajectories with a route directness ratio above 1.5 all contain bike-lane points along only part of the route. Cycling destinations form distinct morning, midday, and evening spatial clusters. Morning endpoints are mainly in diversified-activity areas and midday endpoints are in Mixte areas; evening endpoints span several mapped land uses, with four outside the reference polygons. Cycling speed generally increases with temperature."
+    },
+    {
+      "case_id": "mtl_trajet_15_single_user_routine_mode_speed_context",
+      "goal": "Analyze individual mobility patterns across activity purposes and spatial contexts.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Work-related trips exhibit highly regular departure times and recurrent spatial patterns, forming the most stable component of the user's mobility routine."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "The user shows substantially greater mode flexibility for shopping, dining, and leisure trips than for recurrent work trips."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Short discretionary trips involve multiple transport modes, whereas longer trips converge toward the smaller set of motor-vehicle and public-transit modes."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "The user's point speeds are lower in the center area and higher in suburban areas for every transportation mode."
+        }
+      ],
+      "summary": "This user's work travel is the most temporally and spatially regular activity. Shopping, dining, and leisure use a broader range of modes; short discretionary trips are multimodal, whereas longer ones use motor vehicle or public transit. Point speeds are consistently lower in center contexts across modes."
+    },
+    {
+      "case_id": "mtl_trajet_16_return_home_work_discretionary_patterns",
+      "goal": "Analyze how returning-home travel differs from work and discretionary travel.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Returning-home trips are strongly concentrated in the evening rush, while work trips peak earlier and discretionary trips remain more temporally dispersed."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Work and returning-home trajectories show opposite dominant directions along Montréal's island axis, unlike café and shopping trips, which are directionally dispersed."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Home-bound trips from employment areas are longer and more mode-stable than those from shopping or café areas, which include more walking and cycling."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Home-bound trajectories from similar origin land-use increasingly converge toward a smaller set of residential or mixed destination areas as evening progresses."
+        }
+      ],
+      "summary": "Returning-home travel is evening-concentrated and generally opposes morning work movement along Montréal's island axis. Employment-origin home trips are longer and more consistently motorized, while later home-bound trips converge on fewer destination areas."
+    },
+    {
+      "case_id": "mtl_trajet_17_weekday_work_destination_flows",
+      "goal": "Investigate spatial and mobility differences among weekday work trajectories with different destination locations.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Morning work trajectories show a strong inward flow toward central employment areas, while a smaller outward-flow group ends in peripheral employment zones."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Outward commuters rely more on motor vehicles and travel longer distances; central-bound commuters include more public-transit and cycling trajectories."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Outward work trips depart earlier and follow fewer recurring radial corridors, producing greater route overlap than central-bound work trips."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "A few short outward commutes near peripheral employment zones use walking or cycling, forming exceptions to the otherwise motorized pattern"
+        }
+      ],
+      "summary": "Most weekday work trips flow inward to central employment and use a diverse mode mix. Outward commuters leave earlier, travel farther, rely more on motor vehicles, and repeatedly share a small corridor set; four short active trips form clear local exceptions."
+    },
+    {
+      "case_id": "mtl_trajet_18_complete_daily_trip_chains",
+      "goal": "Identify characteristic patterns and differences among complete daily trip chains.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Work-centered chains usually contain a direct outbound commute and a return-home leg, while discretionary chains include more intermediate stops."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Chains with shopping or dining stops show greater destination dispersion and more frequent mode changes than work-centered chains."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Later return-home times are associated with chains containing additional leisure or dining stops, whereas work-centered chains return earlier and more regularly."
+        }
+      ],
+      "summary": "Work-centered chains usually contain an outbound commute, a multi-hour work stay, and a return-home leg, while some include a short post-work errand. Chains with shopping, dining, or leisure contain more stops, cover a wider activity space, change modes more often, and return home later."
+    },
+    {
+      "case_id": "mtl_trajet_19_within_cross_area_mobility_patterns",
+      "goal": "Compare mobility patterns of trajectories remaining within one urban area and those crossing between different areas of Montréal.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Within-area trips are dominated by shopping, dining, and leisure, whereas cross-area trips contain larger shares of work and education travel."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Walking and cycling concentrate in short within-area movements, while public transit and motor vehicles dominate longer cross-area trajectories."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Cross-area work and education trips cluster around morning and evening peaks, whereas within-area discretionary travel is distributed more broadly."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "A small set of cross-area leisure trips occurs late at night and follows unusually direct routes compared with other discretionary travel."
+        }
+      ],
+      "summary": "Within-area travel is mainly discretionary and active, while cross-area travel is longer, more commute-oriented, and mostly motorized. Five late-night cross-area leisure trajectories form unusually direct exceptions."
+    },
+    {
+      "case_id": "mtl_trajet_20_multi_user_repeated_trip_variability",
+      "goal": "Analyze variability in repeated urban trips across multiple users.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Work trips between similar locations are more mode-consistent, temporally concentrated, and route-direct on weekday mornings than at other times."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "For similarly long trips, some users repeatedly travel between the same locations along similar routes, while others take varied routes with larger speed fluctuations."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Weekend repeats more often shift to shopping or leisure, depart later, and use different modes or routes than weekday repeats."
+        }
+      ],
+      "summary": "Weekday-morning work repeats are the most temporally concentrated, mode-consistent, and direct. Users separate into stable- and variable-route patterns, while weekend repeats shift toward later shopping or leisure travel with different modes and routes."
+    },
+    {
+      "case_id": "mtl_trajet_21_pickup_dropoff_daily_chains",
+      "goal": "Analyze mobility patterns associated with pick-up and drop-off activities.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Morning pick-up/drop-off trips are mostly motorized, relatively short, and often followed by longer work trips departing soon from the same area."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Afternoon pick-up/drop-off trips occur later in daily chains and are more often followed by return-home trips than additional work travel."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Users with repeated pick-up/drop-off days keep similar departure windows and destination areas, while their remaining daily routes vary."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "A few pick-up/drop-off trips use walking or cycling within mixed-use areas and are not followed by an immediate motorized trip."
+        }
+      ],
+      "summary": "Morning pick-up/drop-off is short and predominantly motorized; most, but not all, are promptly followed from the same area by longer work travel. Afternoon pick-up/drop-off occurs later and usually precedes home; repeat users retain stable PUDO windows and areas despite variation elsewhere in the day, with six delayed active-mode exceptions."
+    },
+    {
+      "case_id": "mtl_trajet_22_recurring_route_speed_destination_patterns",
+      "goal": "Analyze characteristic patterns and variations in recurring urban mobility.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Recurring routes generally preserve similar speed profiles, especially during the middle portions of trips."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Motor-vehicle trips departing closer to peak periods show larger speed fluctuations and lower lower-tail speeds, even along repeatedly used routes."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Recurring trips to employment areas are more concentrated on weekdays and use consistent transportation modes, while repeated trips to mixed-use areas span more purposes and departure times."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Across users, recurring trips concentrate on a small set of destinations, while occasional trips account for most spatial and purpose diversity."
+        }
+      ],
+      "summary": "Repeated routes retain recognizable middle-trip speed shapes. Peak motor-vehicle repeats contain more disruption, employment recurrence is weekday- and mode-consistent, and occasional trips provide most of the destination and purpose diversity."
+    },
+    {
+      "case_id": "mtl_trajet_23_intermediate_stop_daily_chain_patterns",
+      "goal": "Analyze mobility patterns around intermediate stops in daily trip chains.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Mixed-use areas host the widest variety of intermediate stops, connecting work, shopping, dining, and return-home trips within the same daily chains."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Short midday stops are commonly followed by shopping or dining trips, while longer daytime stops more often separate work-related movements."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Longer stop durations are associated with larger changes in subsequent trip distance and purpose, while transport mode often remains unchanged."
+        }
+      ],
+      "summary": "Mixed-use areas host the broadest intermediate-stop activity mix. Short midday stops commonly lead to shopping or dining, whereas longer daytime stops separate work-related movements and precede larger changes in distance and purpose; modes usually persist."
+    },
+    {
+      "case_id": "mtl_trajet_24_outward_return_movement_pairs",
+      "goal": "Analyze patterns in paired outward and return movements.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Outbound and return legs usually preserve transport mode, but often differ in route directness and speed profiles."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Work-based pairs have longer and more regular destination stays, while shopping and dining pairs show shorter and more variable activity intervals."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Pairs with longer destination stays are more likely to change transport mode on the return leg, especially for leisure-related trips."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Morning outward trips are commonly paired with evening returns, while midday outward trips tend to have much shorter return intervals."
+        }
+      ],
+      "summary": "Outward and return legs usually preserve mode but differ in geometry and speed shape. Work stays are long and regular; shopping and dining stays are shorter and variable. Longer stays, particularly leisure stays, have more return-mode changes, while morning departures have the longest return intervals."
+    },
+    {
+      "case_id": "mtl_trajet_25_single_user_long_term_mobility_change",
+      "goal": "Explore long-term mobility patterns and changes in individual travel behavior of the user.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Across weeks, work trips retain similar departure times, modes, destination areas, recurring routes, and characteristic speed profiles."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Shopping and leisure trips gradually shift toward later departures and farther destinations, with greater route diversity and more frequent mode changes."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "When similar-purpose trips extend to farther destinations, the user adopts faster modes, reaches higher cruising speeds, and follows more direct routes."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Weekend travel becomes spatially broader over later weeks, while weekday trips remain concentrated around a small set of locations."
+        }
+      ],
+      "summary": "The single user's work routine remains stable across eight weeks. Shopping and leisure gradually become later, farther, more spatially diverse, and more multimodal; farther trips use faster modes and more direct routes, expanding the weekend footprint while weekday travel stays concentrated."
+    }
+  ]
+}

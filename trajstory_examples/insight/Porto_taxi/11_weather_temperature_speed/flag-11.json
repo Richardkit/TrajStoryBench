@@ -1,0 +1,123 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/11_weather_temperature_speed/trips.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Porto_taxi/11_weather_temperature_speed/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/11_weather_temperature_speed/trajectory_points.csv",
+      "role": "Timestamped GPS observations along Porto roads"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/11_weather_temperature_speed/weather_observations.csv",
+      "role": "Archived Porto hourly temperature and rain observations linked by departure hour"
+    }
+  ],
+  "metadata": {
+    "goal": "Investigate how taxi movement patterns vary across weather and temperature conditions at different times of day.",
+    "role": "Urban mobility and weather analyst",
+    "category": "Weather-conditioned taxi movement",
+    "header": "Porto Taxi Speed under Rain and Temperature Conditions",
+    "dataset_description": "A constructed set of 180 weekday Porto taxi trips linked to archived hourly Porto weather observations from February–April 2014. GPS paths follow the local OSM road graph; the tables support speed comparisons by weather, temperature, time period, route length, and central-area exposure."
+  },
+  "insight_list": [
+    {
+      "data_type": "weather_conditioned_daytime_speed",
+      "insight": "During weekday daytime periods, trips observed in rainy conditions have lower average speeds than trips observed in dry conditions.",
+      "plot": {
+        "plot_type": "box_plot",
+        "file": "visualizations/daytime_speed_by_weather.png",
+        "title": "How do weekday daytime trip speeds compare between rainy and dry departure hours",
+        "description": "The visualization summarizes the fields needed to evaluate this insight directly from the supplied tables."
+      },
+      "question": "How do weekday daytime trip speeds compare between rainy and dry departure hours?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trajectory_timestamp",
+        "weather",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "time_varying_weather_speed_gap",
+      "insight": "The speed difference between rainy and dry conditions is most pronounced during the afternoon, while the difference becomes much smaller during late-night hours.",
+      "plot": {
+        "plot_type": "period_mean_line_chart",
+        "file": "visualizations/weather_speed_gap_by_time_period.png",
+        "title": "At what time of day is the rainy–dry speed difference largest, and when does it narrow",
+        "description": "The visualization summarizes the fields needed to evaluate this insight directly from the supplied tables."
+      },
+      "question": "At what time of day is the rainy–dry speed difference largest, and when does it narrow?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trajectory_timestamp",
+        "weather",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "temperature_effect_within_dry_periods",
+      "insight": "Within dry daytime periods, average trip speeds differ only moderately between cooler and warmer conditions compared with the larger difference observed between rainy and dry periods.",
+      "plot": {
+        "plot_type": "comparative_mean_bar_chart",
+        "file": "visualizations/dry_temperature_and_weather_speed_comparison.png",
+        "title": "Within dry daytime periods, how large is the cool–warm speed difference relative to the rainy–dry contrast",
+        "description": "The visualization summarizes the fields needed to evaluate this insight directly from the supplied tables."
+      },
+      "question": "Within dry daytime periods, how large is the cool–warm speed difference relative to the rainy–dry contrast?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trajectory_timestamp",
+        "weather",
+        "temperature",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "fast_rainy_trip_exceptions",
+      "insight": "A small group of rainy-period trips remains relatively fast; these trips are mainly longer trajectories that spend less of their routes in the central area.",
+      "plot": {
+        "plot_type": "distance_speed_scatter",
+        "file": "visualizations/rainy_fast_trip_exceptions.png",
+        "title": "Which rainy-period trips remain relatively fast, and what route characteristics distinguish them",
+        "description": "The visualization summarizes the fields needed to evaluate this insight directly from the supplied tables."
+      },
+      "question": "Which rainy-period trips remain relatively fast, and what route characteristics distinguish them?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "exception_deviation",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "weather",
+        "gps_position",
+        "trajectory_timestamp",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "During weekday daytime periods, trips observed in rainy conditions have lower average speeds than trips observed in dry conditions.",
+    "The speed difference between rainy and dry conditions is most pronounced during the afternoon, while the difference becomes much smaller during late-night hours.",
+    "Within dry daytime periods, average trip speeds differ only moderately between cooler and warmer conditions compared with the larger difference observed between rainy and dry periods.",
+    "A small group of rainy-period trips remains relatively fast; these trips are mainly longer trajectories that spend less of their routes in the central area."
+  ],
+  "summary": "Rain is associated with lower weekday daytime taxi speeds, especially in the afternoon, while the late-night weather gap is small. Temperature differences within dry daytime periods are more moderate. A small fast-rain exception group consists mainly of longer, less centrally exposed routes."
+}

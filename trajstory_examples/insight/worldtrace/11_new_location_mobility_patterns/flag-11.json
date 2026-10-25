@@ -1,0 +1,109 @@
+{
+  "dataset_csv_path": "trajectories.csv",
+  "user_dataset_csv_path": "trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajectory_points.csv",
+      "role": "Timestamped GPS points with map-matched road coordinates and OSM way identifiers"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze patterns of exploration and return visits across the supplied user histories.",
+    "role": "Urban mobility analyst",
+    "category": "Exploration and preferential return",
+    "header": "Newly Visited Location Patterns",
+    "dataset_description": "A constructed WorldTrace case with 250 trajectories. Route geometries come from observed NYC WorldTrace records and retain map-matched coordinates and OSM way identifiers. User, visit sequence, time, mode, vehicle, and weather context are arranged to realize the stated analysis goal."
+  },
+  "insight_list": [
+    {
+      "data_type": "worldtrace_ex11_insight_1",
+      "insight": "Most observed visits return to previously visited areas, while only a smaller share expands the user's visited-location set.",
+      "plot": {
+        "plot_type": "map_and_statistical_summary",
+        "files": [
+          "visualizations/trajectory_map.png",
+          "visualizations/insight_1.png"
+        ],
+        "title": "Newly Visited Location Patterns: Insight 1",
+        "description": "The geographic panel uses map-matched WorldTrace route geometry; the question-specific statistical plot summarizes the corresponding pattern."
+      },
+      "question": "Across the five users, what share of trajectories revisit familiar locations rather than expand the visited-location set?",
+      "actionable_insight": "Compare new-location and return-visit counts for the complete histories.",
+      "code": "counts=df['is_new_location_visit'].value_counts().rename(index={False:'return visit',True:'new-location visit'}); print(counts); print('new share',df.is_new_location_visit.mean()); counts.plot.bar(color=['#2563eb','#f97316']); plt.ylabel('trajectories'); plt.show()",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "user_id",
+        "trajectory_timestamp",
+        "trajectory_id",
+        "gps_position",
+        "matched_road_position"
+      ]
+    },
+    {
+      "data_type": "worldtrace_ex11_insight_2",
+      "insight": "Exploration becomes progressively less frequent as the number of previously visited locations increases.",
+      "plot": {
+        "plot_type": "map_and_statistical_summary",
+        "files": [
+          "visualizations/trajectory_map.png",
+          "visualizations/insight_2.png"
+        ],
+        "title": "Newly Visited Location Patterns: Insight 2",
+        "description": "The geographic panel uses map-matched WorldTrace route geometry; the question-specific statistical plot summarizes the corresponding pattern."
+      },
+      "question": "How does the probability of exploration change as each user accumulates more previously visited locations?",
+      "actionable_insight": "Group visits by the number of previously known locations and compare new-location shares.",
+      "code": "rate=df.groupby('previous_unique_locations').is_new_location_visit.agg(['mean','count']); print(rate); rate['mean'].plot(marker='o'); plt.ylabel('new-location share'); plt.show()",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "user_id",
+        "trajectory_timestamp",
+        "trajectory_id",
+        "gps_position",
+        "matched_road_position"
+      ]
+    },
+    {
+      "data_type": "worldtrace_ex11_insight_3",
+      "insight": "Return visits are concentrated disproportionately on locations that have already been visited frequently.",
+      "plot": {
+        "plot_type": "map_and_statistical_summary",
+        "files": [
+          "visualizations/trajectory_map.png",
+          "visualizations/insight_3.png"
+        ],
+        "title": "Newly Visited Location Patterns: Insight 3",
+        "description": "The geographic panel uses map-matched WorldTrace route geometry; the question-specific statistical plot summarizes the corresponding pattern."
+      },
+      "question": "Are return visits distributed evenly across familiar locations, or concentrated on repeatedly visited places?",
+      "actionable_insight": "Compare per-user visit counts and within-user shares across locations.",
+      "code": "v=df.groupby(['user_id','visited_location']).size().rename('visits').reset_index(); v['share']=v.visits/v.groupby('user_id').visits.transform('sum'); print(v.sort_values(['user_id','visits'],ascending=[True,False])); v.pivot(index='visited_location',columns='user_id',values='share').fillna(0).plot.bar(); plt.ylabel('share of user history'); plt.show()",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "user_id",
+        "trajectory_timestamp",
+        "trajectory_id",
+        "gps_position",
+        "matched_road_position"
+      ]
+    }
+  ],
+  "insights": [
+    "Most observed visits return to previously visited areas, while only a smaller share expands the user's visited-location set.",
+    "Exploration becomes progressively less frequent as the number of previously visited locations increases.",
+    "Return visits are concentrated disproportionately on locations that have already been visited frequently."
+  ],
+  "summary": "Most observed visits return to previously visited areas, while only a smaller share expands the user's visited-location set. Exploration becomes progressively less frequent as the number of previously visited locations increases. Return visits are concentrated disproportionately on locations that have already been visited frequently."
+}

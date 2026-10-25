@@ -1,0 +1,100 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/17_route_variation_operating_conditions/trips.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Porto_taxi/17_route_variation_operating_conditions/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/17_route_variation_operating_conditions/trajectory_points.csv",
+      "role": "Dense road-aligned GPS observations for recurrent OD trips"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/17_route_variation_operating_conditions/route_profiles.csv",
+      "role": "OD-specific route families, geometry variants, via areas, and route-length ratios"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/17_route_variation_operating_conditions/weather_observations.csv",
+      "role": "Archived weather observations used to classify route operating conditions"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze variations in taxi routes under different operating conditions.",
+    "role": "Taxi route operations analyst",
+    "category": "Recurrent-route variation by weather and service source",
+    "header": "Porto Taxi Route Variation under Operating Conditions",
+    "dataset_description": "A constructed set of 720 Porto taxi trips across four recurrent OD pairs, five route families, ten geometry variants, three departure periods, two weather conditions, and three request sources. Every GPS path follows the Porto OSM road graph."
+  },
+  "insight_list": [
+    {
+      "data_type": "recurrent_route_dominance_and_long_alternatives",
+      "insight": "Trips between recurrent origin–destination pairs usually follow a few dominant routes, while a smaller group uses substantially longer alternatives.",
+      "plot": {
+        "plot_type": "route_share_and_length_ratio_panels",
+        "file": "visualizations/dominant_routes_and_long_alternatives.png",
+        "title": "How concentrated are recurrent OD trips on dominant routes, and how long are the alternatives",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "How concentrated are recurrent OD trips on dominant routes, and how long are the alternatives?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 2,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "weather_period_route_dispersion",
+      "insight": "Rainy morning and evening peaks show greater route dispersion than comparable dry periods, while late-night routes remain relatively stable.",
+      "plot": {
+        "plot_type": "weather_period_route_entropy_bar",
+        "file": "visualizations/route_dispersion_by_weather_and_period.png",
+        "title": "When does rainy weather broaden route choice relative to dry conditions",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "When does rainy weather broaden route choice relative to dry conditions?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "departure_time",
+        "weather",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "service_source_route_variation",
+      "insight": "Street-hail trips show greater route variation than stand-originated trips for comparable origin–destination pairs, distances, and departure periods.",
+      "plot": {
+        "plot_type": "matched_stratum_entropy_boxplot",
+        "file": "visualizations/route_variation_by_request_source.png",
+        "title": "How does route variation differ between street-hail and stand-originated trips after matching operating conditions",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "How does route variation differ between street-hail and stand-originated trips after matching operating conditions?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "group_comparison",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "departure_time",
+        "request_source",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Trips between recurrent origin–destination pairs usually follow a few dominant routes, while a smaller group uses substantially longer alternatives.",
+    "Rainy morning and evening peaks show greater route dispersion than comparable dry periods, while late-night routes remain relatively stable.",
+    "Street-hail trips show greater route variation than stand-originated trips for comparable origin–destination pairs, distances, and departure periods."
+  ],
+  "summary": "Most recurrent OD trips use the primary or parallel route families, while a smaller set takes materially longer alternatives. Route-family dispersion increases during rainy morning and evening peaks but remains stable late at night. Within distance-matched route sets, street-hail trips vary more than taxi-stand trips."
+}

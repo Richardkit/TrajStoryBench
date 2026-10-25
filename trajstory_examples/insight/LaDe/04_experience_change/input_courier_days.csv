@@ -1,0 +1,3 @@
+case_courier_id,source_postman_id,city,ds,workday_description
+courier_constructed_04,lade_constructed_user_04,Shanghai,0501,First observed workday
+courier_constructed_04,lade_constructed_user_04,Shanghai,1031,Recent observed workday

@@ -1,0 +1,105 @@
+{
+  "dataset_csv_path": "trips.csv",
+  "user_dataset_csv_path": "trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajectory_points.csv",
+      "role": "Original 15-second GPS points for the selected taxi trips"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze how taxi demand is distributed over one day and examine the role of taxi stands in that demand.",
+    "role": "Urban taxi demand analyst",
+    "category": "Overall Characterization",
+    "dataset_description": "The main table contains 120 completed taxi trips sampled from the UCI Porto Taxi data for one observed day. It retains taxi identity, request source, origin-stand identifier, timestamps and trip boundaries. The reference table contains the original GPS points for these trips.",
+    "header": "Taxi Demand and the Role of Taxi Stands"
+  },
+  "insight_list": [
+    {
+      "data_type": "temporal",
+      "insight": "08:00–16:00 is the busiest period in the selected day, and taxi-stand-originated requests are the dominant source during this period, accounting for slightly more than half of the requests.",
+      "insight_value": {
+        "peak_period": "08:00–16:00",
+        "dominant_request_source": "taxi-stand-originated requests"
+      },
+      "plot": {
+        "plot_type": "stacked_bar_chart",
+        "title": "Taxi Demand by Hour and Request Source",
+        "file": "notebook_plots/q1_1.png",
+        "description": "Hourly demand is separated into central-dispatch, taxi-stand-originated and street-hail requests."
+      },
+      "question": "How does taxi demand change across the day, and which request source dominates the busiest period?",
+      "actionable_insight": "Compare the hourly demand profile with the contribution of each request source.",
+      "code": "import pandas as pd\nimport matplotlib.pyplot as plt\nd = pd.read_csv('trips.csv')\nd['timestamp'] = pd.to_datetime(d['timestamp'])\nd['hour'] = d['timestamp'].dt.hour\ncounts = d.pivot_table(index='hour', columns='request_source', values='trip_id', aggfunc='count', fill_value=0)\ncounts.reindex(range(24), fill_value=0).plot(kind='bar', stacked=True, figsize=(12,5))\nplt.axvspan(8-0.5, 16-0.5, color='gold', alpha=.15)\nplt.title('Taxi demand by hour and request source'); plt.xlabel('Hour'); plt.ylabel('Trips'); plt.show()",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "departure_time",
+        "request_source",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "comparative",
+      "insight": "Central-dispatch requests are handled almost entirely by taxis that also appear in taxi-stand-originated service during the same observed day, indicating that stand-based service is associated with a shared fleet rather than a separate fleet.",
+      "insight_value": {
+        "unit_of_analysis": "taxi_id",
+        "comparison": "central_dispatch and taxi_stand service overlap"
+      },
+      "plot": {
+        "plot_type": "grouped_bar_chart",
+        "title": "Request Sources by Taxi",
+        "file": "notebook_plots/q2_1.png",
+        "description": "The number of trips from each request source is shown for each observed taxi."
+      },
+      "question": "Are central-dispatch requests handled by a separate fleet, or by taxis that also serve taxi stands?",
+      "actionable_insight": "Compare request-source counts at the taxi level; do not infer an unrecorded physical waiting state.",
+      "code": "import pandas as pd\nimport matplotlib.pyplot as plt\nd = pd.read_csv('trips.csv')\ncounts = d.pivot_table(index='taxi_id', columns='request_source', values='trip_id', aggfunc='count', fill_value=0)\ncounts.sort_values('taxi_stand', ascending=False).plot(kind='bar', stacked=False, figsize=(13,5))\nplt.title('Request sources handled by each observed taxi'); plt.xlabel('Taxi'); plt.ylabel('Trips'); plt.xticks(rotation=75); plt.tight_layout(); plt.show()",
+      "insight_type": "group_comparison",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "taxi_id",
+        "request_source",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "temporal",
+      "insight": "Outside the high-demand period, especially during the night, the absolute number of taxi-stand-originated requests is much lower than during daytime peak hours, although taxi stands remain active.",
+      "insight_value": {
+        "comparison": "taxi-stand request counts across daytime and nighttime hours"
+      },
+      "plot": {
+        "plot_type": "line_chart",
+        "title": "Taxi-Stand Requests Across the Day",
+        "file": "notebook_plots/q3_1.png",
+        "description": "The hourly volume of taxi-stand-originated requests is plotted across the full day."
+      },
+      "question": "How does taxi-stand-originated demand change after the daytime high-demand period, particularly during the night?",
+      "actionable_insight": "Compare absolute taxi-stand request counts by hour rather than only their proportions.",
+      "code": "import pandas as pd\nimport matplotlib.pyplot as plt\nd = pd.read_csv('trips.csv')\nd['timestamp'] = pd.to_datetime(d['timestamp'])\nd['hour'] = d['timestamp'].dt.hour\nstand = d[d['request_source'] == 'taxi_stand'].groupby('hour').size().reindex(range(24), fill_value=0)\nstand.plot(kind='line', marker='o', figsize=(11,4))\nplt.axvspan(19, 24, color='navy', alpha=.08)\nplt.title('Taxi-stand-originated requests across the day'); plt.xlabel('Hour'); plt.ylabel('Taxi-stand trips'); plt.show()",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "departure_time",
+        "request_source",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "08:00–16:00 is the busiest period in the selected day, and taxi-stand-originated requests are the dominant source during this period, accounting for slightly more than half of the requests.",
+    "Central-dispatch requests are handled almost entirely by taxis that also appear in taxi-stand-originated service during the same observed day, indicating that stand-based service is associated with a shared fleet rather than a separate fleet.",
+    "Outside the high-demand period, especially during the night, the absolute number of taxi-stand-originated requests is much lower than during daytime peak hours, although taxi stands remain active."
+  ],
+  "summary": "On the selected Porto day, taxi demand is concentrated in the daytime, with 08:00–16:00 as the busiest period. Taxi-stand-originated requests are the dominant but not exclusive daytime source, and the taxis serving central dispatch also largely overlap with the taxi-stand service fleet. Taxi-stand demand falls substantially at night in absolute terms while remaining present."
+}

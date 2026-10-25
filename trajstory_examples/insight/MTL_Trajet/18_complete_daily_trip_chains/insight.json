@@ -1,0 +1,98 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/18_complete_daily_trip_chains/trajectories.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/18_complete_daily_trip_chains/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/MTL_Trajet/18_complete_daily_trip_chains/trajectory_points.csv",
+      "role": "Timestamped GPS trajectory points linked by trajectory_id"
+    }
+  ],
+  "metadata": {
+    "goal": "Identify characteristic patterns and differences among complete daily trip chains.",
+    "role": "Urban mobility-pattern analyst",
+    "category": "Complete daily trip chains linked by chain_id and leg_index, with activities, modes, multi-hour work stays, destination dispersion, and timestamped trajectory points.",
+    "header": "MTL Trajet: 18 Complete Daily Trip Chains",
+    "dataset_description": "Complete daily trip chains linked by chain_id and leg_index, with activities, modes, multi-hour work stays, destination dispersion, and timestamped trajectory points.",
+    "metric_note": "Distances are calculated from delivered GPS polylines; average point speed and duration are synchronized with the point table. Montréal's long island axis runs approximately southwest–northeast, so signed axis displacement summarizes the dominant travel direction."
+  },
+  "insight_list": [
+    {
+      "data_type": "daily_chain_structure",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Complete Daily-chain Structure",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/daily_chain_structure.png"
+      },
+      "question": "How do work-centered chains and discretionary-stop chains differ in leg and stop counts?",
+      "code": "df.groupby(['chain_id','chain_type']).first().groupby('chain_type')[['chain_leg_count','intermediate_stop_count']].mean()",
+      "insight": "Work-centered chains usually contain a direct outbound commute and a return-home leg, while discretionary chains include more intermediate stops.",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trajectory_timestamp",
+        "trajectory_id",
+        "user_id",
+        "trip_purpose"
+      ]
+    },
+    {
+      "data_type": "chain_dispersion_mode_change",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Destination Dispersion and Mode Changes",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/chain_dispersion_and_mode_changes.png"
+      },
+      "question": "How do destination dispersion and mode changes differ when shopping or dining stops are present?",
+      "code": "df.groupby('chain_id').first().groupby('chain_type')[['destination_dispersion_km','mode_change_count']].agg(['median','mean'])",
+      "insight": "Chains with shopping or dining stops show greater destination dispersion and more frequent mode changes than work-centered chains.",
+      "insight_type": "group_comparison",
+      "difficulty_level": 6,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trip_purpose",
+        "trajectory_timestamp",
+        "trajectory_id",
+        "user_id",
+        "transport_mode",
+        "gps_position"
+      ]
+    },
+    {
+      "data_type": "chain_return_time",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Return-home Time by Chain Type",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/return_time_by_chain_type.png"
+      },
+      "question": "How are leisure or dining stops associated with return-home timing?",
+      "code": "df.groupby('chain_id').first().groupby('chain_type').return_home_hour.agg(['median','mean','std'])",
+      "insight": "Later return-home times are associated with chains containing additional leisure or dining stops, whereas work-centered chains return earlier and more regularly.",
+      "insight_type": "group_comparison",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trip_purpose",
+        "trajectory_timestamp",
+        "trajectory_id",
+        "user_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Work-centered chains usually contain a direct outbound commute and a return-home leg, while discretionary chains include more intermediate stops.",
+    "Chains with shopping or dining stops show greater destination dispersion and more frequent mode changes than work-centered chains.",
+    "Later return-home times are associated with chains containing additional leisure or dining stops, whereas work-centered chains return earlier and more regularly."
+  ],
+  "summary": "Work-centered chains usually contain an outbound commute, a multi-hour work stay, and a return-home leg, while some include a short post-work errand. Chains with shopping, dining, or leisure contain more stops, cover a wider activity space, change modes more often, and return home later.",
+  "evidence_policy": "Claims describe patterns in this controlled constructed dataset and do not establish causal relationships."
+}

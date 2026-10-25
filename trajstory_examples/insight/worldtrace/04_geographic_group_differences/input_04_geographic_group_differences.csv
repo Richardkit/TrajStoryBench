@@ -1,0 +1,49 @@
+user_id,trajectory_id,owner,travel_mode,vehicle_class,start_time,temperature_2m_c,distance_meters,duration_seconds,points,end_region,start_region_coarse,end_region_coarse,source_trajectory_id
+user_033,7862685,sunnypilot,walking,large,2023-06-04 20:39:23,17.100000000000,192.737935143462,139.265454991000,80,Central Brooklyn,Brooklyn,Brooklyn,7862685
+user_003,8249446,dragonpilot,walking,large,2023-06-21 23:53:40,17.600000000000,109.430002494409,52.698733081000,55,Central Brooklyn,Brooklyn,Brooklyn,8249446
+user_008,5659171,dragonpilot,walking,large,2022-12-18 03:05:17,-0.600000000000,198.152211296816,93.086408950000,56,South Brooklyn,Brooklyn,Brooklyn,5659171
+user_048,6480042,dragonpilot,car,mid_size,2023-03-01 22:39:03,4.000000000000,242.385476554444,72.879622116000,46,Downtown Brooklyn,Brooklyn,Brooklyn,6480042
+user_015,7592680,sunnypilot,car,unknown,2023-05-09 19:53:46,14.600000000000,1504.160480964556,451.248144289000,45,Lower Manhattan,Manhattan,Manhattan,7592680
+user_048,7615003,sunnypilot,car,mid_size,2023-05-22 12:40:10,22.100000000000,1945.635709339738,609.068569880000,48,Upper Manhattan,Manhattan,Manhattan,7615003
+user_003,10741797,sunnypilot,walking,large,2023-08-24 21:09:51,20.800000000000,448.584214198268,338.254375235000,120,Lower Manhattan,Manhattan,Manhattan,10741797
+user_035,11116464,sunnypilot,car,compact,2023-10-16 23:10:05,11.100000000000,1401.492728560574,420.447818568000,54,Midtown Manhattan,Manhattan,Manhattan,11116464
+user_045,10939693,sunnypilot,car,unknown,2023-10-10 15:58:17,18.000000000000,3029.471056488194,872.487664269000,42,Outer North New Jersey,NJ side,NJ side,10939693
+user_037,5811256,sunnypilot,car,large,2023-01-02 17:47:33,11.300000000000,5355.070252588453,1676.369818202000,66,Newark / Elizabeth,NJ side,NJ side,5811256
+user_031,4288100,sunnypilot,walking,mid_size,2022-04-27 00:38:25,13.400000000000,951.128164833375,496.962096928000,113,Jersey City / Hoboken,NJ side,NJ side,4288100
+user_041,5607555,sunnypilot,car,large,2022-12-12 22:55:52,-1.700000000000,2119.702981357187,635.910894407000,66,Jersey City / Hoboken,NJ side,NJ side,5607555
+user_021,5831089,sunnypilot,car,unknown,2023-01-04 20:07:51,9.600000000000,2620.593851702258,786.178155511000,54,North Queens,Queens,Queens,5831089
+user_001,6622932,sunnypilot,car,large,2023-03-12 15:42:08,7.900000000000,5910.845652992417,1850.351682676000,68,Eastern Queens edge,Queens,Queens,6622932
+user_001,10837849,sunnypilot,walking,compact,2023-10-06 12:28:15,21.500000000000,607.425214814740,319.589876878000,115,Astoria / Long Island City,Queens,Queens,10837849
+user_009,11116189,sunnypilot,car,large,2023-03-30 11:41:45,2.900000000000,1872.402742842789,561.720822853000,68,Upper Manhattan,Queens,Manhattan,11116189
+reconstructed_user_017,wt04_aug_017,synthetic_reconstruction,walking,not_applicable,2023-02-12 22:06:48,-0.018791430751,144.914208295104,127.154903074000,213,Central Brooklyn,Brooklyn,Brooklyn,
+reconstructed_user_018,wt04_aug_018,synthetic_reconstruction,walking,not_applicable,2023-04-20 12:59:42,21.212139052665,249.967919765975,132.466069489000,60,South Brooklyn,Brooklyn,Brooklyn,
+reconstructed_user_019,wt04_aug_019,synthetic_reconstruction,walking,not_applicable,2023-12-24 05:49:42,1.735131695883,126.075151652819,72.286881563000,109,South Brooklyn,Brooklyn,Brooklyn,
+reconstructed_user_020,wt04_aug_020,synthetic_reconstruction,car,mid_size,2023-02-19 19:02:21,4.820169063661,341.363091658676,84.337638587000,82,Central Brooklyn,Brooklyn,Brooklyn,
+reconstructed_user_021,wt04_aug_021,synthetic_reconstruction,car,compact,2023-06-06 11:42:48,21.981164022581,277.075236596539,51.368957036000,28,South Brooklyn,Brooklyn,Brooklyn,
+reconstructed_user_022,wt04_aug_022,synthetic_reconstruction,car,mid_size,2023-09-21 22:45:24,21.833847551531,353.011320239207,123.805810654000,39,South Brooklyn,Brooklyn,Brooklyn,
+reconstructed_user_023,wt04_aug_023,synthetic_reconstruction,walking,not_applicable,2023-04-01 04:14:12,13.075863461994,165.235079617121,92.775454398000,206,Central Brooklyn,Brooklyn,Brooklyn,
+reconstructed_user_024,wt04_aug_024,synthetic_reconstruction,walking,not_applicable,2023-07-19 01:46:54,25.571852214134,120.840546898641,61.147137766000,71,South Brooklyn,Brooklyn,Brooklyn,
+reconstructed_user_025,wt04_aug_025,synthetic_reconstruction,walking,not_applicable,2023-11-09 03:52:44,5.740060168970,651.446025745108,439.132272670000,95,Lower Manhattan,Manhattan,Manhattan,
+reconstructed_user_026,wt04_aug_026,synthetic_reconstruction,car,mid_size,2023-01-02 04:23:19,-1.534734720574,2180.587528613018,640.067712553000,39,Upper Manhattan,Manhattan,Manhattan,
+reconstructed_user_027,wt04_aug_027,synthetic_reconstruction,car,mid_size,2023-10-16 04:08:34,7.204726417713,1510.985568466599,453.922931826000,69,Midtown Manhattan,Manhattan,Manhattan,
+reconstructed_user_028,wt04_aug_028,synthetic_reconstruction,car,compact,2023-08-08 23:53:18,29.403028242435,1438.718144806405,285.704297545000,86,Midtown Manhattan,Manhattan,Manhattan,
+reconstructed_user_029,wt04_aug_029,synthetic_reconstruction,car,large,2023-10-06 05:29:44,17.069019711194,2057.939135171356,537.998409444000,28,Lower Manhattan,Manhattan,Manhattan,
+reconstructed_user_030,wt04_aug_030,synthetic_reconstruction,car,mid_size,2023-01-23 00:28:41,1.912756852855,2690.965871870996,761.717978229000,82,Upper Manhattan,Manhattan,Manhattan,
+reconstructed_user_031,wt04_aug_031,synthetic_reconstruction,car,large,2023-03-02 11:58:06,3.603096829260,2128.445949178474,555.312995070000,28,Midtown Manhattan,Manhattan,Manhattan,
+reconstructed_user_032,wt04_aug_032,synthetic_reconstruction,car,large,2023-12-01 08:51:01,2.368780727910,1841.520418152636,461.356664531000,33,Midtown Manhattan,Manhattan,Manhattan,
+reconstructed_user_033,wt04_aug_033,synthetic_reconstruction,walking,not_applicable,2023-08-02 00:13:34,23.961689816805,690.150813040810,378.401145180000,157,Outer North New Jersey,NJ side,NJ side,
+reconstructed_user_034,wt04_aug_034,synthetic_reconstruction,car,compact,2023-07-30 08:47:55,32.532237906103,4432.756949784499,1458.301931788000,79,Jersey City / Hoboken,NJ side,NJ side,
+reconstructed_user_035,wt04_aug_035,synthetic_reconstruction,car,mid_size,2023-05-01 10:29:16,20.744795378370,2332.723212514943,548.395597196000,87,Jersey City / Hoboken,NJ side,NJ side,
+reconstructed_user_036,wt04_aug_036,synthetic_reconstruction,walking,not_applicable,2023-10-13 15:10:35,14.629327685499,531.368703247195,280.445243837000,322,Outer North New Jersey,NJ side,NJ side,
+reconstructed_user_037,wt04_aug_037,synthetic_reconstruction,car,mid_size,2023-09-11 03:44:00,24.854489937819,2331.767233407605,357.842448781000,48,Outer North New Jersey,NJ side,NJ side,
+reconstructed_user_038,wt04_aug_038,synthetic_reconstruction,car,compact,2023-06-13 01:26:06,17.379566533755,2451.827073163902,549.035492744000,52,Newark / Elizabeth,NJ side,NJ side,
+reconstructed_user_039,wt04_aug_039,synthetic_reconstruction,car,mid_size,2023-06-20 07:39:53,24.518646026095,1898.983853117820,395.289696550000,66,Newark / Elizabeth,NJ side,NJ side,
+reconstructed_user_040,wt04_aug_040,synthetic_reconstruction,car,mid_size,2023-04-22 08:59:30,15.185733378252,6598.522587904124,1437.303795793000,66,Newark / Elizabeth,NJ side,NJ side,
+reconstructed_user_041,wt04_aug_041,synthetic_reconstruction,car,large,2023-03-07 22:25:20,2.763281969181,4443.610328198828,1105.068272453000,152,North Queens,Queens,Queens,
+reconstructed_user_042,wt04_aug_042,synthetic_reconstruction,car,mid_size,2023-11-20 19:56:09,8.102985359951,2228.611126842836,348.864200692000,44,Astoria / Long Island City,Queens,Queens,
+reconstructed_user_043,wt04_aug_043,synthetic_reconstruction,walking,not_applicable,2023-01-02 05:24:16,1.405003353584,1434.022264154580,673.298865468000,95,Astoria / Long Island City,Queens,Queens,
+reconstructed_user_044,wt04_aug_044,synthetic_reconstruction,car,compact,2023-03-11 07:16:15,4.533640390594,2358.315862273900,416.749614381000,56,North Queens,Queens,Queens,
+reconstructed_user_045,wt04_aug_045,synthetic_reconstruction,car,compact,2023-11-13 04:09:11,11.164445847334,5036.170851842397,847.309127544000,70,Eastern Queens edge,Queens,Queens,
+reconstructed_user_046,wt04_aug_046,synthetic_reconstruction,walking,not_applicable,2023-04-19 19:57:25,17.143813879300,687.214819429771,583.475800453000,179,Eastern Queens edge,Queens,Queens,
+reconstructed_user_047,wt04_aug_047,synthetic_reconstruction,car,compact,2023-05-07 14:33:22,14.885139740404,3897.285906458624,794.448841821000,40,Eastern Queens edge,Queens,Queens,
+reconstructed_user_048,wt04_aug_048,synthetic_reconstruction,walking,not_applicable,2023-07-23 10:33:23,27.643524145486,641.456265740034,338.504388833000,228,North Queens,Queens,Queens,

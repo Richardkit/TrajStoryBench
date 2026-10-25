@@ -1,0 +1,539 @@
+{
+  "schema_version": "1.0",
+  "dataset_family": "Porto_taxi",
+  "case_count": 25,
+  "insight_count": 89,
+  "cases": [
+    {
+      "case_id": "porto_taxi_01_overall_characterization",
+      "goal": "Analyze the spatial and temporal patterns of taxi driving activity in a selected area during one day.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Average taxi speed reaches local minima during 06:30–09:30 and 15:30–19:00."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "During the 06:30–09:30 low-speed period, most taxis in the selected area pass through the same road junction, which is a possible spatial correlate of the low observed speed."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "During the 15:30-19:00 low-speed period, most trips start at the two taxi-stand locations A and B."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Outside the 06:30–09:30 and 15:30–19:00 periods, the three CALL_TYPE categories are approximately balanced."
+        }
+      ],
+      "summary": "Taxi driving in the selected Porto area shows two low-speed periods with different spatial contexts: a recurring morning junction and a concentration of afternoon trip origins at two taxi stands. Outside these periods, pickup channels are approximately balanced."
+    },
+    {
+      "case_id": "porto_taxi_02_anomaly_and_exception",
+      "goal": "Understand how taxi service departs from its dominant operating pattern and what forms those departures take.",
+      "insights": [
+        {
+          "insight_type": "exception_deviation",
+          "insight": "Most selected trips remain within the dominant Porto service network, while a small number extend much farther toward the metropolitan edges."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "Very short or nearly stationary completed trips form a distinct exception to the longer moving trips and need to be interpreted separately from ordinary city crossings."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "The exceptional trips are not confined to one pickup channel: unusual spatial extent and unusual local movement both occur across different service contexts."
+        }
+      ],
+      "summary": "Most selected trips remain within the dominant Porto service network, while a small number extend to metropolitan edges. Very short or nearly stationary completed trips form a separate exception to longer moving trips. Together, the exception types occur across more than one pickup channel and therefore represent different service contexts."
+    },
+    {
+      "case_id": "porto_taxi_03_segmentation_structure",
+      "goal": "Identify the operating differences and similarities that organize taxi service across the two days represented by the given trajectories.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The second day has three times as many taxi calls as the first day during the afternoon period (12:00–18:00)."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The increase on the second day is concentrated in a sharp rise during 15:00–16:00, followed by a steep drop in taxi-call volume after 21:00."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "On the first day, trajectories are concentrated in the city center with additional randomly distributed peripheral activity, whereas the second day shows no comparable concentration in an urban core."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "On both days, the proportion of street-requested trips (CALL_TYPE C) increases toward later time periods; this is a proportional change rather than an increase in the absolute number of such trips."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "On both days, the 00:00–05:00 period has the highest average speed and the longest average trip distance."
+        }
+      ],
+      "summary": "The second observed day has substantially more afternoon taxi calls, with a sharp 15:00–16:00 increase and a decline after 21:00. The first day is concentrated around the Porto core while the second is spatially broader. On both days, the share of street-requested trips rises later in the day, and the 00:00–05:00 block has the highest average speed and longest average trip distance."
+    },
+    {
+      "case_id": "porto_taxi_04_demand_and_driver_service",
+      "goal": "Analyze the demand and service-time structure of taxi operations over one day, including how waiting and passenger-trip durations vary across drivers.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Taxi demand is highest from 08:00 to 16:00 and reaches its lowest level during the early-morning hours."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Average passenger waiting time is much longer than average passenger-trip duration, while most completed passenger trips last no more than 15 minutes."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Driver-level waiting times are strongly polarized: some drivers have short average waits, while another group has substantially longer waits, producing a two-peaked distribution despite the long overall average."
+        }
+      ],
+      "summary": "Taxi demand is concentrated from 08:00 to 16:00 and is lowest during the early morning. Passenger waiting time is substantially longer than passenger-trip duration, although most trips are short. Driver-level waiting times are polarized, with a short-wait group and a much longer-wait group rather than a uniform driver experience."
+    },
+    {
+      "case_id": "porto_taxi_05_taxi_stand_demand",
+      "goal": "Analyze how taxi demand is distributed over one day and examine the role of taxi stands in that demand.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "08:00–16:00 is the busiest period in the selected day, and taxi-stand-originated requests are the dominant source during this period, accounting for slightly more than half of the requests."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Central-dispatch requests are handled almost entirely by taxis that also appear in taxi-stand-originated service during the same observed day, indicating that stand-based service is associated with a shared fleet rather than a separate fleet."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Outside the high-demand period, especially during the night, the absolute number of taxi-stand-originated requests is much lower than during daytime peak hours, although taxi stands remain active."
+        }
+      ],
+      "summary": "On the selected Porto day, taxi demand is concentrated in the daytime, with 08:00–16:00 as the busiest period. Taxi-stand-originated requests are the dominant but not exclusive daytime source, and the taxis serving central dispatch also largely overlap with the taxi-stand service fleet. Taxi-stand demand falls substantially at night in absolute terms while remaining present."
+    },
+    {
+      "case_id": "porto_taxi_06_five_driver_operating_patterns",
+      "goal": "Study the driving and task-acceptance behavior of five drivers using their multiple provided trajectories.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Most drivers complete tasks within one service area before moving to the next area; for example, they spend an extended sequence in the west before transitioning eastward to continue accepting tasks."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Drivers commonly experience extended idle windows after completing a batch of consecutive tasks."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "During these idle windows, the drivers usually, though not always, wait at a taxi stand."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "The five drivers begin work at different times, but each works for approximately ten hours."
+        }
+      ],
+      "summary": "Across the five drivers, completed tasks are predominantly organized as consecutive within-area sequences before a transition to the next service area. Their workloads contain extended idle windows between consecutive task batches; most of these windows are spent at a taxi stand. Despite staggered starts, the five shifts are all close to ten hours long."
+    },
+    {
+      "case_id": "porto_taxi_07_citywide_demand_cycle_and_peak_sources",
+      "goal": "Analyze recurring patterns and longer-term changes in taxi demand across the city.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Citywide taxi demand follows a recurring low–high–low–high–low daily cycle, with a morning peak, a midday lull, a larger late-afternoon peak, and low demand overnight and late at night."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "The two daily peaks have different spatial structures: morning-peak demand is broadly distributed across the western and eastern suburban service areas, whereas late-afternoon demand is densely concentrated in Porto's central district."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The low–high–low–high–low cycle recurs across all observation dates, but the two daily peak totals fluctuate while trending upward over the longer observation period."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Over the longer observation period, morning-peak growth comes from two fixed stands, whereas late-afternoon growth comes from two different fixed stands."
+        }
+      ],
+      "summary": "Taxi demand repeatedly follows a low–high–low–high–low daily cycle across the six supplied dates. The morning and late-afternoon peaks have contrasting spatial structures—broad suburban demand in the morning and compact central demand later in the day—and both peak totals fluctuate but rise over time. Their growth comes from distinct, fixed groups of suburban versus central taxi stands."
+    },
+    {
+      "case_id": "porto_taxi_08_single_driver_cruising_strategy",
+      "goal": "Using the supplied records for one driver, investigate the driver’s operating strategy.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "The driver spends most observed operating time cruising around the city and spends very little time waiting at a taxi stand."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Most of this driver's completed orders are street hails encountered while cruising through the city."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "From 16:00 to 18:00, the driver repeatedly cruises in the central district, completes a trip after each order, then returns to the centre to cruise until the next order; most orders in this interval are street hails. Cruising locations are less fixed at other times."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "The driver's cruising speed is lower than the speed while driving to a pickup or carrying a passenger."
+        }
+      ],
+      "summary": "This driver mainly operates by cruising rather than waiting at taxi stands, and most completed orders are street hails. The 16:00–18:00 period is organized around repeated central-district cruising and return cycles after street-hail trips, while other cruising is spatially less fixed. Cruising is also the driver’s slowest active driving state."
+    },
+    {
+      "case_id": "porto_taxi_09_experience_conditioned_operating_strategy",
+      "goal": "Analyze how a taxi driver’s operating strategy changes over two months of observed work, and assess whether the changes are consistent with learning from recurring demand and route conditions.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The driver’s afternoon activity shifts from broad cruising to a more concentrated pattern around recurring service areas."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "On Friday evenings, the driver’s activity becomes more focused on a taxi stand, with longer waits in the later period."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Morning trips in the later period are faster and have more stable speed profiles, while route indirectness remains similar."
+        }
+      ],
+      "summary": "Over two observed months, this driver’s behavior changes in ways consistent with learning recurring market and route conditions. Later 13:00–18:00 work remains centered on the A–B street-hail pair despite a smaller set of non-A/B orders; later Friday evenings involve substantially longer C-stand waiting; and later indirect morning trips are steadier while maintaining a relatively high speed level."
+    },
+    {
+      "case_id": "porto_taxi_10_recurrent_operating_route_patterns",
+      "goal": "Analyze recurrent operating routes in the provided Porto taxi trajectories and summarize their spatial, temporal, and passenger-request characteristics.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Five recurrent trajectory patterns can be identified in the provided taxi traces, each representing a repeatedly observed movement corridor in Porto."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Four of the five recurrent trajectory patterns are predominantly north–south oriented, whereas the remaining pattern is predominantly east–west oriented."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The recurrent patterns have distinct temporal preferences: Patterns 1–3 occur predominantly on weekday mornings, while Patterns 4–5 are concentrated on weekday evenings."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "All five recurrent patterns have similar passenger-request compositions: approximately 80% of trips originate from street hails and 20% from phone-dispatched calls."
+        }
+      ],
+      "summary": "The trajectories organize into five recurring operating corridors. Four are predominantly north–south, while the east–west crosstown corridor is the remaining pattern. Patterns 1–3 are concentrated in weekday mornings, whereas Patterns 4–5 occur in weekday evenings. Across the corridors, passenger-request composition remains street-hail dominant and similar."
+    },
+    {
+      "case_id": "porto_taxi_11_weather_temperature_speed",
+      "goal": "Investigate how taxi movement patterns vary across weather and temperature conditions at different times of day.",
+      "insights": [
+        {
+          "insight_type": "factor_relationship",
+          "insight": "During weekday daytime periods, trips observed in rainy conditions have lower average speeds than trips observed in dry conditions."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The speed difference between rainy and dry conditions is most pronounced during the afternoon, while the difference becomes much smaller during late-night hours."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Within dry daytime periods, average trip speeds differ only moderately between cooler and warmer conditions compared with the larger difference observed between rainy and dry periods."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "A small group of rainy-period trips remains relatively fast; these trips are mainly longer trajectories that spend less of their routes in the central area."
+        }
+      ],
+      "summary": "Rain is associated with lower weekday daytime taxi speeds, especially in the afternoon, while the late-night weather gap is small. Temperature differences within dry daytime periods are more moderate. A small fast-rain exception group consists mainly of longer, less centrally exposed routes."
+    },
+    {
+      "case_id": "porto_taxi_12_pre_holiday_activity",
+      "goal": "Analyze how taxi activity differs around holidays and special days.",
+      "insights": [
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Days immediately preceding holidays or special days show a stronger concentration of taxi trips in the late evening than ordinary days."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "The trips on pre-holiday day evenings are usually towards north of the city, while trips on ordinary evenings are more evenly distributed."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Pre-holiday trips contain a higher proportion of medium- and long-distance journeys than trips during comparable ordinary evenings."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Street-hail trips take a larger share in the morning of both pre-holiday and ordinary days, but the proportion decreases after mid-day, especially in pre-holiday periods."
+        }
+      ],
+      "summary": "Pre-holiday and special-day activity is disproportionately concentrated late in the evening, and those evening trips are usually directed north while ordinary-evening destinations are more evenly distributed across north, east, central, west, and south sectors. Pre-holiday evenings also contain a much larger medium/long-distance share. Street hails lead in the morning for both day classes, then decline after midday, especially on pre-holiday days."
+    },
+    {
+      "case_id": "porto_taxi_13_frequent_caller_mobility_patterns",
+      "goal": "Analyze the recurring mobility patterns associated with frequent call-center callers, considering possible aspects.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Frequent callers typically request taxis from at least two recurring dominant pickup areas, while callers whose pickup focus shifts across the observation year use three to six dominant areas."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Trips originating in one of a caller's dominant pickup areas usually end in another dominant area belonging to the same caller."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "A large share of trips are concentrated between morning and noon, especially for trips originating from the callers' dominant pickup areas."
+        }
+      ],
+      "summary": "All eight callers rely on multiple recurring dominant pickup areas. Five callers retain a stable primary focus across the year, while three shift their focus within larger sets of three to six dominant areas. Trips beginning in one caller-dominant area usually end in another dominant area belonging to the same caller, and dominant-area departures are particularly concentrated between morning and noon."
+    },
+    {
+      "case_id": "porto_taxi_14_area_time_taxi_stand_demand",
+      "goal": "Explore how taxi demand varies across different areas and times.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Taxi-stand demand is highly uneven, with a relatively small group of stands near the city center and the main train station accounting for a large share of stand-originated trips."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "High-demand central stands remain active across most hours of the day, whereas several peripheral stands show demand concentrated within narrower time periods."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Nearby taxi stands can exhibit similar daily demand rhythms while differing substantially in their total number of pickups."
+        }
+      ],
+      "summary": "Stand demand is strongly concentrated at four central or station stands. Those high-demand stands remain active across broad daily windows, while peripheral stands exhibit narrower temporal peaks. São Bento Station and the nearby Ribeira Waterfront stand have similar normalized daily rhythms but markedly different total pickup volumes."
+    },
+    {
+      "case_id": "porto_taxi_15_cross_driver_operating_patterns",
+      "goal": "Investigate how taxi operating patterns differ across drivers.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Drivers exhibit persistent differences in their service composition: some drivers complete a large share of their trips from taxi stands, while others rely more heavily on street-hail or call-center requests."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "For most drivers, call-center and street-hail trips tend to extend farther from their usual operating areas and cover longer distances than stand-originated trips."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "For many drivers, the dominant pickup and destination areas shift between morning and evening periods."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "There are a few drivers who tend to operate only accept trips starting from a certain taxi stand and do not consider call or street-hail requests."
+        }
+      ],
+      "summary": "Drivers differ persistently in reliance on taxi stands, street hails, and call-center requests. For most non-exclusive drivers, non-stand trips begin farther from usual areas and travel farther than stand trips. Ten drivers change dominant pickup and destination areas between morning and evening, while two exceptions accept all trips from one assigned stand."
+    },
+    {
+      "case_id": "porto_taxi_16_weather_service_speed_interactions",
+      "goal": "Analyze taxi operating patterns under different environmental and service conditions.",
+      "insights": [
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Rainy trips have lower average speeds than comparable dry trips, with the gap largest during high-activity daytime periods."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Taxi-stand and call-center trips slow more in rainy periods, while street-hail trips show a smaller change in speed."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Weather-associated speed differences are larger during morning and late-afternoon high-activity periods, but become much smaller during late-night hours."
+        }
+      ],
+      "summary": "Rain lowers speed across matched routes, with the strongest reductions during morning and late-afternoon high-activity periods. Taxi-stand and call-center trips exhibit larger rainy slowdowns than street-hail trips, while late-night weather differences are small."
+    },
+    {
+      "case_id": "porto_taxi_17_route_variation_operating_conditions",
+      "goal": "Analyze variations in taxi routes under different operating conditions.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Trips between recurrent origin–destination pairs usually follow a few dominant routes, while a smaller group uses substantially longer alternatives."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Rainy morning and evening peaks show greater route dispersion than comparable dry periods, while late-night routes remain relatively stable."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Street-hail trips show greater route variation than stand-originated trips for comparable origin–destination pairs, distances, and departure periods."
+        }
+      ],
+      "summary": "Most recurrent OD trips use the primary or parallel route families, while a smaller set takes materially longer alternatives. Route-family dispersion increases during rainy morning and evening peaks but remains stable late at night. Within distance-matched route sets, street-hail trips vary more than taxi-stand trips."
+    },
+    {
+      "case_id": "porto_taxi_18_driver_spatial_directness_patterns",
+      "goal": "Analyze how taxi drivers differ in their spatial and operational patterns.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Drivers show distinct spatial routines: some repeatedly serve compact areas, while others operate across a much broader portion of Porto."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Drivers with more long-distance trips cover broader service areas and work later hours than drivers dominated by shorter trips."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Drivers with higher route directness ratios tends to maintain stable speeds, while drivers with lower route directness ratios show more variable in speeds even on long and direct route."
+        }
+      ],
+      "summary": "Porto drivers range from compact repeated service routines to broad citywide operation. Higher long-distance shares coincide with wider service coverage and later work. A separate driver grouping shows stable long-trip speeds at higher route-directness ratios and greater speed variation among lower-ratio, more direct routes."
+    },
+    {
+      "case_id": "porto_taxi_19_driver_service_caller_schedule_patterns",
+      "goal": "Analyze differences in operating habits across taxi drivers.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Some drivers rely mainly on call-center trips, while others have larger shares of taxi-stand or street-hail trips."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Among call-center trips, some drivers repeatedly serve the same callers, while others serve a much more diverse caller pool."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Pre-holiday periods alter the active hours of some drivers substantially, while others maintain working-time patterns similar to ordinary days."
+        }
+      ],
+      "summary": "Drivers exhibit call-center-, taxi-stand-, street-hail-, and balanced request-source mixes. Their call-center work ranges from repeated service to a few callers to broad caller pools. Pre-holiday schedules shift substantially for one driver group while remaining close to ordinary-day timing for the others."
+    },
+    {
+      "case_id": "porto_taxi_20_stand_driver_temporal_environmental_demand",
+      "goal": "Investigate taxi demand patterns under different temporal and environmental conditions.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Taxi demand is uneven across stands, with a small group consistently receiving substantially more trips than most other stands."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The busiest taxi stands change across the day, with some peaking in daytime and others becoming relatively more active during evening periods."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Some drivers are more stand-oriented during daytime, while others become increasingly street-hail-oriented toward evening and night."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Pre-holiday periods change the taxi call-type mix more strongly for some drivers than for drivers with otherwise similar weekday patterns."
+        }
+      ],
+      "summary": "Stand demand is concentrated but its leaders change over the day. Driver groups differ in daytime stand reliance and evening street-hail growth, and matched drivers with similar ordinary-day channel mixes can respond very differently before holidays."
+    },
+    {
+      "case_id": "porto_taxi_21_driver_daily_weekend_rain_activity",
+      "goal": "Analyze differences in operating patterns across taxi drivers.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Some drivers concentrate trips within a few daily periods, while others distribute activity more evenly across the day."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Several drivers shift their busiest hours later on weekends, while others maintain similar activity peaks across the week."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Rainy evenings are associated with higher completed-trip activity for some drivers, while others differ little from comparable dry evenings."
+        }
+      ],
+      "summary": "Drivers differ in how strongly they concentrate activity within daily periods. Nine drivers move their busiest period later on weekends, while the remaining drivers retain similar peaks. Rain-responsive drivers complete more evening trips in rainy comparison strata, whereas rain-stable drivers change little."
+    },
+    {
+      "case_id": "porto_taxi_22_airport_direction_route_patterns",
+      "goal": "Analyze taxi travel patterns to Porto Airport in Maia, northwest of Porto.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "A large share of drivers repeatedly alternate between airport-bound and airport-originating trips, and some often return to the airport on their next recorded trip."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Corridor activity peaks in midday and afternoon periods, while airport-originating departures are less common at midday and late night."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Taxi-stand trips follow more regular routes to the airport, while nearby street-hail trips use more diverse routes despite having similar origins."
+        }
+      ],
+      "summary": "Drivers frequently alternate airport direction, with a smaller frequent-return subset. Midday and afternoon carry the most corridor activity, while comparable inbound stand and street-hail trips differ clearly in route regularity."
+    },
+    {
+      "case_id": "porto_taxi_23_campanha_recurrent_corridors",
+      "goal": "Identify recurrent taxi travel along major corridors originating from Campanhã Station.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Campanhã departures split into two recurrent corridors, east toward place A and west toward place B."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "The place A corridor is served by a smaller recurring driver group, while the place B corridor involves a broader taxi pool."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Place A trips are more common earlier in the day, while place B trips become more prominent during late afternoon and evening."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Taxi-stand trips dominate both corridors, but street-hail trips form a larger evening share on the place B branch."
+        }
+      ],
+      "summary": "Campanhã trips follow distinct eastward and westward branches. The eastern place A branch has a smaller recurrent driver group and is relatively earlier, while place B draws a broader pool, becomes prominent later, and has a larger evening street-hail share."
+    },
+    {
+      "case_id": "porto_taxi_24_douro_crossing_route_speed_patterns",
+      "goal": "Analyze taxi travel from central Porto to Vila Nova de Gaia across the Douro River.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Most trips follow one dominant river-crossing route, while a smaller alternative becomes more common during busy daytime periods."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Speeds decline most near the river crossing during late-afternoon trips, while approach segments on either side remain less variable."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Rainy trips show a larger speed reduction near the river crossing than on comparable urban approach segments."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "A small group of late-night trips uses the longer crossing alternative despite otherwise low corridor activity."
+        }
+      ],
+      "summary": "A central crossing carries most trips, while the much longer alternative gains share in busy daytime periods and still appears among a small late-night group. Segment data localize late-afternoon and rainy slowdowns at the river crossing."
+    },
+    {
+      "case_id": "porto_taxi_25_neighboring_stand_operating_patterns",
+      "goal": "Find how taxi activity varies across neighboring service locations and different operating conditions.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Nearby taxi stands often share similar demand peaks, even when their total pickup volumes sometimes differ."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Central neighboring stands remain active across most hours, while peripheral stand pairs concentrate more of their demand during daytime."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Some neighboring stands are repeatedly served by similar taxi groups, while other nearby stands attract largely different sets of drivers."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "On some pre-holiday evenings, a normally secondary stand temporarily receives more pickups than its usually busier neighbor."
+        }
+      ],
+      "summary": "Neighboring stands can share peak timing while differing in total demand. Central pairs remain broadly active, peripheral pairs concentrate in daytime, driver overlap varies sharply, and selected pre-holiday evenings reverse the normal ordering within one pair."
+    }
+  ]
+}

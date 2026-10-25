@@ -1,0 +1,107 @@
+{
+  "dataset_csv_path": "trip_events.csv",
+  "user_dataset_csv_path": "driver_day_summary.csv",
+  "input_references": [
+    {
+      "path": "driver_day_summary.csv",
+      "role": "One-row-per-driver summary of completed trips and waiting-time behavior"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze the demand and service-time structure of taxi operations over one day, including how waiting and passenger-trip durations vary across drivers.",
+    "role": "Urban taxi demand and service analyst",
+    "category": "Overall Characterization",
+    "dataset_description": "The main table contains completed taxi request events with request, pickup, dropoff, waiting-time, passenger-trip-duration, driver, and service-channel fields. The secondary table contains one row per driver for the observed day and summarizes completed trips and waiting-time behavior.",
+    "header": "Taxi Demand and Driver-Level Service Time Across One Day"
+  },
+  "insight_list": [
+    {
+      "data_type": "temporal",
+      "insight": "Taxi demand is highest from 08:00 to 16:00 and reaches its lowest level during the early-morning hours.",
+      "insight_value": {
+        "highest_demand_period": "08:00–16:00",
+        "lowest_demand_period": "00:00–05:00"
+      },
+      "plot": {
+        "plot_type": "line_chart",
+        "title": "Taxi Demand by Hour",
+        "file": "notebook_plots/q1_1.png",
+        "description": "The hourly number of completed taxi requests is plotted across the observed day."
+      },
+      "question": "How does the number of taxi requests change over the course of the day?",
+      "actionable_insight": "Compare the hourly demand profile before examining service-time differences.",
+      "code": "import pandas as pd\nimport matplotlib.pyplot as plt\nd = pd.read_csv('trip_events.csv')\nd['request_time'] = pd.to_datetime(d['request_time'])\nd['hour'] = d['request_time'].dt.hour\ncounts = d.groupby('hour').size()\ncounts.reindex(range(24), fill_value=0).plot(kind='line', marker='o')\nplt.title('Taxi demand by hour'); plt.xlabel('Hour'); plt.ylabel('Completed requests'); plt.show()",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 2,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "request_time",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "comparative",
+      "insight": "Average passenger waiting time is much longer than average passenger-trip duration, while most completed passenger trips last no more than 15 minutes.",
+      "insight_value": {
+        "comparison": "wait_time_minutes versus passenger_trip_duration_minutes",
+        "trip_duration_threshold_minutes": 15
+      },
+      "plot": {
+        "plot_type": "distribution_comparison",
+        "title": "Waiting Time and Passenger-Trip Duration",
+        "file": "notebook_plots/q2_1.png",
+        "description": "The two service-time distributions are compared, with the 15-minute trip threshold shown."
+      },
+      "question": "How do passenger waiting times compare with passenger-trip durations, and how common are trips lasting 15 minutes or less?",
+      "actionable_insight": "Compare the two service-time distributions and the share of short passenger trips.",
+      "code": "import pandas as pd\nimport matplotlib.pyplot as plt\nd = pd.read_csv('trip_events.csv')\nsummary = pd.DataFrame({'Waiting time': d['wait_time_minutes'], 'Passenger-trip duration': d['passenger_trip_duration_minutes']})\nsummary.plot(kind='box')\nplt.axhline(15, color='red', linestyle='--', label='15-minute threshold')\nplt.title('Waiting time versus passenger-trip duration'); plt.ylabel('Minutes'); plt.legend(); plt.show()",
+      "insight_type": "group_comparison",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "request_time",
+        "departure_time",
+        "dropoff_time",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "segmentation",
+      "insight": "Driver-level waiting times are strongly polarized: some drivers have short average waits, while another group has substantially longer waits, producing a two-peaked distribution despite the long overall average.",
+      "insight_value": {
+        "unit_of_analysis": "driver-day",
+        "comparison": "mean_wait_time_minutes across drivers"
+      },
+      "plot": {
+        "plot_type": "driver_comparison",
+        "title": "Average Waiting Time by Driver",
+        "file": "notebook_plots/q3_1.png",
+        "description": "Each driver's average waiting time is shown to reveal the separation between short-wait and long-wait groups."
+      },
+      "question": "How does average waiting time vary across drivers, and does the driver-level distribution show distinct groups?",
+      "actionable_insight": "Use the driver-day summary rather than only the overall trip average to compare service capacity.",
+      "code": "import pandas as pd\nimport matplotlib.pyplot as plt\nd = pd.read_csv('driver_day_summary.csv').sort_values('mean_wait_time_minutes')\nplt.figure(figsize=(12, 5))\nplt.bar(d['driver_id'], d['mean_wait_time_minutes'])\nplt.xticks(rotation=60); plt.ylabel('Mean waiting time (minutes)'); plt.xlabel('Driver')\nplt.title('Average waiting time by driver'); plt.tight_layout(); plt.show()",
+      "insight_type": "group_comparison",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "driver_id",
+        "request_time",
+        "departure_time",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Taxi demand is highest from 08:00 to 16:00 and reaches its lowest level during the early-morning hours.",
+    "Average passenger waiting time is much longer than average passenger-trip duration, while most completed passenger trips last no more than 15 minutes.",
+    "Driver-level waiting times are strongly polarized: some drivers have short average waits, while another group has substantially longer waits, producing a two-peaked distribution despite the long overall average."
+  ],
+  "summary": "Taxi demand is concentrated from 08:00 to 16:00 and is lowest during the early morning. Passenger waiting time is substantially longer than passenger-trip duration, although most trips are short. Driver-level waiting times are polarized, with a short-wait group and a much longer-wait group rather than a uniform driver experience."
+}

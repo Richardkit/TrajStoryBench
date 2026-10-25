@@ -1,0 +1,105 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/21_driver_daily_weekend_rain_activity/trips.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Porto_taxi/21_driver_daily_weekend_rain_activity/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/21_driver_daily_weekend_rain_activity/trajectory_points.csv",
+      "role": "Dense Porto OSM-road-aligned GPS observations"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/21_driver_daily_weekend_rain_activity/driver_profiles.csv",
+      "role": "Driver period entropy, weekend peak, and rainy-evening response metrics"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/21_driver_daily_weekend_rain_activity/daily_activity.csv",
+      "role": "Zero-complete driver-date-period activity panel for comparable counts"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/21_driver_daily_weekend_rain_activity/observation_calendar.csv",
+      "role": "Constructed weekday/weekend and dry/rainy comparison strata; not claimed as archived weather observations"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze differences in operating patterns across taxi drivers.",
+    "role": "Taxi driver activity-pattern analyst",
+    "category": "Daily activity concentration, weekend peak shifts, and rainy-evening response",
+    "header": "Porto Taxi Driver Activity across Day Type and Weather",
+    "dataset_description": "A constructed driver panel over twelve comparison days, crossing weekday/weekend and dry/rainy conditions. It contains individual completed trips, a zero-complete daily-period panel, driver summaries, and dense OSM-road-aligned GPS paths. Weather labels are constructed comparison strata rather than claims about archived observations."
+  },
+  "insight_list": [
+    {
+      "data_type": "driver_daily_period_distribution",
+      "insight": "Some drivers concentrate trips within a few daily periods, while others distribute activity more evenly across the day.",
+      "plot": {
+        "plot_type": "driver_period_composition_and_entropy",
+        "file": "visualizations/driver_daily_period_concentration.png",
+        "title": "Which drivers concentrate trips in a few periods, and which distribute activity evenly",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "Which drivers concentrate trips in a few periods, and which distribute activity evenly?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "driver_id",
+        "departure_time",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "driver_weekend_peak_timing",
+      "insight": "Several drivers shift their busiest hours later on weekends, while others maintain similar activity peaks across the week.",
+      "plot": {
+        "plot_type": "weekday_weekend_peak_scatter_and_shift_bar",
+        "file": "visualizations/driver_weekend_peak_shifts.png",
+        "title": "Which drivers shift their busiest hours later on weekends",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "Which drivers shift their busiest hours later on weekends?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "driver_id",
+        "departure_time",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "driver_rainy_evening_activity",
+      "insight": "Rainy evenings are associated with higher completed-trip activity for some drivers, while others differ little from comparable dry evenings.",
+      "plot": {
+        "plot_type": "matched_weather_activity_slopegraph_and_route_map",
+        "file": "visualizations/driver_rainy_evening_activity_response.png",
+        "title": "How does completed-trip activity differ between comparable rainy and dry evenings by driver",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "How does completed-trip activity differ between comparable rainy and dry evenings by driver?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "driver_id",
+        "departure_time",
+        "weather",
+        "trajectory_id",
+        "gps_position"
+      ]
+    }
+  ],
+  "insights": [
+    "Some drivers concentrate trips within a few daily periods, while others distribute activity more evenly across the day.",
+    "Several drivers shift their busiest hours later on weekends, while others maintain similar activity peaks across the week.",
+    "Rainy evenings are associated with higher completed-trip activity for some drivers, while others differ little from comparable dry evenings."
+  ],
+  "summary": "Drivers differ in how strongly they concentrate activity within daily periods. Nine drivers move their busiest period later on weekends, while the remaining drivers retain similar peaks. Rain-responsive drivers complete more evening trips in rainy comparison strata, whereas rain-stable drivers change little."
+}

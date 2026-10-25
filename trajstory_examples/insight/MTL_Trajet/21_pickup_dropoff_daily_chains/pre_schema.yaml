@@ -1,0 +1,23 @@
+# Partial specification for data construction.
+# Fill in only the concepts and constraints you want to control.
+# Any omitted IDs, timestamps, GPS points, metrics, or support tables may be
+# added when they are necessary to realize the supplied goal and insights.
+
+pre_schema_version: "1.0"
+
+# Optional one-line context for the constructor.
+domain: "" # e.g., urban_multimodal_mobility
+goal: "Analyze mobility patterns associated with pick-up and drop-off activities."
+insights_type_list: [temporal_dynamics, temporal_dynamics, overall_pattern, exception_deviation]
+insights:
+  - "Morning pick-up/drop-off trips are mostly motorized, relatively short, and often followed by longer work trips departing soon from the same area."
+  - "Afternoon pick-up/drop-off trips occur later in daily chains and are more often followed by return-home trips than additional work travel."
+  - "Users with repeated pick-up/drop-off days keep similar departure windows and destination areas, while their remaining daily routes vary."
+  - "A few pick-up/drop-off trips use walking or cycling within mixed-use areas and are not followed by an immediate motorized trip."
+
+
+explanation:
+  - "Select users who have at least one pick-up or drop-off trip on that day, and provide the model with their complete travel history for that day—not just the pick-up trip. This is the only way to analyze the trips before and after."
+fields:
+    
+constraints:

@@ -1,0 +1,3 @@
+station_label,origin_stand,station_name,lon,lat,location_source,note
+A,15,Campanhã-area taxi stand,-8.585685,41.148648,from case design,Not an official station coordinate supplied by the UCI dataset.
+B,16,Central Porto taxi stand,-8.611,41.149,from case design,Not an official station coordinate supplied by the UCI dataset.

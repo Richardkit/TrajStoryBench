@@ -1,0 +1,21 @@
+# Accepted reference synchronized on 2026-10-09.
+# Original construction draft: results/dataset_quality/legacy_content_cleanup_20261009/before/trajstory_examples/insight/MTL_Trajet/09_land_use_mode_route_weekday_patterns/pre_schema.yaml
+pre_schema_version: '1.0'
+domain: MTL Trajet
+status: accepted_reference
+authoritative_source: trajstory_examples/insight/MTL_Trajet/09_land_use_mode_route_weekday_patterns/insight.json
+goal: Identify the characteristics of three land-use types and their corresponding mobility behaviours from the trajectory
+  data.
+insights:
+- Mixte and economic-activity destinations each have diverse transport-mode compositions and share the same set of mode categories.
+- Agricultural-area trajectories are all motor-vehicle trips with nearly identical route-directness values and closely overlapping
+  routes.
+- Mixte destinations occupy the central and eastern part of the study area; economic-activity destinations occur along the
+  northern and southern edges as well as at scattered locations; agricultural destinations are confined to the southwest.
+- Only Mixte-destination trajectories occur on both weekdays and weekends; economic-activity and agricultural destinations
+  occur only on weekdays.
+fields: null
+constraints:
+- Preserve the accepted goal and full insight records; changes require a new explicit user instruction.
+- Use the current delivered CSV tables and official fixed-GPS land-use labels. Historical construction targets are archived,
+  not current data constraints.

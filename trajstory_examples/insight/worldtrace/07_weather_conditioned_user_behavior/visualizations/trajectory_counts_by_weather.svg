@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="40" y="40" font-size="24" font-family="Arial" font-weight="bold">Trajectory Counts by Weather Condition</text>
+<line x1="90" y1="510" x2="920" y2="510" stroke="#334155"/>
+<line x1="90" y1="80" x2="90" y2="510" stroke="#334155"/>
+<rect x="129.4" y="145.6" width="128.7" height="364.4" fill="#64748b"/>
+<text x="193.8" y="538" text-anchor="middle" font-size="14">dry</text>
+<text x="193.8" y="137.6" text-anchor="middle" font-size="13">36.0</text>
+<rect x="336.9" y="348.0" width="128.7" height="162.0" fill="#2563eb"/>
+<text x="401.2" y="538" text-anchor="middle" font-size="14">rainy</text>
+<text x="401.2" y="340.0" text-anchor="middle" font-size="13">16.0</text>
+<rect x="544.4" y="408.8" width="128.7" height="101.2" fill="#38bdf8"/>
+<text x="608.8" y="538" text-anchor="middle" font-size="14">snowy</text>
+<text x="608.8" y="400.8" text-anchor="middle" font-size="13">10.0</text>
+<rect x="751.9" y="449.3" width="128.7" height="60.7" fill="#ef4444"/>
+<text x="816.2" y="538" text-anchor="middle" font-size="14">very_hot</text>
+<text x="816.2" y="441.3" text-anchor="middle" font-size="13">6.0</text>
+<text x="25" y="295.0" transform="rotate(-90 25 295.0)" font-size="14">Number of trajectories</text>
+</svg>

@@ -1,0 +1,3 @@
+aoi_id,region_id,center_lng,center_lat,radius_m,access_entry_lng,access_entry_lat,branch_lng,branch_lat
+A,constructed_R20,121.4429601,31.2319158,650,121.4379471,31.2318469,121.4429601,31.2319158
+B,constructed_R20,121.4600625,31.2392235,650,121.4566013,31.2386967,121.4600625,31.2392235

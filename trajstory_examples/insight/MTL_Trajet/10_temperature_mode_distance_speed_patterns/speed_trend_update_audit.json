@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "trajectory_count": 280,
+  "gps_point_count": 3360,
+  "geometry_and_distance_unchanged": true,
+  "insights_1_2_unchanged": true,
+  "max_segment_speed_error_kmh": 7.611468788581988e-09,
+  "max_local_geometry_distance_rounding_error_km": 0.0005848543672684059,
+  "mean_speeds": {
+    "cycling": {
+      "5": 14.6,
+      "10": 14.4,
+      "15": 14.3,
+      "20": 14.05,
+      "25": 13.9,
+      "30": 13.85,
+      "35": 13.6
+    },
+    "motor_vehicle": {
+      "5": 20.8,
+      "10": 21.5,
+      "15": 22.9,
+      "20": 24.2,
+      "25": 25.1,
+      "30": 26.8,
+      "35": 28.0
+    },
+    "public_transit": {
+      "5": 20.5,
+      "10": 20.5,
+      "15": 20.5,
+      "20": 20.5,
+      "25": 20.5,
+      "30": 20.5,
+      "35": 20.5
+    },
+    "walking": {
+      "5": 4.8,
+      "10": 4.75,
+      "15": 4.65,
+      "20": 4.55,
+      "25": 4.52,
+      "30": 4.4,
+      "35": 4.35
+    }
+  },
+  "notebook_analysis_cells_checked": 9,
+  "notebook_validation": "Analytical code executed without IPython display calls; current PNGs embedded; nbformat validation passed.",
+  "scope_note": "Historical audit immediately after the speed-trend change, before the later addition of 8 low-temperature samples; see consistency_review_2026-09-15.json for the current dataset."
+}

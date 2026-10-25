@@ -1,0 +1,96 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/10_temperature_mode_distance_speed_patterns/trajectories.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/10_temperature_mode_distance_speed_patterns/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/MTL_Trajet/10_temperature_mode_distance_speed_patterns/trajectory_points.csv",
+      "role": "Timestamped trajectory points linked by trajectory_id"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze how weekday mobility patterns vary with temperature.",
+    "role": "Urban mobility and weather analyst",
+    "category": "Weekday temperature, transport mode, trip distance, and point-speed patterns",
+    "header": "MTL Trajet: 10 Temperature Mode Distance Speed Patterns",
+    "dataset_description": "Monday-to-Friday urban trajectories with temperature, travel mode, distance, average point speed, and timestamped GPS-point records.",
+    "metric_note": "Mode shares are computed within each temperature group; `avg_point_speed_kmh` is the arithmetic mean of timestamped point speeds for one trajectory, not distance divided by elapsed time. Point speed describes the incoming segment, with the first point repeating the first segment speed. Segment geometry uses the local 78/111 km-per-degree metric."
+  },
+  "insight_list": [
+    {
+      "data_type": "weekday_temperature_mode_composition",
+      "insight": "The share of public-transit trajectories increases as temperature rises, but declines in the hottest conditions as the share of motor-vehicle trajectories increases. Cycling maintains a relatively small and stable share across temperature conditions.",
+      "insight_type": "factor_relationship",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Mode Share by Temperature",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/mode_share_by_temperature.png"
+      },
+      "question": "How do weekday transport-mode shares vary with temperature?",
+      "code": "pd.crosstab(df.temperature_c, df.mode_group, normalize='index')",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "temperature",
+        "transport_mode",
+        "trajectory_id",
+        "trajectory_timestamp"
+      ]
+    },
+    {
+      "data_type": "low_temperature_distance_overlap",
+      "insight": "At lower temperatures, the distance distributions of walking, cycling, and motor-vehicle trips partially overlap.",
+      "insight_type": "group_comparison",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Distance Distributions at Low Temperature",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/distance_by_mode_temperature.png"
+      },
+      "question": "At lower temperatures, how much do walking, cycling, and motor-vehicle distance distributions overlap?",
+      "code": "df[df.temperature_c.le(10)].groupby('mode_group').distance_km.describe()",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "temperature",
+        "transport_mode",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "temperature_speed_mode_trend",
+      "insight": "As temperature rises, average motor-vehicle speed increases, while walking and cycling speeds decrease slightly.",
+      "insight_type": "factor_relationship",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Speed by Temperature and Mode",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/speed_by_mode_temperature.png"
+      },
+      "question": "How does average point speed vary with temperature across transportation modes?",
+      "code": "df.groupby(['temperature_c','mode_group']).avg_point_speed_kmh.mean()",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "temperature",
+        "transport_mode",
+        "point_speed",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "The share of public-transit trajectories increases as temperature rises, but declines in the hottest conditions as the share of motor-vehicle trajectories increases. Cycling maintains a relatively small and stable share across temperature conditions.",
+    "At lower temperatures, the distance distributions of walking, cycling, and motor-vehicle trips partially overlap.",
+    "As temperature rises, average motor-vehicle speed increases, while walking and cycling speeds decrease slightly."
+  ],
+  "summary": "The share of public-transit trajectories increases as temperature rises, but declines in the hottest conditions as the share of motor-vehicle trajectories increases. Cycling maintains a relatively small and stable share across temperature conditions. At lower temperatures, walking, cycling, and motor-vehicle distance distributions partially overlap, while average motor-vehicle speed increases with temperature and walking and cycling speeds decrease slightly.",
+  "evidence_policy": "Claims describe patterns in this dataset and do not establish causal relationships."
+}

@@ -1,0 +1,126 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/20_stand_driver_temporal_environmental_demand/trips.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Porto_taxi/20_stand_driver_temporal_environmental_demand/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/20_stand_driver_temporal_environmental_demand/trajectory_points.csv",
+      "role": "Dense Porto OSM-road-aligned GPS observations"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/20_stand_driver_temporal_environmental_demand/driver_profiles.csv",
+      "role": "Driver source-mix, temporal-style, and pre-holiday sensitivity metrics"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/20_stand_driver_temporal_environmental_demand/taxi_stands.csv",
+      "role": "Named Porto stand locations, areas, and demand reference information"
+    }
+  ],
+  "metadata": {
+    "goal": "Investigate taxi demand patterns under different temporal and environmental conditions.",
+    "role": "Taxi demand and service-channel analyst",
+    "category": "Stand demand, intraday source mix, and pre-holiday driver response",
+    "header": "Porto Taxi Stand and Driver Demand across Operating Conditions",
+    "dataset_description": "A constructed set of 1,200 Porto taxi trips from 20 drivers across ordinary and genuine pre-holiday operating-shift dates. Twelve named taxi stands, three service channels, three time periods, matched driver pairs, and dense OSM-road-aligned GPS paths support four complementary demand analyses."
+  },
+  "insight_list": [
+    {
+      "data_type": "stand_demand_inequality",
+      "insight": "Taxi demand is uneven across stands, with a small group consistently receiving substantially more trips than most other stands.",
+      "plot": {
+        "plot_type": "ranked_stand_bar_and_dayclass_scatter",
+        "file": "visualizations/stand_demand_inequality_and_consistency.png",
+        "title": "How uneven is demand across taxi stands, and do high-demand stands remain prominent across day classes",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "How uneven is demand across taxi stands, and do high-demand stands remain prominent across day classes?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "origin_stand",
+        "trajectory_id",
+        "day_class"
+      ]
+    },
+    {
+      "data_type": "time_varying_stand_demand",
+      "insight": "The busiest taxi stands change across the day, with some peaking in daytime and others becoming relatively more active during evening periods.",
+      "plot": {
+        "plot_type": "stand_period_share_heatmap",
+        "file": "visualizations/stand_demand_by_time_period.png",
+        "title": "How does the ranking of busy taxi stands change across daytime, evening, and night",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "How does the ranking of busy taxi stands change across daytime, evening, and night?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "origin_stand",
+        "departure_time",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "driver_source_mix_over_day",
+      "insight": "Some drivers are more stand-oriented during daytime, while others become increasingly street-hail-oriented toward evening and night.",
+      "plot": {
+        "plot_type": "driver_level_stand_bar_and_hail_heatmap",
+        "file": "visualizations/driver_source_mix_over_day.png",
+        "title": "How do driver groups change their taxi-stand and street-hail shares over the day",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "How do driver groups change their taxi-stand and street-hail shares over the day?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "driver_id",
+        "request_source",
+        "departure_time",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "matched_preholiday_call_type_change",
+      "insight": "Pre-holiday periods change the taxi call-type mix more strongly for some drivers than for drivers with otherwise similar weekday patterns.",
+      "plot": {
+        "plot_type": "matched_pair_similarity_and_grouped_source_change_heatmap",
+        "file": "visualizations/matched_driver_preholiday_call_type_change.png",
+        "title": "Which matched drivers change their request-source mix most in pre-holiday periods",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "Which matched drivers change their request-source mix most in pre-holiday periods?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "group_comparison",
+      "difficulty_level": 6,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "driver_id",
+        "departure_time",
+        "day_class",
+        "request_source",
+        "trajectory_id",
+        "matched_weekday_pattern_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Taxi demand is uneven across stands, with a small group consistently receiving substantially more trips than most other stands.",
+    "The busiest taxi stands change across the day, with some peaking in daytime and others becoming relatively more active during evening periods.",
+    "Some drivers are more stand-oriented during daytime, while others become increasingly street-hail-oriented toward evening and night.",
+    "Pre-holiday periods change the taxi call-type mix more strongly for some drivers than for drivers with otherwise similar weekday patterns."
+  ],
+  "summary": "Stand demand is concentrated but its leaders change over the day. Driver groups differ in daytime stand reliance and evening street-hail growth, and matched drivers with similar ordinary-day channel mixes can respond very differently before holidays."
+}

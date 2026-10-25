@@ -1,0 +1,72 @@
+{
+  "taxonomy_name": "TrajStoryAgent insight types",
+  "unit": "One authored reference insight",
+  "classification_rule": "Assign exactly one type according to the insight's primary analytical claim, not its dataset, question wording, visualization, or difficulty level. A claim may mention several concepts; use the feature that must be established for the conclusion to hold.",
+  "classification_rule_zh": "每条人工编写的参考 insight 只标注一个类别，以其核心分析结论为准；不依据数据集、问题措辞、可视化形式或难度级别分类。若涉及多个概念，以支撑结论不可缺少的分析关系作为判别依据。",
+  "types": [
+    {
+      "id": "overall_pattern",
+      "name_en": "Overall pattern",
+      "name_zh": "总体模式",
+      "definition_en": "A characteristic, distribution, concentration, or recurrent spatial/behavioral structure of the analyzed trajectories considered as a whole.",
+      "definition_zh": "描述所分析轨迹整体的典型特征、分布、集中区域，或反复出现的空间与行为结构。",
+      "boundary_en": "Use when the main claim is what is generally present; an explicit between-group difference, ordered temporal change, factor association, or departure from a baseline belongs to another type.",
+      "example": {
+        "insight_id": "danish_ais_Ex07_I1",
+        "text": "Two ferry services operate in the area: M/F Anholt runs between Grenaa and Anholt, while Stena Nautica runs between Grenaa and Varberg."
+      }
+    },
+    {
+      "id": "group_comparison",
+      "name_en": "Group comparison",
+      "name_zh": "组间比较",
+      "definition_en": "An explicit similarity, difference, ranking, or contrast between two or more defined groups, such as users, vessels, routes, regions, modes, or time-period cohorts.",
+      "definition_zh": "明确比较两个或多个已定义群体（如用户、船舶、路线、区域、出行方式或时间段群组）的相似性、差异或排序。",
+      "boundary_en": "Comparing separate dates as categories is group comparison; describing an ordered evolution or transition over time is temporal dynamics. A claim primarily about how a measured factor is associated with an outcome is factor relationship.",
+      "example": {
+        "insight_id": "danish_ais_Ex01_I3",
+        "text": "Vessels in the narrow through-corridor have noticeably deeper reported draughts than vessels using the corridor edges."
+      }
+    },
+    {
+      "id": "factor_relationship",
+      "name_en": "Factor relationship",
+      "name_zh": "因素关系",
+      "definition_en": "An association or conditional relationship between an explanatory attribute or context and a trajectory outcome, behavior, or measurement.",
+      "definition_zh": "说明某个解释性属性或情境因素与轨迹结果、行为或测量指标之间的关联或条件关系。",
+      "boundary_en": "The relationship itself must be the central claim. A simple group contrast without an interpreted factor–outcome relationship is group comparison. Association alone does not establish causality.",
+      "example": {
+        "insight_id": "danish_ais_Ex16_I1",
+        "text": "Larger vessel size is associated with greater consistency between COG and heading, while smaller vessels show more frequent short-term differences."
+      }
+    },
+    {
+      "id": "temporal_dynamics",
+      "name_en": "Temporal dynamics",
+      "name_zh": "时间动态",
+      "definition_en": "An ordered change, progression, transition, cycle, sequence, or temporal shift in trajectory behavior or its measurements.",
+      "definition_zh": "描述轨迹行为或相关指标随时间发生的有序变化、阶段转换、周期、序列或时间性位移。",
+      "boundary_en": "Time order or temporal evolution must matter to the conclusion. Merely contrasting independent time-period groups is group comparison; an unusual break from an established temporal pattern is exception/deviation when the departure is the central point.",
+      "example": {
+        "insight_id": "danish_ais_Ex10_I2",
+        "text": "The vessel transitions from nearly straight navigation to a middle period of intensive manoeuvring with frequent course changes, then returns to stable alignment between heading and COG later in the trajectory."
+      }
+    },
+    {
+      "id": "exception_deviation",
+      "name_en": "Exception / deviation",
+      "name_zh": "异常与偏离",
+      "definition_en": "A specific observation, subset, or episode that materially departs from a typical, expected, or reference trajectory pattern.",
+      "definition_zh": "指出某个观测、轨迹子集或事件阶段明显偏离典型、预期或参照轨迹模式。",
+      "boundary_en": "The deviation and its reference pattern must be identifiable. Ordinary variation or a group difference without a meaningful baseline departure is not automatically an exception.",
+      "example": {
+        "insight_id": "danish_ais_Ex05_I2",
+        "text": "The vessel continues beyond the typical turning point without making the expected course change, then performs a pronounced corrective turn to rejoin the established shipping route."
+      }
+    }
+  ],
+  "source": {
+    "labels_and_assignments": "trajstory_examples/insight/insight_difficulty_and_type_statistics.json",
+    "assignment_script": "scripts/add_insight_types_to_flags.py"
+  }
+}

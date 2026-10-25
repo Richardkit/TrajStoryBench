@@ -1,0 +1,9 @@
+stand_id,stand_name,longitude,latitude,location_class,stand_pair_id,stand_pair_rank,trip_count,distinct_drivers
+central_1,São Bento Station,-8.6109,41.1456,central,pair_1,primary,335,18
+central_2,Ribeira Waterfront,-8.6136,41.1412,central,pair_1,secondary,274,17
+central_3,Aliados,-8.611,41.1498,central,pair_2,primary,313,14
+central_4,Trindade,-8.6097,41.1524,central,pair_2,secondary,222,14
+peripheral_1,Hospital São João,-8.6012,41.1822,peripheral,pair_3,primary,118,12
+peripheral_2,Asprela University,-8.6054,41.1775,peripheral,pair_3,secondary,79,11
+peripheral_3,Matosinhos Sul,-8.689,41.1791,peripheral,pair_4,primary,100,10
+peripheral_4,Brito Capelo,-8.693,41.1814,peripheral,pair_4,secondary,57,10

@@ -1,0 +1,102 @@
+{
+  "dataset_csv_path": "trajectories.csv",
+  "user_dataset_csv_path": "trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajectory_points.csv",
+      "role": "Compact timestamped trajectory points linked by trajectory_id"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze differences in trajectory behaviour across transport modes, trip purposes, and urban spatial environments in the supplied multiple-user trajectories.",
+    "role": "Urban mobility and land-use analyst",
+    "category": "Transport mode, purpose, point-wise speed dynamics, and destination urban environment",
+    "header": "MTL Trajet: 04 Mode Purpose Land Use Joint Patterns",
+    "dataset_description": "MTL Trajet 2016 mobility data with trip purpose, mode, timing, endpoints, trip metrics, and Montréal PUM 2050 destination land-use categories. User IDs distinguish participants, and the point tables provide speed profiles. The single-user case includes a repeated work corridor.",
+    "metric_note": "`longest_stable_run_points` is the longest consecutive GPS-point segment whose adjacent speed changes stay within the mode-specific limit recorded in `stable_speed_change_threshold_kmh`: walking 0.15, cycling 0.25, public transit 0.40, and motor vehicle 0.60 km/h. This local continuity metric is distinct from full-trajectory `point_speed_std_kmh`. Insight 2 compares slowdown timing on a normalized 0–1 trajectory-progress scale, so trajectories with different total distances are compared by relative progress rather than raw distance.",
+    "source_note": "Historical trajectories (2016) are spatially matched to the 2025 official PUM land-use taxonomy; do not interpret the categories as historical 2016 land-use observations."
+  },
+  "insight_list": [
+    {
+      "data_type": "mode_purpose_speed_dynamics",
+      "insight": "Motor-vehicle trips reach the highest peak speeds, while public-transit trips maintain clearly longer continuous stable segments across work and shopping trips.",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Transport Mode × Purpose: Speed Dynamics",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/mode_purpose_speed_dynamics.png"
+      },
+      "question": "For work and shopping separately, how do motor vehicle, public transit, and cycling differ in peak speed and continuous stable segments, and how does walking compare within shopping trips?",
+      "code": "df.groupby(['mode_group','purpose_group'])[['point_speed_peak_kmh','stable_speed_change_threshold_kmh','longest_stable_run_points']].median()",
+      "insight_type": "group_comparison",
+      "evidence": "Across work and shopping trips, motor-vehicle trajectories have the highest peak point speeds. Public-transit trajectories have the longest continuous stable-speed segments, clearly exceeding motor vehicles as well as active modes.",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trip_purpose",
+        "transport_mode",
+        "point_speed",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "mode_land_use_trajectory_shape",
+      "insight": "Active trips to residential destinations are short and begin slowing earlier near arrival than comparable riverside trips.",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Transport Mode × Land-use: Trajectory Shape",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/land_use_mode_trajectory_shape.png"
+      },
+      "question": "Are residential walking/cycling trips shorter and do they slow earlier near their destination than riverside-recreation cycling and motor-vehicle trips?",
+      "code": "df.groupby(['destination_land_use','mode_group'])[['distance_km','terminal_point_speed_kmh']].median()",
+      "insight_type": "group_comparison",
+      "evidence": "Residential walking and cycling trips cover shorter distances and begin their terminal slowdown earlier on normalized trajectory progress than comparable cycling and motor-vehicle trips ending in riverside recreation areas.",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "transport_mode",
+        "gps_position",
+        "point_speed",
+        "land_use_reference",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "same_purpose_mode_difference",
+      "insight": "For shopping trips, active modes are shorter and slower, while motorized modes sustain longer continuous movement segments.",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Same Shopping Purpose, Different Modes",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/purpose_mode_trip_structure.png"
+      },
+      "question": "For the same shopping purpose, how do walking, cycling, public-transit, and motor-vehicle trips differ in distance, peak speed, speed variation, and continuous stable segments?",
+      "code": "df[df.purpose_group.eq('shopping')].groupby('mode_group')[['distance_km','point_speed_peak_kmh','point_speed_std_kmh','longest_stable_run_points']].median()",
+      "insight_type": "group_comparison",
+      "evidence": "Within shopping trips, walking and cycling trajectories are shorter and slower than motor-vehicle and public-transit trajectories; the motorized modes also sustain longer continuous stable-speed segments.",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trip_purpose",
+        "transport_mode",
+        "gps_position",
+        "point_speed",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Motor-vehicle trips reach the highest peak speeds, while public-transit trips maintain clearly longer continuous stable segments across work and shopping trips.",
+    "Active trips to residential destinations are short and begin slowing earlier near arrival than comparable riverside trips.",
+    "For shopping trips, active modes are shorter and slower, while motorized modes sustain longer continuous movement segments."
+  ],
+  "summary": "Across work and shopping trips, motor vehicles reach the highest peak speeds, while public transit maintains clearly longer continuous stable segments. Active trips to residential destinations are short and begin slowing earlier near arrival than comparable riverside trips. For shopping trips, active modes are shorter and slower, while motorized modes sustain longer continuous movement segments.",
+  "evidence_policy": "Claims describe patterns in this dataset and do not establish causal relationships."
+}

@@ -1,0 +1,577 @@
+trajectory_id,driver_id,departure_time,arrival_time,direction,direction_pattern,return_style,request_source,city_area,route_family,origin_longitude,origin_latitude,destination_longitude,destination_latitude
+airport_trip_0353,airport_driver_15,2014-10-03 11:10:00,2014-10-03 11:25:10,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0366,airport_driver_16,2014-09-12 16:05:00,2014-09-12 16:19:54,airport_bound,moderate_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0441,airport_driver_19,2014-09-21 18:50:00,2014-09-21 19:04:01,airport_bound,mixed_direction,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0294,airport_driver_13,2014-09-16 20:24:00,2014-09-16 20:43:05,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0058,airport_driver_03,2014-09-21 09:02:00,2014-09-21 09:20:59,airport_originating,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0042,airport_driver_02,2014-10-06 19:39:00,2014-10-06 20:00:18,airport_originating,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0023,airport_driver_01,2014-10-15 19:14:00,2014-10-15 19:26:33,airport_originating,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0033,airport_driver_02,2014-09-18 07:36:00,2014-09-18 07:58:50,airport_bound,strong_alternator,frequent_return,street_hail,Paranhos,outer_east,-8.604583,41.176178,-8.669974,41.234272
+airport_trip_0205,airport_driver_09,2014-09-26 09:20:00,2014-09-26 09:40:17,airport_originating,strong_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0248,airport_driver_11,2014-09-18 14:16:00,2014-09-18 14:41:00,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0432,airport_driver_18,2014-10-20 17:40:00,2014-10-20 17:53:01,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0102,airport_driver_05,2014-09-15 09:01:00,2014-09-15 09:23:16,airport_originating,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0151,airport_driver_07,2014-09-19 15:41:00,2014-09-19 16:12:57,airport_bound,strong_alternator,frequent_return,street_hail,Boavista,inner_west,-8.628133,41.158508,-8.669974,41.234272
+airport_trip_0297,airport_driver_13,2014-09-22 12:54:00,2014-09-22 13:12:20,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0486,airport_driver_21,2014-09-17 12:27:00,2014-09-17 12:51:30,airport_bound,mixed_direction,ordinary_return,street_hail,Cedofeita,outer_west,-8.616673,41.154789,-8.669974,41.234272
+airport_trip_0522,airport_driver_22,2014-10-05 20:54:00,2014-10-05 21:12:40,airport_originating,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0274,airport_driver_12,2014-09-23 08:04:00,2014-09-23 08:16:21,airport_originating,moderate_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0216,airport_driver_09,2014-10-18 20:40:00,2014-10-18 21:01:08,airport_originating,strong_alternator,ordinary_return,call_center,Paranhos,regular,-8.669974,41.234272,-8.603559,41.174872
+airport_trip_0257,airport_driver_11,2014-10-06 13:34:00,2014-10-06 13:52:08,airport_bound,moderate_alternator,ordinary_return,street_hail,Matosinhos Sul,inner_west,-8.690506,41.178439,-8.669974,41.234272
+airport_trip_0389,airport_driver_17,2014-09-11 16:09:00,2014-09-11 16:30:40,airport_bound,moderate_alternator,ordinary_return,call_center,Boavista,regular,-8.630423,41.156185,-8.669974,41.234272
+airport_trip_0077,airport_driver_04,2014-09-12 11:47:00,2014-09-12 12:12:08,airport_bound,strong_alternator,frequent_return,street_hail,Cedofeita,outer_west,-8.619483,41.156856,-8.669974,41.234272
+airport_trip_0204,airport_driver_09,2014-09-24 08:45:00,2014-09-24 09:03:35,airport_originating,strong_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0165,airport_driver_07,2014-10-17 13:43:00,2014-10-17 13:56:49,airport_bound,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0463,airport_driver_20,2014-09-18 12:29:00,2014-09-18 12:48:46,airport_bound,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0454,airport_driver_19,2014-10-17 11:59:00,2014-10-17 12:19:05,airport_bound,mixed_direction,ordinary_return,street_hail,Paranhos,inner_east,-8.603066,41.179642,-8.669974,41.234272
+airport_trip_0115,airport_driver_05,2014-10-11 15:36:00,2014-10-11 15:52:42,airport_originating,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0380,airport_driver_16,2014-10-10 12:01:00,2014-10-10 12:21:05,airport_bound,moderate_alternator,frequent_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0263,airport_driver_11,2014-10-18 16:13:00,2014-10-18 16:36:01,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0141,airport_driver_06,2014-10-16 20:47:00,2014-10-16 21:10:02,airport_bound,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0510,airport_driver_22,2014-09-11 15:42:00,2014-09-11 16:06:56,airport_originating,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0332,airport_driver_14,2014-10-15 08:33:00,2014-10-15 08:44:24,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0341,airport_driver_15,2014-09-09 13:05:00,2014-09-09 13:25:46,airport_bound,moderate_alternator,ordinary_return,call_center,Matosinhos Sul,inner_west,-8.690506,41.178439,-8.669974,41.234272
+airport_trip_0462,airport_driver_20,2014-09-16 20:59:00,2014-09-16 21:12:17,airport_bound,mixed_direction,ordinary_return,call_center,Matosinhos Sul,regular,-8.6892,41.177215,-8.669974,41.234272
+airport_trip_0375,airport_driver_16,2014-09-30 16:30:00,2014-09-30 16:52:52,airport_originating,moderate_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0055,airport_driver_03,2014-09-15 15:28:00,2014-09-15 15:49:25,airport_originating,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0060,airport_driver_03,2014-09-25 16:38:00,2014-09-25 17:00:49,airport_bound,strong_alternator,frequent_return,street_hail,Cedofeita,regular,-8.617415,41.153191,-8.669974,41.234272
+airport_trip_0010,airport_driver_01,2014-09-19 15:31:00,2014-09-19 15:57:54,airport_bound,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0168,airport_driver_07,2014-10-23 13:18:00,2014-10-23 13:38:45,airport_originating,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0159,airport_driver_07,2014-10-05 20:39:00,2014-10-05 21:18:53,airport_bound,strong_alternator,frequent_return,street_hail,Boavista,outer_east,-8.630556,41.158244,-8.669974,41.234272
+airport_trip_0528,airport_driver_22,2014-10-17 10:14:00,2014-10-17 10:27:54,airport_originating,mixed_direction,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0536,airport_driver_23,2014-09-16 13:11:00,2014-09-16 13:31:24,airport_originating,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0369,airport_driver_16,2014-09-18 16:20:00,2014-09-18 17:03:02,airport_originating,moderate_alternator,frequent_return,call_center,Cedofeita,inner_east,-8.669974,41.234272,-8.61869,41.155498
+airport_trip_0531,airport_driver_23,2014-09-06 14:09:00,2014-09-06 14:27:46,airport_originating,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0483,airport_driver_21,2014-09-11 10:40:00,2014-09-11 11:12:32,airport_originating,mixed_direction,ordinary_return,call_center,Matosinhos Sul,outer_east,-8.669974,41.234272,-8.689329,41.178294
+airport_trip_0498,airport_driver_21,2014-10-11 14:35:00,2014-10-11 15:05:40,airport_originating,mixed_direction,ordinary_return,call_center,Cedofeita,regular,-8.669974,41.234272,-8.616673,41.154789
+airport_trip_0452,airport_driver_19,2014-10-13 14:35:00,2014-10-13 14:57:42,airport_originating,mixed_direction,ordinary_return,call_center,Cedofeita,outer_west,-8.669974,41.234272,-8.617822,41.155018
+airport_trip_0480,airport_driver_20,2014-10-22 23:51:00,2014-10-23 00:13:34,airport_bound,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0549,airport_driver_23,2014-10-12 14:55:00,2014-10-12 15:34:36,airport_bound,mixed_direction,ordinary_return,street_hail,Matosinhos Sul,outer_east,-8.688747,41.1806,-8.669974,41.234272
+airport_trip_0120,airport_driver_05,2014-10-21 14:14:00,2014-10-21 14:34:34,airport_bound,strong_alternator,frequent_return,call_center,Paranhos,inner_east,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0417,airport_driver_18,2014-09-20 10:39:00,2014-09-20 11:00:19,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0050,airport_driver_03,2014-09-05 16:08:00,2014-09-05 16:30:14,airport_bound,strong_alternator,frequent_return,call_center,Paranhos,regular,-8.603352,41.176498,-8.669974,41.234272
+airport_trip_0446,airport_driver_19,2014-10-01 09:30:00,2014-10-01 09:52:31,airport_bound,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0384,airport_driver_16,2014-10-18 14:04:00,2014-10-18 14:24:32,airport_bound,moderate_alternator,frequent_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0052,airport_driver_03,2014-09-09 12:54:00,2014-09-09 13:15:41,airport_bound,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0574,airport_driver_24,2014-10-15 14:45:00,2014-10-15 14:59:28,airport_originating,mixed_direction,ordinary_return,call_center,Matosinhos Sul,regular,-8.669974,41.234272,-8.688521,41.179675
+airport_trip_0087,airport_driver_04,2014-10-02 22:00:00,2014-10-02 22:22:37,airport_bound,strong_alternator,frequent_return,street_hail,Paranhos,outer_west,-8.605216,41.174997,-8.669974,41.234272
+airport_trip_0330,airport_driver_14,2014-10-11 16:05:00,2014-10-11 16:24:39,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0354,airport_driver_15,2014-10-05 07:14:00,2014-10-05 07:36:34,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0134,airport_driver_06,2014-10-02 09:39:00,2014-10-02 10:01:35,airport_originating,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0412,airport_driver_18,2014-09-10 16:22:00,2014-09-10 16:40:56,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0537,airport_driver_23,2014-09-18 20:37:00,2014-09-18 20:50:34,airport_originating,mixed_direction,ordinary_return,call_center,Matosinhos Sul,regular,-8.669974,41.234272,-8.689455,41.180144
+airport_trip_0253,airport_driver_11,2014-09-28 11:37:00,2014-09-28 11:49:54,airport_bound,moderate_alternator,ordinary_return,street_hail,Matosinhos Sul,outer_west,-8.689329,41.178294,-8.669974,41.234272
+airport_trip_0162,airport_driver_07,2014-10-11 08:18:00,2014-10-11 08:38:01,airport_originating,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0517,airport_driver_22,2014-09-25 16:26:00,2014-09-25 16:46:15,airport_originating,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0529,airport_driver_23,2014-09-02 14:45:00,2014-09-02 14:59:25,airport_originating,mixed_direction,ordinary_return,call_center,Matosinhos Sul,regular,-8.669974,41.234272,-8.688521,41.179675
+airport_trip_0249,airport_driver_11,2014-09-20 14:35:00,2014-09-20 14:47:30,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0096,airport_driver_04,2014-10-20 13:34:00,2014-10-20 13:58:31,airport_bound,strong_alternator,frequent_return,street_hail,Boavista,outer_east,-8.630556,41.158244,-8.669974,41.234272
+airport_trip_0504,airport_driver_21,2014-10-23 11:50:00,2014-10-23 12:11:17,airport_bound,mixed_direction,ordinary_return,street_hail,Paranhos,regular,-8.602985,41.176366,-8.669974,41.234272
+airport_trip_0130,airport_driver_06,2014-09-24 12:05:00,2014-09-24 12:29:10,airport_bound,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0519,airport_driver_22,2014-09-29 12:29:00,2014-09-29 12:53:40,airport_bound,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0016,airport_driver_01,2014-10-01 15:38:00,2014-10-01 16:01:27,airport_originating,strong_alternator,frequent_return,call_center,Paranhos,regular,-8.669974,41.234272,-8.602473,41.176813
+airport_trip_0029,airport_driver_02,2014-09-10 13:02:00,2014-09-10 13:21:32,airport_bound,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0515,airport_driver_22,2014-09-21 14:11:00,2014-09-21 14:33:59,airport_bound,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0407,airport_driver_17,2014-10-17 15:29:00,2014-10-17 15:43:00,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0076,airport_driver_04,2014-09-10 18:12:00,2014-09-10 18:35:59,airport_originating,strong_alternator,frequent_return,call_center,Boavista,outer_west,-8.669974,41.234272,-8.627282,41.157481
+airport_trip_0562,airport_driver_24,2014-09-21 11:47:00,2014-09-21 11:59:56,airport_bound,mixed_direction,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0487,airport_driver_21,2014-09-19 11:29:00,2014-09-19 11:59:46,airport_bound,mixed_direction,ordinary_return,call_center,Matosinhos Sul,outer_east,-8.6892,41.177215,-8.669974,41.234272
+airport_trip_0430,airport_driver_18,2014-10-16 15:57:00,2014-10-16 16:26:54,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0340,airport_driver_15,2014-09-07 19:19:00,2014-09-07 19:37:21,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0414,airport_driver_18,2014-09-14 09:40:00,2014-09-14 10:00:45,airport_originating,moderate_alternator,ordinary_return,call_center,Boavista,regular,-8.669974,41.234272,-8.629352,41.160099
+airport_trip_0265,airport_driver_12,2014-09-05 10:31:00,2014-09-05 10:52:05,airport_bound,moderate_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0413,airport_driver_18,2014-09-12 09:09:00,2014-09-12 09:32:34,airport_bound,moderate_alternator,ordinary_return,call_center,Paranhos,inner_east,-8.602998,41.176614,-8.669974,41.234272
+airport_trip_0266,airport_driver_12,2014-09-07 11:37:00,2014-09-07 11:49:32,airport_originating,moderate_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0458,airport_driver_20,2014-09-08 08:03:00,2014-09-08 08:19:34,airport_originating,mixed_direction,ordinary_return,call_center,Matosinhos Sul,regular,-8.669974,41.234272,-8.689152,41.17681
+airport_trip_0348,airport_driver_15,2014-09-23 10:28:00,2014-09-23 10:52:02,airport_originating,moderate_alternator,ordinary_return,call_center,Cedofeita,regular,-8.669974,41.234272,-8.616673,41.154789
+airport_trip_0224,airport_driver_10,2014-09-17 17:41:00,2014-09-17 17:55:57,airport_originating,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0254,airport_driver_11,2014-09-30 09:20:00,2014-09-30 09:45:26,airport_originating,moderate_alternator,ordinary_return,street_hail,Paranhos,outer_east,-8.669974,41.234272,-8.605117,41.175399
+airport_trip_0408,airport_driver_17,2014-10-19 16:43:00,2014-10-19 17:08:44,airport_bound,moderate_alternator,ordinary_return,call_center,Paranhos,regular,-8.602985,41.176366,-8.669974,41.234272
+airport_trip_0451,airport_driver_19,2014-10-11 07:02:00,2014-10-11 07:25:48,airport_originating,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0349,airport_driver_15,2014-09-25 13:26:00,2014-09-25 13:37:54,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0132,airport_driver_06,2014-09-28 20:24:00,2014-09-28 20:40:46,airport_originating,strong_alternator,frequent_return,call_center,Matosinhos Sul,outer_west,-8.669974,41.234272,-8.689329,41.178294
+airport_trip_0520,airport_driver_22,2014-10-01 14:00:00,2014-10-01 14:13:21,airport_originating,mixed_direction,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0328,airport_driver_14,2014-10-07 11:25:00,2014-10-07 11:38:02,airport_bound,moderate_alternator,ordinary_return,call_center,Matosinhos Sul,regular,-8.688368,41.179258,-8.669974,41.234272
+airport_trip_0011,airport_driver_01,2014-09-21 16:51:00,2014-09-21 17:06:15,airport_bound,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0507,airport_driver_22,2014-09-05 15:53:00,2014-09-05 16:18:54,airport_originating,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0240,airport_driver_10,2014-10-19 14:27:00,2014-10-19 14:48:29,airport_originating,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0138,airport_driver_06,2014-10-10 08:09:00,2014-10-10 08:33:50,airport_originating,strong_alternator,frequent_return,call_center,Boavista,regular,-8.669974,41.234272,-8.629352,41.160099
+airport_trip_0398,airport_driver_17,2014-09-29 17:38:00,2014-09-29 17:58:30,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0276,airport_driver_12,2014-09-27 12:05:00,2014-09-27 12:32:15,airport_bound,moderate_alternator,frequent_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0002,airport_driver_01,2014-09-03 12:27:00,2014-09-03 13:01:09,airport_bound,strong_alternator,frequent_return,street_hail,Cedofeita,inner_west,-8.617039,41.154168,-8.669974,41.234272
+airport_trip_0359,airport_driver_15,2014-10-15 17:02:00,2014-10-15 17:29:03,airport_bound,moderate_alternator,ordinary_return,street_hail,Boavista,inner_west,-8.627805,41.158515,-8.669974,41.234272
+airport_trip_0374,airport_driver_16,2014-09-28 11:41:00,2014-09-28 12:26:03,airport_bound,moderate_alternator,frequent_return,street_hail,Matosinhos Sul,outer_east,-8.690359,41.180368,-8.669974,41.234272
+airport_trip_0468,airport_driver_20,2014-09-28 14:48:00,2014-09-28 15:10:29,airport_originating,mixed_direction,ordinary_return,call_center,Boavista,outer_west,-8.669974,41.234272,-8.627725,41.159455
+airport_trip_0121,airport_driver_06,2014-09-06 12:31:00,2014-09-06 12:48:13,airport_originating,strong_alternator,frequent_return,call_center,Paranhos,regular,-8.669974,41.234272,-8.602473,41.176813
+airport_trip_0228,airport_driver_10,2014-09-25 18:40:00,2014-09-25 18:55:00,airport_originating,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0527,airport_driver_22,2014-10-15 15:22:00,2014-10-15 15:45:56,airport_bound,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0373,airport_driver_16,2014-09-26 10:23:00,2014-09-26 10:48:41,airport_originating,moderate_alternator,frequent_return,call_center,Cedofeita,regular,-8.669974,41.234272,-8.616226,41.155782
+airport_trip_0293,airport_driver_13,2014-09-14 13:20:00,2014-09-14 13:39:24,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0459,airport_driver_20,2014-09-10 14:15:00,2014-09-10 14:38:20,airport_originating,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0283,airport_driver_12,2014-10-11 07:54:00,2014-10-11 08:19:30,airport_bound,moderate_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0150,airport_driver_07,2014-09-17 16:42:00,2014-09-17 17:07:44,airport_originating,strong_alternator,frequent_return,call_center,Paranhos,inner_east,-8.669974,41.234272,-8.604817,41.175966
+airport_trip_0539,airport_driver_23,2014-09-22 17:09:00,2014-09-22 17:27:46,airport_originating,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0295,airport_driver_13,2014-09-18 15:17:00,2014-09-18 15:57:07,airport_originating,moderate_alternator,ordinary_return,street_hail,Matosinhos Sul,outer_east,-8.669974,41.234272,-8.688687,41.178478
+airport_trip_0164,airport_driver_07,2014-10-15 07:30:00,2014-10-15 07:51:29,airport_originating,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0227,airport_driver_10,2014-09-23 13:21:00,2014-09-23 13:44:30,airport_bound,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0231,airport_driver_10,2014-10-01 17:25:00,2014-10-01 17:52:17,airport_originating,strong_alternator,frequent_return,call_center,Cedofeita,regular,-8.669974,41.234272,-8.616673,41.154789
+airport_trip_0118,airport_driver_05,2014-10-17 11:38:00,2014-10-17 11:58:23,airport_originating,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0351,airport_driver_15,2014-09-29 14:06:00,2014-09-29 14:34:10,airport_originating,moderate_alternator,ordinary_return,call_center,Boavista,inner_east,-8.669974,41.234272,-8.63051,41.159244
+airport_trip_0511,airport_driver_22,2014-09-13 13:03:00,2014-09-13 13:25:12,airport_bound,mixed_direction,ordinary_return,street_hail,Cedofeita,regular,-8.616226,41.155782,-8.669974,41.234272
+airport_trip_0278,airport_driver_12,2014-10-01 10:37:00,2014-10-01 10:48:57,airport_originating,moderate_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0400,airport_driver_17,2014-10-03 16:02:00,2014-10-03 16:26:40,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0183,airport_driver_08,2014-09-29 15:59:00,2014-09-29 16:25:26,airport_originating,strong_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0196,airport_driver_09,2014-09-08 17:55:00,2014-09-08 18:18:43,airport_originating,strong_alternator,ordinary_return,street_hail,Paranhos,outer_east,-8.669974,41.234272,-8.602296,41.178921
+airport_trip_0100,airport_driver_05,2014-09-11 12:54:00,2014-09-11 13:16:30,airport_originating,strong_alternator,frequent_return,call_center,Paranhos,regular,-8.669974,41.234272,-8.602473,41.176813
+airport_trip_0472,airport_driver_20,2014-10-06 12:27:00,2014-10-06 12:48:19,airport_bound,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0256,airport_driver_11,2014-10-04 14:45:00,2014-10-04 15:06:19,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0355,airport_driver_15,2014-10-07 11:14:00,2014-10-07 11:37:50,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0552,airport_driver_23,2014-10-18 13:46:00,2014-10-18 14:06:00,airport_bound,mixed_direction,ordinary_return,call_center,Cedofeita,regular,-8.617415,41.153191,-8.669974,41.234272
+airport_trip_0312,airport_driver_13,2014-10-22 15:04:00,2014-10-22 15:27:26,airport_bound,moderate_alternator,ordinary_return,call_center,Paranhos,inner_west,-8.605808,41.179082,-8.669974,41.234272
+airport_trip_0200,airport_driver_09,2014-09-16 15:16:00,2014-09-16 15:41:48,airport_bound,strong_alternator,ordinary_return,street_hail,Paranhos,inner_west,-8.60507,41.177466,-8.669974,41.234272
+airport_trip_0564,airport_driver_24,2014-09-25 12:20:00,2014-09-25 12:41:22,airport_bound,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0497,airport_driver_21,2014-10-09 11:10:00,2014-10-09 11:27:18,airport_bound,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0163,airport_driver_07,2014-10-13 11:20:00,2014-10-13 11:40:53,airport_bound,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0410,airport_driver_18,2014-09-06 23:08:00,2014-09-06 23:31:52,airport_bound,moderate_alternator,ordinary_return,street_hail,Boavista,inner_west,-8.627805,41.158515,-8.669974,41.234272
+airport_trip_0416,airport_driver_18,2014-09-18 16:52:00,2014-09-18 17:26:50,airport_originating,moderate_alternator,ordinary_return,call_center,Matosinhos Sul,outer_east,-8.669974,41.234272,-8.687675,41.180108
+airport_trip_0075,airport_driver_04,2014-09-08 13:35:00,2014-09-08 14:01:25,airport_bound,strong_alternator,frequent_return,street_hail,Paranhos,inner_east,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0172,airport_driver_08,2014-09-07 08:01:00,2014-09-07 08:25:56,airport_bound,strong_alternator,ordinary_return,street_hail,Boavista,outer_east,-8.630736,41.156394,-8.669974,41.234272
+airport_trip_0287,airport_driver_12,2014-10-19 17:43:00,2014-10-19 18:01:34,airport_originating,moderate_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0129,airport_driver_06,2014-09-22 07:28:00,2014-09-22 07:48:58,airport_originating,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0540,airport_driver_23,2014-09-24 16:52:00,2014-09-24 17:14:41,airport_originating,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0072,airport_driver_03,2014-10-19 11:39:00,2014-10-19 12:02:24,airport_bound,strong_alternator,frequent_return,street_hail,Cedofeita,inner_east,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0289,airport_driver_13,2014-09-06 20:54:00,2014-09-06 21:11:50,airport_originating,moderate_alternator,ordinary_return,call_center,Boavista,regular,-8.669974,41.234272,-8.630386,41.159255
+airport_trip_0281,airport_driver_12,2014-10-07 15:27:00,2014-10-07 15:49:01,airport_originating,moderate_alternator,frequent_return,call_center,Cedofeita,regular,-8.669974,41.234272,-8.619166,41.156266
+airport_trip_0189,airport_driver_08,2014-10-11 07:09:00,2014-10-11 07:33:39,airport_originating,strong_alternator,ordinary_return,call_center,Cedofeita,inner_west,-8.669974,41.234272,-8.61649,41.154754
+airport_trip_0547,airport_driver_23,2014-10-08 09:46:00,2014-10-08 10:07:52,airport_bound,mixed_direction,ordinary_return,street_hail,Boavista,regular,-8.630471,41.157694,-8.669974,41.234272
+airport_trip_0523,airport_driver_22,2014-10-07 16:58:00,2014-10-07 17:21:37,airport_bound,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0558,airport_driver_24,2014-09-13 15:13:00,2014-09-13 15:30:10,airport_bound,mixed_direction,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0041,airport_driver_02,2014-10-04 09:59:00,2014-10-04 10:21:23,airport_bound,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0559,airport_driver_24,2014-09-15 15:42:00,2014-09-15 16:16:26,airport_originating,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0043,airport_driver_02,2014-10-08 12:58:00,2014-10-08 13:21:33,airport_bound,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0214,airport_driver_09,2014-10-14 13:40:00,2014-10-14 14:02:58,airport_bound,strong_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0112,airport_driver_05,2014-10-05 17:30:00,2014-10-05 17:48:07,airport_bound,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0110,airport_driver_05,2014-10-01 18:24:00,2014-10-01 18:47:26,airport_originating,strong_alternator,frequent_return,call_center,Cedofeita,regular,-8.669974,41.234272,-8.619166,41.156266
+airport_trip_0310,airport_driver_13,2014-10-18 20:07:00,2014-10-18 20:26:14,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0047,airport_driver_02,2014-10-16 11:40:00,2014-10-16 12:01:43,airport_bound,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0335,airport_driver_14,2014-10-21 10:33:00,2014-10-21 10:52:09,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0477,airport_driver_20,2014-10-16 14:51:00,2014-10-16 15:22:35,airport_originating,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0371,airport_driver_16,2014-09-22 12:06:00,2014-09-22 12:29:25,airport_bound,moderate_alternator,frequent_return,street_hail,Paranhos,inner_east,-8.602998,41.176614,-8.669974,41.234272
+airport_trip_0284,airport_driver_12,2014-10-13 16:59:00,2014-10-13 17:21:07,airport_originating,moderate_alternator,frequent_return,call_center,Boavista,inner_east,-8.669974,41.234272,-8.630049,41.15563
+airport_trip_0135,airport_driver_06,2014-10-04 15:26:00,2014-10-04 15:52:58,airport_originating,strong_alternator,frequent_return,call_center,Cedofeita,outer_west,-8.669974,41.234272,-8.61869,41.155498
+airport_trip_0300,airport_driver_13,2014-09-28 17:27:00,2014-09-28 17:46:17,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0066,airport_driver_03,2014-10-07 14:34:00,2014-10-07 15:16:14,airport_bound,strong_alternator,frequent_return,street_hail,Paranhos,outer_west,-8.605216,41.174997,-8.669974,41.234272
+airport_trip_0311,airport_driver_13,2014-10-20 18:45:00,2014-10-20 19:08:12,airport_originating,moderate_alternator,ordinary_return,call_center,Matosinhos Sul,inner_east,-8.669974,41.234272,-8.6892,41.177215
+airport_trip_0038,airport_driver_02,2014-09-28 12:39:00,2014-09-28 12:55:59,airport_originating,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0546,airport_driver_23,2014-10-06 20:27:00,2014-10-06 20:47:50,airport_originating,mixed_direction,ordinary_return,call_center,Paranhos,regular,-8.669974,41.234272,-8.603559,41.174872
+airport_trip_0422,airport_driver_18,2014-09-30 16:25:00,2014-09-30 16:43:36,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0246,airport_driver_11,2014-09-14 13:40:00,2014-09-14 13:57:16,airport_originating,moderate_alternator,ordinary_return,call_center,Paranhos,regular,-8.669974,41.234272,-8.603559,41.174872
+airport_trip_0555,airport_driver_24,2014-09-07 14:10:00,2014-09-07 14:31:29,airport_originating,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0083,airport_driver_04,2014-09-24 16:45:00,2014-09-24 17:10:55,airport_bound,strong_alternator,frequent_return,street_hail,Paranhos,regular,-8.603352,41.176498,-8.669974,41.234272
+airport_trip_0291,airport_driver_13,2014-09-10 11:14:00,2014-09-10 11:43:21,airport_bound,moderate_alternator,ordinary_return,street_hail,Matosinhos Sul,inner_east,-8.686592,41.179152,-8.669974,41.234272
+airport_trip_0030,airport_driver_02,2014-09-12 14:33:00,2014-09-12 14:55:38,airport_originating,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0431,airport_driver_18,2014-10-18 14:17:00,2014-10-18 14:43:07,airport_bound,moderate_alternator,ordinary_return,street_hail,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0208,airport_driver_09,2014-10-02 10:42:00,2014-10-02 11:02:53,airport_originating,strong_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0171,airport_driver_08,2014-09-05 08:13:00,2014-09-05 08:36:17,airport_bound,strong_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0013,airport_driver_01,2014-09-25 15:31:00,2014-09-25 16:06:32,airport_bound,strong_alternator,frequent_return,call_center,Boavista,outer_east,-8.630736,41.156394,-8.669974,41.234272
+airport_trip_0223,airport_driver_10,2014-09-15 14:33:00,2014-09-15 14:57:27,airport_bound,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0250,airport_driver_11,2014-09-22 22:45:00,2014-09-22 23:05:40,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0429,airport_driver_18,2014-10-14 14:30:00,2014-10-14 14:53:57,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0234,airport_driver_10,2014-10-07 09:53:00,2014-10-07 10:13:50,airport_bound,strong_alternator,frequent_return,street_hail,Boavista,inner_west,-8.630644,41.156512,-8.669974,41.234272
+airport_trip_0119,airport_driver_05,2014-10-19 19:03:00,2014-10-19 19:15:55,airport_originating,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0478,airport_driver_20,2014-10-18 16:58:00,2014-10-18 17:18:47,airport_originating,mixed_direction,ordinary_return,street_hail,Matosinhos Sul,inner_west,-8.669974,41.234272,-8.689165,41.179327
+airport_trip_0082,airport_driver_04,2014-09-22 11:49:00,2014-09-22 12:03:15,airport_originating,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0079,airport_driver_04,2014-09-16 13:02:00,2014-09-16 13:22:19,airport_bound,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0048,airport_driver_02,2014-10-18 19:39:00,2014-10-18 19:50:28,airport_bound,strong_alternator,frequent_return,street_hail,Matosinhos Sul,regular,-8.6892,41.177215,-8.669974,41.234272
+airport_trip_0116,airport_driver_05,2014-10-13 23:09:00,2014-10-13 23:33:20,airport_bound,strong_alternator,frequent_return,street_hail,Paranhos,outer_west,-8.604289,41.175975,-8.669974,41.234272
+airport_trip_0329,airport_driver_14,2014-10-09 20:07:00,2014-10-09 20:32:39,airport_originating,moderate_alternator,ordinary_return,street_hail,Paranhos,inner_west,-8.669974,41.234272,-8.606056,41.178815
+airport_trip_0315,airport_driver_14,2014-09-11 11:57:00,2014-09-11 12:17:57,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0074,airport_driver_04,2014-09-06 15:15:00,2014-09-06 15:40:26,airport_originating,strong_alternator,frequent_return,call_center,Matosinhos Sul,inner_west,-8.669974,41.234272,-8.688042,41.17852
+airport_trip_0445,airport_driver_19,2014-09-29 13:17:00,2014-09-29 13:34:18,airport_bound,mixed_direction,ordinary_return,street_hail,Matosinhos Sul,regular,-8.688368,41.179258,-8.669974,41.234272
+airport_trip_0161,airport_driver_07,2014-10-09 12:53:00,2014-10-09 13:08:00,airport_bound,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0233,airport_driver_10,2014-10-05 19:34:00,2014-10-05 19:54:49,airport_originating,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0166,airport_driver_07,2014-10-19 20:37:00,2014-10-19 20:56:24,airport_originating,strong_alternator,frequent_return,street_hail,Paranhos,inner_east,-8.669974,41.234272,-8.602296,41.178921
+airport_trip_0494,airport_driver_21,2014-10-03 10:27:00,2014-10-03 10:49:16,airport_bound,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0175,airport_driver_08,2014-09-13 11:24:00,2014-09-13 11:45:45,airport_originating,strong_alternator,ordinary_return,street_hail,Paranhos,inner_east,-8.669974,41.234272,-8.602296,41.178921
+airport_trip_0436,airport_driver_19,2014-09-11 13:36:00,2014-09-11 13:56:23,airport_bound,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0065,airport_driver_03,2014-10-05 15:41:00,2014-10-05 15:56:06,airport_bound,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0464,airport_driver_20,2014-09-20 14:17:00,2014-09-20 14:34:49,airport_originating,mixed_direction,ordinary_return,call_center,Boavista,regular,-8.669974,41.234272,-8.630264,41.159205
+airport_trip_0565,airport_driver_24,2014-09-28 00:34:00,2014-09-28 00:58:09,airport_bound,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0255,airport_driver_11,2014-10-02 20:34:00,2014-10-02 20:55:15,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0357,airport_driver_15,2014-10-11 23:45:00,2014-10-11 23:59:05,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0062,airport_driver_03,2014-09-29 23:36:00,2014-09-29 23:59:23,airport_bound,strong_alternator,frequent_return,call_center,Paranhos,outer_west,-8.604289,41.175975,-8.669974,41.234272
+airport_trip_0007,airport_driver_01,2014-09-13 18:04:00,2014-09-13 18:17:23,airport_originating,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0264,airport_driver_11,2014-10-20 10:25:00,2014-10-20 10:47:33,airport_originating,moderate_alternator,ordinary_return,call_center,Cedofeita,inner_west,-8.669974,41.234272,-8.61649,41.154754
+airport_trip_0347,airport_driver_15,2014-09-21 14:20:00,2014-09-21 14:39:39,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0321,airport_driver_14,2014-09-23 14:38:00,2014-09-23 15:00:37,airport_bound,moderate_alternator,ordinary_return,street_hail,Paranhos,regular,-8.602985,41.176366,-8.669974,41.234272
+airport_trip_0188,airport_driver_08,2014-10-09 16:04:00,2014-10-09 16:23:30,airport_bound,strong_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0153,airport_driver_07,2014-09-23 12:26:00,2014-09-23 12:43:09,airport_bound,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0199,airport_driver_09,2014-09-14 12:49:00,2014-09-14 13:03:02,airport_originating,strong_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0160,airport_driver_07,2014-10-07 09:07:00,2014-10-07 09:30:25,airport_originating,strong_alternator,frequent_return,call_center,Cedofeita,inner_east,-8.669974,41.234272,-8.617874,41.157786
+airport_trip_0218,airport_driver_10,2014-09-05 19:03:00,2014-09-05 19:27:08,airport_originating,strong_alternator,frequent_return,call_center,Boavista,inner_west,-8.669974,41.234272,-8.628001,41.156341
+airport_trip_0439,airport_driver_19,2014-09-17 20:51:00,2014-09-17 21:08:01,airport_originating,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0570,airport_driver_24,2014-10-07 19:26:00,2014-10-07 19:38:29,airport_originating,mixed_direction,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0136,airport_driver_06,2014-10-06 14:09:00,2014-10-06 14:26:07,airport_bound,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0499,airport_driver_21,2014-10-13 23:23:00,2014-10-13 23:36:04,airport_originating,mixed_direction,ordinary_return,call_center,Matosinhos Sul,regular,-8.669974,41.234272,-8.688521,41.179675
+airport_trip_0099,airport_driver_05,2014-09-09 12:42:00,2014-09-09 12:54:24,airport_bound,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0485,airport_driver_21,2014-09-15 20:15:00,2014-09-15 20:35:30,airport_originating,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0303,airport_driver_13,2014-10-04 17:46:00,2014-10-04 18:05:45,airport_originating,moderate_alternator,ordinary_return,street_hail,Matosinhos Sul,inner_west,-8.669974,41.234272,-8.689481,41.179574
+airport_trip_0345,airport_driver_15,2014-09-17 20:06:00,2014-09-17 20:17:45,airport_originating,moderate_alternator,ordinary_return,call_center,Matosinhos Sul,regular,-8.669974,41.234272,-8.689455,41.180144
+airport_trip_0386,airport_driver_17,2014-09-05 13:35:00,2014-09-05 13:55:23,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0027,airport_driver_02,2014-09-06 15:15:00,2014-09-06 15:35:53,airport_bound,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0456,airport_driver_19,2014-10-21 17:03:00,2014-10-21 17:26:51,airport_bound,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0184,airport_driver_08,2014-10-01 16:52:00,2014-10-01 17:16:36,airport_bound,strong_alternator,ordinary_return,call_center,Boavista,inner_east,-8.626956,41.156121,-8.669974,41.234272
+airport_trip_0094,airport_driver_04,2014-10-16 19:17:00,2014-10-16 19:32:56,airport_originating,strong_alternator,frequent_return,call_center,Matosinhos Sul,regular,-8.669974,41.234272,-8.688521,41.179675
+airport_trip_0133,airport_driver_06,2014-09-30 15:10:00,2014-09-30 15:30:49,airport_bound,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0122,airport_driver_06,2014-09-08 07:36:00,2014-09-08 07:59:37,airport_bound,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0235,airport_driver_10,2014-10-09 20:07:00,2014-10-09 20:35:26,airport_originating,strong_alternator,frequent_return,call_center,Cedofeita,outer_east,-8.669974,41.234272,-8.615367,41.154566
+airport_trip_0225,airport_driver_10,2014-09-19 16:30:00,2014-09-19 16:49:21,airport_bound,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0433,airport_driver_19,2014-09-05 17:42:00,2014-09-05 17:56:02,airport_bound,mixed_direction,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0379,airport_driver_16,2014-10-08 14:30:00,2014-10-08 14:50:32,airport_originating,moderate_alternator,frequent_return,street_hail,Paranhos,inner_east,-8.669974,41.234272,-8.602296,41.178921
+airport_trip_0126,airport_driver_06,2014-09-16 08:46:00,2014-09-16 09:08:17,airport_bound,strong_alternator,frequent_return,street_hail,Boavista,regular,-8.626841,41.157782,-8.669974,41.234272
+airport_trip_0201,airport_driver_09,2014-09-18 14:16:00,2014-09-18 14:42:27,airport_originating,strong_alternator,ordinary_return,street_hail,Boavista,outer_west,-8.669974,41.234272,-8.627725,41.159455
+airport_trip_0571,airport_driver_24,2014-10-09 13:24:00,2014-10-09 13:47:03,airport_bound,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0327,airport_driver_14,2014-10-05 11:01:00,2014-10-05 11:21:36,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0091,airport_driver_04,2014-10-10 19:51:00,2014-10-10 20:12:49,airport_originating,strong_alternator,frequent_return,call_center,Paranhos,outer_west,-8.669974,41.234272,-8.605174,41.176153
+airport_trip_0088,airport_driver_04,2014-10-04 16:02:00,2014-10-04 16:20:26,airport_originating,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0544,airport_driver_23,2014-10-02 07:53:00,2014-10-02 08:13:32,airport_originating,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0137,airport_driver_06,2014-10-08 15:49:00,2014-10-08 16:11:10,airport_bound,strong_alternator,frequent_return,call_center,Paranhos,regular,-8.603352,41.176498,-8.669974,41.234272
+airport_trip_0212,airport_driver_09,2014-10-10 18:41:00,2014-10-10 19:03:03,airport_originating,strong_alternator,ordinary_return,call_center,Paranhos,inner_west,-8.669974,41.234272,-8.606056,41.178815
+airport_trip_0469,airport_driver_20,2014-09-30 15:45:00,2014-09-30 16:08:39,airport_bound,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0424,airport_driver_18,2014-10-04 18:20:00,2014-10-04 18:32:56,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0202,airport_driver_09,2014-09-20 12:32:00,2014-09-20 12:56:57,airport_bound,strong_alternator,ordinary_return,call_center,Cedofeita,regular,-8.616226,41.155782,-8.669974,41.234272
+airport_trip_0521,airport_driver_22,2014-10-03 17:03:00,2014-10-03 17:28:28,airport_bound,mixed_direction,ordinary_return,street_hail,Paranhos,regular,-8.603352,41.176498,-8.669974,41.234272
+airport_trip_0018,airport_driver_01,2014-10-05 14:15:00,2014-10-05 14:56:10,airport_originating,strong_alternator,frequent_return,street_hail,Cedofeita,outer_east,-8.669974,41.234272,-8.617822,41.155018
+airport_trip_0306,airport_driver_13,2014-10-10 07:53:00,2014-10-10 08:13:30,airport_originating,moderate_alternator,ordinary_return,street_hail,Cedofeita,inner_east,-8.669974,41.234272,-8.61869,41.155498
+airport_trip_0173,airport_driver_08,2014-09-09 15:35:00,2014-09-09 16:00:34,airport_originating,strong_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0109,airport_driver_05,2014-09-29 23:15:00,2014-09-29 23:38:23,airport_bound,strong_alternator,frequent_return,street_hail,Boavista,outer_west,-8.62844,41.156894,-8.669974,41.234272
+airport_trip_0535,airport_driver_23,2014-09-14 12:31:00,2014-09-14 13:00:47,airport_bound,mixed_direction,ordinary_return,street_hail,Boavista,outer_east,-8.630736,41.156394,-8.669974,41.234272
+airport_trip_0383,airport_driver_16,2014-10-16 15:54:00,2014-10-16 16:14:52,airport_originating,moderate_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0428,airport_driver_18,2014-10-12 12:52:00,2014-10-12 13:08:48,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0288,airport_driver_12,2014-10-21 20:20:00,2014-10-21 20:44:40,airport_originating,moderate_alternator,frequent_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0526,airport_driver_22,2014-10-13 07:44:00,2014-10-13 08:14:04,airport_originating,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0006,airport_driver_01,2014-09-11 11:29:00,2014-09-11 11:47:57,airport_bound,strong_alternator,frequent_return,call_center,Cedofeita,regular,-8.617415,41.153191,-8.669974,41.234272
+airport_trip_0089,airport_driver_04,2014-10-06 11:40:00,2014-10-06 12:04:01,airport_bound,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0252,airport_driver_11,2014-09-26 15:26:00,2014-09-26 15:51:08,airport_bound,moderate_alternator,ordinary_return,street_hail,Cedofeita,outer_west,-8.616673,41.154789,-8.669974,41.234272
+airport_trip_0125,airport_driver_06,2014-09-14 15:34:00,2014-09-14 15:53:59,airport_originating,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0513,airport_driver_22,2014-09-17 13:08:00,2014-09-17 13:29:29,airport_bound,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0215,airport_driver_09,2014-10-16 15:05:00,2014-10-16 15:27:34,airport_bound,strong_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0409,airport_driver_18,2014-09-04 07:34:00,2014-09-04 07:56:54,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0270,airport_driver_12,2014-09-15 08:54:00,2014-09-15 09:08:54,airport_bound,moderate_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0176,airport_driver_08,2014-09-15 20:01:00,2014-09-15 20:20:58,airport_bound,strong_alternator,ordinary_return,street_hail,Boavista,outer_west,-8.63065,41.158542,-8.669974,41.234272
+airport_trip_0286,airport_driver_12,2014-10-17 09:30:00,2014-10-17 09:47:26,airport_bound,moderate_alternator,frequent_return,street_hail,Matosinhos Sul,inner_west,-8.688478,41.179308,-8.669974,41.234272
+airport_trip_0146,airport_driver_07,2014-09-09 19:39:00,2014-09-09 20:00:44,airport_originating,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0438,airport_driver_19,2014-09-15 17:42:00,2014-09-15 18:03:07,airport_bound,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0307,airport_driver_13,2014-10-12 19:44:00,2014-10-12 19:56:05,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0145,airport_driver_07,2014-09-07 11:57:00,2014-09-07 12:17:21,airport_bound,strong_alternator,frequent_return,street_hail,Matosinhos Sul,inner_west,-8.688478,41.179308,-8.669974,41.234272
+airport_trip_0488,airport_driver_21,2014-09-21 18:53:00,2014-09-21 19:20:31,airport_originating,mixed_direction,ordinary_return,call_center,Paranhos,outer_west,-8.669974,41.234272,-8.605655,41.17792
+airport_trip_0147,airport_driver_07,2014-09-11 16:33:00,2014-09-11 17:00:29,airport_bound,strong_alternator,frequent_return,street_hail,Boavista,inner_west,-8.630644,41.156512,-8.669974,41.234272
+airport_trip_0466,airport_driver_20,2014-09-24 20:39:00,2014-09-24 21:01:49,airport_bound,mixed_direction,ordinary_return,street_hail,Matosinhos Sul,inner_east,-8.689086,41.180169,-8.669974,41.234272
+airport_trip_0259,airport_driver_11,2014-10-10 14:19:00,2014-10-10 14:47:51,airport_originating,moderate_alternator,ordinary_return,street_hail,Boavista,inner_east,-8.669974,41.234272,-8.628632,41.158814
+airport_trip_0282,airport_driver_12,2014-10-09 11:02:00,2014-10-09 11:20:13,airport_bound,moderate_alternator,frequent_return,call_center,Matosinhos Sul,regular,-8.6892,41.177215,-8.669974,41.234272
+airport_trip_0280,airport_driver_12,2014-10-05 11:40:00,2014-10-05 12:06:46,airport_bound,moderate_alternator,frequent_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0139,airport_driver_06,2014-10-12 15:56:00,2014-10-12 16:21:31,airport_bound,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0361,airport_driver_16,2014-09-02 09:55:00,2014-09-02 10:24:40,airport_bound,moderate_alternator,frequent_return,street_hail,Cedofeita,inner_west,-8.618807,41.155404,-8.669974,41.234272
+airport_trip_0230,airport_driver_10,2014-09-29 14:36:00,2014-09-29 14:56:07,airport_bound,strong_alternator,frequent_return,street_hail,Boavista,regular,-8.630423,41.156185,-8.669974,41.234272
+airport_trip_0325,airport_driver_14,2014-10-01 07:06:00,2014-10-01 07:27:58,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0054,airport_driver_03,2014-09-13 17:43:00,2014-09-13 18:08:07,airport_originating,strong_alternator,frequent_return,call_center,Paranhos,regular,-8.669974,41.234272,-8.603559,41.174872
+airport_trip_0500,airport_driver_21,2014-10-15 14:20:00,2014-10-15 14:40:20,airport_bound,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0338,airport_driver_15,2014-09-03 14:45:00,2014-09-03 15:05:00,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0290,airport_driver_13,2014-09-08 11:34:00,2014-09-08 12:00:24,airport_originating,moderate_alternator,ordinary_return,street_hail,Cedofeita,outer_east,-8.669974,41.234272,-8.616279,41.156429
+airport_trip_0346,airport_driver_15,2014-09-19 13:23:00,2014-09-19 13:42:41,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0093,airport_driver_04,2014-10-14 16:10:00,2014-10-14 16:32:00,airport_originating,strong_alternator,frequent_return,call_center,Cedofeita,outer_west,-8.669974,41.234272,-8.61869,41.155498
+airport_trip_0106,airport_driver_05,2014-09-23 13:29:00,2014-09-23 13:51:45,airport_originating,strong_alternator,frequent_return,call_center,Cedofeita,outer_west,-8.669974,41.234272,-8.615367,41.154566
+airport_trip_0187,airport_driver_08,2014-10-08 00:22:00,2014-10-08 00:41:45,airport_bound,strong_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0512,airport_driver_22,2014-09-15 12:11:00,2014-09-15 12:26:30,airport_bound,mixed_direction,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0411,airport_driver_18,2014-09-08 20:32:00,2014-09-08 20:59:10,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0492,airport_driver_21,2014-09-29 10:16:00,2014-09-29 10:38:11,airport_bound,mixed_direction,ordinary_return,street_hail,Paranhos,inner_west,-8.605808,41.179082,-8.669974,41.234272
+airport_trip_0105,airport_driver_05,2014-09-21 07:03:00,2014-09-21 07:24:35,airport_bound,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0053,airport_driver_03,2014-09-11 08:00:00,2014-09-11 08:12:16,airport_originating,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0024,airport_driver_01,2014-10-17 15:45:00,2014-10-17 16:07:21,airport_bound,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0260,airport_driver_11,2014-10-12 14:00:00,2014-10-12 14:22:39,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0123,airport_driver_06,2014-09-10 07:25:00,2014-09-10 07:46:13,airport_originating,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0421,airport_driver_18,2014-09-28 08:34:00,2014-09-28 08:59:49,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0309,airport_driver_13,2014-10-16 09:09:00,2014-10-16 09:25:42,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0073,airport_driver_04,2014-09-04 10:08:00,2014-09-04 10:29:58,airport_bound,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0181,airport_driver_08,2014-09-25 10:10:00,2014-09-25 10:33:51,airport_originating,strong_alternator,ordinary_return,call_center,Cedofeita,inner_west,-8.669974,41.234272,-8.617625,41.154963
+airport_trip_0423,airport_driver_18,2014-10-02 18:15:00,2014-10-02 18:42:56,airport_bound,moderate_alternator,ordinary_return,street_hail,Cedofeita,outer_west,-8.616673,41.154789,-8.669974,41.234272
+airport_trip_0543,airport_driver_23,2014-09-30 16:01:00,2014-09-30 16:21:55,airport_bound,mixed_direction,ordinary_return,call_center,Boavista,regular,-8.626841,41.157782,-8.669974,41.234272
+airport_trip_0229,airport_driver_10,2014-09-27 19:23:00,2014-09-27 19:44:48,airport_bound,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0394,airport_driver_17,2014-09-21 11:10:00,2014-09-21 11:30:28,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0095,airport_driver_04,2014-10-19 00:04:00,2014-10-19 00:27:19,airport_originating,strong_alternator,frequent_return,call_center,Paranhos,inner_west,-8.669974,41.234272,-8.606056,41.178815
+airport_trip_0056,airport_driver_03,2014-09-17 12:55:00,2014-09-17 13:26:42,airport_bound,strong_alternator,frequent_return,street_hail,Cedofeita,outer_east,-8.616313,41.156805,-8.669974,41.234272
+airport_trip_0363,airport_driver_16,2014-09-06 13:06:00,2014-09-06 13:23:03,airport_bound,moderate_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0009,airport_driver_01,2014-09-17 19:19:00,2014-09-17 19:38:57,airport_originating,strong_alternator,frequent_return,call_center,Boavista,regular,-8.669974,41.234272,-8.629352,41.160099
+airport_trip_0461,airport_driver_20,2014-09-14 13:28:00,2014-09-14 13:55:04,airport_bound,mixed_direction,ordinary_return,street_hail,Cedofeita,inner_east,-8.616313,41.156805,-8.669974,41.234272
+airport_trip_0012,airport_driver_01,2014-09-23 17:30:00,2014-09-23 17:55:29,airport_originating,strong_alternator,frequent_return,call_center,Paranhos,outer_west,-8.669974,41.234272,-8.601868,41.17616
+airport_trip_0273,airport_driver_12,2014-09-21 16:35:00,2014-09-21 17:09:36,airport_bound,moderate_alternator,frequent_return,call_center,Cedofeita,outer_east,-8.617874,41.157786,-8.669974,41.234272
+airport_trip_0128,airport_driver_06,2014-09-20 14:39:00,2014-09-20 14:52:16,airport_bound,strong_alternator,frequent_return,call_center,Matosinhos Sul,regular,-8.690841,41.179903,-8.669974,41.234272
+airport_trip_0142,airport_driver_06,2014-10-18 19:12:00,2014-10-18 19:34:28,airport_originating,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0185,airport_driver_08,2014-10-03 11:01:00,2014-10-03 11:22:02,airport_originating,strong_alternator,ordinary_return,call_center,Cedofeita,regular,-8.669974,41.234272,-8.619166,41.156266
+airport_trip_0169,airport_driver_08,2014-09-01 12:59:00,2014-09-01 13:21:15,airport_bound,strong_alternator,ordinary_return,call_center,Cedofeita,outer_west,-8.61869,41.155498,-8.669974,41.234272
+airport_trip_0277,airport_driver_12,2014-09-29 13:21:00,2014-09-29 13:43:02,airport_bound,moderate_alternator,frequent_return,call_center,Cedofeita,regular,-8.616226,41.155782,-8.669974,41.234272
+airport_trip_0258,airport_driver_11,2014-10-08 11:26:00,2014-10-08 11:46:53,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0190,airport_driver_08,2014-10-13 10:22:00,2014-10-13 10:42:45,airport_bound,strong_alternator,ordinary_return,call_center,Matosinhos Sul,inner_east,-8.689086,41.180169,-8.669974,41.234272
+airport_trip_0331,airport_driver_14,2014-10-13 14:41:00,2014-10-13 15:08:36,airport_bound,moderate_alternator,ordinary_return,call_center,Cedofeita,outer_west,-8.61869,41.155498,-8.669974,41.234272
+airport_trip_0037,airport_driver_02,2014-09-26 13:31:00,2014-09-26 14:00:38,airport_bound,strong_alternator,frequent_return,call_center,Paranhos,inner_west,-8.605023,41.176601,-8.669974,41.234272
+airport_trip_0387,airport_driver_17,2014-09-07 21:26:00,2014-09-07 22:00:51,airport_bound,moderate_alternator,ordinary_return,street_hail,Matosinhos Sul,outer_east,-8.688747,41.1806,-8.669974,41.234272
+airport_trip_0078,airport_driver_04,2014-09-14 13:04:00,2014-09-14 13:18:17,airport_originating,strong_alternator,frequent_return,call_center,Matosinhos Sul,regular,-8.669974,41.234272,-8.689455,41.180144
+airport_trip_0524,airport_driver_22,2014-10-09 13:26:00,2014-10-09 13:43:27,airport_bound,mixed_direction,ordinary_return,call_center,Matosinhos Sul,outer_west,-8.689558,41.179204,-8.669974,41.234272
+airport_trip_0568,airport_driver_24,2014-10-03 16:41:00,2014-10-03 17:01:42,airport_bound,mixed_direction,ordinary_return,street_hail,Boavista,inner_west,-8.628133,41.158508,-8.669974,41.234272
+airport_trip_0068,airport_driver_03,2014-10-11 13:04:00,2014-10-11 13:34:01,airport_bound,strong_alternator,frequent_return,call_center,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0506,airport_driver_22,2014-09-03 13:17:00,2014-09-03 13:35:03,airport_originating,mixed_direction,ordinary_return,call_center,Boavista,regular,-8.669974,41.234272,-8.630264,41.159205
+airport_trip_0551,airport_driver_23,2014-10-16 18:18:00,2014-10-16 18:38:04,airport_originating,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0241,airport_driver_11,2014-09-04 14:47:00,2014-09-04 15:02:02,airport_originating,moderate_alternator,ordinary_return,call_center,Matosinhos Sul,outer_west,-8.669974,41.234272,-8.688055,41.180241
+airport_trip_0045,airport_driver_02,2014-10-13 00:06:00,2014-10-13 00:26:41,airport_bound,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0420,airport_driver_18,2014-09-26 14:18:00,2014-09-26 14:29:20,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0377,airport_driver_16,2014-10-04 20:42:00,2014-10-04 21:04:39,airport_originating,moderate_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0179,airport_driver_08,2014-09-21 14:50:00,2014-09-21 15:13:53,airport_originating,strong_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0039,airport_driver_02,2014-09-30 18:53:00,2014-09-30 19:15:37,airport_bound,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0554,airport_driver_24,2014-09-05 15:58:00,2014-09-05 16:12:02,airport_originating,mixed_direction,ordinary_return,call_center,Matosinhos Sul,regular,-8.669974,41.234272,-8.689152,41.17681
+airport_trip_0548,airport_driver_23,2014-10-10 11:16:00,2014-10-10 11:37:44,airport_bound,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0098,airport_driver_05,2014-09-07 14:36:00,2014-09-07 14:58:55,airport_bound,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0342,airport_driver_15,2014-09-11 16:17:00,2014-09-11 16:38:17,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0557,airport_driver_24,2014-09-11 13:40:00,2014-09-11 14:03:50,airport_bound,mixed_direction,ordinary_return,street_hail,Cedofeita,inner_west,-8.617039,41.154168,-8.669974,41.234272
+airport_trip_0516,airport_driver_22,2014-09-23 10:10:00,2014-09-23 10:24:57,airport_bound,mixed_direction,ordinary_return,call_center,Matosinhos Sul,outer_west,-8.690233,41.17778,-8.669974,41.234272
+airport_trip_0143,airport_driver_06,2014-10-20 17:58:00,2014-10-20 18:23:27,airport_bound,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0071,airport_driver_03,2014-10-17 09:24:00,2014-10-17 09:43:00,airport_originating,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0333,airport_driver_14,2014-10-17 11:59:00,2014-10-17 12:21:19,airport_originating,moderate_alternator,ordinary_return,call_center,Paranhos,regular,-8.669974,41.234272,-8.603559,41.174872
+airport_trip_0081,airport_driver_04,2014-09-20 13:40:00,2014-09-20 14:06:02,airport_bound,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0031,airport_driver_02,2014-09-14 09:57:00,2014-09-14 10:17:12,airport_bound,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0269,airport_driver_12,2014-09-13 14:00:00,2014-09-13 14:39:02,airport_originating,moderate_alternator,frequent_return,call_center,Cedofeita,inner_east,-8.669974,41.234272,-8.617039,41.154168
+airport_trip_0113,airport_driver_05,2014-10-07 17:00:00,2014-10-07 17:19:14,airport_originating,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0285,airport_driver_12,2014-10-15 14:58:00,2014-10-15 15:23:39,airport_originating,moderate_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0533,airport_driver_23,2014-09-10 08:41:00,2014-09-10 09:07:25,airport_originating,mixed_direction,ordinary_return,call_center,Matosinhos Sul,inner_east,-8.669974,41.234272,-8.6892,41.177215
+airport_trip_0005,airport_driver_01,2014-09-09 11:59:00,2014-09-09 12:18:11,airport_originating,strong_alternator,frequent_return,call_center,Boavista,regular,-8.669974,41.234272,-8.630264,41.159205
+airport_trip_0496,airport_driver_21,2014-10-07 13:14:00,2014-10-07 13:34:19,airport_originating,mixed_direction,ordinary_return,call_center,Paranhos,regular,-8.669974,41.234272,-8.602473,41.176813
+airport_trip_0490,airport_driver_21,2014-09-25 07:05:00,2014-09-25 07:25:20,airport_bound,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0044,airport_driver_02,2014-10-10 17:48:00,2014-10-10 18:03:08,airport_originating,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0563,airport_driver_24,2014-09-23 15:38:00,2014-09-23 15:56:12,airport_bound,mixed_direction,ordinary_return,street_hail,Paranhos,outer_west,-8.604289,41.175975,-8.669974,41.234272
+airport_trip_0453,airport_driver_19,2014-10-15 08:40:00,2014-10-15 08:53:47,airport_originating,mixed_direction,ordinary_return,street_hail,Matosinhos Sul,outer_west,-8.669974,41.234272,-8.689329,41.178294
+airport_trip_0493,airport_driver_21,2014-10-01 09:58:00,2014-10-01 10:17:48,airport_bound,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0415,airport_driver_18,2014-09-16 15:47:00,2014-09-16 16:11:04,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0473,airport_driver_20,2014-10-08 08:57:00,2014-10-08 09:15:59,airport_bound,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0501,airport_driver_21,2014-10-17 18:26:00,2014-10-17 18:44:33,airport_bound,mixed_direction,ordinary_return,call_center,Boavista,inner_east,-8.627282,41.157481,-8.669974,41.234272
+airport_trip_0569,airport_driver_24,2014-10-05 15:56:00,2014-10-05 16:20:24,airport_originating,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0221,airport_driver_10,2014-09-11 15:17:00,2014-09-11 15:36:59,airport_bound,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0209,airport_driver_09,2014-10-04 13:33:00,2014-10-04 13:53:23,airport_bound,strong_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0358,airport_driver_15,2014-10-13 19:51:00,2014-10-13 20:13:26,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0028,airport_driver_02,2014-09-08 14:43:00,2014-09-08 14:57:49,airport_originating,strong_alternator,frequent_return,street_hail,Matosinhos Sul,regular,-8.669974,41.234272,-8.688521,41.179675
+airport_trip_0051,airport_driver_03,2014-09-07 11:41:00,2014-09-07 12:04:47,airport_originating,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0275,airport_driver_12,2014-09-25 20:02:00,2014-09-25 20:32:37,airport_bound,moderate_alternator,frequent_return,street_hail,Paranhos,outer_west,-8.604289,41.175975,-8.669974,41.234272
+airport_trip_0022,airport_driver_01,2014-10-13 14:40:00,2014-10-13 15:03:10,airport_bound,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0406,airport_driver_17,2014-10-15 23:15:00,2014-10-15 23:35:49,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0131,airport_driver_06,2014-09-26 20:44:00,2014-09-26 21:06:58,airport_bound,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0385,airport_driver_17,2014-09-03 14:14:00,2014-09-03 14:36:21,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0356,airport_driver_15,2014-10-09 18:59:00,2014-10-09 19:20:53,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0107,airport_driver_05,2014-09-25 16:59:00,2014-09-25 17:14:59,airport_bound,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0070,airport_driver_03,2014-10-15 07:47:00,2014-10-15 08:13:56,airport_bound,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0525,airport_driver_22,2014-10-11 15:53:00,2014-10-11 16:16:37,airport_originating,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0014,airport_driver_01,2014-09-27 09:42:00,2014-09-27 10:05:39,airport_originating,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0197,airport_driver_09,2014-09-10 20:03:00,2014-09-10 20:28:09,airport_bound,strong_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0086,airport_driver_04,2014-09-30 11:34:00,2014-09-30 12:00:10,airport_originating,strong_alternator,frequent_return,call_center,Matosinhos Sul,inner_east,-8.669974,41.234272,-8.6892,41.177215
+airport_trip_0193,airport_driver_09,2014-09-02 13:40:00,2014-09-02 14:05:47,airport_bound,strong_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0395,airport_driver_17,2014-09-23 19:05:00,2014-09-23 19:17:04,airport_originating,moderate_alternator,ordinary_return,street_hail,Matosinhos Sul,outer_west,-8.669974,41.234272,-8.687647,41.178645
+airport_trip_0244,airport_driver_11,2014-09-10 07:35:00,2014-09-10 07:58:02,airport_originating,moderate_alternator,ordinary_return,call_center,Cedofeita,outer_west,-8.669974,41.234272,-8.615367,41.154566
+airport_trip_0339,airport_driver_15,2014-09-05 12:49:00,2014-09-05 13:12:36,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0004,airport_driver_01,2014-09-07 19:32:00,2014-09-07 19:55:44,airport_bound,strong_alternator,frequent_return,street_hail,Paranhos,inner_west,-8.605023,41.176601,-8.669974,41.234272
+airport_trip_0367,airport_driver_16,2014-09-14 12:22:00,2014-09-14 12:46:10,airport_originating,moderate_alternator,frequent_return,call_center,Paranhos,inner_west,-8.669974,41.234272,-8.602479,41.175271
+airport_trip_0157,airport_driver_07,2014-10-02 01:06:00,2014-10-02 01:40:16,airport_bound,strong_alternator,frequent_return,street_hail,Matosinhos Sul,outer_east,-8.6892,41.177215,-8.669974,41.234272
+airport_trip_0334,airport_driver_14,2014-10-19 14:52:00,2014-10-19 15:15:39,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0482,airport_driver_21,2014-09-09 19:52:00,2014-09-09 20:14:45,airport_originating,mixed_direction,ordinary_return,call_center,Cedofeita,inner_east,-8.669974,41.234272,-8.617039,41.154168
+airport_trip_0170,airport_driver_08,2014-09-03 15:16:00,2014-09-03 15:31:38,airport_originating,strong_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0232,airport_driver_10,2014-10-03 09:13:00,2014-10-03 09:33:11,airport_originating,strong_alternator,frequent_return,call_center,Matosinhos Sul,inner_east,-8.669974,41.234272,-8.68947,41.17834
+airport_trip_0019,airport_driver_01,2014-10-07 17:52:00,2014-10-07 18:13:17,airport_originating,strong_alternator,frequent_return,street_hail,Matosinhos Sul,inner_west,-8.669974,41.234272,-8.689165,41.179327
+airport_trip_0111,airport_driver_05,2014-10-03 13:16:00,2014-10-03 13:32:58,airport_bound,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0034,airport_driver_02,2014-09-20 19:29:00,2014-09-20 19:47:58,airport_originating,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0063,airport_driver_03,2014-10-01 16:25:00,2014-10-01 16:43:41,airport_bound,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0491,airport_driver_21,2014-09-27 16:46:00,2014-09-27 17:01:30,airport_bound,mixed_direction,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0213,airport_driver_09,2014-10-12 14:02:00,2014-10-12 14:28:51,airport_bound,strong_alternator,ordinary_return,call_center,Boavista,regular,-8.626841,41.157782,-8.669974,41.234272
+airport_trip_0020,airport_driver_01,2014-10-09 14:35:00,2014-10-09 14:58:06,airport_bound,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0503,airport_driver_21,2014-10-21 17:25:00,2014-10-21 17:40:46,airport_originating,mixed_direction,ordinary_return,call_center,Matosinhos Sul,regular,-8.669974,41.234272,-8.689152,41.17681
+airport_trip_0180,airport_driver_08,2014-09-23 16:04:00,2014-09-23 16:27:43,airport_bound,strong_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0381,airport_driver_16,2014-10-12 16:47:00,2014-10-12 17:10:00,airport_bound,moderate_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0360,airport_driver_15,2014-10-17 17:28:00,2014-10-17 17:49:46,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0097,airport_driver_05,2014-09-05 13:13:00,2014-09-05 13:34:03,airport_bound,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0575,airport_driver_24,2014-10-17 16:49:00,2014-10-17 17:14:36,airport_originating,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0156,airport_driver_07,2014-09-29 17:39:00,2014-09-29 18:00:36,airport_originating,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0154,airport_driver_07,2014-09-25 07:02:00,2014-09-25 07:20:40,airport_originating,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0217,airport_driver_10,2014-09-03 12:31:00,2014-09-03 12:50:48,airport_bound,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0174,airport_driver_08,2014-09-11 14:40:00,2014-09-11 14:53:40,airport_originating,strong_alternator,ordinary_return,call_center,Matosinhos Sul,outer_west,-8.669974,41.234272,-8.689329,41.178294
+airport_trip_0271,airport_driver_12,2014-09-17 15:23:00,2014-09-17 15:47:30,airport_originating,moderate_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0460,airport_driver_20,2014-09-12 13:06:00,2014-09-12 13:30:02,airport_bound,mixed_direction,ordinary_return,street_hail,Boavista,inner_east,-8.626956,41.156121,-8.669974,41.234272
+airport_trip_0401,airport_driver_17,2014-10-05 14:40:00,2014-10-05 14:59:42,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0362,airport_driver_16,2014-09-04 08:10:00,2014-09-04 08:32:40,airport_originating,moderate_alternator,frequent_return,call_center,Matosinhos Sul,inner_east,-8.669974,41.234272,-8.6892,41.177215
+airport_trip_0238,airport_driver_10,2014-10-15 09:56:00,2014-10-15 10:19:15,airport_bound,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0304,airport_driver_13,2014-10-06 19:43:00,2014-10-06 20:04:16,airport_originating,moderate_alternator,ordinary_return,call_center,Paranhos,regular,-8.669974,41.234272,-8.602473,41.176813
+airport_trip_0025,airport_driver_02,2014-09-02 18:29:00,2014-09-02 19:00:46,airport_originating,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0061,airport_driver_03,2014-09-27 08:12:00,2014-09-27 08:24:39,airport_originating,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0479,airport_driver_20,2014-10-20 15:22:00,2014-10-20 15:46:42,airport_originating,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0220,airport_driver_10,2014-09-09 15:11:00,2014-09-09 15:25:07,airport_originating,strong_alternator,frequent_return,call_center,Matosinhos Sul,regular,-8.669974,41.234272,-8.688521,41.179675
+airport_trip_0561,airport_driver_24,2014-09-19 12:01:00,2014-09-19 12:22:36,airport_originating,mixed_direction,ordinary_return,call_center,Cedofeita,regular,-8.669974,41.234272,-8.616673,41.154789
+airport_trip_0308,airport_driver_13,2014-10-14 11:01:00,2014-10-14 11:18:21,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0298,airport_driver_13,2014-09-24 09:14:00,2014-09-24 09:36:27,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0532,airport_driver_23,2014-09-08 08:03:00,2014-09-08 08:21:14,airport_originating,mixed_direction,ordinary_return,call_center,Cedofeita,regular,-8.669974,41.234272,-8.616226,41.155782
+airport_trip_0242,airport_driver_11,2014-09-06 11:01:00,2014-09-06 11:25:35,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0556,airport_driver_24,2014-09-09 10:02:00,2014-09-09 10:18:01,airport_originating,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0402,airport_driver_17,2014-10-07 23:38:00,2014-10-08 00:01:44,airport_bound,moderate_alternator,ordinary_return,street_hail,Cedofeita,inner_west,-8.616226,41.155782,-8.669974,41.234272
+airport_trip_0444,airport_driver_19,2014-09-27 21:33:00,2014-09-27 21:55:21,airport_bound,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0305,airport_driver_13,2014-10-08 12:25:00,2014-10-08 12:52:17,airport_bound,moderate_alternator,ordinary_return,street_hail,Boavista,outer_east,-8.627608,41.155625,-8.669974,41.234272
+airport_trip_0449,airport_driver_19,2014-10-07 18:17:00,2014-10-07 18:35:33,airport_bound,mixed_direction,ordinary_return,street_hail,Matosinhos Sul,inner_west,-8.690506,41.178439,-8.669974,41.234272
+airport_trip_0124,airport_driver_06,2014-09-12 20:03:00,2014-09-12 20:17:48,airport_bound,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0239,airport_driver_10,2014-10-17 07:30:00,2014-10-17 07:48:37,airport_bound,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0370,airport_driver_16,2014-09-20 12:14:00,2014-09-20 12:27:55,airport_bound,moderate_alternator,frequent_return,street_hail,Matosinhos Sul,regular,-8.688368,41.179258,-8.669974,41.234272
+airport_trip_0104,airport_driver_05,2014-09-19 07:30:00,2014-09-19 07:49:29,airport_originating,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0247,airport_driver_11,2014-09-16 16:33:00,2014-09-16 16:54:22,airport_bound,moderate_alternator,ordinary_return,call_center,Boavista,outer_west,-8.62844,41.156894,-8.669974,41.234272
+airport_trip_0064,airport_driver_03,2014-10-03 20:51:00,2014-10-03 21:11:27,airport_originating,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0222,airport_driver_10,2014-09-13 15:34:00,2014-09-13 16:00:26,airport_originating,strong_alternator,frequent_return,call_center,Boavista,regular,-8.669974,41.234272,-8.629352,41.160099
+airport_trip_0177,airport_driver_08,2014-09-17 09:59:00,2014-09-17 10:18:06,airport_originating,strong_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0505,airport_driver_22,2014-09-01 18:34:00,2014-09-01 18:54:24,airport_originating,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0299,airport_driver_13,2014-09-26 14:27:00,2014-09-26 15:01:47,airport_originating,moderate_alternator,ordinary_return,call_center,Matosinhos Sul,outer_east,-8.669974,41.234272,-8.687675,41.180108
+airport_trip_0245,airport_driver_11,2014-09-12 14:53:00,2014-09-12 15:08:17,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0391,airport_driver_17,2014-09-15 20:40:00,2014-09-15 20:52:29,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0067,airport_driver_03,2014-10-09 14:17:00,2014-10-09 14:41:45,airport_originating,strong_alternator,frequent_return,call_center,Boavista,regular,-8.669974,41.234272,-8.630386,41.159255
+airport_trip_0292,airport_driver_13,2014-09-12 20:38:00,2014-09-12 21:02:21,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0566,airport_driver_24,2014-09-29 20:00:00,2014-09-29 20:16:04,airport_originating,mixed_direction,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0467,airport_driver_20,2014-09-26 17:38:00,2014-09-26 18:03:20,airport_bound,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0323,airport_driver_14,2014-09-27 07:39:00,2014-09-27 08:03:03,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0316,airport_driver_14,2014-09-13 11:00:00,2014-09-13 11:13:52,airport_bound,moderate_alternator,ordinary_return,call_center,Matosinhos Sul,regular,-8.688368,41.179258,-8.669974,41.234272
+airport_trip_0382,airport_driver_16,2014-10-14 13:12:00,2014-10-14 13:25:24,airport_bound,moderate_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0443,airport_driver_19,2014-09-25 13:43:00,2014-09-25 14:01:49,airport_bound,mixed_direction,ordinary_return,street_hail,Boavista,regular,-8.630423,41.156185,-8.669974,41.234272
+airport_trip_0437,airport_driver_19,2014-09-13 10:33:00,2014-09-13 11:10:27,airport_originating,mixed_direction,ordinary_return,call_center,Matosinhos Sul,outer_east,-8.669974,41.234272,-8.687675,41.180108
+airport_trip_0049,airport_driver_03,2014-09-03 20:56:00,2014-09-03 21:14:57,airport_originating,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0484,airport_driver_21,2014-09-13 19:10:00,2014-09-13 19:29:34,airport_originating,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0103,airport_driver_05,2014-09-18 00:30:00,2014-09-18 00:44:34,airport_bound,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0448,airport_driver_19,2014-10-05 16:28:00,2014-10-05 16:54:05,airport_bound,mixed_direction,ordinary_return,street_hail,Cedofeita,inner_east,-8.616226,41.155782,-8.669974,41.234272
+airport_trip_0069,airport_driver_03,2014-10-14 00:31:00,2014-10-14 00:46:32,airport_originating,strong_alternator,frequent_return,call_center,Matosinhos Sul,regular,-8.669974,41.234272,-8.689455,41.180144
+airport_trip_0425,airport_driver_18,2014-10-06 14:01:00,2014-10-06 14:26:03,airport_bound,moderate_alternator,ordinary_return,street_hail,Paranhos,outer_west,-8.604289,41.175975,-8.669974,41.234272
+airport_trip_0481,airport_driver_21,2014-09-07 15:59:00,2014-09-07 16:18:50,airport_originating,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0117,airport_driver_05,2014-10-15 20:51:00,2014-10-15 21:11:43,airport_originating,strong_alternator,frequent_return,call_center,Boavista,inner_west,-8.669974,41.234272,-8.630278,41.158162
+airport_trip_0080,airport_driver_04,2014-09-18 07:08:00,2014-09-18 07:24:57,airport_originating,strong_alternator,frequent_return,call_center,Boavista,regular,-8.669974,41.234272,-8.630264,41.159205
+airport_trip_0435,airport_driver_19,2014-09-09 12:18:00,2014-09-09 12:42:33,airport_originating,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0405,airport_driver_17,2014-10-13 10:39:00,2014-10-13 10:58:14,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0302,airport_driver_13,2014-10-02 11:41:00,2014-10-02 12:06:55,airport_bound,moderate_alternator,ordinary_return,street_hail,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0538,airport_driver_23,2014-09-20 16:28:00,2014-09-20 16:46:17,airport_originating,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0057,airport_driver_03,2014-09-19 09:22:00,2014-09-19 09:37:58,airport_bound,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0092,airport_driver_04,2014-10-12 12:20:00,2014-10-12 12:39:28,airport_bound,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0390,airport_driver_17,2014-09-13 14:11:00,2014-09-13 14:37:04,airport_bound,moderate_alternator,ordinary_return,street_hail,Cedofeita,inner_west,-8.616226,41.155782,-8.669974,41.234272
+airport_trip_0195,airport_driver_09,2014-09-06 11:04:00,2014-09-06 11:18:18,airport_bound,strong_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0550,airport_driver_23,2014-10-14 14:13:00,2014-10-14 14:37:38,airport_bound,mixed_direction,ordinary_return,call_center,Paranhos,outer_east,-8.60507,41.177466,-8.669974,41.234272
+airport_trip_0035,airport_driver_02,2014-09-22 15:44:00,2014-09-22 16:11:59,airport_bound,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0403,airport_driver_17,2014-10-09 13:47:00,2014-10-09 14:08:55,airport_bound,moderate_alternator,ordinary_return,call_center,Matosinhos Sul,inner_east,-8.689086,41.180169,-8.669974,41.234272
+airport_trip_0198,airport_driver_09,2014-09-12 08:30:00,2014-09-12 08:50:36,airport_bound,strong_alternator,ordinary_return,street_hail,Cedofeita,regular,-8.617415,41.153191,-8.669974,41.234272
+airport_trip_0514,airport_driver_22,2014-09-19 18:52:00,2014-09-19 19:20:58,airport_bound,mixed_direction,ordinary_return,street_hail,Boavista,outer_east,-8.630736,41.156394,-8.669974,41.234272
+airport_trip_0434,airport_driver_19,2014-09-07 13:09:00,2014-09-07 13:32:16,airport_bound,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0186,airport_driver_08,2014-10-05 17:42:00,2014-10-05 17:54:55,airport_originating,strong_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0219,airport_driver_10,2014-09-07 20:32:00,2014-09-07 20:53:24,airport_bound,strong_alternator,frequent_return,street_hail,Cedofeita,outer_west,-8.616673,41.154789,-8.669974,41.234272
+airport_trip_0267,airport_driver_12,2014-09-09 16:12:00,2014-09-09 16:37:15,airport_bound,moderate_alternator,frequent_return,street_hail,Paranhos,regular,-8.602985,41.176366,-8.669974,41.234272
+airport_trip_0404,airport_driver_17,2014-10-11 16:53:00,2014-10-11 17:13:06,airport_bound,moderate_alternator,ordinary_return,call_center,Paranhos,regular,-8.603352,41.176498,-8.669974,41.234272
+airport_trip_0465,airport_driver_20,2014-09-22 15:34:00,2014-09-22 16:01:27,airport_bound,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0396,airport_driver_17,2014-09-25 18:25:00,2014-09-25 18:49:48,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0399,airport_driver_17,2014-10-01 10:43:00,2014-10-01 10:59:25,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0426,airport_driver_18,2014-10-08 17:09:00,2014-10-08 17:40:54,airport_originating,moderate_alternator,ordinary_return,call_center,Boavista,outer_east,-8.669974,41.234272,-8.629626,41.156149
+airport_trip_0474,airport_driver_20,2014-10-10 15:42:00,2014-10-10 15:58:20,airport_bound,mixed_direction,ordinary_return,street_hail,Matosinhos Sul,outer_west,-8.690233,41.17778,-8.669974,41.234272
+airport_trip_0530,airport_driver_23,2014-09-04 16:56:00,2014-09-04 17:19:28,airport_bound,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0393,airport_driver_17,2014-09-19 17:47:00,2014-09-19 18:05:43,airport_bound,moderate_alternator,ordinary_return,call_center,Boavista,regular,-8.626841,41.157782,-8.669974,41.234272
+airport_trip_0320,airport_driver_14,2014-09-21 12:45:00,2014-09-21 13:02:40,airport_bound,moderate_alternator,ordinary_return,street_hail,Matosinhos Sul,inner_west,-8.690506,41.178439,-8.669974,41.234272
+airport_trip_0365,airport_driver_16,2014-09-10 07:21:00,2014-09-10 07:42:57,airport_bound,moderate_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0450,airport_driver_19,2014-10-10 00:18:00,2014-10-10 00:42:16,airport_bound,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0036,airport_driver_02,2014-09-24 14:04:00,2014-09-24 14:17:09,airport_originating,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0059,airport_driver_03,2014-09-23 12:04:00,2014-09-23 12:27:53,airport_bound,strong_alternator,frequent_return,street_hail,Boavista,inner_east,-8.631398,41.157874,-8.669974,41.234272
+airport_trip_0440,airport_driver_19,2014-09-19 11:30:00,2014-09-19 11:53:53,airport_bound,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0108,airport_driver_05,2014-09-27 18:08:00,2014-09-27 18:27:38,airport_originating,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0317,airport_driver_14,2014-09-15 16:21:00,2014-09-15 16:44:52,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0343,airport_driver_15,2014-09-13 16:26:00,2014-09-13 16:49:19,airport_bound,moderate_alternator,ordinary_return,street_hail,Boavista,inner_west,-8.628133,41.158508,-8.669974,41.234272
+airport_trip_0518,airport_driver_22,2014-09-27 19:21:00,2014-09-27 19:47:45,airport_bound,mixed_direction,ordinary_return,street_hail,Boavista,inner_east,-8.631398,41.157874,-8.669974,41.234272
+airport_trip_0032,airport_driver_02,2014-09-16 18:23:00,2014-09-16 18:48:16,airport_originating,strong_alternator,frequent_return,call_center,Matosinhos Sul,inner_east,-8.669974,41.234272,-8.6892,41.177215
+airport_trip_0210,airport_driver_09,2014-10-06 11:06:00,2014-10-06 11:31:36,airport_bound,strong_alternator,ordinary_return,call_center,Cedofeita,inner_west,-8.616226,41.155782,-8.669974,41.234272
+airport_trip_0326,airport_driver_14,2014-10-03 10:23:00,2014-10-03 10:42:45,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0101,airport_driver_05,2014-09-13 13:08:00,2014-09-13 13:28:32,airport_bound,strong_alternator,frequent_return,call_center,Boavista,regular,-8.630423,41.156185,-8.669974,41.234272
+airport_trip_0001,airport_driver_01,2014-09-01 19:16:00,2014-09-01 19:36:22,airport_originating,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0372,airport_driver_16,2014-09-24 12:59:00,2014-09-24 13:22:58,airport_bound,moderate_alternator,frequent_return,street_hail,Boavista,inner_west,-8.630644,41.156512,-8.669974,41.234272
+airport_trip_0542,airport_driver_23,2014-09-28 08:52:00,2014-09-28 09:15:04,airport_originating,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0167,airport_driver_07,2014-10-21 08:31:00,2014-10-21 08:53:55,airport_bound,strong_alternator,frequent_return,street_hail,Boavista,inner_west,-8.627805,41.158515,-8.669974,41.234272
+airport_trip_0272,airport_driver_12,2014-09-19 13:24:00,2014-09-19 13:41:47,airport_bound,moderate_alternator,frequent_return,call_center,Boavista,outer_west,-8.63065,41.158542,-8.669974,41.234272
+airport_trip_0084,airport_driver_04,2014-09-26 14:36:00,2014-09-26 14:56:36,airport_originating,strong_alternator,frequent_return,street_hail,Boavista,regular,-8.669974,41.234272,-8.629352,41.160099
+airport_trip_0008,airport_driver_01,2014-09-15 17:46:00,2014-09-15 18:03:53,airport_bound,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0251,airport_driver_11,2014-09-24 07:16:00,2014-09-24 07:36:25,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0243,airport_driver_11,2014-09-08 18:25:00,2014-09-08 18:51:23,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0344,airport_driver_15,2014-09-15 09:24:00,2014-09-15 09:50:21,airport_originating,moderate_alternator,ordinary_return,street_hail,Cedofeita,inner_east,-8.669974,41.234272,-8.617039,41.154168
+airport_trip_0324,airport_driver_14,2014-09-29 08:47:00,2014-09-29 09:00:41,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0015,airport_driver_01,2014-09-29 15:35:00,2014-09-29 15:53:40,airport_bound,strong_alternator,frequent_return,street_hail,Matosinhos Sul,outer_west,-8.690233,41.17778,-8.669974,41.234272
+airport_trip_0475,airport_driver_20,2014-10-12 13:30:00,2014-10-12 13:52:17,airport_bound,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0322,airport_driver_14,2014-09-25 19:57:00,2014-09-25 20:19:09,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0144,airport_driver_06,2014-10-22 09:35:00,2014-10-22 09:53:31,airport_originating,strong_alternator,frequent_return,call_center,Matosinhos Sul,inner_west,-8.669974,41.234272,-8.689481,41.179574
+airport_trip_0268,airport_driver_12,2014-09-11 14:10:00,2014-09-11 14:39:09,airport_bound,moderate_alternator,frequent_return,call_center,Boavista,inner_east,-8.626956,41.156121,-8.669974,41.234272
+airport_trip_0261,airport_driver_11,2014-10-14 18:58:00,2014-10-14 19:16:34,airport_originating,moderate_alternator,ordinary_return,street_hail,Matosinhos Sul,inner_east,-8.669974,41.234272,-8.688682,41.180867
+airport_trip_0376,airport_driver_16,2014-10-02 09:57:00,2014-10-02 10:16:09,airport_originating,moderate_alternator,frequent_return,call_center,Boavista,regular,-8.669974,41.234272,-8.630386,41.159255
+airport_trip_0149,airport_driver_07,2014-09-15 19:53:00,2014-09-15 20:10:09,airport_originating,strong_alternator,frequent_return,call_center,Matosinhos Sul,regular,-8.669974,41.234272,-8.689152,41.17681
+airport_trip_0572,airport_driver_24,2014-10-11 18:00:00,2014-10-11 18:19:46,airport_originating,mixed_direction,ordinary_return,call_center,Boavista,regular,-8.669974,41.234272,-8.630264,41.159205
+airport_trip_0313,airport_driver_14,2014-09-07 19:10:00,2014-09-07 19:30:41,airport_originating,moderate_alternator,ordinary_return,call_center,Paranhos,regular,-8.669974,41.234272,-8.602473,41.176813
+airport_trip_0155,airport_driver_07,2014-09-27 19:52:00,2014-09-27 20:13:40,airport_bound,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0534,airport_driver_23,2014-09-12 16:04:00,2014-09-12 16:33:37,airport_originating,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0368,airport_driver_16,2014-09-16 12:21:00,2014-09-16 12:39:45,airport_bound,moderate_alternator,frequent_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0442,airport_driver_19,2014-09-24 00:04:00,2014-09-24 00:26:24,airport_bound,mixed_direction,ordinary_return,street_hail,Paranhos,inner_east,-8.603066,41.179642,-8.669974,41.234272
+airport_trip_0046,airport_driver_02,2014-10-14 08:49:00,2014-10-14 09:09:08,airport_originating,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0471,airport_driver_20,2014-10-04 09:20:00,2014-10-04 09:41:02,airport_originating,mixed_direction,ordinary_return,street_hail,Paranhos,regular,-8.669974,41.234272,-8.603559,41.174872
+airport_trip_0397,airport_driver_17,2014-09-27 18:55:00,2014-09-27 19:33:43,airport_bound,moderate_alternator,ordinary_return,street_hail,Boavista,outer_east,-8.630736,41.156394,-8.669974,41.234272
+airport_trip_0178,airport_driver_08,2014-09-19 14:02:00,2014-09-19 14:16:11,airport_bound,strong_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0152,airport_driver_07,2014-09-21 19:31:00,2014-09-21 19:58:04,airport_originating,strong_alternator,frequent_return,call_center,Cedofeita,inner_east,-8.669974,41.234272,-8.617039,41.154168
+airport_trip_0158,airport_driver_07,2014-10-03 18:24:00,2014-10-03 18:45:09,airport_originating,strong_alternator,frequent_return,call_center,Paranhos,inner_east,-8.669974,41.234272,-8.606803,41.177148
+airport_trip_0148,airport_driver_07,2014-09-13 20:22:00,2014-09-13 20:44:45,airport_originating,strong_alternator,frequent_return,call_center,Cedofeita,regular,-8.669974,41.234272,-8.616226,41.155782
+airport_trip_0541,airport_driver_23,2014-09-26 10:30:00,2014-09-26 10:45:46,airport_originating,mixed_direction,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0476,airport_driver_20,2014-10-14 20:06:00,2014-10-14 20:29:31,airport_originating,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0236,airport_driver_10,2014-10-11 16:02:00,2014-10-11 16:17:23,airport_bound,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.688742,41.178908,-8.669974,41.234272
+airport_trip_0419,airport_driver_18,2014-09-24 19:54:00,2014-09-24 20:12:58,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0337,airport_driver_15,2014-09-01 16:03:00,2014-09-01 16:19:32,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0140,airport_driver_06,2014-10-14 18:09:00,2014-10-14 18:21:42,airport_originating,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0336,airport_driver_14,2014-10-23 11:11:00,2014-10-23 11:22:51,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0026,airport_driver_02,2014-09-04 09:54:00,2014-09-04 10:16:21,airport_originating,strong_alternator,frequent_return,call_center,Boavista,regular,-8.669974,41.234272,-8.630264,41.159205
+airport_trip_0211,airport_driver_09,2014-10-08 11:01:00,2014-10-08 11:15:39,airport_originating,strong_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0226,airport_driver_10,2014-09-21 09:37:00,2014-09-21 10:00:01,airport_originating,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0191,airport_driver_08,2014-10-15 17:07:00,2014-10-15 17:32:30,airport_originating,strong_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0206,airport_driver_09,2014-09-28 14:05:00,2014-09-28 14:26:42,airport_bound,strong_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0114,airport_driver_05,2014-10-09 13:08:00,2014-10-09 13:28:58,airport_bound,strong_alternator,frequent_return,call_center,Cedofeita,regular,-8.617415,41.153191,-8.669974,41.234272
+airport_trip_0017,airport_driver_01,2014-10-03 13:30:00,2014-10-03 13:49:02,airport_bound,strong_alternator,frequent_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0192,airport_driver_08,2014-10-17 13:02:00,2014-10-17 13:21:53,airport_bound,strong_alternator,ordinary_return,call_center,Boavista,regular,-8.626841,41.157782,-8.669974,41.234272
+airport_trip_0085,airport_driver_04,2014-09-28 15:59:00,2014-09-28 16:26:11,airport_bound,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0418,airport_driver_18,2014-09-22 20:27:00,2014-09-22 20:45:01,airport_originating,moderate_alternator,ordinary_return,street_hail,Boavista,regular,-8.669974,41.234272,-8.630386,41.159255
+airport_trip_0350,airport_driver_15,2014-09-27 12:54:00,2014-09-27 13:14:36,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0427,airport_driver_18,2014-10-10 14:08:00,2014-10-10 14:25:51,airport_originating,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0567,airport_driver_24,2014-10-01 12:24:00,2014-10-01 12:46:09,airport_bound,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0262,airport_driver_11,2014-10-16 09:52:00,2014-10-16 10:13:38,airport_originating,moderate_alternator,ordinary_return,call_center,Paranhos,regular,-8.669974,41.234272,-8.602473,41.176813
+airport_trip_0495,airport_driver_21,2014-10-05 17:51:00,2014-10-05 18:04:35,airport_bound,mixed_direction,ordinary_return,street_hail,Matosinhos Sul,regular,-8.6892,41.177215,-8.669974,41.234272
+airport_trip_0502,airport_driver_21,2014-10-19 18:24:00,2014-10-19 18:43:20,airport_originating,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0127,airport_driver_06,2014-09-18 07:20:00,2014-09-18 07:41:54,airport_originating,strong_alternator,frequent_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0364,airport_driver_16,2014-09-08 21:40:00,2014-09-08 21:58:46,airport_bound,moderate_alternator,frequent_return,call_center,Boavista,regular,-8.630471,41.157694,-8.669974,41.234272
+airport_trip_0319,airport_driver_14,2014-09-19 10:28:00,2014-09-19 10:52:15,airport_originating,moderate_alternator,ordinary_return,street_hail,Cedofeita,outer_west,-8.669974,41.234272,-8.615367,41.154566
+airport_trip_0352,airport_driver_15,2014-10-01 15:18:00,2014-10-01 15:48:00,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0455,airport_driver_19,2014-10-19 12:21:00,2014-10-19 12:38:33,airport_originating,mixed_direction,ordinary_return,call_center,Boavista,regular,-8.669974,41.234272,-8.630264,41.159205
+airport_trip_0388,airport_driver_17,2014-09-09 17:02:00,2014-09-09 17:25:33,airport_originating,moderate_alternator,ordinary_return,call_center,Paranhos,regular,-8.669974,41.234272,-8.602473,41.176813
+airport_trip_0489,airport_driver_21,2014-09-23 14:33:00,2014-09-23 14:55:27,airport_originating,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.669974,41.234272,-8.628754,41.157013
+airport_trip_0003,airport_driver_01,2014-09-05 16:01:00,2014-09-05 16:15:51,airport_originating,strong_alternator,frequent_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0194,airport_driver_09,2014-09-04 15:19:00,2014-09-04 15:44:50,airport_originating,strong_alternator,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0509,airport_driver_22,2014-09-09 20:31:00,2014-09-09 20:52:28,airport_originating,mixed_direction,ordinary_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0545,airport_driver_23,2014-10-04 13:13:00,2014-10-04 13:23:54,airport_bound,mixed_direction,ordinary_return,call_center,Matosinhos Sul,regular,-8.690841,41.179903,-8.669974,41.234272
+airport_trip_0553,airport_driver_24,2014-09-03 07:22:00,2014-09-03 07:47:47,airport_bound,mixed_direction,ordinary_return,street_hail,Cedofeita,inner_west,-8.618807,41.155404,-8.669974,41.234272
+airport_trip_0203,airport_driver_09,2014-09-22 11:56:00,2014-09-22 12:08:56,airport_originating,strong_alternator,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0378,airport_driver_16,2014-10-06 18:30:00,2014-10-06 18:44:48,airport_bound,moderate_alternator,frequent_return,street_hail,Matosinhos Sul,outer_west,-8.690233,41.17778,-8.669974,41.234272
+airport_trip_0573,airport_driver_24,2014-10-13 15:41:00,2014-10-13 16:03:38,airport_originating,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.669974,41.234272,-8.617248,41.155953
+airport_trip_0301,airport_driver_13,2014-09-30 12:00:00,2014-09-30 12:18:54,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0021,airport_driver_01,2014-10-11 16:19:00,2014-10-11 16:37:42,airport_originating,strong_alternator,frequent_return,call_center,Boavista,regular,-8.669974,41.234272,-8.629352,41.160099
+airport_trip_0470,airport_driver_20,2014-10-02 15:19:00,2014-10-02 15:38:58,airport_bound,mixed_direction,ordinary_return,street_hail,Matosinhos Sul,inner_west,-8.690506,41.178439,-8.669974,41.234272
+airport_trip_0182,airport_driver_08,2014-09-27 07:41:00,2014-09-27 07:53:36,airport_bound,strong_alternator,ordinary_return,call_center,Matosinhos Sul,regular,-8.690841,41.179903,-8.669974,41.234272
+airport_trip_0207,airport_driver_09,2014-09-30 17:07:00,2014-09-30 17:37:15,airport_bound,strong_alternator,ordinary_return,street_hail,Matosinhos Sul,outer_east,-8.688747,41.1806,-8.669974,41.234272
+airport_trip_0457,airport_driver_20,2014-09-06 09:26:00,2014-09-06 09:51:06,airport_bound,mixed_direction,ordinary_return,taxi_stand,Cedofeita,regular,-8.617248,41.155953,-8.669974,41.234272
+airport_trip_0392,airport_driver_17,2014-09-17 09:52:00,2014-09-17 10:10:12,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0314,airport_driver_14,2014-09-09 20:13:00,2014-09-09 20:30:35,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0040,airport_driver_02,2014-10-02 18:50:00,2014-10-02 19:15:12,airport_originating,strong_alternator,frequent_return,call_center,Matosinhos Sul,inner_east,-8.669974,41.234272,-8.68947,41.17834
+airport_trip_0447,airport_driver_19,2014-10-03 11:07:00,2014-10-03 11:29:52,airport_bound,mixed_direction,ordinary_return,call_center,Boavista,outer_west,-8.626987,41.15607,-8.669974,41.234272
+airport_trip_0090,airport_driver_04,2014-10-08 12:46:00,2014-10-08 13:10:14,airport_bound,strong_alternator,frequent_return,street_hail,Matosinhos Sul,inner_east,-8.686592,41.179152,-8.669974,41.234272
+airport_trip_0296,airport_driver_13,2014-09-20 11:52:00,2014-09-20 12:12:42,airport_bound,moderate_alternator,ordinary_return,taxi_stand,Paranhos,regular,-8.604131,41.17683,-8.669974,41.234272
+airport_trip_0237,airport_driver_10,2014-10-13 15:38:00,2014-10-13 16:00:25,airport_originating,strong_alternator,frequent_return,taxi_stand,Paranhos,regular,-8.669974,41.234272,-8.604131,41.17683
+airport_trip_0508,airport_driver_22,2014-09-07 14:35:00,2014-09-07 14:50:22,airport_originating,mixed_direction,ordinary_return,taxi_stand,Matosinhos Sul,regular,-8.669974,41.234272,-8.688742,41.178908
+airport_trip_0318,airport_driver_14,2014-09-17 20:54:00,2014-09-17 21:18:13,airport_originating,moderate_alternator,ordinary_return,call_center,Boavista,inner_east,-8.669974,41.234272,-8.63051,41.159244
+airport_trip_0560,airport_driver_24,2014-09-17 11:12:00,2014-09-17 11:30:54,airport_bound,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0576,airport_driver_24,2014-10-19 09:24:00,2014-10-19 09:44:43,airport_bound,mixed_direction,ordinary_return,taxi_stand,Boavista,regular,-8.628754,41.157013,-8.669974,41.234272
+airport_trip_0279,airport_driver_12,2014-10-03 08:24:00,2014-10-03 08:49:18,airport_bound,moderate_alternator,frequent_return,street_hail,Paranhos,outer_east,-8.604583,41.176178,-8.669974,41.234272

@@ -1,0 +1,124 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/08_single_driver_cruising_strategy/driver_activity_segments.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Porto_taxi/08_single_driver_cruising_strategy/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/08_single_driver_cruising_strategy/orders.csv",
+      "role": "Completed orders and their request sources"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/08_single_driver_cruising_strategy/trajectory_points.csv",
+      "role": "Timestamped GPS points for each operating segment"
+    }
+  ],
+  "metadata": {
+    "goal": "Using the supplied records for one driver, investigate the driver’s operating strategy.",
+    "role": "Taxi operations analyst",
+    "category": "Single-driver operating strategy, cruising, order acquisition, and speed",
+    "header": "A Taxi Driver’s Operating Strategy",
+    "dataset_description": "A Porto Taxi case for one driver over a single ten-hour operating day. Activity segments record operating state, duration, region and linked order; the order table records request source; linked GPS points record segment trajectories and speed."
+  },
+  "insight_list": [
+    {
+      "data_type": "operating_time_allocation",
+      "insight": "The driver spends most observed operating time cruising around the city and spends very little time waiting at a taxi stand.",
+      "plot": {
+        "plot_type": "state_duration_bar_and_timeline",
+        "file": "visualizations/operating_time_allocation_and_timeline.png",
+        "title": "Operating-Time Allocation and Timeline",
+        "description": "Cruising duration and the state timeline show that taxi-stand waiting occupies only a small part of the observed day."
+      },
+      "question": "How does the driver allocate observed operating time among cruising, taxi-stand waiting, pickup approach, and passenger service?",
+      "code": "d=df.copy(); print(d.groupby('operating_state').duration_min.sum())",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "operating_state",
+        "trajectory_timestamp",
+        "gps_position",
+        "driver_id"
+      ]
+    },
+    {
+      "data_type": "order_source_and_cruising_context",
+      "insight": "Most of this driver's completed orders are street hails encountered while cruising through the city.",
+      "plot": {
+        "plot_type": "order_source_composition_and_cruising_map",
+        "file": "visualizations/street_hails_during_cruising.png",
+        "title": "Street Hails within the Cruising Footprint",
+        "description": "Order-source composition is paired with pickup locations over the driver’s cruising trajectories."
+      },
+      "question": "Which request sources account for this driver’s completed orders, and where do the primary-source pickups occur relative to the cruising footprint?",
+      "code": "o=pd.read_csv('orders.csv'); print(o.request_source.value_counts(normalize=True))",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 6,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "operating_state",
+        "request_source",
+        "trajectory_id",
+        "gps_position",
+        "driver_id",
+        "trajectory_timestamp"
+      ]
+    },
+    {
+      "data_type": "afternoon_central_operating_sequence",
+      "insight": "From 16:00 to 18:00, the driver repeatedly cruises in the central district, completes a trip after each order, then returns to the centre to cruise until the next order; most orders in this interval are street hails. Cruising locations are less fixed at other times.",
+      "plot": {
+        "plot_type": "time_filtered_state_colored_trajectory_map",
+        "file": "visualizations/afternoon_central_cruising_cycles.png",
+        "title": "16:00–18:00 Central Cruising Cycles",
+        "description": "State-coloured trajectories show central cruising, street-hail service, and subsequent returns to the centre in chronological sequence."
+      },
+      "question": "What repeated spatial and operational sequence does the driver follow from 16:00 to 18:00, and how does it differ from cruising at other times?",
+      "code": "d=df.copy(); d['start_time']=pd.to_datetime(d.start_time); print(d[(d.start_time.dt.hour>=16)&(d.start_time.dt.hour<18)][['operating_state','cruising_purpose','order_id','request_source']])",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 6,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "operating_state",
+        "trajectory_timestamp",
+        "gps_position",
+        "request_source",
+        "driver_id",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "speed_by_operating_state",
+      "insight": "The driver's cruising speed is lower than the speed while driving to a pickup or carrying a passenger.",
+      "plot": {
+        "plot_type": "operating_state_speed_ecdf",
+        "file": "visualizations/speed_by_operating_state.png",
+        "title": "Speed Distributions by Operating State",
+        "description": "GPS-point speed distributions are compared for cruising, driving to pickup, and passenger service."
+      },
+      "question": "How does the driver’s speed while cruising compare with speed during pickup approach and passenger service?",
+      "code": "p=pd.read_csv('trajectory_points.csv'); print(p.groupby('operating_state').speed_kmh.describe())",
+      "insight_type": "group_comparison",
+      "difficulty_level": 2,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "operating_state",
+        "point_speed"
+      ]
+    }
+  ],
+  "insights": [
+    "The driver spends most observed operating time cruising around the city and spends very little time waiting at a taxi stand.",
+    "Most of this driver's completed orders are street hails encountered while cruising through the city.",
+    "From 16:00 to 18:00, the driver repeatedly cruises in the central district, completes a trip after each order, then returns to the centre to cruise until the next order; most orders in this interval are street hails. Cruising locations are less fixed at other times.",
+    "The driver's cruising speed is lower than the speed while driving to a pickup or carrying a passenger."
+  ],
+  "summary": "This driver mainly operates by cruising rather than waiting at taxi stands, and most completed orders are street hails. The 16:00–18:00 period is organized around repeated central-district cruising and return cycles after street-hail trips, while other cruising is spatially less fixed. Cruising is also the driver’s slowest active driving state."
+}

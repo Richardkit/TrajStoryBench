@@ -1,0 +1,100 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/20_multi_user_repeated_trip_variability/trajectories.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/20_multi_user_repeated_trip_variability/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/MTL_Trajet/20_multi_user_repeated_trip_variability/trajectory_points.csv",
+      "role": "Timestamped GPS trajectory points linked by trajectory_id"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze variability in repeated urban trips across multiple users.",
+    "role": "Urban mobility-pattern analyst",
+    "category": "Repeated trips for multiple Montréal users with repeat context, day type, purpose, mode, route deviation, route directness, timing, GPS positions, and point speeds.",
+    "header": "MTL Trajet: 20 Multi User Repeated Trip Variability",
+    "dataset_description": "Repeated trips for multiple Montréal users with repeat context, day type, purpose, mode, route deviation, route directness, timing, GPS positions, and point speeds.",
+    "metric_note": "Distances are calculated from delivered GPS polylines; average point speed and duration are synchronized with the point table. Montréal's long island axis runs approximately southwest–northeast, so signed axis displacement summarizes the dominant travel direction."
+  },
+  "insight_list": [
+    {
+      "data_type": "repeat_context_consistency",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Repeated-trip Timing, Mode, and Directness",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/repeat_context_consistency.png"
+      },
+      "question": "How do weekday-morning work repeats differ from work repeats at other times?",
+      "code": "df.groupby('repeat_context').agg(start_std=('start_hour','std'),mode_consistency=('context_mode_consistency','mean'),directness=('route_directness','median'))",
+      "insight": "Work trips between similar locations are more mode-consistent, temporally concentrated, and route-direct on weekday mornings than at other times.",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 6,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "user_id",
+        "trip_purpose",
+        "transport_mode",
+        "trajectory_timestamp",
+        "trajectory_id",
+        "gps_position"
+      ]
+    },
+    {
+      "data_type": "user_route_speed_variability",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "User Route and Speed Variability",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/user_route_speed_variability.png"
+      },
+      "question": "Among similarly long repeated trips, which users follow stable routes and which show greater route and speed variation?",
+      "code": "df.groupby('repeat_style')[['distance_km','mean_route_deviation_km','point_speed_std_kmh']].agg(['median','mean'])",
+      "insight": "For similarly long trips, some users repeatedly travel between the same locations along similar routes, while others take varied routes with larger speed fluctuations.",
+      "insight_type": "group_comparison",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "user_id",
+        "gps_position",
+        "point_speed",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "weekend_repeat_shift",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Weekend Purpose, Time, Mode, and Route Shifts",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/weekend_repeat_shifts.png"
+      },
+      "question": "How do weekend repeats differ from weekday work repeats?",
+      "code": "df.groupby(['day_type','purpose_group','mode_group']).size(); df.groupby('repeat_context').start_hour.agg(['median','std'])",
+      "insight": "Weekend repeats more often shift to shopping or leisure, depart later, and use different modes or routes than weekday repeats.",
+      "insight_type": "group_comparison",
+      "difficulty_level": 6,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "user_id",
+        "trajectory_timestamp",
+        "trajectory_id",
+        "trip_purpose",
+        "transport_mode",
+        "gps_position"
+      ]
+    }
+  ],
+  "insights": [
+    "Work trips between similar locations are more mode-consistent, temporally concentrated, and route-direct on weekday mornings than at other times.",
+    "For similarly long trips, some users repeatedly travel between the same locations along similar routes, while others take varied routes with larger speed fluctuations.",
+    "Weekend repeats more often shift to shopping or leisure, depart later, and use different modes or routes than weekday repeats."
+  ],
+  "summary": "Weekday-morning work repeats are the most temporally concentrated, mode-consistent, and direct. Users separate into stable- and variable-route patterns, while weekend repeats shift toward later shopping or leisure travel with different modes and routes.",
+  "evidence_policy": "Claims describe patterns in this controlled constructed dataset and do not establish causal relationships."
+}

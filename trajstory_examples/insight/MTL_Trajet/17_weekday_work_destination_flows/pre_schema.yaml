@@ -1,0 +1,22 @@
+# Partial specification for data construction.
+# Fill in only the concepts and constraints you want to control.
+# Any omitted IDs, timestamps, GPS points, metrics, or support tables may be
+# added when they are necessary to realize the supplied goal and insights.
+
+pre_schema_version: "1.0"
+
+# Optional one-line context for the constructor.
+domain: "" # e.g., urban_multimodal_mobility
+goal: "Investigate spatial and mobility differences among weekday work trajectories with different destination locations."
+insights_type_list: [overall_pattern, group_comparison, group_comparison, exception_deviation]
+insights:
+  - "Morning work trajectories show a strong inward flow toward central employment areas, while a smaller outward-flow group ends in peripheral employment zones."
+  - "Outward commuters rely more on motor vehicles and travel longer distances; central-bound commuters include more public-transit and cycling trajectories."
+  - "Outward work trips depart earlier and follow fewer recurring radial corridors, producing greater route overlap than central-bound work trips."
+  - "A few short outward commutes near peripheral employment zones use walking or cycling, forming exceptions to the otherwise motorized pattern"
+
+explanation:
+  
+fields:
+    
+constraints:

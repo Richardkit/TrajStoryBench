@@ -1,0 +1,13 @@
+stand_id,stand_name,area,longitude,latitude,location_class
+stand_01,São Bento Station,Ribeira,-8.6109,41.1456,central_station
+stand_02,Aliados,Cedofeita,-8.611,41.1498,city_center
+stand_03,Trindade,Cedofeita,-8.6097,41.1524,city_center
+stand_04,Campanhã Station,Campanha,-8.5855,41.1488,main_train_station
+stand_05,Bolhão,Bonfim,-8.606,41.1487,central_market
+stand_06,Casa da Música,Boavista,-8.6308,41.1588,inner_west
+stand_07,Ribeira Waterfront,Ribeira,-8.6136,41.1412,central_waterfront
+stand_08,Foz do Douro,Foz do Douro,-8.6732,41.1511,peripheral_west
+stand_09,Matosinhos Sul,Matosinhos Sul,-8.689,41.1791,peripheral_northwest
+stand_10,Hospital São João,Paranhos,-8.6012,41.1822,peripheral_north
+stand_11,Jardim do Morro,Vila Nova de Gaia,-8.609,41.1383,peripheral_south
+stand_12,Asprela University,Paranhos,-8.6054,41.1775,peripheral_north

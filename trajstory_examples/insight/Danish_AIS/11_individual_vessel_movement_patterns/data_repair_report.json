@@ -1,0 +1,670 @@
+{
+  "reason": "Only endpoints belonging to trajectory segments that crossed or closely followed either the supplied map coastline or the vector land mask were moved toward the corridor centre in 0.0005-degree increments. COG was recomputed only for repaired points and their immediate neighbours, while the designed heading–COG offset was preserved. Later passages were shifted only when their timestamps overlapped an earlier passage by the same vessel.",
+  "repaired_point_count": 73,
+  "repairs": [
+    {
+      "trajectory_id": "vessel_D_traj_04",
+      "point_index": 28,
+      "original_lon": 11.281268,
+      "original_lat": 54.535422,
+      "repaired_lon": 11.281268,
+      "repaired_lat": 54.536922000000004
+    },
+    {
+      "trajectory_id": "vessel_D_traj_04",
+      "point_index": 29,
+      "original_lon": 11.263374,
+      "original_lat": 54.5317,
+      "repaired_lon": 11.263374,
+      "repaired_lat": 54.545200000000065
+    },
+    {
+      "trajectory_id": "vessel_D_traj_04",
+      "point_index": 30,
+      "original_lon": 11.245488,
+      "original_lat": 54.528608,
+      "repaired_lon": 11.245488,
+      "repaired_lat": 54.55160800000011
+    },
+    {
+      "trajectory_id": "vessel_D_traj_04",
+      "point_index": 31,
+      "original_lon": 11.227635,
+      "original_lat": 54.526455,
+      "repaired_lon": 11.227635,
+      "repaired_lat": 54.54595500000009
+    },
+    {
+      "trajectory_id": "vessel_D_traj_04",
+      "point_index": 32,
+      "original_lon": 11.209838,
+      "original_lat": 54.525526,
+      "repaired_lon": 11.209838,
+      "repaired_lat": 54.53802600000006
+    },
+    {
+      "trajectory_id": "vessel_D_traj_04",
+      "point_index": 33,
+      "original_lon": 11.192092,
+      "original_lat": 54.525807,
+      "repaired_lon": 11.192092,
+      "repaired_lat": 54.52980700000002
+    },
+    {
+      "trajectory_id": "vessel_D_traj_04",
+      "point_index": 37,
+      "original_lon": 11.121078,
+      "original_lat": 54.533653,
+      "repaired_lon": 11.121078,
+      "repaired_lat": 54.53615300000001
+    },
+    {
+      "trajectory_id": "vessel_D_traj_14",
+      "point_index": 27,
+      "original_lon": 11.366469,
+      "original_lat": 54.532162,
+      "repaired_lon": 11.366469,
+      "repaired_lat": 54.53366200000001
+    },
+    {
+      "trajectory_id": "vessel_D_traj_14",
+      "point_index": 28,
+      "original_lon": 11.35135,
+      "original_lat": 54.530408,
+      "repaired_lon": 11.35135,
+      "repaired_lat": 54.543908000000066
+    },
+    {
+      "trajectory_id": "vessel_D_traj_14",
+      "point_index": 29,
+      "original_lon": 11.336149,
+      "original_lat": 54.52811,
+      "repaired_lon": 11.336149,
+      "repaired_lat": 54.55111000000011
+    },
+    {
+      "trajectory_id": "vessel_D_traj_14",
+      "point_index": 30,
+      "original_lon": 11.320882,
+      "original_lat": 54.525467,
+      "repaired_lon": 11.320882,
+      "repaired_lat": 54.54846700000011
+    },
+    {
+      "trajectory_id": "vessel_D_traj_14",
+      "point_index": 31,
+      "original_lon": 11.305564,
+      "original_lat": 54.522685,
+      "repaired_lon": 11.305564,
+      "repaired_lat": 54.54718500000012
+    },
+    {
+      "trajectory_id": "vessel_D_traj_14",
+      "point_index": 32,
+      "original_lon": 11.290211,
+      "original_lat": 54.519965,
+      "repaired_lon": 11.290211,
+      "repaired_lat": 54.54546500000012
+    },
+    {
+      "trajectory_id": "vessel_D_traj_14",
+      "point_index": 33,
+      "original_lon": 11.274838,
+      "original_lat": 54.517513,
+      "repaired_lon": 11.274838,
+      "repaired_lat": 54.55701300000019
+    },
+    {
+      "trajectory_id": "vessel_D_traj_14",
+      "point_index": 34,
+      "original_lon": 11.25946,
+      "original_lat": 54.515533,
+      "repaired_lon": 11.25946,
+      "repaired_lat": 54.56803300000025
+    },
+    {
+      "trajectory_id": "vessel_D_traj_14",
+      "point_index": 35,
+      "original_lon": 11.244092,
+      "original_lat": 54.514227,
+      "repaired_lon": 11.244092,
+      "repaired_lat": 54.563727000000235
+    },
+    {
+      "trajectory_id": "vessel_D_traj_14",
+      "point_index": 36,
+      "original_lon": 11.228749,
+      "original_lat": 54.5138,
+      "repaired_lon": 11.228749,
+      "repaired_lat": 54.55780000000021
+    },
+    {
+      "trajectory_id": "vessel_D_traj_14",
+      "point_index": 37,
+      "original_lon": 11.213448,
+      "original_lat": 54.514451,
+      "repaired_lon": 11.213448,
+      "repaired_lat": 54.54995100000017
+    },
+    {
+      "trajectory_id": "vessel_D_traj_14",
+      "point_index": 38,
+      "original_lon": 11.198188,
+      "original_lat": 54.516206,
+      "repaired_lon": 11.198188,
+      "repaired_lat": 54.53920600000011
+    },
+    {
+      "trajectory_id": "vessel_D_traj_14",
+      "point_index": 39,
+      "original_lon": 11.182953,
+      "original_lat": 54.518884,
+      "repaired_lon": 11.182953,
+      "repaired_lat": 54.52888400000005
+    },
+    {
+      "trajectory_id": "vessel_D_traj_14",
+      "point_index": 40,
+      "original_lon": 11.167725,
+      "original_lat": 54.522291,
+      "repaired_lon": 11.167725,
+      "repaired_lat": 54.52429100000001
+    },
+    {
+      "trajectory_id": "vessel_D_traj_14",
+      "point_index": 41,
+      "original_lon": 11.152488,
+      "original_lat": 54.526232,
+      "repaired_lon": 11.152488,
+      "repaired_lat": 54.52823200000001
+    },
+    {
+      "trajectory_id": "vessel_D_traj_14",
+      "point_index": 42,
+      "original_lon": 11.137223,
+      "original_lat": 54.530515,
+      "repaired_lon": 11.137223,
+      "repaired_lat": 54.53201500000001
+    },
+    {
+      "trajectory_id": "vessel_D_traj_14",
+      "point_index": 43,
+      "original_lon": 11.121914,
+      "original_lat": 54.534945,
+      "repaired_lon": 11.121914,
+      "repaired_lat": 54.535945000000005
+    },
+    {
+      "trajectory_id": "vessel_D_traj_19",
+      "point_index": 49,
+      "original_lon": 11.458079,
+      "original_lat": 54.622998,
+      "repaired_lon": 11.458079,
+      "repaired_lat": 54.61999799999999
+    },
+    {
+      "trajectory_id": "vessel_D_traj_19",
+      "point_index": 50,
+      "original_lon": 11.476202,
+      "original_lat": 54.624908,
+      "repaired_lon": 11.476202,
+      "repaired_lat": 54.61540799999995
+    },
+    {
+      "trajectory_id": "vessel_D_traj_19",
+      "point_index": 51,
+      "original_lon": 11.494656,
+      "original_lat": 54.626717,
+      "repaired_lon": 11.494656,
+      "repaired_lat": 54.61071699999992
+    },
+    {
+      "trajectory_id": "vessel_D_traj_19",
+      "point_index": 52,
+      "original_lon": 11.513493,
+      "original_lat": 54.628363,
+      "repaired_lon": 11.513493,
+      "repaired_lat": 54.60936299999991
+    },
+    {
+      "trajectory_id": "vessel_D_traj_19",
+      "point_index": 53,
+      "original_lon": 11.53257,
+      "original_lat": 54.629821,
+      "repaired_lon": 11.53257,
+      "repaired_lat": 54.61032099999991
+    },
+    {
+      "trajectory_id": "vessel_D_traj_19",
+      "point_index": 54,
+      "original_lon": 11.551635,
+      "original_lat": 54.631085,
+      "repaired_lon": 11.551635,
+      "repaired_lat": 54.6105849999999
+    },
+    {
+      "trajectory_id": "vessel_D_traj_19",
+      "point_index": 55,
+      "original_lon": 11.570436,
+      "original_lat": 54.632149,
+      "repaired_lon": 11.570436,
+      "repaired_lat": 54.6121489999999
+    },
+    {
+      "trajectory_id": "vessel_D_traj_19",
+      "point_index": 56,
+      "original_lon": 11.58872,
+      "original_lat": 54.633005,
+      "repaired_lon": 11.58872,
+      "repaired_lat": 54.61500499999991
+    },
+    {
+      "trajectory_id": "vessel_D_traj_19",
+      "point_index": 57,
+      "original_lon": 11.606234,
+      "original_lat": 54.633646,
+      "repaired_lon": 11.606234,
+      "repaired_lat": 54.61714599999992
+    },
+    {
+      "trajectory_id": "vessel_D_traj_19",
+      "point_index": 58,
+      "original_lon": 11.622727,
+      "original_lat": 54.634063,
+      "repaired_lon": 11.622727,
+      "repaired_lat": 54.618562999999924
+    },
+    {
+      "trajectory_id": "vessel_D_traj_19",
+      "point_index": 59,
+      "original_lon": 11.637945,
+      "original_lat": 54.634245,
+      "repaired_lon": 11.637945,
+      "repaired_lat": 54.62124499999994
+    },
+    {
+      "trajectory_id": "vessel_D_traj_19",
+      "point_index": 60,
+      "original_lon": 11.651683,
+      "original_lat": 54.634188,
+      "repaired_lon": 11.651683,
+      "repaired_lat": 54.62718799999997
+    },
+    {
+      "trajectory_id": "vessel_D_traj_19",
+      "point_index": 61,
+      "original_lon": 11.664029,
+      "original_lat": 54.633909,
+      "repaired_lon": 11.664029,
+      "repaired_lat": 54.632408999999996
+    },
+    {
+      "trajectory_id": "vessel_D_traj_24",
+      "point_index": 35,
+      "original_lon": 11.133185,
+      "original_lat": 54.531859,
+      "repaired_lon": 11.133185,
+      "repaired_lat": 54.53485900000001
+    },
+    {
+      "trajectory_id": "vessel_D_traj_24",
+      "point_index": 36,
+      "original_lon": 11.114673,
+      "original_lat": 54.529227,
+      "repaired_lon": 11.114673,
+      "repaired_lat": 54.53722700000004
+    },
+    {
+      "trajectory_id": "vessel_D_traj_24",
+      "point_index": 37,
+      "original_lon": 11.096059,
+      "original_lat": 54.527321,
+      "repaired_lon": 11.096059,
+      "repaired_lat": 54.53382100000003
+    },
+    {
+      "trajectory_id": "vessel_D_traj_24",
+      "point_index": 38,
+      "original_lon": 11.077313,
+      "original_lat": 54.526278,
+      "repaired_lon": 11.077313,
+      "repaired_lat": 54.53277800000003
+    },
+    {
+      "trajectory_id": "vessel_D_traj_24",
+      "point_index": 39,
+      "original_lon": 11.058434,
+      "original_lat": 54.52616,
+      "repaired_lon": 11.058434,
+      "repaired_lat": 54.52716
+    },
+    {
+      "trajectory_id": "vessel_E_traj_13",
+      "point_index": 20,
+      "original_lon": 11.184446,
+      "original_lat": 54.528249,
+      "repaired_lon": 11.184446,
+      "repaired_lat": 54.53474900000003
+    },
+    {
+      "trajectory_id": "vessel_E_traj_13",
+      "point_index": 21,
+      "original_lon": 11.20357,
+      "original_lat": 54.525865,
+      "repaired_lon": 11.20357,
+      "repaired_lat": 54.545365000000096
+    },
+    {
+      "trajectory_id": "vessel_E_traj_13",
+      "point_index": 22,
+      "original_lon": 11.222743,
+      "original_lat": 54.523843,
+      "repaired_lon": 11.222743,
+      "repaired_lat": 54.554343000000145
+    },
+    {
+      "trajectory_id": "vessel_E_traj_13",
+      "point_index": 23,
+      "original_lon": 11.241984,
+      "original_lat": 54.522265,
+      "repaired_lon": 11.241984,
+      "repaired_lat": 54.56026500000018
+    },
+    {
+      "trajectory_id": "vessel_E_traj_13",
+      "point_index": 24,
+      "original_lon": 11.261269,
+      "original_lat": 54.52113,
+      "repaired_lon": 11.261269,
+      "repaired_lat": 54.551630000000145
+    },
+    {
+      "trajectory_id": "vessel_E_traj_13",
+      "point_index": 25,
+      "original_lon": 11.280567,
+      "original_lat": 54.520423,
+      "repaired_lon": 11.280567,
+      "repaired_lat": 54.544423000000116
+    },
+    {
+      "trajectory_id": "vessel_E_traj_13",
+      "point_index": 26,
+      "original_lon": 11.299848,
+      "original_lat": 54.52013,
+      "repaired_lon": 11.299848,
+      "repaired_lat": 54.550130000000145
+    },
+    {
+      "trajectory_id": "vessel_E_traj_13",
+      "point_index": 27,
+      "original_lon": 11.319082,
+      "original_lat": 54.520231,
+      "repaired_lon": 11.319082,
+      "repaired_lat": 54.55523100000017
+    },
+    {
+      "trajectory_id": "vessel_E_traj_13",
+      "point_index": 28,
+      "original_lon": 11.33824,
+      "original_lat": 54.52071,
+      "repaired_lon": 11.33824,
+      "repaired_lat": 54.546710000000125
+    },
+    {
+      "trajectory_id": "vessel_E_traj_13",
+      "point_index": 29,
+      "original_lon": 11.357289,
+      "original_lat": 54.521546,
+      "repaired_lon": 11.357289,
+      "repaired_lat": 54.528546000000034
+    },
+    {
+      "trajectory_id": "vessel_E_traj_15",
+      "point_index": 28,
+      "original_lon": 11.317995,
+      "original_lat": 54.537347,
+      "repaired_lon": 11.317995,
+      "repaired_lat": 54.541347000000016
+    },
+    {
+      "trajectory_id": "vessel_E_traj_15",
+      "point_index": 29,
+      "original_lon": 11.336436,
+      "original_lat": 54.53576,
+      "repaired_lon": 11.336436,
+      "repaired_lat": 54.54076000000003
+    },
+    {
+      "trajectory_id": "vessel_E_traj_15",
+      "point_index": 30,
+      "original_lon": 11.35478,
+      "original_lat": 54.534515,
+      "repaired_lon": 11.35478,
+      "repaired_lat": 54.535515000000004
+    },
+    {
+      "trajectory_id": "vessel_E_traj_22",
+      "point_index": 22,
+      "original_lon": 11.340189,
+      "original_lat": 54.539122,
+      "repaired_lon": 11.340189,
+      "repaired_lat": 54.540622000000006
+    },
+    {
+      "trajectory_id": "vessel_E_traj_22",
+      "point_index": 23,
+      "original_lon": 11.320258,
+      "original_lat": 54.537957,
+      "repaired_lon": 11.320258,
+      "repaired_lat": 54.539457000000006
+    },
+    {
+      "trajectory_id": "vessel_E_traj_22",
+      "point_index": 25,
+      "original_lon": 11.280173,
+      "original_lat": 54.534738,
+      "repaired_lon": 11.280173,
+      "repaired_lat": 54.54373800000004
+    },
+    {
+      "trajectory_id": "vessel_E_traj_22",
+      "point_index": 26,
+      "original_lon": 11.260087,
+      "original_lat": 54.533173,
+      "repaired_lon": 11.260087,
+      "repaired_lat": 54.54967300000008
+    },
+    {
+      "trajectory_id": "vessel_E_traj_22",
+      "point_index": 27,
+      "original_lon": 11.240018,
+      "original_lat": 54.531964,
+      "repaired_lon": 11.240018,
+      "repaired_lat": 54.54396400000006
+    },
+    {
+      "trajectory_id": "vessel_E_traj_22",
+      "point_index": 28,
+      "original_lon": 11.22,
+      "original_lat": 54.531355,
+      "repaired_lon": 11.22,
+      "repaired_lat": 54.53635500000002
+    },
+    {
+      "trajectory_id": "vessel_E_traj_25",
+      "point_index": 25,
+      "original_lon": 11.188996,
+      "original_lat": 54.533255,
+      "repaired_lon": 11.188996,
+      "repaired_lat": 54.53625500000001
+    },
+    {
+      "trajectory_id": "vessel_E_traj_25",
+      "point_index": 26,
+      "original_lon": 11.204482,
+      "original_lat": 54.529923,
+      "repaired_lon": 11.204482,
+      "repaired_lat": 54.541923000000054
+    },
+    {
+      "trajectory_id": "vessel_E_traj_25",
+      "point_index": 27,
+      "original_lon": 11.22,
+      "original_lat": 54.527025,
+      "repaired_lon": 11.22,
+      "repaired_lat": 54.54952500000011
+    },
+    {
+      "trajectory_id": "vessel_E_traj_25",
+      "point_index": 28,
+      "original_lon": 11.235564,
+      "original_lat": 54.524674,
+      "repaired_lon": 11.235564,
+      "repaired_lat": 54.55717400000015
+    },
+    {
+      "trajectory_id": "vessel_E_traj_25",
+      "point_index": 29,
+      "original_lon": 11.251163,
+      "original_lat": 54.522867,
+      "repaired_lon": 11.251163,
+      "repaired_lat": 54.55836700000017
+    },
+    {
+      "trajectory_id": "vessel_E_traj_25",
+      "point_index": 30,
+      "original_lon": 11.266782,
+      "original_lat": 54.521571,
+      "repaired_lon": 11.266782,
+      "repaired_lat": 54.54807100000013
+    },
+    {
+      "trajectory_id": "vessel_E_traj_25",
+      "point_index": 31,
+      "original_lon": 11.282404,
+      "original_lat": 54.520754,
+      "repaired_lon": 11.282404,
+      "repaired_lat": 54.54425400000011
+    },
+    {
+      "trajectory_id": "vessel_E_traj_25",
+      "point_index": 32,
+      "original_lon": 11.298013,
+      "original_lat": 54.520388,
+      "repaired_lon": 11.298013,
+      "repaired_lat": 54.54838800000013
+    },
+    {
+      "trajectory_id": "vessel_E_traj_25",
+      "point_index": 33,
+      "original_lon": 11.313593,
+      "original_lat": 54.520443,
+      "repaired_lon": 11.313593,
+      "repaired_lat": 54.55344300000016
+    },
+    {
+      "trajectory_id": "vessel_E_traj_25",
+      "point_index": 34,
+      "original_lon": 11.329129,
+      "original_lat": 54.520893,
+      "repaired_lon": 11.329129,
+      "repaired_lat": 54.55489300000016
+    },
+    {
+      "trajectory_id": "vessel_E_traj_25",
+      "point_index": 35,
+      "original_lon": 11.344603,
+      "original_lat": 54.521712,
+      "repaired_lon": 11.344603,
+      "repaired_lat": 54.541212000000094
+    },
+    {
+      "trajectory_id": "vessel_E_traj_25",
+      "point_index": 36,
+      "original_lon": 11.36,
+      "original_lat": 54.522875,
+      "repaired_lon": 11.36,
+      "repaired_lat": 54.52687500000002
+    }
+  ],
+  "temporally_shifted_trajectory_count": 11,
+  "temporal_repairs": [
+    {
+      "vessel_id": "vessel_A",
+      "trajectory_id": "vessel_A_traj_16",
+      "original_start": "2026-05-08 03:50:00",
+      "shift_seconds": 3813.0,
+      "new_start": "2026-05-08 04:53:33"
+    },
+    {
+      "vessel_id": "vessel_A",
+      "trajectory_id": "vessel_A_traj_20",
+      "original_start": "2026-05-10 23:10:00",
+      "shift_seconds": 1916.5,
+      "new_start": "2026-05-10 23:41:56"
+    },
+    {
+      "vessel_id": "vessel_A",
+      "trajectory_id": "vessel_A_traj_26",
+      "original_start": "2026-05-13 05:40:00",
+      "shift_seconds": 3136.9,
+      "new_start": "2026-05-13 06:32:16"
+    },
+    {
+      "vessel_id": "vessel_B",
+      "trajectory_id": "vessel_B_traj_08",
+      "original_start": "2026-05-04 14:20:00",
+      "shift_seconds": 5810.0,
+      "new_start": "2026-05-04 15:56:50"
+    },
+    {
+      "vessel_id": "vessel_B",
+      "trajectory_id": "vessel_B_traj_15",
+      "original_start": "2026-05-08 01:50:00",
+      "shift_seconds": 1295.6,
+      "new_start": "2026-05-08 02:11:35"
+    },
+    {
+      "vessel_id": "vessel_B",
+      "trajectory_id": "vessel_B_traj_22",
+      "original_start": "2026-05-11 12:10:00",
+      "shift_seconds": 3964.0,
+      "new_start": "2026-05-11 13:16:04"
+    },
+    {
+      "vessel_id": "vessel_C",
+      "trajectory_id": "vessel_C_traj_08",
+      "original_start": "2026-05-04 17:20:00",
+      "shift_seconds": 6147.2,
+      "new_start": "2026-05-04 19:02:27"
+    },
+    {
+      "vessel_id": "vessel_D",
+      "trajectory_id": "vessel_D_traj_22",
+      "original_start": "2026-05-11 18:20:00",
+      "shift_seconds": 7794.7,
+      "new_start": "2026-05-11 20:29:54"
+    },
+    {
+      "vessel_id": "vessel_D",
+      "trajectory_id": "vessel_D_traj_24",
+      "original_start": "2026-05-12 05:20:00",
+      "shift_seconds": 5848.1,
+      "new_start": "2026-05-12 06:57:28"
+    },
+    {
+      "vessel_id": "vessel_E",
+      "trajectory_id": "vessel_E_traj_23",
+      "original_start": "2026-05-12 02:10:00",
+      "shift_seconds": 2978.6,
+      "new_start": "2026-05-12 02:59:38"
+    },
+    {
+      "vessel_id": "vessel_E",
+      "trajectory_id": "vessel_E_traj_28",
+      "original_start": "2026-05-14 03:00:00",
+      "shift_seconds": 6559.6,
+      "new_start": "2026-05-14 04:49:19"
+    }
+  ]
+}

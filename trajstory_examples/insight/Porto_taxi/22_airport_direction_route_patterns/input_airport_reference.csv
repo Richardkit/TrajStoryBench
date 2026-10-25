@@ -1,0 +1,2 @@
+location_id,location_name,municipality,reference_longitude,reference_latitude,trajectory_access_longitude,trajectory_access_latitude,access_note,terminal_reference_source,terminal_osm_way_id
+porto_airport,Francisco Sá Carneiro Airport,Maia,-8.6714055,41.2365033,-8.6699742,41.2342724,Trips terminate on the public-road approach southeast of the terminal; access=no/private airport service roads are excluded.,OpenStreetMap terminal footprint centroid,112023739

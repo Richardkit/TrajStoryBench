@@ -1,0 +1,6 @@
+location_id,location_name,longitude,latitude,role
+central_porto,Central Porto,-8.6134,41.1459,origin area
+vila_nova_de_gaia,Vila Nova de Gaia,-8.6104,41.1295,destination area
+douro_river,Douro River,-8.612,41.1385,crossing zone
+dominant_crossing,Central bridge corridor,-8.609,41.139,dominant route anchor
+alternative_crossing,Arrábida bridge corridor,-8.64,41.145,longer alternative route anchor

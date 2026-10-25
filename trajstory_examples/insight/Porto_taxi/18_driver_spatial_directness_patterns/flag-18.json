@@ -1,0 +1,102 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/18_driver_spatial_directness_patterns/trips.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Porto_taxi/18_driver_spatial_directness_patterns/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/18_driver_spatial_directness_patterns/trajectory_points.csv",
+      "role": "Dense timestamped GPS observations following the Porto OSM driveable-road graph"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/18_driver_spatial_directness_patterns/driver_profiles.csv",
+      "role": "Driver-level spatial reach, long-distance share, operating-hour, directness, and speed-variability metrics"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/18_driver_spatial_directness_patterns/route_profiles.csv",
+      "role": "Road-route variants and route-length-to-straight-line directness measurements"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze how taxi drivers differ in their spatial and operational patterns.",
+    "role": "Taxi driver behavior analyst",
+    "category": "Driver spatial reach, long-distance work, and route-speed stability",
+    "header": "Porto Taxi Driver Spatial and Route-Behavior Patterns",
+    "dataset_description": "A constructed panel of 648 Porto taxi trips from 18 drivers, with dense OSM-aligned GPS paths, driver-level service footprints, operating hours, trip-distance classes, route directness, and speed variability.",
+    "metric_note": "route_directness_ratio is travelled road distance divided by straight-line endpoint distance; higher values indicate more detour, while values nearer 1 indicate a more direct route."
+  },
+  "insight_list": [
+    {
+      "data_type": "driver_spatial_service_footprints",
+      "insight": "Drivers show distinct spatial routines: some repeatedly serve compact areas, while others operate across a much broader portion of Porto.",
+      "plot": {
+        "plot_type": "service_extent_scatter_and_representative_footprints",
+        "file": "visualizations/driver_spatial_routine_contrast.png",
+        "title": "How do individual drivers differ in the spatial extent of their recurring service routines",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "How do individual drivers differ in the spatial extent of their recurring service routines?",
+      "code": "# Reproduce the driver-level comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "driver_id",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "long_distance_share_service_extent_hours",
+      "insight": "Drivers with more long-distance trips cover broader service areas and work later hours than drivers dominated by shorter trips.",
+      "plot": {
+        "plot_type": "paired_driver_relationship_scatter",
+        "file": "visualizations/long_distance_reach_and_late_hours.png",
+        "title": "How are drivers' long-distance trip shares related to service coverage and late operating hours",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "How are drivers' long-distance trip shares related to service coverage and late operating hours?",
+      "code": "# Reproduce the driver-level comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "group_comparison",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "driver_id",
+        "departure_time",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "driver_directness_speed_stability",
+      "insight": "Drivers with higher route directness ratios tends to maintain stable speeds, while drivers with lower route directness ratios show more variable in speeds even on long and direct route.",
+      "plot": {
+        "plot_type": "paired_group_boxplots",
+        "file": "visualizations/directness_and_long_trip_speed_stability.png",
+        "title": "How does speed stability on long trips differ between higher- and lower-directness-ratio drivers",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "How does speed stability on long trips differ between higher- and lower-directness-ratio drivers?",
+      "code": "# Reproduce the driver-level comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "group_comparison",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "driver_id",
+        "gps_position",
+        "trajectory_timestamp",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Drivers show distinct spatial routines: some repeatedly serve compact areas, while others operate across a much broader portion of Porto.",
+    "Drivers with more long-distance trips cover broader service areas and work later hours than drivers dominated by shorter trips.",
+    "Drivers with higher route directness ratios tends to maintain stable speeds, while drivers with lower route directness ratios show more variable in speeds even on long and direct route."
+  ],
+  "summary": "Porto drivers range from compact repeated service routines to broad citywide operation. Higher long-distance shares coincide with wider service coverage and later work. A separate driver grouping shows stable long-trip speeds at higher route-directness ratios and greater speed variation among lower-ratio, more direct routes."
+}

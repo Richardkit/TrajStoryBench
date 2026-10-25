@@ -1,0 +1,201 @@
+route_profile_id,od_pair_id,origin_area,destination_area,route_family,route_label,route_class,distance_band,geometry_variant,via_area,route_distance_km,route_length_ratio_to_shortest
+od_01_primary_v1,od_01,Boavista,Campanha,primary,Primary corridor,dominant,matched_typical,1,none,4.891,1.0
+od_01_secondary_v1,od_01,Boavista,Campanha,secondary,Parallel corridor,dominant,matched_typical,1,Cedofeita,4.891,1.0
+od_01_extended_v1,od_01,Boavista,Campanha,extended,Extended urban route,extended,extended,1,Ribeira,5.989,1.224
+od_01_long_alternative_1_v1,od_01,Boavista,Campanha,long_alternative_1,Long alternative I,long_alternative,long_alternative,1,Paranhos,8.176,1.671
+od_01_long_alternative_2_v1,od_01,Boavista,Campanha,long_alternative_2,Long alternative II,long_alternative,long_alternative,1,Vila Nova de Gaia,9.227,1.886
+od_01_primary_v2,od_01,Boavista,Campanha,primary,Primary corridor,dominant,matched_typical,2,none,4.344,1.0
+od_01_secondary_v2,od_01,Boavista,Campanha,secondary,Parallel corridor,dominant,matched_typical,2,Cedofeita,4.344,1.0
+od_01_extended_v2,od_01,Boavista,Campanha,extended,Extended urban route,extended,extended,2,Ribeira,6.219,1.432
+od_01_long_alternative_1_v2,od_01,Boavista,Campanha,long_alternative_1,Long alternative I,long_alternative,long_alternative,2,Paranhos,8.064,1.856
+od_01_long_alternative_2_v2,od_01,Boavista,Campanha,long_alternative_2,Long alternative II,long_alternative,long_alternative,2,Vila Nova de Gaia,9.261,2.132
+od_01_primary_v3,od_01,Boavista,Campanha,primary,Primary corridor,dominant,matched_typical,3,none,4.623,1.0
+od_01_secondary_v3,od_01,Boavista,Campanha,secondary,Parallel corridor,dominant,matched_typical,3,Cedofeita,4.762,1.03
+od_01_extended_v3,od_01,Boavista,Campanha,extended,Extended urban route,extended,extended,3,Ribeira,6.182,1.337
+od_01_long_alternative_1_v3,od_01,Boavista,Campanha,long_alternative_1,Long alternative I,long_alternative,long_alternative,3,Paranhos,8.189,1.771
+od_01_long_alternative_2_v3,od_01,Boavista,Campanha,long_alternative_2,Long alternative II,long_alternative,long_alternative,3,Vila Nova de Gaia,8.679,1.877
+od_01_primary_v4,od_01,Boavista,Campanha,primary,Primary corridor,dominant,matched_typical,4,none,4.827,1.0
+od_01_secondary_v4,od_01,Boavista,Campanha,secondary,Parallel corridor,dominant,matched_typical,4,Cedofeita,4.827,1.0
+od_01_extended_v4,od_01,Boavista,Campanha,extended,Extended urban route,extended,extended,4,Ribeira,6.363,1.318
+od_01_long_alternative_1_v4,od_01,Boavista,Campanha,long_alternative_1,Long alternative I,long_alternative,long_alternative,4,Paranhos,8.283,1.716
+od_01_long_alternative_2_v4,od_01,Boavista,Campanha,long_alternative_2,Long alternative II,long_alternative,long_alternative,4,Vila Nova de Gaia,9.138,1.893
+od_01_primary_v5,od_01,Boavista,Campanha,primary,Primary corridor,dominant,matched_typical,5,none,4.478,1.0
+od_01_secondary_v5,od_01,Boavista,Campanha,secondary,Parallel corridor,dominant,matched_typical,5,Cedofeita,4.636,1.035
+od_01_extended_v5,od_01,Boavista,Campanha,extended,Extended urban route,extended,extended,5,Ribeira,5.929,1.324
+od_01_long_alternative_1_v5,od_01,Boavista,Campanha,long_alternative_1,Long alternative I,long_alternative,long_alternative,5,Paranhos,8.137,1.817
+od_01_long_alternative_2_v5,od_01,Boavista,Campanha,long_alternative_2,Long alternative II,long_alternative,long_alternative,5,Vila Nova de Gaia,8.481,1.894
+od_01_primary_v6,od_01,Boavista,Campanha,primary,Primary corridor,dominant,matched_typical,6,none,4.627,1.0
+od_01_secondary_v6,od_01,Boavista,Campanha,secondary,Parallel corridor,dominant,matched_typical,6,Cedofeita,4.627,1.0
+od_01_extended_v6,od_01,Boavista,Campanha,extended,Extended urban route,extended,extended,6,Ribeira,6.07,1.312
+od_01_long_alternative_1_v6,od_01,Boavista,Campanha,long_alternative_1,Long alternative I,long_alternative,long_alternative,6,Paranhos,7.849,1.696
+od_01_long_alternative_2_v6,od_01,Boavista,Campanha,long_alternative_2,Long alternative II,long_alternative,long_alternative,6,Vila Nova de Gaia,9.24,1.997
+od_01_primary_v7,od_01,Boavista,Campanha,primary,Primary corridor,dominant,matched_typical,7,none,4.644,1.0
+od_01_secondary_v7,od_01,Boavista,Campanha,secondary,Parallel corridor,dominant,matched_typical,7,Cedofeita,5.404,1.164
+od_01_extended_v7,od_01,Boavista,Campanha,extended,Extended urban route,extended,extended,7,Ribeira,6.295,1.355
+od_01_long_alternative_1_v7,od_01,Boavista,Campanha,long_alternative_1,Long alternative I,long_alternative,long_alternative,7,Paranhos,7.882,1.697
+od_01_long_alternative_2_v7,od_01,Boavista,Campanha,long_alternative_2,Long alternative II,long_alternative,long_alternative,7,Vila Nova de Gaia,9.048,1.948
+od_01_primary_v8,od_01,Boavista,Campanha,primary,Primary corridor,dominant,matched_typical,8,none,3.954,1.0
+od_01_secondary_v8,od_01,Boavista,Campanha,secondary,Parallel corridor,dominant,matched_typical,8,Cedofeita,4.619,1.168
+od_01_extended_v8,od_01,Boavista,Campanha,extended,Extended urban route,extended,extended,8,Ribeira,5.52,1.396
+od_01_long_alternative_1_v8,od_01,Boavista,Campanha,long_alternative_1,Long alternative I,long_alternative,long_alternative,8,Paranhos,7.979,2.018
+od_01_long_alternative_2_v8,od_01,Boavista,Campanha,long_alternative_2,Long alternative II,long_alternative,long_alternative,8,Vila Nova de Gaia,7.992,2.021
+od_01_primary_v9,od_01,Boavista,Campanha,primary,Primary corridor,dominant,matched_typical,9,none,4.353,1.0
+od_01_secondary_v9,od_01,Boavista,Campanha,secondary,Parallel corridor,dominant,matched_typical,9,Cedofeita,4.552,1.046
+od_01_extended_v9,od_01,Boavista,Campanha,extended,Extended urban route,extended,extended,9,Ribeira,6.155,1.414
+od_01_long_alternative_1_v9,od_01,Boavista,Campanha,long_alternative_1,Long alternative I,long_alternative,long_alternative,9,Paranhos,7.803,1.793
+od_01_long_alternative_2_v9,od_01,Boavista,Campanha,long_alternative_2,Long alternative II,long_alternative,long_alternative,9,Vila Nova de Gaia,9.325,2.142
+od_01_primary_v10,od_01,Boavista,Campanha,primary,Primary corridor,dominant,matched_typical,10,none,3.969,1.0
+od_01_secondary_v10,od_01,Boavista,Campanha,secondary,Parallel corridor,dominant,matched_typical,10,Cedofeita,3.969,1.0
+od_01_extended_v10,od_01,Boavista,Campanha,extended,Extended urban route,extended,extended,10,Ribeira,5.229,1.317
+od_01_long_alternative_1_v10,od_01,Boavista,Campanha,long_alternative_1,Long alternative I,long_alternative,long_alternative,10,Paranhos,7.675,1.934
+od_01_long_alternative_2_v10,od_01,Boavista,Campanha,long_alternative_2,Long alternative II,long_alternative,long_alternative,10,Vila Nova de Gaia,8.04,2.026
+od_02_primary_v1,od_02,Foz do Douro,Bonfim,primary,Primary corridor,dominant,matched_typical,1,none,6.806,1.0
+od_02_secondary_v1,od_02,Foz do Douro,Bonfim,secondary,Parallel corridor,dominant,matched_typical,1,Boavista,7.216,1.06
+od_02_extended_v1,od_02,Foz do Douro,Bonfim,extended,Extended urban route,extended,extended,1,Ribeira,7.361,1.081
+od_02_long_alternative_1_v1,od_02,Foz do Douro,Bonfim,long_alternative_1,Long alternative I,long_alternative,long_alternative,1,Paranhos,10.536,1.548
+od_02_long_alternative_2_v1,od_02,Foz do Douro,Bonfim,long_alternative_2,Long alternative II,long_alternative,long_alternative,1,Vila Nova de Gaia,10.861,1.596
+od_02_primary_v2,od_02,Foz do Douro,Bonfim,primary,Primary corridor,dominant,matched_typical,2,none,7.124,1.0
+od_02_secondary_v2,od_02,Foz do Douro,Bonfim,secondary,Parallel corridor,dominant,matched_typical,2,Boavista,7.472,1.049
+od_02_extended_v2,od_02,Foz do Douro,Bonfim,extended,Extended urban route,extended,extended,2,Ribeira,7.997,1.123
+od_02_long_alternative_1_v2,od_02,Foz do Douro,Bonfim,long_alternative_1,Long alternative I,long_alternative,long_alternative,2,Paranhos,10.084,1.416
+od_02_long_alternative_2_v2,od_02,Foz do Douro,Bonfim,long_alternative_2,Long alternative II,long_alternative,long_alternative,2,Vila Nova de Gaia,10.684,1.5
+od_02_primary_v3,od_02,Foz do Douro,Bonfim,primary,Primary corridor,dominant,matched_typical,3,none,7.565,1.0
+od_02_secondary_v3,od_02,Foz do Douro,Bonfim,secondary,Parallel corridor,dominant,matched_typical,3,Boavista,8.018,1.06
+od_02_extended_v3,od_02,Foz do Douro,Bonfim,extended,Extended urban route,extended,extended,3,Ribeira,8.565,1.132
+od_02_long_alternative_1_v3,od_02,Foz do Douro,Bonfim,long_alternative_1,Long alternative I,long_alternative,long_alternative,3,Paranhos,10.189,1.347
+od_02_long_alternative_2_v3,od_02,Foz do Douro,Bonfim,long_alternative_2,Long alternative II,long_alternative,long_alternative,3,Vila Nova de Gaia,12.124,1.603
+od_02_primary_v4,od_02,Foz do Douro,Bonfim,primary,Primary corridor,dominant,matched_typical,4,none,7.269,1.0
+od_02_secondary_v4,od_02,Foz do Douro,Bonfim,secondary,Parallel corridor,dominant,matched_typical,4,Boavista,7.694,1.058
+od_02_extended_v4,od_02,Foz do Douro,Bonfim,extended,Extended urban route,extended,extended,4,Ribeira,8.839,1.216
+od_02_long_alternative_1_v4,od_02,Foz do Douro,Bonfim,long_alternative_1,Long alternative I,long_alternative,long_alternative,4,Paranhos,10.378,1.428
+od_02_long_alternative_2_v4,od_02,Foz do Douro,Bonfim,long_alternative_2,Long alternative II,long_alternative,long_alternative,4,Vila Nova de Gaia,11.755,1.617
+od_02_primary_v5,od_02,Foz do Douro,Bonfim,primary,Primary corridor,dominant,matched_typical,5,none,6.953,1.0
+od_02_secondary_v5,od_02,Foz do Douro,Bonfim,secondary,Parallel corridor,dominant,matched_typical,5,Boavista,7.299,1.05
+od_02_extended_v5,od_02,Foz do Douro,Bonfim,extended,Extended urban route,extended,extended,5,Ribeira,7.583,1.091
+od_02_long_alternative_1_v5,od_02,Foz do Douro,Bonfim,long_alternative_1,Long alternative I,long_alternative,long_alternative,5,Paranhos,10.118,1.455
+od_02_long_alternative_2_v5,od_02,Foz do Douro,Bonfim,long_alternative_2,Long alternative II,long_alternative,long_alternative,5,Vila Nova de Gaia,10.248,1.474
+od_02_primary_v6,od_02,Foz do Douro,Bonfim,primary,Primary corridor,dominant,matched_typical,6,none,7.489,1.0
+od_02_secondary_v6,od_02,Foz do Douro,Bonfim,secondary,Parallel corridor,dominant,matched_typical,6,Boavista,8.021,1.071
+od_02_extended_v6,od_02,Foz do Douro,Bonfim,extended,Extended urban route,extended,extended,6,Ribeira,8.43,1.126
+od_02_long_alternative_1_v6,od_02,Foz do Douro,Bonfim,long_alternative_1,Long alternative I,long_alternative,long_alternative,6,Paranhos,10.858,1.45
+od_02_long_alternative_2_v6,od_02,Foz do Douro,Bonfim,long_alternative_2,Long alternative II,long_alternative,long_alternative,6,Vila Nova de Gaia,11.106,1.483
+od_02_primary_v7,od_02,Foz do Douro,Bonfim,primary,Primary corridor,dominant,matched_typical,7,none,7.788,1.0
+od_02_secondary_v7,od_02,Foz do Douro,Bonfim,secondary,Parallel corridor,dominant,matched_typical,7,Boavista,8.165,1.048
+od_02_extended_v7,od_02,Foz do Douro,Bonfim,extended,Extended urban route,extended,extended,7,Ribeira,9.864,1.267
+od_02_long_alternative_1_v7,od_02,Foz do Douro,Bonfim,long_alternative_1,Long alternative I,long_alternative,long_alternative,7,Paranhos,11.274,1.448
+od_02_long_alternative_2_v7,od_02,Foz do Douro,Bonfim,long_alternative_2,Long alternative II,long_alternative,long_alternative,7,Vila Nova de Gaia,11.582,1.487
+od_02_primary_v8,od_02,Foz do Douro,Bonfim,primary,Primary corridor,dominant,matched_typical,8,none,7.391,1.0
+od_02_secondary_v8,od_02,Foz do Douro,Bonfim,secondary,Parallel corridor,dominant,matched_typical,8,Boavista,7.893,1.068
+od_02_extended_v8,od_02,Foz do Douro,Bonfim,extended,Extended urban route,extended,extended,8,Ribeira,8.534,1.155
+od_02_long_alternative_1_v8,od_02,Foz do Douro,Bonfim,long_alternative_1,Long alternative I,long_alternative,long_alternative,8,Paranhos,9.99,1.352
+od_02_long_alternative_2_v8,od_02,Foz do Douro,Bonfim,long_alternative_2,Long alternative II,long_alternative,long_alternative,8,Vila Nova de Gaia,11.798,1.596
+od_02_primary_v9,od_02,Foz do Douro,Bonfim,primary,Primary corridor,dominant,matched_typical,9,none,7.306,1.0
+od_02_secondary_v9,od_02,Foz do Douro,Bonfim,secondary,Parallel corridor,dominant,matched_typical,9,Boavista,7.623,1.043
+od_02_extended_v9,od_02,Foz do Douro,Bonfim,extended,Extended urban route,extended,extended,9,Ribeira,8.109,1.11
+od_02_long_alternative_1_v9,od_02,Foz do Douro,Bonfim,long_alternative_1,Long alternative I,long_alternative,long_alternative,9,Paranhos,11.01,1.507
+od_02_long_alternative_2_v9,od_02,Foz do Douro,Bonfim,long_alternative_2,Long alternative II,long_alternative,long_alternative,9,Vila Nova de Gaia,10.711,1.466
+od_02_primary_v10,od_02,Foz do Douro,Bonfim,primary,Primary corridor,dominant,matched_typical,10,none,7.499,1.0
+od_02_secondary_v10,od_02,Foz do Douro,Bonfim,secondary,Parallel corridor,dominant,matched_typical,10,Boavista,8.017,1.069
+od_02_extended_v10,od_02,Foz do Douro,Bonfim,extended,Extended urban route,extended,extended,10,Ribeira,8.396,1.12
+od_02_long_alternative_1_v10,od_02,Foz do Douro,Bonfim,long_alternative_1,Long alternative I,long_alternative,long_alternative,10,Paranhos,10.984,1.465
+od_02_long_alternative_2_v10,od_02,Foz do Douro,Bonfim,long_alternative_2,Long alternative II,long_alternative,long_alternative,10,Vila Nova de Gaia,10.731,1.431
+od_03_primary_v1,od_03,Paranhos,Ribeira,primary,Primary corridor,dominant,matched_typical,1,none,4.392,1.0
+od_03_secondary_v1,od_03,Paranhos,Ribeira,secondary,Parallel corridor,dominant,matched_typical,1,Cedofeita,5.384,1.226
+od_03_extended_v1,od_03,Paranhos,Ribeira,extended,Extended urban route,extended,extended,1,Bonfim,5.523,1.257
+od_03_long_alternative_1_v1,od_03,Paranhos,Ribeira,long_alternative_1,Long alternative I,long_alternative,long_alternative,1,Boavista,6.463,1.471
+od_03_long_alternative_2_v1,od_03,Paranhos,Ribeira,long_alternative_2,Long alternative II,long_alternative,long_alternative,1,Campanha,7.163,1.631
+od_03_primary_v2,od_03,Paranhos,Ribeira,primary,Primary corridor,dominant,matched_typical,2,none,4.666,1.0
+od_03_secondary_v2,od_03,Paranhos,Ribeira,secondary,Parallel corridor,dominant,matched_typical,2,Cedofeita,5.27,1.13
+od_03_extended_v2,od_03,Paranhos,Ribeira,extended,Extended urban route,extended,extended,2,Bonfim,5.697,1.221
+od_03_long_alternative_1_v2,od_03,Paranhos,Ribeira,long_alternative_1,Long alternative I,long_alternative,long_alternative,2,Boavista,6.473,1.387
+od_03_long_alternative_2_v2,od_03,Paranhos,Ribeira,long_alternative_2,Long alternative II,long_alternative,long_alternative,2,Campanha,7.086,1.519
+od_03_primary_v3,od_03,Paranhos,Ribeira,primary,Primary corridor,dominant,matched_typical,3,none,4.249,1.0
+od_03_secondary_v3,od_03,Paranhos,Ribeira,secondary,Parallel corridor,dominant,matched_typical,3,Cedofeita,5.474,1.288
+od_03_extended_v3,od_03,Paranhos,Ribeira,extended,Extended urban route,extended,extended,3,Bonfim,5.062,1.191
+od_03_long_alternative_1_v3,od_03,Paranhos,Ribeira,long_alternative_1,Long alternative I,long_alternative,long_alternative,3,Boavista,7.513,1.768
+od_03_long_alternative_2_v3,od_03,Paranhos,Ribeira,long_alternative_2,Long alternative II,long_alternative,long_alternative,3,Campanha,6.68,1.572
+od_03_primary_v4,od_03,Paranhos,Ribeira,primary,Primary corridor,dominant,matched_typical,4,none,4.442,1.0
+od_03_secondary_v4,od_03,Paranhos,Ribeira,secondary,Parallel corridor,dominant,matched_typical,4,Cedofeita,5.046,1.136
+od_03_extended_v4,od_03,Paranhos,Ribeira,extended,Extended urban route,extended,extended,4,Bonfim,5.624,1.266
+od_03_long_alternative_1_v4,od_03,Paranhos,Ribeira,long_alternative_1,Long alternative I,long_alternative,long_alternative,4,Boavista,6.607,1.487
+od_03_long_alternative_2_v4,od_03,Paranhos,Ribeira,long_alternative_2,Long alternative II,long_alternative,long_alternative,4,Campanha,7.215,1.624
+od_03_primary_v5,od_03,Paranhos,Ribeira,primary,Primary corridor,dominant,matched_typical,5,none,3.758,1.0
+od_03_secondary_v5,od_03,Paranhos,Ribeira,secondary,Parallel corridor,dominant,matched_typical,5,Cedofeita,4.984,1.326
+od_03_extended_v5,od_03,Paranhos,Ribeira,extended,Extended urban route,extended,extended,5,Bonfim,4.972,1.323
+od_03_long_alternative_1_v5,od_03,Paranhos,Ribeira,long_alternative_1,Long alternative I,long_alternative,long_alternative,5,Boavista,6.423,1.709
+od_03_long_alternative_2_v5,od_03,Paranhos,Ribeira,long_alternative_2,Long alternative II,long_alternative,long_alternative,5,Campanha,6.51,1.732
+od_03_primary_v6,od_03,Paranhos,Ribeira,primary,Primary corridor,dominant,matched_typical,6,none,3.969,1.0
+od_03_secondary_v6,od_03,Paranhos,Ribeira,secondary,Parallel corridor,dominant,matched_typical,6,Cedofeita,4.752,1.197
+od_03_extended_v6,od_03,Paranhos,Ribeira,extended,Extended urban route,extended,extended,6,Bonfim,5.197,1.31
+od_03_long_alternative_1_v6,od_03,Paranhos,Ribeira,long_alternative_1,Long alternative I,long_alternative,long_alternative,6,Boavista,6.202,1.563
+od_03_long_alternative_2_v6,od_03,Paranhos,Ribeira,long_alternative_2,Long alternative II,long_alternative,long_alternative,6,Campanha,6.72,1.693
+od_03_primary_v7,od_03,Paranhos,Ribeira,primary,Primary corridor,dominant,matched_typical,7,none,4.169,1.0
+od_03_secondary_v7,od_03,Paranhos,Ribeira,secondary,Parallel corridor,dominant,matched_typical,7,Cedofeita,4.807,1.153
+od_03_extended_v7,od_03,Paranhos,Ribeira,extended,Extended urban route,extended,extended,7,Bonfim,5.32,1.276
+od_03_long_alternative_1_v7,od_03,Paranhos,Ribeira,long_alternative_1,Long alternative I,long_alternative,long_alternative,7,Boavista,6.213,1.49
+od_03_long_alternative_2_v7,od_03,Paranhos,Ribeira,long_alternative_2,Long alternative II,long_alternative,long_alternative,7,Campanha,6.91,1.658
+od_03_primary_v8,od_03,Paranhos,Ribeira,primary,Primary corridor,dominant,matched_typical,8,none,4.622,1.0
+od_03_secondary_v8,od_03,Paranhos,Ribeira,secondary,Parallel corridor,dominant,matched_typical,8,Cedofeita,5.438,1.176
+od_03_extended_v8,od_03,Paranhos,Ribeira,extended,Extended urban route,extended,extended,8,Bonfim,6.071,1.313
+od_03_long_alternative_1_v8,od_03,Paranhos,Ribeira,long_alternative_1,Long alternative I,long_alternative,long_alternative,8,Boavista,6.208,1.343
+od_03_long_alternative_2_v8,od_03,Paranhos,Ribeira,long_alternative_2,Long alternative II,long_alternative,long_alternative,8,Campanha,7.701,1.666
+od_03_primary_v9,od_03,Paranhos,Ribeira,primary,Primary corridor,dominant,matched_typical,9,none,5.369,1.0
+od_03_secondary_v9,od_03,Paranhos,Ribeira,secondary,Parallel corridor,dominant,matched_typical,9,Cedofeita,6.262,1.166
+od_03_extended_v9,od_03,Paranhos,Ribeira,extended,Extended urban route,extended,extended,9,Bonfim,6.752,1.258
+od_03_long_alternative_1_v9,od_03,Paranhos,Ribeira,long_alternative_1,Long alternative I,long_alternative,long_alternative,9,Boavista,7.372,1.373
+od_03_long_alternative_2_v9,od_03,Paranhos,Ribeira,long_alternative_2,Long alternative II,long_alternative,long_alternative,9,Campanha,8.229,1.533
+od_03_primary_v10,od_03,Paranhos,Ribeira,primary,Primary corridor,dominant,matched_typical,10,none,4.558,1.0
+od_03_secondary_v10,od_03,Paranhos,Ribeira,secondary,Parallel corridor,dominant,matched_typical,10,Cedofeita,5.166,1.133
+od_03_extended_v10,od_03,Paranhos,Ribeira,extended,Extended urban route,extended,extended,10,Bonfim,5.645,1.239
+od_03_long_alternative_1_v10,od_03,Paranhos,Ribeira,long_alternative_1,Long alternative I,long_alternative,long_alternative,10,Boavista,6.423,1.409
+od_03_long_alternative_2_v10,od_03,Paranhos,Ribeira,long_alternative_2,Long alternative II,long_alternative,long_alternative,10,Campanha,7.149,1.568
+od_04_primary_v1,od_04,Matosinhos Sul,Cedofeita,primary,Primary corridor,dominant,matched_typical,1,none,7.298,1.0
+od_04_secondary_v1,od_04,Matosinhos Sul,Cedofeita,secondary,Parallel corridor,dominant,matched_typical,1,Boavista,7.312,1.002
+od_04_extended_v1,od_04,Matosinhos Sul,Cedofeita,extended,Extended urban route,extended,extended,1,Foz do Douro,9.93,1.361
+od_04_long_alternative_1_v1,od_04,Matosinhos Sul,Cedofeita,long_alternative_1,Long alternative I,long_alternative,long_alternative,1,Paranhos,11.155,1.528
+od_04_long_alternative_2_v1,od_04,Matosinhos Sul,Cedofeita,long_alternative_2,Long alternative II,long_alternative,long_alternative,1,Vila Nova de Gaia,14.613,2.002
+od_04_primary_v2,od_04,Matosinhos Sul,Cedofeita,primary,Primary corridor,dominant,matched_typical,2,none,7.764,1.0
+od_04_secondary_v2,od_04,Matosinhos Sul,Cedofeita,secondary,Parallel corridor,dominant,matched_typical,2,Boavista,7.859,1.012
+od_04_extended_v2,od_04,Matosinhos Sul,Cedofeita,extended,Extended urban route,extended,extended,2,Foz do Douro,9.713,1.251
+od_04_long_alternative_1_v2,od_04,Matosinhos Sul,Cedofeita,long_alternative_1,Long alternative I,long_alternative,long_alternative,2,Paranhos,12.565,1.618
+od_04_long_alternative_2_v2,od_04,Matosinhos Sul,Cedofeita,long_alternative_2,Long alternative II,long_alternative,long_alternative,2,Vila Nova de Gaia,14.659,1.888
+od_04_primary_v3,od_04,Matosinhos Sul,Cedofeita,primary,Primary corridor,dominant,matched_typical,3,none,7.481,1.0
+od_04_secondary_v3,od_04,Matosinhos Sul,Cedofeita,secondary,Parallel corridor,dominant,matched_typical,3,Boavista,7.485,1.0
+od_04_extended_v3,od_04,Matosinhos Sul,Cedofeita,extended,Extended urban route,extended,extended,3,Foz do Douro,9.523,1.273
+od_04_long_alternative_1_v3,od_04,Matosinhos Sul,Cedofeita,long_alternative_1,Long alternative I,long_alternative,long_alternative,3,Paranhos,11.496,1.537
+od_04_long_alternative_2_v3,od_04,Matosinhos Sul,Cedofeita,long_alternative_2,Long alternative II,long_alternative,long_alternative,3,Vila Nova de Gaia,14.846,1.984
+od_04_primary_v4,od_04,Matosinhos Sul,Cedofeita,primary,Primary corridor,dominant,matched_typical,4,none,7.793,1.0
+od_04_secondary_v4,od_04,Matosinhos Sul,Cedofeita,secondary,Parallel corridor,dominant,matched_typical,4,Boavista,8.017,1.029
+od_04_extended_v4,od_04,Matosinhos Sul,Cedofeita,extended,Extended urban route,extended,extended,4,Foz do Douro,9.71,1.246
+od_04_long_alternative_1_v4,od_04,Matosinhos Sul,Cedofeita,long_alternative_1,Long alternative I,long_alternative,long_alternative,4,Paranhos,12.456,1.598
+od_04_long_alternative_2_v4,od_04,Matosinhos Sul,Cedofeita,long_alternative_2,Long alternative II,long_alternative,long_alternative,4,Vila Nova de Gaia,14.342,1.84
+od_04_primary_v5,od_04,Matosinhos Sul,Cedofeita,primary,Primary corridor,dominant,matched_typical,5,none,7.728,1.0
+od_04_secondary_v5,od_04,Matosinhos Sul,Cedofeita,secondary,Parallel corridor,dominant,matched_typical,5,Boavista,7.732,1.0
+od_04_extended_v5,od_04,Matosinhos Sul,Cedofeita,extended,Extended urban route,extended,extended,5,Foz do Douro,9.396,1.216
+od_04_long_alternative_1_v5,od_04,Matosinhos Sul,Cedofeita,long_alternative_1,Long alternative I,long_alternative,long_alternative,5,Paranhos,12.29,1.59
+od_04_long_alternative_2_v5,od_04,Matosinhos Sul,Cedofeita,long_alternative_2,Long alternative II,long_alternative,long_alternative,5,Vila Nova de Gaia,14.585,1.887
+od_04_primary_v6,od_04,Matosinhos Sul,Cedofeita,primary,Primary corridor,dominant,matched_typical,6,none,7.678,1.0
+od_04_secondary_v6,od_04,Matosinhos Sul,Cedofeita,secondary,Parallel corridor,dominant,matched_typical,6,Boavista,8.081,1.053
+od_04_extended_v6,od_04,Matosinhos Sul,Cedofeita,extended,Extended urban route,extended,extended,6,Foz do Douro,10.022,1.305
+od_04_long_alternative_1_v6,od_04,Matosinhos Sul,Cedofeita,long_alternative_1,Long alternative I,long_alternative,long_alternative,6,Paranhos,11.113,1.447
+od_04_long_alternative_2_v6,od_04,Matosinhos Sul,Cedofeita,long_alternative_2,Long alternative II,long_alternative,long_alternative,6,Vila Nova de Gaia,14.44,1.881
+od_04_primary_v7,od_04,Matosinhos Sul,Cedofeita,primary,Primary corridor,dominant,matched_typical,7,none,7.629,1.0
+od_04_secondary_v7,od_04,Matosinhos Sul,Cedofeita,secondary,Parallel corridor,dominant,matched_typical,7,Boavista,7.673,1.006
+od_04_extended_v7,od_04,Matosinhos Sul,Cedofeita,extended,Extended urban route,extended,extended,7,Foz do Douro,9.22,1.209
+od_04_long_alternative_1_v7,od_04,Matosinhos Sul,Cedofeita,long_alternative_1,Long alternative I,long_alternative,long_alternative,7,Paranhos,11.65,1.527
+od_04_long_alternative_2_v7,od_04,Matosinhos Sul,Cedofeita,long_alternative_2,Long alternative II,long_alternative,long_alternative,7,Vila Nova de Gaia,14.543,1.906
+od_04_primary_v8,od_04,Matosinhos Sul,Cedofeita,primary,Primary corridor,dominant,matched_typical,8,none,7.449,1.0
+od_04_secondary_v8,od_04,Matosinhos Sul,Cedofeita,secondary,Parallel corridor,dominant,matched_typical,8,Boavista,7.453,1.0
+od_04_extended_v8,od_04,Matosinhos Sul,Cedofeita,extended,Extended urban route,extended,extended,8,Foz do Douro,9.632,1.293
+od_04_long_alternative_1_v8,od_04,Matosinhos Sul,Cedofeita,long_alternative_1,Long alternative I,long_alternative,long_alternative,8,Paranhos,11.809,1.585
+od_04_long_alternative_2_v8,od_04,Matosinhos Sul,Cedofeita,long_alternative_2,Long alternative II,long_alternative,long_alternative,8,Vila Nova de Gaia,13.986,1.878
+od_04_primary_v9,od_04,Matosinhos Sul,Cedofeita,primary,Primary corridor,dominant,matched_typical,9,none,7.016,1.0
+od_04_secondary_v9,od_04,Matosinhos Sul,Cedofeita,secondary,Parallel corridor,dominant,matched_typical,9,Boavista,7.016,1.0
+od_04_extended_v9,od_04,Matosinhos Sul,Cedofeita,extended,Extended urban route,extended,extended,9,Foz do Douro,8.916,1.271
+od_04_long_alternative_1_v9,od_04,Matosinhos Sul,Cedofeita,long_alternative_1,Long alternative I,long_alternative,long_alternative,9,Paranhos,11.675,1.664
+od_04_long_alternative_2_v9,od_04,Matosinhos Sul,Cedofeita,long_alternative_2,Long alternative II,long_alternative,long_alternative,9,Vila Nova de Gaia,14.349,2.045
+od_04_primary_v10,od_04,Matosinhos Sul,Cedofeita,primary,Primary corridor,dominant,matched_typical,10,none,8.073,1.0
+od_04_secondary_v10,od_04,Matosinhos Sul,Cedofeita,secondary,Parallel corridor,dominant,matched_typical,10,Boavista,8.199,1.016
+od_04_extended_v10,od_04,Matosinhos Sul,Cedofeita,extended,Extended urban route,extended,extended,10,Foz do Douro,10.119,1.253
+od_04_long_alternative_1_v10,od_04,Matosinhos Sul,Cedofeita,long_alternative_1,Long alternative I,long_alternative,long_alternative,10,Paranhos,11.529,1.428
+od_04_long_alternative_2_v10,od_04,Matosinhos Sul,Cedofeita,long_alternative_2,Long alternative II,long_alternative,long_alternative,10,Vila Nova de Gaia,14.518,1.798

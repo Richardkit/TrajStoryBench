@@ -1,0 +1,25 @@
+delivery_task_id,courier_id,trajectory_id,accept_time,acceptance_order,completion_time,completion_order,pending_count_before_completion,acceptance_rank_among_pending,proximity_rank_among_pending,distance_from_courier_before_completion_km,gps_travel_distance_to_task_km,priority_regime,decision_lng,decision_lat,delivery_lng,delivery_lat
+L16_D001,courier_lade_16,lade16_priority_day_01,2026-07-22 08:00:15,1,2026-07-22 09:45:00,9,16,1,3,3.7997,4.0636,high_pending_proximity_emphasis,121.440148,31.221337,121.430859,31.246341
+L16_D002,courier_lade_16,lade16_priority_day_01,2026-07-22 08:01:18,2,2026-07-22 11:03:45,17,8,1,8,9.1667,9.1115,low_pending_age_emphasis,121.451555,31.255372,121.46468,31.226375
+L16_D003,courier_lade_16,lade16_priority_day_01,2026-07-22 08:02:42,3,2026-07-22 11:17:41,18,7,1,5,3.746,3.7404,low_pending_age_emphasis,121.46468,31.226375,121.454046,31.254374
+L16_D004,courier_lade_16,lade16_priority_day_01,2026-07-22 08:03:50,4,2026-07-22 08:50:40,3,22,4,1,0.3791,0.3531,high_pending_proximity_emphasis,121.441928,31.222607,121.444595,31.22185
+L16_D005,courier_lade_16,lade16_priority_day_01,2026-07-22 08:16:52,15,2026-07-22 09:05:47,5,20,13,1,0.2707,0.2702,high_pending_proximity_emphasis,121.463741,31.225779,121.466336,31.226763
+L16_D006,courier_lade_16,lade16_priority_day_01,2026-07-22 08:06:28,6,2026-07-22 10:32:14,16,9,3,1,0.8329,0.9444,high_pending_proximity_emphasis,121.448311,31.254667,121.451555,31.255372
+L16_D007,courier_lade_16,lade16_priority_day_01,2026-07-22 08:07:14,7,2026-07-22 08:44:33,1,24,7,1,1.2532,1.2412,high_pending_proximity_emphasis,121.444116,31.212368,121.441376,31.221855
+L16_D008,courier_lade_16,lade16_priority_day_01,2026-07-22 08:08:53,8,2026-07-22 11:37:01,20,5,1,2,0.7614,0.7334,low_pending_age_emphasis,121.46964,31.243505,121.470159,31.244272
+L16_D009,courier_lade_16,lade16_priority_day_01,2026-07-22 08:09:52,9,2026-07-22 10:19:21,14,11,5,2,3.4836,3.4052,high_pending_proximity_emphasis,121.434902,31.248331,121.45006,31.254612
+L16_D010,courier_lade_16,lade16_priority_day_01,2026-07-22 08:11:05,10,2026-07-22 09:30:49,8,17,8,1,3.1201,3.0788,high_pending_proximity_emphasis,121.46753,31.224929,121.440148,31.221337
+L16_D011,courier_lade_16,lade16_priority_day_01,2026-07-22 08:12:13,11,2026-07-22 11:30:25,19,6,2,4,3.3415,3.2787,low_pending_age_emphasis,121.454046,31.254374,121.46964,31.243505
+L16_D012,courier_lade_16,lade16_priority_day_01,2026-07-22 08:13:26,12,2026-07-22 10:00:03,12,13,7,1,0.9765,0.943,high_pending_proximity_emphasis,121.435561,31.24795,121.433692,31.249256
+L16_D013,courier_lade_16,lade16_priority_day_01,2026-07-22 08:14:53,13,2026-07-22 12:10:45,21,4,1,4,8.3532,8.448,low_pending_age_emphasis,121.470159,31.244272,121.438031,31.221445
+L16_D014,courier_lade_16,lade16_priority_day_01,2026-07-22 08:15:48,14,2026-07-22 12:35:25,23,2,1,1,1.0257,0.945,low_pending_age_emphasis,121.468235,31.245366,121.473271,31.245283
+L16_D015,courier_lade_16,lade16_priority_day_01,2026-07-22 08:05:10,5,2026-07-22 09:53:49,11,14,3,1,0.5035,0.4982,high_pending_proximity_emphasis,121.431711,31.245817,121.435561,31.24795
+L16_D016,courier_lade_16,lade16_priority_day_01,2026-07-22 08:18:08,16,2026-07-22 09:12:45,6,19,13,1,1.6459,1.6117,high_pending_proximity_emphasis,121.466336,31.226763,121.467225,31.224845
+L16_D017,courier_lade_16,lade16_priority_day_01,2026-07-22 08:19:33,17,2026-07-22 12:29:20,22,3,2,1,5.6032,5.5551,low_pending_age_emphasis,121.438031,31.221445,121.468235,31.245366
+L16_D018,courier_lade_16,lade16_priority_day_01,2026-07-22 08:20:42,18,2026-07-22 10:04:33,13,12,10,1,0.2141,0.2083,high_pending_proximity_emphasis,121.433692,31.249256,121.434902,31.248331
+L16_D019,courier_lade_16,lade16_priority_day_01,2026-07-22 08:21:59,19,2026-07-22 09:16:02,7,18,15,1,0.0305,0.0305,high_pending_proximity_emphasis,121.467225,31.224845,121.46753,31.224929
+L16_D020,courier_lade_16,lade16_priority_day_01,2026-07-22 08:22:57,20,2026-07-22 10:24:08,15,10,9,1,0.1667,0.1664,high_pending_proximity_emphasis,121.45006,31.254612,121.448311,31.254667
+L16_D021,courier_lade_16,lade16_priority_day_01,2026-07-22 08:24:08,21,2026-07-22 09:47:26,10,15,14,1,0.0998,0.0998,high_pending_proximity_emphasis,121.430859,31.246341,121.431711,31.245817
+L16_D022,courier_lade_16,lade16_priority_day_01,2026-07-22 08:25:39,22,2026-07-22 09:01:32,4,21,20,2,2.1164,2.2665,high_pending_proximity_emphasis,121.444595,31.22185,121.463741,31.225779
+L16_D023,courier_lade_16,lade16_priority_day_01,2026-07-22 08:26:53,23,2026-07-22 12:46:28,24,1,1,1,3.3584,3.3126,low_pending_age_emphasis,121.473271,31.245283,121.456244,31.257232
+L16_D024,courier_lade_16,lade16_priority_day_01,2026-07-22 08:28:03,24,2026-07-22 08:47:45,2,23,23,1,0.1321,0.1207,high_pending_proximity_emphasis,121.441376,31.221855,121.441928,31.222607

@@ -1,0 +1,43 @@
+# Partial specification for data construction.
+# Fill in only the concepts and constraints you want to control.
+# Any omitted IDs, timestamps, GPS points, metrics, or support tables may be
+# added when they are necessary to realize the supplied goal and insights.
+
+pre_schema_version: "1.0"
+
+# Optional one-line context for the constructor.
+domain: "" # e.g., urban_multimodal_mobility
+goal: "Analyze how weekday mobility patterns vary with temperature."
+insights:
+  - "The share of public-transit trajectories increases as temperature rises, but declines in the hottest conditions as the share of motor-vehicle trajectories increases. Cycling maintains a relatively small and stable share across temperature conditions."
+  - "At lower temperatures, the distance distributions of walking, cycling, and motor-vehicle trips partially overlap."
+  - "As temperature rises, average motor-vehicle speed increases, while walking and cycling speeds decrease slightly."
+# Only list core fields that must appear in the final data.
+# Delete unused examples and add as few fields as you need.
+fields:
+  - name: "distance distributions of different transportation modes w.r.t temperatures"
+    semantic_type: "" # categorical | numeric | temporal | spatial | identifier
+    type: float64
+    distribution: Gaussian
+    mean value: ["walking":0.8, "cycling":1.5, "motor vehicle":3.0, "public transit":2.5] 
+  
+  - name: "proportion of motor vehicles w.r.t temperatures"
+    semantic_type: "" # categorical | numeric | temporal | spatial | identifier
+    type: float64
+    specific value: ["temperature = 30°C":0.375]
+  
+  - name: "proportion of public transit w.r.t temperatures"
+    semantic_type: "" # categorical | numeric | temporal | spatial | identifier
+    type: float64
+    specific value: ["temperature = 30°C":0.4]
+
+
+constraints:
+  - "注意分布尽量连续"
+  - "Public-transit mean speed remains stable across temperature groups, with natural trip-level variation; this is not part of Insight 3."
+# Optional prohibitions, for example a sensitive field or an unwanted label.
+# prohibited_fields: []
+
+  # Supplemental observations requested after the initial construction.
+  - "Add four low-temperature walking trips and four cycling trips: two per mode at 5°C and two at 10°C. Retain low-temperature walking distance range 0.835–1.605 km and cycling range 0.455–2.448 km."
+  - "Cycling share must stay between 10% and 12% in every temperature group. Add three motor-vehicle and three public-transit trips at each of 5°C and 10°C, retaining the eight previously added walking/cycling trips."

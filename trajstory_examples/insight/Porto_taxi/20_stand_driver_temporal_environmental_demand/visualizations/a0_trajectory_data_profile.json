@@ -1,0 +1,230 @@
+{
+  "description": "Deterministic A0-style illustration; explicit schema-role mapping, not LLM output.",
+  "source_dir": "/hkfs/work/workspace/scratch/rg5174-ragspace5/rg5174-ragspace3-1780103764/trajstory/trajstory_examples/insight/Porto_taxi/20_stand_driver_temporal_environmental_demand",
+  "tables": {
+    "trajectory_points": {
+      "rows": 352344,
+      "fields": 10,
+      "role_fields": {
+        "Identifiers": [
+          "trajectory_id",
+          "taxi_id",
+          "driver_id"
+        ],
+        "Time / order": [
+          "timestamp",
+          "point_index"
+        ],
+        "Spatial": [
+          "longitude",
+          "latitude"
+        ],
+        "Context": [
+          "request_source",
+          "time_period"
+        ],
+        "Measures": [
+          "speed_kmh"
+        ]
+      },
+      "role_counts": {
+        "Identifiers": 3,
+        "Time / order": 2,
+        "Spatial": 2,
+        "Context": 2,
+        "Measures": 1
+      },
+      "null_cells": 0,
+      "source_sha256": "4d817f80a8b729799fb38ebb4f594f9b0e9c400a847e042ec79a836880bbfdec"
+    },
+    "trips": {
+      "rows": 1200,
+      "fields": 25,
+      "role_fields": {
+        "Identifiers": [
+          "trajectory_id",
+          "driver_id",
+          "matched_weekday_pattern_id",
+          "stand_id"
+        ],
+        "Time / order": [
+          "service_date",
+          "operating_shift_date",
+          "departure_time",
+          "arrival_time",
+          "operating_hour"
+        ],
+        "Spatial": [
+          "origin_longitude",
+          "origin_latitude",
+          "destination_longitude",
+          "destination_latitude"
+        ],
+        "Context": [
+          "day_class",
+          "time_period",
+          "driver_temporal_style",
+          "preholiday_sensitivity",
+          "request_source",
+          "stand_name",
+          "stand_area",
+          "origin_area",
+          "destination_area"
+        ],
+        "Measures": [
+          "trajectory_distance_km",
+          "duration_min",
+          "mean_speed_kmh"
+        ]
+      },
+      "role_counts": {
+        "Identifiers": 4,
+        "Time / order": 5,
+        "Spatial": 4,
+        "Context": 9,
+        "Measures": 3
+      },
+      "null_cells": 0,
+      "source_sha256": "100897966669c42cbd0325919b2d501ff9822da5e3a99deffd234f562fc37c58"
+    },
+    "driver_profiles": {
+      "rows": 20,
+      "fields": 16,
+      "role_fields": {
+        "Identifiers": [
+          "driver_id",
+          "matched_weekday_pattern_id"
+        ],
+        "Time / order": [],
+        "Spatial": [],
+        "Context": [
+          "driver_temporal_style",
+          "preholiday_sensitivity"
+        ],
+        "Measures": [
+          "trip_count",
+          "ordinary_taxi_stand_share",
+          "ordinary_call_center_share",
+          "ordinary_street_hail_share",
+          "preholiday_taxi_stand_share",
+          "preholiday_call_center_share",
+          "preholiday_street_hail_share",
+          "preholiday_mix_total_variation",
+          "daytime_stand_share",
+          "daytime_hail_share",
+          "evening_hail_share",
+          "night_hail_share"
+        ]
+      },
+      "role_counts": {
+        "Identifiers": 2,
+        "Time / order": 0,
+        "Spatial": 0,
+        "Context": 2,
+        "Measures": 12
+      },
+      "null_cells": 0,
+      "source_sha256": "b0b53e702d1d401bd9d12a7c605c7f702748819bbaaae7a58dee1b8e47a56c45"
+    },
+    "taxi_stands": {
+      "rows": 12,
+      "fields": 7,
+      "role_fields": {
+        "Identifiers": [
+          "stand_id"
+        ],
+        "Time / order": [],
+        "Spatial": [
+          "longitude",
+          "latitude"
+        ],
+        "Context": [
+          "stand_name",
+          "area",
+          "location_class"
+        ],
+        "Measures": [
+          "trip_count"
+        ]
+      },
+      "role_counts": {
+        "Identifiers": 1,
+        "Time / order": 0,
+        "Spatial": 2,
+        "Context": 3,
+        "Measures": 1
+      },
+      "null_cells": 0,
+      "source_sha256": "571f178b55a878c673596033d9d33d887181a6b2a36066803176c944f720b2a0"
+    }
+  },
+  "metrics": {
+    "gps_points": 352344,
+    "trips": 1200,
+    "drivers": 20,
+    "stands": 12
+  },
+  "temporal": {
+    "source": "trajectory_points.timestamp",
+    "min": "2014-03-11 08:03:00",
+    "max": "2015-01-01 01:31:14",
+    "observed_calendar_dates": 20,
+    "dates": [
+      "2014-03-11",
+      "2014-03-12",
+      "2014-04-24",
+      "2014-04-25",
+      "2014-05-06",
+      "2014-05-07",
+      "2014-06-09",
+      "2014-06-10",
+      "2014-07-08",
+      "2014-07-09",
+      "2014-08-14",
+      "2014-08-15",
+      "2014-09-16",
+      "2014-09-17",
+      "2014-11-18",
+      "2014-11-19",
+      "2014-12-24",
+      "2014-12-25",
+      "2014-12-31",
+      "2015-01-01"
+    ]
+  },
+  "spatial": {
+    "longitude": {
+      "min": -8.692598,
+      "max": -8.579427
+    },
+    "latitude": {
+      "min": 41.125265,
+      "max": 41.18426
+    }
+  },
+  "key_checks": {
+    "point_trip": {
+      "key": "trajectory_id",
+      "left_rows": 352344,
+      "matched_rows": 352344,
+      "right_key_unique": true,
+      "cardinality": "many_to_one"
+    },
+    "trip_driver": {
+      "key": "driver_id",
+      "left_rows": 1200,
+      "matched_rows": 1200,
+      "right_key_unique": true,
+      "cardinality": "many_to_one"
+    },
+    "trip_stand_applicable": {
+      "key": "stand_id",
+      "left_rows": 445,
+      "matched_rows": 445,
+      "right_key_unique": true,
+      "cardinality": "many_to_one"
+    }
+  },
+  "non_stand_trips_with_not_applicable_id": 755,
+  "note": "Observed dates are not continuous coverage. Field counts describe schema, not demand patterns."
+}

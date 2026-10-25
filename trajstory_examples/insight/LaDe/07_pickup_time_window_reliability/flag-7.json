@@ -1,0 +1,152 @@
+{
+  "dataset_csv_path": "pickup_tasks.csv",
+  "user_dataset_csv_path": "courier_trajectories.csv",
+  "input_references": [
+    {
+      "path": "courier_trajectories.csv",
+      "role": "Time-ordered GPS trajectories of the five couriers, linked by courier_id"
+    },
+    {
+      "path": "regions.csv",
+      "role": "Reference centroids and names for the supplied service regions"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze the pickup-work patterns of multiple couriers from their trajectories and accepted pickup tasks.",
+    "role": "Last-mile pickup operations analyst",
+    "category": "pickup time-window reliability, task timing, and spatial concentration",
+    "header": "Multi-Courier Pickup Time Windows and Reliability",
+    "dataset_description": "This case uses the original LaDe-P field semantics: accept_time, time_window_start, time_window_end, pickup_time, acceptance/pickup GPS positions, region_id, and AOI attributes. Five couriers each have a continuous GPS trajectory and twelve accepted pickup tasks. All reliability and duration outcomes must be computed from the primitive event times.",
+    "source_note": "The case is derived for analysis from LaDe-P pickup field semantics; its compact task selection and trajectory geometry are ."
+  },
+  "insight_list": [
+    {
+      "data_type": "acceptance_time_duration_and_window_reliability",
+      "insight": "Later-accepted pickup tasks are not only completed faster but are also more likely to fall within their promised service windows.",
+      "insight_value": {
+        "earlier_accepted_median_duration_min": 92,
+        "later_accepted_median_duration_min": 22,
+        "earlier_accepted_in_window_rate": "40%",
+        "later_accepted_in_window_rate": "85.7%"
+      },
+      "plot": {
+        "plot_type": "acceptance_time_duration_scatter_and_distribution",
+        "title": "Acceptance Timing, Pickup Duration, and Window Reliability",
+        "file": "visualizations/acceptance_timing_duration_reliability.png",
+        "description": "Task-level acceptance times, actual pickup durations, and window outcomes show the faster, more reliable later-accepted group."
+      },
+      "question": "How do acceptance timing, actual pickup duration, and completion within the planned service window vary together across the pickup tasks?",
+      "code": "import pandas as pd\ntasks = pd.read_csv(dataset_path, parse_dates=['accept_time','time_window_start','time_window_end','pickup_time'])\n# Compute pickup_time - accept_time and classify pickup_time as before, inside, or after [time_window_start, time_window_end]. Then compare earlier and later acceptance periods.",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "accept_time",
+        "pickup_time",
+        "time_window_start",
+        "time_window_end",
+        "task_id"
+      ]
+    },
+    {
+      "data_type": "rapid_completion_reliability_exception",
+      "insight": "Short pickup durations do not necessarily correspond to higher reliability, as some rapidly completed tasks still violate their promised time windows.",
+      "insight_value": {
+        "rapid_threshold_min": 30,
+        "rapid_task_count": 45,
+        "rapid_in_window_rate": "66.7%",
+        "rapid_early_window_violations": 15
+      },
+      "plot": {
+        "plot_type": "duration_group_window_outcome_pies",
+        "title": "Pickup Duration and Time-Window Reliability",
+        "file": "visualizations/rapid_pickup_window_outcomes.png",
+        "description": "Three duration-group pies show that 15 of 45 rapid pickups are early violations, whereas standard-duration pickups are all in-window in this sample."
+      },
+      "question": "Do the shortest pickup durations reliably indicate in-window service, or do rapid time-window violations also occur?",
+      "code": "import pandas as pd\ntasks = pd.read_csv(dataset_path, parse_dates=['accept_time','time_window_start','time_window_end','pickup_time'])\n# Compare acceptance-to-pickup durations for tasks completed before, within, and after their planned windows.",
+      "insight_type": "exception_deviation",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "accept_time",
+        "pickup_time",
+        "time_window_start",
+        "time_window_end",
+        "task_id"
+      ]
+    },
+    {
+      "data_type": "early_vs_late_time_window_violations",
+      "insight": "Time-window violations are driven predominantly by pickups completed before the allowed window rather than by delayed completion.",
+      "insight_value": {
+        "early_violations": 15,
+        "late_violations": 5,
+        "early_violation_share": "75%"
+      },
+      "plot": {
+        "plot_type": "signed_window_boundary_lollipop_plot",
+        "title": "Early versus Late Time-Window Violations",
+        "file": "visualizations/early_vs_late_window_violations.png",
+        "description": "Negative values denote completion before a window begins; positive values denote completion after a window ends."
+      },
+      "question": "Among pickup tasks that violate the planned service window, are violations mainly early completions or delayed completions?",
+      "code": "import pandas as pd\ntasks = pd.read_csv(dataset_path, parse_dates=['time_window_start','time_window_end','pickup_time'])\n# Identify all outside-window pickups and count whether pickup_time is before time_window_start or after time_window_end.",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "pickup_time",
+        "time_window_start",
+        "time_window_end",
+        "task_id"
+      ]
+    },
+    {
+      "data_type": "spatial_concentration_of_early_pickups",
+      "insight": "Early pickups are spatially concentrated in a small set of recurring regions.",
+      "insight_value": {
+        "early_pickup_regions": [
+          "Market District",
+          "Station District",
+          "University District"
+        ],
+        "early_pickup_region_count": 3
+      },
+      "plot": {
+        "plot_type": "courier_trajectory_and_early_pickup_region_map",
+        "title": "Fixed Regions of Early Pickup",
+        "file": "visualizations/early_pickup_regions_map.png",
+        "description": "Courier trajectories provide spatial context; every task completed before its allowed window is located in one of the three highlighted regions."
+      },
+      "question": "Where do pickups completed before their planned windows occur, and are these early completions spatially concentrated?",
+      "code": "import pandas as pd\ntasks = pd.read_csv(dataset_path, parse_dates=['time_window_start','pickup_time'])\nregions = pd.read_csv('regions.csv')\n# Filter pickup_time < time_window_start, group by region_id, and map the filtered task coordinates with the courier trajectories.",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 6,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "pickup_time",
+        "time_window_start",
+        "task_position",
+        "task_id",
+        "gps_position",
+        "courier_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Later-accepted pickup tasks are not only completed faster but are also more likely to fall within their promised service windows.",
+    "Short pickup durations do not necessarily correspond to higher reliability, as some rapidly completed tasks still violate their promised time windows.",
+    "Time-window violations are driven predominantly by pickups completed before the allowed window rather than by delayed completion.",
+    "Early pickups are spatially concentrated in a small set of recurring regions."
+  ],
+  "summary": "Later-accepted pickup tasks in this multi-courier sample are generally shorter and more likely to be completed within their planned windows. However, rapid completion is not always reliable: most violations are early pickups, and all early pickups concentrate in three recurring service regions."
+}

@@ -1,0 +1,4 @@
+location_id,location_name,location_type,lon,lat
+harbour_orion,Harbour Orion,origin harbour,14.1,35.1
+mid_sea_anchorage,Mid-sea Anchorage,intermediate anchorage,14.33,35.08
+harbour_lyra,Harbour Lyra,destination harbour,15.72,35.36

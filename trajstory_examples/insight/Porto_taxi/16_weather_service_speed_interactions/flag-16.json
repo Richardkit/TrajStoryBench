@@ -1,0 +1,103 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/16_weather_service_speed_interactions/trips.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Porto_taxi/16_weather_service_speed_interactions/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/16_weather_service_speed_interactions/trajectory_points.csv",
+      "role": "Dense timestamped GPS observations retaining every Porto OSM road bend"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/16_weather_service_speed_interactions/weather_observations.csv",
+      "role": "Archived hourly Porto weather observations linked to departures"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/16_weather_service_speed_interactions/route_service_reference.csv",
+      "role": "Matched route profiles and service-source descriptions"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze taxi operating patterns under different environmental and service conditions.",
+    "role": "Taxi operations and weather analyst",
+    "category": "Weather-by-service speed interactions",
+    "header": "Porto Taxi Speed across Weather, Service Sources, and Time",
+    "dataset_description": "A constructed set of 360 road-aligned Porto taxi trips organized into 180 dry–rain matched route comparisons. Request source, activity period, archived hourly weather, and dense GPS paths support three complementary speed analyses."
+  },
+  "insight_list": [
+    {
+      "data_type": "matched_weather_activity_speed",
+      "insight": "Rainy trips have lower average speeds than comparable dry trips, with the gap largest during high-activity daytime periods.",
+      "plot": {
+        "plot_type": "boxplot_and_grouped_activity_bar",
+        "file": "visualizations/weather_speed_overall_and_activity.png",
+        "title": "How does rain affect speed overall and across activity levels",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "How does rain affect speed overall and across activity levels?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trajectory_timestamp",
+        "weather",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "weather_speed_change_by_service_source",
+      "insight": "Taxi-stand and call-center trips slow more in rainy periods, while street-hail trips show a smaller change in speed.",
+      "plot": {
+        "plot_type": "grouped_source_speed_bar",
+        "file": "visualizations/rain_speed_change_by_request_source.png",
+        "title": "Which request sources experience the largest rainy-period speed reductions",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "Which request sources experience the largest rainy-period speed reductions?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "group_comparison",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "request_source",
+        "weather",
+        "gps_position",
+        "trajectory_timestamp",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "time_varying_weather_speed_difference",
+      "insight": "Weather-associated speed differences are larger during morning and late-afternoon high-activity periods, but become much smaller during late-night hours.",
+      "plot": {
+        "plot_type": "period_speed_line_and_gap",
+        "file": "visualizations/weather_speed_gap_over_day.png",
+        "title": "How does the rainy–dry speed difference change across the operating day",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "How does the rainy–dry speed difference change across the operating day?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trajectory_timestamp",
+        "weather",
+        "gps_position",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Rainy trips have lower average speeds than comparable dry trips, with the gap largest during high-activity daytime periods.",
+    "Taxi-stand and call-center trips slow more in rainy periods, while street-hail trips show a smaller change in speed.",
+    "Weather-associated speed differences are larger during morning and late-afternoon high-activity periods, but become much smaller during late-night hours."
+  ],
+  "summary": "Rain lowers speed across matched routes, with the strongest reductions during morning and late-afternoon high-activity periods. Taxi-stand and call-center trips exhibit larger rainy slowdowns than street-hail trips, while late-night weather differences are small."
+}

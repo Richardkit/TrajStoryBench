@@ -1,0 +1,122 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/23_campanha_recurrent_corridors/trips.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Porto_taxi/23_campanha_recurrent_corridors/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/23_campanha_recurrent_corridors/trajectory_points.csv",
+      "role": "Dense GPS observations aligned to the cached Porto OSM road graph"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/23_campanha_recurrent_corridors/driver_profiles.csv",
+      "role": "Driver-level sequence or corridor participation metrics"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/23_campanha_recurrent_corridors/location_reference.csv",
+      "role": "Named origin, destination, river, and crossing reference locations"
+    }
+  ],
+  "metadata": {
+    "goal": "Identify recurrent taxi travel along major corridors originating from Campanhã Station.",
+    "role": "Porto taxi trajectory analyst",
+    "category": "Recurrent Campanhã corridors, driver pools, intraday balance, and request sources",
+    "header": "Porto Taxi Example 23",
+    "dataset_description": "A constructed Porto taxi trajectory case with road-routed GPS points and supporting tables designed to evaluate 4 mutually compatible insights."
+  },
+  "insight_list": [
+    {
+      "data_type": "campanha_corridor_structure",
+      "insight": "Campanhã departures split into two recurrent corridors, east toward place A and west toward place B.",
+      "plot": {
+        "plot_type": "actual_route_map_and_count_bar",
+        "file": "visualizations/campanha_two_recurrent_corridors.png",
+        "title": "What recurrent spatial corridors originate from Campanhã Station",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "What recurrent spatial corridors originate from Campanhã Station?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 2,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "corridor_driver_recurrence",
+      "insight": "The place A corridor is served by a smaller recurring driver group, while the place B corridor involves a broader taxi pool.",
+      "plot": {
+        "plot_type": "driver_pool_and_recurrence_bars",
+        "file": "visualizations/corridor_driver_pool_and_recurrence.png",
+        "title": "How do the participating driver pools differ between place A and place B",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "How do the participating driver pools differ between place A and place B?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "group_comparison",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "driver_id",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "corridor_intraday_balance",
+      "insight": "Place A trips are more common earlier in the day, while place B trips become more prominent during late afternoon and evening.",
+      "plot": {
+        "plot_type": "period_share_lines",
+        "file": "visualizations/corridor_share_across_day.png",
+        "title": "How does the balance between place A and place B change across the day",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "How does the balance between place A and place B change across the day?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "departure_time",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "corridor_request_source",
+      "insight": "Taxi-stand trips dominate both corridors, but street-hail trips form a larger evening share on the place B branch.",
+      "plot": {
+        "plot_type": "stacked_source_bars",
+        "file": "visualizations/corridor_request_source_by_time.png",
+        "title": "How do taxi-stand and street-hail shares differ by corridor and time",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "How do taxi-stand and street-hail shares differ by corridor and time?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "request_source",
+        "departure_time",
+        "gps_position",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Campanhã departures split into two recurrent corridors, east toward place A and west toward place B.",
+    "The place A corridor is served by a smaller recurring driver group, while the place B corridor involves a broader taxi pool.",
+    "Place A trips are more common earlier in the day, while place B trips become more prominent during late afternoon and evening.",
+    "Taxi-stand trips dominate both corridors, but street-hail trips form a larger evening share on the place B branch."
+  ],
+  "summary": "Campanhã trips follow distinct eastward and westward branches. The eastern place A branch has a smaller recurrent driver group and is relatively earlier, while place B draws a broader pool, becomes prominent later, and has a larger evening street-hail share."
+}

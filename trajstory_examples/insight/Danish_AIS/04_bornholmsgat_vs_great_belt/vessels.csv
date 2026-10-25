@@ -1,0 +1,37 @@
+vessel_id,corridor,ship_type,cargo_type,draught,length,width
+bornholmsgat_vessel_01,Bornholmsgat,Cargo,Cargo,15.8,180,28
+bornholmsgat_vessel_02,Bornholmsgat,Cargo,Cargo,16.45,180,28
+bornholmsgat_vessel_03,Bornholmsgat,Cargo,Cargo,17.1,180,28
+bornholmsgat_vessel_04,Bornholmsgat,Cargo,Cargo,17.75,180,28
+bornholmsgat_vessel_05,Bornholmsgat,Cargo,Cargo,18.400000000000002,180,28
+bornholmsgat_vessel_06,Bornholmsgat,Cargo,Cargo,15.8,180,28
+bornholmsgat_vessel_07,Bornholmsgat,Cargo,Cargo,16.45,180,28
+bornholmsgat_vessel_08,Bornholmsgat,Cargo,Cargo,17.1,180,28
+bornholmsgat_vessel_09,Bornholmsgat,Cargo,Cargo,17.75,180,28
+bornholmsgat_vessel_10,Bornholmsgat,Cargo,Cargo,18.400000000000002,180,28
+bornholmsgat_vessel_11,Bornholmsgat,Cargo,Cargo,15.8,180,28
+bornholmsgat_vessel_12,Bornholmsgat,Cargo,Cargo,16.45,180,28
+bornholmsgat_vessel_13,Bornholmsgat,Passenger ferry,Passenger,7.2,115,20
+bornholmsgat_vessel_14,Bornholmsgat,Passenger ferry,Passenger,7.6000000000000005,115,20
+bornholmsgat_vessel_15,Bornholmsgat,Passenger ferry,Passenger,8.0,115,20
+bornholmsgat_vessel_16,Bornholmsgat,Service,Other,5.0,115,20
+bornholmsgat_vessel_17,Bornholmsgat,Service,Other,5.5,115,20
+bornholmsgat_vessel_18,Bornholmsgat,Service,Other,6.0,115,20
+greatbelt_cargo_01,Great Belt,Cargo,Cargo,10.0,180,28
+greatbelt_cargo_02,Great Belt,Cargo,Cargo,11.0,180,28
+greatbelt_cargo_03,Great Belt,Cargo,Cargo,12.0,180,28
+greatbelt_cargo_04,Great Belt,Cargo,Cargo,13.0,180,28
+greatbelt_cargo_05,Great Belt,Cargo,Cargo,14.0,180,28
+greatbelt_cargo_06,Great Belt,Cargo,Cargo,10.0,180,28
+greatbelt_cargo_07,Great Belt,Cargo,Cargo,11.0,180,28
+greatbelt_cargo_08,Great Belt,Cargo,Cargo,12.0,180,28
+greatbelt_cargo_09,Great Belt,Cargo,Cargo,13.0,180,28
+greatbelt_cargo_10,Great Belt,Cargo,Cargo,14.0,180,28
+greatbelt_cargo_11,Great Belt,Cargo,Cargo,10.0,180,28
+greatbelt_cargo_12,Great Belt,Cargo,Cargo,11.0,180,28
+greatbelt_cargo_13,Great Belt,Cargo,Cargo,12.0,180,28
+greatbelt_cargo_14,Great Belt,Cargo,Cargo,13.0,180,28
+greatbelt_cargo_15,Great Belt,Cargo,Cargo,14.0,180,28
+greatbelt_ferry_01,Great Belt,Passenger ferry,Passenger,8.0,115,20
+greatbelt_service_01,Great Belt,Service,Other,4.8,115,20
+greatbelt_service_02,Great Belt,Service,Other,5.3,115,20

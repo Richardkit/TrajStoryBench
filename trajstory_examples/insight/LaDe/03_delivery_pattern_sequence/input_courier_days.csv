@@ -1,0 +1,7 @@
+case_courier_id,source_postman_id,city,ds,case_description
+courier_constructed_03,lade_constructed_user_03,Shanghai,20250324,Repeated courier-day with two sparse receipt batches and one dense interleaved period
+courier_constructed_03,lade_constructed_user_03,Shanghai,20250325,Repeated courier-day with two sparse receipt batches and one dense interleaved period
+courier_constructed_03,lade_constructed_user_03,Shanghai,20250326,Repeated courier-day with two sparse receipt batches and one dense interleaved period
+courier_constructed_03,lade_constructed_user_03,Shanghai,20250327,Repeated courier-day with two sparse receipt batches and one dense interleaved period
+courier_constructed_03,lade_constructed_user_03,Shanghai,20250328,Repeated courier-day with two sparse receipt batches and one dense interleaved period
+courier_constructed_03,lade_constructed_user_03,Shanghai,20250329,Repeated courier-day with two sparse receipt batches and one dense interleaved period

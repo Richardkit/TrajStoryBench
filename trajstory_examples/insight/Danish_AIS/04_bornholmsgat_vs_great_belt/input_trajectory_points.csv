@@ -1,0 +1,577 @@
+trajectory_id,vessel_id,timestamp,point_index,lat,lon,sog,cog,heading,ship_type,cargo_type,draught,nav_status
+bornholmsgat_vessel_01_track,bornholmsgat_vessel_01,2026-07-24 06:00:00,0,55.162,14.1,0.0,58.5,58.5,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_01_track,bornholmsgat_vessel_01,2026-07-24 06:06:00,1,55.176,14.14,12.0,58.5,58.5,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_01_track,bornholmsgat_vessel_01,2026-07-24 06:12:00,2,55.19,14.18,12.0,58.5,58.5,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_01_track,bornholmsgat_vessel_01,2026-07-24 06:18:00,3,55.204,14.22,12.0,58.4,58.4,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_01_track,bornholmsgat_vessel_01,2026-07-24 06:24:00,4,55.218,14.26,12.0,58.4,58.4,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_01_track,bornholmsgat_vessel_01,2026-07-24 06:30:00,5,55.232,14.3,12.0,56.2,56.2,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_01_track,bornholmsgat_vessel_01,2026-07-24 06:36:00,6,55.25,14.344,12.0,54.3,54.3,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_01_track,bornholmsgat_vessel_01,2026-07-24 06:42:00,7,55.268,14.388,12.0,54.3,54.3,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_01_track,bornholmsgat_vessel_01,2026-07-24 06:48:00,8,55.286,14.432,12.0,54.3,54.3,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_01_track,bornholmsgat_vessel_01,2026-07-24 06:54:00,9,55.304,14.476,12.0,54.3,54.3,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_01_track,bornholmsgat_vessel_01,2026-07-24 07:00:00,10,55.322,14.52,12.0,54.9,54.9,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_01_track,bornholmsgat_vessel_01,2026-07-24 07:06:00,11,55.34,14.566,12.0,55.4,55.4,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_01_track,bornholmsgat_vessel_01,2026-07-24 07:12:00,12,55.358,14.612,12.0,55.4,55.4,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_01_track,bornholmsgat_vessel_01,2026-07-24 07:18:00,13,55.376,14.658,12.0,55.4,55.4,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_01_track,bornholmsgat_vessel_01,2026-07-24 07:24:00,14,55.394,14.704,12.0,55.4,55.4,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_01_track,bornholmsgat_vessel_01,2026-07-24 07:30:00,15,55.412,14.75,12.0,55.4,55.4,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_02_track,bornholmsgat_vessel_02,2026-07-24 06:21:00,0,55.169,14.1,0.0,58.5,58.5,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_02_track,bornholmsgat_vessel_02,2026-07-24 06:27:00,1,55.183,14.14,12.0,58.5,58.5,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_02_track,bornholmsgat_vessel_02,2026-07-24 06:33:00,2,55.197,14.18,12.0,58.4,58.4,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_02_track,bornholmsgat_vessel_02,2026-07-24 06:39:00,3,55.211,14.22,12.0,58.4,58.4,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_02_track,bornholmsgat_vessel_02,2026-07-24 06:45:00,4,55.225,14.26,12.0,58.4,58.4,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_02_track,bornholmsgat_vessel_02,2026-07-24 06:51:00,5,55.239,14.3,12.0,56.2,56.2,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_02_track,bornholmsgat_vessel_02,2026-07-24 06:57:00,6,55.257,14.344,12.0,54.3,54.3,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_02_track,bornholmsgat_vessel_02,2026-07-24 07:03:00,7,55.275,14.388,12.0,54.3,54.3,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_02_track,bornholmsgat_vessel_02,2026-07-24 07:09:00,8,55.293,14.432,12.0,54.3,54.3,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_02_track,bornholmsgat_vessel_02,2026-07-24 07:15:00,9,55.311,14.476,12.0,54.3,54.3,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_02_track,bornholmsgat_vessel_02,2026-07-24 07:21:00,10,55.329,14.52,12.0,54.8,54.8,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_02_track,bornholmsgat_vessel_02,2026-07-24 07:27:00,11,55.347,14.566,12.0,55.4,55.4,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_02_track,bornholmsgat_vessel_02,2026-07-24 07:33:00,12,55.365,14.612,12.0,55.4,55.4,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_02_track,bornholmsgat_vessel_02,2026-07-24 07:39:00,13,55.383,14.658,12.0,55.4,55.4,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_02_track,bornholmsgat_vessel_02,2026-07-24 07:45:00,14,55.401,14.704,12.0,55.4,55.4,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_02_track,bornholmsgat_vessel_02,2026-07-24 07:51:00,15,55.419,14.75,12.0,55.4,55.4,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_03_track,bornholmsgat_vessel_03,2026-07-24 06:42:00,0,55.176,14.1,0.0,58.5,58.5,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_03_track,bornholmsgat_vessel_03,2026-07-24 06:48:00,1,55.19,14.14,12.0,58.5,58.5,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_03_track,bornholmsgat_vessel_03,2026-07-24 06:54:00,2,55.204,14.18,12.0,58.4,58.4,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_03_track,bornholmsgat_vessel_03,2026-07-24 07:00:00,3,55.218,14.22,12.0,58.4,58.4,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_03_track,bornholmsgat_vessel_03,2026-07-24 07:06:00,4,55.232,14.26,12.0,58.4,58.4,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_03_track,bornholmsgat_vessel_03,2026-07-24 07:12:00,5,55.246,14.3,12.0,56.2,56.2,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_03_track,bornholmsgat_vessel_03,2026-07-24 07:18:00,6,55.264,14.344,12.0,54.3,54.3,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_03_track,bornholmsgat_vessel_03,2026-07-24 07:24:00,7,55.282,14.388,12.0,54.3,54.3,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_03_track,bornholmsgat_vessel_03,2026-07-24 07:30:00,8,55.3,14.432,12.0,54.3,54.3,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_03_track,bornholmsgat_vessel_03,2026-07-24 07:36:00,9,55.318,14.476,12.0,54.3,54.3,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_03_track,bornholmsgat_vessel_03,2026-07-24 07:42:00,10,55.336,14.52,12.0,54.8,54.8,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_03_track,bornholmsgat_vessel_03,2026-07-24 07:48:00,11,55.354,14.566,12.0,55.4,55.4,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_03_track,bornholmsgat_vessel_03,2026-07-24 07:54:00,12,55.372,14.612,12.0,55.4,55.4,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_03_track,bornholmsgat_vessel_03,2026-07-24 08:00:00,13,55.39,14.658,12.0,55.4,55.4,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_03_track,bornholmsgat_vessel_03,2026-07-24 08:06:00,14,55.408,14.704,12.0,55.4,55.4,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_03_track,bornholmsgat_vessel_03,2026-07-24 08:12:00,15,55.426,14.75,12.0,55.4,55.4,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_04_track,bornholmsgat_vessel_04,2026-07-24 07:03:00,0,55.183,14.1,0.0,58.5,58.5,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_04_track,bornholmsgat_vessel_04,2026-07-24 07:09:00,1,55.197,14.14,12.0,58.4,58.4,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_04_track,bornholmsgat_vessel_04,2026-07-24 07:15:00,2,55.211,14.18,12.0,58.4,58.4,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_04_track,bornholmsgat_vessel_04,2026-07-24 07:21:00,3,55.225,14.22,12.0,58.4,58.4,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_04_track,bornholmsgat_vessel_04,2026-07-24 07:27:00,4,55.239,14.26,12.0,58.4,58.4,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_04_track,bornholmsgat_vessel_04,2026-07-24 07:33:00,5,55.253,14.3,12.0,56.2,56.2,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_04_track,bornholmsgat_vessel_04,2026-07-24 07:39:00,6,55.271,14.344,12.0,54.3,54.3,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_04_track,bornholmsgat_vessel_04,2026-07-24 07:45:00,7,55.289,14.388,12.0,54.3,54.3,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_04_track,bornholmsgat_vessel_04,2026-07-24 07:51:00,8,55.307,14.432,12.0,54.3,54.3,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_04_track,bornholmsgat_vessel_04,2026-07-24 07:57:00,9,55.325,14.476,12.0,54.2,54.2,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_04_track,bornholmsgat_vessel_04,2026-07-24 08:03:00,10,55.343,14.52,12.0,54.8,54.8,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_04_track,bornholmsgat_vessel_04,2026-07-24 08:09:00,11,55.361,14.566,12.0,55.4,55.4,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_04_track,bornholmsgat_vessel_04,2026-07-24 08:15:00,12,55.379,14.612,12.0,55.4,55.4,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_04_track,bornholmsgat_vessel_04,2026-07-24 08:21:00,13,55.397,14.658,12.0,55.4,55.4,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_04_track,bornholmsgat_vessel_04,2026-07-24 08:27:00,14,55.415,14.704,12.0,55.4,55.4,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_04_track,bornholmsgat_vessel_04,2026-07-24 08:33:00,15,55.433,14.75,12.0,55.4,55.4,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_05_track,bornholmsgat_vessel_05,2026-07-24 07:24:00,0,55.19,14.1,0.0,58.5,58.5,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_05_track,bornholmsgat_vessel_05,2026-07-24 07:30:00,1,55.204,14.14,12.0,58.4,58.4,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_05_track,bornholmsgat_vessel_05,2026-07-24 07:36:00,2,55.218,14.18,12.0,58.4,58.4,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_05_track,bornholmsgat_vessel_05,2026-07-24 07:42:00,3,55.232,14.22,12.0,58.4,58.4,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_05_track,bornholmsgat_vessel_05,2026-07-24 07:48:00,4,55.246,14.26,12.0,58.4,58.4,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_05_track,bornholmsgat_vessel_05,2026-07-24 07:54:00,5,55.26,14.3,12.0,56.2,56.2,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_05_track,bornholmsgat_vessel_05,2026-07-24 08:00:00,6,55.278,14.344,12.0,54.3,54.3,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_05_track,bornholmsgat_vessel_05,2026-07-24 08:06:00,7,55.296,14.388,12.0,54.3,54.3,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_05_track,bornholmsgat_vessel_05,2026-07-24 08:12:00,8,55.314,14.432,12.0,54.3,54.3,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_05_track,bornholmsgat_vessel_05,2026-07-24 08:18:00,9,55.332,14.476,12.0,54.2,54.2,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_05_track,bornholmsgat_vessel_05,2026-07-24 08:24:00,10,55.35,14.52,12.0,54.8,54.8,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_05_track,bornholmsgat_vessel_05,2026-07-24 08:30:00,11,55.368,14.566,12.0,55.4,55.4,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_05_track,bornholmsgat_vessel_05,2026-07-24 08:36:00,12,55.386,14.612,12.0,55.4,55.4,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_05_track,bornholmsgat_vessel_05,2026-07-24 08:42:00,13,55.404,14.658,12.0,55.4,55.4,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_05_track,bornholmsgat_vessel_05,2026-07-24 08:48:00,14,55.422,14.704,12.0,55.4,55.4,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_05_track,bornholmsgat_vessel_05,2026-07-24 08:54:00,15,55.44,14.75,12.0,55.4,55.4,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_06_track,bornholmsgat_vessel_06,2026-07-24 07:45:00,0,55.197,14.1,0.0,58.5,58.5,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_06_track,bornholmsgat_vessel_06,2026-07-24 07:51:00,1,55.211,14.14,12.0,58.4,58.4,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_06_track,bornholmsgat_vessel_06,2026-07-24 07:57:00,2,55.225,14.18,12.0,58.4,58.4,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_06_track,bornholmsgat_vessel_06,2026-07-24 08:03:00,3,55.239,14.22,12.0,58.4,58.4,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_06_track,bornholmsgat_vessel_06,2026-07-24 08:09:00,4,55.253,14.26,12.0,58.4,58.4,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_06_track,bornholmsgat_vessel_06,2026-07-24 08:15:00,5,55.267,14.3,12.0,56.2,56.2,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_06_track,bornholmsgat_vessel_06,2026-07-24 08:21:00,6,55.285,14.344,12.0,54.3,54.3,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_06_track,bornholmsgat_vessel_06,2026-07-24 08:27:00,7,55.303,14.388,12.0,54.3,54.3,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_06_track,bornholmsgat_vessel_06,2026-07-24 08:33:00,8,55.321,14.432,12.0,54.2,54.2,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_06_track,bornholmsgat_vessel_06,2026-07-24 08:39:00,9,55.339,14.476,12.0,54.2,54.2,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_06_track,bornholmsgat_vessel_06,2026-07-24 08:45:00,10,55.357,14.52,12.0,54.8,54.8,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_06_track,bornholmsgat_vessel_06,2026-07-24 08:51:00,11,55.375,14.566,12.0,55.4,55.4,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_06_track,bornholmsgat_vessel_06,2026-07-24 08:57:00,12,55.393,14.612,12.0,55.4,55.4,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_06_track,bornholmsgat_vessel_06,2026-07-24 09:03:00,13,55.411,14.658,12.0,55.4,55.4,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_06_track,bornholmsgat_vessel_06,2026-07-24 09:09:00,14,55.429,14.704,12.0,55.4,55.4,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_06_track,bornholmsgat_vessel_06,2026-07-24 09:15:00,15,55.447,14.75,12.0,55.4,55.4,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_07_track,bornholmsgat_vessel_07,2026-07-24 06:00:00,0,55.412,14.75,0.0,235.4,235.4,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_07_track,bornholmsgat_vessel_07,2026-07-24 06:06:00,1,55.394,14.704,12.0,235.5,235.5,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_07_track,bornholmsgat_vessel_07,2026-07-24 06:12:00,2,55.376,14.658,12.0,235.5,235.5,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_07_track,bornholmsgat_vessel_07,2026-07-24 06:18:00,3,55.358,14.612,12.0,235.5,235.5,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_07_track,bornholmsgat_vessel_07,2026-07-24 06:24:00,4,55.34,14.566,12.0,235.5,235.5,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_07_track,bornholmsgat_vessel_07,2026-07-24 06:30:00,5,55.322,14.52,12.0,234.9,234.9,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_07_track,bornholmsgat_vessel_07,2026-07-24 06:36:00,6,55.304,14.476,12.0,234.3,234.3,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_07_track,bornholmsgat_vessel_07,2026-07-24 06:42:00,7,55.286,14.432,12.0,234.3,234.3,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_07_track,bornholmsgat_vessel_07,2026-07-24 06:48:00,8,55.268,14.388,12.0,234.4,234.4,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_07_track,bornholmsgat_vessel_07,2026-07-24 06:54:00,9,55.25,14.344,12.0,234.4,234.4,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_07_track,bornholmsgat_vessel_07,2026-07-24 07:00:00,10,55.232,14.3,12.0,236.3,236.3,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_07_track,bornholmsgat_vessel_07,2026-07-24 07:06:00,11,55.218,14.26,12.0,238.5,238.5,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_07_track,bornholmsgat_vessel_07,2026-07-24 07:12:00,12,55.204,14.22,12.0,238.5,238.5,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_07_track,bornholmsgat_vessel_07,2026-07-24 07:18:00,13,55.19,14.18,12.0,238.5,238.5,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_07_track,bornholmsgat_vessel_07,2026-07-24 07:24:00,14,55.176,14.14,12.0,238.5,238.5,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_07_track,bornholmsgat_vessel_07,2026-07-24 07:30:00,15,55.162,14.1,12.0,238.5,238.5,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_08_track,bornholmsgat_vessel_08,2026-07-24 06:21:00,0,55.419,14.75,0.0,235.4,235.4,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_08_track,bornholmsgat_vessel_08,2026-07-24 06:27:00,1,55.401,14.704,12.0,235.5,235.5,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_08_track,bornholmsgat_vessel_08,2026-07-24 06:33:00,2,55.383,14.658,12.0,235.5,235.5,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_08_track,bornholmsgat_vessel_08,2026-07-24 06:39:00,3,55.365,14.612,12.0,235.5,235.5,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_08_track,bornholmsgat_vessel_08,2026-07-24 06:45:00,4,55.347,14.566,12.0,235.5,235.5,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_08_track,bornholmsgat_vessel_08,2026-07-24 06:51:00,5,55.329,14.52,12.0,234.9,234.9,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_08_track,bornholmsgat_vessel_08,2026-07-24 06:57:00,6,55.311,14.476,12.0,234.3,234.3,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_08_track,bornholmsgat_vessel_08,2026-07-24 07:03:00,7,55.293,14.432,12.0,234.3,234.3,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_08_track,bornholmsgat_vessel_08,2026-07-24 07:09:00,8,55.275,14.388,12.0,234.4,234.4,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_08_track,bornholmsgat_vessel_08,2026-07-24 07:15:00,9,55.257,14.344,12.0,234.4,234.4,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_08_track,bornholmsgat_vessel_08,2026-07-24 07:21:00,10,55.239,14.3,12.0,236.3,236.3,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_08_track,bornholmsgat_vessel_08,2026-07-24 07:27:00,11,55.225,14.26,12.0,238.5,238.5,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_08_track,bornholmsgat_vessel_08,2026-07-24 07:33:00,12,55.211,14.22,12.0,238.5,238.5,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_08_track,bornholmsgat_vessel_08,2026-07-24 07:39:00,13,55.197,14.18,12.0,238.5,238.5,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_08_track,bornholmsgat_vessel_08,2026-07-24 07:45:00,14,55.183,14.14,12.0,238.5,238.5,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_08_track,bornholmsgat_vessel_08,2026-07-24 07:51:00,15,55.169,14.1,12.0,238.5,238.5,Cargo,Cargo,17.1,Under way using engine
+bornholmsgat_vessel_09_track,bornholmsgat_vessel_09,2026-07-24 06:42:00,0,55.426,14.75,0.0,235.4,235.4,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_09_track,bornholmsgat_vessel_09,2026-07-24 06:48:00,1,55.408,14.704,12.0,235.5,235.5,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_09_track,bornholmsgat_vessel_09,2026-07-24 06:54:00,2,55.39,14.658,12.0,235.5,235.5,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_09_track,bornholmsgat_vessel_09,2026-07-24 07:00:00,3,55.372,14.612,12.0,235.5,235.5,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_09_track,bornholmsgat_vessel_09,2026-07-24 07:06:00,4,55.354,14.566,12.0,235.5,235.5,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_09_track,bornholmsgat_vessel_09,2026-07-24 07:12:00,5,55.336,14.52,12.0,234.9,234.9,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_09_track,bornholmsgat_vessel_09,2026-07-24 07:18:00,6,55.318,14.476,12.0,234.3,234.3,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_09_track,bornholmsgat_vessel_09,2026-07-24 07:24:00,7,55.3,14.432,12.0,234.3,234.3,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_09_track,bornholmsgat_vessel_09,2026-07-24 07:30:00,8,55.282,14.388,12.0,234.3,234.3,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_09_track,bornholmsgat_vessel_09,2026-07-24 07:36:00,9,55.264,14.344,12.0,234.4,234.4,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_09_track,bornholmsgat_vessel_09,2026-07-24 07:42:00,10,55.246,14.3,12.0,236.3,236.3,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_09_track,bornholmsgat_vessel_09,2026-07-24 07:48:00,11,55.232,14.26,12.0,238.5,238.5,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_09_track,bornholmsgat_vessel_09,2026-07-24 07:54:00,12,55.218,14.22,12.0,238.5,238.5,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_09_track,bornholmsgat_vessel_09,2026-07-24 08:00:00,13,55.204,14.18,12.0,238.5,238.5,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_09_track,bornholmsgat_vessel_09,2026-07-24 08:06:00,14,55.19,14.14,12.0,238.5,238.5,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_09_track,bornholmsgat_vessel_09,2026-07-24 08:12:00,15,55.176,14.1,12.0,238.5,238.5,Cargo,Cargo,17.75,Under way using engine
+bornholmsgat_vessel_10_track,bornholmsgat_vessel_10,2026-07-24 07:03:00,0,55.433,14.75,0.0,235.4,235.4,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_10_track,bornholmsgat_vessel_10,2026-07-24 07:09:00,1,55.415,14.704,12.0,235.5,235.5,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_10_track,bornholmsgat_vessel_10,2026-07-24 07:15:00,2,55.397,14.658,12.0,235.5,235.5,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_10_track,bornholmsgat_vessel_10,2026-07-24 07:21:00,3,55.379,14.612,12.0,235.5,235.5,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_10_track,bornholmsgat_vessel_10,2026-07-24 07:27:00,4,55.361,14.566,12.0,235.5,235.5,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_10_track,bornholmsgat_vessel_10,2026-07-24 07:33:00,5,55.343,14.52,12.0,234.9,234.9,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_10_track,bornholmsgat_vessel_10,2026-07-24 07:39:00,6,55.325,14.476,12.0,234.3,234.3,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_10_track,bornholmsgat_vessel_10,2026-07-24 07:45:00,7,55.307,14.432,12.0,234.3,234.3,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_10_track,bornholmsgat_vessel_10,2026-07-24 07:51:00,8,55.289,14.388,12.0,234.3,234.3,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_10_track,bornholmsgat_vessel_10,2026-07-24 07:57:00,9,55.271,14.344,12.0,234.4,234.4,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_10_track,bornholmsgat_vessel_10,2026-07-24 08:03:00,10,55.253,14.3,12.0,236.3,236.3,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_10_track,bornholmsgat_vessel_10,2026-07-24 08:09:00,11,55.239,14.26,12.0,238.5,238.5,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_10_track,bornholmsgat_vessel_10,2026-07-24 08:15:00,12,55.225,14.22,12.0,238.5,238.5,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_10_track,bornholmsgat_vessel_10,2026-07-24 08:21:00,13,55.211,14.18,12.0,238.5,238.5,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_10_track,bornholmsgat_vessel_10,2026-07-24 08:27:00,14,55.197,14.14,12.0,238.5,238.5,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_10_track,bornholmsgat_vessel_10,2026-07-24 08:33:00,15,55.183,14.1,12.0,238.5,238.5,Cargo,Cargo,18.400000000000002,Under way using engine
+bornholmsgat_vessel_11_track,bornholmsgat_vessel_11,2026-07-24 07:24:00,0,55.44,14.75,0.0,235.4,235.4,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_11_track,bornholmsgat_vessel_11,2026-07-24 07:30:00,1,55.422,14.704,12.0,235.5,235.5,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_11_track,bornholmsgat_vessel_11,2026-07-24 07:36:00,2,55.404,14.658,12.0,235.5,235.5,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_11_track,bornholmsgat_vessel_11,2026-07-24 07:42:00,3,55.386,14.612,12.0,235.5,235.5,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_11_track,bornholmsgat_vessel_11,2026-07-24 07:48:00,4,55.368,14.566,12.0,235.5,235.5,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_11_track,bornholmsgat_vessel_11,2026-07-24 07:54:00,5,55.35,14.52,12.0,234.9,234.9,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_11_track,bornholmsgat_vessel_11,2026-07-24 08:00:00,6,55.332,14.476,12.0,234.3,234.3,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_11_track,bornholmsgat_vessel_11,2026-07-24 08:06:00,7,55.314,14.432,12.0,234.3,234.3,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_11_track,bornholmsgat_vessel_11,2026-07-24 08:12:00,8,55.296,14.388,12.0,234.3,234.3,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_11_track,bornholmsgat_vessel_11,2026-07-24 08:18:00,9,55.278,14.344,12.0,234.3,234.3,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_11_track,bornholmsgat_vessel_11,2026-07-24 08:24:00,10,55.26,14.3,12.0,236.3,236.3,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_11_track,bornholmsgat_vessel_11,2026-07-24 08:30:00,11,55.246,14.26,12.0,238.5,238.5,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_11_track,bornholmsgat_vessel_11,2026-07-24 08:36:00,12,55.232,14.22,12.0,238.5,238.5,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_11_track,bornholmsgat_vessel_11,2026-07-24 08:42:00,13,55.218,14.18,12.0,238.5,238.5,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_11_track,bornholmsgat_vessel_11,2026-07-24 08:48:00,14,55.204,14.14,12.0,238.5,238.5,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_11_track,bornholmsgat_vessel_11,2026-07-24 08:54:00,15,55.19,14.1,12.0,238.5,238.5,Cargo,Cargo,15.8,Under way using engine
+bornholmsgat_vessel_12_track,bornholmsgat_vessel_12,2026-07-24 07:45:00,0,55.447,14.75,0.0,235.4,235.4,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_12_track,bornholmsgat_vessel_12,2026-07-24 07:51:00,1,55.429,14.704,12.0,235.4,235.4,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_12_track,bornholmsgat_vessel_12,2026-07-24 07:57:00,2,55.411,14.658,12.0,235.5,235.5,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_12_track,bornholmsgat_vessel_12,2026-07-24 08:03:00,3,55.393,14.612,12.0,235.5,235.5,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_12_track,bornholmsgat_vessel_12,2026-07-24 08:09:00,4,55.375,14.566,12.0,235.5,235.5,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_12_track,bornholmsgat_vessel_12,2026-07-24 08:15:00,5,55.357,14.52,12.0,234.9,234.9,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_12_track,bornholmsgat_vessel_12,2026-07-24 08:21:00,6,55.339,14.476,12.0,234.3,234.3,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_12_track,bornholmsgat_vessel_12,2026-07-24 08:27:00,7,55.321,14.432,12.0,234.3,234.3,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_12_track,bornholmsgat_vessel_12,2026-07-24 08:33:00,8,55.303,14.388,12.0,234.3,234.3,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_12_track,bornholmsgat_vessel_12,2026-07-24 08:39:00,9,55.285,14.344,12.0,234.3,234.3,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_12_track,bornholmsgat_vessel_12,2026-07-24 08:45:00,10,55.267,14.3,12.0,236.3,236.3,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_12_track,bornholmsgat_vessel_12,2026-07-24 08:51:00,11,55.253,14.26,12.0,238.5,238.5,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_12_track,bornholmsgat_vessel_12,2026-07-24 08:57:00,12,55.239,14.22,12.0,238.5,238.5,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_12_track,bornholmsgat_vessel_12,2026-07-24 09:03:00,13,55.225,14.18,12.0,238.5,238.5,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_12_track,bornholmsgat_vessel_12,2026-07-24 09:09:00,14,55.211,14.14,12.0,238.5,238.5,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_12_track,bornholmsgat_vessel_12,2026-07-24 09:15:00,15,55.197,14.1,12.0,238.5,238.5,Cargo,Cargo,16.45,Under way using engine
+bornholmsgat_vessel_13_track,bornholmsgat_vessel_13,2026-07-24 06:00:00,0,55.172,14.1,0.0,58.5,58.5,Passenger ferry,Passenger,7.2,Under way using engine
+bornholmsgat_vessel_13_track,bornholmsgat_vessel_13,2026-07-24 06:06:00,1,55.186,14.14,17.0,58.5,58.5,Passenger ferry,Passenger,7.2,Under way using engine
+bornholmsgat_vessel_13_track,bornholmsgat_vessel_13,2026-07-24 06:12:00,2,55.2,14.18,17.0,58.4,58.4,Passenger ferry,Passenger,7.2,Under way using engine
+bornholmsgat_vessel_13_track,bornholmsgat_vessel_13,2026-07-24 06:18:00,3,55.214,14.22,17.0,58.4,58.4,Passenger ferry,Passenger,7.2,Under way using engine
+bornholmsgat_vessel_13_track,bornholmsgat_vessel_13,2026-07-24 06:24:00,4,55.228,14.26,17.0,58.4,58.4,Passenger ferry,Passenger,7.2,Under way using engine
+bornholmsgat_vessel_13_track,bornholmsgat_vessel_13,2026-07-24 06:30:00,5,55.242,14.3,17.0,56.2,56.2,Passenger ferry,Passenger,7.2,Under way using engine
+bornholmsgat_vessel_13_track,bornholmsgat_vessel_13,2026-07-24 06:36:00,6,55.26,14.344,17.0,54.3,54.3,Passenger ferry,Passenger,7.2,Under way using engine
+bornholmsgat_vessel_13_track,bornholmsgat_vessel_13,2026-07-24 06:42:00,7,55.278,14.388,17.0,54.3,54.3,Passenger ferry,Passenger,7.2,Under way using engine
+bornholmsgat_vessel_13_track,bornholmsgat_vessel_13,2026-07-24 06:48:00,8,55.296,14.432,17.0,54.3,54.3,Passenger ferry,Passenger,7.2,Under way using engine
+bornholmsgat_vessel_13_track,bornholmsgat_vessel_13,2026-07-24 06:54:00,9,55.314,14.476,17.0,54.3,54.3,Passenger ferry,Passenger,7.2,Under way using engine
+bornholmsgat_vessel_13_track,bornholmsgat_vessel_13,2026-07-24 07:00:00,10,55.332,14.52,17.0,54.8,54.8,Passenger ferry,Passenger,7.2,Under way using engine
+bornholmsgat_vessel_13_track,bornholmsgat_vessel_13,2026-07-24 07:06:00,11,55.35,14.566,17.0,55.4,55.4,Passenger ferry,Passenger,7.2,Under way using engine
+bornholmsgat_vessel_13_track,bornholmsgat_vessel_13,2026-07-24 07:12:00,12,55.368,14.612,17.0,55.4,55.4,Passenger ferry,Passenger,7.2,Under way using engine
+bornholmsgat_vessel_13_track,bornholmsgat_vessel_13,2026-07-24 07:18:00,13,55.386,14.658,17.0,55.4,55.4,Passenger ferry,Passenger,7.2,Under way using engine
+bornholmsgat_vessel_13_track,bornholmsgat_vessel_13,2026-07-24 07:24:00,14,55.404,14.704,17.0,55.4,55.4,Passenger ferry,Passenger,7.2,Under way using engine
+bornholmsgat_vessel_13_track,bornholmsgat_vessel_13,2026-07-24 07:30:00,15,55.422,14.75,17.0,55.4,55.4,Passenger ferry,Passenger,7.2,Under way using engine
+bornholmsgat_vessel_14_track,bornholmsgat_vessel_14,2026-07-24 06:21:00,0,55.18,14.1,0.0,58.5,58.5,Passenger ferry,Passenger,7.6000000000000005,Under way using engine
+bornholmsgat_vessel_14_track,bornholmsgat_vessel_14,2026-07-24 06:27:00,1,55.194,14.14,17.0,58.5,58.5,Passenger ferry,Passenger,7.6000000000000005,Under way using engine
+bornholmsgat_vessel_14_track,bornholmsgat_vessel_14,2026-07-24 06:33:00,2,55.208,14.18,17.0,58.4,58.4,Passenger ferry,Passenger,7.6000000000000005,Under way using engine
+bornholmsgat_vessel_14_track,bornholmsgat_vessel_14,2026-07-24 06:39:00,3,55.222,14.22,17.0,58.4,58.4,Passenger ferry,Passenger,7.6000000000000005,Under way using engine
+bornholmsgat_vessel_14_track,bornholmsgat_vessel_14,2026-07-24 06:45:00,4,55.236,14.26,17.0,58.4,58.4,Passenger ferry,Passenger,7.6000000000000005,Under way using engine
+bornholmsgat_vessel_14_track,bornholmsgat_vessel_14,2026-07-24 06:51:00,5,55.25,14.3,17.0,56.2,56.2,Passenger ferry,Passenger,7.6000000000000005,Under way using engine
+bornholmsgat_vessel_14_track,bornholmsgat_vessel_14,2026-07-24 06:57:00,6,55.268,14.344,17.0,54.3,54.3,Passenger ferry,Passenger,7.6000000000000005,Under way using engine
+bornholmsgat_vessel_14_track,bornholmsgat_vessel_14,2026-07-24 07:03:00,7,55.286,14.388,17.0,54.3,54.3,Passenger ferry,Passenger,7.6000000000000005,Under way using engine
+bornholmsgat_vessel_14_track,bornholmsgat_vessel_14,2026-07-24 07:09:00,8,55.304,14.432,17.0,54.3,54.3,Passenger ferry,Passenger,7.6000000000000005,Under way using engine
+bornholmsgat_vessel_14_track,bornholmsgat_vessel_14,2026-07-24 07:15:00,9,55.322,14.476,17.0,54.2,54.2,Passenger ferry,Passenger,7.6000000000000005,Under way using engine
+bornholmsgat_vessel_14_track,bornholmsgat_vessel_14,2026-07-24 07:21:00,10,55.34,14.52,17.0,54.8,54.8,Passenger ferry,Passenger,7.6000000000000005,Under way using engine
+bornholmsgat_vessel_14_track,bornholmsgat_vessel_14,2026-07-24 07:27:00,11,55.358,14.566,17.0,55.4,55.4,Passenger ferry,Passenger,7.6000000000000005,Under way using engine
+bornholmsgat_vessel_14_track,bornholmsgat_vessel_14,2026-07-24 07:33:00,12,55.376,14.612,17.0,55.4,55.4,Passenger ferry,Passenger,7.6000000000000005,Under way using engine
+bornholmsgat_vessel_14_track,bornholmsgat_vessel_14,2026-07-24 07:39:00,13,55.394,14.658,17.0,55.4,55.4,Passenger ferry,Passenger,7.6000000000000005,Under way using engine
+bornholmsgat_vessel_14_track,bornholmsgat_vessel_14,2026-07-24 07:45:00,14,55.412,14.704,17.0,55.4,55.4,Passenger ferry,Passenger,7.6000000000000005,Under way using engine
+bornholmsgat_vessel_14_track,bornholmsgat_vessel_14,2026-07-24 07:51:00,15,55.43,14.75,17.0,55.4,55.4,Passenger ferry,Passenger,7.6000000000000005,Under way using engine
+bornholmsgat_vessel_15_track,bornholmsgat_vessel_15,2026-07-24 06:42:00,0,55.438,14.75,0.0,235.4,235.4,Passenger ferry,Passenger,8.0,Under way using engine
+bornholmsgat_vessel_15_track,bornholmsgat_vessel_15,2026-07-24 06:48:00,1,55.42,14.704,17.0,235.5,235.5,Passenger ferry,Passenger,8.0,Under way using engine
+bornholmsgat_vessel_15_track,bornholmsgat_vessel_15,2026-07-24 06:54:00,2,55.402,14.658,17.0,235.5,235.5,Passenger ferry,Passenger,8.0,Under way using engine
+bornholmsgat_vessel_15_track,bornholmsgat_vessel_15,2026-07-24 07:00:00,3,55.384,14.612,17.0,235.5,235.5,Passenger ferry,Passenger,8.0,Under way using engine
+bornholmsgat_vessel_15_track,bornholmsgat_vessel_15,2026-07-24 07:06:00,4,55.366,14.566,17.0,235.5,235.5,Passenger ferry,Passenger,8.0,Under way using engine
+bornholmsgat_vessel_15_track,bornholmsgat_vessel_15,2026-07-24 07:12:00,5,55.348,14.52,17.0,234.9,234.9,Passenger ferry,Passenger,8.0,Under way using engine
+bornholmsgat_vessel_15_track,bornholmsgat_vessel_15,2026-07-24 07:18:00,6,55.33,14.476,17.0,234.3,234.3,Passenger ferry,Passenger,8.0,Under way using engine
+bornholmsgat_vessel_15_track,bornholmsgat_vessel_15,2026-07-24 07:24:00,7,55.312,14.432,17.0,234.3,234.3,Passenger ferry,Passenger,8.0,Under way using engine
+bornholmsgat_vessel_15_track,bornholmsgat_vessel_15,2026-07-24 07:30:00,8,55.294,14.388,17.0,234.3,234.3,Passenger ferry,Passenger,8.0,Under way using engine
+bornholmsgat_vessel_15_track,bornholmsgat_vessel_15,2026-07-24 07:36:00,9,55.276,14.344,17.0,234.4,234.4,Passenger ferry,Passenger,8.0,Under way using engine
+bornholmsgat_vessel_15_track,bornholmsgat_vessel_15,2026-07-24 07:42:00,10,55.258,14.3,17.0,236.3,236.3,Passenger ferry,Passenger,8.0,Under way using engine
+bornholmsgat_vessel_15_track,bornholmsgat_vessel_15,2026-07-24 07:48:00,11,55.244,14.26,17.0,238.5,238.5,Passenger ferry,Passenger,8.0,Under way using engine
+bornholmsgat_vessel_15_track,bornholmsgat_vessel_15,2026-07-24 07:54:00,12,55.23,14.22,17.0,238.5,238.5,Passenger ferry,Passenger,8.0,Under way using engine
+bornholmsgat_vessel_15_track,bornholmsgat_vessel_15,2026-07-24 08:00:00,13,55.216,14.18,17.0,238.5,238.5,Passenger ferry,Passenger,8.0,Under way using engine
+bornholmsgat_vessel_15_track,bornholmsgat_vessel_15,2026-07-24 08:06:00,14,55.202,14.14,17.0,238.5,238.5,Passenger ferry,Passenger,8.0,Under way using engine
+bornholmsgat_vessel_15_track,bornholmsgat_vessel_15,2026-07-24 08:12:00,15,55.188,14.1,17.0,238.5,238.5,Passenger ferry,Passenger,8.0,Under way using engine
+bornholmsgat_vessel_16_track,bornholmsgat_vessel_16,2026-07-24 07:03:00,0,55.05,14.28,0.0,2.5,2.5,Service,Other,5.0,Under way using engine
+bornholmsgat_vessel_16_track,bornholmsgat_vessel_16,2026-07-24 07:09:00,1,55.076,14.282,9.5,2.5,2.5,Service,Other,5.0,Under way using engine
+bornholmsgat_vessel_16_track,bornholmsgat_vessel_16,2026-07-24 07:15:00,2,55.102,14.284,9.5,2.5,2.5,Service,Other,5.0,Under way using engine
+bornholmsgat_vessel_16_track,bornholmsgat_vessel_16,2026-07-24 07:21:00,3,55.128,14.286,9.5,2.5,2.5,Service,Other,5.0,Under way using engine
+bornholmsgat_vessel_16_track,bornholmsgat_vessel_16,2026-07-24 07:27:00,4,55.154,14.288,9.5,2.5,2.5,Service,Other,5.0,Under way using engine
+bornholmsgat_vessel_16_track,bornholmsgat_vessel_16,2026-07-24 07:33:00,5,55.18,14.29,9.5,358.9,358.9,Service,Other,5.0,Under way using engine
+bornholmsgat_vessel_16_track,bornholmsgat_vessel_16,2026-07-24 07:39:00,6,55.212,14.286,9.5,355.9,355.9,Service,Other,5.0,Under way using engine
+bornholmsgat_vessel_16_track,bornholmsgat_vessel_16,2026-07-24 07:45:00,7,55.244,14.282,9.5,355.9,355.9,Service,Other,5.0,Under way using engine
+bornholmsgat_vessel_16_track,bornholmsgat_vessel_16,2026-07-24 07:51:00,8,55.276,14.278,9.5,355.9,355.9,Service,Other,5.0,Under way using engine
+bornholmsgat_vessel_16_track,bornholmsgat_vessel_16,2026-07-24 07:57:00,9,55.308,14.274,9.5,355.9,355.9,Service,Other,5.0,Under way using engine
+bornholmsgat_vessel_16_track,bornholmsgat_vessel_16,2026-07-24 08:03:00,10,55.34,14.27,9.5,359.1,359.1,Service,Other,5.0,Under way using engine
+bornholmsgat_vessel_16_track,bornholmsgat_vessel_16,2026-07-24 08:09:00,11,55.382,14.272,9.5,1.5,1.5,Service,Other,5.0,Under way using engine
+bornholmsgat_vessel_16_track,bornholmsgat_vessel_16,2026-07-24 08:15:00,12,55.424,14.274,9.5,1.5,1.5,Service,Other,5.0,Under way using engine
+bornholmsgat_vessel_16_track,bornholmsgat_vessel_16,2026-07-24 08:21:00,13,55.466,14.276,9.5,1.5,1.5,Service,Other,5.0,Under way using engine
+bornholmsgat_vessel_16_track,bornholmsgat_vessel_16,2026-07-24 08:27:00,14,55.508,14.278,9.5,1.5,1.5,Service,Other,5.0,Under way using engine
+bornholmsgat_vessel_16_track,bornholmsgat_vessel_16,2026-07-24 08:33:00,15,55.55,14.28,9.5,1.5,1.5,Service,Other,5.0,Under way using engine
+bornholmsgat_vessel_17_track,bornholmsgat_vessel_17,2026-07-24 07:24:00,0,55.05,14.45,0.0,2.5,2.5,Service,Other,5.5,Under way using engine
+bornholmsgat_vessel_17_track,bornholmsgat_vessel_17,2026-07-24 07:30:00,1,55.076,14.452,9.5,2.5,2.5,Service,Other,5.5,Under way using engine
+bornholmsgat_vessel_17_track,bornholmsgat_vessel_17,2026-07-24 07:36:00,2,55.102,14.454,9.5,2.5,2.5,Service,Other,5.5,Under way using engine
+bornholmsgat_vessel_17_track,bornholmsgat_vessel_17,2026-07-24 07:42:00,3,55.128,14.456,9.5,2.5,2.5,Service,Other,5.5,Under way using engine
+bornholmsgat_vessel_17_track,bornholmsgat_vessel_17,2026-07-24 07:48:00,4,55.154,14.458,9.5,2.5,2.5,Service,Other,5.5,Under way using engine
+bornholmsgat_vessel_17_track,bornholmsgat_vessel_17,2026-07-24 07:54:00,5,55.18,14.46,9.5,358.9,358.9,Service,Other,5.5,Under way using engine
+bornholmsgat_vessel_17_track,bornholmsgat_vessel_17,2026-07-24 08:00:00,6,55.212,14.456,9.5,355.9,355.9,Service,Other,5.5,Under way using engine
+bornholmsgat_vessel_17_track,bornholmsgat_vessel_17,2026-07-24 08:06:00,7,55.244,14.452,9.5,355.9,355.9,Service,Other,5.5,Under way using engine
+bornholmsgat_vessel_17_track,bornholmsgat_vessel_17,2026-07-24 08:12:00,8,55.276,14.448,9.5,355.9,355.9,Service,Other,5.5,Under way using engine
+bornholmsgat_vessel_17_track,bornholmsgat_vessel_17,2026-07-24 08:18:00,9,55.308,14.444,9.5,355.9,355.9,Service,Other,5.5,Under way using engine
+bornholmsgat_vessel_17_track,bornholmsgat_vessel_17,2026-07-24 08:24:00,10,55.34,14.44,9.5,359.1,359.1,Service,Other,5.5,Under way using engine
+bornholmsgat_vessel_17_track,bornholmsgat_vessel_17,2026-07-24 08:30:00,11,55.382,14.442,9.5,1.5,1.5,Service,Other,5.5,Under way using engine
+bornholmsgat_vessel_17_track,bornholmsgat_vessel_17,2026-07-24 08:36:00,12,55.424,14.444,9.5,1.5,1.5,Service,Other,5.5,Under way using engine
+bornholmsgat_vessel_17_track,bornholmsgat_vessel_17,2026-07-24 08:42:00,13,55.466,14.446,9.5,1.5,1.5,Service,Other,5.5,Under way using engine
+bornholmsgat_vessel_17_track,bornholmsgat_vessel_17,2026-07-24 08:48:00,14,55.508,14.448,9.5,1.5,1.5,Service,Other,5.5,Under way using engine
+bornholmsgat_vessel_17_track,bornholmsgat_vessel_17,2026-07-24 08:54:00,15,55.55,14.45,9.5,1.5,1.5,Service,Other,5.5,Under way using engine
+bornholmsgat_vessel_18_track,bornholmsgat_vessel_18,2026-07-24 07:45:00,0,55.05,14.62,0.0,2.5,2.5,Service,Other,6.0,Under way using engine
+bornholmsgat_vessel_18_track,bornholmsgat_vessel_18,2026-07-24 07:51:00,1,55.076,14.622,9.5,2.5,2.5,Service,Other,6.0,Under way using engine
+bornholmsgat_vessel_18_track,bornholmsgat_vessel_18,2026-07-24 07:57:00,2,55.102,14.624,9.5,2.5,2.5,Service,Other,6.0,Under way using engine
+bornholmsgat_vessel_18_track,bornholmsgat_vessel_18,2026-07-24 08:03:00,3,55.128,14.626,9.5,2.5,2.5,Service,Other,6.0,Under way using engine
+bornholmsgat_vessel_18_track,bornholmsgat_vessel_18,2026-07-24 08:09:00,4,55.154,14.628,9.5,2.5,2.5,Service,Other,6.0,Under way using engine
+bornholmsgat_vessel_18_track,bornholmsgat_vessel_18,2026-07-24 08:15:00,5,55.18,14.63,9.5,358.9,358.9,Service,Other,6.0,Under way using engine
+bornholmsgat_vessel_18_track,bornholmsgat_vessel_18,2026-07-24 08:21:00,6,55.212,14.626,9.5,355.9,355.9,Service,Other,6.0,Under way using engine
+bornholmsgat_vessel_18_track,bornholmsgat_vessel_18,2026-07-24 08:27:00,7,55.244,14.622,9.5,355.9,355.9,Service,Other,6.0,Under way using engine
+bornholmsgat_vessel_18_track,bornholmsgat_vessel_18,2026-07-24 08:33:00,8,55.276,14.618,9.5,355.9,355.9,Service,Other,6.0,Under way using engine
+bornholmsgat_vessel_18_track,bornholmsgat_vessel_18,2026-07-24 08:39:00,9,55.308,14.614,9.5,355.9,355.9,Service,Other,6.0,Under way using engine
+bornholmsgat_vessel_18_track,bornholmsgat_vessel_18,2026-07-24 08:45:00,10,55.34,14.61,9.5,359.1,359.1,Service,Other,6.0,Under way using engine
+bornholmsgat_vessel_18_track,bornholmsgat_vessel_18,2026-07-24 08:51:00,11,55.382,14.612,9.5,1.5,1.5,Service,Other,6.0,Under way using engine
+bornholmsgat_vessel_18_track,bornholmsgat_vessel_18,2026-07-24 08:57:00,12,55.424,14.614,9.5,1.5,1.5,Service,Other,6.0,Under way using engine
+bornholmsgat_vessel_18_track,bornholmsgat_vessel_18,2026-07-24 09:03:00,13,55.466,14.616,9.5,1.5,1.5,Service,Other,6.0,Under way using engine
+bornholmsgat_vessel_18_track,bornholmsgat_vessel_18,2026-07-24 09:09:00,14,55.508,14.618,9.5,1.5,1.5,Service,Other,6.0,Under way using engine
+bornholmsgat_vessel_18_track,bornholmsgat_vessel_18,2026-07-24 09:15:00,15,55.55,14.62,9.5,1.5,1.5,Service,Other,6.0,Under way using engine
+greatbelt_cargo_01_track,greatbelt_cargo_01,2026-07-24 06:00:00,0,54.95,10.916,0.0,0.0,0.0,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_01_track,greatbelt_cargo_01,2026-07-24 06:06:00,1,54.98,10.916,11.5,0.0,0.0,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_01_track,greatbelt_cargo_01,2026-07-24 06:12:00,2,55.01,10.916,11.5,0.0,0.0,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_01_track,greatbelt_cargo_01,2026-07-24 06:18:00,3,55.04,10.916,11.5,0.0,0.0,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_01_track,greatbelt_cargo_01,2026-07-24 06:24:00,4,55.07,10.916,11.5,0.0,0.0,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_01_track,greatbelt_cargo_01,2026-07-24 06:30:00,5,55.1,10.916,11.5,1.1,1.1,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_01_track,greatbelt_cargo_01,2026-07-24 06:36:00,6,55.13,10.918,11.5,2.2,2.2,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_01_track,greatbelt_cargo_01,2026-07-24 06:42:00,7,55.16,10.92,11.5,2.2,2.2,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_01_track,greatbelt_cargo_01,2026-07-24 06:48:00,8,55.19,10.922,11.5,2.2,2.2,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_01_track,greatbelt_cargo_01,2026-07-24 06:54:00,9,55.22,10.924,11.5,2.2,2.2,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_01_track,greatbelt_cargo_01,2026-07-24 07:00:00,10,55.25,10.926,11.5,2.0,2.0,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_01_track,greatbelt_cargo_01,2026-07-24 07:06:00,11,55.286,10.928,11.5,1.8,1.8,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_01_track,greatbelt_cargo_01,2026-07-24 07:12:00,12,55.322,10.93,11.5,1.8,1.8,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_01_track,greatbelt_cargo_01,2026-07-24 07:18:00,13,55.358,10.932,11.5,1.8,1.8,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_01_track,greatbelt_cargo_01,2026-07-24 07:24:00,14,55.394,10.934,11.5,1.8,1.8,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_01_track,greatbelt_cargo_01,2026-07-24 07:30:00,15,55.43,10.936,11.5,1.8,1.8,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_02_track,greatbelt_cargo_02,2026-07-24 06:16:48,0,54.95,10.9171,0.0,0.0,0.0,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_02_track,greatbelt_cargo_02,2026-07-24 06:22:48,1,54.98,10.9171,11.5,0.0,0.0,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_02_track,greatbelt_cargo_02,2026-07-24 06:28:48,2,55.01,10.9171,11.5,0.0,0.0,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_02_track,greatbelt_cargo_02,2026-07-24 06:34:48,3,55.04,10.9171,11.5,0.0,0.0,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_02_track,greatbelt_cargo_02,2026-07-24 06:40:48,4,55.07,10.9171,11.5,0.0,0.0,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_02_track,greatbelt_cargo_02,2026-07-24 06:46:48,5,55.1,10.9171,11.5,1.1,1.1,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_02_track,greatbelt_cargo_02,2026-07-24 06:52:48,6,55.13,10.9191,11.5,2.2,2.2,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_02_track,greatbelt_cargo_02,2026-07-24 06:58:48,7,55.16,10.9211,11.5,2.2,2.2,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_02_track,greatbelt_cargo_02,2026-07-24 07:04:48,8,55.19,10.9231,11.5,2.2,2.2,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_02_track,greatbelt_cargo_02,2026-07-24 07:10:48,9,55.22,10.9251,11.5,2.2,2.2,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_02_track,greatbelt_cargo_02,2026-07-24 07:16:48,10,55.25,10.9271,11.5,2.0,2.0,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_02_track,greatbelt_cargo_02,2026-07-24 07:22:48,11,55.286,10.9291,11.5,1.8,1.8,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_02_track,greatbelt_cargo_02,2026-07-24 07:28:48,12,55.322,10.9311,11.5,1.8,1.8,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_02_track,greatbelt_cargo_02,2026-07-24 07:34:48,13,55.358,10.9331,11.5,1.8,1.8,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_02_track,greatbelt_cargo_02,2026-07-24 07:40:48,14,55.394,10.9351,11.5,1.8,1.8,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_02_track,greatbelt_cargo_02,2026-07-24 07:46:48,15,55.43,10.9371,11.5,1.8,1.8,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_03_track,greatbelt_cargo_03,2026-07-24 06:33:36,0,54.95,10.9182,0.0,0.0,0.0,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_03_track,greatbelt_cargo_03,2026-07-24 06:39:36,1,54.98,10.9182,11.5,0.0,0.0,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_03_track,greatbelt_cargo_03,2026-07-24 06:45:36,2,55.01,10.9182,11.5,0.0,0.0,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_03_track,greatbelt_cargo_03,2026-07-24 06:51:36,3,55.04,10.9182,11.5,0.0,0.0,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_03_track,greatbelt_cargo_03,2026-07-24 06:57:36,4,55.07,10.9182,11.5,0.0,0.0,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_03_track,greatbelt_cargo_03,2026-07-24 07:03:36,5,55.1,10.9182,11.5,1.1,1.1,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_03_track,greatbelt_cargo_03,2026-07-24 07:09:36,6,55.13,10.9202,11.5,2.2,2.2,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_03_track,greatbelt_cargo_03,2026-07-24 07:15:36,7,55.16,10.9222,11.5,2.2,2.2,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_03_track,greatbelt_cargo_03,2026-07-24 07:21:36,8,55.19,10.9242,11.5,2.2,2.2,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_03_track,greatbelt_cargo_03,2026-07-24 07:27:36,9,55.22,10.9262,11.5,2.2,2.2,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_03_track,greatbelt_cargo_03,2026-07-24 07:33:36,10,55.25,10.9282,11.5,2.0,2.0,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_03_track,greatbelt_cargo_03,2026-07-24 07:39:36,11,55.286,10.9302,11.5,1.8,1.8,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_03_track,greatbelt_cargo_03,2026-07-24 07:45:36,12,55.322,10.9322,11.5,1.8,1.8,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_03_track,greatbelt_cargo_03,2026-07-24 07:51:36,13,55.358,10.9342,11.5,1.8,1.8,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_03_track,greatbelt_cargo_03,2026-07-24 07:57:36,14,55.394,10.9362,11.5,1.8,1.8,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_03_track,greatbelt_cargo_03,2026-07-24 08:03:36,15,55.43,10.9382,11.5,1.8,1.8,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_04_track,greatbelt_cargo_04,2026-07-24 06:50:24,0,54.95,10.9193,0.0,0.0,0.0,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_04_track,greatbelt_cargo_04,2026-07-24 06:56:24,1,54.98,10.9193,11.5,0.0,0.0,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_04_track,greatbelt_cargo_04,2026-07-24 07:02:24,2,55.01,10.9193,11.5,0.0,0.0,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_04_track,greatbelt_cargo_04,2026-07-24 07:08:24,3,55.04,10.9193,11.5,0.0,0.0,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_04_track,greatbelt_cargo_04,2026-07-24 07:14:24,4,55.07,10.9193,11.5,0.0,0.0,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_04_track,greatbelt_cargo_04,2026-07-24 07:20:24,5,55.1,10.9193,11.5,1.1,1.1,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_04_track,greatbelt_cargo_04,2026-07-24 07:26:24,6,55.13,10.9213,11.5,2.2,2.2,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_04_track,greatbelt_cargo_04,2026-07-24 07:32:24,7,55.16,10.9233,11.5,2.2,2.2,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_04_track,greatbelt_cargo_04,2026-07-24 07:38:24,8,55.19,10.9253,11.5,2.2,2.2,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_04_track,greatbelt_cargo_04,2026-07-24 07:44:24,9,55.22,10.9273,11.5,2.2,2.2,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_04_track,greatbelt_cargo_04,2026-07-24 07:50:24,10,55.25,10.9293,11.5,2.0,2.0,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_04_track,greatbelt_cargo_04,2026-07-24 07:56:24,11,55.286,10.9313,11.5,1.8,1.8,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_04_track,greatbelt_cargo_04,2026-07-24 08:02:24,12,55.322,10.9333,11.5,1.8,1.8,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_04_track,greatbelt_cargo_04,2026-07-24 08:08:24,13,55.358,10.9353,11.5,1.8,1.8,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_04_track,greatbelt_cargo_04,2026-07-24 08:14:24,14,55.394,10.9373,11.5,1.8,1.8,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_04_track,greatbelt_cargo_04,2026-07-24 08:20:24,15,55.43,10.9393,11.5,1.8,1.8,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_05_track,greatbelt_cargo_05,2026-07-24 07:07:12,0,54.95,10.9204,0.0,0.0,0.0,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_05_track,greatbelt_cargo_05,2026-07-24 07:13:12,1,54.98,10.9204,11.5,0.0,0.0,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_05_track,greatbelt_cargo_05,2026-07-24 07:19:12,2,55.01,10.9204,11.5,0.0,0.0,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_05_track,greatbelt_cargo_05,2026-07-24 07:25:12,3,55.04,10.9204,11.5,0.0,0.0,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_05_track,greatbelt_cargo_05,2026-07-24 07:31:12,4,55.07,10.9204,11.5,0.0,0.0,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_05_track,greatbelt_cargo_05,2026-07-24 07:37:12,5,55.1,10.9204,11.5,1.1,1.1,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_05_track,greatbelt_cargo_05,2026-07-24 07:43:12,6,55.13,10.9224,11.5,2.2,2.2,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_05_track,greatbelt_cargo_05,2026-07-24 07:49:12,7,55.16,10.9244,11.5,2.2,2.2,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_05_track,greatbelt_cargo_05,2026-07-24 07:55:12,8,55.19,10.9264,11.5,2.2,2.2,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_05_track,greatbelt_cargo_05,2026-07-24 08:01:12,9,55.22,10.9284,11.5,2.2,2.2,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_05_track,greatbelt_cargo_05,2026-07-24 08:07:12,10,55.25,10.9304,11.5,2.0,2.0,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_05_track,greatbelt_cargo_05,2026-07-24 08:13:12,11,55.286,10.9324,11.5,1.8,1.8,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_05_track,greatbelt_cargo_05,2026-07-24 08:19:12,12,55.322,10.9344,11.5,1.8,1.8,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_05_track,greatbelt_cargo_05,2026-07-24 08:25:12,13,55.358,10.9364,11.5,1.8,1.8,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_05_track,greatbelt_cargo_05,2026-07-24 08:31:12,14,55.394,10.9384,11.5,1.8,1.8,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_05_track,greatbelt_cargo_05,2026-07-24 08:37:12,15,55.43,10.9404,11.5,1.8,1.8,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_06_track,greatbelt_cargo_06,2026-07-24 07:24:00,0,54.95,10.9215,0.0,0.0,0.0,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_06_track,greatbelt_cargo_06,2026-07-24 07:30:00,1,54.98,10.9215,11.5,0.0,0.0,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_06_track,greatbelt_cargo_06,2026-07-24 07:36:00,2,55.01,10.9215,11.5,0.0,0.0,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_06_track,greatbelt_cargo_06,2026-07-24 07:42:00,3,55.04,10.9215,11.5,0.0,0.0,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_06_track,greatbelt_cargo_06,2026-07-24 07:48:00,4,55.07,10.9215,11.5,0.0,0.0,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_06_track,greatbelt_cargo_06,2026-07-24 07:54:00,5,55.1,10.9215,11.5,1.1,1.1,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_06_track,greatbelt_cargo_06,2026-07-24 08:00:00,6,55.13,10.9235,11.5,2.2,2.2,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_06_track,greatbelt_cargo_06,2026-07-24 08:06:00,7,55.16,10.9255,11.5,2.2,2.2,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_06_track,greatbelt_cargo_06,2026-07-24 08:12:00,8,55.19,10.9275,11.5,2.2,2.2,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_06_track,greatbelt_cargo_06,2026-07-24 08:18:00,9,55.22,10.9295,11.5,2.2,2.2,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_06_track,greatbelt_cargo_06,2026-07-24 08:24:00,10,55.25,10.9315,11.5,2.0,2.0,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_06_track,greatbelt_cargo_06,2026-07-24 08:30:00,11,55.286,10.9335,11.5,1.8,1.8,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_06_track,greatbelt_cargo_06,2026-07-24 08:36:00,12,55.322,10.9355,11.5,1.8,1.8,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_06_track,greatbelt_cargo_06,2026-07-24 08:42:00,13,55.358,10.9375,11.5,1.8,1.8,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_06_track,greatbelt_cargo_06,2026-07-24 08:48:00,14,55.394,10.9395,11.5,1.8,1.8,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_06_track,greatbelt_cargo_06,2026-07-24 08:54:00,15,55.43,10.9415,11.5,1.8,1.8,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_07_track,greatbelt_cargo_07,2026-07-24 07:40:48,0,54.95,10.9226,0.0,0.0,0.0,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_07_track,greatbelt_cargo_07,2026-07-24 07:46:48,1,54.98,10.9226,11.5,0.0,0.0,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_07_track,greatbelt_cargo_07,2026-07-24 07:52:48,2,55.01,10.9226,11.5,0.0,0.0,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_07_track,greatbelt_cargo_07,2026-07-24 07:58:48,3,55.04,10.9226,11.5,0.0,0.0,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_07_track,greatbelt_cargo_07,2026-07-24 08:04:48,4,55.07,10.9226,11.5,0.0,0.0,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_07_track,greatbelt_cargo_07,2026-07-24 08:10:48,5,55.1,10.9226,11.5,1.1,1.1,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_07_track,greatbelt_cargo_07,2026-07-24 08:16:48,6,55.13,10.9246,11.5,2.2,2.2,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_07_track,greatbelt_cargo_07,2026-07-24 08:22:48,7,55.16,10.9266,11.5,2.2,2.2,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_07_track,greatbelt_cargo_07,2026-07-24 08:28:48,8,55.19,10.9286,11.5,2.2,2.2,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_07_track,greatbelt_cargo_07,2026-07-24 08:34:48,9,55.22,10.9306,11.5,2.2,2.2,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_07_track,greatbelt_cargo_07,2026-07-24 08:40:48,10,55.25,10.9326,11.5,2.0,2.0,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_07_track,greatbelt_cargo_07,2026-07-24 08:46:48,11,55.286,10.9346,11.5,1.8,1.8,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_07_track,greatbelt_cargo_07,2026-07-24 08:52:48,12,55.322,10.9366,11.5,1.8,1.8,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_07_track,greatbelt_cargo_07,2026-07-24 08:58:48,13,55.358,10.9386,11.5,1.8,1.8,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_07_track,greatbelt_cargo_07,2026-07-24 09:04:48,14,55.394,10.9406,11.5,1.8,1.8,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_07_track,greatbelt_cargo_07,2026-07-24 09:10:48,15,55.43,10.9426,11.5,1.8,1.8,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_08_track,greatbelt_cargo_08,2026-07-24 07:57:36,0,54.95,10.9237,0.0,0.0,0.0,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_08_track,greatbelt_cargo_08,2026-07-24 08:03:36,1,54.98,10.9237,11.5,0.0,0.0,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_08_track,greatbelt_cargo_08,2026-07-24 08:09:36,2,55.01,10.9237,11.5,0.0,0.0,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_08_track,greatbelt_cargo_08,2026-07-24 08:15:36,3,55.04,10.9237,11.5,0.0,0.0,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_08_track,greatbelt_cargo_08,2026-07-24 08:21:36,4,55.07,10.9237,11.5,0.0,0.0,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_08_track,greatbelt_cargo_08,2026-07-24 08:27:36,5,55.1,10.9237,11.5,1.1,1.1,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_08_track,greatbelt_cargo_08,2026-07-24 08:33:36,6,55.13,10.9257,11.5,2.2,2.2,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_08_track,greatbelt_cargo_08,2026-07-24 08:39:36,7,55.16,10.9277,11.5,2.2,2.2,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_08_track,greatbelt_cargo_08,2026-07-24 08:45:36,8,55.19,10.9297,11.5,2.2,2.2,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_08_track,greatbelt_cargo_08,2026-07-24 08:51:36,9,55.22,10.9317,11.5,2.2,2.2,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_08_track,greatbelt_cargo_08,2026-07-24 08:57:36,10,55.25,10.9337,11.5,2.0,2.0,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_08_track,greatbelt_cargo_08,2026-07-24 09:03:36,11,55.286,10.9357,11.5,1.8,1.8,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_08_track,greatbelt_cargo_08,2026-07-24 09:09:36,12,55.322,10.9377,11.5,1.8,1.8,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_08_track,greatbelt_cargo_08,2026-07-24 09:15:36,13,55.358,10.9397,11.5,1.8,1.8,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_08_track,greatbelt_cargo_08,2026-07-24 09:21:36,14,55.394,10.9417,11.5,1.8,1.8,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_08_track,greatbelt_cargo_08,2026-07-24 09:27:36,15,55.43,10.9437,11.5,1.8,1.8,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_09_track,greatbelt_cargo_09,2026-07-24 06:00:00,0,55.43,10.936,0.0,181.8,181.8,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_09_track,greatbelt_cargo_09,2026-07-24 06:06:00,1,55.394,10.934,11.5,181.8,181.8,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_09_track,greatbelt_cargo_09,2026-07-24 06:12:00,2,55.358,10.932,11.5,181.8,181.8,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_09_track,greatbelt_cargo_09,2026-07-24 06:18:00,3,55.322,10.93,11.5,181.8,181.8,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_09_track,greatbelt_cargo_09,2026-07-24 06:24:00,4,55.286,10.928,11.5,181.8,181.8,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_09_track,greatbelt_cargo_09,2026-07-24 06:30:00,5,55.25,10.926,11.5,182.0,182.0,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_09_track,greatbelt_cargo_09,2026-07-24 06:36:00,6,55.22,10.924,11.5,182.2,182.2,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_09_track,greatbelt_cargo_09,2026-07-24 06:42:00,7,55.19,10.922,11.5,182.2,182.2,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_09_track,greatbelt_cargo_09,2026-07-24 06:48:00,8,55.16,10.92,11.5,182.2,182.2,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_09_track,greatbelt_cargo_09,2026-07-24 06:54:00,9,55.13,10.918,11.5,182.2,182.2,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_09_track,greatbelt_cargo_09,2026-07-24 07:00:00,10,55.1,10.916,11.5,181.1,181.1,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_09_track,greatbelt_cargo_09,2026-07-24 07:06:00,11,55.07,10.916,11.5,180.0,180.0,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_09_track,greatbelt_cargo_09,2026-07-24 07:12:00,12,55.04,10.916,11.5,180.0,180.0,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_09_track,greatbelt_cargo_09,2026-07-24 07:18:00,13,55.01,10.916,11.5,180.0,180.0,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_09_track,greatbelt_cargo_09,2026-07-24 07:24:00,14,54.98,10.916,11.5,180.0,180.0,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_09_track,greatbelt_cargo_09,2026-07-24 07:30:00,15,54.95,10.916,11.5,180.0,180.0,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_10_track,greatbelt_cargo_10,2026-07-24 06:16:48,0,55.43,10.9371,0.0,181.8,181.8,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_10_track,greatbelt_cargo_10,2026-07-24 06:22:48,1,55.394,10.9351,11.5,181.8,181.8,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_10_track,greatbelt_cargo_10,2026-07-24 06:28:48,2,55.358,10.9331,11.5,181.8,181.8,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_10_track,greatbelt_cargo_10,2026-07-24 06:34:48,3,55.322,10.9311,11.5,181.8,181.8,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_10_track,greatbelt_cargo_10,2026-07-24 06:40:48,4,55.286,10.9291,11.5,181.8,181.8,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_10_track,greatbelt_cargo_10,2026-07-24 06:46:48,5,55.25,10.9271,11.5,182.0,182.0,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_10_track,greatbelt_cargo_10,2026-07-24 06:52:48,6,55.22,10.9251,11.5,182.2,182.2,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_10_track,greatbelt_cargo_10,2026-07-24 06:58:48,7,55.19,10.9231,11.5,182.2,182.2,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_10_track,greatbelt_cargo_10,2026-07-24 07:04:48,8,55.16,10.9211,11.5,182.2,182.2,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_10_track,greatbelt_cargo_10,2026-07-24 07:10:48,9,55.13,10.9191,11.5,182.2,182.2,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_10_track,greatbelt_cargo_10,2026-07-24 07:16:48,10,55.1,10.9171,11.5,181.1,181.1,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_10_track,greatbelt_cargo_10,2026-07-24 07:22:48,11,55.07,10.9171,11.5,180.0,180.0,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_10_track,greatbelt_cargo_10,2026-07-24 07:28:48,12,55.04,10.9171,11.5,180.0,180.0,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_10_track,greatbelt_cargo_10,2026-07-24 07:34:48,13,55.01,10.9171,11.5,180.0,180.0,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_10_track,greatbelt_cargo_10,2026-07-24 07:40:48,14,54.98,10.9171,11.5,180.0,180.0,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_10_track,greatbelt_cargo_10,2026-07-24 07:46:48,15,54.95,10.9171,11.5,180.0,180.0,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_11_track,greatbelt_cargo_11,2026-07-24 06:33:36,0,55.43,10.9382,0.0,181.8,181.8,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_11_track,greatbelt_cargo_11,2026-07-24 06:39:36,1,55.394,10.9362,11.5,181.8,181.8,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_11_track,greatbelt_cargo_11,2026-07-24 06:45:36,2,55.358,10.9342,11.5,181.8,181.8,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_11_track,greatbelt_cargo_11,2026-07-24 06:51:36,3,55.322,10.9322,11.5,181.8,181.8,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_11_track,greatbelt_cargo_11,2026-07-24 06:57:36,4,55.286,10.9302,11.5,181.8,181.8,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_11_track,greatbelt_cargo_11,2026-07-24 07:03:36,5,55.25,10.9282,11.5,182.0,182.0,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_11_track,greatbelt_cargo_11,2026-07-24 07:09:36,6,55.22,10.9262,11.5,182.2,182.2,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_11_track,greatbelt_cargo_11,2026-07-24 07:15:36,7,55.19,10.9242,11.5,182.2,182.2,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_11_track,greatbelt_cargo_11,2026-07-24 07:21:36,8,55.16,10.9222,11.5,182.2,182.2,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_11_track,greatbelt_cargo_11,2026-07-24 07:27:36,9,55.13,10.9202,11.5,182.2,182.2,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_11_track,greatbelt_cargo_11,2026-07-24 07:33:36,10,55.1,10.9182,11.5,181.1,181.1,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_11_track,greatbelt_cargo_11,2026-07-24 07:39:36,11,55.07,10.9182,11.5,180.0,180.0,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_11_track,greatbelt_cargo_11,2026-07-24 07:45:36,12,55.04,10.9182,11.5,180.0,180.0,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_11_track,greatbelt_cargo_11,2026-07-24 07:51:36,13,55.01,10.9182,11.5,180.0,180.0,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_11_track,greatbelt_cargo_11,2026-07-24 07:57:36,14,54.98,10.9182,11.5,180.0,180.0,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_11_track,greatbelt_cargo_11,2026-07-24 08:03:36,15,54.95,10.9182,11.5,180.0,180.0,Cargo,Cargo,10.0,Under way using engine
+greatbelt_cargo_12_track,greatbelt_cargo_12,2026-07-24 06:50:24,0,55.43,10.9393,0.0,181.8,181.8,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_12_track,greatbelt_cargo_12,2026-07-24 06:56:24,1,55.394,10.9373,11.5,181.8,181.8,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_12_track,greatbelt_cargo_12,2026-07-24 07:02:24,2,55.358,10.9353,11.5,181.8,181.8,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_12_track,greatbelt_cargo_12,2026-07-24 07:08:24,3,55.322,10.9333,11.5,181.8,181.8,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_12_track,greatbelt_cargo_12,2026-07-24 07:14:24,4,55.286,10.9313,11.5,181.8,181.8,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_12_track,greatbelt_cargo_12,2026-07-24 07:20:24,5,55.25,10.9293,11.5,182.0,182.0,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_12_track,greatbelt_cargo_12,2026-07-24 07:26:24,6,55.22,10.9273,11.5,182.2,182.2,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_12_track,greatbelt_cargo_12,2026-07-24 07:32:24,7,55.19,10.9253,11.5,182.2,182.2,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_12_track,greatbelt_cargo_12,2026-07-24 07:38:24,8,55.16,10.9233,11.5,182.2,182.2,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_12_track,greatbelt_cargo_12,2026-07-24 07:44:24,9,55.13,10.9213,11.5,182.2,182.2,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_12_track,greatbelt_cargo_12,2026-07-24 07:50:24,10,55.1,10.9193,11.5,181.1,181.1,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_12_track,greatbelt_cargo_12,2026-07-24 07:56:24,11,55.07,10.9193,11.5,180.0,180.0,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_12_track,greatbelt_cargo_12,2026-07-24 08:02:24,12,55.04,10.9193,11.5,180.0,180.0,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_12_track,greatbelt_cargo_12,2026-07-24 08:08:24,13,55.01,10.9193,11.5,180.0,180.0,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_12_track,greatbelt_cargo_12,2026-07-24 08:14:24,14,54.98,10.9193,11.5,180.0,180.0,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_12_track,greatbelt_cargo_12,2026-07-24 08:20:24,15,54.95,10.9193,11.5,180.0,180.0,Cargo,Cargo,11.0,Under way using engine
+greatbelt_cargo_13_track,greatbelt_cargo_13,2026-07-24 07:07:12,0,55.43,10.9404,0.0,181.8,181.8,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_13_track,greatbelt_cargo_13,2026-07-24 07:13:12,1,55.394,10.9384,11.5,181.8,181.8,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_13_track,greatbelt_cargo_13,2026-07-24 07:19:12,2,55.358,10.9364,11.5,181.8,181.8,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_13_track,greatbelt_cargo_13,2026-07-24 07:25:12,3,55.322,10.9344,11.5,181.8,181.8,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_13_track,greatbelt_cargo_13,2026-07-24 07:31:12,4,55.286,10.9324,11.5,181.8,181.8,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_13_track,greatbelt_cargo_13,2026-07-24 07:37:12,5,55.25,10.9304,11.5,182.0,182.0,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_13_track,greatbelt_cargo_13,2026-07-24 07:43:12,6,55.22,10.9284,11.5,182.2,182.2,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_13_track,greatbelt_cargo_13,2026-07-24 07:49:12,7,55.19,10.9264,11.5,182.2,182.2,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_13_track,greatbelt_cargo_13,2026-07-24 07:55:12,8,55.16,10.9244,11.5,182.2,182.2,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_13_track,greatbelt_cargo_13,2026-07-24 08:01:12,9,55.13,10.9224,11.5,182.2,182.2,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_13_track,greatbelt_cargo_13,2026-07-24 08:07:12,10,55.1,10.9204,11.5,181.1,181.1,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_13_track,greatbelt_cargo_13,2026-07-24 08:13:12,11,55.07,10.9204,11.5,180.0,180.0,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_13_track,greatbelt_cargo_13,2026-07-24 08:19:12,12,55.04,10.9204,11.5,180.0,180.0,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_13_track,greatbelt_cargo_13,2026-07-24 08:25:12,13,55.01,10.9204,11.5,180.0,180.0,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_13_track,greatbelt_cargo_13,2026-07-24 08:31:12,14,54.98,10.9204,11.5,180.0,180.0,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_13_track,greatbelt_cargo_13,2026-07-24 08:37:12,15,54.95,10.9204,11.5,180.0,180.0,Cargo,Cargo,12.0,Under way using engine
+greatbelt_cargo_14_track,greatbelt_cargo_14,2026-07-24 07:24:00,0,55.43,10.9415,0.0,181.8,181.8,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_14_track,greatbelt_cargo_14,2026-07-24 07:30:00,1,55.394,10.9395,11.5,181.8,181.8,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_14_track,greatbelt_cargo_14,2026-07-24 07:36:00,2,55.358,10.9375,11.5,181.8,181.8,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_14_track,greatbelt_cargo_14,2026-07-24 07:42:00,3,55.322,10.9355,11.5,181.8,181.8,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_14_track,greatbelt_cargo_14,2026-07-24 07:48:00,4,55.286,10.9335,11.5,181.8,181.8,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_14_track,greatbelt_cargo_14,2026-07-24 07:54:00,5,55.25,10.9315,11.5,182.0,182.0,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_14_track,greatbelt_cargo_14,2026-07-24 08:00:00,6,55.22,10.9295,11.5,182.2,182.2,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_14_track,greatbelt_cargo_14,2026-07-24 08:06:00,7,55.19,10.9275,11.5,182.2,182.2,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_14_track,greatbelt_cargo_14,2026-07-24 08:12:00,8,55.16,10.9255,11.5,182.2,182.2,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_14_track,greatbelt_cargo_14,2026-07-24 08:18:00,9,55.13,10.9235,11.5,182.2,182.2,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_14_track,greatbelt_cargo_14,2026-07-24 08:24:00,10,55.1,10.9215,11.5,181.1,181.1,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_14_track,greatbelt_cargo_14,2026-07-24 08:30:00,11,55.07,10.9215,11.5,180.0,180.0,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_14_track,greatbelt_cargo_14,2026-07-24 08:36:00,12,55.04,10.9215,11.5,180.0,180.0,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_14_track,greatbelt_cargo_14,2026-07-24 08:42:00,13,55.01,10.9215,11.5,180.0,180.0,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_14_track,greatbelt_cargo_14,2026-07-24 08:48:00,14,54.98,10.9215,11.5,180.0,180.0,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_14_track,greatbelt_cargo_14,2026-07-24 08:54:00,15,54.95,10.9215,11.5,180.0,180.0,Cargo,Cargo,13.0,Under way using engine
+greatbelt_cargo_15_track,greatbelt_cargo_15,2026-07-24 07:40:48,0,55.43,10.9426,0.0,181.8,181.8,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_15_track,greatbelt_cargo_15,2026-07-24 07:46:48,1,55.394,10.9406,11.5,181.8,181.8,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_15_track,greatbelt_cargo_15,2026-07-24 07:52:48,2,55.358,10.9386,11.5,181.8,181.8,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_15_track,greatbelt_cargo_15,2026-07-24 07:58:48,3,55.322,10.9366,11.5,181.8,181.8,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_15_track,greatbelt_cargo_15,2026-07-24 08:04:48,4,55.286,10.9346,11.5,181.8,181.8,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_15_track,greatbelt_cargo_15,2026-07-24 08:10:48,5,55.25,10.9326,11.5,182.0,182.0,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_15_track,greatbelt_cargo_15,2026-07-24 08:16:48,6,55.22,10.9306,11.5,182.2,182.2,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_15_track,greatbelt_cargo_15,2026-07-24 08:22:48,7,55.19,10.9286,11.5,182.2,182.2,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_15_track,greatbelt_cargo_15,2026-07-24 08:28:48,8,55.16,10.9266,11.5,182.2,182.2,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_15_track,greatbelt_cargo_15,2026-07-24 08:34:48,9,55.13,10.9246,11.5,182.2,182.2,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_15_track,greatbelt_cargo_15,2026-07-24 08:40:48,10,55.1,10.9226,11.5,181.1,181.1,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_15_track,greatbelt_cargo_15,2026-07-24 08:46:48,11,55.07,10.9226,11.5,180.0,180.0,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_15_track,greatbelt_cargo_15,2026-07-24 08:52:48,12,55.04,10.9226,11.5,180.0,180.0,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_15_track,greatbelt_cargo_15,2026-07-24 08:58:48,13,55.01,10.9226,11.5,180.0,180.0,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_15_track,greatbelt_cargo_15,2026-07-24 09:04:48,14,54.98,10.9226,11.5,180.0,180.0,Cargo,Cargo,14.0,Under way using engine
+greatbelt_cargo_15_track,greatbelt_cargo_15,2026-07-24 09:10:48,15,54.95,10.9226,11.5,180.0,180.0,Cargo,Cargo,14.0,Under way using engine
+greatbelt_ferry_01_track,greatbelt_ferry_01,2026-07-24 07:57:36,0,55.43,10.94,0.0,181.8,181.8,Passenger ferry,Passenger,8.0,Under way using engine
+greatbelt_ferry_01_track,greatbelt_ferry_01,2026-07-24 08:03:36,1,55.394,10.938,18.0,181.8,181.8,Passenger ferry,Passenger,8.0,Under way using engine
+greatbelt_ferry_01_track,greatbelt_ferry_01,2026-07-24 08:09:36,2,55.358,10.936,18.0,181.8,181.8,Passenger ferry,Passenger,8.0,Under way using engine
+greatbelt_ferry_01_track,greatbelt_ferry_01,2026-07-24 08:15:36,3,55.322,10.934,18.0,181.8,181.8,Passenger ferry,Passenger,8.0,Under way using engine
+greatbelt_ferry_01_track,greatbelt_ferry_01,2026-07-24 08:21:36,4,55.286,10.932,18.0,181.8,181.8,Passenger ferry,Passenger,8.0,Under way using engine
+greatbelt_ferry_01_track,greatbelt_ferry_01,2026-07-24 08:27:36,5,55.25,10.93,18.0,182.0,182.0,Passenger ferry,Passenger,8.0,Under way using engine
+greatbelt_ferry_01_track,greatbelt_ferry_01,2026-07-24 08:33:36,6,55.22,10.928,18.0,182.2,182.2,Passenger ferry,Passenger,8.0,Under way using engine
+greatbelt_ferry_01_track,greatbelt_ferry_01,2026-07-24 08:39:36,7,55.19,10.926,18.0,182.2,182.2,Passenger ferry,Passenger,8.0,Under way using engine
+greatbelt_ferry_01_track,greatbelt_ferry_01,2026-07-24 08:45:36,8,55.16,10.924,18.0,182.2,182.2,Passenger ferry,Passenger,8.0,Under way using engine
+greatbelt_ferry_01_track,greatbelt_ferry_01,2026-07-24 08:51:36,9,55.13,10.922,18.0,182.2,182.2,Passenger ferry,Passenger,8.0,Under way using engine
+greatbelt_ferry_01_track,greatbelt_ferry_01,2026-07-24 08:57:36,10,55.1,10.92,18.0,181.1,181.1,Passenger ferry,Passenger,8.0,Under way using engine
+greatbelt_ferry_01_track,greatbelt_ferry_01,2026-07-24 09:03:36,11,55.07,10.92,18.0,180.0,180.0,Passenger ferry,Passenger,8.0,Under way using engine
+greatbelt_ferry_01_track,greatbelt_ferry_01,2026-07-24 09:09:36,12,55.04,10.92,18.0,180.0,180.0,Passenger ferry,Passenger,8.0,Under way using engine
+greatbelt_ferry_01_track,greatbelt_ferry_01,2026-07-24 09:15:36,13,55.01,10.92,18.0,180.0,180.0,Passenger ferry,Passenger,8.0,Under way using engine
+greatbelt_ferry_01_track,greatbelt_ferry_01,2026-07-24 09:21:36,14,54.98,10.92,18.0,180.0,180.0,Passenger ferry,Passenger,8.0,Under way using engine
+greatbelt_ferry_01_track,greatbelt_ferry_01,2026-07-24 09:27:36,15,54.95,10.92,18.0,180.0,180.0,Passenger ferry,Passenger,8.0,Under way using engine
+greatbelt_service_01_track,greatbelt_service_01,2026-07-24 06:00:00,0,54.95,10.921,0.0,0.0,0.0,Service,Other,4.8,Under way using engine
+greatbelt_service_01_track,greatbelt_service_01,2026-07-24 06:06:00,1,54.98,10.921,10.0,0.0,0.0,Service,Other,4.8,Under way using engine
+greatbelt_service_01_track,greatbelt_service_01,2026-07-24 06:12:00,2,55.01,10.921,10.0,0.0,0.0,Service,Other,4.8,Under way using engine
+greatbelt_service_01_track,greatbelt_service_01,2026-07-24 06:18:00,3,55.04,10.921,10.0,0.0,0.0,Service,Other,4.8,Under way using engine
+greatbelt_service_01_track,greatbelt_service_01,2026-07-24 06:24:00,4,55.07,10.921,10.0,0.0,0.0,Service,Other,4.8,Under way using engine
+greatbelt_service_01_track,greatbelt_service_01,2026-07-24 06:30:00,5,55.1,10.921,10.0,1.1,1.1,Service,Other,4.8,Under way using engine
+greatbelt_service_01_track,greatbelt_service_01,2026-07-24 06:36:00,6,55.13,10.923,10.0,2.2,2.2,Service,Other,4.8,Under way using engine
+greatbelt_service_01_track,greatbelt_service_01,2026-07-24 06:42:00,7,55.16,10.925,10.0,2.2,2.2,Service,Other,4.8,Under way using engine
+greatbelt_service_01_track,greatbelt_service_01,2026-07-24 06:48:00,8,55.19,10.927,10.0,2.2,2.2,Service,Other,4.8,Under way using engine
+greatbelt_service_01_track,greatbelt_service_01,2026-07-24 06:54:00,9,55.22,10.929,10.0,2.2,2.2,Service,Other,4.8,Under way using engine
+greatbelt_service_01_track,greatbelt_service_01,2026-07-24 07:00:00,10,55.25,10.931,10.0,2.0,2.0,Service,Other,4.8,Under way using engine
+greatbelt_service_01_track,greatbelt_service_01,2026-07-24 07:06:00,11,55.286,10.933,10.0,1.8,1.8,Service,Other,4.8,Under way using engine
+greatbelt_service_01_track,greatbelt_service_01,2026-07-24 07:12:00,12,55.322,10.935,10.0,1.8,1.8,Service,Other,4.8,Under way using engine
+greatbelt_service_01_track,greatbelt_service_01,2026-07-24 07:18:00,13,55.358,10.937,10.0,1.8,1.8,Service,Other,4.8,Under way using engine
+greatbelt_service_01_track,greatbelt_service_01,2026-07-24 07:24:00,14,55.394,10.939,10.0,1.8,1.8,Service,Other,4.8,Under way using engine
+greatbelt_service_01_track,greatbelt_service_01,2026-07-24 07:30:00,15,55.43,10.941,10.0,1.8,1.8,Service,Other,4.8,Under way using engine
+greatbelt_service_02_track,greatbelt_service_02,2026-07-24 06:16:48,0,55.43,10.943,0.0,181.8,181.8,Service,Other,5.3,Under way using engine
+greatbelt_service_02_track,greatbelt_service_02,2026-07-24 06:22:48,1,55.394,10.941,10.0,181.8,181.8,Service,Other,5.3,Under way using engine
+greatbelt_service_02_track,greatbelt_service_02,2026-07-24 06:28:48,2,55.358,10.939,10.0,181.8,181.8,Service,Other,5.3,Under way using engine
+greatbelt_service_02_track,greatbelt_service_02,2026-07-24 06:34:48,3,55.322,10.937,10.0,181.8,181.8,Service,Other,5.3,Under way using engine
+greatbelt_service_02_track,greatbelt_service_02,2026-07-24 06:40:48,4,55.286,10.935,10.0,181.8,181.8,Service,Other,5.3,Under way using engine
+greatbelt_service_02_track,greatbelt_service_02,2026-07-24 06:46:48,5,55.25,10.933,10.0,182.0,182.0,Service,Other,5.3,Under way using engine
+greatbelt_service_02_track,greatbelt_service_02,2026-07-24 06:52:48,6,55.22,10.931,10.0,182.2,182.2,Service,Other,5.3,Under way using engine
+greatbelt_service_02_track,greatbelt_service_02,2026-07-24 06:58:48,7,55.19,10.929,10.0,182.2,182.2,Service,Other,5.3,Under way using engine
+greatbelt_service_02_track,greatbelt_service_02,2026-07-24 07:04:48,8,55.16,10.927,10.0,182.2,182.2,Service,Other,5.3,Under way using engine
+greatbelt_service_02_track,greatbelt_service_02,2026-07-24 07:10:48,9,55.13,10.925,10.0,182.2,182.2,Service,Other,5.3,Under way using engine
+greatbelt_service_02_track,greatbelt_service_02,2026-07-24 07:16:48,10,55.1,10.923,10.0,181.1,181.1,Service,Other,5.3,Under way using engine
+greatbelt_service_02_track,greatbelt_service_02,2026-07-24 07:22:48,11,55.07,10.923,10.0,180.0,180.0,Service,Other,5.3,Under way using engine
+greatbelt_service_02_track,greatbelt_service_02,2026-07-24 07:28:48,12,55.04,10.923,10.0,180.0,180.0,Service,Other,5.3,Under way using engine
+greatbelt_service_02_track,greatbelt_service_02,2026-07-24 07:34:48,13,55.01,10.923,10.0,180.0,180.0,Service,Other,5.3,Under way using engine
+greatbelt_service_02_track,greatbelt_service_02,2026-07-24 07:40:48,14,54.98,10.923,10.0,180.0,180.0,Service,Other,5.3,Under way using engine
+greatbelt_service_02_track,greatbelt_service_02,2026-07-24 07:46:48,15,54.95,10.923,10.0,180.0,180.0,Service,Other,5.3,Under way using engine

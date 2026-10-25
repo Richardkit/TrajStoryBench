@@ -1,0 +1,132 @@
+{
+  "format": "trajstory-insightbench-v1",
+  "cases": [
+    {
+      "case_id": "01_purpose_destination_land_use",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/01_purpose_destination_land_use/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/01_purpose_destination_land_use/trajectories.csv"
+    },
+    {
+      "case_id": "02_land_use_purpose_attraction",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/02_land_use_purpose_attraction/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/02_land_use_purpose_attraction/trajectories.csv"
+    },
+    {
+      "case_id": "03_purpose_time_distance_speed",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/03_purpose_time_distance_speed/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/03_purpose_time_distance_speed/trajectories.csv"
+    },
+    {
+      "case_id": "04_mode_purpose_land_use_joint_patterns",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/04_mode_purpose_land_use_joint_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/04_mode_purpose_land_use_joint_patterns/trajectories.csv"
+    },
+    {
+      "case_id": "05_single_user_purpose_habits",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/05_single_user_purpose_habits/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/05_single_user_purpose_habits/trajectories.csv",
+      "trajectory_points": 9725,
+      "trajectory_count": 111
+    },
+    {
+      "case_id": "06_mode_speed_downtown_patterns",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/06_mode_speed_downtown_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/06_mode_speed_downtown_patterns/trajectories.csv"
+    },
+    {
+      "case_id": "07_usage_mode_distance_time_patterns",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/07_usage_mode_distance_time_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/07_usage_mode_distance_time_patterns/trajectories.csv"
+    },
+    {
+      "case_id": "08_rush_hour_usage_destination_anomalies",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/08_rush_hour_usage_destination_anomalies/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/08_rush_hour_usage_destination_anomalies/trajectories.csv"
+    },
+    {
+      "case_id": "09_land_use_mode_route_weekday_patterns",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/09_land_use_mode_route_weekday_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/09_land_use_mode_route_weekday_patterns/trajectories.csv"
+    },
+    {
+      "case_id": "10_temperature_mode_distance_speed_patterns",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/10_temperature_mode_distance_speed_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/10_temperature_mode_distance_speed_patterns/trajectories.csv"
+    },
+    {
+      "case_id": "11_three_user_weekday_periodicity",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/11_three_user_weekday_periodicity/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/11_three_user_weekday_periodicity/trajectories.csv"
+    },
+    {
+      "case_id": "12_single_user_routine_change_anomaly",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/12_single_user_routine_change_anomaly/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/12_single_user_routine_change_anomaly/trajectories.csv"
+    },
+    {
+      "case_id": "13_single_day_locational_patterns",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/13_single_day_locational_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/13_single_day_locational_patterns/trajectories.csv"
+    },
+    {
+      "case_id": "14_cycling_directness_destination_temperature",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/14_cycling_directness_destination_temperature/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/14_cycling_directness_destination_temperature/trajectories.csv"
+    },
+    {
+      "case_id": "15_single_user_routine_mode_speed_context",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/15_single_user_routine_mode_speed_context/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/15_single_user_routine_mode_speed_context/trajectories.csv"
+    },
+    {
+      "case_id": "16_return_home_work_discretionary_patterns",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/16_return_home_work_discretionary_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/16_return_home_work_discretionary_patterns/trajectories.csv"
+    },
+    {
+      "case_id": "17_weekday_work_destination_flows",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/17_weekday_work_destination_flows/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/17_weekday_work_destination_flows/trajectories.csv"
+    },
+    {
+      "case_id": "18_complete_daily_trip_chains",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/18_complete_daily_trip_chains/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/18_complete_daily_trip_chains/trajectories.csv"
+    },
+    {
+      "case_id": "19_within_cross_area_mobility_patterns",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/19_within_cross_area_mobility_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/19_within_cross_area_mobility_patterns/trajectories.csv"
+    },
+    {
+      "case_id": "20_multi_user_repeated_trip_variability",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/20_multi_user_repeated_trip_variability/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/20_multi_user_repeated_trip_variability/trajectories.csv"
+    },
+    {
+      "case_id": "21_pickup_dropoff_daily_chains",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/21_pickup_dropoff_daily_chains/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/21_pickup_dropoff_daily_chains/trajectories.csv"
+    },
+    {
+      "case_id": "22_recurring_route_speed_destination_patterns",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/22_recurring_route_speed_destination_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/22_recurring_route_speed_destination_patterns/trajectories.csv"
+    },
+    {
+      "case_id": "23_intermediate_stop_daily_chain_patterns",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/23_intermediate_stop_daily_chain_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/23_intermediate_stop_daily_chain_patterns/trajectories.csv"
+    },
+    {
+      "case_id": "24_outward_return_movement_pairs",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/24_outward_return_movement_pairs/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/24_outward_return_movement_pairs/trajectories.csv"
+    },
+    {
+      "case_id": "25_single_user_long_term_mobility_change",
+      "insight_json": "trajstory_examples/insight/MTL_Trajet/25_single_user_long_term_mobility_change/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/25_single_user_long_term_mobility_change/trajectories.csv"
+    }
+  ]
+}

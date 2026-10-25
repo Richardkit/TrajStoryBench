@@ -1,0 +1,159 @@
+caller_id,driver_id,caller_pool_style,preferred_pickup_area,preferred_destination_area
+caller_01_01,driver_01,recurrent_callers,Cedofeita,Matosinhos Sul
+caller_01_02,driver_01,recurrent_callers,Boavista,Ribeira
+caller_01_03,driver_01,recurrent_callers,Ribeira,Boavista
+caller_01_04,driver_01,recurrent_callers,Matosinhos Sul,Cedofeita
+caller_01_05,driver_01,recurrent_callers,Foz do Douro,Ribeira
+caller_02_01,driver_02,diverse_callers,Campanha,Matosinhos Sul
+caller_02_02,driver_02,diverse_callers,Paranhos,Bonfim
+caller_02_03,driver_02,diverse_callers,Bonfim,Matosinhos Sul
+caller_02_04,driver_02,diverse_callers,Campanha,Bonfim
+caller_02_05,driver_02,diverse_callers,Paranhos,Matosinhos Sul
+caller_02_06,driver_02,diverse_callers,Bonfim,Foz do Douro
+caller_02_07,driver_02,diverse_callers,Campanha,Matosinhos Sul
+caller_02_08,driver_02,diverse_callers,Paranhos,Bonfim
+caller_02_09,driver_02,diverse_callers,Bonfim,Matosinhos Sul
+caller_02_10,driver_02,diverse_callers,Campanha,Bonfim
+caller_02_11,driver_02,diverse_callers,Paranhos,Matosinhos Sul
+caller_03_01,driver_03,recurrent_callers,Foz do Douro,Vila Nova de Gaia
+caller_03_02,driver_03,recurrent_callers,Boavista,Cedofeita
+caller_03_03,driver_03,recurrent_callers,Cedofeita,Foz do Douro
+caller_03_04,driver_03,recurrent_callers,Campanha,Bonfim
+caller_03_05,driver_03,recurrent_callers,Vila Nova de Gaia,Campanha
+caller_03_06,driver_03,recurrent_callers,Bonfim,Boavista
+caller_04_01,driver_04,diverse_callers,Foz do Douro,Cedofeita
+caller_04_02,driver_04,diverse_callers,Vila Nova de Gaia,Ribeira
+caller_04_03,driver_04,diverse_callers,Ribeira,Bonfim
+caller_04_04,driver_04,diverse_callers,Matosinhos Sul,Vila Nova de Gaia
+caller_04_05,driver_04,diverse_callers,Foz do Douro,Paranhos
+caller_04_06,driver_04,diverse_callers,Vila Nova de Gaia,Foz do Douro
+caller_04_07,driver_04,diverse_callers,Ribeira,Boavista
+caller_04_08,driver_04,diverse_callers,Matosinhos Sul,Bonfim
+caller_04_09,driver_04,diverse_callers,Foz do Douro,Cedofeita
+caller_04_10,driver_04,diverse_callers,Vila Nova de Gaia,Ribeira
+caller_04_11,driver_04,diverse_callers,Ribeira,Bonfim
+caller_04_12,driver_04,diverse_callers,Matosinhos Sul,Vila Nova de Gaia
+caller_04_13,driver_04,diverse_callers,Foz do Douro,Paranhos
+caller_05_01,driver_05,recurrent_callers,Cedofeita,Paranhos
+caller_05_02,driver_05,recurrent_callers,Bonfim,Boavista
+caller_05_03,driver_05,recurrent_callers,Boavista,Vila Nova de Gaia
+caller_05_04,driver_05,recurrent_callers,Matosinhos Sul,Paranhos
+caller_05_05,driver_05,recurrent_callers,Foz do Douro,Boavista
+caller_05_06,driver_05,recurrent_callers,Paranhos,Vila Nova de Gaia
+caller_05_07,driver_05,recurrent_callers,Campanha,Paranhos
+caller_06_01,driver_06,diverse_callers,Vila Nova de Gaia,Matosinhos Sul
+caller_06_02,driver_06,diverse_callers,Ribeira,Cedofeita
+caller_06_03,driver_06,diverse_callers,Cedofeita,Ribeira
+caller_06_04,driver_06,diverse_callers,Matosinhos Sul,Vila Nova de Gaia
+caller_06_05,driver_06,diverse_callers,Foz do Douro,Cedofeita
+caller_06_06,driver_06,diverse_callers,Vila Nova de Gaia,Matosinhos Sul
+caller_06_07,driver_06,diverse_callers,Ribeira,Cedofeita
+caller_06_08,driver_06,diverse_callers,Cedofeita,Ribeira
+caller_06_09,driver_06,diverse_callers,Matosinhos Sul,Vila Nova de Gaia
+caller_06_10,driver_06,diverse_callers,Foz do Douro,Cedofeita
+caller_07_01,driver_07,recurrent_callers,Boavista,Matosinhos Sul
+caller_07_02,driver_07,recurrent_callers,Cedofeita,Ribeira
+caller_07_03,driver_07,recurrent_callers,Ribeira,Matosinhos Sul
+caller_07_04,driver_07,recurrent_callers,Boavista,Ribeira
+caller_07_05,driver_07,recurrent_callers,Cedofeita,Matosinhos Sul
+caller_08_01,driver_08,diverse_callers,Bonfim,Matosinhos Sul
+caller_08_02,driver_08,diverse_callers,Campanha,Cedofeita
+caller_08_03,driver_08,diverse_callers,Cedofeita,Bonfim
+caller_08_04,driver_08,diverse_callers,Ribeira,Foz do Douro
+caller_08_05,driver_08,diverse_callers,Matosinhos Sul,Ribeira
+caller_08_06,driver_08,diverse_callers,Foz do Douro,Campanha
+caller_08_07,driver_08,diverse_callers,Vila Nova de Gaia,Ribeira
+caller_08_08,driver_08,diverse_callers,Bonfim,Matosinhos Sul
+caller_08_09,driver_08,diverse_callers,Campanha,Cedofeita
+caller_08_10,driver_08,diverse_callers,Cedofeita,Bonfim
+caller_08_11,driver_08,diverse_callers,Ribeira,Foz do Douro
+caller_08_12,driver_08,diverse_callers,Matosinhos Sul,Ribeira
+caller_09_01,driver_09,recurrent_callers,Campanha,Matosinhos Sul
+caller_09_02,driver_09,recurrent_callers,Bonfim,Ribeira
+caller_09_03,driver_09,recurrent_callers,Ribeira,Paranhos
+caller_09_04,driver_09,recurrent_callers,Cedofeita,Bonfim
+caller_09_05,driver_09,recurrent_callers,Campanha,Boavista
+caller_09_06,driver_09,recurrent_callers,Bonfim,Campanha
+caller_10_01,driver_10,diverse_callers,Cedofeita,Matosinhos Sul
+caller_10_02,driver_10,diverse_callers,Boavista,Ribeira
+caller_10_03,driver_10,diverse_callers,Ribeira,Campanha
+caller_10_04,driver_10,diverse_callers,Bonfim,Matosinhos Sul
+caller_10_05,driver_10,diverse_callers,Paranhos,Ribeira
+caller_10_06,driver_10,diverse_callers,Matosinhos Sul,Campanha
+caller_10_07,driver_10,diverse_callers,Foz do Douro,Matosinhos Sul
+caller_10_08,driver_10,diverse_callers,Vila Nova de Gaia,Ribeira
+caller_10_09,driver_10,diverse_callers,Campanha,Paranhos
+caller_10_10,driver_10,diverse_callers,Cedofeita,Matosinhos Sul
+caller_10_11,driver_10,diverse_callers,Boavista,Ribeira
+caller_10_12,driver_10,diverse_callers,Ribeira,Campanha
+caller_11_01,driver_11,recurrent_callers,Foz do Douro,Campanha
+caller_11_02,driver_11,recurrent_callers,Matosinhos Sul,Boavista
+caller_11_03,driver_11,recurrent_callers,Boavista,Matosinhos Sul
+caller_11_04,driver_11,recurrent_callers,Campanha,Foz do Douro
+caller_11_05,driver_11,recurrent_callers,Paranhos,Boavista
+caller_11_06,driver_11,recurrent_callers,Foz do Douro,Campanha
+caller_11_07,driver_11,recurrent_callers,Matosinhos Sul,Boavista
+caller_12_01,driver_12,diverse_callers,Bonfim,Matosinhos Sul
+caller_12_02,driver_12,diverse_callers,Campanha,Vila Nova de Gaia
+caller_12_03,driver_12,diverse_callers,Vila Nova de Gaia,Matosinhos Sul
+caller_12_04,driver_12,diverse_callers,Bonfim,Vila Nova de Gaia
+caller_12_05,driver_12,diverse_callers,Campanha,Matosinhos Sul
+caller_12_06,driver_12,diverse_callers,Vila Nova de Gaia,Boavista
+caller_12_07,driver_12,diverse_callers,Bonfim,Matosinhos Sul
+caller_12_08,driver_12,diverse_callers,Campanha,Vila Nova de Gaia
+caller_12_09,driver_12,diverse_callers,Vila Nova de Gaia,Matosinhos Sul
+caller_12_10,driver_12,diverse_callers,Bonfim,Vila Nova de Gaia
+caller_12_11,driver_12,diverse_callers,Campanha,Matosinhos Sul
+caller_13_01,driver_13,recurrent_callers,Vila Nova de Gaia,Boavista
+caller_13_02,driver_13,recurrent_callers,Paranhos,Bonfim
+caller_13_03,driver_13,recurrent_callers,Bonfim,Vila Nova de Gaia
+caller_13_04,driver_13,recurrent_callers,Cedofeita,Matosinhos Sul
+caller_13_05,driver_13,recurrent_callers,Boavista,Cedofeita
+caller_14_01,driver_14,diverse_callers,Paranhos,Bonfim
+caller_14_02,driver_14,diverse_callers,Campanha,Matosinhos Sul
+caller_14_03,driver_14,diverse_callers,Matosinhos Sul,Cedofeita
+caller_14_04,driver_14,diverse_callers,Foz do Douro,Campanha
+caller_14_05,driver_14,diverse_callers,Paranhos,Vila Nova de Gaia
+caller_14_06,driver_14,diverse_callers,Campanha,Paranhos
+caller_14_07,driver_14,diverse_callers,Matosinhos Sul,Ribeira
+caller_14_08,driver_14,diverse_callers,Foz do Douro,Cedofeita
+caller_14_09,driver_14,diverse_callers,Paranhos,Bonfim
+caller_14_10,driver_14,diverse_callers,Campanha,Matosinhos Sul
+caller_14_11,driver_14,diverse_callers,Matosinhos Sul,Cedofeita
+caller_14_12,driver_14,diverse_callers,Foz do Douro,Campanha
+caller_14_13,driver_14,diverse_callers,Paranhos,Vila Nova de Gaia
+caller_15_01,driver_15,recurrent_callers,Paranhos,Bonfim
+caller_15_02,driver_15,recurrent_callers,Boavista,Vila Nova de Gaia
+caller_15_03,driver_15,recurrent_callers,Vila Nova de Gaia,Foz do Douro
+caller_15_04,driver_15,recurrent_callers,Ribeira,Bonfim
+caller_15_05,driver_15,recurrent_callers,Cedofeita,Vila Nova de Gaia
+caller_15_06,driver_15,recurrent_callers,Bonfim,Foz do Douro
+caller_16_01,driver_16,diverse_callers,Boavista,Matosinhos Sul
+caller_16_02,driver_16,diverse_callers,Cedofeita,Ribeira
+caller_16_03,driver_16,diverse_callers,Ribeira,Cedofeita
+caller_16_04,driver_16,diverse_callers,Matosinhos Sul,Boavista
+caller_16_05,driver_16,diverse_callers,Foz do Douro,Ribeira
+caller_16_06,driver_16,diverse_callers,Boavista,Matosinhos Sul
+caller_16_07,driver_16,diverse_callers,Cedofeita,Ribeira
+caller_16_08,driver_16,diverse_callers,Ribeira,Cedofeita
+caller_16_09,driver_16,diverse_callers,Matosinhos Sul,Boavista
+caller_16_10,driver_16,diverse_callers,Foz do Douro,Ribeira
+caller_17_01,driver_17,recurrent_callers,Cedofeita,Vila Nova de Gaia
+caller_17_02,driver_17,recurrent_callers,Bonfim,Campanha
+caller_17_03,driver_17,recurrent_callers,Campanha,Vila Nova de Gaia
+caller_17_04,driver_17,recurrent_callers,Cedofeita,Campanha
+caller_17_05,driver_17,recurrent_callers,Bonfim,Vila Nova de Gaia
+caller_17_06,driver_17,recurrent_callers,Campanha,Foz do Douro
+caller_17_07,driver_17,recurrent_callers,Cedofeita,Vila Nova de Gaia
+caller_18_01,driver_18,diverse_callers,Foz do Douro,Ribeira
+caller_18_02,driver_18,diverse_callers,Boavista,Campanha
+caller_18_03,driver_18,diverse_callers,Campanha,Foz do Douro
+caller_18_04,driver_18,diverse_callers,Bonfim,Cedofeita
+caller_18_05,driver_18,diverse_callers,Ribeira,Bonfim
+caller_18_06,driver_18,diverse_callers,Cedofeita,Boavista
+caller_18_07,driver_18,diverse_callers,Matosinhos Sul,Bonfim
+caller_18_08,driver_18,diverse_callers,Foz do Douro,Ribeira
+caller_18_09,driver_18,diverse_callers,Boavista,Campanha
+caller_18_10,driver_18,diverse_callers,Campanha,Foz do Douro
+caller_18_11,driver_18,diverse_callers,Bonfim,Cedofeita
+caller_18_12,driver_18,diverse_callers,Ribeira,Bonfim

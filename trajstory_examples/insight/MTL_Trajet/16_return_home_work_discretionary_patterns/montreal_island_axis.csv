@@ -1,0 +1,3 @@
+reference_id,endpoint_order,endpoint_role,longitude,latitude,axis_east_unit,axis_north_unit,axis_length_km,axis_orientation,comparison_method,description
+montreal_island_axis,1,southwest,-73.946103,45.402342,0.759962,0.649968,46.9,southwest_to_northeast,Project each route's endpoint displacement onto the east/north unit vector.,"This file defines Montréal's island axis, which can be used as a baseline for route comparison."
+montreal_island_axis,2,northeast,-73.489151,45.676968,0.759962,0.649968,46.9,southwest_to_northeast,Project each route's endpoint displacement onto the east/north unit vector.,"This file defines Montréal's island axis, which can be used as a baseline for route comparison."

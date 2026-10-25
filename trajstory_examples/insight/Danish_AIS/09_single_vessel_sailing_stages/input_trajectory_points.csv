@@ -1,0 +1,535 @@
+trajectory_id,vessel_id,timestamp,point_index,lat,lon,sog_knots,cog,heading,rot_deg_per_min,nav_status,movement_phase
+voyage_01_typical,vessel_aurora,2026-07-01 06:00:00,0,35.099701,14.09992,8.68,102.1,103.4,0.64,Under way using engine,under way using engine
+voyage_01_typical,vessel_aurora,2026-07-01 06:08:00,1,35.093034,14.137841,8.47,102.3,102.4,0.75,Under way using engine,under way using engine
+voyage_01_typical,vessel_aurora,2026-07-01 06:16:00,2,35.086115,14.175694,8.49,101.6,101.3,0.72,Under way using engine,under way using engine
+voyage_01_typical,vessel_aurora,2026-07-01 06:24:00,3,35.080212,14.21367,8.63,95.6,97.3,0.81,Under way using engine,under way using engine
+voyage_01_typical,vessel_aurora,2026-07-01 06:32:00,4,35.07993,14.252447,8.09,90.4,92.5,0.83,Under way using engine,under way using engine
+voyage_01_typical,vessel_aurora,2026-07-01 06:40:00,5,35.079792,14.291223,8.64,89.8,90.6,0.75,Under way using engine,under way using engine
+voyage_01_typical,vessel_aurora,2026-07-01 06:48:00,6,35.08011,14.33,8.53,89.4,90.9,0.78,Under way using engine,under way using engine
+voyage_01_typical,vessel_aurora,2026-07-01 06:56:00,7,35.080045,14.330015,0.18,88.0,87.6,0.05,At anchor,at anchor
+voyage_01_typical,vessel_aurora,2026-07-01 07:04:00,8,35.079961,14.329799,0.15,88.0,86.9,0.03,At anchor,at anchor
+voyage_01_typical,vessel_aurora,2026-07-01 07:12:00,9,35.080319,14.330298,0.13,88.0,87.0,0.01,At anchor,at anchor
+voyage_01_typical,vessel_aurora,2026-07-01 07:20:00,10,35.080086,14.33005,0.13,88.0,88.8,0.05,At anchor,at anchor
+voyage_01_typical,vessel_aurora,2026-07-01 07:28:00,11,35.079922,14.329917,0.21,88.0,85.6,-0.03,At anchor,at anchor
+voyage_01_typical,vessel_aurora,2026-07-01 07:36:00,12,35.080246,14.330053,0.18,88.0,86.8,-0.02,At anchor,at anchor
+voyage_01_typical,vessel_aurora,2026-07-01 07:44:00,13,35.08002,14.329999,12.34,87.8,86.1,-0.21,Under way sailing,under way sailing
+voyage_01_typical,vessel_aurora,2026-07-01 07:52:00,14,35.082192,14.399328,13.34,87.5,87.6,-0.14,Under way sailing,under way sailing
+voyage_01_typical,vessel_aurora,2026-07-01 08:00:00,15,35.084969,14.468627,12.8,87.7,85.0,-0.06,Under way sailing,under way sailing
+voyage_01_typical,vessel_aurora,2026-07-01 08:08:00,16,35.086829,14.537971,12.77,87.6,88.6,0.8,Under way sailing,under way sailing
+voyage_01_typical,vessel_aurora,2026-07-01 08:16:00,17,35.08966,14.607267,12.81,87.5,88.8,0.49,Under way sailing,under way sailing
+voyage_01_typical,vessel_aurora,2026-07-01 08:24:00,18,35.091718,14.676602,12.78,87.9,88.0,0.09,Under way sailing,under way sailing
+voyage_01_typical,vessel_aurora,2026-07-01 08:32:00,19,35.093841,14.745933,12.77,87.9,88.3,0.24,Under way sailing,under way sailing
+voyage_01_typical,vessel_aurora,2026-07-01 08:40:00,20,35.095884,14.815268,12.94,87.5,87.5,0.5,Under way sailing,under way sailing
+voyage_01_typical,vessel_aurora,2026-07-01 08:48:00,21,35.098757,14.884562,12.48,87.9,88.5,0.34,Under way sailing,under way sailing
+voyage_01_typical,vessel_aurora,2026-07-01 08:56:00,22,35.100155,14.953918,12.46,88.5,88.1,0.83,Under way sailing,under way sailing
+voyage_01_typical,vessel_aurora,2026-07-01 09:04:00,23,35.101661,15.023274,12.57,88.7,89.4,-0.07,Under way sailing,under way sailing
+voyage_01_typical,vessel_aurora,2026-07-01 09:12:00,24,35.102786,15.092639,12.94,89.0,89.7,0.23,Under way sailing,under way sailing
+voyage_01_typical,vessel_aurora,2026-07-01 09:20:00,25,35.10362,15.162012,12.96,88.7,90.6,0.14,Under way sailing,under way sailing
+voyage_01_typical,vessel_aurora,2026-07-01 09:28:00,26,35.105298,15.231363,13.69,88.8,90.2,-0.09,Under way sailing,under way sailing
+voyage_01_typical,vessel_aurora,2026-07-01 09:36:00,27,35.105957,15.30074,12.6,88.8,91.0,0.17,Under way sailing,under way sailing
+voyage_01_typical,vessel_aurora,2026-07-01 09:44:00,28,35.107623,15.370092,12.52,88.6,90.0,-0.32,Under way sailing,under way sailing
+voyage_01_typical,vessel_aurora,2026-07-01 09:52:00,29,35.108728,15.439458,12.99,88.6,89.0,0.35,Under way sailing,under way sailing
+voyage_01_typical,vessel_aurora,2026-07-01 10:00:00,30,35.110347,15.508811,12.58,88.4,89.0,0.47,Under way sailing,under way sailing
+voyage_01_typical,vessel_aurora,2026-07-01 10:08:00,31,35.109804,15.508794,4.94,31.2,31.3,5.72,Restricted manoeuvrability,restricted manoeuvrability
+voyage_01_typical,vessel_aurora,2026-07-01 10:16:00,32,35.147062,15.536274,4.8,31.3,30.4,5.5,Restricted manoeuvrability,restricted manoeuvrability
+voyage_01_typical,vessel_aurora,2026-07-01 10:24:00,33,35.184292,15.563812,4.49,31.2,31.0,5.65,Restricted manoeuvrability,restricted manoeuvrability
+voyage_01_typical,vessel_aurora,2026-07-01 10:32:00,34,35.221655,15.59108,4.56,34.5,36.1,5.55,Restricted manoeuvrability,restricted manoeuvrability
+voyage_01_typical,vessel_aurora,2026-07-01 10:40:00,35,35.25603,15.623645,4.68,37.5,35.7,5.44,Restricted manoeuvrability,restricted manoeuvrability
+voyage_01_typical,vessel_aurora,2026-07-01 10:48:00,36,35.290816,15.655559,4.04,37.4,37.0,5.64,Restricted manoeuvrability,restricted manoeuvrability
+voyage_01_typical,vessel_aurora,2026-07-01 10:56:00,37,35.325231,15.68806,4.62,37.5,37.1,5.67,Restricted manoeuvrability,restricted manoeuvrability
+voyage_01_typical,vessel_aurora,2026-07-01 11:04:00,38,35.359942,15.720092,4.64,37.2,36.3,5.42,Restricted manoeuvrability,restricted manoeuvrability
+voyage_01_typical,vessel_aurora,2026-07-01 11:12:00,39,35.360045,15.720135,0.11,28.0,27.4,-0.0,At anchor,terminal anchorage
+voyage_01_typical,vessel_aurora,2026-07-01 11:20:00,40,35.359535,15.719919,0.11,28.0,29.2,-0.0,At anchor,terminal anchorage
+voyage_01_typical,vessel_aurora,2026-07-01 11:28:00,41,35.359931,15.720345,0.15,28.0,27.7,0.04,At anchor,terminal anchorage
+voyage_01_typical,vessel_aurora,2026-07-01 11:36:00,42,35.360004,15.720004,0.13,28.0,26.9,-0.01,At anchor,terminal anchorage
+voyage_01_typical,vessel_aurora,2026-07-01 11:44:00,43,35.360072,15.71993,0.05,28.0,28.6,0.03,At anchor,terminal anchorage
+voyage_01_typical,vessel_aurora,2026-07-01 11:52:00,44,35.359895,15.72003,0.13,28.0,28.1,0.02,At anchor,terminal anchorage
+voyage_02_typical,vessel_aurora,2026-07-04 06:00:00,0,35.100091,14.100025,8.18,102.4,100.7,0.89,Under way using engine,under way using engine
+voyage_02_typical,vessel_aurora,2026-07-04 06:08:00,1,35.093261,14.137917,8.45,103.0,102.6,0.48,Under way using engine,under way using engine
+voyage_02_typical,vessel_aurora,2026-07-04 06:16:00,2,35.085709,14.175609,8.53,102.3,102.2,0.53,Under way using engine,under way using engine
+voyage_02_typical,vessel_aurora,2026-07-04 06:24:00,3,35.079725,14.213632,8.68,95.2,94.9,0.75,Under way using engine,under way using engine
+voyage_02_typical,vessel_aurora,2026-07-04 06:32:00,4,35.079935,14.252422,8.76,89.7,91.4,0.58,Under way using engine,under way using engine
+voyage_02_typical,vessel_aurora,2026-07-04 06:40:00,5,35.080104,14.291211,8.55,90.0,91.8,0.79,Under way using engine,under way using engine
+voyage_02_typical,vessel_aurora,2026-07-04 06:48:00,6,35.079961,14.33,8.71,90.3,92.6,0.58,Under way using engine,under way using engine
+voyage_02_typical,vessel_aurora,2026-07-04 06:56:00,7,35.080165,14.330002,0.12,88.0,89.8,0.01,At anchor,at anchor
+voyage_02_typical,vessel_aurora,2026-07-04 07:04:00,8,35.079865,14.330129,0.17,88.0,88.2,-0.07,At anchor,at anchor
+voyage_02_typical,vessel_aurora,2026-07-04 07:12:00,9,35.080007,14.329916,0.11,88.0,89.6,0.01,At anchor,at anchor
+voyage_02_typical,vessel_aurora,2026-07-04 07:20:00,10,35.079855,14.329965,0.2,88.0,87.6,-0.01,At anchor,at anchor
+voyage_02_typical,vessel_aurora,2026-07-04 07:28:00,11,35.080046,14.329952,0.12,88.0,88.7,0.01,At anchor,at anchor
+voyage_02_typical,vessel_aurora,2026-07-04 07:36:00,12,35.080048,14.330087,0.18,88.0,88.2,-0.03,At anchor,at anchor
+voyage_02_typical,vessel_aurora,2026-07-04 07:44:00,13,35.080418,14.329979,12.59,88.1,90.1,0.2,Under way sailing,under way sailing
+voyage_02_typical,vessel_aurora,2026-07-04 07:52:00,14,35.082285,14.398297,12.64,87.4,87.5,0.06,Under way sailing,under way sailing
+voyage_02_typical,vessel_aurora,2026-07-04 08:00:00,15,35.085468,14.466549,12.02,87.6,85.8,0.09,Under way sailing,under way sailing
+voyage_02_typical,vessel_aurora,2026-07-04 08:08:00,16,35.086932,14.534888,12.51,88.0,87.3,0.2,Under way sailing,under way sailing
+voyage_02_typical,vessel_aurora,2026-07-04 08:16:00,17,35.089434,14.603174,12.65,87.6,89.3,0.25,Under way sailing,under way sailing
+voyage_02_typical,vessel_aurora,2026-07-04 08:24:00,18,35.091708,14.671472,12.65,87.8,88.8,0.18,Under way sailing,under way sailing
+voyage_02_typical,vessel_aurora,2026-07-04 08:32:00,19,35.093792,14.73978,12.45,87.7,85.7,0.41,Under way sailing,under way sailing
+voyage_02_typical,vessel_aurora,2026-07-04 08:40:00,20,35.096141,14.808074,12.66,87.6,88.8,0.03,Under way sailing,under way sailing
+voyage_02_typical,vessel_aurora,2026-07-04 08:48:00,21,35.098503,14.876367,12.77,88.1,88.2,0.27,Under way sailing,under way sailing
+voyage_02_typical,vessel_aurora,2026-07-04 08:56:00,22,35.099874,14.944681,13.08,88.6,87.8,0.35,Under way sailing,under way sailing
+voyage_02_typical,vessel_aurora,2026-07-04 09:04:00,23,35.101239,15.013018,13.48,89.0,86.0,0.16,Under way sailing,under way sailing
+voyage_02_typical,vessel_aurora,2026-07-04 09:12:00,24,35.101923,15.081367,12.21,89.2,87.7,0.51,Under way sailing,under way sailing
+voyage_02_typical,vessel_aurora,2026-07-04 09:20:00,25,35.102829,15.149712,12.42,89.3,89.7,0.39,Under way sailing,under way sailing
+voyage_02_typical,vessel_aurora,2026-07-04 09:28:00,26,35.103238,15.218066,12.23,89.4,87.2,0.37,Under way sailing,under way sailing
+voyage_02_typical,vessel_aurora,2026-07-04 09:36:00,27,35.103994,15.286413,12.6,89.2,88.2,-0.21,Under way sailing,under way sailing
+voyage_02_typical,vessel_aurora,2026-07-04 09:44:00,28,35.10487,15.354759,12.49,88.9,90.6,0.42,Under way sailing,under way sailing
+voyage_02_typical,vessel_aurora,2026-07-04 09:52:00,29,35.106125,15.423098,12.16,89.1,88.1,0.34,Under way sailing,under way sailing
+voyage_02_typical,vessel_aurora,2026-07-04 10:00:00,30,35.10666,15.491449,13.14,89.5,88.2,0.46,Under way sailing,under way sailing
+voyage_02_typical,vessel_aurora,2026-07-04 10:08:00,31,35.10669,15.491397,4.97,34.5,33.2,5.56,Restricted manoeuvrability,restricted manoeuvrability
+voyage_02_typical,vessel_aurora,2026-07-04 10:16:00,32,35.143871,15.522421,4.26,34.3,34.4,5.57,Restricted manoeuvrability,restricted manoeuvrability
+voyage_02_typical,vessel_aurora,2026-07-04 10:24:00,33,35.181182,15.553213,4.83,34.2,34.1,5.64,Restricted manoeuvrability,restricted manoeuvrability
+voyage_02_typical,vessel_aurora,2026-07-04 10:32:00,34,35.218493,15.584005,5.03,36.3,39.3,6.01,Restricted manoeuvrability,restricted manoeuvrability
+voyage_02_typical,vessel_aurora,2026-07-04 10:40:00,35,35.253858,15.618024,5.52,38.5,38.0,5.66,Restricted manoeuvrability,restricted manoeuvrability
+voyage_02_typical,vessel_aurora,2026-07-04 10:48:00,36,35.289125,15.652191,5.05,38.3,36.8,5.81,Restricted manoeuvrability,restricted manoeuvrability
+voyage_02_typical,vessel_aurora,2026-07-04 10:56:00,37,35.324645,15.685968,5.43,38.2,36.2,5.68,Restricted manoeuvrability,restricted manoeuvrability
+voyage_02_typical,vessel_aurora,2026-07-04 11:04:00,38,35.360015,15.719978,4.91,38.3,36.3,5.82,Restricted manoeuvrability,restricted manoeuvrability
+voyage_02_typical,vessel_aurora,2026-07-04 11:12:00,39,35.360062,15.719855,0.12,28.0,25.9,-0.02,At anchor,terminal anchorage
+voyage_02_typical,vessel_aurora,2026-07-04 11:20:00,40,35.360007,15.719957,0.22,28.0,29.3,-0.02,At anchor,terminal anchorage
+voyage_02_typical,vessel_aurora,2026-07-04 11:28:00,41,35.360232,15.72023,0.12,28.0,28.4,0.01,At anchor,terminal anchorage
+voyage_02_typical,vessel_aurora,2026-07-04 11:36:00,42,35.360214,15.719971,0.08,28.0,27.7,-0.04,At anchor,terminal anchorage
+voyage_02_typical,vessel_aurora,2026-07-04 11:44:00,43,35.35988,15.71989,0.09,28.0,27.7,-0.03,At anchor,terminal anchorage
+voyage_02_typical,vessel_aurora,2026-07-04 11:52:00,44,35.359896,15.720018,0.12,28.0,28.7,-0.03,At anchor,terminal anchorage
+voyage_03_typical,vessel_aurora,2026-07-07 06:00:00,0,35.10013,14.100035,9.19,103.4,103.0,0.85,Under way using engine,under way using engine
+voyage_03_typical,vessel_aurora,2026-07-07 06:08:00,1,35.092753,14.137768,8.66,102.5,104.4,0.6,Under way using engine,under way using engine
+voyage_03_typical,vessel_aurora,2026-07-07 06:16:00,2,35.086266,14.175742,8.43,101.5,104.3,0.56,Under way using engine,under way using engine
+voyage_03_typical,vessel_aurora,2026-07-07 06:24:00,3,35.080009,14.21366,8.52,95.8,94.6,0.81,Under way using engine,under way using engine
+voyage_03_typical,vessel_aurora,2026-07-07 06:32:00,4,35.07982,14.25244,9.29,89.9,88.4,0.75,Under way using engine,under way using engine
+voyage_03_typical,vessel_aurora,2026-07-07 06:40:00,5,35.080094,14.29122,8.21,89.7,85.7,0.93,Under way using engine,under way using engine
+voyage_03_typical,vessel_aurora,2026-07-07 06:48:00,6,35.080167,14.33,8.47,89.9,88.8,0.88,Under way using engine,under way using engine
+voyage_03_typical,vessel_aurora,2026-07-07 06:56:00,7,35.080126,14.329833,0.14,88.0,88.4,-0.03,At anchor,at anchor
+voyage_03_typical,vessel_aurora,2026-07-07 07:04:00,8,35.079857,14.32981,0.13,88.0,89.4,-0.07,At anchor,at anchor
+voyage_03_typical,vessel_aurora,2026-07-07 07:12:00,9,35.080165,14.330075,0.22,88.0,86.0,-0.04,At anchor,at anchor
+voyage_03_typical,vessel_aurora,2026-07-07 07:20:00,10,35.080107,14.329977,0.16,88.0,89.1,-0.02,At anchor,at anchor
+voyage_03_typical,vessel_aurora,2026-07-07 07:28:00,11,35.079956,14.330042,0.16,88.0,88.3,0.02,At anchor,at anchor
+voyage_03_typical,vessel_aurora,2026-07-07 07:36:00,12,35.080044,14.330048,0.09,88.0,89.1,0.01,At anchor,at anchor
+voyage_03_typical,vessel_aurora,2026-07-07 07:44:00,13,35.080183,14.329991,12.63,87.9,88.6,0.06,Under way sailing,under way sailing
+voyage_03_typical,vessel_aurora,2026-07-07 07:52:00,14,35.082239,14.399053,12.37,87.9,86.9,0.6,Under way sailing,under way sailing
+voyage_03_typical,vessel_aurora,2026-07-07 08:00:00,15,35.084319,14.468114,12.77,87.8,90.1,0.18,Under way sailing,under way sailing
+voyage_03_typical,vessel_aurora,2026-07-07 08:08:00,16,35.086591,14.537165,12.78,87.6,89.1,0.41,Under way sailing,under way sailing
+voyage_03_typical,vessel_aurora,2026-07-07 08:16:00,17,35.089061,14.606206,12.92,87.4,88.1,0.38,Under way sailing,under way sailing
+voyage_03_typical,vessel_aurora,2026-07-07 08:24:00,18,35.091719,14.675238,12.41,87.5,89.0,0.35,Under way sailing,under way sailing
+voyage_03_typical,vessel_aurora,2026-07-07 08:32:00,19,35.094105,14.744284,12.53,87.5,88.7,0.51,Under way sailing,under way sailing
+voyage_03_typical,vessel_aurora,2026-07-07 08:40:00,20,35.096616,14.813323,12.16,87.5,87.1,0.43,Under way sailing,under way sailing
+voyage_03_typical,vessel_aurora,2026-07-07 08:48:00,21,35.099078,14.882365,13.06,88.2,87.3,0.07,Under way sailing,under way sailing
+voyage_03_typical,vessel_aurora,2026-07-07 08:56:00,22,35.100225,14.951461,12.62,88.5,88.0,0.41,Under way sailing,under way sailing
+voyage_03_typical,vessel_aurora,2026-07-07 09:04:00,23,35.102057,15.020537,13.2,88.8,88.8,-0.08,Under way sailing,under way sailing
+voyage_03_typical,vessel_aurora,2026-07-07 09:12:00,24,35.102592,15.089644,12.86,89.3,90.8,0.4,Under way sailing,under way sailing
+voyage_03_typical,vessel_aurora,2026-07-07 09:20:00,25,35.103528,15.158741,12.33,89.0,88.5,0.12,Under way sailing,under way sailing
+voyage_03_typical,vessel_aurora,2026-07-07 09:28:00,26,35.104496,15.227838,12.42,88.8,88.8,0.12,Under way sailing,under way sailing
+voyage_03_typical,vessel_aurora,2026-07-07 09:36:00,27,35.105976,15.296922,12.6,89.0,90.6,0.36,Under way sailing,under way sailing
+voyage_03_typical,vessel_aurora,2026-07-07 09:44:00,28,35.106429,15.366031,13.02,89.1,89.4,0.04,Under way sailing,under way sailing
+voyage_03_typical,vessel_aurora,2026-07-07 09:52:00,29,35.107707,15.43512,12.72,88.7,91.2,0.08,Under way sailing,under way sailing
+voyage_03_typical,vessel_aurora,2026-07-07 10:00:00,30,35.108977,15.50421,13.13,88.7,87.3,0.29,Under way sailing,under way sailing
+voyage_03_typical,vessel_aurora,2026-07-07 10:08:00,31,35.109005,15.504118,4.76,32.2,33.4,5.61,Restricted manoeuvrability,restricted manoeuvrability
+voyage_03_typical,vessel_aurora,2026-07-07 10:16:00,32,35.14623,15.532581,4.45,32.0,31.8,5.64,Restricted manoeuvrability,restricted manoeuvrability
+voyage_03_typical,vessel_aurora,2026-07-07 10:24:00,33,35.183634,15.560695,4.36,32.1,33.3,6.09,Restricted manoeuvrability,restricted manoeuvrability
+voyage_03_typical,vessel_aurora,2026-07-07 10:32:00,34,35.220729,15.58938,4.95,35.0,33.6,5.76,Restricted manoeuvrability,restricted manoeuvrability
+voyage_03_typical,vessel_aurora,2026-07-07 10:40:00,35,35.255623,15.621914,5.23,37.8,38.7,5.68,Restricted manoeuvrability,restricted manoeuvrability
+voyage_03_typical,vessel_aurora,2026-07-07 10:48:00,36,35.290242,15.654882,4.3,37.9,37.9,5.57,Restricted manoeuvrability,restricted manoeuvrability
+voyage_03_typical,vessel_aurora,2026-07-07 10:56:00,37,35.325001,15.687631,4.79,37.5,37.8,5.8,Restricted manoeuvrability,restricted manoeuvrability
+voyage_03_typical,vessel_aurora,2026-07-07 11:04:00,38,35.360024,15.719961,4.36,37.2,38.0,5.7,Restricted manoeuvrability,restricted manoeuvrability
+voyage_03_typical,vessel_aurora,2026-07-07 11:12:00,39,35.360021,15.720056,0.08,28.0,28.5,-0.07,At anchor,terminal anchorage
+voyage_03_typical,vessel_aurora,2026-07-07 11:20:00,40,35.36011,15.720293,0.09,28.0,30.3,-0.0,At anchor,terminal anchorage
+voyage_03_typical,vessel_aurora,2026-07-07 11:28:00,41,35.360044,15.720231,0.14,28.0,27.8,0.02,At anchor,terminal anchorage
+voyage_03_typical,vessel_aurora,2026-07-07 11:36:00,42,35.359888,15.720121,0.08,28.0,29.8,-0.04,At anchor,terminal anchorage
+voyage_03_typical,vessel_aurora,2026-07-07 11:44:00,43,35.359848,15.719918,0.11,28.0,25.8,-0.01,At anchor,terminal anchorage
+voyage_03_typical,vessel_aurora,2026-07-07 11:52:00,44,35.360144,15.71997,0.16,28.0,28.3,0.0,At anchor,terminal anchorage
+voyage_04_typical,vessel_aurora,2026-07-10 06:00:00,0,35.099878,14.099969,8.4,102.3,101.9,0.86,Under way using engine,under way using engine
+voyage_04_typical,vessel_aurora,2026-07-10 06:08:00,1,35.093092,14.137832,8.74,101.2,102.0,1.09,Under way using engine,under way using engine
+voyage_04_typical,vessel_aurora,2026-07-10 06:16:00,2,35.087469,14.175989,8.5,101.3,100.0,0.59,Under way using engine,under way using engine
+voyage_04_typical,vessel_aurora,2026-07-10 06:24:00,3,35.080652,14.213845,8.75,96.9,96.5,0.61,Under way using engine,under way using engine
+voyage_04_typical,vessel_aurora,2026-07-10 06:32:00,4,35.079905,14.252501,8.53,90.7,90.2,1.09,Under way using engine,under way using engine
+voyage_04_typical,vessel_aurora,2026-07-10 06:40:00,5,35.079884,14.291251,8.9,89.7,91.0,0.54,Under way using engine,under way using engine
+voyage_04_typical,vessel_aurora,2026-07-10 06:48:00,6,35.080213,14.33,8.09,89.4,90.7,0.67,Under way using engine,under way using engine
+voyage_04_typical,vessel_aurora,2026-07-10 06:56:00,7,35.080024,14.330023,0.15,88.0,87.7,-0.01,At anchor,at anchor
+voyage_04_typical,vessel_aurora,2026-07-10 07:04:00,8,35.079862,14.330079,0.18,88.0,87.7,0.02,At anchor,at anchor
+voyage_04_typical,vessel_aurora,2026-07-10 07:12:00,9,35.079871,14.329795,0.1,88.0,88.2,-0.05,At anchor,at anchor
+voyage_04_typical,vessel_aurora,2026-07-10 07:20:00,10,35.080215,14.330257,0.14,88.0,88.9,-0.0,At anchor,at anchor
+voyage_04_typical,vessel_aurora,2026-07-10 07:28:00,11,35.080076,14.329922,0.14,88.0,89.6,-0.08,At anchor,at anchor
+voyage_04_typical,vessel_aurora,2026-07-10 07:36:00,12,35.07983,14.329933,0.07,88.0,88.3,0.0,At anchor,at anchor
+voyage_04_typical,vessel_aurora,2026-07-10 07:44:00,13,35.080323,14.329985,13.14,88.3,89.5,0.25,Under way sailing,under way sailing
+voyage_04_typical,vessel_aurora,2026-07-10 07:52:00,14,35.082064,14.401736,12.55,87.9,85.5,0.37,Under way sailing,under way sailing
+voyage_04_typical,vessel_aurora,2026-07-10 08:00:00,15,35.084573,14.473452,12.92,87.7,87.6,0.13,Under way sailing,under way sailing
+voyage_04_typical,vessel_aurora,2026-07-10 08:08:00,16,35.086721,14.545184,12.46,87.9,85.5,0.3,Under way sailing,under way sailing
+voyage_04_typical,vessel_aurora,2026-07-10 08:16:00,17,35.088898,14.616916,13.38,87.8,89.1,0.23,Under way sailing,under way sailing
+voyage_04_typical,vessel_aurora,2026-07-10 08:24:00,18,35.091232,14.688639,13.21,87.9,87.1,0.14,Under way sailing,under way sailing
+voyage_04_typical,vessel_aurora,2026-07-10 08:32:00,19,35.093185,14.760381,12.69,88.2,87.4,0.17,Under way sailing,under way sailing
+voyage_04_typical,vessel_aurora,2026-07-10 08:40:00,20,35.094963,14.83213,13.39,87.7,89.3,0.2,Under way sailing,under way sailing
+voyage_04_typical,vessel_aurora,2026-07-10 08:48:00,21,35.097844,14.903829,13.08,87.5,90.1,0.21,Under way sailing,under way sailing
+voyage_04_typical,vessel_aurora,2026-07-10 08:56:00,22,35.100041,14.975559,12.67,87.6,87.8,0.22,Under way sailing,under way sailing
+voyage_04_typical,vessel_aurora,2026-07-10 09:04:00,23,35.10284,15.047263,13.3,87.8,86.6,0.28,Under way sailing,under way sailing
+voyage_04_typical,vessel_aurora,2026-07-10 09:12:00,24,35.104514,15.119016,12.96,88.1,86.7,0.53,Under way sailing,under way sailing
+voyage_04_typical,vessel_aurora,2026-07-10 09:20:00,25,35.10681,15.190742,12.77,87.8,87.9,-0.19,Under way sailing,under way sailing
+voyage_04_typical,vessel_aurora,2026-07-10 09:28:00,26,35.109065,15.262469,13.14,87.9,89.5,-0.08,Under way sailing,under way sailing
+voyage_04_typical,vessel_aurora,2026-07-10 09:36:00,27,35.111085,15.334207,12.96,88.0,87.3,0.17,Under way sailing,under way sailing
+voyage_04_typical,vessel_aurora,2026-07-10 09:44:00,28,35.113137,15.405944,13.06,88.1,87.5,0.35,Under way sailing,under way sailing
+voyage_04_typical,vessel_aurora,2026-07-10 09:52:00,29,35.115059,15.477686,12.69,88.1,87.6,0.22,Under way sailing,under way sailing
+voyage_04_typical,vessel_aurora,2026-07-10 10:00:00,30,35.117026,15.549426,12.65,88.1,89.5,-0.03,Under way sailing,under way sailing
+voyage_04_typical,vessel_aurora,2026-07-10 10:08:00,31,35.117133,15.549313,4.96,21.9,21.6,5.58,Restricted manoeuvrability,restricted manoeuvrability
+voyage_04_typical,vessel_aurora,2026-07-10 10:16:00,32,35.154554,15.567602,4.47,22.1,23.5,6.17,Restricted manoeuvrability,restricted manoeuvrability
+voyage_04_typical,vessel_aurora,2026-07-10 10:24:00,33,35.19186,15.586238,4.44,23.7,24.4,5.87,Restricted manoeuvrability,restricted manoeuvrability
+voyage_04_typical,vessel_aurora,2026-07-10 10:32:00,34,35.228176,15.606948,4.52,30.1,31.1,5.53,Restricted manoeuvrability,restricted manoeuvrability
+voyage_04_typical,vessel_aurora,2026-07-10 10:40:00,35,35.261197,15.6351,4.82,35.2,34.8,5.89,Restricted manoeuvrability,restricted manoeuvrability
+voyage_04_typical,vessel_aurora,2026-07-10 10:48:00,36,35.294082,15.663485,4.65,35.1,35.3,5.64,Restricted manoeuvrability,restricted manoeuvrability
+voyage_04_typical,vessel_aurora,2026-07-10 10:56:00,37,35.327156,15.691545,4.57,35.1,35.6,5.55,Restricted manoeuvrability,restricted manoeuvrability
+voyage_04_typical,vessel_aurora,2026-07-10 11:04:00,38,35.360058,15.7199,4.67,35.3,35.1,5.98,Restricted manoeuvrability,restricted manoeuvrability
+voyage_04_typical,vessel_aurora,2026-07-10 11:12:00,39,35.360003,15.720243,0.12,28.0,29.1,-0.01,At anchor,terminal anchorage
+voyage_04_typical,vessel_aurora,2026-07-10 11:20:00,40,35.359891,15.720025,0.09,28.0,26.9,-0.03,At anchor,terminal anchorage
+voyage_04_typical,vessel_aurora,2026-07-10 11:28:00,41,35.359982,15.719879,0.17,28.0,27.3,-0.0,At anchor,terminal anchorage
+voyage_04_typical,vessel_aurora,2026-07-10 11:36:00,42,35.359885,15.719737,0.14,28.0,26.2,0.02,At anchor,terminal anchorage
+voyage_04_typical,vessel_aurora,2026-07-10 11:44:00,43,35.359951,15.719906,0.2,28.0,26.1,-0.01,At anchor,terminal anchorage
+voyage_04_typical,vessel_aurora,2026-07-10 11:52:00,44,35.359878,15.720419,0.18,28.0,28.8,-0.03,At anchor,terminal anchorage
+voyage_05_typical,vessel_aurora,2026-07-13 06:00:00,0,35.100043,14.100012,8.47,103.8,102.6,0.53,Under way using engine,under way using engine
+voyage_05_typical,vessel_aurora,2026-07-13 06:08:00,1,35.092453,14.137709,8.52,103.7,101.9,0.45,Under way using engine,under way using engine
+voyage_05_typical,vessel_aurora,2026-07-13 06:16:00,2,35.084879,14.175409,8.25,101.1,101.9,0.43,Under way using engine,under way using engine
+voyage_05_typical,vessel_aurora,2026-07-13 06:24:00,3,35.080231,14.213577,8.13,94.5,95.3,0.97,Under way using engine,under way using engine
+voyage_05_typical,vessel_aurora,2026-07-13 06:32:00,4,35.079853,14.252385,9.33,90.1,92.3,0.64,Under way using engine,under way using engine
+voyage_05_typical,vessel_aurora,2026-07-13 06:40:00,5,35.080098,14.291192,8.54,90.1,90.9,0.71,Under way using engine,under way using engine
+voyage_05_typical,vessel_aurora,2026-07-13 06:48:00,6,35.079724,14.33,8.47,90.7,89.6,0.69,Under way using engine,under way using engine
+voyage_05_typical,vessel_aurora,2026-07-13 06:56:00,7,35.08013,14.330082,0.11,88.0,88.9,-0.0,At anchor,at anchor
+voyage_05_typical,vessel_aurora,2026-07-13 07:04:00,8,35.080038,14.330248,0.15,88.0,87.5,-0.01,At anchor,at anchor
+voyage_05_typical,vessel_aurora,2026-07-13 07:12:00,9,35.080124,14.330007,0.24,88.0,86.6,-0.06,At anchor,at anchor
+voyage_05_typical,vessel_aurora,2026-07-13 07:20:00,10,35.079997,14.330206,0.15,88.0,89.1,-0.05,At anchor,at anchor
+voyage_05_typical,vessel_aurora,2026-07-13 07:28:00,11,35.080154,14.330145,0.14,88.0,87.5,-0.04,At anchor,at anchor
+voyage_05_typical,vessel_aurora,2026-07-13 07:36:00,12,35.079989,14.329836,0.17,88.0,88.3,0.04,At anchor,at anchor
+voyage_05_typical,vessel_aurora,2026-07-13 07:44:00,13,35.07976,14.330013,12.49,87.3,84.5,0.27,Under way sailing,under way sailing
+voyage_05_typical,vessel_aurora,2026-07-13 07:52:00,14,35.082324,14.396897,13.48,87.4,88.3,0.02,Under way sailing,under way sailing
+voyage_05_typical,vessel_aurora,2026-07-13 08:00:00,15,35.084733,14.463789,12.45,87.5,87.6,0.13,Under way sailing,under way sailing
+voyage_05_typical,vessel_aurora,2026-07-13 08:08:00,16,35.087206,14.530678,12.72,87.5,87.7,0.31,Under way sailing,under way sailing
+voyage_05_typical,vessel_aurora,2026-07-13 08:16:00,17,35.089474,14.597577,12.62,87.6,88.5,0.42,Under way sailing,under way sailing
+voyage_05_typical,vessel_aurora,2026-07-13 08:24:00,18,35.091914,14.664468,12.33,87.4,87.3,-0.07,Under way sailing,under way sailing
+voyage_05_typical,vessel_aurora,2026-07-13 08:32:00,19,35.094522,14.731349,12.73,87.4,86.5,0.36,Under way sailing,under way sailing
+voyage_05_typical,vessel_aurora,2026-07-13 08:40:00,20,35.096965,14.79824,12.29,87.7,87.0,-0.16,Under way sailing,under way sailing
+voyage_05_typical,vessel_aurora,2026-07-13 08:48:00,21,35.098907,14.865157,12.44,88.4,87.5,-0.36,Under way sailing,under way sailing
+voyage_05_typical,vessel_aurora,2026-07-13 08:56:00,22,35.100114,14.932076,13.36,88.9,91.7,0.33,Under way sailing,under way sailing
+voyage_05_typical,vessel_aurora,2026-07-13 09:04:00,23,35.101057,14.999028,11.76,89.8,91.1,0.2,Under way sailing,under way sailing
+voyage_05_typical,vessel_aurora,2026-07-13 09:12:00,24,35.10046,15.065988,12.82,89.9,90.6,0.02,Under way sailing,under way sailing
+voyage_05_typical,vessel_aurora,2026-07-13 09:20:00,25,35.101292,15.13294,12.95,89.7,88.2,0.08,Under way sailing,under way sailing
+voyage_05_typical,vessel_aurora,2026-07-13 09:28:00,26,35.101086,15.199899,12.2,89.7,89.9,0.18,Under way sailing,under way sailing
+voyage_05_typical,vessel_aurora,2026-07-13 09:36:00,27,35.101795,15.266851,13.28,89.6,90.1,0.03,Under way sailing,under way sailing
+voyage_05_typical,vessel_aurora,2026-07-13 09:44:00,28,35.101937,15.333808,12.37,89.6,89.3,0.34,Under way sailing,under way sailing
+voyage_05_typical,vessel_aurora,2026-07-13 09:52:00,29,35.102473,15.400761,12.67,89.7,88.7,0.31,Under way sailing,under way sailing
+voyage_05_typical,vessel_aurora,2026-07-13 10:00:00,30,35.102499,15.467718,12.3,90.0,90.9,0.84,Under way sailing,under way sailing
+voyage_05_typical,vessel_aurora,2026-07-13 10:08:00,31,35.102478,15.467581,4.66,37.7,36.3,5.8,Restricted manoeuvrability,restricted manoeuvrability
+voyage_05_typical,vessel_aurora,2026-07-13 10:16:00,32,35.139859,15.502738,4.3,38.3,40.1,5.58,Restricted manoeuvrability,restricted manoeuvrability
+voyage_05_typical,vessel_aurora,2026-07-13 10:24:00,33,35.17665,15.538813,4.49,38.2,39.8,5.86,Restricted manoeuvrability,restricted manoeuvrability
+voyage_05_typical,vessel_aurora,2026-07-13 10:32:00,34,35.21412,15.573834,4.39,38.4,37.4,5.95,Restricted manoeuvrability,restricted manoeuvrability
+voyage_05_typical,vessel_aurora,2026-07-13 10:40:00,35,35.250722,15.610176,4.9,39.6,39.9,6.15,Restricted manoeuvrability,restricted manoeuvrability
+voyage_05_typical,vessel_aurora,2026-07-13 10:48:00,36,35.286997,15.647007,4.47,39.4,36.4,5.69,Restricted manoeuvrability,restricted manoeuvrability
+voyage_05_typical,vessel_aurora,2026-07-13 10:56:00,37,35.32377,15.683104,4.15,39.4,40.5,5.91,Restricted manoeuvrability,restricted manoeuvrability
+voyage_05_typical,vessel_aurora,2026-07-13 11:04:00,38,35.360069,15.719899,4.15,39.8,40.4,5.69,Restricted manoeuvrability,restricted manoeuvrability
+voyage_05_typical,vessel_aurora,2026-07-13 11:12:00,39,35.359908,15.720026,0.16,28.0,29.7,-0.06,At anchor,terminal anchorage
+voyage_05_typical,vessel_aurora,2026-07-13 11:20:00,40,35.360204,15.719924,0.13,28.0,27.0,0.0,At anchor,terminal anchorage
+voyage_05_typical,vessel_aurora,2026-07-13 11:28:00,41,35.360217,15.720193,0.02,28.0,27.8,0.02,At anchor,terminal anchorage
+voyage_05_typical,vessel_aurora,2026-07-13 11:36:00,42,35.360201,15.720053,0.08,28.0,28.5,0.05,At anchor,terminal anchorage
+voyage_05_typical,vessel_aurora,2026-07-13 11:44:00,43,35.360184,15.720387,0.21,28.0,28.0,-0.02,At anchor,terminal anchorage
+voyage_05_typical,vessel_aurora,2026-07-13 11:52:00,44,35.359896,15.719701,0.1,28.0,28.6,0.06,At anchor,terminal anchorage
+voyage_06_typical,vessel_aurora,2026-07-16 06:00:00,0,35.100207,14.100056,8.55,104.0,102.9,1.05,Under way using engine,under way using engine
+voyage_06_typical,vessel_aurora,2026-07-16 06:08:00,1,35.092481,14.137693,8.99,102.7,101.3,0.95,Under way using engine,under way using engine
+voyage_06_typical,vessel_aurora,2026-07-16 06:16:00,2,35.086203,14.175722,8.98,101.2,100.7,0.51,Under way using engine,under way using engine
+voyage_06_typical,vessel_aurora,2026-07-16 06:24:00,3,35.080066,14.213664,8.3,95.4,94.3,0.77,Under way using engine,under way using engine
+voyage_06_typical,vessel_aurora,2026-07-16 06:32:00,4,35.080222,14.252443,8.15,90.3,88.9,0.83,Under way using engine,under way using engine
+voyage_06_typical,vessel_aurora,2026-07-16 06:40:00,5,35.079717,14.291221,8.79,90.6,89.1,0.23,Under way using engine,under way using engine
+voyage_06_typical,vessel_aurora,2026-07-16 06:48:00,6,35.079536,14.33,8.8,90.3,90.2,0.56,Under way using engine,under way using engine
+voyage_06_typical,vessel_aurora,2026-07-16 06:56:00,7,35.079998,14.329795,0.19,88.0,88.1,-0.01,At anchor,at anchor
+voyage_06_typical,vessel_aurora,2026-07-16 07:04:00,8,35.080041,14.329665,0.11,88.0,88.2,0.01,At anchor,at anchor
+voyage_06_typical,vessel_aurora,2026-07-16 07:12:00,9,35.079617,14.32992,0.19,88.0,88.0,0.02,At anchor,at anchor
+voyage_06_typical,vessel_aurora,2026-07-16 07:20:00,10,35.079972,14.329865,0.18,88.0,88.0,-0.07,At anchor,at anchor
+voyage_06_typical,vessel_aurora,2026-07-16 07:28:00,11,35.079859,14.330037,0.1,88.0,87.5,-0.04,At anchor,at anchor
+voyage_06_typical,vessel_aurora,2026-07-16 07:36:00,12,35.080031,14.330009,0.13,88.0,89.3,0.0,At anchor,at anchor
+voyage_06_typical,vessel_aurora,2026-07-16 07:44:00,13,35.079389,14.33003,12.92,87.5,87.7,-0.0,Under way sailing,under way sailing
+voyage_06_typical,vessel_aurora,2026-07-16 07:52:00,14,35.081824,14.399183,12.4,87.5,89.0,-0.06,Under way sailing,under way sailing
+voyage_06_typical,vessel_aurora,2026-07-16 08:00:00,15,35.08439,14.468329,12.58,87.4,87.1,0.38,Under way sailing,under way sailing
+voyage_06_typical,vessel_aurora,2026-07-16 08:08:00,16,35.086987,14.537474,12.57,87.5,86.5,-0.24,Under way sailing,under way sailing
+voyage_06_typical,vessel_aurora,2026-07-16 08:16:00,17,35.089349,14.60663,12.53,87.8,86.9,0.23,Under way sailing,under way sailing
+voyage_06_typical,vessel_aurora,2026-07-16 08:24:00,18,35.091449,14.675799,12.91,87.6,86.2,0.52,Under way sailing,under way sailing
+voyage_06_typical,vessel_aurora,2026-07-16 08:32:00,19,35.094096,14.744941,12.76,87.6,86.0,0.16,Under way sailing,under way sailing
+voyage_06_typical,vessel_aurora,2026-07-16 08:40:00,20,35.096138,14.814113,12.64,87.6,89.6,0.51,Under way sailing,under way sailing
+voyage_06_typical,vessel_aurora,2026-07-16 08:48:00,21,35.098882,14.883251,12.22,88.0,87.4,0.34,Under way sailing,under way sailing
+voyage_06_typical,vessel_aurora,2026-07-16 08:56:00,22,35.100027,14.952451,13.01,88.5,88.5,0.09,Under way sailing,under way sailing
+voyage_06_typical,vessel_aurora,2026-07-16 09:04:00,23,35.101778,15.021639,13.16,88.7,88.7,0.1,Under way sailing,under way sailing
+voyage_06_typical,vessel_aurora,2026-07-16 09:12:00,24,35.102634,15.090847,12.6,88.8,89.5,0.11,Under way sailing,under way sailing
+voyage_06_typical,vessel_aurora,2026-07-16 09:20:00,25,35.10408,15.160042,12.69,89.1,89.2,0.1,Under way sailing,under way sailing
+voyage_06_typical,vessel_aurora,2026-07-16 09:28:00,26,35.104445,15.229262,12.82,89.3,88.4,0.38,Under way sailing,under way sailing
+voyage_06_typical,vessel_aurora,2026-07-16 09:36:00,27,35.105529,15.298465,13.17,88.8,88.6,-0.1,Under way sailing,under way sailing
+voyage_06_typical,vessel_aurora,2026-07-16 09:44:00,28,35.106785,15.367665,12.65,88.6,89.1,0.08,Under way sailing,under way sailing
+voyage_06_typical,vessel_aurora,2026-07-16 09:52:00,29,35.108408,15.436855,13.07,88.7,87.5,0.18,Under way sailing,under way sailing
+voyage_06_typical,vessel_aurora,2026-07-16 10:00:00,30,35.109406,15.50606,12.86,89.0,88.0,0.42,Under way sailing,under way sailing
+voyage_06_typical,vessel_aurora,2026-07-16 10:08:00,31,35.109269,15.506107,4.48,31.0,30.2,5.99,Restricted manoeuvrability,restricted manoeuvrability
+voyage_06_typical,vessel_aurora,2026-07-16 10:16:00,32,35.146838,15.533525,4.09,31.7,31.4,6.01,Restricted manoeuvrability,restricted manoeuvrability
+voyage_06_typical,vessel_aurora,2026-07-16 10:24:00,33,35.183839,15.562064,4.57,32.2,33.0,5.6,Restricted manoeuvrability,restricted manoeuvrability
+voyage_06_typical,vessel_aurora,2026-07-16 10:32:00,34,35.220977,15.590263,4.56,34.7,34.0,5.59,Restricted manoeuvrability,restricted manoeuvrability
+voyage_06_typical,vessel_aurora,2026-07-16 10:40:00,35,35.255789,15.622608,3.91,37.3,38.0,5.47,Restricted manoeuvrability,restricted manoeuvrability
+voyage_06_typical,vessel_aurora,2026-07-16 10:48:00,36,35.290647,15.65488,5.07,37.7,37.7,5.44,Restricted manoeuvrability,restricted manoeuvrability
+voyage_06_typical,vessel_aurora,2026-07-16 10:56:00,37,35.325166,15.687689,4.23,37.7,38.8,5.98,Restricted manoeuvrability,restricted manoeuvrability
+voyage_06_typical,vessel_aurora,2026-07-16 11:04:00,38,35.359988,15.720019,4.52,37.4,36.7,5.85,Restricted manoeuvrability,restricted manoeuvrability
+voyage_06_typical,vessel_aurora,2026-07-16 11:12:00,39,35.360162,15.719935,0.11,28.0,28.5,0.03,At anchor,terminal anchorage
+voyage_06_typical,vessel_aurora,2026-07-16 11:20:00,40,35.359915,15.719951,0.14,28.0,29.8,0.03,At anchor,terminal anchorage
+voyage_06_typical,vessel_aurora,2026-07-16 11:28:00,41,35.360061,15.720182,0.1,28.0,27.3,0.02,At anchor,terminal anchorage
+voyage_06_typical,vessel_aurora,2026-07-16 11:36:00,42,35.360094,15.719961,0.09,28.0,27.9,-0.04,At anchor,terminal anchorage
+voyage_06_typical,vessel_aurora,2026-07-16 11:44:00,43,35.359878,15.720049,0.16,28.0,27.5,-0.01,At anchor,terminal anchorage
+voyage_06_typical,vessel_aurora,2026-07-16 11:52:00,44,35.359966,15.719602,0.1,28.0,28.3,0.02,At anchor,terminal anchorage
+voyage_07_typical,vessel_aurora,2026-07-19 06:00:00,0,35.099847,14.099957,8.72,102.6,103.5,0.7,Under way using engine,under way using engine
+voyage_07_typical,vessel_aurora,2026-07-19 06:08:00,1,35.092874,14.137814,8.01,102.9,103.8,0.33,Under way using engine,under way using engine
+voyage_07_typical,vessel_aurora,2026-07-19 06:16:00,2,35.085606,14.175587,8.36,101.5,101.3,0.1,Under way using engine,under way using engine
+voyage_07_typical,vessel_aurora,2026-07-19 06:24:00,3,35.080185,14.213621,8.86,94.8,94.3,0.78,Under way using engine,under way using engine
+voyage_07_typical,vessel_aurora,2026-07-19 06:32:00,4,35.080348,14.252414,8.5,90.3,89.5,0.62,Under way using engine,under way using engine
+voyage_07_typical,vessel_aurora,2026-07-19 06:40:00,5,35.079811,14.291207,9.05,90.3,91.6,0.66,Under way using engine,under way using engine
+voyage_07_typical,vessel_aurora,2026-07-19 06:48:00,6,35.079984,14.33,8.55,89.7,90.2,0.58,Under way using engine,under way using engine
+voyage_07_typical,vessel_aurora,2026-07-19 06:56:00,7,35.079984,14.330096,0.16,88.0,87.6,-0.03,At anchor,at anchor
+voyage_07_typical,vessel_aurora,2026-07-19 07:04:00,8,35.080148,14.329972,0.15,88.0,88.8,0.03,At anchor,at anchor
+voyage_07_typical,vessel_aurora,2026-07-19 07:12:00,9,35.079824,14.329863,0.14,88.0,88.9,-0.01,At anchor,at anchor
+voyage_07_typical,vessel_aurora,2026-07-19 07:20:00,10,35.080272,14.33036,0.29,88.0,88.7,-0.04,At anchor,at anchor
+voyage_07_typical,vessel_aurora,2026-07-19 07:28:00,11,35.079753,14.330281,0.18,88.0,87.9,-0.02,At anchor,at anchor
+voyage_07_typical,vessel_aurora,2026-07-19 07:36:00,12,35.079892,14.330104,0.14,88.0,87.9,0.01,At anchor,at anchor
+voyage_07_typical,vessel_aurora,2026-07-19 07:44:00,13,35.080086,14.329996,12.78,88.1,89.4,0.27,Under way sailing,under way sailing
+voyage_07_typical,vessel_aurora,2026-07-19 07:52:00,14,35.081986,14.398025,12.9,87.7,90.3,0.17,Under way sailing,under way sailing
+voyage_07_typical,vessel_aurora,2026-07-19 08:00:00,15,35.08463,14.466015,12.48,87.3,86.9,0.12,Under way sailing,under way sailing
+voyage_07_typical,vessel_aurora,2026-07-19 08:08:00,16,35.087264,14.534007,13.01,87.5,88.6,0.19,Under way sailing,under way sailing
+voyage_07_typical,vessel_aurora,2026-07-19 08:16:00,17,35.089566,14.602015,12.58,87.5,86.9,0.22,Under way sailing,under way sailing
+voyage_07_typical,vessel_aurora,2026-07-19 08:24:00,18,35.092058,14.670014,12.76,87.8,88.0,0.33,Under way sailing,under way sailing
+voyage_07_typical,vessel_aurora,2026-07-19 08:32:00,19,35.093778,14.738052,12.75,87.7,87.7,-0.05,Under way sailing,under way sailing
+voyage_07_typical,vessel_aurora,2026-07-19 08:40:00,20,35.09648,14.80604,12.39,87.4,88.5,0.62,Under way sailing,under way sailing
+voyage_07_typical,vessel_aurora,2026-07-19 08:48:00,21,35.098769,14.874049,12.53,87.9,86.0,-0.03,Under way sailing,under way sailing
+voyage_07_typical,vessel_aurora,2026-07-19 08:56:00,22,35.100535,14.942076,12.28,88.9,90.0,0.08,Under way sailing,under way sailing
+voyage_07_typical,vessel_aurora,2026-07-19 09:04:00,23,35.100906,15.010141,12.78,89.3,88.5,0.1,Under way sailing,under way sailing
+voyage_07_typical,vessel_aurora,2026-07-19 09:12:00,24,35.101882,15.078198,13.01,89.4,91.5,0.05,Under way sailing,under way sailing
+voyage_07_typical,vessel_aurora,2026-07-19 09:20:00,25,35.102116,15.146265,12.96,89.6,91.2,0.14,Under way sailing,under way sailing
+voyage_07_typical,vessel_aurora,2026-07-19 09:28:00,26,35.102749,15.214327,13.06,89.2,88.1,0.48,Under way sailing,under way sailing
+voyage_07_typical,vessel_aurora,2026-07-19 09:36:00,27,35.103759,15.282383,12.5,89.1,89.6,0.4,Under way sailing,under way sailing
+voyage_07_typical,vessel_aurora,2026-07-19 09:44:00,28,35.104472,15.350443,12.72,89.4,88.5,0.38,Under way sailing,under way sailing
+voyage_07_typical,vessel_aurora,2026-07-19 09:52:00,29,35.104969,15.418507,12.19,89.1,88.7,0.23,Under way sailing,under way sailing
+voyage_07_typical,vessel_aurora,2026-07-19 10:00:00,30,35.106206,15.486559,12.85,88.7,89.7,0.15,Under way sailing,under way sailing
+voyage_07_typical,vessel_aurora,2026-07-19 10:08:00,31,35.105817,15.486505,4.55,35.4,34.6,6.02,Restricted manoeuvrability,restricted manoeuvrability
+voyage_07_typical,vessel_aurora,2026-07-19 10:16:00,32,35.142954,15.518535,4.95,35.1,35.5,5.74,Restricted manoeuvrability,restricted manoeuvrability
+voyage_07_typical,vessel_aurora,2026-07-19 10:24:00,33,35.180348,15.550121,4.16,35.0,36.1,5.56,Restricted manoeuvrability,restricted manoeuvrability
+voyage_07_typical,vessel_aurora,2026-07-19 10:32:00,34,35.217531,15.582072,5.08,36.8,37.0,5.82,Restricted manoeuvrability,restricted manoeuvrability
+voyage_07_typical,vessel_aurora,2026-07-19 10:40:00,35,35.253266,15.616364,4.61,38.5,37.5,5.53,Restricted manoeuvrability,restricted manoeuvrability
+voyage_07_typical,vessel_aurora,2026-07-19 10:48:00,36,35.288778,15.65101,4.1,38.6,37.6,5.56,Restricted manoeuvrability,restricted manoeuvrability
+voyage_07_typical,vessel_aurora,2026-07-19 10:56:00,37,35.324443,15.685423,4.67,38.4,40.3,5.99,Restricted manoeuvrability,restricted manoeuvrability
+voyage_07_typical,vessel_aurora,2026-07-19 11:04:00,38,35.360118,15.71982,4.82,38.4,37.8,5.71,Restricted manoeuvrability,restricted manoeuvrability
+voyage_07_typical,vessel_aurora,2026-07-19 11:12:00,39,35.360044,15.720286,0.06,28.0,28.5,-0.04,At anchor,terminal anchorage
+voyage_07_typical,vessel_aurora,2026-07-19 11:20:00,40,35.360172,15.719898,0.14,28.0,27.3,-0.04,At anchor,terminal anchorage
+voyage_07_typical,vessel_aurora,2026-07-19 11:28:00,41,35.359985,15.720003,0.12,28.0,25.4,-0.06,At anchor,terminal anchorage
+voyage_07_typical,vessel_aurora,2026-07-19 11:36:00,42,35.36005,15.719863,0.12,28.0,29.1,0.0,At anchor,terminal anchorage
+voyage_07_typical,vessel_aurora,2026-07-19 11:44:00,43,35.360114,15.719866,0.03,28.0,27.4,0.0,At anchor,terminal anchorage
+voyage_07_typical,vessel_aurora,2026-07-19 11:52:00,44,35.360033,15.720089,0.18,28.0,29.6,0.01,At anchor,terminal anchorage
+voyage_08_typical,vessel_aurora,2026-07-22 06:00:00,0,35.100119,14.100033,9.09,103.0,103.3,1.03,Under way using engine,under way using engine
+voyage_08_typical,vessel_aurora,2026-07-22 06:08:00,1,35.092956,14.137828,8.92,102.7,102.3,1.15,Under way using engine,under way using engine
+voyage_08_typical,vessel_aurora,2026-07-22 06:16:00,2,35.086078,14.175702,8.37,101.8,102.3,0.68,Under way using engine,under way using engine
+voyage_08_typical,vessel_aurora,2026-07-22 06:24:00,3,35.079879,14.213645,8.83,95.4,96.6,1.13,Under way using engine,under way using engine
+voyage_08_typical,vessel_aurora,2026-07-22 06:32:00,4,35.080146,14.25243,8.49,90.0,90.1,0.83,Under way using engine,under way using engine
+voyage_08_typical,vessel_aurora,2026-07-22 06:40:00,5,35.079865,14.291215,9.13,90.0,89.4,0.69,Under way using engine,under way using engine
+voyage_08_typical,vessel_aurora,2026-07-22 06:48:00,6,35.080097,14.33,9.36,89.6,91.4,0.6,Under way using engine,under way using engine
+voyage_08_typical,vessel_aurora,2026-07-22 06:56:00,7,35.079911,14.330164,0.2,88.0,89.6,0.02,At anchor,at anchor
+voyage_08_typical,vessel_aurora,2026-07-22 07:04:00,8,35.079741,14.329924,0.15,88.0,89.6,0.01,At anchor,at anchor
+voyage_08_typical,vessel_aurora,2026-07-22 07:12:00,9,35.08001,14.330018,0.19,88.0,89.0,0.03,At anchor,at anchor
+voyage_08_typical,vessel_aurora,2026-07-22 07:20:00,10,35.080105,14.330063,0.15,88.0,87.2,0.0,At anchor,at anchor
+voyage_08_typical,vessel_aurora,2026-07-22 07:28:00,11,35.079927,14.330128,0.16,88.0,88.6,0.0,At anchor,at anchor
+voyage_08_typical,vessel_aurora,2026-07-22 07:36:00,12,35.08011,14.329775,0.16,88.0,87.8,-0.02,At anchor,at anchor
+voyage_08_typical,vessel_aurora,2026-07-22 07:44:00,13,35.079503,14.330025,12.38,86.7,89.0,0.22,Under way sailing,under way sailing
+voyage_08_typical,vessel_aurora,2026-07-22 07:52:00,14,35.082753,14.3986,12.38,87.1,85.4,0.1,Under way sailing,under way sailing
+voyage_08_typical,vessel_aurora,2026-07-22 08:00:00,15,35.085259,14.467212,12.3,87.7,86.7,0.13,Under way sailing,under way sailing
+voyage_08_typical,vessel_aurora,2026-07-22 08:08:00,16,35.087289,14.535848,12.99,88.0,88.2,-0.07,Under way sailing,under way sailing
+voyage_08_typical,vessel_aurora,2026-07-22 08:16:00,17,35.089165,14.604492,12.02,87.6,86.9,0.24,Under way sailing,under way sailing
+voyage_08_typical,vessel_aurora,2026-07-22 08:24:00,18,35.091994,14.673087,13.03,87.7,88.2,0.32,Under way sailing,under way sailing
+voyage_08_typical,vessel_aurora,2026-07-22 08:32:00,19,35.093689,14.74174,12.82,87.7,87.5,0.13,Under way sailing,under way sailing
+voyage_08_typical,vessel_aurora,2026-07-22 08:40:00,20,35.096473,14.810338,12.7,87.3,88.1,0.16,Under way sailing,under way sailing
+voyage_08_typical,vessel_aurora,2026-07-22 08:48:00,21,35.099108,14.878944,12.96,87.7,87.8,0.4,Under way sailing,under way sailing
+voyage_08_typical,vessel_aurora,2026-07-22 08:56:00,22,35.100923,14.947597,13.3,88.9,87.6,0.1,Under way sailing,under way sailing
+voyage_08_typical,vessel_aurora,2026-07-22 09:04:00,23,35.101281,15.016278,12.83,89.3,90.7,0.19,Under way sailing,under way sailing
+voyage_08_typical,vessel_aurora,2026-07-22 09:12:00,24,35.102286,15.084947,12.4,89.0,88.0,-0.01,Under way sailing,under way sailing
+voyage_08_typical,vessel_aurora,2026-07-22 09:20:00,25,35.103276,15.153616,13.25,88.9,88.1,-0.0,Under way sailing,under way sailing
+voyage_08_typical,vessel_aurora,2026-07-22 09:28:00,26,35.104399,15.222282,12.54,89.3,90.5,0.01,Under way sailing,under way sailing
+voyage_08_typical,vessel_aurora,2026-07-22 09:36:00,27,35.104687,15.290965,12.64,89.5,91.6,-0.02,Under way sailing,under way sailing
+voyage_08_typical,vessel_aurora,2026-07-22 09:44:00,28,35.105314,15.359641,12.95,88.8,89.0,-0.07,Under way sailing,under way sailing
+voyage_08_typical,vessel_aurora,2026-07-22 09:52:00,29,35.107145,15.428293,12.53,88.8,88.7,0.26,Under way sailing,under way sailing
+voyage_08_typical,vessel_aurora,2026-07-22 10:00:00,30,35.107624,15.496972,12.6,89.5,91.1,0.54,Under way sailing,under way sailing
+voyage_08_typical,vessel_aurora,2026-07-22 10:08:00,31,35.107488,15.497281,4.08,32.4,31.2,5.83,Restricted manoeuvrability,restricted manoeuvrability
+voyage_08_typical,vessel_aurora,2026-07-22 10:16:00,32,35.145177,15.526303,4.4,33.1,35.5,6.08,Restricted manoeuvrability,restricted manoeuvrability
+voyage_08_typical,vessel_aurora,2026-07-22 10:24:00,33,35.182264,15.556437,4.57,33.8,31.2,5.67,Restricted manoeuvrability,restricted manoeuvrability
+voyage_08_typical,vessel_aurora,2026-07-22 10:32:00,34,35.219351,15.586571,5.04,35.9,35.2,5.78,Restricted manoeuvrability,restricted manoeuvrability
+voyage_08_typical,vessel_aurora,2026-07-22 10:40:00,35,35.254486,15.619939,4.0,37.7,38.6,6.13,Restricted manoeuvrability,restricted manoeuvrability
+voyage_08_typical,vessel_aurora,2026-07-22 10:48:00,36,35.289963,15.652818,4.96,37.7,38.3,5.67,Restricted manoeuvrability,restricted manoeuvrability
+voyage_08_typical,vessel_aurora,2026-07-22 10:56:00,37,35.325063,15.686283,4.82,38.3,38.1,5.79,Restricted manoeuvrability,restricted manoeuvrability
+voyage_08_typical,vessel_aurora,2026-07-22 11:04:00,38,35.360021,15.719967,4.61,38.4,38.9,6.07,Restricted manoeuvrability,restricted manoeuvrability
+voyage_08_typical,vessel_aurora,2026-07-22 11:12:00,39,35.359797,15.719945,0.14,28.0,27.5,0.02,At anchor,terminal anchorage
+voyage_08_typical,vessel_aurora,2026-07-22 11:20:00,40,35.360028,15.720087,0.06,28.0,27.0,-0.01,At anchor,terminal anchorage
+voyage_08_typical,vessel_aurora,2026-07-22 11:28:00,41,35.359831,15.719707,0.15,28.0,26.0,-0.01,At anchor,terminal anchorage
+voyage_08_typical,vessel_aurora,2026-07-22 11:36:00,42,35.359812,15.719859,0.1,28.0,28.5,-0.02,At anchor,terminal anchorage
+voyage_08_typical,vessel_aurora,2026-07-22 11:44:00,43,35.36006,15.720079,0.09,28.0,27.6,-0.02,At anchor,terminal anchorage
+voyage_08_typical,vessel_aurora,2026-07-22 11:52:00,44,35.359919,15.720208,0.08,28.0,27.7,0.05,At anchor,terminal anchorage
+voyage_09_typical,vessel_aurora,2026-07-25 06:00:00,0,35.099634,14.0999,8.57,102.4,103.1,0.87,Under way using engine,under way using engine
+voyage_09_typical,vessel_aurora,2026-07-25 06:08:00,1,35.092806,14.137787,8.05,102.1,102.2,1.07,Under way using engine,under way using engine
+voyage_09_typical,vessel_aurora,2026-07-25 06:16:00,2,35.086231,14.175743,8.54,101.6,102.1,0.57,Under way using engine,under way using engine
+voyage_09_typical,vessel_aurora,2026-07-25 06:24:00,3,35.07994,14.213646,8.73,95.7,96.2,0.68,Under way using engine,under way using engine
+voyage_09_typical,vessel_aurora,2026-07-25 06:32:00,4,35.079946,14.252431,8.26,89.8,89.9,0.97,Under way using engine,under way using engine
+voyage_09_typical,vessel_aurora,2026-07-25 06:40:00,5,35.080162,14.291215,8.62,89.7,90.3,0.73,Under way using engine,under way using engine
+voyage_09_typical,vessel_aurora,2026-07-25 06:48:00,6,35.080314,14.33,8.68,89.7,91.5,0.87,Under way using engine,under way using engine
+voyage_09_typical,vessel_aurora,2026-07-25 06:56:00,7,35.079729,14.329902,0.12,88.0,86.8,-0.01,At anchor,at anchor
+voyage_09_typical,vessel_aurora,2026-07-25 07:04:00,8,35.080266,14.33027,0.15,88.0,87.9,-0.05,At anchor,at anchor
+voyage_09_typical,vessel_aurora,2026-07-25 07:12:00,9,35.079937,14.329894,0.19,88.0,89.2,-0.03,At anchor,at anchor
+voyage_09_typical,vessel_aurora,2026-07-25 07:20:00,10,35.080183,14.330216,0.1,88.0,87.8,0.04,At anchor,at anchor
+voyage_09_typical,vessel_aurora,2026-07-25 07:28:00,11,35.079865,14.330386,0.17,88.0,88.7,0.0,At anchor,at anchor
+voyage_09_typical,vessel_aurora,2026-07-25 07:36:00,12,35.079826,14.330313,0.22,88.0,86.9,0.05,At anchor,at anchor
+voyage_09_typical,vessel_aurora,2026-07-25 07:44:00,13,35.079788,14.330011,12.89,87.2,88.2,0.07,Under way sailing,under way sailing
+voyage_09_typical,vessel_aurora,2026-07-25 07:52:00,14,35.082577,14.398639,13.03,87.3,88.5,0.03,Under way sailing,under way sailing
+voyage_09_typical,vessel_aurora,2026-07-25 08:00:00,15,35.085052,14.467284,12.65,87.9,89.0,-0.01,Under way sailing,under way sailing
+voyage_09_typical,vessel_aurora,2026-07-25 08:08:00,16,35.086782,14.535965,12.37,87.9,87.9,0.28,Under way sailing,under way sailing
+voyage_09_typical,vessel_aurora,2026-07-25 08:16:00,17,35.089214,14.604612,12.51,87.6,87.5,0.31,Under way sailing,under way sailing
+voyage_09_typical,vessel_aurora,2026-07-25 08:24:00,18,35.091608,14.67326,12.86,87.3,86.3,-0.05,Under way sailing,under way sailing
+voyage_09_typical,vessel_aurora,2026-07-25 08:32:00,19,35.094457,14.741886,12.37,87.5,87.2,0.3,Under way sailing,under way sailing
+voyage_09_typical,vessel_aurora,2026-07-25 08:40:00,20,35.096488,14.810553,12.73,88.1,88.6,-0.07,Under way sailing,under way sailing
+voyage_09_typical,vessel_aurora,2026-07-25 08:48:00,21,35.098192,14.879236,12.26,88.0,88.2,0.19,Under way sailing,under way sailing
+voyage_09_typical,vessel_aurora,2026-07-25 08:56:00,22,35.100499,14.947882,12.25,88.5,86.8,0.05,Under way sailing,under way sailing
+voyage_09_typical,vessel_aurora,2026-07-25 09:04:00,23,35.101108,15.016589,12.93,89.0,90.2,0.08,Under way sailing,under way sailing
+voyage_09_typical,vessel_aurora,2026-07-25 09:12:00,24,35.102396,15.085282,12.69,88.9,87.2,0.03,Under way sailing,under way sailing
+voyage_09_typical,vessel_aurora,2026-07-25 09:20:00,25,35.103184,15.153986,12.95,89.1,89.8,0.11,Under way sailing,under way sailing
+voyage_09_typical,vessel_aurora,2026-07-25 09:28:00,26,35.104162,15.222686,11.77,89.1,88.5,0.2,Under way sailing,under way sailing
+voyage_09_typical,vessel_aurora,2026-07-25 09:36:00,27,35.105008,15.291388,12.47,89.3,88.4,0.58,Under way sailing,under way sailing
+voyage_09_typical,vessel_aurora,2026-07-25 09:44:00,28,35.105511,15.360097,12.0,88.8,90.4,0.17,Under way sailing,under way sailing
+voyage_09_typical,vessel_aurora,2026-07-25 09:52:00,29,35.107432,15.428779,13.0,88.5,87.2,0.39,Under way sailing,under way sailing
+voyage_09_typical,vessel_aurora,2026-07-25 10:00:00,30,35.108392,15.497479,13.06,89.0,87.2,-0.04,Under way sailing,under way sailing
+voyage_09_typical,vessel_aurora,2026-07-25 10:08:00,31,35.107837,15.497327,4.61,33.2,33.1,5.39,Restricted manoeuvrability,restricted manoeuvrability
+voyage_09_typical,vessel_aurora,2026-07-25 10:16:00,32,35.14511,15.527016,4.42,33.3,33.8,6.08,Restricted manoeuvrability,restricted manoeuvrability
+voyage_09_typical,vessel_aurora,2026-07-25 10:24:00,33,35.182326,15.556811,4.51,33.2,33.6,6.4,Restricted manoeuvrability,restricted manoeuvrability
+voyage_09_typical,vessel_aurora,2026-07-25 10:32:00,34,35.219684,15.586345,4.46,35.6,34.1,5.75,Restricted manoeuvrability,restricted manoeuvrability
+voyage_09_typical,vessel_aurora,2026-07-25 10:40:00,35,35.254733,15.619826,5.13,38.1,38.8,5.98,Restricted manoeuvrability,restricted manoeuvrability
+voyage_09_typical,vessel_aurora,2026-07-25 10:48:00,36,35.289825,15.653213,4.84,37.8,35.8,5.67,Restricted manoeuvrability,restricted manoeuvrability
+voyage_09_typical,vessel_aurora,2026-07-25 10:56:00,37,35.325114,15.686293,4.69,37.9,38.4,5.63,Restricted manoeuvrability,restricted manoeuvrability
+voyage_09_typical,vessel_aurora,2026-07-25 11:04:00,38,35.360158,15.719754,4.84,38.2,39.4,5.86,Restricted manoeuvrability,restricted manoeuvrability
+voyage_09_typical,vessel_aurora,2026-07-25 11:12:00,39,35.360003,15.719974,0.15,28.0,26.3,-0.01,At anchor,terminal anchorage
+voyage_09_typical,vessel_aurora,2026-07-25 11:20:00,40,35.359996,15.720015,0.16,28.0,28.1,0.03,At anchor,terminal anchorage
+voyage_09_typical,vessel_aurora,2026-07-25 11:28:00,41,35.359888,15.719888,0.07,28.0,28.6,-0.02,At anchor,terminal anchorage
+voyage_09_typical,vessel_aurora,2026-07-25 11:36:00,42,35.359735,15.720124,0.19,28.0,26.8,-0.0,At anchor,terminal anchorage
+voyage_09_typical,vessel_aurora,2026-07-25 11:44:00,43,35.36004,15.720207,0.08,28.0,26.4,0.01,At anchor,terminal anchorage
+voyage_09_typical,vessel_aurora,2026-07-25 11:52:00,44,35.360023,15.72025,0.13,28.0,28.3,-0.05,At anchor,terminal anchorage
+voyage_10_typical,vessel_aurora,2026-07-28 06:00:00,0,35.100339,14.100091,8.94,102.5,99.7,0.37,Under way using engine,under way using engine
+voyage_10_typical,vessel_aurora,2026-07-28 06:08:00,1,35.093454,14.137954,8.18,102.7,104.1,0.69,Under way using engine,under way using engine
+voyage_10_typical,vessel_aurora,2026-07-28 06:16:00,2,35.086366,14.175762,8.72,102.0,101.1,0.81,Under way using engine,under way using engine
+voyage_10_typical,vessel_aurora,2026-07-28 06:24:00,3,35.080264,14.213671,8.9,95.8,96.5,0.71,Under way using engine,under way using engine
+voyage_10_typical,vessel_aurora,2026-07-28 06:32:00,4,35.079967,14.252447,8.09,90.3,91.2,0.26,Under way using engine,under way using engine
+voyage_10_typical,vessel_aurora,2026-07-28 06:40:00,5,35.079958,14.291224,8.07,90.1,89.3,0.87,Under way using engine,under way using engine
+voyage_10_typical,vessel_aurora,2026-07-28 06:48:00,6,35.079907,14.33,8.4,90.1,89.2,0.95,Under way using engine,under way using engine
+voyage_10_typical,vessel_aurora,2026-07-28 06:56:00,7,35.079924,14.329937,0.1,88.0,89.1,-0.02,At anchor,at anchor
+voyage_10_typical,vessel_aurora,2026-07-28 07:04:00,8,35.079917,14.329692,0.19,88.0,87.3,0.01,At anchor,at anchor
+voyage_10_typical,vessel_aurora,2026-07-28 07:12:00,9,35.080028,14.330421,0.09,88.0,89.0,0.0,At anchor,at anchor
+voyage_10_typical,vessel_aurora,2026-07-28 07:20:00,10,35.080122,14.329741,0.13,88.0,87.9,0.04,At anchor,at anchor
+voyage_10_typical,vessel_aurora,2026-07-28 07:28:00,11,35.079935,14.330263,0.15,88.0,88.0,0.01,At anchor,at anchor
+voyage_10_typical,vessel_aurora,2026-07-28 07:36:00,12,35.079857,14.330185,0.07,88.0,86.5,-0.01,At anchor,at anchor
+voyage_10_typical,vessel_aurora,2026-07-28 07:44:00,13,35.080204,14.32999,13.18,87.7,87.2,0.24,Under way sailing,under way sailing
+voyage_10_typical,vessel_aurora,2026-07-28 07:52:00,14,35.082519,14.399322,12.55,87.9,87.0,0.48,Under way sailing,under way sailing
+voyage_10_typical,vessel_aurora,2026-07-28 08:00:00,15,35.08438,14.468676,12.89,87.7,88.4,0.31,Under way sailing,under way sailing
+voyage_10_typical,vessel_aurora,2026-07-28 08:08:00,16,35.087168,14.537984,13.41,87.5,87.8,0.14,Under way sailing,under way sailing
+voyage_10_typical,vessel_aurora,2026-07-28 08:16:00,17,35.089429,14.607318,12.61,87.5,88.3,0.13,Under way sailing,under way sailing
+voyage_10_typical,vessel_aurora,2026-07-28 08:24:00,18,35.092071,14.676634,13.13,87.9,88.6,0.15,Under way sailing,under way sailing
+voyage_10_typical,vessel_aurora,2026-07-28 08:32:00,19,35.093666,14.746001,12.71,87.8,88.7,-0.08,Under way sailing,under way sailing
+voyage_10_typical,vessel_aurora,2026-07-28 08:40:00,20,35.096388,14.815312,12.96,87.5,86.5,0.06,Under way sailing,under way sailing
+voyage_10_typical,vessel_aurora,2026-07-28 08:48:00,21,35.098655,14.884646,11.96,87.9,88.2,0.34,Under way sailing,under way sailing
+voyage_10_typical,vessel_aurora,2026-07-28 08:56:00,22,35.100482,14.953999,12.99,88.5,90.5,0.41,Under way sailing,under way sailing
+voyage_10_typical,vessel_aurora,2026-07-28 09:04:00,23,35.101665,15.023372,12.01,88.7,89.3,0.03,Under way sailing,under way sailing
+voyage_10_typical,vessel_aurora,2026-07-28 09:12:00,24,35.103034,15.092742,12.79,88.9,86.8,0.43,Under way sailing,under way sailing
+voyage_10_typical,vessel_aurora,2026-07-28 09:20:00,25,35.103938,15.162122,13.12,89.2,87.9,-0.16,Under way sailing,under way sailing
+voyage_10_typical,vessel_aurora,2026-07-28 09:28:00,26,35.104681,15.231507,13.1,88.8,88.1,0.15,Under way sailing,under way sailing
+voyage_10_typical,vessel_aurora,2026-07-28 09:36:00,27,35.106405,15.300867,12.57,88.6,89.9,0.23,Under way sailing,under way sailing
+voyage_10_typical,vessel_aurora,2026-07-28 09:44:00,28,35.107419,15.370246,12.55,88.9,89.6,0.57,Under way sailing,under way sailing
+voyage_10_typical,vessel_aurora,2026-07-28 09:52:00,29,35.108505,15.439622,12.54,88.8,88.5,0.09,Under way sailing,under way sailing
+voyage_10_typical,vessel_aurora,2026-07-28 10:00:00,30,35.109878,15.508991,12.67,88.6,90.3,0.64,Under way sailing,under way sailing
+voyage_10_typical,vessel_aurora,2026-07-28 10:08:00,31,35.109843,15.508943,4.19,30.9,31.9,5.97,Restricted manoeuvrability,restricted manoeuvrability
+voyage_10_typical,vessel_aurora,2026-07-28 10:16:00,32,35.147225,15.53614,5.33,31.2,30.6,5.73,Restricted manoeuvrability,restricted manoeuvrability
+voyage_10_typical,vessel_aurora,2026-07-28 10:24:00,33,35.184364,15.563826,3.76,31.5,32.7,5.88,Restricted manoeuvrability,restricted manoeuvrability
+voyage_10_typical,vessel_aurora,2026-07-28 10:32:00,34,35.221465,15.591495,4.63,34.6,36.5,5.77,Restricted manoeuvrability,restricted manoeuvrability
+voyage_10_typical,vessel_aurora,2026-07-28 10:40:00,35,35.255991,15.623793,4.85,37.5,37.2,5.93,Restricted manoeuvrability,restricted manoeuvrability
+voyage_10_typical,vessel_aurora,2026-07-28 10:48:00,36,35.290624,15.65592,5.0,37.2,37.4,5.74,Restricted manoeuvrability,restricted manoeuvrability
+voyage_10_typical,vessel_aurora,2026-07-28 10:56:00,37,35.325355,15.687893,4.92,37.1,36.9,5.67,Restricted manoeuvrability,restricted manoeuvrability
+voyage_10_typical,vessel_aurora,2026-07-28 11:04:00,38,35.36012,15.71981,3.84,37.1,39.1,5.61,Restricted manoeuvrability,restricted manoeuvrability
+voyage_10_typical,vessel_aurora,2026-07-28 11:12:00,39,35.360196,15.72002,0.05,28.0,29.9,0.02,At anchor,terminal anchorage
+voyage_10_typical,vessel_aurora,2026-07-28 11:20:00,40,35.360147,15.720238,0.13,28.0,30.6,-0.0,At anchor,terminal anchorage
+voyage_10_typical,vessel_aurora,2026-07-28 11:28:00,41,35.360002,15.720152,0.04,28.0,28.5,-0.03,At anchor,terminal anchorage
+voyage_10_typical,vessel_aurora,2026-07-28 11:36:00,42,35.359903,15.720111,0.03,28.0,27.5,0.06,At anchor,terminal anchorage
+voyage_10_typical,vessel_aurora,2026-07-28 11:44:00,43,35.360028,15.720166,0.15,28.0,27.7,-0.04,At anchor,terminal anchorage
+voyage_10_typical,vessel_aurora,2026-07-28 11:52:00,44,35.359726,15.719715,0.12,28.0,27.3,-0.02,At anchor,terminal anchorage
+voyage_11_typical,vessel_aurora,2026-07-31 06:00:00,0,35.100135,14.100035,8.7,102.0,103.1,0.59,Under way using engine,under way using engine
+voyage_11_typical,vessel_aurora,2026-07-31 06:08:00,1,35.093503,14.137944,8.69,102.0,103.3,0.56,Under way using engine,under way using engine
+voyage_11_typical,vessel_aurora,2026-07-31 06:16:00,2,35.086923,14.175866,8.32,102.1,101.5,0.85,Under way using engine,under way using engine
+voyage_11_typical,vessel_aurora,2026-07-31 06:24:00,3,35.080161,14.213742,9.09,96.6,95.9,0.45,Under way using engine,under way using engine
+voyage_11_typical,vessel_aurora,2026-07-31 06:32:00,4,35.079672,14.252486,8.86,90.2,90.5,0.72,Under way using engine,under way using engine
+voyage_11_typical,vessel_aurora,2026-07-31 06:40:00,5,35.07991,14.291243,8.19,89.6,88.7,0.69,Under way using engine,under way using engine
+voyage_11_typical,vessel_aurora,2026-07-31 06:48:00,6,35.080169,14.33,9.23,89.5,88.6,0.68,Under way using engine,under way using engine
+voyage_11_typical,vessel_aurora,2026-07-31 06:56:00,7,35.079897,14.329722,0.14,88.0,87.5,0.03,At anchor,at anchor
+voyage_11_typical,vessel_aurora,2026-07-31 07:04:00,8,35.080244,14.330016,0.15,88.0,87.5,-0.01,At anchor,at anchor
+voyage_11_typical,vessel_aurora,2026-07-31 07:12:00,9,35.079886,14.330052,0.19,88.0,88.2,0.03,At anchor,at anchor
+voyage_11_typical,vessel_aurora,2026-07-31 07:20:00,10,35.080063,14.330112,0.13,88.0,87.6,0.08,At anchor,at anchor
+voyage_11_typical,vessel_aurora,2026-07-31 07:28:00,11,35.079941,14.330031,0.08,88.0,88.2,0.03,At anchor,at anchor
+voyage_11_typical,vessel_aurora,2026-07-31 07:36:00,12,35.080368,14.330063,0.21,88.0,88.3,-0.02,At anchor,at anchor
+voyage_11_typical,vessel_aurora,2026-07-31 07:44:00,13,35.080313,14.329985,11.97,88.2,86.9,0.19,Under way sailing,under way sailing
+voyage_11_typical,vessel_aurora,2026-07-31 07:52:00,14,35.082107,14.401055,13.2,88.1,88.8,0.02,Under way sailing,under way sailing
+voyage_11_typical,vessel_aurora,2026-07-31 08:00:00,15,35.084214,14.47211,12.74,88.0,87.4,0.19,Under way sailing,under way sailing
+voyage_11_typical,vessel_aurora,2026-07-31 08:08:00,16,35.086211,14.54317,12.94,87.8,85.8,-0.21,Under way sailing,under way sailing
+voyage_11_typical,vessel_aurora,2026-07-31 08:16:00,17,35.088608,14.614212,12.78,87.4,86.8,0.02,Under way sailing,under way sailing
+voyage_11_typical,vessel_aurora,2026-07-31 08:24:00,18,35.091421,14.685234,13.02,87.6,85.1,0.06,Under way sailing,under way sailing
+voyage_11_typical,vessel_aurora,2026-07-31 08:32:00,19,35.093421,14.756294,12.91,87.9,84.7,0.36,Under way sailing,under way sailing
+voyage_11_typical,vessel_aurora,2026-07-31 08:40:00,20,35.095743,14.827339,12.75,87.7,90.8,-0.07,Under way sailing,under way sailing
+voyage_11_typical,vessel_aurora,2026-07-31 08:48:00,21,35.098161,14.898379,12.86,87.8,87.7,-0.21,Under way sailing,under way sailing
+voyage_11_typical,vessel_aurora,2026-07-31 08:56:00,22,35.100231,14.969435,13.13,88.1,86.4,0.21,Under way sailing,under way sailing
+voyage_11_typical,vessel_aurora,2026-07-31 09:04:00,23,35.102024,15.040502,12.31,88.1,89.1,0.17,Under way sailing,under way sailing
+voyage_11_typical,vessel_aurora,2026-07-31 09:12:00,24,35.104196,15.111555,13.19,88.3,89.3,0.08,Under way sailing,under way sailing
+voyage_11_typical,vessel_aurora,2026-07-31 09:20:00,25,35.10557,15.182639,12.84,87.9,88.2,-0.1,Under way sailing,under way sailing
+voyage_11_typical,vessel_aurora,2026-07-31 09:28:00,26,35.10846,15.253665,13.2,88.2,89.3,0.3,Under way sailing,under way sailing
+voyage_11_typical,vessel_aurora,2026-07-31 09:36:00,27,35.1093,15.324769,12.67,88.8,86.5,0.47,Under way sailing,under way sailing
+voyage_11_typical,vessel_aurora,2026-07-31 09:44:00,28,35.110999,15.39584,13.25,88.2,90.2,0.19,Under way sailing,under way sailing
+voyage_11_typical,vessel_aurora,2026-07-31 09:52:00,29,35.112902,15.466903,12.67,88.0,88.6,0.14,Under way sailing,under way sailing
+voyage_11_typical,vessel_aurora,2026-07-31 10:00:00,30,35.115073,15.537956,12.72,87.9,89.3,-0.07,Under way sailing,under way sailing
+voyage_11_typical,vessel_aurora,2026-07-31 10:08:00,31,35.114986,15.538078,4.7,24.6,25.1,5.85,Restricted manoeuvrability,restricted manoeuvrability
+voyage_11_typical,vessel_aurora,2026-07-31 10:16:00,32,35.152434,15.558961,4.49,24.9,25.3,5.73,Restricted manoeuvrability,restricted manoeuvrability
+voyage_11_typical,vessel_aurora,2026-07-31 10:24:00,33,35.189729,15.580248,4.99,25.6,25.3,5.68,Restricted manoeuvrability,restricted manoeuvrability
+voyage_11_typical,vessel_aurora,2026-07-31 10:32:00,34,35.226661,15.602272,5.04,31.4,31.7,5.86,Restricted manoeuvrability,restricted manoeuvrability
+voyage_11_typical,vessel_aurora,2026-07-31 10:40:00,35,35.259756,15.632106,4.57,36.3,36.6,5.53,Restricted manoeuvrability,restricted manoeuvrability
+voyage_11_typical,vessel_aurora,2026-07-31 10:48:00,36,35.293066,15.66158,4.65,35.8,34.5,5.39,Restricted manoeuvrability,restricted manoeuvrability
+voyage_11_typical,vessel_aurora,2026-07-31 10:56:00,37,35.326559,15.690746,4.98,35.6,34.7,5.75,Restricted manoeuvrability,restricted manoeuvrability
+voyage_11_typical,vessel_aurora,2026-07-31 11:04:00,38,35.360086,15.719855,5.15,35.5,34.6,5.75,Restricted manoeuvrability,restricted manoeuvrability
+voyage_11_typical,vessel_aurora,2026-07-31 11:12:00,39,35.359907,15.720054,0.06,28.0,28.7,0.02,At anchor,terminal anchorage
+voyage_11_typical,vessel_aurora,2026-07-31 11:20:00,40,35.360086,15.720042,0.12,28.0,28.3,0.0,At anchor,terminal anchorage
+voyage_11_typical,vessel_aurora,2026-07-31 11:28:00,41,35.360077,15.719933,0.06,28.0,26.2,-0.02,At anchor,terminal anchorage
+voyage_11_typical,vessel_aurora,2026-07-31 11:36:00,42,35.359926,15.719954,0.15,28.0,26.5,0.06,At anchor,terminal anchorage
+voyage_11_typical,vessel_aurora,2026-07-31 11:44:00,43,35.360036,15.720324,0.2,28.0,29.7,0.03,At anchor,terminal anchorage
+voyage_11_typical,vessel_aurora,2026-07-31 11:52:00,44,35.359936,15.719943,0.17,28.0,24.2,-0.02,At anchor,terminal anchorage
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 06:00:00,0,35.099886,14.100022,10.46,80.5,80.9,0.4,Under way using engine,under way using engine
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 06:08:00,1,35.103334,14.125,10.91,79.9,80.1,0.52,Under way using engine,under way using engine
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 06:16:00,2,35.107181,14.149899,10.0,80.4,80.8,0.23,Under way using engine,under way using engine
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 06:24:00,3,35.110273,14.174946,10.76,81.2,80.0,0.21,Under way using engine,under way using engine
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 06:32:00,4,35.113524,14.199962,10.15,81.6,82.4,0.47,Under way using engine,under way using engine
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 06:40:00,5,35.116351,14.225062,10.86,80.9,80.0,0.66,Under way using engine,under way using engine
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 06:48:00,6,35.120095,14.249981,10.05,79.6,78.2,0.47,Under way using engine,under way using engine
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 06:56:00,7,35.120386,14.249958,14.22,85.1,85.4,0.16,Under way sailing,under way sailing
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 07:04:00,8,35.125656,14.323989,14.09,85.1,85.2,0.18,Under way sailing,under way sailing
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 07:12:00,9,35.130927,14.398019,14.15,85.2,85.0,0.45,Under way sailing,under way sailing
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 07:20:00,10,35.135937,14.472078,13.56,84.8,84.0,0.34,Under way sailing,under way sailing
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 07:28:00,11,35.141942,14.546029,14.51,84.7,83.7,0.32,Under way sailing,under way sailing
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 07:36:00,12,35.14723,14.620058,14.32,85.0,84.1,0.27,Under way sailing,under way sailing
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 07:44:00,13,35.152524,14.694086,13.96,84.6,85.3,-0.02,Under way sailing,under way sailing
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 07:52:00,14,35.158808,14.768007,14.44,84.9,83.5,-0.15,Under way sailing,under way sailing
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 08:00:00,15,35.16331,14.842121,14.57,85.2,84.0,0.16,Under way sailing,under way sailing
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 08:08:00,16,35.169022,14.916103,14.14,85.6,86.3,0.47,Under way sailing,under way sailing
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 08:16:00,17,35.172612,14.99028,14.26,87.3,88.0,0.29,Under way sailing,under way sailing
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 08:24:00,18,35.174849,15.064538,15.09,87.9,88.4,0.6,Under way sailing,under way sailing
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 08:32:00,19,35.177142,15.138794,14.25,87.8,88.7,-0.03,Under way sailing,under way sailing
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 08:40:00,20,35.179621,15.21304,14.19,87.4,86.7,0.09,Under way sailing,under way sailing
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 08:48:00,21,35.18264,15.287258,14.66,87.6,87.1,0.27,Under way sailing,under way sailing
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 08:56:00,22,35.184742,15.361523,14.39,87.9,87.3,0.56,Under way sailing,under way sailing
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 09:04:00,23,35.187204,15.43577,13.82,87.6,90.2,0.13,Under way sailing,under way sailing
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 09:12:00,24,35.189805,15.51001,14.07,87.6,86.8,0.36,Under way sailing,under way sailing
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 09:20:00,25,35.190135,15.509841,8.09,45.7,47.2,1.13,Restricted manoeuvrability,restricted manoeuvrability
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 09:28:00,26,35.214324,15.539956,8.42,46.1,46.2,1.2,Restricted manoeuvrability,restricted manoeuvrability
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 09:36:00,27,35.238175,15.570472,8.03,46.0,45.7,1.1,Restricted manoeuvrability,restricted manoeuvrability
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 09:44:00,28,35.262468,15.600465,8.41,45.4,46.7,1.35,Restricted manoeuvrability,restricted manoeuvrability
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 09:52:00,29,35.286825,15.630378,8.15,45.3,44.9,0.87,Restricted manoeuvrability,restricted manoeuvrability
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 10:00:00,30,35.311158,15.660324,8.33,45.2,44.4,0.93,Restricted manoeuvrability,restricted manoeuvrability
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 10:08:00,31,35.33558,15.69016,8.39,45.3,46.3,1.35,Restricted manoeuvrability,restricted manoeuvrability
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 10:16:00,32,35.359876,15.72015,8.74,45.4,43.6,0.68,Restricted manoeuvrability,restricted manoeuvrability
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 10:24:00,33,35.360133,15.719695,0.1,28.0,27.3,0.03,At anchor,terminal anchorage
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 10:32:00,34,35.36003,15.720057,0.18,28.0,26.6,0.05,At anchor,terminal anchorage
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 10:40:00,35,35.360217,15.720008,0.15,28.0,30.4,0.01,At anchor,terminal anchorage
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 10:48:00,36,35.360106,15.72017,0.11,28.0,28.7,0.02,At anchor,terminal anchorage
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 10:56:00,37,35.359952,15.719863,0.12,28.0,27.5,0.05,At anchor,terminal anchorage
+voyage_12_direct_nonstop,vessel_aurora,2026-08-03 11:04:00,38,35.360008,15.719953,0.13,28.0,27.1,0.01,At anchor,terminal anchorage

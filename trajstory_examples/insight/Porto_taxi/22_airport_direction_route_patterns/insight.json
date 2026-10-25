@@ -1,0 +1,104 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/22_airport_direction_route_patterns/trips.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Porto_taxi/22_airport_direction_route_patterns/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/22_airport_direction_route_patterns/trajectory_points.csv",
+      "role": "Dense GPS observations aligned to the cached Porto OSM road graph"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/22_airport_direction_route_patterns/driver_profiles.csv",
+      "role": "Driver-level sequence or corridor participation metrics"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/22_airport_direction_route_patterns/airport_reference.csv",
+      "role": "Porto Airport terminal reference and connected public-road access used by trajectories"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/22_airport_direction_route_patterns/airport_public_approach.csv",
+      "role": "OSM-node sequence and way identifiers for the public-road terminal approach"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze taxi travel patterns to Porto Airport in Maia, northwest of Porto.",
+    "role": "Porto taxi trajectory analyst",
+    "category": "Airport direction sequences, corridor timing, and route regularity by request source",
+    "header": "Porto Taxi Example 22",
+    "dataset_description": "A constructed Porto taxi trajectory case with road-routed GPS points and supporting tables designed to evaluate 3 mutually compatible insights."
+  },
+  "insight_list": [
+    {
+      "data_type": "airport_direction_sequences",
+      "insight": "A large share of drivers repeatedly alternate between airport-bound and airport-originating trips, and some often return to the airport on their next recorded trip.",
+      "plot": {
+        "plot_type": "driver_sequence_rate_panels",
+        "file": "visualizations/driver_direction_alternation_and_returns.png",
+        "title": "Which drivers repeatedly alternate airport direction, and which often return on the next trip",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "Which drivers repeatedly alternate airport direction, and which often return on the next trip?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "driver_id",
+        "departure_time",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "airport_corridor_period_activity",
+      "insight": "Corridor activity peaks in midday and afternoon periods, while airport-originating departures are less common at midday and late night.",
+      "plot": {
+        "plot_type": "grouped_period_count_bars",
+        "file": "visualizations/airport_corridor_activity_by_period.png",
+        "title": "When is airport-corridor activity highest, and when are airport-originating departures less common",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "When is airport-corridor activity highest, and when are airport-originating departures less common?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "departure_time",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "airport_route_regularity",
+      "insight": "Taxi-stand trips follow more regular routes to the airport, while nearby street-hail trips use more diverse routes despite having similar origins.",
+      "plot": {
+        "plot_type": "paired_route_maps_entropy_and_distance",
+        "file": "visualizations/airport_route_regularity_by_request_source.png",
+        "title": "How does route regularity differ between taxi-stand and nearby street-hail trips to the airport",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "How does route regularity differ between taxi-stand and nearby street-hail trips to the airport?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "group_comparison",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "request_source",
+        "gps_position",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "A large share of drivers repeatedly alternate between airport-bound and airport-originating trips, and some often return to the airport on their next recorded trip.",
+    "Corridor activity peaks in midday and afternoon periods, while airport-originating departures are less common at midday and late night.",
+    "Taxi-stand trips follow more regular routes to the airport, while nearby street-hail trips use more diverse routes despite having similar origins."
+  ],
+  "summary": "Drivers frequently alternate airport direction, with a smaller frequent-return subset. Midday and afternoon carry the most corridor activity, while comparable inbound stand and street-hail trips differ clearly in route regularity."
+}

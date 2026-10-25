@@ -1,0 +1,128 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/09_experience_conditioned_operating_strategy/driver_activity_segments.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Porto_taxi/09_experience_conditioned_operating_strategy/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/09_experience_conditioned_operating_strategy/driver_orders.csv",
+      "role": "Completed driver orders with request, pickup, and drop-off events"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/09_experience_conditioned_operating_strategy/citywide_market_order_events.csv",
+      "role": "Afternoon citywide order events, including orders served by the target driver and by other taxis"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/09_experience_conditioned_operating_strategy/stand_market_requests.csv",
+      "role": "All-taxi requests at Central Arena Stand, including other drivers"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/09_experience_conditioned_operating_strategy/taxi_stands.csv",
+      "role": "Taxi-stand location and region reference"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/09_experience_conditioned_operating_strategy/trajectory_points.csv",
+      "role": "Timestamped GPS points and point speeds for driver segments"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze how a taxi driver’s operating strategy changes over two months of observed work, and assess whether the changes are consistent with learning from recurring demand and route conditions.",
+    "role": "Taxi operations analyst",
+    "category": "Experience-conditioned driver strategy, market discovery, and route execution",
+    "header": "Two Months of Driver Strategy Adaptation",
+    "dataset_description": "A constructed single-driver Porto Taxi case spanning June and July. Driver activity, linked GPS trajectories, citywide afternoon orders, Friday labels, and all-taxi C-stand request records support comparisons between early and later operating periods.",
+    "motion_consistency_note": "Point speed is the incoming segment GPS great-circle distance divided by elapsed time; the first point repeats the first outgoing segment speed. Earth radius: 6371.0088 km. Trip distance is the sum of these segment distances. avg_speed_kmh and mean_speed_kmh are total distance / elapsed time; avg_point_speed_kmh and point_speed_mean_kmh are unweighted means of the delivered point speeds. speed_cv is the population coefficient of variation of incoming segment speeds, excluding the duplicated first endpoint. trajectory_progress is point_index / (point_count - 1), not elapsed-time fraction. Timestamps and speed fields were reconstructed for internal consistency on 2026-10-09; GPS positions and insight wording were preserved. These are curated example records, not newly recovered observations.",
+    "motion_consistency_repair": "results/dataset_quality/motion_consistency_repair_20261009/repair.json",
+    "operating_state_definitions": {
+      "cruising": "Unassigned movement while seeking an order; the segment has nonzero GPS displacement along its path.",
+      "idle_wait": "Stationary, unassigned availability interval; no accepted order is linked.",
+      "driving_to_pickup": "Movement to the pickup location after accepting an order.",
+      "pickup_wait": "Stationary interval at the pickup location between request and passenger pickup, linked to an accepted order.",
+      "passenger_trip": "Passenger service between pickup and drop-off.",
+      "taxi_stand_wait": "Stationary availability at the taxi stand before the next accepted order, distinct from pickup_wait."
+    },
+    "stand_market_linkage_note": "In this curated case, taxi_id in stand_market_requests identifies the taxi assigned to the request. All target-driver stand requests are completed and join one-to-one to driver_orders on taxi_id=driver_id and parsed request_time, with matching date, period and request_source. Other-taxi requests have no delivered driver-order details. market_request_id is a stable opaque record identifier, not an encoded event clock. approach_segment_id links the pre-pickup interval, which may be driving_to_pickup or stationary pickup_wait. The 2026-10-09 repair corrected constructed assignments and copied request times from the latest completed orders.",
+    "state_and_market_consistency_repair": "results/dataset_quality/porto09_state_linkage_20261009/repair.json"
+  },
+  "insight_list": [
+    {
+      "data_type": "experience_conditioned_spatial_service_focus",
+      "insight": "The driver’s afternoon activity shifts from broad cruising to a more concentrated pattern around recurring service areas.",
+      "plot": {
+        "plot_type": "early_later_trajectory_and_order_location_maps",
+        "file": "visualizations/early_discovery_later_ab_focus.png",
+        "title": "From Broad Cruising to an A–B Service Focus",
+        "description": "Trajectory maps and separate 13:00–18:00 pickup/drop-off maps contrast early citywide exploration with later A–B concentration."
+      },
+      "question": "How do the driver’s 13:00–18:00 cruising paths and street-hail order locations change from the early to later period, and what recurring A–B pattern is visible early?",
+      "code": "d=df.copy(); print(d[(d.time_period=='13:00–18:00')].groupby(['experience_period','region','operating_state']).size())",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 6,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "operating_state",
+        "trajectory_timestamp",
+        "gps_position",
+        "driver_id",
+        "request_time",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "market_demand_and_taxi_stand_waiting",
+      "insight": "On Friday evenings, the driver’s activity becomes more focused on a taxi stand, with longer waits in the later period.",
+      "plot": {
+        "plot_type": "market_demand_scatter_and_driver_state_timeline",
+        "file": "visualizations/friday_c_stand_demand_and_later_waiting.png",
+        "title": "Friday C-Stand Demand and Later Waiting",
+        "description": "All-taxi market requests establish the Friday stand-demand pattern; the driver timeline compares early and later Friday behavior."
+      },
+      "question": "What does the all-taxi request data show about Central Arena Stand demand on Friday evenings, and how does the driver’s behavior at the stand change later?",
+      "code": "m=pd.read_csv('stand_market_requests.csv'); print(m.groupby(['day_type','service_date']).size())",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 7,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "operating_state",
+        "trajectory_timestamp",
+        "gps_position",
+        "stand_position",
+        "driver_id",
+        "request_time",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "experience_conditioned_indirect_route_execution",
+      "insight": "Morning trips in the later period are faster and have more stable speed profiles, while route indirectness remains similar.",
+      "plot": {
+        "plot_type": "speed_profile_and_indirectness_scatter",
+        "file": "visualizations/morning_indirect_speed_adaptation.png",
+        "title": "Morning Route Execution across Observation Periods (06:00–09:00)",
+        "description": "Point-speed profiles and trip summaries compare route indirectness, speed level, and speed stability across the two observation periods."
+      },
+      "question": "For trips made between 06:00 and 09:00, how do route indirectness, speed level, and speed stability compare between the early and later observation periods?",
+      "code": "d=df[(df.time_period=='06:00–09:00') & (df.operating_state=='passenger_trip')]; print(d.groupby('experience_period')[['route_indirectness','mean_speed_kmh','speed_cv']].describe())",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trajectory_timestamp",
+        "gps_position",
+        "point_speed",
+        "driver_id",
+        "operating_state"
+      ]
+    }
+  ],
+  "insights": [
+    "The driver’s afternoon activity shifts from broad cruising to a more concentrated pattern around recurring service areas.",
+    "On Friday evenings, the driver’s activity becomes more focused on a taxi stand, with longer waits in the later period.",
+    "Morning trips in the later period are faster and have more stable speed profiles, while route indirectness remains similar."
+  ],
+  "summary": "Over two observed months, this driver’s behavior changes in ways consistent with learning recurring market and route conditions. Later 13:00–18:00 work remains centered on the A–B street-hail pair despite a smaller set of non-A/B orders; later Friday evenings involve substantially longer C-stand waiting; and later indirect morning trips are steadier while maintaining a relatively high speed level."
+}

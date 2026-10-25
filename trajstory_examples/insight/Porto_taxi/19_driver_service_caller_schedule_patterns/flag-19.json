@@ -1,0 +1,101 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/19_driver_service_caller_schedule_patterns/trips.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Porto_taxi/19_driver_service_caller_schedule_patterns/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/19_driver_service_caller_schedule_patterns/trajectory_points.csv",
+      "role": "Dense timestamped GPS observations following Porto roads"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/19_driver_service_caller_schedule_patterns/driver_profiles.csv",
+      "role": "Driver-level request-source, caller-diversity, and schedule-change metrics"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/19_driver_service_caller_schedule_patterns/caller_reference.csv",
+      "role": "Call-center caller pools and their recurring preferred pickup and destination areas"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze differences in operating habits across taxi drivers.",
+    "role": "Taxi fleet operating-habits analyst",
+    "category": "Driver request channels, caller recurrence, and pre-holiday schedules",
+    "header": "Porto Taxi Driver Service and Schedule Habits",
+    "dataset_description": "A constructed panel of 864 Porto taxi trips from 18 drivers, split evenly between ordinary and genuine pre-holiday operating-shift dates. Trips include service source, call-center caller identity, operating hour, and dense Porto road-aligned GPS paths; post-midnight records retain the preceding shift date separately from the timestamp date."
+  },
+  "insight_list": [
+    {
+      "data_type": "driver_request_source_mix",
+      "insight": "Some drivers rely mainly on call-center trips, while others have larger shares of taxi-stand or street-hail trips.",
+      "plot": {
+        "plot_type": "driver_stacked_composition_bar",
+        "file": "visualizations/driver_request_source_composition.png",
+        "title": "How do request-source compositions differ across drivers",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "How do request-source compositions differ across drivers?",
+      "code": "# Reproduce the driver-level comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "driver_id",
+        "request_source",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "driver_call_center_caller_pool",
+      "insight": "Among call-center trips, some drivers repeatedly serve the same callers, while others serve a much more diverse caller pool.",
+      "plot": {
+        "plot_type": "caller_diversity_and_concentration_bars",
+        "file": "visualizations/driver_call_center_caller_diversity.png",
+        "title": "Which drivers repeatedly serve a small caller pool, and which serve diverse callers",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "Which drivers repeatedly serve a small caller pool, and which serve diverse callers?",
+      "code": "# Reproduce the driver-level comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "group_comparison",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "driver_id",
+        "request_source",
+        "caller_id",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "driver_preholiday_activity_change",
+      "insight": "Pre-holiday periods alter the active hours of some drivers substantially, while others maintain working-time patterns similar to ordinary days.",
+      "plot": {
+        "plot_type": "driver_schedule_slope_and_change_bars",
+        "file": "visualizations/preholiday_driver_activity_shifts.png",
+        "title": "Which drivers change active hours before holidays, and which retain ordinary-day schedules",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "Which drivers change active hours before holidays, and which retain ordinary-day schedules?",
+      "code": "# Reproduce the driver-level comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "group_comparison",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "driver_id",
+        "departure_time",
+        "day_class",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Some drivers rely mainly on call-center trips, while others have larger shares of taxi-stand or street-hail trips.",
+    "Among call-center trips, some drivers repeatedly serve the same callers, while others serve a much more diverse caller pool.",
+    "Pre-holiday periods alter the active hours of some drivers substantially, while others maintain working-time patterns similar to ordinary days."
+  ],
+  "summary": "Drivers exhibit call-center-, taxi-stand-, street-hail-, and balanced request-source mixes. Their call-center work ranges from repeated service to a few callers to broad caller pools. Pre-holiday schedules shift substantially for one driver group while remaining close to ordinary-day timing for the others."
+}

@@ -1,0 +1,19 @@
+{
+  "overall_mean": {
+    "sog_knots": 11.883473880597016,
+    "cog": 188.06682835820894,
+    "heading": 188.0662686567164
+  },
+  "overall_median": {
+    "sog_knots": 11.69,
+    "cog": 206.0,
+    "heading": 205.8
+  },
+  "overall_std": {
+    "sog_knots": 1.6467494374242855,
+    "cog": 111.70816923205281,
+    "heading": 111.71707861983977
+  },
+  "overall_count": 2680,
+  "grouped_by_nav_status": {
+    

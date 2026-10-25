@@ -1,0 +1,116 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/13_single_day_locational_patterns/trajectories.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/13_single_day_locational_patterns/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/MTL_Trajet/13_single_day_locational_patterns/trajectory_points.csv",
+      "role": "Timestamped GPS trajectory points linked by trajectory_id"
+    }
+  ],
+  "metadata": {
+    "goal": "Find obvious locational features of given trajectories within one day.",
+    "role": "Urban trajectory-pattern analyst",
+    "category": "Single-day rush-hour direction, trip distance, mode, city-zone, and agricultural destination patterns",
+    "header": "MTL Trajet: 13 Single-day Locational Patterns",
+    "dataset_description": "One day's urban trajectories with temporal period, origin and destination zones, destination land use, distance, mode, and timestamped GPS points. GPS coordinates preserve the selected observed MTL route geometry.",
+    "metric_note": "`is_very_short` denotes a trajectory below 0.9 km; `is_very_long` denotes one above 36.1 km."
+  },
+  "insight_list": [
+    {
+      "data_type": "rush_hour_directional_flow",
+      "insight": "During the morning rush, most trajectories travel from the west part of the city to the east part; during the evening rush, most travel from east to west.",
+      "insight_type": "temporal_dynamics",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Rush-hour Directional Flows",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/rush_hour_directional_flows.png"
+      },
+      "question": "How do the predominant origin-to-destination directions differ between morning and evening rush hours?",
+      "code": "pd.crosstab(df.time_period, df.origin_zone + ' → ' + df.destination_zone)",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trajectory_timestamp",
+        "trajectory_id",
+        "gps_position"
+      ]
+    },
+    {
+      "data_type": "night_long_trip_location",
+      "insight": "Very long trips occur only at night and run from the city center to the outskirts.",
+      "insight_type": "exception_deviation",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Night Center-to-outskirts Long Trips",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/night_center_outskirts_long_trips.png"
+      },
+      "question": "When do the very long trips occur, and where do they start and end?",
+      "code": "df[df.is_very_long].groupby(['time_period','origin_zone','destination_zone']).distance_km.agg(['count','min','max'])",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trajectory_timestamp",
+        "trajectory_id",
+        "gps_position"
+      ]
+    },
+    {
+      "data_type": "short_walking_center_pattern",
+      "insight": "Very short trips occur only within the city center and use walking.",
+      "insight_type": "overall_pattern",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Very-short Walking Trips in the City Center",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/short_walking_city_center.png"
+      },
+      "question": "Which transportation mode and spatial extent characterize the very short trips?",
+      "code": "df[df.is_very_short].groupby(['mode_group','origin_zone','destination_zone']).size()",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "transport_mode",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "agricultural_rural_destination",
+      "insight": "Agricultural-related trips all end in one rural area in the southwest of the city.",
+      "insight_type": "overall_pattern",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Agricultural Southwest Destination",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/agricultural_southwest_destination.png"
+      },
+      "question": "Where in the city do agricultural-related trips end?",
+      "code": "df[df.destination_land_use.eq('Agricole')][['destination_zone','end_lon','end_lat']].drop_duplicates()",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "destination_land_use",
+        "gps_position",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "During the morning rush, most trajectories travel from the west part of the city to the east part; during the evening rush, most travel from east to west.",
+    "Very long trips occur only at night and run from the city center to the outskirts.",
+    "Very short trips occur only within the city center and use walking.",
+    "Agricultural-related trips all end in one rural area in the southwest of the city."
+  ],
+  "summary": "This one-day trajectory set has opposing west–east and east–west rush-hour flows, night-only city-center-to-outskirts very-long trips, city-center walking-only short trips, and agricultural trips ending in one southwest rural area.",
+  "evidence_policy": "Claims describe patterns in this dataset and do not establish causal relationships."
+}

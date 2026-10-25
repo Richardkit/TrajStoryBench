@@ -1,0 +1,166 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/09_land_use_mode_route_weekday_patterns/trajectories.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/09_land_use_mode_route_weekday_patterns/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/MTL_Trajet/09_land_use_mode_route_weekday_patterns/trajectory_points.csv",
+      "role": "Timestamped trajectory points linked by trajectory_id"
+    }
+  ],
+  "metadata": {
+    "goal": "Identify the characteristics of three land-use types and their corresponding mobility behaviours from the trajectory data.",
+    "role": "Urban land-use and mobility analyst",
+    "category": "Destination land-use, transport mode, route directness, spatial distribution, and day type",
+    "header": "MTL Trajet: 09 Land-use Mode Route Weekday Patterns",
+    "dataset_description": "Observed MTL urban trajectories ending in Mixte, economic-activity, or Agricole areas, with transport mode, route directness, endpoint, day-type, and timestamped route-point information. The eight agricultural records are weekly corridor repeats derived from two paired observed traces with bounded sub-30-metre lateral variations.",
+    "metric_note": "`route_directness_ratio` is route length divided by straight-line distance; values closer to 1 indicate more direct trajectories.",
+    "land_use_reference": "Archived PUM2050 Affectatio polygons (2025). Labels describe reference-map zoning at fixed endpoints, not surveyed activities at the time of travel.",
+    "fixed_gps_repair": "2026-10-08: existing CSV coordinates preserved; see results/dataset_quality/fixed_gps_repairs_20261008/repair.json.",
+    "motion_consistency_note": "Point speed is the incoming segment GPS great-circle distance divided by elapsed time; the first point repeats the first outgoing segment speed. Earth radius: 6371.0088 km. Trip distance is the sum of these segment distances. avg_speed_kmh and mean_speed_kmh are total distance / elapsed time; avg_point_speed_kmh and point_speed_mean_kmh are unweighted means of the delivered point speeds. speed_cv is the population coefficient of variation of incoming segment speeds, excluding the duplicated first endpoint. trajectory_progress is point_index / (point_count - 1), not elapsed-time fraction. Timestamps and speed fields were reconstructed for internal consistency on 2026-10-09; GPS positions and insight wording were preserved. These are curated example records, not newly recovered observations.",
+    "motion_consistency_repair": "results/dataset_quality/motion_consistency_repair_20261009/repair.json"
+  },
+  "insight_list": [
+    {
+      "data_type": "land_use_mode_composition",
+      "insight": "Mixte and economic-activity destinations each have diverse transport-mode compositions and share the same set of mode categories.",
+      "insight_type": "group_comparison",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Transport Modes by Destination Land-use",
+        "description": "Recomputed from the delivered fixed GPS coordinates and the archived official PUM2050 Affectatio polygons; Unmapped denotes no containing polygon.",
+        "file": "visualizations/mode_by_destination_land_use.png"
+      },
+      "question": "How do transport-mode compositions differ among Mixte, economic-activity, and Agricole destinations?",
+      "code": "import pandas as pd\nimport numpy as np\nfrom pathlib import Path\ndf = pd.read_csv(dataset_path)\npoints = pd.read_csv(Path(dataset_path).with_name('trajectory_points.csv'))\nprint(pd.crosstab(df.destination_land_use, df.mode_group))\n",
+      "evidence": "Mixte and economic-activity destinations each have diverse transport-mode compositions and share the same set of mode categories.",
+      "insight_value": {
+        "cycling": {
+          "Activités économiques": 4,
+          "Agricole": 0,
+          "Mixte": 9
+        },
+        "motor_vehicle": {
+          "Activités économiques": 12,
+          "Agricole": 8,
+          "Mixte": 6
+        },
+        "public_transit": {
+          "Activités économiques": 4,
+          "Agricole": 0,
+          "Mixte": 9
+        },
+        "taxi": {
+          "Activités économiques": 11,
+          "Agricole": 0,
+          "Mixte": 4
+        },
+        "walking": {
+          "Activités économiques": 4,
+          "Agricole": 0,
+          "Mixte": 9
+        }
+      },
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "land_use_reference",
+        "transport_mode",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "agricultural_route_corridor",
+      "insight": "Agricultural-area trajectories are all motor-vehicle trips with nearly identical route-directness values and closely overlapping routes.",
+      "insight_type": "overall_pattern",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Agricultural Route Directness and Corridor",
+        "description": "Recomputed from the delivered fixed GPS coordinates and the archived official PUM2050 Affectatio polygons; Unmapped denotes no containing polygon.",
+        "file": "visualizations/agricultural_route_directness_corridor.png"
+      },
+      "question": "How similar are agricultural route directness and spatial paths, and which transport modes do they use?",
+      "code": "import pandas as pd\nimport numpy as np\nfrom pathlib import Path\ndf = pd.read_csv(dataset_path)\npoints = pd.read_csv(Path(dataset_path).with_name('trajectory_points.csv'))\na=df[df.destination_land_use.eq('Agricole')]; print(a[['mode_group','route_directness_ratio']].describe(include='all'))\n",
+      "evidence": "Agricultural-area trajectories are all motor-vehicle trips with nearly identical route-directness values and closely overlapping routes.",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "land_use_reference",
+        "transport_mode",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "land_use_spatial_distribution",
+      "insight": "Mixte destinations occupy the central and eastern part of the study area; economic-activity destinations occur along the northern and southern edges as well as at scattered locations; agricultural destinations are confined to the southwest.",
+      "insight_type": "group_comparison",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Spatial Distribution of Destination Land-use",
+        "description": "Recomputed from the delivered fixed GPS coordinates and the archived official PUM2050 Affectatio polygons; Unmapped denotes no containing polygon.",
+        "file": "visualizations/land_use_spatial_distribution.png"
+      },
+      "question": "Where are Mixte, economic-activity, and Agricole destinations located relative to one another?",
+      "code": "import pandas as pd\nimport numpy as np\nfrom pathlib import Path\ndf = pd.read_csv(dataset_path)\npoints = pd.read_csv(Path(dataset_path).with_name('trajectory_points.csv'))\nprint(df.groupby('destination_land_use')[['end_lon','end_lat']].agg(['min','max','mean']))\n",
+      "evidence": "Mixte destinations occupy the central and eastern part of the study area; economic-activity destinations occur along the northern and southern edges as well as at scattered locations; agricultural destinations are confined to the southwest.",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "land_use_reference",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "land_use_day_type_presence",
+      "insight": "Only Mixte-destination trajectories occur on both weekdays and weekends; economic-activity and agricultural destinations occur only on weekdays.",
+      "insight_type": "group_comparison",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Day Type by Destination Land-use",
+        "description": "Recomputed from the delivered fixed GPS coordinates and the archived official PUM2050 Affectatio polygons; Unmapped denotes no containing polygon.",
+        "file": "visualizations/day_type_by_destination_land_use.png"
+      },
+      "question": "Which destination land-use types occur on both weekdays and weekends?",
+      "code": "import pandas as pd\nimport numpy as np\nfrom pathlib import Path\ndf = pd.read_csv(dataset_path)\npoints = pd.read_csv(Path(dataset_path).with_name('trajectory_points.csv'))\nprint(pd.crosstab(df.destination_land_use, df.day_type))\n",
+      "evidence": "Only Mixte-destination trajectories occur on both weekdays and weekends; economic-activity and agricultural destinations occur only on weekdays.",
+      "insight_value": {
+        "weekday": {
+          "Activités économiques": 35,
+          "Agricole": 8,
+          "Mixte": 21
+        },
+        "weekend": {
+          "Activités économiques": 0,
+          "Agricole": 0,
+          "Mixte": 16
+        }
+      },
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "land_use_reference",
+        "trajectory_timestamp",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Mixte and economic-activity destinations each have diverse transport-mode compositions and share the same set of mode categories.",
+    "Agricultural-area trajectories are all motor-vehicle trips with nearly identical route-directness values and closely overlapping routes.",
+    "Mixte destinations occupy the central and eastern part of the study area; economic-activity destinations occur along the northern and southern edges as well as at scattered locations; agricultural destinations are confined to the southwest.",
+    "Only Mixte-destination trajectories occur on both weekdays and weekends; economic-activity and agricultural destinations occur only on weekdays."
+  ],
+  "summary": "Mixte and economic-activity destinations each have diverse transport-mode compositions and share the same set of mode categories. Agricultural-area trajectories are all motor-vehicle trips with nearly identical route-directness values and closely overlapping routes. Mixte destinations occupy the central and eastern part of the study area; economic-activity destinations occur along the northern and southern edges as well as at scattered locations; agricultural destinations are confined to the southwest. Only Mixte-destination trajectories occur on both weekdays and weekends; economic-activity and agricultural destinations occur only on weekdays.",
+  "evidence_policy": "Claims describe patterns in this dataset and do not establish causal relationships."
+}

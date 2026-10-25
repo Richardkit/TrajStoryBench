@@ -1,0 +1,501 @@
+trajectory_id,caller_id,taxi_id,departure_time,arrival_time,observation_period,caller_dominant_pickup_areas,origin_longitude,origin_latitude,destination_longitude,destination_latitude
+caller_trip_487,caller_08,taxi_49,2014-10-12 11:10:00,2014-10-12 11:18:12,late year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.612639,41.131858,-8.596748,41.153748
+caller_trip_176,caller_03,taxi_32,2014-10-05 08:09:00,2014-10-05 08:18:00,late year,Cedofeita|Ribeira,-8.619718,41.157823,-8.612639,41.131858
+caller_trip_088,caller_02,taxi_47,2014-05-12 07:35:00,2014-05-12 07:37:58,middle year,Bonfim|Campanha,-8.596748,41.153748,-8.587653,41.150705
+caller_trip_035,caller_01,taxi_29,2014-07-22 14:07:00,2014-07-22 14:15:03,middle year,Boavista|Cedofeita,-8.631173,41.159623,-8.606298,41.179
+caller_trip_066,caller_02,taxi_05,2014-01-09 11:32:00,2014-01-09 11:36:01,early year,Bonfim|Campanha,-8.598443,41.156086,-8.585665,41.148895
+caller_trip_498,caller_08,taxi_09,2014-12-24 20:36:00,2014-12-24 20:52:11,late year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.61053,41.142645,-8.686498,41.180346
+caller_trip_394,caller_07,taxi_60,2014-03-22 10:01:00,2014-03-22 10:28:07,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.691216,41.181082,-8.612639,41.131858
+caller_trip_062,caller_01,taxi_14,2014-12-19 16:33:00,2014-12-19 16:35:57,late year,Boavista|Cedofeita,-8.626264,41.158676,-8.615797,41.152686
+caller_trip_041,caller_01,taxi_46,2014-08-19 10:56:00,2014-08-19 11:03:26,middle year,Boavista|Cedofeita,-8.628868,41.156987,-8.585665,41.148895
+caller_trip_415,caller_07,taxi_28,2014-08-22 09:51:00,2014-08-22 09:53:55,middle year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.628019,41.15545,-8.614398,41.157044
+caller_trip_472,caller_08,taxi_37,2014-07-09 09:43:00,2014-07-09 09:51:34,middle year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.628019,41.15545,-8.595589,41.151632
+caller_trip_493,caller_08,taxi_05,2014-11-09 08:50:00,2014-11-09 08:57:53,late year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.610425,41.129487,-8.598443,41.156086
+caller_trip_067,caller_02,taxi_18,2014-01-12 10:22:00,2014-01-12 10:30:33,early year,Bonfim|Campanha,-8.583838,41.146486,-8.628019,41.15545
+caller_trip_229,caller_04,taxi_50,2014-08-19 10:09:00,2014-08-19 10:18:49,middle year,Paranhos|Boavista,-8.601283,41.178909,-8.626264,41.158676
+caller_trip_069,caller_02,taxi_44,2014-01-18 10:05:00,2014-01-18 10:09:13,early year,Bonfim|Campanha,-8.58256,41.150532,-8.593985,41.155527
+caller_trip_286,caller_05,taxi_59,2014-07-24 08:11:00,2014-07-24 08:23:36,middle year,Foz do Douro|Matosinhos Sul,-8.673552,41.150998,-8.688742,41.178908
+caller_trip_389,caller_07,taxi_56,2014-02-07 21:14:00,2014-02-07 21:26:45,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.626264,41.158676,-8.68803,41.176684
+caller_trip_158,caller_03,taxi_42,2014-06-14 08:16:00,2014-06-14 08:20:59,middle year,Cedofeita|Ribeira,-8.617248,41.155953,-8.596748,41.153748
+caller_trip_358,caller_06,taxi_19,2014-09-14 08:58:00,2014-09-14 09:07:44,late year,Bonfim|Campanha|Paranhos,-8.595589,41.151632,-8.602901,41.1747
+caller_trip_424,caller_07,taxi_23,2014-09-07 08:30:00,2014-09-07 08:44:18,late year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.688742,41.178908,-8.617248,41.155953
+caller_trip_465,caller_08,taxi_07,2014-05-09 10:11:00,2014-05-09 10:18:53,middle year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.628868,41.156987,-8.598443,41.156086
+caller_trip_103,caller_02,taxi_59,2014-08-15 10:13:00,2014-08-15 10:16:36,middle year,Bonfim|Campanha,-8.595589,41.151632,-8.583838,41.146486
+caller_trip_452,caller_08,taxi_21,2014-03-12 07:49:00,2014-03-12 08:05:14,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.615797,41.152686,-8.68803,41.176684
+caller_trip_479,caller_08,taxi_06,2014-08-09 13:20:00,2014-08-09 13:26:19,middle year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.631173,41.159623,-8.596748,41.153748
+caller_trip_222,caller_04,taxi_20,2014-06-19 10:30:00,2014-06-19 10:39:51,middle year,Paranhos|Boavista,-8.606298,41.179,-8.613063,41.141557
+caller_trip_107,caller_02,taxi_50,2014-08-06 16:25:00,2014-08-06 16:28:36,middle year,Bonfim|Campanha,-8.583838,41.146486,-8.595589,41.151632
+caller_trip_362,caller_06,taxi_10,2014-09-05 11:33:00,2014-09-05 11:43:58,late year,Bonfim|Campanha|Paranhos,-8.602901,41.1747,-8.583838,41.146486
+caller_trip_370,caller_06,taxi_53,2014-11-08 15:31:00,2014-11-08 15:40:25,late year,Bonfim|Campanha|Paranhos,-8.602901,41.1747,-8.583838,41.146486
+caller_trip_356,caller_06,taxi_54,2014-08-08 11:58:00,2014-08-08 12:08:50,middle year,Bonfim|Campanha|Paranhos,-8.58256,41.150532,-8.601283,41.178909
+caller_trip_463,caller_08,taxi_42,2014-05-24 08:58:00,2014-05-24 09:05:44,middle year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.598443,41.156086,-8.628868,41.156987
+caller_trip_162,caller_03,taxi_33,2014-07-05 16:30:00,2014-07-05 16:38:08,middle year,Cedofeita|Ribeira,-8.585665,41.148895,-8.628868,41.156987
+caller_trip_228,caller_04,taxi_37,2014-07-16 08:13:00,2014-07-16 08:20:52,middle year,Paranhos|Boavista,-8.604131,41.17683,-8.631173,41.159623
+caller_trip_368,caller_06,taxi_27,2014-11-23 11:50:00,2014-11-23 11:55:33,late year,Bonfim|Campanha|Paranhos,-8.61053,41.142645,-8.593985,41.155527
+caller_trip_453,caller_08,taxi_34,2014-03-15 08:47:00,2014-03-15 08:54:14,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.596748,41.153748,-8.631173,41.159623
+caller_trip_406,caller_07,taxi_33,2014-06-16 13:14:00,2014-06-16 13:33:30,middle year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.691216,41.181082,-8.619718,41.157823
+caller_trip_017,caller_01,taxi_39,2014-03-10 09:41:00,2014-03-10 09:43:28,early year,Boavista|Cedofeita,-8.628868,41.156987,-8.617248,41.155953
+caller_trip_384,caller_07,taxi_52,2014-02-13 10:31:00,2014-02-13 10:42:21,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.617248,41.155953,-8.673552,41.150998
+caller_trip_010,caller_01,taxi_09,2014-02-10 07:05:00,2014-02-10 07:26:36,early year,Boavista|Cedofeita,-8.670825,41.152698,-8.609323,41.127541
+caller_trip_021,caller_01,taxi_30,2014-04-22 15:46:00,2014-04-22 15:48:42,early year,Boavista|Cedofeita,-8.628868,41.156987,-8.617248,41.155953
+caller_trip_339,caller_06,taxi_16,2014-05-20 11:08:00,2014-05-20 11:11:09,middle year,Bonfim|Campanha|Paranhos,-8.585665,41.148895,-8.598443,41.156086
+caller_trip_481,caller_08,taxi_32,2014-09-15 15:40:00,2014-09-15 15:57:42,late year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.688742,41.178908,-8.615433,41.143321
+caller_trip_153,caller_03,taxi_38,2014-05-20 07:59:00,2014-05-20 08:02:57,middle year,Cedofeita|Ribeira,-8.615797,41.152686,-8.626264,41.158676
+caller_trip_269,caller_05,taxi_21,2014-03-15 18:25:00,2014-03-15 18:34:16,early year,Foz do Douro|Matosinhos Sul,-8.672546,41.149054,-8.626264,41.158676
+caller_trip_080,caller_02,taxi_04,2014-03-09 09:55:00,2014-03-09 09:58:35,early year,Bonfim|Campanha,-8.596748,41.153748,-8.587653,41.150705
+caller_trip_451,caller_08,taxi_08,2014-03-09 19:08:00,2014-03-09 19:14:35,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.691216,41.181082,-8.673552,41.150998
+caller_trip_439,caller_07,taxi_35,2014-12-10 11:29:00,2014-12-10 11:31:48,late year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.615797,41.152686,-8.626264,41.158676
+caller_trip_494,caller_08,taxi_18,2014-11-12 08:00:00,2014-11-12 08:16:54,late year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.670825,41.152698,-8.593985,41.155527
+caller_trip_379,caller_07,taxi_48,2014-01-19 09:22:00,2014-01-19 09:40:33,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.68803,41.176684,-8.614398,41.157044
+caller_trip_280,caller_05,taxi_42,2014-05-06 09:45:00,2014-05-06 09:54:22,middle year,Foz do Douro|Matosinhos Sul,-8.675682,41.153424,-8.691216,41.181082
+caller_trip_128,caller_03,taxi_18,2014-01-08 14:25:00,2014-01-08 14:40:25,early year,Cedofeita|Ribeira,-8.675682,41.153424,-8.587653,41.150705
+caller_trip_491,caller_08,taxi_40,2014-11-24 16:28:00,2014-11-24 16:35:45,late year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.631173,41.159623,-8.596748,41.153748
+caller_trip_386,caller_07,taxi_17,2014-02-19 17:12:00,2014-02-19 17:27:53,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.691216,41.181082,-8.631173,41.159623
+caller_trip_461,caller_08,taxi_16,2014-05-18 09:47:00,2014-05-18 10:00:34,middle year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.673552,41.150998,-8.587653,41.150705
+caller_trip_037,caller_01,taxi_55,2014-07-07 08:38:00,2014-07-07 08:57:27,middle year,Boavista|Cedofeita,-8.596748,41.153748,-8.688742,41.178908
+caller_trip_142,caller_03,taxi_17,2014-03-08 19:22:00,2014-03-08 19:40:29,early year,Cedofeita|Ribeira,-8.604131,41.17683,-8.673552,41.150998
+caller_trip_309,caller_05,taxi_53,2014-11-09 17:28:00,2014-11-09 17:35:48,late year,Foz do Douro|Matosinhos Sul,-8.595589,41.151632,-8.601283,41.178909
+caller_trip_446,caller_08,taxi_04,2014-02-15 08:59:00,2014-02-15 09:03:03,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.58256,41.150532,-8.593985,41.155527
+caller_trip_329,caller_06,taxi_08,2014-03-11 08:30:00,2014-03-11 08:37:25,early year,Bonfim|Campanha|Paranhos,-8.675682,41.153424,-8.628868,41.156987
+caller_trip_450,caller_08,taxi_56,2014-02-06 19:49:00,2014-02-06 20:06:39,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.61053,41.142645,-8.686498,41.180346
+caller_trip_347,caller_06,taxi_59,2014-06-23 11:05:00,2014-06-23 11:22:45,middle year,Bonfim|Campanha|Paranhos,-8.610425,41.129487,-8.606298,41.179
+caller_trip_212,caller_04,taxi_12,2014-04-10 11:45:00,2014-04-10 12:01:04,early year,Paranhos|Boavista,-8.604131,41.17683,-8.675682,41.153424
+caller_trip_122,caller_02,taxi_01,2014-11-09 14:44:00,2014-11-09 14:48:57,late year,Bonfim|Campanha,-8.615433,41.143321,-8.628868,41.156987
+caller_trip_087,caller_02,taxi_34,2014-04-09 11:47:00,2014-04-09 11:56:03,early year,Bonfim|Campanha,-8.583838,41.146486,-8.602901,41.1747
+caller_trip_407,caller_07,taxi_46,2014-06-19 08:58:00,2014-06-19 09:13:29,middle year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.628019,41.15545,-8.686498,41.180346
+caller_trip_265,caller_05,taxi_30,2014-02-24 18:37:00,2014-02-24 18:56:16,early year,Foz do Douro|Matosinhos Sul,-8.672546,41.149054,-8.58256,41.150532
+caller_trip_260,caller_05,taxi_26,2014-02-09 15:00:00,2014-02-09 15:21:41,early year,Foz do Douro|Matosinhos Sul,-8.691216,41.181082,-8.598443,41.156086
+caller_trip_155,caller_03,taxi_03,2014-05-05 08:26:00,2014-05-05 08:37:35,middle year,Cedofeita|Ribeira,-8.626264,41.158676,-8.609323,41.127541
+caller_trip_243,caller_04,taxi_49,2014-10-19 09:10:00,2014-10-19 09:17:19,late year,Paranhos|Boavista,-8.628019,41.15545,-8.602901,41.1747
+caller_trip_422,caller_07,taxi_58,2014-09-22 16:36:00,2014-09-22 16:40:50,late year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.598443,41.156086,-8.619718,41.157823
+caller_trip_301,caller_05,taxi_10,2014-10-06 11:23:00,2014-10-06 11:34:19,late year,Foz do Douro|Matosinhos Sul,-8.672546,41.149054,-8.686498,41.180346
+caller_trip_325,caller_06,taxi_17,2014-02-20 09:43:00,2014-02-20 10:05:26,early year,Bonfim|Campanha|Paranhos,-8.598443,41.156086,-8.673552,41.150998
+caller_trip_182,caller_03,taxi_49,2014-11-23 17:05:00,2014-11-23 17:09:45,late year,Cedofeita|Ribeira,-8.617248,41.155953,-8.613063,41.141557
+caller_trip_099,caller_02,taxi_07,2014-07-24 17:14:00,2014-07-24 17:17:24,middle year,Bonfim|Campanha,-8.595589,41.151632,-8.583838,41.146486
+caller_trip_239,caller_04,taxi_58,2014-10-07 11:22:00,2014-10-07 11:29:53,late year,Paranhos|Boavista,-8.602901,41.1747,-8.628019,41.15545
+caller_trip_102,caller_02,taxi_46,2014-07-12 08:38:00,2014-07-12 08:42:25,middle year,Bonfim|Campanha,-8.598443,41.156086,-8.585665,41.148895
+caller_trip_258,caller_05,taxi_61,2014-01-24 11:46:00,2014-01-24 11:55:11,early year,Foz do Douro|Matosinhos Sul,-8.688742,41.178908,-8.673552,41.150998
+caller_trip_022,caller_01,taxi_43,2014-04-04 10:51:00,2014-04-04 10:53:34,early year,Boavista|Cedofeita,-8.626264,41.158676,-8.615797,41.152686
+caller_trip_417,caller_07,taxi_54,2014-08-07 09:19:00,2014-08-07 09:29:50,middle year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.626264,41.158676,-8.672546,41.149054
+caller_trip_296,caller_05,taxi_06,2014-09-12 10:20:00,2014-09-12 10:28:17,late year,Foz do Douro|Matosinhos Sul,-8.675682,41.153424,-8.691216,41.181082
+caller_trip_068,caller_02,taxi_31,2014-01-15 10:17:00,2014-01-15 10:19:46,early year,Bonfim|Campanha,-8.596748,41.153748,-8.587653,41.150705
+caller_trip_138,caller_03,taxi_26,2014-02-17 16:11:00,2014-02-17 16:15:44,early year,Cedofeita|Ribeira,-8.617248,41.155953,-8.613063,41.141557
+caller_trip_090,caller_02,taxi_12,2014-05-18 10:37:00,2014-05-18 10:41:04,middle year,Bonfim|Campanha,-8.587653,41.150705,-8.596748,41.153748
+caller_trip_040,caller_01,taxi_33,2014-08-16 09:53:00,2014-08-16 09:57:23,middle year,Boavista|Cedofeita,-8.628019,41.15545,-8.614398,41.157044
+caller_trip_323,caller_06,taxi_52,2014-02-14 09:25:00,2014-02-14 09:41:57,early year,Bonfim|Campanha|Paranhos,-8.596748,41.153748,-8.675682,41.153424
+caller_trip_194,caller_04,taxi_22,2014-01-19 10:03:00,2014-01-19 10:11:48,early year,Paranhos|Boavista,-8.606298,41.179,-8.628868,41.156987
+caller_trip_482,caller_08,taxi_45,2014-09-18 10:49:00,2014-09-18 10:52:41,late year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.614398,41.157044,-8.626264,41.158676
+caller_trip_270,caller_05,taxi_34,2014-03-18 10:12:00,2014-03-18 10:20:18,early year,Foz do Douro|Matosinhos Sul,-8.673552,41.150998,-8.688742,41.178908
+caller_trip_036,caller_01,taxi_42,2014-07-04 09:06:00,2014-07-04 09:10:05,middle year,Boavista|Cedofeita,-8.628019,41.15545,-8.614398,41.157044
+caller_trip_423,caller_07,taxi_10,2014-09-04 10:03:00,2014-09-04 10:13:19,late year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.628019,41.15545,-8.670825,41.152698
+caller_trip_287,caller_05,taxi_11,2014-07-06 07:59:00,2014-07-06 08:07:40,middle year,Foz do Douro|Matosinhos Sul,-8.601283,41.178909,-8.615797,41.152686
+caller_trip_485,caller_08,taxi_23,2014-09-06 09:54:00,2014-09-06 10:00:40,late year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.596748,41.153748,-8.631173,41.159623
+caller_trip_221,caller_04,taxi_07,2014-06-16 21:53:00,2014-06-16 22:00:48,middle year,Paranhos|Boavista,-8.614398,41.157044,-8.601283,41.178909
+caller_trip_012,caller_01,taxi_35,2014-02-16 09:28:00,2014-02-16 09:32:09,early year,Boavista|Cedofeita,-8.615797,41.152686,-8.61053,41.142645
+caller_trip_016,caller_01,taxi_26,2014-03-07 17:46:00,2014-03-07 17:58:23,early year,Boavista|Cedofeita,-8.628019,41.15545,-8.686498,41.180346
+caller_trip_058,caller_01,taxi_23,2014-11-07 15:07:00,2014-11-07 15:09:55,late year,Boavista|Cedofeita,-8.626264,41.158676,-8.615797,41.152686
+caller_trip_033,caller_01,taxi_03,2014-06-16 09:26:00,2014-06-16 09:28:13,middle year,Boavista|Cedofeita,-8.628868,41.156987,-8.617248,41.155953
+caller_trip_374,caller_06,taxi_44,2014-12-20 10:23:00,2014-12-20 10:30:15,late year,Bonfim|Campanha|Paranhos,-8.595589,41.151632,-8.602901,41.1747
+caller_trip_002,caller_01,taxi_27,2014-01-07 10:30:00,2014-01-07 10:34:37,early year,Boavista|Cedofeita,-8.626264,41.158676,-8.615797,41.152686
+caller_trip_130,caller_03,taxi_44,2014-01-14 08:24:00,2014-01-14 08:28:49,early year,Cedofeita|Ribeira,-8.617248,41.155953,-8.613063,41.141557
+caller_trip_443,caller_08,taxi_26,2014-01-06 11:55:00,2014-01-06 11:59:52,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.615433,41.143321,-8.628868,41.156987
+caller_trip_195,caller_04,taxi_35,2014-01-22 15:47:00,2014-01-22 15:55:22,early year,Paranhos|Boavista,-8.628019,41.15545,-8.602901,41.1747
+caller_trip_409,caller_07,taxi_11,2014-06-04 13:46:00,2014-06-04 13:56:14,middle year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.670825,41.152698,-8.615797,41.152686
+caller_trip_416,caller_07,taxi_41,2014-08-04 08:04:00,2014-08-04 08:19:43,middle year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.617248,41.155953,-8.688742,41.178908
+caller_trip_039,caller_01,taxi_20,2014-07-13 07:18:00,2014-07-13 07:20:04,middle year,Boavista|Cedofeita,-8.631173,41.159623,-8.619718,41.157823
+caller_trip_392,caller_07,taxi_34,2014-03-16 17:52:00,2014-03-16 18:01:38,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.673552,41.150998,-8.628868,41.156987
+caller_trip_385,caller_07,taxi_04,2014-02-16 08:16:00,2014-02-16 08:26:17,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.670825,41.152698,-8.615797,41.152686
+caller_trip_061,caller_01,taxi_01,2014-12-16 10:28:00,2014-12-16 10:33:56,late year,Boavista|Cedofeita,-8.628868,41.156987,-8.613063,41.141557
+caller_trip_436,caller_07,taxi_57,2014-12-22 19:54:00,2014-12-22 20:04:04,late year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.613063,41.141557,-8.673552,41.150998
+caller_trip_167,caller_03,taxi_37,2014-08-20 07:03:00,2014-08-20 07:06:33,middle year,Cedofeita|Ribeira,-8.614398,41.157044,-8.628019,41.15545
+caller_trip_300,caller_05,taxi_58,2014-09-24 10:49:00,2014-09-24 10:58:21,late year,Foz do Douro|Matosinhos Sul,-8.675682,41.153424,-8.691216,41.181082
+caller_trip_190,caller_03,taxi_31,2014-12-05 19:39:00,2014-12-05 19:52:22,late year,Cedofeita|Ribeira,-8.628868,41.156987,-8.688742,41.178908
+caller_trip_334,caller_06,taxi_12,2014-04-05 20:02:00,2014-04-05 20:11:57,early year,Bonfim|Campanha|Paranhos,-8.595589,41.151632,-8.602901,41.1747
+caller_trip_056,caller_01,taxi_58,2014-11-22 09:03:00,2014-11-22 09:06:04,late year,Boavista|Cedofeita,-8.615797,41.152686,-8.626264,41.158676
+caller_trip_101,caller_02,taxi_33,2014-07-09 13:35:00,2014-07-09 13:38:30,middle year,Bonfim|Campanha,-8.58256,41.150532,-8.593985,41.155527
+caller_trip_082,caller_02,taxi_30,2014-03-15 07:11:00,2014-03-15 07:13:53,early year,Bonfim|Campanha,-8.587653,41.150705,-8.596748,41.153748
+caller_trip_382,caller_07,taxi_26,2014-01-07 15:01:00,2014-01-07 15:03:19,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.631173,41.159623,-8.619718,41.157823
+caller_trip_238,caller_04,taxi_45,2014-09-04 11:55:00,2014-09-04 12:04:24,late year,Paranhos|Boavista,-8.606298,41.179,-8.628868,41.156987
+caller_trip_283,caller_05,taxi_20,2014-06-15 16:27:00,2014-06-15 16:37:42,middle year,Foz do Douro|Matosinhos Sul,-8.686498,41.180346,-8.672546,41.149054
+caller_trip_008,caller_01,taxi_44,2014-02-04 11:28:00,2014-02-04 11:33:12,early year,Boavista|Cedofeita,-8.615797,41.152686,-8.593985,41.155527
+caller_trip_150,caller_03,taxi_60,2014-04-11 07:46:00,2014-04-11 07:50:28,early year,Cedofeita|Ribeira,-8.617248,41.155953,-8.613063,41.141557
+caller_trip_303,caller_05,taxi_36,2014-10-12 10:33:00,2014-10-12 10:47:28,late year,Foz do Douro|Matosinhos Sul,-8.670825,41.152698,-8.602901,41.1747
+caller_trip_369,caller_06,taxi_40,2014-11-05 09:39:00,2014-11-05 09:46:42,late year,Bonfim|Campanha|Paranhos,-8.606298,41.179,-8.596748,41.153748
+caller_trip_332,caller_06,taxi_47,2014-03-20 10:31:00,2014-03-20 10:39:49,early year,Bonfim|Campanha|Paranhos,-8.593985,41.155527,-8.608186,41.131164
+caller_trip_169,caller_03,taxi_02,2014-08-05 09:49:00,2014-08-05 09:52:47,middle year,Cedofeita|Ribeira,-8.615797,41.152686,-8.61053,41.142645
+caller_trip_119,caller_02,taxi_23,2014-11-21 11:53:00,2014-11-21 12:10:15,late year,Bonfim|Campanha,-8.595589,41.151632,-8.672546,41.149054
+caller_trip_360,caller_06,taxi_45,2014-09-20 15:37:00,2014-09-20 15:51:12,late year,Bonfim|Campanha|Paranhos,-8.670825,41.152698,-8.593985,41.155527
+caller_trip_340,caller_06,taxi_29,2014-05-23 07:50:00,2014-05-23 07:59:25,middle year,Bonfim|Campanha|Paranhos,-8.593985,41.155527,-8.601283,41.178909
+caller_trip_070,caller_02,taxi_57,2014-01-21 17:21:00,2014-01-21 17:25:20,early year,Bonfim|Campanha,-8.598443,41.156086,-8.585665,41.148895
+caller_trip_236,caller_04,taxi_19,2014-09-19 11:44:00,2014-09-19 11:51:50,late year,Paranhos|Boavista,-8.604131,41.17683,-8.615433,41.143321
+caller_trip_263,caller_05,taxi_04,2014-02-18 20:18:00,2014-02-18 20:28:09,early year,Foz do Douro|Matosinhos Sul,-8.670825,41.152698,-8.615797,41.152686
+caller_trip_013,caller_01,taxi_48,2014-03-19 15:42:00,2014-03-19 15:44:17,early year,Boavista|Cedofeita,-8.617248,41.155953,-8.628868,41.156987
+caller_trip_052,caller_01,taxi_06,2014-10-10 20:37:00,2014-10-10 20:40:06,late year,Boavista|Cedofeita,-8.615797,41.152686,-8.626264,41.158676
+caller_trip_388,caller_07,taxi_43,2014-02-04 11:16:00,2014-02-04 11:31:24,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.673552,41.150998,-8.585665,41.148895
+caller_trip_478,caller_08,taxi_54,2014-08-06 10:57:00,2014-08-06 11:02:13,middle year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.61053,41.142645,-8.626264,41.158676
+caller_trip_316,caller_06,taxi_22,2014-01-14 11:28:00,2014-01-14 11:35:40,early year,Bonfim|Campanha|Paranhos,-8.593985,41.155527,-8.608186,41.131164
+caller_trip_327,caller_06,taxi_43,2014-02-05 09:57:00,2014-02-05 10:01:58,early year,Bonfim|Campanha|Paranhos,-8.585665,41.148895,-8.598443,41.156086
+caller_trip_123,caller_02,taxi_14,2014-12-12 08:33:00,2014-12-12 08:37:56,late year,Bonfim|Campanha,-8.595589,41.151632,-8.583838,41.146486
+caller_trip_500,caller_08,taxi_35,2014-12-09 10:12:00,2014-12-09 10:30:52,late year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.583838,41.146486,-8.68803,41.176684
+caller_trip_125,caller_02,taxi_40,2014-12-18 11:19:00,2014-12-18 11:28:46,late year,Bonfim|Campanha,-8.593985,41.155527,-8.608186,41.131164
+caller_trip_051,caller_01,taxi_54,2014-10-07 10:51:00,2014-10-07 10:53:38,late year,Boavista|Cedofeita,-8.631173,41.159623,-8.619718,41.157823
+caller_trip_467,caller_08,taxi_33,2014-06-15 10:04:00,2014-06-15 10:12:34,middle year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.691216,41.181082,-8.673552,41.150998
+caller_trip_268,caller_05,taxi_08,2014-03-12 07:54:00,2014-03-12 08:06:33,early year,Foz do Douro|Matosinhos Sul,-8.675682,41.153424,-8.606298,41.179
+caller_trip_293,caller_05,taxi_28,2014-08-24 07:15:00,2014-08-24 07:23:29,middle year,Foz do Douro|Matosinhos Sul,-8.68803,41.176684,-8.670825,41.152698
+caller_trip_397,caller_07,taxi_38,2014-04-10 15:50:00,2014-04-10 15:57:18,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.626264,41.158676,-8.611679,41.138066
+caller_trip_184,caller_03,taxi_14,2014-11-08 08:05:00,2014-11-08 08:10:25,late year,Cedofeita|Ribeira,-8.619718,41.157823,-8.615433,41.143321
+caller_trip_470,caller_08,taxi_11,2014-06-24 07:43:00,2014-06-24 08:02:43,middle year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.593985,41.155527,-8.686498,41.180346
+caller_trip_321,caller_06,taxi_26,2014-01-08 08:25:00,2014-01-08 08:45:50,early year,Bonfim|Campanha|Paranhos,-8.587653,41.150705,-8.673552,41.150998
+caller_trip_344,caller_06,taxi_20,2014-06-14 08:20:00,2014-06-14 08:30:32,middle year,Bonfim|Campanha|Paranhos,-8.58256,41.150532,-8.601283,41.178909
+caller_trip_299,caller_05,taxi_45,2014-09-21 09:43:00,2014-09-21 09:51:56,late year,Foz do Douro|Matosinhos Sul,-8.686498,41.180346,-8.672546,41.149054
+caller_trip_264,caller_05,taxi_17,2014-02-21 09:41:00,2014-02-21 09:48:58,early year,Foz do Douro|Matosinhos Sul,-8.612639,41.131858,-8.587653,41.150705
+caller_trip_078,caller_02,taxi_39,2014-03-24 18:14:00,2014-03-24 18:17:25,early year,Bonfim|Campanha,-8.598443,41.156086,-8.585665,41.148895
+caller_trip_077,caller_02,taxi_26,2014-03-21 09:12:00,2014-03-21 09:28:32,early year,Bonfim|Campanha,-8.593985,41.155527,-8.670825,41.152698
+caller_trip_341,caller_06,taxi_42,2014-05-05 16:40:00,2014-05-05 16:51:03,middle year,Bonfim|Campanha|Paranhos,-8.615433,41.143321,-8.673552,41.150998
+caller_trip_175,caller_03,taxi_19,2014-09-23 07:34:00,2014-09-23 07:41:08,late year,Cedofeita|Ribeira,-8.614398,41.157044,-8.611679,41.138066
+caller_trip_057,caller_01,taxi_10,2014-11-04 11:17:00,2014-11-04 11:20:04,late year,Boavista|Cedofeita,-8.628868,41.156987,-8.617248,41.155953
+caller_trip_110,caller_02,taxi_28,2014-09-15 11:52:00,2014-09-15 12:09:40,late year,Bonfim|Campanha,-8.598443,41.156086,-8.688742,41.178908
+caller_trip_231,caller_04,taxi_15,2014-08-04 10:18:00,2014-08-04 10:27:54,middle year,Paranhos|Boavista,-8.628019,41.15545,-8.602901,41.1747
+caller_trip_483,caller_08,taxi_58,2014-09-21 11:44:00,2014-09-21 11:51:35,late year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.612639,41.131858,-8.596748,41.153748
+caller_trip_336,caller_06,taxi_38,2014-04-11 11:35:00,2014-04-11 11:43:00,early year,Bonfim|Campanha|Paranhos,-8.58256,41.150532,-8.601283,41.178909
+caller_trip_048,caller_01,taxi_15,2014-09-19 10:39:00,2014-09-19 10:42:14,late year,Boavista|Cedofeita,-8.628019,41.15545,-8.614398,41.157044
+caller_trip_400,caller_07,taxi_16,2014-05-19 08:43:00,2014-05-19 09:00:28,middle year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.673552,41.150998,-8.604131,41.17683
+caller_trip_109,caller_02,taxi_15,2014-09-12 09:59:00,2014-09-12 10:08:07,late year,Bonfim|Campanha,-8.58256,41.150532,-8.626264,41.158676
+caller_trip_083,caller_02,taxi_43,2014-04-18 09:02:00,2014-04-18 09:06:54,early year,Bonfim|Campanha,-8.595589,41.151632,-8.583838,41.146486
+caller_trip_245,caller_04,taxi_14,2014-11-04 13:51:00,2014-11-04 14:09:12,late year,Paranhos|Boavista,-8.601283,41.178909,-8.686498,41.180346
+caller_trip_246,caller_04,taxi_27,2014-11-07 20:47:00,2014-11-07 20:55:32,late year,Paranhos|Boavista,-8.631173,41.159623,-8.604131,41.17683
+caller_trip_273,caller_05,taxi_12,2014-04-06 08:08:00,2014-04-06 08:20:26,early year,Foz do Douro|Matosinhos Sul,-8.672546,41.149054,-8.686498,41.180346
+caller_trip_193,caller_04,taxi_09,2014-01-16 08:50:00,2014-01-16 08:58:35,early year,Paranhos|Boavista,-8.626264,41.158676,-8.601283,41.178909
+caller_trip_376,caller_06,taxi_09,2014-12-05 09:25:00,2014-12-05 09:34:26,late year,Bonfim|Campanha|Paranhos,-8.601283,41.178909,-8.58256,41.150532
+caller_trip_174,caller_03,taxi_06,2014-09-20 08:25:00,2014-09-20 08:33:32,late year,Cedofeita|Ribeira,-8.688742,41.178908,-8.673552,41.150998
+caller_trip_428,caller_07,taxi_14,2014-10-19 10:54:00,2014-10-19 11:24:22,late year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.585665,41.148895,-8.688742,41.178908
+caller_trip_361,caller_06,taxi_58,2014-09-23 13:19:00,2014-09-23 13:21:22,late year,Bonfim|Campanha|Paranhos,-8.587653,41.150705,-8.596748,41.153748
+caller_trip_291,caller_05,taxi_02,2014-08-18 10:34:00,2014-08-18 10:42:52,middle year,Foz do Douro|Matosinhos Sul,-8.670825,41.152698,-8.68803,41.176684
+caller_trip_262,caller_05,taxi_52,2014-02-15 18:14:00,2014-02-15 18:22:08,early year,Foz do Douro|Matosinhos Sul,-8.673552,41.150998,-8.688742,41.178908
+caller_trip_055,caller_01,taxi_45,2014-11-19 17:03:00,2014-11-19 17:12:06,late year,Boavista|Cedofeita,-8.606298,41.179,-8.587653,41.150705
+caller_trip_091,caller_02,taxi_25,2014-05-21 11:34:00,2014-05-21 11:38:34,middle year,Bonfim|Campanha,-8.595589,41.151632,-8.583838,41.146486
+caller_trip_205,caller_04,taxi_43,2014-03-10 09:11:00,2014-03-10 09:19:29,early year,Paranhos|Boavista,-8.601283,41.178909,-8.626264,41.158676
+caller_trip_106,caller_02,taxi_37,2014-08-24 10:17:00,2014-08-24 10:20:39,middle year,Bonfim|Campanha,-8.598443,41.156086,-8.585665,41.148895
+caller_trip_171,caller_03,taxi_28,2014-09-11 08:11:00,2014-09-11 08:19:25,late year,Cedofeita|Ribeira,-8.614398,41.157044,-8.611679,41.138066
+caller_trip_433,caller_07,taxi_18,2014-11-13 09:37:00,2014-11-13 09:46:46,late year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.670825,41.152698,-8.615797,41.152686
+caller_trip_459,caller_08,taxi_51,2014-04-12 18:31:00,2014-04-12 18:37:30,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.631173,41.159623,-8.596748,41.153748
+caller_trip_085,caller_02,taxi_08,2014-04-24 19:24:00,2014-04-24 19:47:49,early year,Bonfim|Campanha,-8.61053,41.142645,-8.686498,41.180346
+caller_trip_297,caller_05,taxi_19,2014-09-15 11:32:00,2014-09-15 11:40:17,late year,Foz do Douro|Matosinhos Sul,-8.609323,41.127541,-8.593985,41.155527
+caller_trip_172,caller_03,taxi_41,2014-09-14 10:54:00,2014-09-14 10:59:07,late year,Cedofeita|Ribeira,-8.615433,41.143321,-8.619718,41.157823
+caller_trip_178,caller_03,taxi_58,2014-10-11 18:30:00,2014-10-11 18:37:53,late year,Cedofeita|Ribeira,-8.604131,41.17683,-8.628868,41.156987
+caller_trip_196,caller_04,taxi_48,2014-01-04 13:36:00,2014-01-04 13:57:09,early year,Paranhos|Boavista,-8.604131,41.17683,-8.691216,41.181082
+caller_trip_046,caller_01,taxi_50,2014-09-13 11:16:00,2014-09-13 11:18:45,late year,Boavista|Cedofeita,-8.626264,41.158676,-8.615797,41.152686
+caller_trip_354,caller_06,taxi_28,2014-08-23 13:00:00,2014-08-23 13:08:32,middle year,Bonfim|Campanha|Paranhos,-8.615797,41.152686,-8.609323,41.127541
+caller_trip_458,caller_08,taxi_38,2014-04-09 11:31:00,2014-04-09 11:38:34,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.593985,41.155527,-8.626264,41.158676
+caller_trip_403,caller_07,taxi_55,2014-05-07 21:39:00,2014-05-07 21:50:32,middle year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.583838,41.146486,-8.601283,41.178909
+caller_trip_319,caller_06,taxi_61,2014-01-23 10:11:00,2014-01-23 10:16:03,early year,Bonfim|Campanha|Paranhos,-8.604131,41.17683,-8.598443,41.156086
+caller_trip_161,caller_03,taxi_20,2014-07-23 08:29:00,2014-07-23 08:40:16,middle year,Cedofeita|Ribeira,-8.615797,41.152686,-8.670825,41.152698
+caller_trip_028,caller_01,taxi_60,2014-05-22 21:33:00,2014-05-22 21:36:24,middle year,Boavista|Cedofeita,-8.628019,41.15545,-8.614398,41.157044
+caller_trip_115,caller_02,taxi_32,2014-10-09 09:45:00,2014-10-09 09:48:20,late year,Bonfim|Campanha,-8.595589,41.151632,-8.583838,41.146486
+caller_trip_322,caller_06,taxi_39,2014-02-11 18:17:00,2014-02-11 18:25:29,early year,Bonfim|Campanha|Paranhos,-8.615797,41.152686,-8.609323,41.127541
+caller_trip_135,caller_03,taxi_48,2014-02-08 09:14:00,2014-02-08 09:19:25,early year,Cedofeita|Ribeira,-8.614398,41.157044,-8.611679,41.138066
+caller_trip_160,caller_03,taxi_07,2014-06-20 11:51:00,2014-06-20 11:57:33,middle year,Cedofeita|Ribeira,-8.598443,41.156086,-8.619718,41.157823
+caller_trip_136,caller_03,taxi_61,2014-02-11 09:36:00,2014-02-11 09:58:05,early year,Cedofeita|Ribeira,-8.691216,41.181082,-8.587653,41.150705
+caller_trip_203,caller_04,taxi_17,2014-03-04 15:27:00,2014-03-04 15:30:33,early year,Paranhos|Boavista,-8.609323,41.127541,-8.611679,41.138066
+caller_trip_199,caller_04,taxi_26,2014-02-13 17:55:00,2014-02-13 18:00:39,early year,Paranhos|Boavista,-8.611679,41.138066,-8.615797,41.152686
+caller_trip_427,caller_07,taxi_01,2014-10-16 09:19:00,2014-10-16 09:21:59,late year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.615797,41.152686,-8.626264,41.158676
+caller_trip_448,caller_08,taxi_30,2014-02-21 09:23:00,2014-02-21 09:25:46,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.615797,41.152686,-8.628019,41.15545
+caller_trip_348,caller_06,taxi_11,2014-07-05 14:30:00,2014-07-05 14:39:44,middle year,Bonfim|Campanha|Paranhos,-8.601283,41.178909,-8.58256,41.150532
+caller_trip_256,caller_05,taxi_35,2014-01-18 10:52:00,2014-01-18 10:59:31,early year,Foz do Douro|Matosinhos Sul,-8.675682,41.153424,-8.691216,41.181082
+caller_trip_330,caller_06,taxi_21,2014-03-14 10:10:00,2014-03-14 10:22:58,early year,Bonfim|Campanha|Paranhos,-8.583838,41.146486,-8.602901,41.1747
+caller_trip_277,caller_05,taxi_03,2014-05-18 14:51:00,2014-05-18 14:58:40,middle year,Foz do Douro|Matosinhos Sul,-8.68803,41.176684,-8.670825,41.152698
+caller_trip_460,caller_08,taxi_03,2014-04-15 11:13:00,2014-04-15 11:28:20,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.615797,41.152686,-8.68803,41.176684
+caller_trip_391,caller_07,taxi_21,2014-03-13 07:15:00,2014-03-13 07:18:45,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.628019,41.15545,-8.614398,41.157044
+caller_trip_275,caller_05,taxi_38,2014-04-12 08:14:00,2014-04-12 08:22:04,early year,Foz do Douro|Matosinhos Sul,-8.686498,41.180346,-8.672546,41.149054
+caller_trip_201,caller_04,taxi_52,2014-02-19 13:10:00,2014-02-19 13:17:12,early year,Paranhos|Boavista,-8.601283,41.178909,-8.626264,41.158676
+caller_trip_139,caller_03,taxi_39,2014-02-20 08:05:00,2014-02-20 08:09:22,early year,Cedofeita|Ribeira,-8.614398,41.157044,-8.628019,41.15545
+caller_trip_497,caller_08,taxi_57,2014-12-21 11:30:00,2014-12-21 11:48:50,late year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.688742,41.178908,-8.615433,41.143321
+caller_trip_288,caller_05,taxi_24,2014-07-09 14:33:00,2014-07-09 14:41:51,middle year,Foz do Douro|Matosinhos Sul,-8.691216,41.181082,-8.675682,41.153424
+caller_trip_304,caller_05,taxi_49,2014-10-15 10:06:00,2014-10-15 10:13:17,late year,Foz do Douro|Matosinhos Sul,-8.675682,41.153424,-8.691216,41.181082
+caller_trip_377,caller_06,taxi_22,2014-12-08 10:19:00,2014-12-08 10:34:28,late year,Bonfim|Campanha|Paranhos,-8.606298,41.179,-8.673552,41.150998
+caller_trip_456,caller_08,taxi_12,2014-04-24 13:39:00,2014-04-24 13:53:04,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.602901,41.1747,-8.609323,41.127541
+caller_trip_095,caller_02,taxi_16,2014-06-12 16:17:00,2014-06-12 16:20:23,middle year,Bonfim|Campanha,-8.595589,41.151632,-8.583838,41.146486
+caller_trip_031,caller_01,taxi_38,2014-06-10 10:17:00,2014-06-10 10:23:40,middle year,Boavista|Cedofeita,-8.612639,41.131858,-8.587653,41.150705
+caller_trip_367,caller_06,taxi_14,2014-10-20 07:51:00,2014-10-20 07:58:24,late year,Bonfim|Campanha|Paranhos,-8.604131,41.17683,-8.598443,41.156086
+caller_trip_294,caller_05,taxi_41,2014-08-06 16:57:00,2014-08-06 17:05:37,middle year,Foz do Douro|Matosinhos Sul,-8.673552,41.150998,-8.688742,41.178908
+caller_trip_045,caller_01,taxi_37,2014-09-10 10:19:00,2014-09-10 10:21:15,late year,Boavista|Cedofeita,-8.628868,41.156987,-8.617248,41.155953
+caller_trip_383,caller_07,taxi_39,2014-01-10 08:04:00,2014-01-10 08:21:38,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.672546,41.149054,-8.58256,41.150532
+caller_trip_371,caller_06,taxi_05,2014-11-11 17:41:00,2014-11-11 17:42:57,late year,Bonfim|Campanha|Paranhos,-8.596748,41.153748,-8.587653,41.150705
+caller_trip_440,caller_08,taxi_48,2014-01-18 14:08:00,2014-01-18 14:14:08,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.611679,41.138066,-8.628019,41.15545
+caller_trip_018,caller_01,taxi_52,2014-03-13 07:21:00,2014-03-13 07:43:16,early year,Boavista|Cedofeita,-8.686498,41.180346,-8.609323,41.127541
+caller_trip_412,caller_07,taxi_50,2014-07-13 17:55:00,2014-07-13 17:57:36,middle year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.628868,41.156987,-8.617248,41.155953
+caller_trip_335,caller_06,taxi_25,2014-04-08 09:54:00,2014-04-08 09:57:39,early year,Bonfim|Campanha|Paranhos,-8.596748,41.153748,-8.587653,41.150705
+caller_trip_015,caller_01,taxi_13,2014-03-04 19:07:00,2014-03-04 19:09:35,early year,Boavista|Cedofeita,-8.631173,41.159623,-8.619718,41.157823
+caller_trip_457,caller_08,taxi_25,2014-04-06 16:16:00,2014-04-06 16:18:46,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.617248,41.155953,-8.631173,41.159623
+caller_trip_006,caller_01,taxi_18,2014-01-19 08:08:00,2014-01-19 08:11:10,early year,Boavista|Cedofeita,-8.626264,41.158676,-8.615797,41.152686
+caller_trip_242,caller_04,taxi_36,2014-10-16 17:51:00,2014-10-16 17:59:49,late year,Paranhos|Boavista,-8.612639,41.131858,-8.628868,41.156987
+caller_trip_197,caller_04,taxi_61,2014-02-07 15:51:00,2014-02-07 15:58:28,early year,Paranhos|Boavista,-8.601283,41.178909,-8.626264,41.158676
+caller_trip_127,caller_02,taxi_05,2014-12-24 11:09:00,2014-12-24 11:13:39,late year,Bonfim|Campanha,-8.595589,41.151632,-8.583838,41.146486
+caller_trip_007,caller_01,taxi_31,2014-02-22 08:44:00,2014-02-22 08:52:35,early year,Boavista|Cedofeita,-8.631173,41.159623,-8.606298,41.179
+caller_trip_274,caller_05,taxi_25,2014-04-09 16:25:00,2014-04-09 16:30:54,early year,Foz do Douro|Matosinhos Sul,-8.596748,41.153748,-8.628868,41.156987
+caller_trip_079,caller_02,taxi_52,2014-03-06 17:34:00,2014-03-06 17:37:39,early year,Bonfim|Campanha,-8.583838,41.146486,-8.595589,41.151632
+caller_trip_117,caller_02,taxi_58,2014-10-15 14:25:00,2014-10-15 14:43:58,late year,Bonfim|Campanha,-8.601283,41.178909,-8.686498,41.180346
+caller_trip_114,caller_02,taxi_19,2014-10-06 10:25:00,2014-10-06 10:30:43,late year,Bonfim|Campanha,-8.598443,41.156086,-8.617248,41.155953
+caller_trip_435,caller_07,taxi_44,2014-12-19 17:58:00,2014-12-19 18:05:49,late year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.68803,41.176684,-8.670825,41.152698
+caller_trip_064,caller_01,taxi_40,2014-12-04 21:38:00,2014-12-04 21:42:07,late year,Boavista|Cedofeita,-8.615797,41.152686,-8.593985,41.155527
+caller_trip_404,caller_07,taxi_07,2014-05-10 11:48:00,2014-05-10 11:56:46,middle year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.617248,41.155953,-8.610425,41.129487
+caller_trip_305,caller_05,taxi_01,2014-10-18 10:29:00,2014-10-18 10:48:59,late year,Foz do Douro|Matosinhos Sul,-8.68803,41.176684,-8.614398,41.157044
+caller_trip_244,caller_04,taxi_01,2014-11-22 07:19:00,2014-11-22 07:24:24,late year,Paranhos|Boavista,-8.596748,41.153748,-8.615433,41.143321
+caller_trip_420,caller_07,taxi_32,2014-09-16 17:17:00,2014-09-16 17:34:52,late year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.673552,41.150998,-8.604131,41.17683
+caller_trip_168,caller_03,taxi_50,2014-08-23 09:45:00,2014-08-23 10:01:16,middle year,Cedofeita|Ribeira,-8.675682,41.153424,-8.587653,41.150705
+caller_trip_469,caller_08,taxi_59,2014-06-21 18:17:00,2014-06-21 18:28:28,middle year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.610425,41.129487,-8.598443,41.156086
+caller_trip_430,caller_07,taxi_40,2014-11-04 15:46:00,2014-11-04 15:53:58,late year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.606298,41.179,-8.587653,41.150705
+caller_trip_216,caller_04,taxi_03,2014-05-22 08:25:00,2014-05-22 08:35:22,middle year,Paranhos|Boavista,-8.604131,41.17683,-8.587653,41.150705
+caller_trip_152,caller_03,taxi_25,2014-05-17 11:58:00,2014-05-17 12:03:14,middle year,Cedofeita|Ribeira,-8.619718,41.157823,-8.615433,41.143321
+caller_trip_499,caller_08,taxi_22,2014-12-06 07:18:00,2014-12-06 07:21:38,late year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.587653,41.150705,-8.596748,41.153748
+caller_trip_281,caller_05,taxi_55,2014-06-09 09:14:00,2014-06-09 09:23:45,middle year,Foz do Douro|Matosinhos Sul,-8.672546,41.149054,-8.686498,41.180346
+caller_trip_315,caller_05,taxi_09,2014-12-06 07:42:00,2014-12-06 07:53:23,late year,Foz do Douro|Matosinhos Sul,-8.58256,41.150532,-8.609323,41.127541
+caller_trip_312,caller_05,taxi_31,2014-12-18 13:58:00,2014-12-18 14:06:07,late year,Foz do Douro|Matosinhos Sul,-8.691216,41.181082,-8.675682,41.153424
+caller_trip_146,caller_03,taxi_08,2014-04-20 08:33:00,2014-04-20 08:38:12,early year,Cedofeita|Ribeira,-8.617248,41.155953,-8.613063,41.141557
+caller_trip_445,caller_08,taxi_52,2014-01-12 09:39:00,2014-01-12 09:48:04,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.610425,41.129487,-8.598443,41.156086
+caller_trip_060,caller_01,taxi_49,2014-12-13 13:25:00,2014-12-13 13:29:32,late year,Boavista|Cedofeita,-8.628019,41.15545,-8.614398,41.157044
+caller_trip_462,caller_08,taxi_29,2014-05-21 19:27:00,2014-05-21 19:46:31,middle year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.593985,41.155527,-8.686498,41.180346
+caller_trip_038,caller_01,taxi_07,2014-07-10 20:51:00,2014-07-10 20:55:18,middle year,Boavista|Cedofeita,-8.614398,41.157044,-8.628019,41.15545
+caller_trip_200,caller_04,taxi_39,2014-02-16 10:45:00,2014-02-16 10:53:23,early year,Paranhos|Boavista,-8.604131,41.17683,-8.619718,41.157823
+caller_trip_308,caller_05,taxi_40,2014-11-06 14:27:00,2014-11-06 14:44:08,late year,Foz do Douro|Matosinhos Sul,-8.691216,41.181082,-8.615433,41.143321
+caller_trip_065,caller_02,taxi_53,2014-01-06 13:12:00,2014-01-06 13:27:33,early year,Bonfim|Campanha,-8.670825,41.152698,-8.593985,41.155527
+caller_trip_429,caller_07,taxi_27,2014-10-22 08:01:00,2014-10-22 08:14:23,late year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.626264,41.158676,-8.672546,41.149054
+caller_trip_471,caller_08,taxi_24,2014-07-06 10:08:00,2014-07-06 10:14:29,middle year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.615433,41.143321,-8.628868,41.156987
+caller_trip_484,caller_08,taxi_10,2014-09-24 08:09:00,2014-09-24 08:20:30,late year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.609323,41.127541,-8.595589,41.151632
+caller_trip_449,caller_08,taxi_43,2014-02-24 13:22:00,2014-02-24 13:33:29,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.673552,41.150998,-8.615433,41.143321
+caller_trip_211,caller_04,taxi_60,2014-04-07 08:42:00,2014-04-07 08:51:38,early year,Paranhos|Boavista,-8.602901,41.1747,-8.628019,41.15545
+caller_trip_355,caller_06,taxi_41,2014-08-05 07:48:00,2014-08-05 08:01:20,middle year,Bonfim|Campanha|Paranhos,-8.604131,41.17683,-8.675682,41.153424
+caller_trip_165,caller_03,taxi_11,2014-07-14 10:06:00,2014-07-14 10:11:14,middle year,Cedofeita|Ribeira,-8.615797,41.152686,-8.593985,41.155527
+caller_trip_318,caller_06,taxi_48,2014-01-20 21:55:00,2014-01-20 22:03:17,early year,Bonfim|Campanha|Paranhos,-8.595589,41.151632,-8.602901,41.1747
+caller_trip_177,caller_03,taxi_45,2014-10-08 19:38:00,2014-10-08 19:43:40,late year,Cedofeita|Ribeira,-8.611679,41.138066,-8.614398,41.157044
+caller_trip_206,caller_04,taxi_56,2014-03-13 08:26:00,2014-03-13 08:36:51,early year,Paranhos|Boavista,-8.606298,41.179,-8.628868,41.156987
+caller_trip_089,caller_02,taxi_60,2014-05-15 10:47:00,2014-05-15 10:50:57,middle year,Bonfim|Campanha,-8.593985,41.155527,-8.58256,41.150532
+caller_trip_121,caller_02,taxi_49,2014-11-06 08:40:00,2014-11-06 08:45:35,late year,Bonfim|Campanha,-8.58256,41.150532,-8.593985,41.155527
+caller_trip_202,caller_04,taxi_04,2014-02-22 18:57:00,2014-02-22 19:07:53,early year,Paranhos|Boavista,-8.631173,41.159623,-8.585665,41.148895
+caller_trip_381,caller_07,taxi_13,2014-01-04 10:46:00,2014-01-04 11:05:38,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.670825,41.152698,-8.595589,41.151632
+caller_trip_464,caller_08,taxi_55,2014-05-06 10:27:00,2014-05-06 10:49:48,middle year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.609323,41.127541,-8.68803,41.176684
+caller_trip_480,caller_08,taxi_19,2014-08-12 08:23:00,2014-08-12 08:26:11,middle year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.615797,41.152686,-8.628019,41.15545
+caller_trip_442,caller_08,taxi_13,2014-01-24 18:09:00,2014-01-24 18:33:34,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.58256,41.150532,-8.686498,41.180346
+caller_trip_437,caller_07,taxi_09,2014-12-04 10:51:00,2014-12-04 10:57:11,late year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.614398,41.157044,-8.611679,41.138066
+caller_trip_096,caller_02,taxi_29,2014-06-15 13:25:00,2014-06-15 13:27:52,middle year,Bonfim|Campanha,-8.596748,41.153748,-8.587653,41.150705
+caller_trip_059,caller_01,taxi_36,2014-11-10 10:20:00,2014-11-10 10:23:06,late year,Boavista|Cedofeita,-8.631173,41.159623,-8.619718,41.157823
+caller_trip_357,caller_06,taxi_06,2014-08-11 09:12:00,2014-08-11 09:15:23,middle year,Bonfim|Campanha|Paranhos,-8.587653,41.150705,-8.596748,41.153748
+caller_trip_081,caller_02,taxi_17,2014-03-12 11:26:00,2014-03-12 11:35:32,early year,Bonfim|Campanha,-8.601283,41.178909,-8.593985,41.155527
+caller_trip_387,caller_07,taxi_30,2014-02-22 09:45:00,2014-02-22 10:00:29,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.611679,41.138066,-8.686498,41.180346
+caller_trip_375,caller_06,taxi_57,2014-12-23 08:21:00,2014-12-23 08:25:08,late year,Bonfim|Campanha|Paranhos,-8.585665,41.148895,-8.598443,41.156086
+caller_trip_364,caller_06,taxi_36,2014-10-11 15:15:00,2014-10-11 15:26:42,late year,Bonfim|Campanha|Paranhos,-8.58256,41.150532,-8.601283,41.178909
+caller_trip_279,caller_05,taxi_29,2014-05-24 09:59:00,2014-05-24 10:07:23,middle year,Foz do Douro|Matosinhos Sul,-8.670825,41.152698,-8.68803,41.176684
+caller_trip_147,caller_03,taxi_21,2014-04-23 17:14:00,2014-04-23 17:16:14,early year,Cedofeita|Ribeira,-8.608186,41.131164,-8.611679,41.138066
+caller_trip_210,caller_04,taxi_47,2014-04-04 17:48:00,2014-04-04 17:54:04,early year,Paranhos|Boavista,-8.598443,41.156086,-8.628868,41.156987
+caller_trip_302,caller_05,taxi_23,2014-10-09 19:48:00,2014-10-09 20:02:46,late year,Foz do Douro|Matosinhos Sul,-8.628868,41.156987,-8.688742,41.178908
+caller_trip_189,caller_03,taxi_18,2014-12-23 14:20:00,2014-12-23 14:23:30,late year,Cedofeita|Ribeira,-8.615797,41.152686,-8.61053,41.142645
+caller_trip_489,caller_08,taxi_14,2014-10-18 10:19:00,2014-10-18 10:25:12,late year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.596748,41.153748,-8.631173,41.159623
+caller_trip_490,caller_08,taxi_27,2014-10-21 10:19:00,2014-10-21 10:26:58,late year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.626264,41.158676,-8.593985,41.155527
+caller_trip_129,caller_03,taxi_31,2014-01-11 07:47:00,2014-01-11 07:51:20,early year,Cedofeita|Ribeira,-8.615797,41.152686,-8.61053,41.142645
+caller_trip_026,caller_01,taxi_34,2014-05-16 10:07:00,2014-05-16 10:14:17,middle year,Boavista|Cedofeita,-8.614398,41.157044,-8.611679,41.138066
+caller_trip_495,caller_08,taxi_31,2014-11-15 10:34:00,2014-11-15 10:37:02,late year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.587653,41.150705,-8.596748,41.153748
+caller_trip_285,caller_05,taxi_46,2014-06-21 09:03:00,2014-06-21 09:12:02,middle year,Foz do Douro|Matosinhos Sul,-8.672546,41.149054,-8.686498,41.180346
+caller_trip_251,caller_04,taxi_31,2014-12-22 09:02:00,2014-12-22 09:12:11,late year,Paranhos|Boavista,-8.602901,41.1747,-8.628019,41.15545
+caller_trip_408,caller_07,taxi_59,2014-06-22 10:46:00,2014-06-22 10:53:07,middle year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.688742,41.178908,-8.673552,41.150998
+caller_trip_474,caller_08,taxi_02,2014-07-15 08:39:00,2014-07-15 08:47:10,middle year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.626264,41.158676,-8.593985,41.155527
+caller_trip_477,caller_08,taxi_41,2014-08-24 17:48:00,2014-08-24 18:07:05,middle year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.673552,41.150998,-8.587653,41.150705
+caller_trip_185,caller_03,taxi_27,2014-11-11 09:31:00,2014-11-11 09:45:04,late year,Cedofeita|Ribeira,-8.611679,41.138066,-8.601283,41.178909
+caller_trip_426,caller_07,taxi_49,2014-10-13 11:21:00,2014-10-13 11:34:19,late year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.619718,41.157823,-8.675682,41.153424
+caller_trip_154,caller_03,taxi_51,2014-05-23 20:50:00,2014-05-23 20:54:51,middle year,Cedofeita|Ribeira,-8.617248,41.155953,-8.613063,41.141557
+caller_trip_097,caller_02,taxi_42,2014-06-18 16:30:00,2014-06-18 16:33:37,middle year,Bonfim|Campanha,-8.593985,41.155527,-8.58256,41.150532
+caller_trip_187,caller_03,taxi_53,2014-12-17 09:39:00,2014-12-17 09:45:00,late year,Cedofeita|Ribeira,-8.614398,41.157044,-8.611679,41.138066
+caller_trip_331,caller_06,taxi_34,2014-03-17 14:53:00,2014-03-17 14:55:27,early year,Bonfim|Campanha|Paranhos,-8.596748,41.153748,-8.587653,41.150705
+caller_trip_034,caller_01,taxi_16,2014-06-19 09:05:00,2014-06-19 09:14:47,middle year,Boavista|Cedofeita,-8.614398,41.157044,-8.583838,41.146486
+caller_trip_230,caller_04,taxi_02,2014-08-22 08:47:00,2014-08-22 08:56:14,middle year,Paranhos|Boavista,-8.691216,41.181082,-8.673552,41.150998
+caller_trip_372,caller_06,taxi_18,2014-11-14 08:51:00,2014-11-14 09:01:05,late year,Bonfim|Campanha|Paranhos,-8.58256,41.150532,-8.608186,41.131164
+caller_trip_030,caller_01,taxi_25,2014-06-07 08:44:00,2014-06-07 08:46:56,middle year,Boavista|Cedofeita,-8.626264,41.158676,-8.615797,41.152686
+caller_trip_075,caller_02,taxi_61,2014-02-15 19:53:00,2014-02-15 20:10:27,early year,Bonfim|Campanha,-8.68803,41.176684,-8.609323,41.127541
+caller_trip_378,caller_07,taxi_35,2014-01-16 14:46:00,2014-01-16 14:54:27,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.606298,41.179,-8.615433,41.143321
+caller_trip_084,caller_02,taxi_56,2014-04-21 20:16:00,2014-04-21 20:19:08,early year,Bonfim|Campanha,-8.596748,41.153748,-8.587653,41.150705
+caller_trip_044,caller_01,taxi_24,2014-08-07 10:58:00,2014-08-07 11:12:46,middle year,Boavista|Cedofeita,-8.628019,41.15545,-8.686498,41.180346
+caller_trip_363,caller_06,taxi_23,2014-10-08 20:08:00,2014-10-08 20:16:20,late year,Bonfim|Campanha|Paranhos,-8.604131,41.17683,-8.598443,41.156086
+caller_trip_338,caller_06,taxi_03,2014-05-17 17:29:00,2014-05-17 17:37:33,middle year,Bonfim|Campanha|Paranhos,-8.583838,41.146486,-8.602901,41.1747
+caller_trip_054,caller_01,taxi_32,2014-10-16 21:07:00,2014-10-16 21:25:34,late year,Boavista|Cedofeita,-8.686498,41.180346,-8.615797,41.152686
+caller_trip_116,caller_02,taxi_45,2014-10-12 11:50:00,2014-10-12 11:57:02,late year,Bonfim|Campanha,-8.596748,41.153748,-8.631173,41.159623
+caller_trip_181,caller_03,taxi_36,2014-11-20 07:11:00,2014-11-20 07:15:02,late year,Cedofeita|Ribeira,-8.615797,41.152686,-8.61053,41.142645
+caller_trip_252,caller_04,taxi_44,2014-12-04 11:20:00,2014-12-04 11:28:14,late year,Paranhos|Boavista,-8.604131,41.17683,-8.631173,41.159623
+caller_trip_352,caller_06,taxi_02,2014-07-17 09:54:00,2014-07-17 10:04:58,middle year,Bonfim|Campanha|Paranhos,-8.58256,41.150532,-8.608186,41.131164
+caller_trip_220,caller_04,taxi_55,2014-06-13 07:50:00,2014-06-13 07:59:10,middle year,Paranhos|Boavista,-8.604131,41.17683,-8.631173,41.159623
+caller_trip_145,caller_03,taxi_56,2014-03-17 16:30:00,2014-03-17 16:33:51,early year,Cedofeita|Ribeira,-8.615797,41.152686,-8.61053,41.142645
+caller_trip_020,caller_01,taxi_17,2014-04-19 16:41:00,2014-04-19 16:44:07,early year,Boavista|Cedofeita,-8.628019,41.15545,-8.614398,41.157044
+caller_trip_071,caller_02,taxi_09,2014-02-24 10:46:00,2014-02-24 10:53:52,early year,Bonfim|Campanha,-8.583838,41.146486,-8.611679,41.138066
+caller_trip_496,caller_08,taxi_44,2014-12-18 19:25:00,2014-12-18 19:33:12,late year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.609323,41.127541,-8.595589,41.151632
+caller_trip_223,caller_04,taxi_33,2014-06-22 09:38:00,2014-06-22 09:48:10,middle year,Paranhos|Boavista,-8.602901,41.1747,-8.628019,41.15545
+caller_trip_267,caller_05,taxi_56,2014-03-09 16:04:00,2014-03-09 16:16:23,early year,Foz do Douro|Matosinhos Sul,-8.626264,41.158676,-8.609323,41.127541
+caller_trip_276,caller_05,taxi_51,2014-05-15 11:51:00,2014-05-15 12:00:06,middle year,Foz do Douro|Matosinhos Sul,-8.675682,41.153424,-8.691216,41.181082
+caller_trip_159,caller_03,taxi_55,2014-06-17 08:23:00,2014-06-17 08:30:26,middle year,Cedofeita|Ribeira,-8.614398,41.157044,-8.611679,41.138066
+caller_trip_043,caller_01,taxi_11,2014-08-04 07:57:00,2014-08-04 07:59:31,middle year,Boavista|Cedofeita,-8.619718,41.157823,-8.631173,41.159623
+caller_trip_126,caller_02,taxi_53,2014-12-21 09:33:00,2014-12-21 09:49:25,late year,Bonfim|Campanha,-8.612639,41.131858,-8.673552,41.150998
+caller_trip_333,caller_06,taxi_60,2014-04-23 09:11:00,2014-04-23 09:20:05,early year,Bonfim|Campanha|Paranhos,-8.691216,41.181082,-8.673552,41.150998
+caller_trip_224,caller_04,taxi_46,2014-07-04 11:55:00,2014-07-04 12:12:52,middle year,Paranhos|Boavista,-8.673552,41.150998,-8.587653,41.150705
+caller_trip_349,caller_06,taxi_24,2014-07-08 16:18:00,2014-07-08 16:31:30,middle year,Bonfim|Campanha|Paranhos,-8.631173,41.159623,-8.688742,41.178908
+caller_trip_112,caller_02,taxi_54,2014-09-21 09:52:00,2014-09-21 10:14:44,late year,Bonfim|Campanha,-8.688742,41.178908,-8.587653,41.150705
+caller_trip_104,caller_02,taxi_11,2014-08-18 07:20:00,2014-08-18 07:22:44,middle year,Bonfim|Campanha,-8.596748,41.153748,-8.587653,41.150705
+caller_trip_393,caller_07,taxi_47,2014-03-19 08:55:00,2014-03-19 09:01:39,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.670825,41.152698,-8.68803,41.176684
+caller_trip_248,caller_04,taxi_53,2014-11-13 14:08:00,2014-11-13 14:16:05,late year,Paranhos|Boavista,-8.604131,41.17683,-8.631173,41.159623
+caller_trip_215,caller_04,taxi_51,2014-05-19 11:38:00,2014-05-19 11:46:42,middle year,Paranhos|Boavista,-8.602901,41.1747,-8.628019,41.15545
+caller_trip_032,caller_01,taxi_51,2014-06-13 08:19:00,2014-06-13 08:23:12,middle year,Boavista|Cedofeita,-8.628019,41.15545,-8.614398,41.157044
+caller_trip_298,caller_05,taxi_32,2014-09-18 08:29:00,2014-09-18 08:35:52,late year,Foz do Douro|Matosinhos Sul,-8.673552,41.150998,-8.688742,41.178908
+caller_trip_120,caller_02,taxi_36,2014-11-24 10:53:00,2014-11-24 10:55:59,late year,Bonfim|Campanha,-8.596748,41.153748,-8.587653,41.150705
+caller_trip_253,caller_04,taxi_57,2014-12-07 08:34:00,2014-12-07 08:44:08,late year,Paranhos|Boavista,-8.58256,41.150532,-8.601283,41.178909
+caller_trip_395,caller_07,taxi_12,2014-04-04 09:00:00,2014-04-04 09:13:29,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.68803,41.176684,-8.626264,41.158676
+caller_trip_156,caller_03,taxi_16,2014-06-08 08:32:00,2014-06-08 08:36:13,middle year,Cedofeita|Ribeira,-8.619718,41.157823,-8.615433,41.143321
+caller_trip_266,caller_05,taxi_43,2014-03-06 19:07:00,2014-03-06 19:24:56,early year,Foz do Douro|Matosinhos Sul,-8.688742,41.178908,-8.613063,41.141557
+caller_trip_111,caller_02,taxi_41,2014-09-18 09:51:00,2014-09-18 09:53:54,late year,Bonfim|Campanha,-8.595589,41.151632,-8.583838,41.146486
+caller_trip_419,caller_07,taxi_19,2014-08-13 13:36:00,2014-08-13 14:01:30,middle year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.609323,41.127541,-8.686498,41.180346
+caller_trip_009,caller_01,taxi_57,2014-02-07 08:21:00,2014-02-07 08:36:34,early year,Boavista|Cedofeita,-8.628868,41.156987,-8.688742,41.178908
+caller_trip_359,caller_06,taxi_32,2014-09-17 20:43:00,2014-09-17 20:50:09,late year,Bonfim|Campanha|Paranhos,-8.604131,41.17683,-8.598443,41.156086
+caller_trip_444,caller_08,taxi_39,2014-01-09 20:00:00,2014-01-09 20:06:59,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.602901,41.1747,-8.615797,41.152686
+caller_trip_151,caller_03,taxi_12,2014-05-14 09:43:00,2014-05-14 09:46:32,middle year,Cedofeita|Ribeira,-8.61053,41.142645,-8.615797,41.152686
+caller_trip_049,caller_01,taxi_28,2014-09-22 20:14:00,2014-09-22 20:23:30,late year,Boavista|Cedofeita,-8.673552,41.150998,-8.628868,41.156987
+caller_trip_191,caller_04,taxi_44,2014-01-10 09:03:00,2014-01-10 09:19:36,early year,Paranhos|Boavista,-8.602901,41.1747,-8.672546,41.149054
+caller_trip_255,caller_05,taxi_22,2014-01-15 13:09:00,2014-01-15 13:13:16,early year,Foz do Douro|Matosinhos Sul,-8.61053,41.142645,-8.615797,41.152686
+caller_trip_466,caller_08,taxi_20,2014-06-12 08:11:00,2014-06-12 08:16:29,middle year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.58256,41.150532,-8.593985,41.155527
+caller_trip_431,caller_07,taxi_53,2014-11-07 10:14:00,2014-11-07 10:33:40,late year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.615797,41.152686,-8.686498,41.180346
+caller_trip_425,caller_07,taxi_36,2014-10-10 10:24:00,2014-10-10 10:37:47,late year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.686498,41.180346,-8.628019,41.15545
+caller_trip_027,caller_01,taxi_47,2014-05-19 13:03:00,2014-05-19 13:14:11,middle year,Boavista|Cedofeita,-8.615433,41.143321,-8.606298,41.179
+caller_trip_005,caller_01,taxi_05,2014-01-16 15:43:00,2014-01-16 16:05:18,early year,Boavista|Cedofeita,-8.585665,41.148895,-8.688742,41.178908
+caller_trip_019,caller_01,taxi_04,2014-04-16 10:19:00,2014-04-16 10:21:29,early year,Boavista|Cedofeita,-8.619718,41.157823,-8.631173,41.159623
+caller_trip_272,caller_05,taxi_60,2014-04-24 15:11:00,2014-04-24 15:21:48,early year,Foz do Douro|Matosinhos Sul,-8.675682,41.153424,-8.691216,41.181082
+caller_trip_074,caller_02,taxi_48,2014-02-12 18:26:00,2014-02-12 18:28:55,early year,Bonfim|Campanha,-8.587653,41.150705,-8.596748,41.153748
+caller_trip_418,caller_07,taxi_06,2014-08-10 11:08:00,2014-08-10 11:27:47,middle year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.675682,41.153424,-8.587653,41.150705
+caller_trip_292,caller_05,taxi_15,2014-08-21 10:30:00,2014-08-21 10:50:09,middle year,Foz do Douro|Matosinhos Sul,-8.675682,41.153424,-8.612639,41.131858
+caller_trip_259,caller_05,taxi_13,2014-01-06 09:59:00,2014-01-06 10:06:38,early year,Foz do Douro|Matosinhos Sul,-8.670825,41.152698,-8.68803,41.176684
+caller_trip_133,caller_03,taxi_22,2014-01-23 18:40:00,2014-01-23 18:44:01,early year,Cedofeita|Ribeira,-8.615797,41.152686,-8.61053,41.142645
+caller_trip_047,caller_01,taxi_02,2014-09-16 10:35:00,2014-09-16 10:37:56,late year,Boavista|Cedofeita,-8.619718,41.157823,-8.631173,41.159623
+caller_trip_192,caller_04,taxi_57,2014-01-13 09:42:00,2014-01-13 10:09:06,early year,Paranhos|Boavista,-8.688742,41.178908,-8.587653,41.150705
+caller_trip_454,caller_08,taxi_47,2014-03-18 10:11:00,2014-03-18 10:14:35,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.614398,41.157044,-8.626264,41.158676
+caller_trip_072,caller_02,taxi_22,2014-02-06 17:40:00,2014-02-06 17:46:25,early year,Bonfim|Campanha,-8.596748,41.153748,-8.619718,41.157823
+caller_trip_166,caller_03,taxi_24,2014-08-17 21:01:00,2014-08-17 21:05:23,middle year,Cedofeita|Ribeira,-8.617248,41.155953,-8.613063,41.141557
+caller_trip_073,caller_02,taxi_35,2014-02-09 09:34:00,2014-02-09 09:38:23,early year,Bonfim|Campanha,-8.593985,41.155527,-8.58256,41.150532
+caller_trip_137,caller_03,taxi_13,2014-02-14 08:10:00,2014-02-14 08:16:26,early year,Cedofeita|Ribeira,-8.611679,41.138066,-8.614398,41.157044
+caller_trip_468,caller_08,taxi_46,2014-06-18 15:18:00,2014-06-18 15:25:45,middle year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.595589,41.151632,-8.628019,41.15545
+caller_trip_473,caller_08,taxi_50,2014-07-12 14:37:00,2014-07-12 15:02:44,middle year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.585665,41.148895,-8.691216,41.181082
+caller_trip_050,caller_01,taxi_41,2014-10-04 11:33:00,2014-10-04 11:35:45,late year,Boavista|Cedofeita,-8.626264,41.158676,-8.615797,41.152686
+caller_trip_011,caller_01,taxi_22,2014-02-13 19:20:00,2014-02-13 19:22:31,early year,Boavista|Cedofeita,-8.631173,41.159623,-8.619718,41.157823
+caller_trip_204,caller_04,taxi_30,2014-03-07 13:39:00,2014-03-07 13:45:04,early year,Paranhos|Boavista,-8.628868,41.156987,-8.598443,41.156086
+caller_trip_492,caller_08,taxi_53,2014-11-06 08:03:00,2014-11-06 08:06:45,late year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.583838,41.146486,-8.595589,41.151632
+caller_trip_240,caller_04,taxi_10,2014-10-10 14:29:00,2014-10-10 14:44:31,late year,Paranhos|Boavista,-8.604131,41.17683,-8.675682,41.153424
+caller_trip_014,caller_01,taxi_61,2014-03-22 08:41:00,2014-03-22 08:47:21,early year,Boavista|Cedofeita,-8.614398,41.157044,-8.602901,41.1747
+caller_trip_380,caller_07,taxi_61,2014-01-22 08:30:00,2014-01-22 08:45:49,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.617248,41.155953,-8.688742,41.178908
+caller_trip_488,caller_08,taxi_01,2014-10-15 08:40:00,2014-10-15 08:50:48,late year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.609323,41.127541,-8.595589,41.151632
+caller_trip_414,caller_07,taxi_15,2014-07-19 18:01:00,2014-07-19 18:23:23,middle year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.691216,41.181082,-8.612639,41.131858
+caller_trip_186,caller_03,taxi_40,2014-12-14 09:51:00,2014-12-14 09:56:44,late year,Cedofeita|Ribeira,-8.617248,41.155953,-8.613063,41.141557
+caller_trip_486,caller_08,taxi_36,2014-10-09 13:59:00,2014-10-09 14:06:43,late year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.601283,41.178909,-8.593985,41.155527
+caller_trip_249,caller_04,taxi_05,2014-12-16 11:09:00,2014-12-16 11:19:10,late year,Paranhos|Boavista,-8.601283,41.178909,-8.626264,41.158676
+caller_trip_235,caller_04,taxi_06,2014-09-16 11:52:00,2014-09-16 12:00:17,late year,Paranhos|Boavista,-8.628019,41.15545,-8.602901,41.1747
+caller_trip_345,caller_06,taxi_33,2014-06-17 09:09:00,2014-06-17 09:17:16,middle year,Bonfim|Campanha|Paranhos,-8.606298,41.179,-8.596748,41.153748
+caller_trip_441,caller_08,taxi_61,2014-01-21 10:18:00,2014-01-21 10:21:25,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.617248,41.155953,-8.631173,41.159623
+caller_trip_198,caller_04,taxi_13,2014-02-10 08:16:00,2014-02-10 08:24:33,early year,Paranhos|Boavista,-8.631173,41.159623,-8.604131,41.17683
+caller_trip_353,caller_06,taxi_15,2014-08-20 08:29:00,2014-08-20 08:45:59,middle year,Bonfim|Campanha|Paranhos,-8.598443,41.156086,-8.673552,41.150998
+caller_trip_432,caller_07,taxi_05,2014-11-10 10:30:00,2014-11-10 10:34:17,late year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.617248,41.155953,-8.613063,41.141557
+caller_trip_351,caller_06,taxi_50,2014-07-14 17:29:00,2014-07-14 17:45:03,middle year,Bonfim|Campanha|Paranhos,-8.585665,41.148895,-8.675682,41.153424
+caller_trip_405,caller_07,taxi_20,2014-06-13 09:02:00,2014-06-13 09:09:57,middle year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.601283,41.178909,-8.615797,41.152686
+caller_trip_317,caller_06,taxi_35,2014-01-17 10:20:00,2014-01-17 10:33:40,early year,Bonfim|Campanha|Paranhos,-8.631173,41.159623,-8.688742,41.178908
+caller_trip_141,caller_03,taxi_04,2014-03-05 11:09:00,2014-03-05 11:12:16,early year,Cedofeita|Ribeira,-8.615797,41.152686,-8.61053,41.142645
+caller_trip_366,caller_06,taxi_01,2014-10-17 21:51:00,2014-10-17 22:07:40,late year,Bonfim|Campanha|Paranhos,-8.68803,41.176684,-8.615797,41.152686
+caller_trip_289,caller_05,taxi_37,2014-07-12 08:26:00,2014-07-12 08:34:42,middle year,Foz do Douro|Matosinhos Sul,-8.672546,41.149054,-8.686498,41.180346
+caller_trip_132,caller_03,taxi_09,2014-01-20 13:52:00,2014-01-20 13:55:53,early year,Cedofeita|Ribeira,-8.615433,41.143321,-8.619718,41.157823
+caller_trip_226,caller_04,taxi_11,2014-07-10 09:02:00,2014-07-10 09:10:06,middle year,Paranhos|Boavista,-8.631173,41.159623,-8.604131,41.17683
+caller_trip_237,caller_04,taxi_32,2014-09-22 17:03:00,2014-09-22 17:18:00,late year,Paranhos|Boavista,-8.61053,41.142645,-8.686498,41.180346
+caller_trip_402,caller_07,taxi_42,2014-05-04 07:48:00,2014-05-04 08:06:38,middle year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.691216,41.181082,-8.615433,41.143321
+caller_trip_225,caller_04,taxi_59,2014-07-07 14:19:00,2014-07-07 14:28:09,middle year,Paranhos|Boavista,-8.601283,41.178909,-8.626264,41.158676
+caller_trip_113,caller_02,taxi_06,2014-10-24 09:26:00,2014-10-24 09:30:37,late year,Bonfim|Campanha,-8.58256,41.150532,-8.593985,41.155527
+caller_trip_346,caller_06,taxi_46,2014-06-20 14:32:00,2014-06-20 14:43:10,middle year,Bonfim|Campanha|Paranhos,-8.583838,41.146486,-8.602901,41.1747
+caller_trip_278,caller_05,taxi_16,2014-05-21 14:44:00,2014-05-21 15:06:43,middle year,Foz do Douro|Matosinhos Sul,-8.585665,41.148895,-8.688742,41.178908
+caller_trip_271,caller_05,taxi_47,2014-04-21 08:17:00,2014-04-21 08:32:51,early year,Foz do Douro|Matosinhos Sul,-8.670825,41.152698,-8.609323,41.127541
+caller_trip_076,caller_02,taxi_13,2014-02-18 08:24:00,2014-02-18 08:31:40,early year,Bonfim|Campanha,-8.596748,41.153748,-8.612639,41.131858
+caller_trip_475,caller_08,taxi_15,2014-07-18 08:10:00,2014-07-18 08:24:48,middle year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.606298,41.179,-8.673552,41.150998
+caller_trip_411,caller_07,taxi_37,2014-07-10 08:58:00,2014-07-10 09:02:20,middle year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.615797,41.152686,-8.593985,41.155527
+caller_trip_098,caller_02,taxi_55,2014-07-21 09:25:00,2014-07-21 09:42:08,middle year,Bonfim|Campanha,-8.598443,41.156086,-8.673552,41.150998
+caller_trip_438,caller_07,taxi_22,2014-12-07 11:55:00,2014-12-07 12:03:36,late year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.675682,41.153424,-8.691216,41.181082
+caller_trip_320,caller_06,taxi_13,2014-01-05 10:24:00,2014-01-05 10:31:49,early year,Bonfim|Campanha|Paranhos,-8.593985,41.155527,-8.608186,41.131164
+caller_trip_455,caller_08,taxi_60,2014-03-21 10:12:00,2014-03-21 10:30:44,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.615433,41.143321,-8.688742,41.178908
+caller_trip_140,caller_03,taxi_52,2014-03-23 15:34:00,2014-03-23 15:38:15,early year,Cedofeita|Ribeira,-8.615433,41.143321,-8.619718,41.157823
+caller_trip_396,caller_07,taxi_25,2014-04-07 10:47:00,2014-04-07 10:58:31,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.617248,41.155953,-8.673552,41.150998
+caller_trip_093,caller_02,taxi_51,2014-06-06 17:17:00,2014-06-06 17:24:04,middle year,Bonfim|Campanha,-8.626264,41.158676,-8.601283,41.178909
+caller_trip_337,caller_06,taxi_51,2014-04-14 10:17:00,2014-04-14 10:23:48,early year,Bonfim|Campanha|Paranhos,-8.606298,41.179,-8.596748,41.153748
+caller_trip_092,caller_02,taxi_38,2014-05-24 09:34:00,2014-05-24 09:45:36,middle year,Bonfim|Campanha,-8.610425,41.129487,-8.606298,41.179
+caller_trip_001,caller_01,taxi_14,2014-01-04 16:02:00,2014-01-04 16:03:55,early year,Boavista|Cedofeita,-8.628868,41.156987,-8.617248,41.155953
+caller_trip_042,caller_01,taxi_59,2014-08-22 15:29:00,2014-08-22 15:38:13,middle year,Boavista|Cedofeita,-8.58256,41.150532,-8.609323,41.127541
+caller_trip_144,caller_03,taxi_43,2014-03-14 10:06:00,2014-03-14 10:10:23,early year,Cedofeita|Ribeira,-8.615433,41.143321,-8.619718,41.157823
+caller_trip_188,caller_03,taxi_05,2014-12-20 19:59:00,2014-12-20 20:04:26,late year,Cedofeita|Ribeira,-8.615433,41.143321,-8.619718,41.157823
+caller_trip_063,caller_01,taxi_27,2014-12-22 11:43:00,2014-12-22 11:50:41,late year,Boavista|Cedofeita,-8.615433,41.143321,-8.587653,41.150705
+caller_trip_217,caller_04,taxi_16,2014-05-04 18:24:00,2014-05-04 18:34:50,middle year,Paranhos|Boavista,-8.626264,41.158676,-8.601283,41.178909
+caller_trip_254,caller_05,taxi_09,2014-01-12 09:57:00,2014-01-12 10:13:48,early year,Foz do Douro|Matosinhos Sul,-8.673552,41.150998,-8.604131,41.17683
+caller_trip_234,caller_04,taxi_54,2014-09-13 10:37:00,2014-09-13 10:48:34,late year,Paranhos|Boavista,-8.606298,41.179,-8.628868,41.156987
+caller_trip_134,caller_03,taxi_35,2014-02-05 10:48:00,2014-02-05 10:54:18,early year,Cedofeita|Ribeira,-8.613063,41.141557,-8.617248,41.155953
+caller_trip_100,caller_02,taxi_20,2014-07-06 08:56:00,2014-07-06 08:59:36,middle year,Bonfim|Campanha,-8.617248,41.155953,-8.615433,41.143321
+caller_trip_282,caller_05,taxi_07,2014-06-12 10:50:00,2014-06-12 10:57:26,middle year,Foz do Douro|Matosinhos Sul,-8.673552,41.150998,-8.688742,41.178908
+caller_trip_232,caller_04,taxi_28,2014-08-07 09:46:00,2014-08-07 09:54:49,middle year,Paranhos|Boavista,-8.604131,41.17683,-8.598443,41.156086
+caller_trip_421,caller_07,taxi_45,2014-09-19 20:31:00,2014-09-19 20:34:06,late year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.626264,41.158676,-8.615797,41.152686
+caller_trip_326,caller_06,taxi_30,2014-02-23 13:45:00,2014-02-23 13:52:46,early year,Bonfim|Campanha|Paranhos,-8.595589,41.151632,-8.602901,41.1747
+caller_trip_173,caller_03,taxi_54,2014-09-17 10:34:00,2014-09-17 10:50:43,late year,Cedofeita|Ribeira,-8.615797,41.152686,-8.686498,41.180346
+caller_trip_170,caller_03,taxi_15,2014-08-08 08:55:00,2014-08-08 08:59:35,middle year,Cedofeita|Ribeira,-8.613063,41.141557,-8.617248,41.155953
+caller_trip_180,caller_03,taxi_23,2014-10-17 13:08:00,2014-10-17 13:12:22,late year,Cedofeita|Ribeira,-8.619718,41.157823,-8.615433,41.143321
+caller_trip_214,caller_04,taxi_38,2014-05-16 13:17:00,2014-05-16 13:41:46,middle year,Paranhos|Boavista,-8.587653,41.150705,-8.688742,41.178908
+caller_trip_227,caller_04,taxi_24,2014-07-13 18:15:00,2014-07-13 18:28:19,middle year,Paranhos|Boavista,-8.602901,41.1747,-8.609323,41.127541
+caller_trip_209,caller_04,taxi_34,2014-04-22 09:25:00,2014-04-22 09:33:43,early year,Paranhos|Boavista,-8.626264,41.158676,-8.58256,41.150532
+caller_trip_241,caller_04,taxi_23,2014-10-13 09:45:00,2014-10-13 09:56:51,late year,Paranhos|Boavista,-8.601283,41.178909,-8.626264,41.158676
+caller_trip_183,caller_03,taxi_01,2014-11-05 10:23:00,2014-11-05 10:30:04,late year,Cedofeita|Ribeira,-8.608186,41.131164,-8.615797,41.152686
+caller_trip_401,caller_07,taxi_29,2014-05-22 07:38:00,2014-05-22 07:51:17,middle year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.686498,41.180346,-8.628019,41.15545
+caller_trip_290,caller_05,taxi_50,2014-07-15 15:11:00,2014-07-15 15:20:02,middle year,Foz do Douro|Matosinhos Sul,-8.673552,41.150998,-8.628868,41.156987
+caller_trip_004,caller_01,taxi_53,2014-01-13 07:07:00,2014-01-13 07:09:32,early year,Boavista|Cedofeita,-8.615797,41.152686,-8.626264,41.158676
+caller_trip_310,caller_05,taxi_05,2014-11-12 10:11:00,2014-11-12 10:19:25,late year,Foz do Douro|Matosinhos Sul,-8.673552,41.150998,-8.688742,41.178908
+caller_trip_247,caller_04,taxi_40,2014-11-10 09:53:00,2014-11-10 10:02:09,late year,Paranhos|Boavista,-8.602901,41.1747,-8.628019,41.15545
+caller_trip_131,caller_03,taxi_57,2014-01-17 11:05:00,2014-01-17 11:24:48,early year,Cedofeita|Ribeira,-8.61053,41.142645,-8.68803,41.176684
+caller_trip_306,caller_05,taxi_14,2014-11-21 11:44:00,2014-11-21 11:52:35,late year,Foz do Douro|Matosinhos Sul,-8.673552,41.150998,-8.688742,41.178908
+caller_trip_053,caller_01,taxi_19,2014-10-13 08:57:00,2014-10-13 08:59:15,late year,Boavista|Cedofeita,-8.628868,41.156987,-8.617248,41.155953
+caller_trip_003,caller_01,taxi_40,2014-01-10 08:29:00,2014-01-10 08:32:08,early year,Boavista|Cedofeita,-8.619718,41.157823,-8.631173,41.159623
+caller_trip_295,caller_05,taxi_54,2014-08-09 11:52:00,2014-08-09 11:55:39,middle year,Foz do Douro|Matosinhos Sul,-8.61053,41.142645,-8.615797,41.152686
+caller_trip_476,caller_08,taxi_28,2014-08-21 09:41:00,2014-08-21 09:51:17,middle year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.628019,41.15545,-8.595589,41.151632
+caller_trip_390,caller_07,taxi_08,2014-03-10 11:25:00,2014-03-10 11:32:44,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.612639,41.131858,-8.587653,41.150705
+caller_trip_314,caller_05,taxi_57,2014-12-24 09:50:00,2014-12-24 10:04:42,late year,Foz do Douro|Matosinhos Sul,-8.673552,41.150998,-8.585665,41.148895
+caller_trip_373,caller_06,taxi_31,2014-12-17 10:36:00,2014-12-17 10:52:42,late year,Bonfim|Campanha|Paranhos,-8.612639,41.131858,-8.673552,41.150998
+caller_trip_207,caller_04,taxi_08,2014-03-16 11:58:00,2014-03-16 12:04:34,early year,Paranhos|Boavista,-8.602901,41.1747,-8.628019,41.15545
+caller_trip_343,caller_06,taxi_07,2014-06-11 11:37:00,2014-06-11 11:39:23,middle year,Bonfim|Campanha|Paranhos,-8.596748,41.153748,-8.587653,41.150705
+caller_trip_398,caller_07,taxi_51,2014-04-13 21:19:00,2014-04-13 21:30:20,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.691216,41.181082,-8.631173,41.159623
+caller_trip_434,caller_07,taxi_31,2014-11-16 20:54:00,2014-11-16 21:14:24,late year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.631173,41.159623,-8.691216,41.181082
+caller_trip_307,caller_05,taxi_27,2014-11-24 17:43:00,2014-11-24 17:51:10,late year,Foz do Douro|Matosinhos Sul,-8.670825,41.152698,-8.68803,41.176684
+caller_trip_261,caller_05,taxi_39,2014-02-12 10:27:00,2014-02-12 10:34:18,early year,Foz do Douro|Matosinhos Sul,-8.68803,41.176684,-8.670825,41.152698
+caller_trip_324,caller_06,taxi_04,2014-02-17 07:52:00,2014-02-17 08:02:30,early year,Bonfim|Campanha|Paranhos,-8.601283,41.178909,-8.58256,41.150532
+caller_trip_086,caller_02,taxi_21,2014-04-06 08:48:00,2014-04-06 08:53:02,early year,Bonfim|Campanha,-8.598443,41.156086,-8.617248,41.155953
+caller_trip_218,caller_04,taxi_29,2014-05-07 09:04:00,2014-05-07 09:14:00,middle year,Paranhos|Boavista,-8.606298,41.179,-8.628868,41.156987
+caller_trip_311,caller_05,taxi_18,2014-12-15 16:35:00,2014-12-15 16:44:12,late year,Foz do Douro|Matosinhos Sul,-8.670825,41.152698,-8.68803,41.176684
+caller_trip_163,caller_03,taxi_46,2014-07-08 07:05:00,2014-07-08 07:08:33,middle year,Cedofeita|Ribeira,-8.61053,41.142645,-8.615797,41.152686
+caller_trip_233,caller_04,taxi_41,2014-08-10 07:53:00,2014-08-10 08:01:36,middle year,Paranhos|Boavista,-8.601283,41.178909,-8.626264,41.158676
+caller_trip_219,caller_04,taxi_42,2014-06-10 20:14:00,2014-06-10 20:22:26,middle year,Paranhos|Boavista,-8.628019,41.15545,-8.602901,41.1747
+caller_trip_410,caller_07,taxi_24,2014-07-07 17:42:00,2014-07-07 17:51:56,middle year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.615433,41.143321,-8.606298,41.179
+caller_trip_029,caller_01,taxi_12,2014-05-04 08:19:00,2014-05-04 08:21:03,middle year,Boavista|Cedofeita,-8.628868,41.156987,-8.617248,41.155953
+caller_trip_094,caller_02,taxi_03,2014-06-09 13:20:00,2014-06-09 13:23:02,middle year,Bonfim|Campanha,-8.587653,41.150705,-8.596748,41.153748
+caller_trip_350,caller_06,taxi_37,2014-07-11 09:20:00,2014-07-11 09:28:52,middle year,Bonfim|Campanha|Paranhos,-8.595589,41.151632,-8.602901,41.1747
+caller_trip_328,caller_06,taxi_56,2014-03-08 11:38:00,2014-03-08 11:47:21,early year,Bonfim|Campanha|Paranhos,-8.601283,41.178909,-8.58256,41.150532
+caller_trip_124,caller_02,taxi_27,2014-12-15 13:15:00,2014-12-15 13:17:50,late year,Bonfim|Campanha,-8.585665,41.148895,-8.598443,41.156086
+caller_trip_342,caller_06,taxi_55,2014-05-08 15:18:00,2014-05-08 15:27:44,middle year,Bonfim|Campanha|Paranhos,-8.602901,41.1747,-8.583838,41.146486
+caller_trip_164,caller_03,taxi_59,2014-07-11 10:48:00,2014-07-11 10:52:46,middle year,Cedofeita|Ribeira,-8.619718,41.157823,-8.615433,41.143321
+caller_trip_399,caller_07,taxi_03,2014-04-16 10:09:00,2014-04-16 10:13:25,early year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.595589,41.151632,-8.58256,41.150532
+caller_trip_284,caller_05,taxi_33,2014-06-18 20:20:00,2014-06-18 20:25:38,middle year,Foz do Douro|Matosinhos Sul,-8.619718,41.157823,-8.615433,41.143321
+caller_trip_149,caller_03,taxi_47,2014-04-08 21:25:00,2014-04-08 21:34:35,early year,Cedofeita|Ribeira,-8.615797,41.152686,-8.58256,41.150532
+caller_trip_025,caller_01,taxi_21,2014-05-13 21:16:00,2014-05-13 21:19:14,middle year,Boavista|Cedofeita,-8.628868,41.156987,-8.617248,41.155953
+caller_trip_157,caller_03,taxi_29,2014-06-11 10:44:00,2014-06-11 10:50:33,middle year,Cedofeita|Ribeira,-8.611679,41.138066,-8.614398,41.157044
+caller_trip_118,caller_02,taxi_10,2014-11-18 11:00:00,2014-11-18 11:07:33,late year,Bonfim|Campanha,-8.598443,41.156086,-8.610425,41.129487
+caller_trip_313,caller_05,taxi_44,2014-12-21 10:32:00,2014-12-21 10:42:41,late year,Foz do Douro|Matosinhos Sul,-8.672546,41.149054,-8.686498,41.180346
+caller_trip_148,caller_03,taxi_34,2014-04-05 13:42:00,2014-04-05 13:47:40,early year,Cedofeita|Ribeira,-8.615433,41.143321,-8.619718,41.157823
+caller_trip_108,caller_02,taxi_02,2014-09-09 13:56:00,2014-09-09 13:59:16,late year,Bonfim|Campanha,-8.596748,41.153748,-8.587653,41.150705
+caller_trip_105,caller_02,taxi_24,2014-08-21 18:31:00,2014-08-21 18:46:30,middle year,Bonfim|Campanha,-8.670825,41.152698,-8.593985,41.155527
+caller_trip_208,caller_04,taxi_21,2014-03-19 11:41:00,2014-03-19 11:48:28,early year,Paranhos|Boavista,-8.628868,41.156987,-8.606298,41.179
+caller_trip_413,caller_07,taxi_02,2014-07-16 10:21:00,2014-07-16 10:33:42,middle year,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,-8.626264,41.158676,-8.68803,41.176684
+caller_trip_024,caller_01,taxi_08,2014-04-10 14:57:00,2014-04-10 15:03:12,early year,Boavista|Cedofeita,-8.602901,41.1747,-8.593985,41.155527
+caller_trip_143,caller_03,taxi_30,2014-03-11 10:31:00,2014-03-11 10:37:21,early year,Cedofeita|Ribeira,-8.614398,41.157044,-8.602901,41.1747
+caller_trip_257,caller_05,taxi_48,2014-01-21 11:22:00,2014-01-21 11:29:47,early year,Foz do Douro|Matosinhos Sul,-8.68803,41.176684,-8.670825,41.152698
+caller_trip_447,caller_08,taxi_17,2014-02-18 17:11:00,2014-02-18 17:33:57,early year,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,-8.615433,41.143321,-8.688742,41.178908
+caller_trip_250,caller_04,taxi_18,2014-12-19 07:05:00,2014-12-19 07:11:31,late year,Paranhos|Boavista,-8.631173,41.159623,-8.613063,41.141557
+caller_trip_365,caller_06,taxi_49,2014-10-14 10:00:00,2014-10-14 10:04:30,late year,Bonfim|Campanha|Paranhos,-8.598443,41.156086,-8.585665,41.148895
+caller_trip_179,caller_03,taxi_10,2014-10-14 17:37:00,2014-10-14 17:43:05,late year,Cedofeita|Ribeira,-8.614398,41.157044,-8.611679,41.138066
+caller_trip_023,caller_01,taxi_56,2014-04-07 08:17:00,2014-04-07 08:33:32,early year,Boavista|Cedofeita,-8.619718,41.157823,-8.691216,41.181082
+caller_trip_213,caller_04,taxi_25,2014-04-13 10:40:00,2014-04-13 10:56:36,early year,Paranhos|Boavista,-8.601283,41.178909,-8.608186,41.131164

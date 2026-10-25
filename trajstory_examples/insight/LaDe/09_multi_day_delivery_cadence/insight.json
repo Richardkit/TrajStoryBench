@@ -1,0 +1,114 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/LaDe/09_multi_day_delivery_cadence/delivery_tasks.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/LaDe/09_multi_day_delivery_cadence/courier_trajectories.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/LaDe/09_multi_day_delivery_cadence/courier_trajectories.csv",
+      "role": "Task-linked, time-ordered GPS delivery segments for the courier"
+    }
+  ],
+  "metadata": {
+    "goal": "Summarize this courier’s delivery patterns from trajectories observed over several days.",
+    "role": "Last-mile delivery operations analyst",
+    "category": "multi-day delivery cadence and service-window acceptance",
+    "header": "One Courier’s Multi-Day Delivery Cadence",
+    "dataset_description": "A multi-day case using LaDe-style delivery times, acceptance times, explicit service windows, route labels, and linked GPS segments for one courier."
+  },
+  "insight_list": [
+    {
+      "data_type": "time_ordered_delivery_cadence",
+      "insight": "Later in the day, the time interval between consecutive deliveries becomes shorter.",
+      "plot": {
+        "plot_type": "time_gap_scatter_with_trend",
+        "title": "Delivery Interval over Time",
+        "file": "visualizations/delivery_gap_over_time.png",
+        "description": "Across the supplied days, later delivery events are associated with shorter intervals from the prior completed delivery."
+      },
+      "question": "How does the time interval between consecutive deliveries change over the course of each day?",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "delivery_time",
+        "task_id",
+        "route_id"
+      ]
+    },
+    {
+      "data_type": "time_route_position_cadence",
+      "insight": "Delivery cadence depends not only on time of day but also on the courier’s current position along the route: consecutive deliveries are more tightly spaced around the central corridor than near route edges.",
+      "plot": {
+        "plot_type": "time_stratified_scatter_and_route_position_residual_plot",
+        "title": "Time and Route Position in Delivery Cadence",
+        "file": "visualizations/time_and_route_position_cadence.png",
+        "description": "The left panel shows the time trend by route position; the right panel removes that trend and exposes the independent central-corridor cadence advantage."
+      },
+      "question": "After accounting for time of day, how does the delivery interval differ between central route positions and route edges?",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "delivery_time",
+        "gps_time",
+        "gps_position",
+        "task_id",
+        "route_id"
+      ]
+    },
+    {
+      "data_type": "route_length_delivery_interval_distribution",
+      "insight": "Routes of different lengths have different consecutive-delivery interval patterns rather than a single shared cadence.",
+      "plot": {
+        "plot_type": "route_length_violin_distribution",
+        "title": "Route Length and Consecutive-Delivery Intervals",
+        "file": "visualizations/route_length_gap_patterns.png",
+        "description": "The full interval distributions differ across the short, medium, and long route groups."
+      },
+      "question": "How do consecutive-delivery interval distributions differ across the short, medium, and long routes?",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "delivery_time",
+        "gps_position",
+        "task_id",
+        "route_id"
+      ]
+    },
+    {
+      "data_type": "acceptance_time_relative_to_service_window",
+      "insight": "This courier accepts delivery tasks either before their promised service windows begin or while the windows are open; no supplied task is accepted after its window closes.",
+      "plot": {
+        "plot_type": "service_window_acceptance_donut",
+        "title": "Acceptance Relative to Promised Service Windows",
+        "file": "visualizations/acceptance_relative_to_window.png",
+        "description": "The donut summarizes the two observed acceptance states and explicitly records zero after-window acceptance."
+      },
+      "question": "When are delivery tasks accepted relative to their promised service windows, and are any accepted after the window closes?",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "accept_time",
+        "time_window_start",
+        "time_window_end",
+        "task_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Later in the day, the time interval between consecutive deliveries becomes shorter.",
+    "Delivery cadence depends not only on time of day but also on the courier’s current position along the route: consecutive deliveries are more tightly spaced around the central corridor than near route edges.",
+    "Routes of different lengths have different consecutive-delivery interval patterns rather than a single shared cadence.",
+    "This courier accepts delivery tasks either before their promised service windows begin or while the windows are open; no supplied task is accepted after its window closes."
+  ],
+  "summary": "Across several workdays, this courier’s delivery cadence accelerates later in the day, but route position and route length also structure the interval between deliveries. All supplied tasks are accepted before or during their promised service windows."
+}

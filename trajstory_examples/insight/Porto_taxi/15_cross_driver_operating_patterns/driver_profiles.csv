@@ -1,0 +1,17 @@
+driver_id,trip_count,usual_operating_area,assigned_stand_id,assigned_stand_name,stand_trip_share,street_hail_share,call_center_share,morning_dominant_pickup_area,evening_dominant_pickup_area,morning_dominant_destination_area,evening_dominant_destination_area,morning_evening_od_shift,single_stand_only_driver
+driver_01,50,Boavista,stand_06,Casa da Música,0.7,0.2,0.1,Boavista,Boavista,Ribeira,Campanha,False,False
+driver_02,50,Bonfim,stand_05,Bolhão,0.64,0.24,0.12,Bonfim,Bonfim,Ribeira,Vila Nova de Gaia,False,False
+driver_03,50,Campanha,stand_04,Campanhã Station,0.6,0.28,0.12,Campanha,Campanha,Ribeira,Foz do Douro,False,False
+driver_04,50,Cedofeita,stand_02,Aliados,0.5,0.36,0.14,Cedofeita,Campanha,Matosinhos Sul,Matosinhos Sul,False,False
+driver_05,50,Foz do Douro,stand_08,Foz do Douro,0.2,0.64,0.16,Boavista,Vila Nova de Gaia,Campanha,Boavista,True,False
+driver_06,50,Matosinhos Sul,stand_09,Matosinhos Sul,0.16,0.68,0.16,Bonfim,Foz do Douro,Matosinhos Sul,Campanha,True,False
+driver_07,50,Paranhos,stand_10,Hospital São João,0.24,0.6,0.16,Ribeira,Matosinhos Sul,Paranhos,Vila Nova de Gaia,True,False
+driver_08,50,Ribeira,stand_01,São Bento Station,0.16,0.2,0.64,Vila Nova de Gaia,Paranhos,Boavista,Foz do Douro,True,False
+driver_09,50,Vila Nova de Gaia,stand_11,Jardim do Morro,0.14,0.24,0.62,Foz do Douro,Campanha,Campanha,Matosinhos Sul,True,False
+driver_10,50,Boavista,stand_06,Casa da Música,0.2,0.16,0.64,Matosinhos Sul,Boavista,Vila Nova de Gaia,Campanha,True,False
+driver_11,50,Bonfim,stand_05,Bolhão,0.34,0.36,0.3,Paranhos,Bonfim,Foz do Douro,Matosinhos Sul,True,False
+driver_12,50,Campanha,stand_04,Campanhã Station,0.36,0.28,0.36,Campanha,Ribeira,Matosinhos Sul,Paranhos,True,False
+driver_13,50,Cedofeita,stand_02,Aliados,0.28,0.4,0.32,Boavista,Vila Nova de Gaia,Campanha,Boavista,True,False
+driver_14,50,Foz do Douro,stand_08,Foz do Douro,0.4,0.4,0.2,Bonfim,Foz do Douro,Matosinhos Sul,Campanha,True,False
+driver_15,50,Matosinhos Sul,stand_09,Matosinhos Sul,1.0,0.0,0.0,Matosinhos Sul,Matosinhos Sul,Boavista,Foz do Douro,False,True
+driver_16,50,Paranhos,stand_10,Hospital São João,1.0,0.0,0.0,Paranhos,Paranhos,Boavista,Cedofeita,False,True

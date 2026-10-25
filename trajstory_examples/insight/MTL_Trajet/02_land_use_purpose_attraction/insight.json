@@ -1,0 +1,102 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/02_land_use_purpose_attraction/trajectories.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/02_land_use_purpose_attraction/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/MTL_Trajet/02_land_use_purpose_attraction/trajectory_points.csv",
+      "role": "Compact timestamped trajectory points linked by trajectory_id"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze how official destination land-use relates to trip purpose, departure-time concentration, distance, and transport mode across the supplied multiple-user trajectories.",
+    "role": "Urban mobility and land-use analyst",
+    "category": "Destination land-use, purpose, timing, distance, and transport mode",
+    "header": "MTL Trajet: 02 Land Use Purpose Attraction",
+    "dataset_description": "MTL Trajet 2016 mobility data with trip purpose, mode, timing, endpoints, trip metrics, and Montréal PUM 2050 destination land-use categories. User IDs distinguish participants, and the point tables provide speed profiles. The single-user case includes a repeated work corridor.",
+    "metric_note": "`longest_stable_run_points` is the longest consecutive GPS-point segment whose adjacent speed changes stay within the mode-specific limit recorded in `stable_speed_change_threshold_kmh`: walking 0.15, cycling 0.25, public transit 0.40, and motor vehicle 0.60 km/h. This local continuity metric is distinct from full-trajectory `point_speed_std_kmh`.",
+    "source_note": "Historical trajectories (2016) are spatially matched to the 2025 official PUM land-use taxonomy; do not interpret the categories as historical 2016 land-use observations."
+  },
+  "insight_list": [
+    {
+      "data_type": "economic_and_mixed_purpose_structure",
+      "insight": "Trajectories ending in employment areas more often correspond to work or business purposes, whereas Mixte destinations contain every purpose group represented in this case, including small work and business components alongside shopping, dining, leisure, health, and education.",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Purpose Composition by Destination Land-use",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/purpose_by_destination_land_use.png"
+      },
+      "question": "How do purpose compositions differ between work and Mixte destinations?",
+      "code": "pd.crosstab(df.destination_land_use, df.purpose_group)",
+      "insight_type": "group_comparison",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "land_use_reference",
+        "trip_purpose",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "economic_morning_vs_mixed_time_distribution",
+      "insight": "Trips to employment destinations are more concentrated in weekday morning periods, whereas trips to Mixte destinations are distributed more broadly across the day.",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Departure Timing by Destination Land-use",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/departure_time_by_land_use.png"
+      },
+      "question": "How does departure-time concentration differ between employment and Mixte destinations?",
+      "code": "pd.crosstab(df.destination_land_use, df.start_hour)",
+      "insight_type": "group_comparison",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "land_use_reference",
+        "trajectory_timestamp",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "land_use_distance_mode_composition",
+      "insight": "Trips to Mixte destinations are typically shorter and more active-mode-oriented, whereas longer trips to employment areas rely more on motorized modes.",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Distance and Transport Mode by Land-use",
+        "description": "The plot is generated from the supplied case tables.",
+        "files": [
+          "visualizations/distance_scatter_by_land_use_mode.png",
+          "visualizations/distance_mode_by_land_use.png"
+        ]
+      },
+      "question": "How do transport modes vary across distance bands for Mixte versus employment destinations?",
+      "code": "pd.crosstab([df.destination_land_use, pd.cut(df.distance_km,[0,2.5,6,100])], df.mode_group)",
+      "insight_type": "factor_relationship",
+      "evidence": "Trajectories to Mixte destinations are generally short in this case. Transport-mode composition also changes substantially with trajectory distance and destination land-use: short trajectories to Mixte destinations more often use walking or cycling, while longer trajectories to employment destinations rely more on motor vehicles or public transit.",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "land_use_reference",
+        "transport_mode",
+        "trajectory_id",
+        "point_speed"
+      ]
+    }
+  ],
+  "insights": [
+    "Trajectories ending in employment areas more often correspond to work or business purposes, whereas Mixte destinations contain every purpose group represented in this case, including small work and business components alongside shopping, dining, leisure, health, and education.",
+    "Trips to employment destinations are more concentrated in weekday morning periods, whereas trips to Mixte destinations are distributed more broadly across the day.",
+    "Trips to Mixte destinations are typically shorter and more active-mode-oriented, whereas longer trips to employment areas rely more on motorized modes."
+  ],
+  "summary": "Employment destinations are more often associated with work or business purposes and with morning travel. Mixte destinations include every purpose group represented in this case, span a broader range of departure times, and more often receive short walking or cycling trips; longer trips to employment destinations rely more on motor vehicles or public transit.",
+  "evidence_policy": "Claims describe patterns in this dataset and do not establish causal relationships."
+}

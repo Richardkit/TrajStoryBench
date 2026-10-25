@@ -1,0 +1,107 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/worldtrace/25_daily_chain_mode_weather_structure/trajectories.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/worldtrace/25_daily_chain_mode_weather_structure/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/worldtrace/25_daily_chain_mode_weather_structure/trajectory_points.csv",
+      "role": "Timestamped raw and matched-road trajectory points"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze how the user's trips are organized across the day and identify variations in daily travel structure.",
+    "role": "Mobility-pattern analyst",
+    "category": "Daily trip chains, mode allocation, weather, temperature, and route replacement",
+    "header": "Daily Chain Mode and Weather Structure",
+    "dataset_description": "An independently constructed, road-aligned WorldTrace case containing 168 trajectories."
+  },
+  "insight_list": [
+    {
+      "data_type": "worldtrace_ex25_insight_1",
+      "insight": "Most active days form multi-trip chains that eventually return near the day's starting area.",
+      "plot": {
+        "plot_type": "question_specific_summary",
+        "files": [
+          "visualizations/insight_1.png"
+        ],
+        "title": "Daily Chain Mode and Weather Structure: Insight 1",
+        "description": "Question-specific evidence computed from the synchronized trajectory and point tables; the case-level route overview is retained separately."
+      },
+      "question": "How many active days form multi-trip chains that return near their starting area?",
+      "actionable_insight": "Group trajectories by service date, order their segments, and compare daily start and end positions.",
+      "code": "print(df.groupby('service_date').first()[['segments_in_day','daily_return_distance_m','day_returns_near_start']])",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trajectory_timestamp",
+        "trajectory_id",
+        "gps_position",
+        "user_id",
+        "transport_mode"
+      ]
+    },
+    {
+      "data_type": "worldtrace_ex25_insight_2",
+      "insight": "Public transport takes the largest share of trips on weekdays, especially for first and last segments of one day's multi-trip chain.",
+      "plot": {
+        "plot_type": "question_specific_summary",
+        "files": [
+          "visualizations/insight_2.png"
+        ],
+        "title": "Daily Chain Mode and Weather Structure: Insight 2",
+        "description": "Question-specific evidence computed from the synchronized trajectory and point tables; the case-level route overview is retained separately."
+      },
+      "question": "Which modes account for weekday travel, especially at the first and last chain positions?",
+      "actionable_insight": "Compute distance-weighted mode shares for all weekday trips and by chain position.",
+      "code": "q=df[df.day_type.eq('weekday')]; print(q.groupby('travel_mode').trajectory_distance_km.sum()/q.trajectory_distance_km.sum()); print(q.groupby(['chain_position','travel_mode']).trajectory_distance_km.sum().unstack(fill_value=0))",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trajectory_timestamp",
+        "trajectory_id",
+        "transport_mode",
+        "matched_road_position",
+        "user_id"
+      ]
+    },
+    {
+      "data_type": "worldtrace_ex25_insight_3",
+      "insight": "Car trips are always accompanied by rain or hot weather and replace public transport trips on weekdays.",
+      "plot": {
+        "plot_type": "question_specific_summary",
+        "files": [
+          "visualizations/insight_3.png"
+        ],
+        "title": "Daily Chain Mode and Weather Structure: Insight 3",
+        "description": "Question-specific evidence computed from the synchronized trajectory and point tables; the case-level route overview is retained separately."
+      },
+      "question": "Under which conditions do car trips occur, and do they occupy usual public-transport route slots?",
+      "actionable_insight": "Track public-transport and car shares on the same route slots across rainfall intensities, and inspect temperature-linked replacement on a fixed route template.",
+      "code": "w=df[df.day_type.eq('weekday')]; q=w[w.usual_public_transport_segment & w.chain_template.isin(['template_1','template_2','template_3'])]; print(q.groupby(['service_date','rainfall_mm_h','travel_mode']).size().unstack(fill_value=0)); print(w[w.usual_public_transport_segment & w.chain_template.eq('template_4')].groupby(['temperature_c','travel_mode']).size().unstack(fill_value=0))",
+      "insight_type": "exception_deviation",
+      "difficulty_level": 6,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trajectory_timestamp",
+        "trajectory_id",
+        "gps_position",
+        "transport_mode",
+        "rainfall",
+        "temperature"
+      ]
+    }
+  ],
+  "insights": [
+    "Most active days form multi-trip chains that eventually return near the day's starting area.",
+    "Public transport takes the largest share of trips on weekdays, especially for first and last segments of one day's multi-trip chain.",
+    "Car trips are always accompanied by rain or hot weather and replace public transport trips on weekdays."
+  ],
+  "summary": "Most active days form multi-trip chains that eventually return near the day's starting area. Public transport takes the largest share of trips on weekdays, especially for first and last segments of one day's multi-trip chain. Car trips are always accompanied by rain or hot weather and replace public transport trips on weekdays."
+}

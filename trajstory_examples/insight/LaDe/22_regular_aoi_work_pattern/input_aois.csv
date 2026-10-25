@@ -1,0 +1,7 @@
+aoi_id,center_lng,center_lat,radius_m,region_id,regular_aoi,boundary_provenance
+A,121.4399434,31.2325754,55,Shanghai_Puxi,yes,constructed
+B,121.4604414,31.2385758,55,Shanghai_Puxi,yes,constructed
+C,121.4288835,31.2511729,55,Shanghai_Puxi,no,constructed
+D,121.4726614,31.2208478,55,Shanghai_Puxi,no,constructed
+E,121.4469843,31.2580039,55,Shanghai_Puxi,no,constructed
+F,121.4805154,31.2339521,55,Shanghai_Puxi,no,constructed

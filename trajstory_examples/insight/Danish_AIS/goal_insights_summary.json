@@ -1,0 +1,569 @@
+{
+  "schema_version": "1.0",
+  "dataset_family": "Danish_AIS",
+  "case_count": 25,
+  "insight_count": 80,
+  "cases": [
+    {
+      "case_id": "danish_ais_01_shared_corridor_day",
+      "goal": "Understand how vessels organize themselves within a specific maritime corridor over the course of the day.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Traffic is concentrated along a narrow through-corridor during the busier parts of the day, while lower-activity periods show more peripheral movement.",
+          "evidence": {
+            "spatial_group_rule": "A vessel belongs to Corridor vicinity when at least 60% of its GPS positions have an absolute north-south offset of at most 0.8 km from the fitted ridge; otherwise Outside corridor. Track length is not a grouping rule; outside routes may cross the band.",
+            "corridor_definition": "GPS-derived dominant quadratic ridge, scored against all observed positions and refined on its inliers. The dashed band is a fixed ±0.8 km north-south latitude offset. No external lane attribute, time, speed or draught enters its fit.",
+            "dispersion_metric": "For each vessel, median(abs(latitude - fitted_latitude(longitude)) * 111.32) km; then the median across vessels in a window. This is north-south lateral offset, not shortest geodesic distance. Each vessel has equal weight.",
+            "observation_window": "00:00–16:00; counts measure activity within the selected sample, not population-level Danish AIS traffic.",
+            "computed_statistics": {
+              "window_hours": 4,
+              "counting_unit": "Distinct active vessel per window; trajectory_id is only a grouping key and maps one-to-one to vessel_id in this sample.",
+              "active_vessels": {
+                "0": 8,
+                "4": 24,
+                "8": 8,
+                "12": 8
+              },
+              "corridor_vessels": {
+                "0": 1,
+                "4": 24,
+                "8": 2,
+                "12": 1
+              },
+              "outside_corridor_vessels": {
+                "0": 7,
+                "4": 0,
+                "8": 6,
+                "12": 7
+              },
+              "median_vessel_lateral_offset_km": {
+                "0": 2.851,
+                "4": 0.117,
+                "8": 3.139,
+                "12": 2.807
+              },
+              "share_positions_outside_08km_band": {
+                "0": 0.7979,
+                "4": 0.0,
+                "8": 0.6915,
+                "12": 0.8085
+              },
+              "reference_band_full_north_south_width_km": 1.6
+            }
+          }
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "The corridor contains a mixture of steadily moving vessels and slower or nearly stationary tracks, creating different movement regimes within the same maritime area.",
+          "evidence": {
+            "computed_statistics": {
+              "steady_trajectories": 36,
+              "slow_trajectories": 8,
+              "nearly_stationary_trajectories": 4
+            }
+          }
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Vessels in the narrow through-corridor have noticeably deeper reported draughts than vessels using the corridor edges.",
+          "evidence": {
+            "spatial_group_rule": "A vessel belongs to Corridor vicinity when at least 60% of its GPS positions have an absolute north-south offset of at most 0.8 km from the fitted ridge; otherwise Outside corridor. Track length is not a grouping rule; outside routes may cross the band.",
+            "corridor_definition": "GPS-derived dominant quadratic ridge, scored against all observed positions and refined on its inliers. The dashed band is a fixed ±0.8 km north-south latitude offset. No external lane attribute, time, speed or draught enters its fit.",
+            "computed_statistics": {
+              "Corridor vicinity": {
+                "vessels": 28,
+                "median_draught_m": 11.45,
+                "min_draught_m": 7.6,
+                "max_draught_m": 14.5
+              },
+              "Outside corridor": {
+                "vessels": 20,
+                "median_draught_m": 6.25,
+                "min_draught_m": 3.8,
+                "max_draught_m": 9.2
+              }
+            }
+          }
+        }
+      ],
+      "summary": "The case shows a time-varying maritime corridor with a concentrated through-route, slower peripheral activity, and a spatial difference in reported vessel draught."
+    },
+    {
+      "case_id": "danish_ais_02_passage_and_holding_area",
+      "goal": "Examine the operating conditions of the given vessels passing through the corridor on two days and compare them.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "The first day has three times as many vessels passing clearly through the corridor as the second day."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "On the first day, nearly all corridor passages are eastbound along the mapped east-west corridor, whereas the second day contains a much more balanced mix of eastbound and westbound passages."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "The second day has more than twice as many vessels anchored near the corridor as the first day."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "On both days, anchored vessels are predominantly classified as Cargo, with only a small number assigned to other ship-type categories."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Only a small number of vessels pass through the corridor on both days, while four vessels—about half of the first day's anchored vessels—are anchored near the corridor on both days."
+        }
+      ],
+      "summary": "The two-day case contrasts a busy, predominantly eastbound passage day with a quieter, directionally balanced day that has substantially more anchoring near the corridor and limited vessel recurrence."
+    },
+    {
+      "case_id": "danish_ais_03_multi_day_vessel_anomalies",
+      "goal": "Analyze the repeated passages of one vessel through the same maritime corridor over multiple days and identify possible trajectory anomalies.",
+      "insights": [
+        {
+          "insight_type": "exception_deviation",
+          "insight": "On the eastbound trajectory beginning on 2026-07-22 at 06:00, the vessel reaches the recurring turn point near 54.660°N, 10.980°E at point index 5 (06:30) but does not make the expected north-east course change observed in the other eastbound passages."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "After missing the expected turn, the 2026-07-22 eastbound trajectory makes a distinct corrective turn around point index 20 (08:00) and then rejoins the typical corridor. The resulting off-center section is limited to a small part of the complete passage."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "On the westbound trajectory beginning on 2026-07-21 at 18:00, the vessel leaves the main corridor near the central bend, spends several observations on a separated path with speeds close to 1 knot, and then returns to the corridor and resumes normal forward movement."
+        }
+      ],
+      "summary": "Across four days of repeated eastbound and westbound passages by one vessel, most trajectories follow the same corridor geometry. One eastbound passage misses a recurring turn and later corrects its course, while another westbound passage temporarily leaves the corridor, slows substantially, and then resumes the normal route."
+    },
+    {
+      "case_id": "danish_ais_04_bornholmsgat_vs_great_belt",
+      "goal": "Analyze trajectories from Bornholmsgat and the Great Belt observed during the same time window and identify their similarities and differences.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Vessels observed in Bornholmsgat have noticeably deeper reported draughts than those in the Great Belt; the maximum reported draught in the Great Belt subset is 14.0 m."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Cargo vessels are the dominant vessel type in both corridors, forming the largest group in Great Belt traffic and also the largest group in Bornholmsgat traffic."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Bornholmsgat contains several passenger-ferry trajectories, whereas the Great Belt contains only one passenger-ferry trajectory in the selected time window."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "The Great Belt trajectories occupy a visibly narrower and more tightly concentrated main corridor, while Bornholmsgat trajectories spread across a wider traffic band around the principal route."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "Several Bornholmsgat trajectories cross the principal traffic direction on near-perpendicular paths, while the Great Belt trajectories in the selected period remain aligned with the main north-south corridor and show no comparable transverse tracks."
+        }
+      ],
+      "summary": "During the same observed time window, Bornholmsgat contains deeper-draught traffic, several passenger ferries, a wider spread of trajectory positions, and transverse crossing tracks. Great Belt traffic is also cargo-dominant but is concentrated in a narrower main corridor, contains very few ferries, and shows no comparable crossing behavior."
+    },
+    {
+      "case_id": "danish_ais_05_structured_corridor_voyage_behaviors",
+      "goal": "Analyze how the vessel navigates within a structured shipping corridor and identify any route-following, crossing, or recovery behaviors that distinguish the voyage.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "The vessel follows the dominant traffic lane closely for most of the voyage, with its course remaining well aligned with the surrounding commercial traffic flow."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "The vessel continues beyond the typical turning point without making the expected course change, then performs a pronounced corrective turn to rejoin the established shipping route."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "Rather than travelling along the dominant traffic corridor, the vessel crosses the main shipping flow at a large angle, producing a movement pattern clearly different from ordinary lane-following traffic."
+        }
+      ],
+      "summary": "The target vessel follows the principal commercial lane for much of the voyage, but misses an expected turn, executes a visible corrective maneuver to rejoin the established branch, and later crosses the principal traffic flow at a large angle. These three phases distinguish it from ordinary lane-following traffic."
+    },
+    {
+      "case_id": "danish_ais_06_kattegat_route_structure",
+      "goal": "Analyze the given vessel trajectories and summarize the typical routes in this part of the Kattegat, together with their traffic characteristics.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Three recurrent bidirectional traffic corridors structure the selected Kattegat area: Route A follows a southwest–northeast corridor southeast of Anholt, Route B is a northwest–southeast cross-Kattegat corridor west of Anholt, and Route E follows a southwest–northeast corridor on the western side of the project area."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Route A is tanker-dominated, with 12 of its 18 vessel trajectories classified as Tanker (67%). Cargo traffic is most pronounced on Route B (11 of 15 trajectories, 73%) and Route E (8 of 14 trajectories, 57%)."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "For all three route families, directional-lane track positions are not symmetric around their nominal lane centres."
+        }
+      ],
+      "summary": "Traffic in the selected Kattegat area is organized around three recurring official-style bidirectional corridors. Their vessel composition differs clearly: Route A is tanker-dominated, whereas cargo traffic is more prominent on Routes B and E. Across the corridors, vessels also favour the outer side of their directional lane instead of being centred symmetrically between opposing flows."
+    },
+    {
+      "case_id": "danish_ais_07_kattegat_ferry_traffic_patterns",
+      "goal": "To detect and investigate movement patterns of ferry traffic with given trajectories of ferry vessels in this area.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Two ferry services operate in the area: M/F Anholt runs between Grenaa and Anholt, while Stena Nautica runs between Grenaa and Varberg."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "The Grenaa–Varberg ferry represented by Stena Nautica has approximately 300 annual movements north of Anholt and 900 south of Anholt."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The central turning point of Stena Nautica's Grenaa–Varberg passages south of Anholt shifts southward."
+        }
+      ],
+      "summary": "Two recurrent ferry services connect Grenaa with Anholt and Varberg. Stena Nautica’s Grenaa–Varberg service is much more concentrated south of Anholt than north of it. In the later period, its south-of-Anholt route shifts to a second, more southerly turning pattern before continuing toward Varberg."
+    },
+    {
+      "case_id": "danish_ais_08_kattegat_fishing_vessel_patterns",
+      "goal": "To detect and investigate movement patterns of fishing vessels with given trajectories of fishing vessels and other type vessels in this area.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Three main harbours structure fishing activity in the selected sea area: Anholt, Bønnerup, and Grenaa. They account for 33 of 36 observed fishing-trip endpoints, whereas the supplied small harbours receive only occasional calls."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Fishing vessels are predominantly small: 15 of 18 fishing vessels are shorter than 15 m, while only three are larger fishing vessels."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Fishing-vessel trajectories are far more spatially dispersed than the larger cargo and tanker trajectories. The larger vessels closely follow the supplied A and E official transit references, whereas fishing vessels repeatedly move between nearshore grounds and harbours and do not consistently align with either corridor."
+        }
+      ],
+      "summary": "Fishing activity in the selected Kattegat area is concentrated around Anholt, Bønnerup, and Grenaa, and most fishing vessels are small. Unlike the provided cargo and tanker movements, fishing trajectories disperse among nearshore grounds and harbour calls rather than closely tracking the two official transit corridors."
+    },
+    {
+      "case_id": "danish_ais_09_single_vessel_sailing_stages",
+      "goal": "Analyze the sailing patterns of a single vessel from its given trajectories, identify its typical voyage processes, and detect anomalous trajectories that depart from those processes.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The typical voyage process is stable across 11 trajectories: Under way using engine when leaving Harbour Orion, followed by an intermediate At anchor stage, Under way sailing, Restricted manoeuvrability on the approach to Harbour Lyra, and At anchor after arrival."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Every normal transition from Under way sailing to Restricted manoeuvrability contains a large course change. The turn redirects the vessel from its eastbound transit toward Harbour Lyra, where the final anchoring stage occurs."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "voyage_12_direct_nonstop is the sole process anomaly. It does not anchor at the intermediate anchorage before arriving at Harbour Lyra, and its mean SOG is higher than for the typical voyages (10.19 versus 7.29 knots). Its turning point is farther north, so the final turn is milder and its mean absolute ROT is substantially lower (0.43 versus 1.24 degrees per minute)."
+        }
+      ],
+      "summary": "Across 11 repeated voyages, MV Aurora follows a stable five-stage sailing process with an intermediate anchorage and a large final harbour-approach turn. voyage_12_direct_nonstop is the only exception: it bypasses the intermediate anchorage, maintains a higher average SOG, and takes a farther-north, lower-ROT approach to Harbour Lyra."
+    },
+    {
+      "case_id": "danish_ais_10_dynamic_vessel_status_over_time",
+      "goal": "Investigate the dynamic status of the vessel over time from its trajectory, with particular attention to changing movement dynamics.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The vessel develops a sustained heading–course discrepancy during the middle portion of its trajectory before gradually realigning."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The vessel transitions from nearly straight navigation to a middle period of intensive manoeuvring with frequent course changes, then returns to stable alignment between heading and COG later in the trajectory."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The vessel shifts from fast, directionally stable navigation into a slower and more manoeuvre-intensive phase, before resuming faster and steadier movement later in the trajectory."
+        }
+      ],
+      "summary": "The vessel is dynamically stable at the beginning and end of the voyage, but its middle interval has a sustained heading–course offset, slower speed, and frequent turning. These signals identify one concentrated manoeuvring phase followed by a gradual return to stable transit."
+    },
+    {
+      "case_id": "danish_ais_11_individual_vessel_movement_patterns",
+      "goal": "Investigate how individual vessels differ in their movement patterns within the corridor.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Vessels A, B, and C repeatedly traverse the corridor along relatively stable routes, with close alignment between heading and COG and smooth changes in heading."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Vessels D and E follow more variable routes across the corridor and show substantially larger differences between heading and COG."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Compared with Vessels A, B, and C, Vessels D and E frequently stop or anchor during their passages before continuing through the corridor."
+        }
+      ],
+      "summary": "Vessels A, B, and C repeatedly follow narrow, heading-aligned corridor routes. Vessels D and E use routes about five times more dispersed, maintain heading–COG gaps around 22 degrees rather than below half a degree, and anchor during 18 and 17 of their 30 passages, respectively."
+    },
+    {
+      "case_id": "danish_ais_12_vessel_characteristics_and_route_choice",
+      "goal": "Investigate how vessel characteristics are associated with route choice in the sea area.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Traffic is organized around one heavily used offshore transit route and several lower-volume routes connecting local harbours and coastal waters."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Larger cargo and tanker vessels are concentrated on the main offshore routes, while smaller vessels are more common on routes connected to local harbours."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "On the main offshore route, cargo and tanker traffic follows the route closely, while fishing vessels show more spatially dispersed movement with moderate deviations from the route."
+        }
+      ],
+      "summary": "Traffic is organized around one heavily used offshore transit route and several lower-volume routes connecting local harbours and coastal waters. Larger cargo and tanker vessels are concentrated on the main offshore routes, while smaller vessels are more common on routes connected to local harbours. On the main offshore route, cargo and tanker traffic follows the route closely, while fishing vessels show more spatially dispersed movement with moderate deviations from the route."
+    },
+    {
+      "case_id": "danish_ais_13_anholt_island_route_use",
+      "goal": "Analyze vessel movement patterns around the island and investigate differences in route use.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Vessel traffic around the island is organized into three main passage routes."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Two of the three main routes show a stable speed distribution and a consistent direction of travel, while the other shows a smooth change of direction."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Larger vessels are more likely to travel on the northwest–northeast route, while smaller vessels are more likely to travel on the other two routes."
+        }
+      ],
+      "summary": "Vessel traffic around the island is organized into three main passage routes. Two of the three main routes show a stable speed distribution and a consistent direction of travel, while the other shows a smooth change of direction. Larger vessels are more likely to travel on the northwest–northeast route, while smaller vessels are more likely to travel on the other two routes."
+    },
+    {
+      "case_id": "danish_ais_14_time_of_day_vessel_dynamics",
+      "goal": "Analyze how vessel traffic and movement patterns vary across different periods of the day.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "In the early morning and later afternoon, traffic contains more small-vessel movements and more frequent short-term COG changes than during comparable evening and midday periods."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Generally, speeds are stable and higher in the mornings but lower and more variable in the afternoons, especially for fishing vessels."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "In the evenings and at night, the consistency between COG and heading decreases, especially for smaller vessels."
+        }
+      ],
+      "summary": "In the early morning and later afternoon, traffic contains more small-vessel movements and more frequent short-term COG changes than during comparable evening and midday periods. Generally, speeds are stable and higher in the mornings but lower and more variable in the afternoons, especially for fishing vessels. In the evenings and at night, the consistency between COG and heading decreases, especially for smaller vessels."
+    },
+    {
+      "case_id": "danish_ais_15_summer_winter_vessel_type_changes",
+      "goal": "Investigate how vessel movement patterns vary across vessel types and between summer and winter.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Ferry and fishing traffic increases sharply during summer and remains much lower during winter, while cargo traffic shows less seasonal variation."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Generally, in the summer months, the mean speeds of different vessel types are higher than in the winter months."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The consistency between COG and heading is higher in the summer months than in the winter months, especially for fishing vessels."
+        }
+      ],
+      "summary": "Ferry and fishing traffic increases sharply during summer and remains much lower during winter, while cargo traffic shows less seasonal variation. Generally, in the summer months, the mean speeds of different vessel types are higher than in the winter months. The consistency between COG and heading is higher in the summer months than in the winter months, especially for fishing vessels."
+    },
+    {
+      "case_id": "danish_ais_16_vessel_factors_and_movement",
+      "goal": "Find what factors influence vessel movements in the sea area within the time period.",
+      "insights": [
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Larger vessel size is associated with greater consistency between COG and heading, while smaller vessels show more frequent short-term differences."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Draught affects vessel routes, with shallow-draught vessels travelling closer to and sometimes along the coast."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Low-speed movements and recurrent routes are often associated with ferry vessels."
+        }
+      ],
+      "summary": "Larger vessel size is associated with greater consistency between COG and heading, while smaller vessels show more frequent short-term differences. Draught affects vessel routes, with shallow-draught vessels travelling closer to and sometimes along the coast. Low-speed movements and recurrent routes are often associated with ferry vessels."
+    },
+    {
+      "case_id": "danish_ais_17_constrained_area_navigation_adjustment",
+      "goal": "Analyze how vessels adjust their movements when navigating around the constrained area.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Most vessels bypass the constrained area along a consistent side and gradually rejoin the main traffic flow after passing it."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Most vessels begin changing their heading before reaching the constrained area, while the corresponding COG changes more gradually and realigns with heading after the main turn is completed."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Faster-moving vessels tend to initiate their course adjustment farther from the constrained area, while slower vessels make comparable directional changes closer to its boundary."
+        }
+      ],
+      "summary": "Most vessels bypass the constrained area along a consistent side and gradually rejoin the main traffic flow after passing it. Most vessels begin changing their heading before reaching the constrained area, while the corresponding COG changes more gradually and realigns with heading after the main turn is completed. Faster-moving vessels tend to initiate their course adjustment farther from the constrained area, while slower vessels make comparable directional changes closer to its boundary."
+    },
+    {
+      "case_id": "danish_ais_18_long_straight_passage_dynamics",
+      "goal": "Analyze the vessel movement patterns along a long and relatively straight passage.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "The vessel maintains stable heading and COG and nearly straight trajectories over long portions of the passage, with only limited directional changes during the main transit phase."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Each passage generally includes a status transition phase, during which the vessel changes from restricted manoeuvrability to under way using engine, accompanied by a smooth increase in speed."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "In a few cases, COG does not respond to a heading change, resulting in temporary anchoring for restarting."
+        }
+      ],
+      "summary": "The vessel maintains stable heading and COG and nearly straight trajectories over long portions of the passage, with only limited directional changes during the main transit phase. Each passage generally includes a status transition phase, during which the vessel changes from restricted manoeuvrability to under way using engine, accompanied by a smooth increase in speed. In a few cases, COG does not respond to a heading change, resulting in temporary anchoring for restarting."
+    },
+    {
+      "case_id": "danish_ais_19_harbour_offshore_repeated_operations",
+      "goal": "Investigate the repeated operating patterns of vessels travelling between a harbour and nearby offshore areas.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "A large share of the repeated offshore activity is generated by the same fishing vessel, whose voyages consistently connect the harbour with a compact offshore working area."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The fishing vessel alternates between direct harbour transits and low-speed offshore operations before returning to the harbour."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "There are also some ferry vessels that repeatedly travel between the harbour and offshore areas, but they are less frequent and show more consistent speed and heading patterns than the fishing vessel."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "When the fishing vessel approaches ferry vessels, it tends to increase speed to move away quickly and changes its status from under way fishing to under way using engine."
+        }
+      ],
+      "summary": "A large share of the repeated offshore activity is generated by the same fishing vessel, whose voyages consistently connect the harbour with a compact offshore working area. The fishing vessel alternates between direct harbour transits and low-speed offshore operations before returning to the harbour. There are also some ferry vessels that repeatedly travel between the harbour and offshore areas, but they are less frequent and show more consistent speed and heading patterns than the fishing vessel. When the fishing vessel approaches ferry vessels, it tends to increase speed to move away quickly and changes its status from under way fishing to under way using engine."
+    },
+    {
+      "case_id": "danish_ais_20_vessel_type_movement_comparison",
+      "goal": "Analyze how movement patterns differ among vessel types operating in the same maritime area.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Cargo and tanker vessels mainly make long, continuous passages across the area, while fishing vessels repeatedly remain within smaller local operating regions before continuing their trips."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Fishing trajectories alternate between direct transit and low-speed manoeuvring, while cargo and tanker trajectories remain more stable in speed and direction."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Vessel type is associated with trajectory recurrence: fishing vessels frequently revisit the same local operating areas, while cargo and tanker vessels are more likely to pass through without repeated local movements."
+        }
+      ],
+      "summary": "Cargo and tanker vessels mainly make long, continuous passages across the area, while fishing vessels repeatedly remain within smaller local operating regions before continuing their trips. Fishing trajectories alternate between direct transit and low-speed manoeuvring, while cargo and tanker trajectories remain more stable in speed and direction. Vessel type is associated with trajectory recurrence: fishing vessels frequently revisit the same local operating areas, while cargo and tanker vessels are more likely to pass through without repeated local movements."
+    },
+    {
+      "case_id": "danish_ais_21_bidirectional_traffic_flow",
+      "goal": "Analyze how vessels organize and adjust their movements within a broad bidirectional traffic flow.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Northbound and southbound traffic forms two laterally offset movement bands, with northbound vessels concentrated farther west."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Most vessels maintain stable COG and lateral position for long periods, interrupted by short manoeuvring phases with lower speed and greater directional variation before stable navigation resumes."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Lower-speed passages show greater lateral dispersion within both directional flows, while faster passages remain more tightly concentrated within their dominant movement bands."
+        }
+      ],
+      "summary": "Northbound and southbound traffic forms two laterally offset movement bands, with northbound vessels concentrated farther west. Most vessels maintain stable COG and lateral position for long periods, interrupted by short manoeuvring phases with lower speed and greater directional variation before stable navigation resumes. Lower-speed passages show greater lateral dispersion within both directional flows, while faster passages remain more tightly concentrated within their dominant movement bands."
+    },
+    {
+      "case_id": "danish_ais_22_constrained_area_bypass_dynamics",
+      "goal": "Analyze how vessels adapt their movement patterns when navigating around a constrained maritime area.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Most vessels avoid the constrained area via a small number of recurring bypass paths."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Near the constrained area, high-traffic periods show more frequent short-term speed adjustments."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Later detours are associated with sharper turns and larger temporary speed reductions."
+        }
+      ],
+      "summary": "Most vessels avoid the constrained area via a small number of recurring bypass paths. Near the constrained area, high-traffic periods show more frequent short-term speed adjustments. Later detours are associated with sharper turns and larger temporary speed reductions."
+    },
+    {
+      "case_id": "danish_ais_23_tourist_vessel_coastal_activity",
+      "goal": "Analyze how tourist vessel movement patterns vary across time and different coastal operating areas.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Tourist vessel activity increases during weekend daytime periods, with departures spanning a wider portion of the day than on comparable weekdays."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Most tourist vessels remain close to the coastline, while a smaller recurring group makes longer offshore trips to and from coastal harbour areas."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Farther-offshore trips generally maintain higher and more stable speeds, while nearshore movements show lower speeds and more frequent directional changes."
+        }
+      ],
+      "summary": "Tourist vessel activity increases during weekend daytime periods, with departures spanning a wider portion of the day than on comparable weekdays. Most tourist vessels remain close to the coastline, while a smaller recurring group makes longer offshore trips to and from coastal harbour areas. Farther-offshore trips generally maintain higher and more stable speeds, while nearshore movements show lower speeds and more frequent directional changes."
+    },
+    {
+      "case_id": "danish_ais_24_mon_mixed_traffic_interactions",
+      "goal": "Analyze how different vessel movements interact in the waters east of Møn and how their navigation changes across different traffic conditions.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Cargo and tanker vessels mainly follow stable through-traffic paths, while ferry vessels repeatedly cross these flows and tourist vessels show more dispersed movements across the area."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Repeated ferry vessel crossings typically contain a short phase of reduced speed and increased COG variation near the main traffic flow, followed by a return to more stable movement after the crossing."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Through-traffic vessels show more frequent short-term speed and course adjustments during periods with heavier crossing traffic, while their movement remains more stable when crossing activity is sparse."
+        }
+      ],
+      "summary": "Cargo and tanker vessels mainly follow stable through-traffic paths, while ferry vessels repeatedly cross these flows and tourist vessels show more dispersed movements across the area. Repeated ferry vessel crossings typically contain a short phase of reduced speed and increased COG variation near the main traffic flow, followed by a return to more stable movement after the crossing. Through-traffic vessels show more frequent short-term speed and course adjustments during periods with heavier crossing traffic, while their movement remains more stable when crossing activity is sparse."
+    },
+    {
+      "case_id": "danish_ais_25_great_belt_bend_manoeuvring",
+      "goal": "Analyze how vessels navigate the major bend around southern Langeland in Langelandsbælt, in the southern Great Belt, and identify recurring movement patterns and differences in manoeuvring behaviour.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Traffic around southern Langeland forms three recurring manoeuvring patterns: an earlier tighter inshore turn, a consistent medium-radius DW-route turn, and a later wider turn on the Route H side."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Larger cargo and tanker vessels typically reduce speed before the main turn, remain slower through the strongest directional change, and gradually recover speed after leaving the bend."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Higher-draught vessels are more likely to follow the more consistent deep-water turning pattern, while lower-draught vessels occupy a broader range of turning paths."
+        }
+      ],
+      "summary": "Traffic around southern Langeland forms three recurring manoeuvring patterns: an earlier tighter inshore turn, a consistent medium-radius DW-route turn, and a later wider turn on the Route H side. Larger cargo and tanker vessels typically reduce speed before the main turn, remain slower through the strongest directional change, and gradually recover speed after leaving the bend. Higher-draught vessels are more likely to follow the more consistent deep-water turning pattern, while lower-draught vessels occupy a broader range of turning paths."
+    }
+  ]
+}

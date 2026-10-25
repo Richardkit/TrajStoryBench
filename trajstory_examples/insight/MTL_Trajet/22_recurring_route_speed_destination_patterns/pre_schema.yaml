@@ -1,0 +1,22 @@
+# Partial specification for data construction.
+# Fill in only the concepts and constraints you want to control.
+# Any omitted IDs, timestamps, GPS points, metrics, or support tables may be
+# added when they are necessary to realize the supplied goal and insights.
+
+pre_schema_version: "1.0"
+
+# Optional one-line context for the constructor.
+domain: "" # e.g., urban_multimodal_mobility
+goal: "Analyze characteristic patterns and variations in recurring urban mobility."
+insights_type_list: [temporal_dynamics, group_comparison, group_comparison, overall_pattern]
+insights:
+  - "Recurring routes generally preserve similar speed profiles, especially during the middle portions of trips."
+  - "Motor-vehicle trips departing closer to peak periods show larger speed fluctuations and lower lower-tail speeds, even along repeatedly used routes."
+  - "Recurring trips to employment areas are more concentrated on weekdays and use consistent transportation modes, while repeated trips to mixed-use areas span more purposes and departure times."
+  - "Across users, recurring trips concentrate on a small set of destinations, while occasional trips account for most spatial and purpose diversity."
+
+explanation:
+  
+fields:
+    
+constraints:

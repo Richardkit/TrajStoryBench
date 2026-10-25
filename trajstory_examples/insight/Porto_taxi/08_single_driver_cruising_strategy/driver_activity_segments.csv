@@ -1,0 +1,51 @@
+segment_id,driver_id,start_time,end_time,duration_min,operating_state,region,cruising_purpose,order_id,request_source,mean_speed_kmh,start_longitude,start_latitude,end_longitude,end_latitude
+seg_01,taxi_driver_27,2016-06-16 10:00:00,2016-06-16 10:12:00,12.0,cruising,central district,other_time_central_circling,,,17.28,-8.64133,41.161695,-8.624877,41.156037
+seg_02,taxi_driver_27,2016-06-16 10:12:00,2016-06-16 10:32:00,20.0,cruising,western inner city,other_area_circling,,,15.78,-8.624877,41.156037,-8.63388,41.157786
+seg_03,taxi_driver_27,2016-06-16 10:32:00,2016-06-16 10:36:00,4.0,driving_to_pickup,western inner city,to_pickup,order_01,street_hail,30.76,-8.63388,41.157786,-8.63388,41.157786
+seg_04,taxi_driver_27,2016-06-16 10:36:00,2016-06-16 10:48:00,12.0,passenger_trip,western inner city,passenger_service,order_01,street_hail,34.4,-8.63388,41.157786,-8.610881,41.148079
+seg_05,taxi_driver_27,2016-06-16 10:48:00,2016-06-16 11:03:00,15.0,cruising,central district,other_time_central_circling,,,16.87,-8.610881,41.148079,-8.61486,41.150977
+seg_06,taxi_driver_27,2016-06-16 11:03:00,2016-06-16 11:25:00,22.0,cruising,riverside area,other_area_circling,,,19.77,-8.61486,41.150977,-8.61486,41.150977
+seg_07,taxi_driver_27,2016-06-16 11:25:00,2016-06-16 11:29:00,4.0,driving_to_pickup,riverside area,to_pickup,order_02,central_dispatch,27.55,-8.61486,41.150977,-8.621013,41.142935
+seg_08,taxi_driver_27,2016-06-16 11:29:00,2016-06-16 11:43:00,14.0,passenger_trip,riverside area,passenger_service,order_02,central_dispatch,32.47,-8.621013,41.142935,-8.571779,41.173257
+seg_09,taxi_driver_27,2016-06-16 11:43:00,2016-06-16 11:56:00,13.0,cruising,central district,other_time_central_circling,,,19.29,-8.571779,41.173257,-8.606987,41.148983
+seg_10,taxi_driver_27,2016-06-16 11:56:00,2016-06-16 12:15:00,19.0,cruising,eastern neighbourhood,other_area_circling,,,17.41,-8.606987,41.148983,-8.573668,41.168672
+seg_11,taxi_driver_27,2016-06-16 12:15:00,2016-06-16 12:19:00,4.0,driving_to_pickup,eastern neighbourhood,to_pickup,order_03,street_hail,26.79,-8.573668,41.168672,-8.573668,41.168672
+seg_12,taxi_driver_27,2016-06-16 12:19:00,2016-06-16 12:33:00,14.0,passenger_trip,eastern neighbourhood,passenger_service,order_03,street_hail,34.54,-8.573668,41.168672,-8.615985,41.15104
+seg_13,taxi_driver_27,2016-06-16 12:33:00,2016-06-16 13:10:00,37.0,cruising,northern neighbourhood,other_area_circling,,,19.2,-8.615985,41.15104,-8.615985,41.15104
+seg_14,taxi_driver_27,2016-06-16 13:10:00,2016-06-16 13:20:00,10.0,taxi_stand_wait,Boavista taxi stand,stand_wait,,,0,-8.615985,41.15104,-8.626078,41.1571
+seg_15,taxi_driver_27,2016-06-16 13:20:00,2016-06-16 13:36:00,16.0,cruising,central district,other_time_central_circling,,,19.18,-8.626078,41.1571,-8.615797,41.152686
+seg_16,taxi_driver_27,2016-06-16 13:36:00,2016-06-16 14:04:00,28.0,cruising,western outer city,other_area_circling,,,18.24,-8.615797,41.152686,-8.642982,41.164298
+seg_17,taxi_driver_27,2016-06-16 14:04:00,2016-06-16 14:08:00,4.0,driving_to_pickup,western outer city,to_pickup,order_04,street_hail,30.6,-8.642982,41.164298,-8.642982,41.164298
+seg_18,taxi_driver_27,2016-06-16 14:08:00,2016-06-16 14:22:00,14.0,passenger_trip,western outer city,passenger_service,order_04,street_hail,34.34,-8.642982,41.164298,-8.604016,41.142978
+seg_19,taxi_driver_27,2016-06-16 14:22:00,2016-06-16 14:38:00,16.0,cruising,southern riverside,other_area_circling,,,19.1,-8.604016,41.142978,-8.615145,41.142797
+seg_20,taxi_driver_27,2016-06-16 14:38:00,2016-06-16 15:05:00,27.0,cruising,central district,other_time_central_circling,,,18.69,-8.615145,41.142797,-8.626078,41.1571
+seg_21,taxi_driver_27,2016-06-16 15:05:00,2016-06-16 15:09:00,4.0,driving_to_pickup,Boavista taxi stand,to_pickup,order_05,taxi_stand,30.06,-8.626078,41.1571,-8.626078,41.1571
+seg_22,taxi_driver_27,2016-06-16 15:09:00,2016-06-16 15:23:00,14.0,passenger_trip,Boavista taxi stand,passenger_service,order_05,taxi_stand,31.6,-8.626078,41.1571,-8.611205,41.148956
+seg_23,taxi_driver_27,2016-06-16 15:23:00,2016-06-16 16:00:00,37.0,cruising,central district,move_to_central_district,,,16.53,-8.611205,41.148956,-8.610881,41.148079
+seg_24,taxi_driver_27,2016-06-16 16:00:00,2016-06-16 16:07:00,7.0,cruising,central district,central_circling,,,18.23,-8.610881,41.148079,-8.610881,41.148079
+seg_25,taxi_driver_27,2016-06-16 16:07:00,2016-06-16 16:09:00,2.0,driving_to_pickup,central district,to_pickup,order_06,street_hail,30.32,-8.610881,41.148079,-8.610881,41.148079
+seg_26,taxi_driver_27,2016-06-16 16:09:00,2016-06-16 16:18:00,9.0,passenger_trip,central district,passenger_service,order_06,street_hail,31.25,-8.610881,41.148079,-8.60251,41.154466
+seg_27,taxi_driver_27,2016-06-16 16:18:00,2016-06-16 16:28:00,10.0,cruising,central district,return_to_and_circle_centre,,,18.38,-8.60251,41.154466,-8.610881,41.148079
+seg_28,taxi_driver_27,2016-06-16 16:28:00,2016-06-16 16:30:00,2.0,driving_to_pickup,central district,to_pickup,order_07,street_hail,26.33,-8.610881,41.148079,-8.610881,41.148079
+seg_29,taxi_driver_27,2016-06-16 16:30:00,2016-06-16 16:38:00,8.0,passenger_trip,central district,passenger_service,order_07,street_hail,33.22,-8.610881,41.148079,-8.578628,41.15792
+seg_30,taxi_driver_27,2016-06-16 16:38:00,2016-06-16 16:51:00,13.0,cruising,central district,return_to_and_circle_centre,,,15.15,-8.578628,41.15792,-8.610881,41.148079
+seg_31,taxi_driver_27,2016-06-16 16:51:00,2016-06-16 16:53:00,2.0,driving_to_pickup,central district,to_pickup,order_08,street_hail,30.69,-8.610881,41.148079,-8.610881,41.148079
+seg_32,taxi_driver_27,2016-06-16 16:53:00,2016-06-16 17:03:00,10.0,passenger_trip,central district,passenger_service,order_08,street_hail,30.64,-8.610881,41.148079,-8.606911,41.150982
+seg_33,taxi_driver_27,2016-06-16 17:03:00,2016-06-16 17:13:00,10.0,cruising,central district,return_to_and_circle_centre,,,18.19,-8.606911,41.150982,-8.610881,41.148079
+seg_34,taxi_driver_27,2016-06-16 17:13:00,2016-06-16 17:15:00,2.0,driving_to_pickup,central district,to_pickup,order_09,street_hail,26.29,-8.610881,41.148079,-8.610881,41.148079
+seg_35,taxi_driver_27,2016-06-16 17:15:00,2016-06-16 17:25:00,10.0,passenger_trip,central district,passenger_service,order_09,street_hail,29.71,-8.610881,41.148079,-8.568912,41.181022
+seg_36,taxi_driver_27,2016-06-16 17:25:00,2016-06-16 17:39:00,14.0,cruising,central district,return_to_and_circle_centre,,,17.17,-8.568912,41.181022,-8.610881,41.148079
+seg_37,taxi_driver_27,2016-06-16 17:39:00,2016-06-16 17:41:00,2.0,driving_to_pickup,central district,to_pickup,order_10,street_hail,29.16,-8.610881,41.148079,-8.610881,41.148079
+seg_38,taxi_driver_27,2016-06-16 17:41:00,2016-06-16 17:48:00,7.0,passenger_trip,central district,passenger_service,order_10,street_hail,31.34,-8.610881,41.148079,-8.613845,41.144862
+seg_39,taxi_driver_27,2016-06-16 17:48:00,2016-06-16 17:54:00,6.0,cruising,central district,return_to_and_circle_centre,,,19.87,-8.613845,41.144862,-8.610881,41.148079
+seg_40,taxi_driver_27,2016-06-16 17:54:00,2016-06-16 17:56:00,2.0,driving_to_pickup,central district,to_pickup,order_11,street_hail,28.67,-8.610881,41.148079,-8.610881,41.148079
+seg_41,taxi_driver_27,2016-06-16 17:56:00,2016-06-16 18:00:00,4.0,passenger_trip,central district,passenger_service,order_11,street_hail,29.39,-8.610881,41.148079,-8.60775,41.150227
+seg_42,taxi_driver_27,2016-06-16 18:00:00,2016-06-16 18:12:00,12.0,cruising,central district,other_time_central_circling,,,19.31,-8.60775,41.150227,-8.603524,41.153261
+seg_43,taxi_driver_27,2016-06-16 18:12:00,2016-06-16 18:32:00,20.0,cruising,eastern neighbourhood,other_area_circling,,,18.56,-8.603524,41.153261,-8.577335,41.173189
+seg_44,taxi_driver_27,2016-06-16 18:32:00,2016-06-16 18:36:00,4.0,driving_to_pickup,eastern neighbourhood,to_pickup,order_12,street_hail,28.43,-8.577335,41.173189,-8.577335,41.173189
+seg_45,taxi_driver_27,2016-06-16 18:36:00,2016-06-16 18:50:00,14.0,passenger_trip,eastern neighbourhood,passenger_service,order_12,street_hail,33.16,-8.577335,41.173189,-8.6251,41.151967
+seg_46,taxi_driver_27,2016-06-16 18:50:00,2016-06-16 19:04:00,14.0,cruising,central district,other_time_central_circling,,,15.24,-8.6251,41.151967,-8.614152,41.150981
+seg_47,taxi_driver_27,2016-06-16 19:04:00,2016-06-16 19:30:00,26.0,cruising,western neighbourhood,other_area_circling,,,19.8,-8.614152,41.150981,-8.637325,41.15809
+seg_48,taxi_driver_27,2016-06-16 19:30:00,2016-06-16 19:34:00,4.0,driving_to_pickup,western neighbourhood,to_pickup,order_13,street_hail,28.44,-8.637325,41.15809,-8.637325,41.15809
+seg_49,taxi_driver_27,2016-06-16 19:34:00,2016-06-16 19:48:00,14.0,passenger_trip,western neighbourhood,passenger_service,order_13,street_hail,34.9,-8.637325,41.15809,-8.608144,41.146972
+seg_50,taxi_driver_27,2016-06-16 19:48:00,2016-06-16 20:00:00,12.0,cruising,central district,other_area_circling,,,17.86,-8.608144,41.146972,-8.608144,41.146972

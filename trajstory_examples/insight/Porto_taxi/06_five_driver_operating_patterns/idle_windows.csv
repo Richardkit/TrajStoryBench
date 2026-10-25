@@ -1,0 +1,11 @@
+idle_window_id,driver_id,after_completion_sequence,before_completion_sequence,start_time,end_time,duration_minutes,location_type,location_name,x_km,y_km
+taxi_01_gap_4,taxi_01,4,5,2025-05-16 08:24:00,2025-05-16 09:55:00,91,Taxi stand,Ribeira Stand,-1.4300000000000002,0.395
+taxi_01_gap_8,taxi_01,8,9,2025-05-16 11:44:00,2025-05-16 13:15:00,91,Taxi stand,Ribeira Stand,-1.27,0.505
+taxi_02_gap_4,taxi_02,4,5,2025-05-16 09:01:00,2025-05-16 10:32:00,91,Taxi stand,Boavista Stand,-4.33,1.2950000000000002
+taxi_02_gap_8,taxi_02,8,9,2025-05-16 12:21:00,2025-05-16 13:52:00,91,Taxi stand,Boavista Stand,-4.17,1.405
+taxi_03_gap_4,taxi_03,4,5,2025-05-16 09:54:00,2025-05-16 11:25:00,91,Taxi stand,Ribeira Stand,-1.4300000000000002,0.395
+taxi_03_gap_8,taxi_03,8,9,2025-05-16 13:14:00,2025-05-16 14:45:00,91,Taxi stand,Ribeira Stand,-1.27,0.505
+taxi_04_gap_4,taxi_04,4,5,2025-05-16 10:37:00,2025-05-16 12:08:00,91,Taxi stand,Campanha Stand,4.47,0.295
+taxi_04_gap_8,taxi_04,8,9,2025-05-16 13:57:00,2025-05-16 15:28:00,91,Taxi stand,Campanha Stand,4.63,0.40499999999999997
+taxi_05_gap_4,taxi_05,4,5,2025-05-16 11:14:00,2025-05-16 12:45:00,91,Other waiting location,off-stand lay-by,1.35,-1.85
+taxi_05_gap_8,taxi_05,8,9,2025-05-16 14:34:00,2025-05-16 16:05:00,91,Other waiting location,off-stand lay-by,1.35,-1.85

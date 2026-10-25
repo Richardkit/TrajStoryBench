@@ -1,0 +1,144 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/12_single_user_routine_change_anomaly/trajectories.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/12_single_user_routine_change_anomaly/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/MTL_Trajet/12_single_user_routine_change_anomaly/trajectory_points.csv",
+      "role": "Timestamped GPS trajectory points linked by trajectory_id"
+    }
+  ],
+  "metadata": {
+    "goal": "Summarize the trip pattern and possible changes of the user and find anomalies from the usual behavior.",
+    "role": "Individual mobility-pattern analyst",
+    "category": "Single-user four-week routines, weather-conditioned work routes, shopping change, health visits, and an anomalous return trip",
+    "header": "MTL Trajet: 12 Single-user Routine Change and Anomaly",
+    "dataset_description": "Four weeks of dense daily trajectories for one user, including route geometry, weather condition, destination land use, purpose, transport mode, and timestamped GPS points.",
+    "metric_note": "`route_directness_ratio` is path length divided by straight-line endpoint distance; `returns_to_origin` indicates that the recorded end coordinates return to the start coordinates.",
+    "land_use_reference": "Archived PUM2050 Affectatio polygons (2025). Labels describe reference-map zoning at fixed endpoints, not surveyed activities at the time of travel.",
+    "fixed_gps_repair": "2026-10-08: existing CSV coordinates preserved; see results/dataset_quality/fixed_gps_repairs_20261008/repair.json.",
+    "motion_consistency_note": "Point speed is the incoming segment GPS great-circle distance divided by elapsed time; the first point repeats the first outgoing segment speed. Earth radius: 6371.0088 km. Trip distance is the sum of these segment distances. avg_speed_kmh and mean_speed_kmh are total distance / elapsed time; avg_point_speed_kmh and point_speed_mean_kmh are unweighted means of the delivered point speeds. speed_cv is the population coefficient of variation of incoming segment speeds, excluding the duplicated first endpoint. trajectory_progress is point_index / (point_count - 1), not elapsed-time fraction. Timestamps and speed fields were reconstructed for internal consistency on 2026-10-09; GPS positions and insight wording were preserved. These are curated example records, not newly recovered observations.",
+    "motion_consistency_repair": "results/dataset_quality/motion_consistency_repair_20261009/repair.json"
+  },
+  "insight_list": [
+    {
+      "data_type": "work_route_weather_routine",
+      "insight": "The user has two recurring motor-vehicle routes from the same origin to a work destination in a mapped residential area: route A is shorter and used on sunny days, while every rainy-day commute uses the longer route B detour.",
+      "insight_type": "overall_pattern",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Work Route and Weather Pattern",
+        "description": "Recomputed from the delivered fixed GPS coordinates and the archived official PUM2050 Affectatio polygons; Unmapped denotes no containing polygon.",
+        "file": "visualizations/work_route_weather_pattern.png"
+      },
+      "question": "How are the user's motor-vehicle commute route variants associated with weather conditions?",
+      "code": "import pandas as pd\nimport numpy as np\nfrom pathlib import Path\ndf = pd.read_csv(dataset_path)\npoints = pd.read_csv(Path(dataset_path).with_name('trajectory_points.csv'))\nwork=df[df.trip_role.eq('work_commute')]; print(work.groupby(['weather_condition','route_variant']).distance_km.agg(['count','mean'])); print(work.destination_land_use.value_counts())\n",
+      "insight_value": [
+        {
+          "weather_condition": "rainy",
+          "route_variant": "route_B",
+          "count": 12,
+          "mean": 2.580675504
+        },
+        {
+          "weather_condition": "sunny",
+          "route_variant": "route_A",
+          "count": 16,
+          "mean": 2.290546538
+        }
+      ],
+      "evidence": "Trip purpose is work; the official polygon at the work endpoint is Résidentiel. Work purpose does not imply an employment land-use category.",
+      "difficulty_level": 6,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "weather",
+        "trip_purpose",
+        "transport_mode",
+        "gps_position",
+        "land_use_reference",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "shopping_mode_destination_change",
+      "insight": "Across four weeks, shopping trips shift from a closer walking route toward a more remote motor-vehicle route.",
+      "insight_type": "temporal_dynamics",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Shopping Preference Change",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/shopping_preference_change.png"
+      },
+      "question": "How do the user's primary-shopping destination and transportation mode change across the four weeks?",
+      "code": "pd.crosstab(df[df.trip_role.eq('primary_shopping')].week_index, df.route_variant)",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trajectory_timestamp",
+        "trajectory_id",
+        "trip_purpose",
+        "transport_mode",
+        "gps_position"
+      ]
+    },
+    {
+      "data_type": "health_weekday_departure_pattern",
+      "insight": "Health visits occur on Thursday afternoons, and their destination area differs from the work and shopping destinations.",
+      "insight_type": "overall_pattern",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Thursday Health Pattern",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/thursday_health_pattern.png"
+      },
+      "question": "On which weekday and at what time does the user's health-area travel occur?",
+      "code": "df[df.purpose_group.eq('health')].groupby('weekday').start_hour.agg(['count','min','max','mean'])",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trajectory_timestamp",
+        "trajectory_id",
+        "trip_purpose",
+        "gps_position"
+      ]
+    },
+    {
+      "data_type": "single_user_routine_anomaly",
+      "insight": "The final day contains the user's only clear anomaly: an unusually long purposeless motor-vehicle trip that returns to its origin.",
+      "evidence": "The only clear departure from the routine occurs on the last day: an unusually long motor-vehicle trip with no declared purpose returns to its starting area with extremely long distance.",
+      "insight_type": "exception_deviation",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Last-day Return Trip",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/last_day_return_trip_anomaly.png"
+      },
+      "question": "Does any trajectory depart from the user's usual distance and endpoint pattern?",
+      "code": "df[['calendar_date','distance_km','purpose_group','returns_to_origin','is_anomaly']].sort_values('distance_km', ascending=False)",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trajectory_timestamp",
+        "trajectory_id",
+        "trip_purpose",
+        "transport_mode",
+        "gps_position"
+      ]
+    }
+  ],
+  "insights": [
+    "The user has two recurring motor-vehicle routes from the same origin to a work destination in a mapped residential area: route A is shorter and used on sunny days, while every rainy-day commute uses the longer route B detour.",
+    "Across four weeks, shopping trips shift from a closer walking route toward a more remote motor-vehicle route.",
+    "Health visits occur on Thursday afternoons, and their destination area differs from the work and shopping destinations.",
+    "The final day contains the user's only clear anomaly: an unusually long purposeless motor-vehicle trip that returns to its origin."
+  ],
+  "summary": "The user has two recurring motor-vehicle routes from the same origin to a work destination in a mapped residential area: route A is shorter and used on sunny days, while every rainy-day commute uses the longer route B detour. Across four weeks, shopping trips shift from a closer walking route toward a more remote motor-vehicle route. Health visits occur on Thursday afternoons, and their destination area differs from the work and shopping destinations. The final day contains the user's only clear anomaly: an unusually long purposeless motor-vehicle trip that returns to its origin.",
+  "evidence_policy": "Claims describe patterns in this dataset and do not establish causal relationships."
+}

@@ -1,0 +1,716 @@
+trip_id,taxi_id,service_date,observation_order,request_time,time_period,period_label,request_source,origin_stand_id,origin_stand_name,origin_region,pickup_longitude,pickup_latitude,dropoff_longitude,dropoff_latitude
+porto7_0001,taxi_008,2013-07-11,1,2013-07-11 02:03:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.654409,41.186014,-8.56239,41.190021
+porto7_0002,taxi_015,2013-07-11,1,2013-07-11 02:09:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.613814,41.153911,-8.610405,41.151185
+porto7_0003,taxi_022,2013-07-11,1,2013-07-11 02:17:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.60723,41.147949,-8.546919,41.15466
+porto7_0004,taxi_029,2013-07-11,1,2013-07-11 02:23:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.68654,41.19204,-8.606213,41.149208
+porto7_0005,taxi_036,2013-07-11,1,2013-07-11 02:31:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.611441,41.150879,-8.557009,41.152278
+porto7_0006,taxi_043,2013-07-11,1,2013-07-11 02:37:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.61245,41.151141,-8.607334,41.146919
+porto7_0007,taxi_050,2013-07-11,1,2013-07-11 02:46:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.68803,41.213448,-8.568699,41.17921
+porto7_0008,taxi_057,2013-07-11,1,2013-07-11 02:51:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.608362,41.149244,-8.614132,41.153694
+porto7_0009,taxi_064,2013-07-11,1,2013-07-11 03:01:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.612971,41.149752,-8.567145,41.157936
+porto7_0010,taxi_071,2013-07-11,1,2013-07-11 08:00:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.665914,41.196398,-8.616668,41.153427
+porto7_0011,taxi_004,2013-07-11,1,2013-07-11 08:12:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.561037,41.185945,-8.609087,41.14536
+porto7_0012,taxi_011,2013-07-11,1,2013-07-11 08:17:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.670048,41.212898,-8.614774,41.150218
+porto7_0013,taxi_018,2013-07-11,1,2013-07-11 08:24:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.573891,41.16035,-8.607947,41.147387
+porto7_0014,taxi_025,2013-07-11,1,2013-07-11 08:29:00,morning_peak,06:00–09:59,taxi_stand,S31,Foz Coastal Stand,western suburban area,-8.672088,41.217726,-8.610576,41.147533
+porto7_0015,taxi_032,2013-07-11,1,2013-07-11 08:37:00,morning_peak,06:00–09:59,taxi_stand,S32,Trindade Stand,central district,-8.60818,41.150543,-8.6146,41.153994
+porto7_0016,taxi_039,2013-07-11,1,2013-07-11 08:44:00,morning_peak,06:00–09:59,taxi_stand,S31,Foz Coastal Stand,western suburban area,-8.669301,41.212645,-8.614996,41.148549
+porto7_0017,taxi_046,2013-07-11,1,2013-07-11 08:49:00,morning_peak,06:00–09:59,taxi_stand,S32,Trindade Stand,central district,-8.614894,41.146176,-8.605377,41.145717
+porto7_0018,taxi_053,2013-07-11,1,2013-07-11 09:00:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.677899,41.184284,-8.608428,41.147022
+porto7_0019,taxi_060,2013-07-11,1,2013-07-11 09:06:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.554338,41.170497,-8.608534,41.146722
+porto7_0020,taxi_067,2013-07-11,1,2013-07-11 09:12:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.659684,41.214755,-8.613658,41.145821
+porto7_0021,taxi_074,2013-07-11,1,2013-07-11 09:22:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.578614,41.157258,-8.612164,41.152726
+porto7_0022,taxi_007,2013-07-11,1,2013-07-11 09:26:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.655228,41.192688,-8.606539,41.148954
+porto7_0023,taxi_014,2013-07-11,1,2013-07-11 09:36:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.579749,41.1808,-8.612544,41.147847
+porto7_0024,taxi_021,2013-07-11,1,2013-07-11 09:40:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.658664,41.190821,-8.612501,41.150618
+porto7_0025,taxi_028,2013-07-11,1,2013-07-11 09:47:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.580643,41.1733,-8.617787,41.148593
+porto7_0026,taxi_035,2013-07-11,1,2013-07-11 08:00:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.661011,41.19803,-8.612257,41.14704
+porto7_0027,taxi_042,2013-07-11,1,2013-07-11 08:05:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.565254,41.153232,-8.605313,41.149033
+porto7_0028,taxi_049,2013-07-11,1,2013-07-11 08:15:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.657185,41.202792,-8.614127,41.152845
+porto7_0029,taxi_056,2013-07-11,1,2013-07-11 08:18:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.55487,41.17425,-8.607188,41.151384
+porto7_0030,taxi_063,2013-07-11,1,2013-07-11 08:26:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.666891,41.184029,-8.612422,41.151124
+porto7_0031,taxi_070,2013-07-11,1,2013-07-11 08:35:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.547945,41.152363,-8.608326,41.146749
+porto7_0032,taxi_003,2013-07-11,1,2013-07-11 08:39:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.669109,41.211309,-8.61509,41.153046
+porto7_0033,taxi_010,2013-07-11,1,2013-07-11 08:48:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.577021,41.154121,-8.617883,41.150167
+porto7_0034,taxi_017,2013-07-11,1,2013-07-11 08:55:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.687607,41.208097,-8.610566,41.14326
+porto7_0035,taxi_024,2013-07-11,1,2013-07-11 09:00:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.578465,41.181515,-8.607635,41.146744
+porto7_0036,taxi_031,2013-07-11,1,2013-07-11 09:08:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.65698,41.194586,-8.605331,41.142885
+porto7_0037,taxi_038,2013-07-11,1,2013-07-11 09:19:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.547515,41.16953,-8.607847,41.150255
+porto7_0038,taxi_045,2013-07-11,1,2013-07-11 09:24:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.668726,41.219639,-8.603014,41.144261
+porto7_0039,taxi_052,2013-07-11,1,2013-07-11 09:31:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.561545,41.165937,-8.607535,41.149971
+porto7_0040,taxi_059,2013-07-11,1,2013-07-11 09:38:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.673228,41.182602,-8.618342,41.149043
+porto7_0041,taxi_066,2013-07-11,1,2013-07-11 09:46:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.556612,41.155829,-8.612146,41.148006
+porto7_0042,taxi_073,2013-07-11,1,2013-07-11 12:05:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.679817,41.184688,-8.570136,41.154272
+porto7_0043,taxi_006,2013-07-11,1,2013-07-11 12:08:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.60896,41.145002,-8.61053,41.147422
+porto7_0044,taxi_013,2013-07-11,1,2013-07-11 12:17:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.612461,41.148616,-8.561892,41.184009
+porto7_0045,taxi_020,2013-07-11,1,2013-07-11 12:24:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.661777,41.20806,-8.612162,41.146109
+porto7_0046,taxi_027,2013-07-11,1,2013-07-11 12:29:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.611258,41.15176,-8.555911,41.187147
+porto7_0047,taxi_034,2013-07-11,1,2013-07-11 12:38:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.615049,41.152231,-8.606582,41.146486
+porto7_0048,taxi_041,2013-07-11,1,2013-07-11 12:46:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.67794,41.198106,-8.545671,41.176161
+porto7_0049,taxi_048,2013-07-11,1,2013-07-11 12:53:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.613892,41.152211,-8.608229,41.142762
+porto7_0050,taxi_055,2013-07-11,1,2013-07-11 12:56:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.610186,41.147745,-8.57863,41.182378
+porto7_0051,taxi_062,2013-07-11,1,2013-07-11 13:06:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.680286,41.199976,-8.60965,41.146267
+porto7_0052,taxi_069,2013-07-11,1,2013-07-11 13:14:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.607559,41.148485,-8.56559,41.181238
+porto7_0053,taxi_002,2013-07-11,1,2013-07-11 13:18:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.605707,41.146185,-8.614199,41.151437
+porto7_0054,taxi_009,2013-07-11,1,2013-07-11 13:25:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.670454,41.208286,-8.560705,41.171708
+porto7_0055,taxi_016,2013-07-11,1,2013-07-11 17:02:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.617414,41.149803,-8.575788,41.18734
+porto7_0056,taxi_023,2013-07-11,1,2013-07-11 17:11:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.614114,41.147388,-8.691462,41.186637
+porto7_0057,taxi_030,2013-07-11,1,2013-07-11 17:18:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.613803,41.148007,-8.549188,41.163501
+porto7_0058,taxi_037,2013-07-11,1,2013-07-11 17:21:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.616381,41.151151,-8.659648,41.207947
+porto7_0059,taxi_044,2013-07-11,1,2013-07-11 17:33:00,late_afternoon_peak,15:00–18:59,taxi_stand,S41,Clérigos Stand,central district,-8.61257,41.148634,-8.5776,41.188013
+porto7_0060,taxi_051,2013-07-11,1,2013-07-11 17:38:00,late_afternoon_peak,15:00–18:59,taxi_stand,S42,Ribeira Stand,central district,-8.615367,41.152556,-8.689306,41.213683
+porto7_0061,taxi_058,2013-07-11,1,2013-07-11 17:42:00,late_afternoon_peak,15:00–18:59,taxi_stand,S41,Clérigos Stand,central district,-8.607874,41.147503,-8.569778,41.18599
+porto7_0062,taxi_065,2013-07-11,1,2013-07-11 17:53:00,late_afternoon_peak,15:00–18:59,taxi_stand,S42,Ribeira Stand,central district,-8.61528,41.150896,-8.684417,41.199068
+porto7_0063,taxi_072,2013-07-11,1,2013-07-11 17:57:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.613323,41.151592,-8.566961,41.161534
+porto7_0064,taxi_005,2013-07-11,1,2013-07-11 18:08:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.607337,41.143827,-8.673884,41.193778
+porto7_0065,taxi_012,2013-07-11,1,2013-07-11 18:13:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.605798,41.142621,-8.546849,41.189812
+porto7_0066,taxi_019,2013-07-11,1,2013-07-11 18:21:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.609808,41.151475,-8.651677,41.189695
+porto7_0067,taxi_026,2013-07-11,1,2013-07-11 18:29:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.604504,41.144544,-8.569908,41.163377
+porto7_0068,taxi_033,2013-07-11,1,2013-07-11 18:33:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.61685,41.151325,-8.665391,41.182634
+porto7_0069,taxi_040,2013-07-11,1,2013-07-11 18:39:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.608603,41.14666,-8.551203,41.16015
+porto7_0070,taxi_047,2013-07-11,1,2013-07-11 18:47:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.609611,41.146618,-8.65979,41.184852
+porto7_0071,taxi_054,2013-07-11,1,2013-07-11 17:01:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.615444,41.150274,-8.551459,41.169976
+porto7_0072,taxi_061,2013-07-11,1,2013-07-11 17:08:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.611153,41.149008,-8.679355,41.218068
+porto7_0073,taxi_068,2013-07-11,1,2013-07-11 17:12:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.611145,41.145613,-8.549969,41.183315
+porto7_0074,taxi_001,2013-07-11,1,2013-07-11 17:21:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.610732,41.149523,-8.666833,41.2134
+porto7_0075,taxi_008,2013-07-11,1,2013-07-11 17:25:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.60873,41.147965,-8.564614,41.186074
+porto7_0076,taxi_015,2013-07-11,1,2013-07-11 17:37:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.603533,41.148168,-8.677993,41.182281
+porto7_0077,taxi_022,2013-07-11,1,2013-07-11 17:44:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.611068,41.148439,-8.549302,41.154443
+porto7_0078,taxi_029,2013-07-11,1,2013-07-11 17:49:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.609991,41.145747,-8.664643,41.18987
+porto7_0079,taxi_036,2013-07-11,1,2013-07-11 17:54:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.605699,41.146438,-8.552702,41.18844
+porto7_0080,taxi_043,2013-07-11,1,2013-07-11 18:02:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.618927,41.153565,-8.681896,41.193301
+porto7_0081,taxi_050,2013-07-11,1,2013-07-11 18:11:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.61333,41.150164,-8.551057,41.178594
+porto7_0082,taxi_057,2013-07-11,1,2013-07-11 18:14:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.608665,41.147384,-8.683449,41.190411
+porto7_0083,taxi_064,2013-07-11,1,2013-07-11 18:21:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.611811,41.152206,-8.572758,41.163522
+porto7_0084,taxi_071,2013-07-11,1,2013-07-11 18:29:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.612704,41.151565,-8.668523,41.190776
+porto7_0085,taxi_004,2013-07-11,1,2013-07-11 18:39:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.610833,41.147759,-8.555926,41.167305
+porto7_0086,taxi_011,2013-07-11,1,2013-07-11 18:43:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.603841,41.146719,-8.679654,41.207605
+porto7_0087,taxi_018,2013-07-11,1,2013-07-11 18:54:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.611384,41.148729,-8.554892,41.167101
+porto7_0088,taxi_025,2013-07-11,1,2013-07-11 17:06:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.615828,41.153651,-8.651278,41.188967
+porto7_0089,taxi_032,2013-07-11,1,2013-07-11 17:11:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.606701,41.142501,-8.571302,41.157164
+porto7_0090,taxi_039,2013-07-11,1,2013-07-11 17:16:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.614339,41.151398,-8.669135,41.189147
+porto7_0091,taxi_046,2013-07-11,1,2013-07-11 17:27:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.610604,41.150316,-8.564889,41.175255
+porto7_0092,taxi_053,2013-07-11,1,2013-07-11 17:32:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.610527,41.145644,-8.654851,41.194822
+porto7_0093,taxi_060,2013-07-11,1,2013-07-11 22:02:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.657773,41.196071,-8.551414,41.151288
+porto7_0094,taxi_067,2013-07-11,1,2013-07-11 22:07:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.605001,41.143303,-8.605673,41.146338
+porto7_0095,taxi_074,2013-07-11,1,2013-07-11 22:15:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.614367,41.146274,-8.559481,41.159898
+porto7_0096,taxi_007,2013-07-11,1,2013-07-11 22:21:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.658226,41.197805,-8.611182,41.149432
+porto7_0097,taxi_014,2013-07-11,1,2013-07-11 22:29:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.608418,41.148854,-8.57511,41.179473
+porto7_0098,taxi_021,2013-07-11,1,2013-07-11 22:40:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.61199,41.147829,-8.610653,41.148324
+porto7_0099,taxi_028,2013-07-11,1,2013-07-11 22:42:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.690047,41.183877,-8.574763,41.182259
+porto7_0100,taxi_035,2013-07-11,1,2013-07-11 22:54:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.609547,41.147641,-8.607849,41.15075
+porto7_0101,taxi_042,2013-07-11,1,2013-07-11 23:01:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.613524,41.151761,-8.558263,41.177696
+porto7_0102,taxi_049,2013-07-11,1,2013-07-11 23:03:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.659476,41.186798,-8.607834,41.142843
+porto7_0103,taxi_067,2014-11-06,2,2014-11-06 02:04:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.681241,41.203449,-8.568153,41.160577
+porto7_0104,taxi_074,2014-11-06,2,2014-11-06 02:08:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.615027,41.149396,-8.616433,41.153021
+porto7_0105,taxi_007,2014-11-06,2,2014-11-06 02:14:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.611228,41.14861,-8.569528,41.185029
+porto7_0106,taxi_014,2014-11-06,2,2014-11-06 02:21:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.681518,41.197313,-8.613514,41.149333
+porto7_0107,taxi_021,2014-11-06,2,2014-11-06 02:29:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.617711,41.147804,-8.55498,41.154818
+porto7_0108,taxi_028,2014-11-06,2,2014-11-06 02:39:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.607584,41.149379,-8.611218,41.145818
+porto7_0109,taxi_035,2014-11-06,2,2014-11-06 02:44:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.652504,41.205631,-8.557557,41.156335
+porto7_0110,taxi_042,2014-11-06,2,2014-11-06 02:54:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.609733,41.150482,-8.609414,41.1524
+porto7_0111,taxi_049,2014-11-06,2,2014-11-06 02:59:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.604059,41.148716,-8.548494,41.179499
+porto7_0112,taxi_056,2014-11-06,2,2014-11-06 03:08:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.657057,41.196196,-8.604785,41.142803
+porto7_0113,taxi_063,2014-11-06,2,2014-11-06 03:10:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.608313,41.14273,-8.565792,41.154563
+porto7_0114,taxi_070,2014-11-06,2,2014-11-06 08:01:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.6866,41.204883,-8.609908,41.145951
+porto7_0115,taxi_003,2014-11-06,2,2014-11-06 08:12:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.577754,41.174959,-8.61094,41.151969
+porto7_0116,taxi_010,2014-11-06,2,2014-11-06 08:15:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.652775,41.196556,-8.616189,41.152819
+porto7_0117,taxi_017,2014-11-06,2,2014-11-06 08:25:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.562211,41.156644,-8.61847,41.15126
+porto7_0118,taxi_024,2014-11-06,2,2014-11-06 08:28:00,morning_peak,06:00–09:59,taxi_stand,S31,Foz Coastal Stand,western suburban area,-8.673812,41.182223,-8.615809,41.152096
+porto7_0119,taxi_031,2014-11-06,2,2014-11-06 08:39:00,morning_peak,06:00–09:59,taxi_stand,S32,Trindade Stand,central district,-8.607376,41.149925,-8.608267,41.144499
+porto7_0120,taxi_038,2014-11-06,2,2014-11-06 08:46:00,morning_peak,06:00–09:59,taxi_stand,S31,Foz Coastal Stand,western suburban area,-8.686294,41.206966,-8.608312,41.146387
+porto7_0121,taxi_045,2014-11-06,2,2014-11-06 08:53:00,morning_peak,06:00–09:59,taxi_stand,S32,Trindade Stand,central district,-8.614037,41.146,-8.613489,41.146028
+porto7_0122,taxi_052,2014-11-06,2,2014-11-06 09:01:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.660289,41.191538,-8.603948,41.146361
+porto7_0123,taxi_059,2014-11-06,2,2014-11-06 09:03:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.566007,41.182483,-8.606948,41.149307
+porto7_0124,taxi_066,2014-11-06,2,2014-11-06 09:11:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.683389,41.203045,-8.610593,41.146482
+porto7_0125,taxi_073,2014-11-06,2,2014-11-06 09:21:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.55581,41.187268,-8.616515,41.152041
+porto7_0126,taxi_006,2014-11-06,2,2014-11-06 09:28:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.690649,41.219736,-8.605574,41.145504
+porto7_0127,taxi_013,2014-11-06,2,2014-11-06 09:35:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.552215,41.157471,-8.603608,41.149032
+porto7_0128,taxi_020,2014-11-06,2,2014-11-06 09:41:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.658597,41.199129,-8.60458,41.145831
+porto7_0129,taxi_027,2014-11-06,2,2014-11-06 09:46:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.57482,41.16956,-8.607273,41.148271
+porto7_0130,taxi_034,2014-11-06,2,2014-11-06 09:52:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.66247,41.203686,-8.614145,41.149021
+porto7_0131,taxi_041,2014-11-06,2,2014-11-06 08:05:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.547109,41.160845,-8.604364,41.149212
+porto7_0132,taxi_048,2014-11-06,2,2014-11-06 08:13:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.656953,41.215919,-8.616307,41.151226
+porto7_0133,taxi_055,2014-11-06,2,2014-11-06 08:19:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.571613,41.152714,-8.611362,41.149767
+porto7_0134,taxi_062,2014-11-06,2,2014-11-06 08:30:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.659776,41.208494,-8.608926,41.147734
+porto7_0135,taxi_069,2014-11-06,2,2014-11-06 08:36:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.546638,41.161989,-8.609764,41.150061
+porto7_0136,taxi_002,2014-11-06,2,2014-11-06 08:39:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.672655,41.197247,-8.61867,41.153627
+porto7_0137,taxi_009,2014-11-06,2,2014-11-06 08:50:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.563877,41.163442,-8.614453,41.152049
+porto7_0138,taxi_016,2014-11-06,2,2014-11-06 08:55:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.652329,41.195418,-8.607883,41.151432
+porto7_0139,taxi_023,2014-11-06,2,2014-11-06 09:02:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.558457,41.187602,-8.617837,41.153523
+porto7_0140,taxi_030,2014-11-06,2,2014-11-06 09:10:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.691193,41.196644,-8.604956,41.145823
+porto7_0141,taxi_037,2014-11-06,2,2014-11-06 09:18:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.567711,41.163461,-8.613652,41.147601
+porto7_0142,taxi_044,2014-11-06,2,2014-11-06 09:23:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.678972,41.211522,-8.606551,41.147796
+porto7_0143,taxi_051,2014-11-06,2,2014-11-06 09:32:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.555308,41.173452,-8.606963,41.14295
+porto7_0144,taxi_058,2014-11-06,2,2014-11-06 12:03:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.681546,41.2004,-8.564705,41.184893
+porto7_0145,taxi_065,2014-11-06,2,2014-11-06 12:10:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.618816,41.152048,-8.612165,41.146944
+porto7_0146,taxi_072,2014-11-06,2,2014-11-06 12:14:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.606509,41.143899,-8.561996,41.169358
+porto7_0147,taxi_005,2014-11-06,2,2014-11-06 12:26:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.680125,41.211264,-8.614994,41.146931
+porto7_0148,taxi_012,2014-11-06,2,2014-11-06 12:29:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.607319,41.145682,-8.570598,41.161641
+porto7_0149,taxi_019,2014-11-06,2,2014-11-06 12:36:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.610846,41.144137,-8.610046,41.148131
+porto7_0150,taxi_026,2014-11-06,2,2014-11-06 12:46:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.653183,41.198606,-8.545049,41.190627
+porto7_0151,taxi_033,2014-11-06,2,2014-11-06 12:54:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.614517,41.145761,-8.614404,41.146694
+porto7_0152,taxi_040,2014-11-06,2,2014-11-06 12:56:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.615579,41.149055,-8.545595,41.181308
+porto7_0153,taxi_047,2014-11-06,2,2014-11-06 13:08:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.685731,41.215845,-8.615396,41.149515
+porto7_0154,taxi_054,2014-11-06,2,2014-11-06 13:12:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.612327,41.152779,-8.545853,41.152963
+porto7_0155,taxi_061,2014-11-06,2,2014-11-06 13:21:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.607114,41.150861,-8.610088,41.147593
+porto7_0156,taxi_068,2014-11-06,2,2014-11-06 13:29:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.659212,41.208431,-8.57058,41.16178
+porto7_0157,taxi_001,2014-11-06,2,2014-11-06 13:31:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.614562,41.147976,-8.615709,41.152236
+porto7_0158,taxi_008,2014-11-06,2,2014-11-06 17:00:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.61629,41.15079,-8.567351,41.155947
+porto7_0159,taxi_015,2014-11-06,2,2014-11-06 17:12:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.603458,41.142747,-8.684842,41.212985
+porto7_0160,taxi_022,2014-11-06,2,2014-11-06 17:15:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.604457,41.148842,-8.56952,41.169454
+porto7_0161,taxi_029,2014-11-06,2,2014-11-06 17:26:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.608833,41.151929,-8.675372,41.195486
+porto7_0162,taxi_036,2014-11-06,2,2014-11-06 17:29:00,late_afternoon_peak,15:00–18:59,taxi_stand,S41,Clérigos Stand,central district,-8.611606,41.152094,-8.573115,41.185258
+porto7_0163,taxi_043,2014-11-06,2,2014-11-06 17:36:00,late_afternoon_peak,15:00–18:59,taxi_stand,S42,Ribeira Stand,central district,-8.607046,41.143998,-8.685975,41.208712
+porto7_0164,taxi_050,2014-11-06,2,2014-11-06 17:45:00,late_afternoon_peak,15:00–18:59,taxi_stand,S41,Clérigos Stand,central district,-8.608669,41.148395,-8.575424,41.172295
+porto7_0165,taxi_057,2014-11-06,2,2014-11-06 17:50:00,late_afternoon_peak,15:00–18:59,taxi_stand,S42,Ribeira Stand,central district,-8.605172,41.147246,-8.653937,41.212004
+porto7_0166,taxi_064,2014-11-06,2,2014-11-06 17:56:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.609551,41.145339,-8.570724,41.172361
+porto7_0167,taxi_071,2014-11-06,2,2014-11-06 18:08:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.611859,41.150474,-8.687189,41.195383
+porto7_0168,taxi_004,2014-11-06,2,2014-11-06 18:10:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.618216,41.149243,-8.570112,41.151436
+porto7_0169,taxi_011,2014-11-06,2,2014-11-06 18:20:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.612136,41.153905,-8.68521,41.219145
+porto7_0170,taxi_018,2014-11-06,2,2014-11-06 18:25:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.613659,41.152895,-8.552619,41.185459
+porto7_0171,taxi_025,2014-11-06,2,2014-11-06 18:35:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.61278,41.152048,-8.687256,41.185975
+porto7_0172,taxi_032,2014-11-06,2,2014-11-06 18:38:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.618741,41.153666,-8.559635,41.188024
+porto7_0173,taxi_039,2014-11-06,2,2014-11-06 18:48:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.614065,41.1517,-8.670324,41.183862
+porto7_0174,taxi_046,2014-11-06,2,2014-11-06 18:53:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.61151,41.153039,-8.575877,41.163526
+porto7_0175,taxi_053,2014-11-06,2,2014-11-06 17:08:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.609264,41.144175,-8.681583,41.190566
+porto7_0176,taxi_060,2014-11-06,2,2014-11-06 17:13:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.609727,41.148072,-8.553271,41.171092
+porto7_0177,taxi_067,2014-11-06,2,2014-11-06 17:22:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.610561,41.14886,-8.679966,41.190346
+porto7_0178,taxi_074,2014-11-06,2,2014-11-06 17:26:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.60888,41.149987,-8.556684,41.188466
+porto7_0179,taxi_007,2014-11-06,2,2014-11-06 17:35:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.610131,41.150132,-8.666624,41.197924
+porto7_0180,taxi_014,2014-11-06,2,2014-11-06 17:41:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.609814,41.152356,-8.551522,41.177717
+porto7_0181,taxi_021,2014-11-06,2,2014-11-06 17:46:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.607085,41.146915,-8.652752,41.208379
+porto7_0182,taxi_028,2014-11-06,2,2014-11-06 17:53:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.608614,41.147728,-8.551001,41.151923
+porto7_0183,taxi_035,2014-11-06,2,2014-11-06 18:00:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.608446,41.146886,-8.681983,41.211824
+porto7_0184,taxi_042,2014-11-06,2,2014-11-06 18:08:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.618441,41.152676,-8.548167,41.178877
+porto7_0185,taxi_049,2014-11-06,2,2014-11-06 18:14:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.616862,41.149739,-8.659948,41.206892
+porto7_0186,taxi_056,2014-11-06,2,2014-11-06 18:22:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.617478,41.148198,-8.550153,41.174113
+porto7_0187,taxi_063,2014-11-06,2,2014-11-06 18:31:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.604776,41.147303,-8.690897,41.21192
+porto7_0188,taxi_070,2014-11-06,2,2014-11-06 18:39:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.615043,41.15373,-8.578476,41.154043
+porto7_0189,taxi_003,2014-11-06,2,2014-11-06 18:42:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.612566,41.151101,-8.658631,41.192227
+porto7_0190,taxi_010,2014-11-06,2,2014-11-06 18:52:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.614933,41.14993,-8.569819,41.174583
+porto7_0191,taxi_017,2014-11-06,2,2014-11-06 17:01:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.607982,41.147624,-8.66278,41.186205
+porto7_0192,taxi_024,2014-11-06,2,2014-11-06 17:10:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.609548,41.150216,-8.549666,41.180401
+porto7_0193,taxi_031,2014-11-06,2,2014-11-06 17:17:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.610734,41.149233,-8.688047,41.219059
+porto7_0194,taxi_038,2014-11-06,2,2014-11-06 17:22:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.60703,41.146703,-8.555664,41.185068
+porto7_0195,taxi_045,2014-11-06,2,2014-11-06 17:30:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.606192,41.146736,-8.666173,41.195656
+porto7_0196,taxi_052,2014-11-06,2,2014-11-06 17:41:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.612313,41.152584,-8.578807,41.152803
+porto7_0197,taxi_059,2014-11-06,2,2014-11-06 17:44:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.617054,41.149367,-8.657138,41.2079
+porto7_0198,taxi_066,2014-11-06,2,2014-11-06 17:50:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.618344,41.148484,-8.570581,41.182968
+porto7_0199,taxi_073,2014-11-06,2,2014-11-06 17:59:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.609297,41.146379,-8.669324,41.188774
+porto7_0200,taxi_006,2014-11-06,2,2014-11-06 18:07:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.609701,41.14899,-8.569026,41.181019
+porto7_0201,taxi_013,2014-11-06,2,2014-11-06 22:00:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.68738,41.186918,-8.575864,41.161605
+porto7_0202,taxi_020,2014-11-06,2,2014-11-06 22:08:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.610822,41.149286,-8.610504,41.151975
+porto7_0203,taxi_027,2014-11-06,2,2014-11-06 22:16:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.618814,41.149666,-8.570587,41.190324
+porto7_0204,taxi_034,2014-11-06,2,2014-11-06 22:24:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.664318,41.186472,-8.615695,41.154135
+porto7_0205,taxi_041,2014-11-06,2,2014-11-06 22:31:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.618303,41.148325,-8.547262,41.189216
+porto7_0206,taxi_048,2014-11-06,2,2014-11-06 22:38:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.608963,41.146565,-8.608364,41.149413
+porto7_0207,taxi_055,2014-11-06,2,2014-11-06 22:46:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.675327,41.185403,-8.566167,41.185185
+porto7_0208,taxi_062,2014-11-06,2,2014-11-06 22:49:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.614299,41.151075,-8.613576,41.154146
+porto7_0209,taxi_069,2014-11-06,2,2014-11-06 22:58:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.610983,41.147099,-8.569007,41.161873
+porto7_0210,taxi_013,2015-05-14,3,2015-05-14 02:04:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.685724,41.211919,-8.564393,41.151845
+porto7_0211,taxi_020,2015-05-14,3,2015-05-14 02:08:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.61878,41.150404,-8.60511,41.142575
+porto7_0212,taxi_027,2015-05-14,3,2015-05-14 02:14:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.616475,41.148491,-8.571645,41.166398
+porto7_0213,taxi_034,2015-05-14,3,2015-05-14 02:23:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.667813,41.21372,-8.610537,41.142642
+porto7_0214,taxi_041,2015-05-14,3,2015-05-14 02:30:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.610684,41.14922,-8.557553,41.153448
+porto7_0215,taxi_048,2015-05-14,3,2015-05-14 02:38:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.613815,41.14972,-8.610914,41.148892
+porto7_0216,taxi_055,2015-05-14,3,2015-05-14 02:45:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.676241,41.184793,-8.559955,41.161704
+porto7_0217,taxi_062,2015-05-14,3,2015-05-14 02:52:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.613259,41.149482,-8.606689,41.149315
+porto7_0218,taxi_069,2015-05-14,3,2015-05-14 03:00:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.607224,41.147073,-8.567336,41.163239
+porto7_0219,taxi_002,2015-05-14,3,2015-05-14 03:04:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.683769,41.198873,-8.608294,41.146175
+porto7_0220,taxi_009,2015-05-14,3,2015-05-14 08:01:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.652545,41.193958,-8.60796,41.142544
+porto7_0221,taxi_016,2015-05-14,3,2015-05-14 08:07:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.573891,41.185398,-8.611934,41.146938
+porto7_0222,taxi_023,2015-05-14,3,2015-05-14 08:19:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.67945,41.200272,-8.606783,41.148621
+porto7_0223,taxi_030,2015-05-14,3,2015-05-14 08:22:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.566725,41.190979,-8.612338,41.152109
+porto7_0224,taxi_037,2015-05-14,3,2015-05-14 08:29:00,morning_peak,06:00–09:59,taxi_stand,S31,Foz Coastal Stand,western suburban area,-8.673825,41.199569,-8.60763,41.144589
+porto7_0225,taxi_044,2015-05-14,3,2015-05-14 08:36:00,morning_peak,06:00–09:59,taxi_stand,S32,Trindade Stand,central district,-8.605125,41.14807,-8.607508,41.149057
+porto7_0226,taxi_051,2015-05-14,3,2015-05-14 08:43:00,morning_peak,06:00–09:59,taxi_stand,S31,Foz Coastal Stand,western suburban area,-8.660841,41.205697,-8.612794,41.150622
+porto7_0227,taxi_058,2015-05-14,3,2015-05-14 08:49:00,morning_peak,06:00–09:59,taxi_stand,S32,Trindade Stand,central district,-8.611703,41.148605,-8.603434,41.144738
+porto7_0228,taxi_065,2015-05-14,3,2015-05-14 09:01:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.667493,41.217813,-8.607888,41.149602
+porto7_0229,taxi_072,2015-05-14,3,2015-05-14 09:03:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.568329,41.151649,-8.607335,41.146332
+porto7_0230,taxi_005,2015-05-14,3,2015-05-14 09:13:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.651343,41.190985,-8.617176,41.152756
+porto7_0231,taxi_012,2015-05-14,3,2015-05-14 09:21:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.556359,41.173632,-8.618573,41.149023
+porto7_0232,taxi_019,2015-05-14,3,2015-05-14 09:26:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.672771,41.184067,-8.61358,41.152933
+porto7_0233,taxi_026,2015-05-14,3,2015-05-14 09:34:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.577686,41.176637,-8.61062,41.145501
+porto7_0234,taxi_033,2015-05-14,3,2015-05-14 09:43:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.668376,41.186116,-8.608694,41.152266
+porto7_0235,taxi_040,2015-05-14,3,2015-05-14 09:45:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.553729,41.181238,-8.610494,41.148568
+porto7_0236,taxi_047,2015-05-14,3,2015-05-14 09:52:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.688633,41.205992,-8.608213,41.149667
+porto7_0237,taxi_054,2015-05-14,3,2015-05-14 08:05:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.553586,41.166327,-8.607703,41.144881
+porto7_0238,taxi_061,2015-05-14,3,2015-05-14 08:15:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.655678,41.212301,-8.609899,41.148473
+porto7_0239,taxi_068,2015-05-14,3,2015-05-14 08:22:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.552241,41.181376,-8.610796,41.14459
+porto7_0240,taxi_001,2015-05-14,3,2015-05-14 08:29:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.680723,41.214772,-8.609073,41.151522
+porto7_0241,taxi_008,2015-05-14,3,2015-05-14 08:33:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.57775,41.177274,-8.6151,41.154209
+porto7_0242,taxi_015,2015-05-14,3,2015-05-14 08:43:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.681732,41.187142,-8.609384,41.150423
+porto7_0243,taxi_022,2015-05-14,3,2015-05-14 08:50:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.555453,41.184988,-8.61429,41.151325
+porto7_0244,taxi_029,2015-05-14,3,2015-05-14 08:57:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.658616,41.210944,-8.611908,41.150295
+porto7_0245,taxi_036,2015-05-14,3,2015-05-14 09:00:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.573282,41.167715,-8.610127,41.14281
+porto7_0246,taxi_043,2015-05-14,3,2015-05-14 09:08:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.68802,41.202788,-8.614619,41.152701
+porto7_0247,taxi_050,2015-05-14,3,2015-05-14 09:15:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.575385,41.188983,-8.60889,41.148738
+porto7_0248,taxi_057,2015-05-14,3,2015-05-14 09:25:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.689876,41.191624,-8.607304,41.14417
+porto7_0249,taxi_064,2015-05-14,3,2015-05-14 09:30:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.552604,41.171301,-8.61563,41.150914
+porto7_0250,taxi_071,2015-05-14,3,2015-05-14 09:38:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.665175,41.202018,-8.613136,41.148801
+porto7_0251,taxi_004,2015-05-14,3,2015-05-14 09:46:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.5745,41.167213,-8.614813,41.148667
+porto7_0252,taxi_011,2015-05-14,3,2015-05-14 09:54:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.666367,41.21031,-8.613493,41.150875
+porto7_0253,taxi_018,2015-05-14,3,2015-05-14 08:01:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.570517,41.19074,-8.614086,41.148676
+porto7_0254,taxi_025,2015-05-14,3,2015-05-14 08:12:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.675298,41.188372,-8.608156,41.148979
+porto7_0255,taxi_032,2015-05-14,3,2015-05-14 08:15:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.563514,41.158845,-8.609023,41.147922
+porto7_0256,taxi_039,2015-05-14,3,2015-05-14 08:22:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.687788,41.191386,-8.614616,41.150729
+porto7_0257,taxi_046,2015-05-14,3,2015-05-14 12:02:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.659686,41.185849,-8.550813,41.18874
+porto7_0258,taxi_053,2015-05-14,3,2015-05-14 12:09:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.610715,41.150453,-8.61096,41.146342
+porto7_0259,taxi_060,2015-05-14,3,2015-05-14 12:19:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.609937,41.149042,-8.579702,41.176709
+porto7_0260,taxi_067,2015-05-14,3,2015-05-14 12:22:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.654822,41.209758,-8.614222,41.152823
+porto7_0261,taxi_074,2015-05-14,3,2015-05-14 12:28:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.613719,41.148264,-8.559876,41.175819
+porto7_0262,taxi_007,2015-05-14,3,2015-05-14 12:35:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.605951,41.147891,-8.618689,41.149758
+porto7_0263,taxi_014,2015-05-14,3,2015-05-14 12:42:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.681073,41.18927,-8.547784,41.176873
+porto7_0264,taxi_021,2015-05-14,3,2015-05-14 12:53:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.612641,41.14761,-8.604334,41.143721
+porto7_0265,taxi_028,2015-05-14,3,2015-05-14 13:00:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.61214,41.151243,-8.554777,41.17553
+porto7_0266,taxi_035,2015-05-14,3,2015-05-14 13:08:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.656513,41.200569,-8.607164,41.143401
+porto7_0267,taxi_042,2015-05-14,3,2015-05-14 13:12:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.613223,41.151078,-8.551169,41.170973
+porto7_0268,taxi_049,2015-05-14,3,2015-05-14 13:18:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.605607,41.145743,-8.616198,41.152084
+porto7_0269,taxi_056,2015-05-14,3,2015-05-14 13:26:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.671281,41.187061,-8.561444,41.165586
+porto7_0270,taxi_063,2015-05-14,3,2015-05-14 17:05:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.611692,41.152408,-8.545476,41.16066
+porto7_0271,taxi_070,2015-05-14,3,2015-05-14 17:09:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.604588,41.14682,-8.677545,41.200777
+porto7_0272,taxi_003,2015-05-14,3,2015-05-14 17:18:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.606511,41.149244,-8.557129,41.188606
+porto7_0273,taxi_010,2015-05-14,3,2015-05-14 17:24:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.610805,41.150194,-8.658137,41.200026
+porto7_0274,taxi_017,2015-05-14,3,2015-05-14 17:33:00,late_afternoon_peak,15:00–18:59,taxi_stand,S41,Clérigos Stand,central district,-8.614747,41.148837,-8.571389,41.157631
+porto7_0275,taxi_024,2015-05-14,3,2015-05-14 17:35:00,late_afternoon_peak,15:00–18:59,taxi_stand,S42,Ribeira Stand,central district,-8.608801,41.148703,-8.690896,41.193382
+porto7_0276,taxi_031,2015-05-14,3,2015-05-14 17:45:00,late_afternoon_peak,15:00–18:59,taxi_stand,S41,Clérigos Stand,central district,-8.608208,41.151634,-8.565075,41.175137
+porto7_0277,taxi_038,2015-05-14,3,2015-05-14 17:51:00,late_afternoon_peak,15:00–18:59,taxi_stand,S42,Ribeira Stand,central district,-8.616098,41.150884,-8.663881,41.19926
+porto7_0278,taxi_045,2015-05-14,3,2015-05-14 17:57:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.614793,41.146527,-8.576015,41.190812
+porto7_0279,taxi_052,2015-05-14,3,2015-05-14 18:08:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.610554,41.145743,-8.684818,41.196607
+porto7_0280,taxi_059,2015-05-14,3,2015-05-14 18:10:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.61527,41.150537,-8.560337,41.164081
+porto7_0281,taxi_066,2015-05-14,3,2015-05-14 18:21:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.611105,41.148609,-8.65145,41.202834
+porto7_0282,taxi_073,2015-05-14,3,2015-05-14 18:29:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.603319,41.143974,-8.565463,41.168052
+porto7_0283,taxi_006,2015-05-14,3,2015-05-14 18:31:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.606172,41.142822,-8.69012,41.21709
+porto7_0284,taxi_013,2015-05-14,3,2015-05-14 18:38:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.611606,41.15423,-8.551688,41.188944
+porto7_0285,taxi_020,2015-05-14,3,2015-05-14 18:45:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.612803,41.146542,-8.678293,41.197512
+porto7_0286,taxi_027,2015-05-14,3,2015-05-14 18:53:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.610266,41.146092,-8.545292,41.156027
+porto7_0287,taxi_034,2015-05-14,3,2015-05-14 17:05:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.607005,41.148836,-8.668585,41.199899
+porto7_0288,taxi_041,2015-05-14,3,2015-05-14 17:16:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.616385,41.148403,-8.579872,41.167657
+porto7_0289,taxi_048,2015-05-14,3,2015-05-14 17:23:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.617651,41.152231,-8.681963,41.21846
+porto7_0290,taxi_055,2015-05-14,3,2015-05-14 17:30:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.603916,41.147695,-8.565964,41.154882
+porto7_0291,taxi_062,2015-05-14,3,2015-05-14 17:34:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.611344,41.153682,-8.651251,41.21368
+porto7_0292,taxi_069,2015-05-14,3,2015-05-14 17:44:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.61787,41.154325,-8.581469,41.181771
+porto7_0293,taxi_002,2015-05-14,3,2015-05-14 17:46:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.610629,41.147971,-8.666271,41.202896
+porto7_0294,taxi_009,2015-05-14,3,2015-05-14 17:58:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.615418,41.151502,-8.578586,41.176018
+porto7_0295,taxi_016,2015-05-14,3,2015-05-14 18:05:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.614898,41.148318,-8.684365,41.216199
+porto7_0296,taxi_023,2015-05-14,3,2015-05-14 18:08:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.607983,41.146142,-8.580911,41.179376
+porto7_0297,taxi_030,2015-05-14,3,2015-05-14 18:18:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.608677,41.152056,-8.691486,41.191836
+porto7_0298,taxi_037,2015-05-14,3,2015-05-14 18:26:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.606542,41.146509,-8.5519,41.190214
+porto7_0299,taxi_044,2015-05-14,3,2015-05-14 18:29:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.613127,41.151449,-8.661359,41.195918
+porto7_0300,taxi_051,2015-05-14,3,2015-05-14 18:40:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.609369,41.146406,-8.553701,41.172761
+porto7_0301,taxi_058,2015-05-14,3,2015-05-14 18:47:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.611398,41.146425,-8.656766,41.218904
+porto7_0302,taxi_065,2015-05-14,3,2015-05-14 18:50:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.61052,41.151646,-8.546083,41.161171
+porto7_0303,taxi_072,2015-05-14,3,2015-05-14 17:06:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.604989,41.144068,-8.656509,41.185097
+porto7_0304,taxi_005,2015-05-14,3,2015-05-14 17:10:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.614522,41.151079,-8.567441,41.17627
+porto7_0305,taxi_012,2015-05-14,3,2015-05-14 17:16:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.613168,41.150383,-8.670037,41.212715
+porto7_0306,taxi_019,2015-05-14,3,2015-05-14 17:23:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.611005,41.152231,-8.561073,41.168317
+porto7_0307,taxi_026,2015-05-14,3,2015-05-14 17:30:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.604557,41.145541,-8.683405,41.219213
+porto7_0308,taxi_033,2015-05-14,3,2015-05-14 17:36:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.618651,41.147641,-8.576492,41.159542
+porto7_0309,taxi_040,2015-05-14,3,2015-05-14 17:45:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.617658,41.153803,-8.66815,41.193462
+porto7_0310,taxi_047,2015-05-14,3,2015-05-14 17:51:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.616347,41.152733,-8.549201,41.181367
+porto7_0311,taxi_054,2015-05-14,3,2015-05-14 22:04:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.657934,41.214186,-8.554519,41.151612
+porto7_0312,taxi_061,2015-05-14,3,2015-05-14 22:07:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.613531,41.14783,-8.606832,41.1434
+porto7_0313,taxi_068,2015-05-14,3,2015-05-14 22:16:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.613853,41.150634,-8.555299,41.183643
+porto7_0314,taxi_001,2015-05-14,3,2015-05-14 22:24:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.68869,41.194702,-8.614869,41.14605
+porto7_0315,taxi_008,2015-05-14,3,2015-05-14 22:30:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.613416,41.15021,-8.549829,41.173921
+porto7_0316,taxi_015,2015-05-14,3,2015-05-14 22:40:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.612381,41.151769,-8.605912,41.142695
+porto7_0317,taxi_022,2015-05-14,3,2015-05-14 22:45:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.68186,41.191863,-8.56964,41.165205
+porto7_0318,taxi_029,2015-05-14,3,2015-05-14 22:51:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.60847,41.14607,-8.613852,41.150909
+porto7_0319,taxi_036,2015-05-14,3,2015-05-14 22:59:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.605699,41.146256,-8.572463,41.187915
+porto7_0320,taxi_043,2015-05-14,3,2015-05-14 23:05:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.675585,41.197229,-8.615893,41.15385
+porto7_0321,taxi_050,2015-05-14,3,2015-05-14 23:13:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.609954,41.142606,-8.574324,41.167851
+porto7_0322,taxi_068,2016-09-22,4,2016-09-22 02:03:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.668553,41.212593,-8.559408,41.15815
+porto7_0323,taxi_001,2016-09-22,4,2016-09-22 02:12:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.613681,41.147907,-8.614309,41.15308
+porto7_0324,taxi_008,2016-09-22,4,2016-09-22 02:15:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.612095,41.14576,-8.574352,41.173516
+porto7_0325,taxi_015,2016-09-22,4,2016-09-22 02:23:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.679677,41.204764,-8.615194,41.147529
+porto7_0326,taxi_022,2016-09-22,4,2016-09-22 02:28:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.613004,41.150985,-8.574397,41.159566
+porto7_0327,taxi_029,2016-09-22,4,2016-09-22 02:37:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.618645,41.15167,-8.611779,41.150598
+porto7_0328,taxi_036,2016-09-22,4,2016-09-22 02:44:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.658029,41.212727,-8.562245,41.179447
+porto7_0329,taxi_043,2016-09-22,4,2016-09-22 02:49:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.609292,41.149241,-8.613047,41.152344
+porto7_0330,taxi_050,2016-09-22,4,2016-09-22 03:00:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.603833,41.14496,-8.554348,41.180254
+porto7_0331,taxi_057,2016-09-22,4,2016-09-22 03:08:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.673862,41.191688,-8.603562,41.144612
+porto7_0332,taxi_064,2016-09-22,4,2016-09-22 03:15:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.61007,41.14899,-8.545734,41.16138
+porto7_0333,taxi_071,2016-09-22,4,2016-09-22 03:21:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.615246,41.151047,-8.617509,41.152315
+porto7_0334,taxi_004,2016-09-22,4,2016-09-22 08:05:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.655978,41.208516,-8.617699,41.154412
+porto7_0335,taxi_011,2016-09-22,4,2016-09-22 08:10:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.579411,41.175874,-8.608764,41.146389
+porto7_0336,taxi_018,2016-09-22,4,2016-09-22 08:14:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.661075,41.200785,-8.611745,41.145702
+porto7_0337,taxi_025,2016-09-22,4,2016-09-22 08:26:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.568337,41.177795,-8.613798,41.148869
+porto7_0338,taxi_032,2016-09-22,4,2016-09-22 08:31:00,morning_peak,06:00–09:59,taxi_stand,S31,Foz Coastal Stand,western suburban area,-8.658427,41.207641,-8.615938,41.149133
+porto7_0339,taxi_039,2016-09-22,4,2016-09-22 08:36:00,morning_peak,06:00–09:59,taxi_stand,S32,Trindade Stand,central district,-8.617275,41.153024,-8.612296,41.154019
+porto7_0340,taxi_046,2016-09-22,4,2016-09-22 08:45:00,morning_peak,06:00–09:59,taxi_stand,S31,Foz Coastal Stand,western suburban area,-8.660328,41.191537,-8.608817,41.150221
+porto7_0341,taxi_053,2016-09-22,4,2016-09-22 08:50:00,morning_peak,06:00–09:59,taxi_stand,S32,Trindade Stand,central district,-8.606754,41.146203,-8.610421,41.149695
+porto7_0342,taxi_060,2016-09-22,4,2016-09-22 09:01:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.681258,41.214731,-8.613579,41.149557
+porto7_0343,taxi_067,2016-09-22,4,2016-09-22 09:05:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.568539,41.161105,-8.61163,41.148245
+porto7_0344,taxi_074,2016-09-22,4,2016-09-22 09:11:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.660461,41.183771,-8.613787,41.150386
+porto7_0345,taxi_007,2016-09-22,4,2016-09-22 09:20:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.575703,41.160522,-8.609663,41.148872
+porto7_0346,taxi_014,2016-09-22,4,2016-09-22 09:26:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.660368,41.187394,-8.608352,41.144007
+porto7_0347,taxi_021,2016-09-22,4,2016-09-22 09:35:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.556828,41.163566,-8.611726,41.152201
+porto7_0348,taxi_028,2016-09-22,4,2016-09-22 09:40:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.683577,41.193489,-8.618357,41.149103
+porto7_0349,taxi_035,2016-09-22,4,2016-09-22 09:50:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.575316,41.187496,-8.607987,41.150254
+porto7_0350,taxi_042,2016-09-22,4,2016-09-22 09:52:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.655733,41.209456,-8.61203,41.149536
+porto7_0351,taxi_049,2016-09-22,4,2016-09-22 08:08:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.561989,41.16118,-8.618162,41.153623
+porto7_0352,taxi_056,2016-09-22,4,2016-09-22 08:14:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.685058,41.205816,-8.603799,41.142588
+porto7_0353,taxi_063,2016-09-22,4,2016-09-22 08:19:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.55479,41.17832,-8.61155,41.148313
+porto7_0354,taxi_070,2016-09-22,4,2016-09-22 08:29:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.659508,41.219507,-8.613723,41.150158
+porto7_0355,taxi_003,2016-09-22,4,2016-09-22 08:34:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.549123,41.178056,-8.60491,41.149437
+porto7_0356,taxi_010,2016-09-22,4,2016-09-22 08:41:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.651201,41.197931,-8.615886,41.15206
+porto7_0357,taxi_017,2016-09-22,4,2016-09-22 08:46:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.57207,41.181677,-8.612994,41.152932
+porto7_0358,taxi_024,2016-09-22,4,2016-09-22 08:58:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.659906,41.194685,-8.603918,41.143887
+porto7_0359,taxi_031,2016-09-22,4,2016-09-22 09:02:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.564164,41.1802,-8.60825,41.142728
+porto7_0360,taxi_038,2016-09-22,4,2016-09-22 09:12:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.688034,41.206264,-8.613737,41.146182
+porto7_0361,taxi_045,2016-09-22,4,2016-09-22 09:18:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.568764,41.1803,-8.608605,41.143819
+porto7_0362,taxi_052,2016-09-22,4,2016-09-22 09:25:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.67407,41.216891,-8.611161,41.152227
+porto7_0363,taxi_059,2016-09-22,4,2016-09-22 09:31:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.577899,41.172339,-8.604125,41.143529
+porto7_0364,taxi_066,2016-09-22,4,2016-09-22 09:37:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.658474,41.19624,-8.606285,41.145721
+porto7_0365,taxi_073,2016-09-22,4,2016-09-22 09:44:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.565814,41.174094,-8.60523,41.148954
+porto7_0366,taxi_006,2016-09-22,4,2016-09-22 09:49:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.681657,41.204374,-8.614672,41.14879
+porto7_0367,taxi_013,2016-09-22,4,2016-09-22 08:04:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.579555,41.153231,-8.605197,41.149238
+porto7_0368,taxi_020,2016-09-22,4,2016-09-22 08:08:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.664285,41.189624,-8.606599,41.143318
+porto7_0369,taxi_027,2016-09-22,4,2016-09-22 12:01:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.679549,41.217689,-8.559755,41.177437
+porto7_0370,taxi_034,2016-09-22,4,2016-09-22 12:12:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.604463,41.145774,-8.607452,41.144039
+porto7_0371,taxi_041,2016-09-22,4,2016-09-22 12:17:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.613782,41.151971,-8.552392,41.18499
+porto7_0372,taxi_048,2016-09-22,4,2016-09-22 12:24:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.663732,41.186121,-8.616509,41.152714
+porto7_0373,taxi_055,2016-09-22,4,2016-09-22 12:33:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.607578,41.149482,-8.565706,41.168079
+porto7_0374,taxi_062,2016-09-22,4,2016-09-22 12:40:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.614716,41.151188,-8.607413,41.143317
+porto7_0375,taxi_069,2016-09-22,4,2016-09-22 12:44:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.655675,41.187911,-8.56722,41.158491
+porto7_0376,taxi_002,2016-09-22,4,2016-09-22 12:53:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.611523,41.151945,-8.608541,41.152253
+porto7_0377,taxi_009,2016-09-22,4,2016-09-22 12:58:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.611001,41.149484,-8.57582,41.176076
+porto7_0378,taxi_016,2016-09-22,4,2016-09-22 13:08:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.66816,41.192663,-8.604384,41.148128
+porto7_0379,taxi_023,2016-09-22,4,2016-09-22 13:10:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.611503,41.145614,-8.553561,41.151379
+porto7_0380,taxi_030,2016-09-22,4,2016-09-22 13:20:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.616964,41.150532,-8.618058,41.147781
+porto7_0381,taxi_037,2016-09-22,4,2016-09-22 13:28:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.691746,41.213345,-8.562549,41.172552
+porto7_0382,taxi_044,2016-09-22,4,2016-09-22 13:33:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.609099,41.146128,-8.608942,41.143347
+porto7_0383,taxi_051,2016-09-22,4,2016-09-22 13:41:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.613901,41.149297,-8.568849,41.162536
+porto7_0384,taxi_058,2016-09-22,4,2016-09-22 17:00:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.606635,41.148137,-8.556498,41.182716
+porto7_0385,taxi_065,2016-09-22,4,2016-09-22 17:11:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.607963,41.143283,-8.677028,41.183436
+porto7_0386,taxi_072,2016-09-22,4,2016-09-22 17:18:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.614878,41.153957,-8.564187,41.168488
+porto7_0387,taxi_005,2016-09-22,4,2016-09-22 17:25:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.618313,41.152447,-8.689318,41.219877
+porto7_0388,taxi_012,2016-09-22,4,2016-09-22 17:30:00,late_afternoon_peak,15:00–18:59,taxi_stand,S41,Clérigos Stand,central district,-8.607643,41.147113,-8.576693,41.17586
+porto7_0389,taxi_019,2016-09-22,4,2016-09-22 17:37:00,late_afternoon_peak,15:00–18:59,taxi_stand,S42,Ribeira Stand,central district,-8.614944,41.15069,-8.685735,41.187489
+porto7_0390,taxi_026,2016-09-22,4,2016-09-22 17:46:00,late_afternoon_peak,15:00–18:59,taxi_stand,S41,Clérigos Stand,central district,-8.604503,41.142838,-8.558943,41.184714
+porto7_0391,taxi_033,2016-09-22,4,2016-09-22 17:52:00,late_afternoon_peak,15:00–18:59,taxi_stand,S42,Ribeira Stand,central district,-8.611732,41.14918,-8.671334,41.187131
+porto7_0392,taxi_040,2016-09-22,4,2016-09-22 17:59:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.618412,41.148725,-8.572934,41.162097
+porto7_0393,taxi_047,2016-09-22,4,2016-09-22 18:04:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.610139,41.147865,-8.654735,41.215754
+porto7_0394,taxi_054,2016-09-22,4,2016-09-22 18:10:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.606911,41.144859,-8.565504,41.151611
+porto7_0395,taxi_061,2016-09-22,4,2016-09-22 18:22:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.603841,41.146234,-8.658068,41.196645
+porto7_0396,taxi_068,2016-09-22,4,2016-09-22 18:29:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.610326,41.15215,-8.580955,41.182511
+porto7_0397,taxi_001,2016-09-22,4,2016-09-22 18:36:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.604491,41.146078,-8.676192,41.201952
+porto7_0398,taxi_008,2016-09-22,4,2016-09-22 18:40:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.61694,41.152705,-8.571632,41.175954
+porto7_0399,taxi_015,2016-09-22,4,2016-09-22 18:46:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.608014,41.14784,-8.652178,41.216263
+porto7_0400,taxi_022,2016-09-22,4,2016-09-22 18:52:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.613271,41.149846,-8.551705,41.172958
+porto7_0401,taxi_029,2016-09-22,4,2016-09-22 17:09:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.614063,41.151642,-8.656736,41.202703
+porto7_0402,taxi_036,2016-09-22,4,2016-09-22 17:14:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.608352,41.152471,-8.570234,41.183397
+porto7_0403,taxi_043,2016-09-22,4,2016-09-22 17:18:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.608216,41.147754,-8.667083,41.21764
+porto7_0404,taxi_050,2016-09-22,4,2016-09-22 17:25:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.609646,41.150785,-8.575441,41.188741
+porto7_0405,taxi_057,2016-09-22,4,2016-09-22 17:34:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.611827,41.152184,-8.678334,41.218917
+porto7_0406,taxi_064,2016-09-22,4,2016-09-22 17:41:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.608784,41.148874,-8.566984,41.180033
+porto7_0407,taxi_071,2016-09-22,4,2016-09-22 17:51:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.618158,41.150803,-8.662932,41.203018
+porto7_0408,taxi_004,2016-09-22,4,2016-09-22 17:54:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.607329,41.147445,-8.546127,41.161758
+porto7_0409,taxi_011,2016-09-22,4,2016-09-22 18:04:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.609542,41.147411,-8.689343,41.201546
+porto7_0410,taxi_018,2016-09-22,4,2016-09-22 18:12:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.604934,41.148175,-8.580988,41.170787
+porto7_0411,taxi_025,2016-09-22,4,2016-09-22 18:16:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.609651,41.151851,-8.687834,41.196088
+porto7_0412,taxi_032,2016-09-22,4,2016-09-22 18:24:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.6088,41.144985,-8.554502,41.159742
+porto7_0413,taxi_039,2016-09-22,4,2016-09-22 18:30:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.607868,41.150297,-8.656818,41.217724
+porto7_0414,taxi_046,2016-09-22,4,2016-09-22 18:35:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.612967,41.148024,-8.580472,41.151069
+porto7_0415,taxi_053,2016-09-22,4,2016-09-22 18:47:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.613004,41.146655,-8.664212,41.212153
+porto7_0416,taxi_060,2016-09-22,4,2016-09-22 18:54:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.611425,41.147321,-8.550944,41.178581
+porto7_0417,taxi_067,2016-09-22,4,2016-09-22 17:04:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.608692,41.145194,-8.660537,41.183545
+porto7_0418,taxi_074,2016-09-22,4,2016-09-22 17:09:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.611029,41.151533,-8.571617,41.152595
+porto7_0419,taxi_007,2016-09-22,4,2016-09-22 17:15:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.604216,41.146876,-8.651762,41.217769
+porto7_0420,taxi_014,2016-09-22,4,2016-09-22 17:27:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.616335,41.150341,-8.555729,41.153136
+porto7_0421,taxi_021,2016-09-22,4,2016-09-22 17:31:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.609179,41.146511,-8.686177,41.199484
+porto7_0422,taxi_028,2016-09-22,4,2016-09-22 17:39:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.610566,41.145884,-8.56409,41.15889
+porto7_0423,taxi_035,2016-09-22,4,2016-09-22 17:48:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.618832,41.153901,-8.66708,41.193497
+porto7_0424,taxi_042,2016-09-22,4,2016-09-22 17:51:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.611315,41.1495,-8.555289,41.178598
+porto7_0425,taxi_049,2016-09-22,4,2016-09-22 17:57:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.612369,41.14654,-8.68024,41.206182
+porto7_0426,taxi_056,2016-09-22,4,2016-09-22 18:05:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.611159,41.148936,-8.568456,41.169613
+porto7_0427,taxi_063,2016-09-22,4,2016-09-22 18:11:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.609761,41.144317,-8.666962,41.204986
+porto7_0428,taxi_070,2016-09-22,4,2016-09-22 18:21:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.611338,41.153399,-8.560609,41.176156
+porto7_0429,taxi_003,2016-09-22,4,2016-09-22 18:26:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.615813,41.150039,-8.681952,41.214366
+porto7_0430,taxi_010,2016-09-22,4,2016-09-22 18:35:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.609874,41.149021,-8.575589,41.187058
+porto7_0431,taxi_017,2016-09-22,4,2016-09-22 18:44:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.614559,41.152258,-8.670274,41.196153
+porto7_0432,taxi_024,2016-09-22,4,2016-09-22 18:46:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.611062,41.1536,-8.562942,41.161144
+porto7_0433,taxi_031,2016-09-22,4,2016-09-22 18:54:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.607837,41.151014,-8.672865,41.209769
+porto7_0434,taxi_038,2016-09-22,4,2016-09-22 22:05:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.659784,41.192335,-8.577119,41.154528
+porto7_0435,taxi_045,2016-09-22,4,2016-09-22 22:07:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.610677,41.150323,-8.612395,41.153292
+porto7_0436,taxi_052,2016-09-22,4,2016-09-22 22:16:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.61071,41.146168,-8.548816,41.186162
+porto7_0437,taxi_059,2016-09-22,4,2016-09-22 22:22:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.672104,41.199305,-8.607473,41.143066
+porto7_0438,taxi_066,2016-09-22,4,2016-09-22 22:31:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.603677,41.143475,-8.545628,41.165889
+porto7_0439,taxi_073,2016-09-22,4,2016-09-22 22:38:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.61453,41.153072,-8.616755,41.153496
+porto7_0440,taxi_006,2016-09-22,4,2016-09-22 22:47:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.682028,41.201263,-8.581676,41.173995
+porto7_0441,taxi_013,2016-09-22,4,2016-09-22 22:52:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.613759,41.148366,-8.616821,41.151568
+porto7_0442,taxi_020,2016-09-22,4,2016-09-22 22:56:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.613539,41.149763,-8.567091,41.190675
+porto7_0443,taxi_027,2016-09-22,4,2016-09-22 23:06:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.663182,41.209573,-8.610483,41.142863
+porto7_0444,taxi_045,2017-03-09,5,2017-03-09 02:02:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.662889,41.216051,-8.570383,41.18039
+porto7_0445,taxi_052,2017-03-09,5,2017-03-09 02:09:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.612633,41.148545,-8.608454,41.152051
+porto7_0446,taxi_059,2017-03-09,5,2017-03-09 02:16:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.61218,41.153402,-8.562159,41.174731
+porto7_0447,taxi_066,2017-03-09,5,2017-03-09 02:24:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.677197,41.190806,-8.614768,41.150001
+porto7_0448,taxi_073,2017-03-09,5,2017-03-09 02:28:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.607853,41.14402,-8.580875,41.174894
+porto7_0449,taxi_006,2017-03-09,5,2017-03-09 02:35:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.610909,41.14593,-8.608491,41.150097
+porto7_0450,taxi_013,2017-03-09,5,2017-03-09 02:43:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.664385,41.190456,-8.546384,41.179894
+porto7_0451,taxi_020,2017-03-09,5,2017-03-09 02:50:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.606778,41.144102,-8.603233,41.146049
+porto7_0452,taxi_027,2017-03-09,5,2017-03-09 03:01:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.615784,41.14759,-8.579422,41.158468
+porto7_0453,taxi_034,2017-03-09,5,2017-03-09 03:05:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.676067,41.187115,-8.613207,41.14701
+porto7_0454,taxi_041,2017-03-09,5,2017-03-09 03:12:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.605114,41.14297,-8.545866,41.164757
+porto7_0455,taxi_048,2017-03-09,5,2017-03-09 08:02:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.661967,41.186285,-8.604842,41.147965
+porto7_0456,taxi_055,2017-03-09,5,2017-03-09 08:11:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.556517,41.167564,-8.615919,41.14956
+porto7_0457,taxi_062,2017-03-09,5,2017-03-09 08:17:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.672871,41.183118,-8.603549,41.145359
+porto7_0458,taxi_069,2017-03-09,5,2017-03-09 08:26:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.552831,41.168049,-8.604597,41.14585
+porto7_0459,taxi_002,2017-03-09,5,2017-03-09 08:28:00,morning_peak,06:00–09:59,taxi_stand,S31,Foz Coastal Stand,western suburban area,-8.669647,41.186795,-8.609564,41.143882
+porto7_0460,taxi_009,2017-03-09,5,2017-03-09 08:35:00,morning_peak,06:00–09:59,taxi_stand,S32,Trindade Stand,central district,-8.61286,41.149482,-8.603027,41.143719
+porto7_0461,taxi_016,2017-03-09,5,2017-03-09 08:45:00,morning_peak,06:00–09:59,taxi_stand,S31,Foz Coastal Stand,western suburban area,-8.655756,41.209326,-8.610743,41.148711
+porto7_0462,taxi_023,2017-03-09,5,2017-03-09 08:51:00,morning_peak,06:00–09:59,taxi_stand,S32,Trindade Stand,central district,-8.611379,41.148109,-8.61204,41.148871
+porto7_0463,taxi_030,2017-03-09,5,2017-03-09 08:58:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.691501,41.197871,-8.612716,41.148371
+porto7_0464,taxi_037,2017-03-09,5,2017-03-09 09:08:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.56624,41.167727,-8.613445,41.149865
+porto7_0465,taxi_044,2017-03-09,5,2017-03-09 09:10:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.664991,41.216835,-8.60364,41.146761
+porto7_0466,taxi_051,2017-03-09,5,2017-03-09 09:18:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.553104,41.178681,-8.607581,41.151659
+porto7_0467,taxi_058,2017-03-09,5,2017-03-09 09:27:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.673965,41.203367,-8.604286,41.142569
+porto7_0468,taxi_065,2017-03-09,5,2017-03-09 09:33:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.573946,41.166917,-8.615467,41.151757
+porto7_0469,taxi_072,2017-03-09,5,2017-03-09 09:40:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.670412,41.218169,-8.610968,41.149497
+porto7_0470,taxi_005,2017-03-09,5,2017-03-09 09:46:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.546921,41.167035,-8.610921,41.151854
+porto7_0471,taxi_012,2017-03-09,5,2017-03-09 08:02:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.652051,41.198613,-8.607583,41.14844
+porto7_0472,taxi_019,2017-03-09,5,2017-03-09 08:09:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.574298,41.161297,-8.613963,41.154403
+porto7_0473,taxi_026,2017-03-09,5,2017-03-09 08:12:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.654256,41.194713,-8.604667,41.143435
+porto7_0474,taxi_033,2017-03-09,5,2017-03-09 08:21:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.572167,41.171135,-8.611585,41.152064
+porto7_0475,taxi_040,2017-03-09,5,2017-03-09 08:30:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.67102,41.183268,-8.610425,41.14633
+porto7_0476,taxi_047,2017-03-09,5,2017-03-09 08:33:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.55627,41.174313,-8.610174,41.147919
+porto7_0477,taxi_054,2017-03-09,5,2017-03-09 08:44:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.670552,41.204621,-8.607423,41.14479
+porto7_0478,taxi_061,2017-03-09,5,2017-03-09 08:49:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.549253,41.156812,-8.617404,41.150681
+porto7_0479,taxi_068,2017-03-09,5,2017-03-09 08:58:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.663301,41.214112,-8.605409,41.149079
+porto7_0480,taxi_001,2017-03-09,5,2017-03-09 09:04:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.548301,41.15381,-8.616912,41.15217
+porto7_0481,taxi_008,2017-03-09,5,2017-03-09 09:12:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.679873,41.190197,-8.611731,41.148797
+porto7_0482,taxi_015,2017-03-09,5,2017-03-09 09:19:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.576881,41.188422,-8.613007,41.14793
+porto7_0483,taxi_022,2017-03-09,5,2017-03-09 09:23:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.660738,41.204071,-8.612679,41.152177
+porto7_0484,taxi_029,2017-03-09,5,2017-03-09 09:28:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.551935,41.172821,-8.61233,41.14817
+porto7_0485,taxi_036,2017-03-09,5,2017-03-09 09:38:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.679062,41.207809,-8.60701,41.144941
+porto7_0486,taxi_043,2017-03-09,5,2017-03-09 09:44:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.561133,41.163509,-8.612169,41.146754
+porto7_0487,taxi_050,2017-03-09,5,2017-03-09 09:53:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.665225,41.190971,-8.612598,41.153623
+porto7_0488,taxi_057,2017-03-09,5,2017-03-09 08:04:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.547679,41.170202,-8.608555,41.146747
+porto7_0489,taxi_064,2017-03-09,5,2017-03-09 08:08:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.652051,41.216956,-8.613088,41.145783
+porto7_0490,taxi_071,2017-03-09,5,2017-03-09 08:15:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.546375,41.161924,-8.614824,41.14823
+porto7_0491,taxi_004,2017-03-09,5,2017-03-09 08:25:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.678727,41.21156,-8.611771,41.150277
+porto7_0492,taxi_011,2017-03-09,5,2017-03-09 08:30:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.565255,41.15297,-8.61772,41.148962
+porto7_0493,taxi_018,2017-03-09,5,2017-03-09 08:37:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.674005,41.184798,-8.605356,41.147017
+porto7_0494,taxi_025,2017-03-09,5,2017-03-09 08:43:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.560797,41.181988,-8.60995,41.147633
+porto7_0495,taxi_032,2017-03-09,5,2017-03-09 08:54:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.668324,41.188031,-8.612203,41.145785
+porto7_0496,taxi_039,2017-03-09,5,2017-03-09 08:57:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.545361,41.158004,-8.607707,41.150171
+porto7_0497,taxi_046,2017-03-09,5,2017-03-09 12:00:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.673446,41.201669,-8.573765,41.188308
+porto7_0498,taxi_053,2017-03-09,5,2017-03-09 12:11:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.618386,41.151954,-8.611327,41.146591
+porto7_0499,taxi_060,2017-03-09,5,2017-03-09 12:14:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.618384,41.148228,-8.570855,41.163013
+porto7_0500,taxi_067,2017-03-09,5,2017-03-09 12:22:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.684578,41.198371,-8.613059,41.149092
+porto7_0501,taxi_074,2017-03-09,5,2017-03-09 12:28:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.603233,41.144599,-8.570071,41.154024
+porto7_0502,taxi_007,2017-03-09,5,2017-03-09 12:40:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.613666,41.152873,-8.613722,41.152261
+porto7_0503,taxi_014,2017-03-09,5,2017-03-09 12:46:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.673032,41.205987,-8.580545,41.179616
+porto7_0504,taxi_021,2017-03-09,5,2017-03-09 12:54:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.60659,41.145111,-8.61191,41.150325
+porto7_0505,taxi_028,2017-03-09,5,2017-03-09 12:59:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.609211,41.147956,-8.54665,41.177523
+porto7_0506,taxi_035,2017-03-09,5,2017-03-09 13:07:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.663267,41.206872,-8.60432,41.145206
+porto7_0507,taxi_042,2017-03-09,5,2017-03-09 13:15:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.613328,41.152196,-8.5552,41.182348
+porto7_0508,taxi_049,2017-03-09,5,2017-03-09 13:22:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.60498,41.143287,-8.607483,41.146341
+porto7_0509,taxi_056,2017-03-09,5,2017-03-09 13:28:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.680778,41.212978,-8.556731,41.156753
+porto7_0510,taxi_063,2017-03-09,5,2017-03-09 13:34:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.608809,41.149927,-8.606724,41.149017
+porto7_0511,taxi_070,2017-03-09,5,2017-03-09 17:02:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.607816,41.151575,-8.559596,41.173142
+porto7_0512,taxi_003,2017-03-09,5,2017-03-09 17:11:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.60471,41.143551,-8.665596,41.198756
+porto7_0513,taxi_010,2017-03-09,5,2017-03-09 17:16:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.606792,41.14512,-8.572075,41.179121
+porto7_0514,taxi_017,2017-03-09,5,2017-03-09 17:24:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.613836,41.149995,-8.684798,41.191671
+porto7_0515,taxi_024,2017-03-09,5,2017-03-09 17:31:00,late_afternoon_peak,15:00–18:59,taxi_stand,S41,Clérigos Stand,central district,-8.60821,41.147051,-8.547283,41.180551
+porto7_0516,taxi_031,2017-03-09,5,2017-03-09 17:35:00,late_afternoon_peak,15:00–18:59,taxi_stand,S42,Ribeira Stand,central district,-8.603786,41.147166,-8.670848,41.217164
+porto7_0517,taxi_038,2017-03-09,5,2017-03-09 17:47:00,late_afternoon_peak,15:00–18:59,taxi_stand,S41,Clérigos Stand,central district,-8.611933,41.153166,-8.580238,41.181447
+porto7_0518,taxi_045,2017-03-09,5,2017-03-09 17:52:00,late_afternoon_peak,15:00–18:59,taxi_stand,S42,Ribeira Stand,central district,-8.614252,41.146008,-8.653078,41.218464
+porto7_0519,taxi_052,2017-03-09,5,2017-03-09 18:01:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.613191,41.148902,-8.550066,41.15256
+porto7_0520,taxi_059,2017-03-09,5,2017-03-09 18:03:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.609346,41.142543,-8.674991,41.195579
+porto7_0521,taxi_066,2017-03-09,5,2017-03-09 18:13:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.607505,41.149944,-8.574058,41.183226
+porto7_0522,taxi_073,2017-03-09,5,2017-03-09 18:18:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.612001,41.153377,-8.653992,41.189148
+porto7_0523,taxi_006,2017-03-09,5,2017-03-09 18:29:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.611898,41.147893,-8.573758,41.188288
+porto7_0524,taxi_013,2017-03-09,5,2017-03-09 18:32:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.610555,41.150412,-8.669036,41.187597
+porto7_0525,taxi_020,2017-03-09,5,2017-03-09 18:39:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.605979,41.146437,-8.572795,41.160452
+porto7_0526,taxi_027,2017-03-09,5,2017-03-09 18:46:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.614971,41.147303,-8.691172,41.194347
+porto7_0527,taxi_034,2017-03-09,5,2017-03-09 17:01:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.614482,41.148384,-8.555333,41.165132
+porto7_0528,taxi_041,2017-03-09,5,2017-03-09 17:08:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.604825,41.144548,-8.66023,41.207029
+porto7_0529,taxi_048,2017-03-09,5,2017-03-09 17:16:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.607482,41.14433,-8.580614,41.171023
+porto7_0530,taxi_055,2017-03-09,5,2017-03-09 17:21:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.606493,41.142523,-8.659985,41.217876
+porto7_0531,taxi_062,2017-03-09,5,2017-03-09 17:30:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.609141,41.152375,-8.579186,41.182889
+porto7_0532,taxi_069,2017-03-09,5,2017-03-09 17:37:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.606088,41.143626,-8.653915,41.200707
+porto7_0533,taxi_002,2017-03-09,5,2017-03-09 17:43:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.608171,41.148183,-8.575825,41.156381
+porto7_0534,taxi_009,2017-03-09,5,2017-03-09 17:50:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.61033,41.146035,-8.685361,41.218779
+porto7_0535,taxi_016,2017-03-09,5,2017-03-09 17:53:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.607279,41.148721,-8.581575,41.173011
+porto7_0536,taxi_023,2017-03-09,5,2017-03-09 18:04:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.618,41.151636,-8.67882,41.197166
+porto7_0537,taxi_030,2017-03-09,5,2017-03-09 18:10:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.605424,41.14932,-8.572365,41.179674
+porto7_0538,taxi_037,2017-03-09,5,2017-03-09 18:14:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.605763,41.143449,-8.672031,41.214784
+porto7_0539,taxi_044,2017-03-09,5,2017-03-09 18:26:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.604293,41.148478,-8.567069,41.189537
+porto7_0540,taxi_051,2017-03-09,5,2017-03-09 18:29:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.617648,41.151939,-8.652089,41.204968
+porto7_0541,taxi_058,2017-03-09,5,2017-03-09 18:37:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.604076,41.146425,-8.578205,41.181128
+porto7_0542,taxi_065,2017-03-09,5,2017-03-09 18:46:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.607037,41.145932,-8.66829,41.192027
+porto7_0543,taxi_072,2017-03-09,5,2017-03-09 18:51:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.615271,41.154126,-8.556743,41.183024
+porto7_0544,taxi_005,2017-03-09,5,2017-03-09 17:04:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.614601,41.150647,-8.651076,41.204013
+porto7_0545,taxi_012,2017-03-09,5,2017-03-09 17:12:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.608696,41.146675,-8.561891,41.175018
+porto7_0546,taxi_019,2017-03-09,5,2017-03-09 17:20:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.618482,41.151691,-8.678558,41.191423
+porto7_0547,taxi_026,2017-03-09,5,2017-03-09 17:27:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.609414,41.148719,-8.558453,41.161885
+porto7_0548,taxi_033,2017-03-09,5,2017-03-09 17:29:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.611713,41.147234,-8.689194,41.185395
+porto7_0549,taxi_040,2017-03-09,5,2017-03-09 17:36:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.614127,41.145711,-8.551215,41.175624
+porto7_0550,taxi_047,2017-03-09,5,2017-03-09 17:48:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.609751,41.144925,-8.677585,41.201838
+porto7_0551,taxi_054,2017-03-09,5,2017-03-09 17:52:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.611736,41.149776,-8.561104,41.177155
+porto7_0552,taxi_061,2017-03-09,5,2017-03-09 17:57:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.612781,41.145715,-8.680894,41.202675
+porto7_0553,taxi_068,2017-03-09,5,2017-03-09 18:07:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.614786,41.15078,-8.561464,41.190441
+porto7_0554,taxi_001,2017-03-09,5,2017-03-09 18:12:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.615174,41.152672,-8.661423,41.196345
+porto7_0555,taxi_008,2017-03-09,5,2017-03-09 18:22:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.614752,41.147689,-8.575925,41.157798
+porto7_0556,taxi_015,2017-03-09,5,2017-03-09 18:29:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.606439,41.143222,-8.657053,41.183092
+porto7_0557,taxi_022,2017-03-09,5,2017-03-09 18:36:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.603801,41.147373,-8.547231,41.182312
+porto7_0558,taxi_029,2017-03-09,5,2017-03-09 18:41:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.610995,41.149297,-8.660574,41.207641
+porto7_0559,taxi_036,2017-03-09,5,2017-03-09 22:00:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.653274,41.209434,-8.56217,41.176777
+porto7_0560,taxi_043,2017-03-09,5,2017-03-09 22:08:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.61284,41.150535,-8.60814,41.142928
+porto7_0561,taxi_050,2017-03-09,5,2017-03-09 22:15:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.607932,41.146789,-8.577534,41.171114
+porto7_0562,taxi_057,2017-03-09,5,2017-03-09 22:21:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.669977,41.201512,-8.615297,41.152914
+porto7_0563,taxi_064,2017-03-09,5,2017-03-09 22:32:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.607363,41.147316,-8.580839,41.159484
+porto7_0564,taxi_071,2017-03-09,5,2017-03-09 22:39:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.618566,41.151945,-8.612766,41.150389
+porto7_0565,taxi_004,2017-03-09,5,2017-03-09 22:46:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.671145,41.196637,-8.557026,41.159882
+porto7_0566,taxi_011,2017-03-09,5,2017-03-09 22:54:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.604977,41.145199,-8.614915,41.14798
+porto7_0567,taxi_018,2017-03-09,5,2017-03-09 23:00:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.611791,41.15232,-8.545893,41.183473
+porto7_0568,taxi_025,2017-03-09,5,2017-03-09 23:08:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.662493,41.19597,-8.611915,41.15074
+porto7_0569,taxi_032,2017-03-09,5,2017-03-09 23:15:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.618894,41.154439,-8.546075,41.17373
+porto7_0570,taxi_039,2017-03-09,5,2017-03-09 23:22:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.617163,41.148479,-8.606041,41.146161
+porto7_0571,taxi_057,2018-12-13,6,2018-12-13 02:04:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.675584,41.187605,-8.568243,41.181162
+porto7_0572,taxi_064,2018-12-13,6,2018-12-13 02:12:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.614936,41.146958,-8.609737,41.142527
+porto7_0573,taxi_071,2018-12-13,6,2018-12-13 02:14:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.605462,41.142528,-8.55544,41.162575
+porto7_0574,taxi_004,2018-12-13,6,2018-12-13 02:23:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.668211,41.212656,-8.616387,41.149591
+porto7_0575,taxi_011,2018-12-13,6,2018-12-13 02:33:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.607556,41.151083,-8.572522,41.189395
+porto7_0576,taxi_018,2018-12-13,6,2018-12-13 02:38:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.608816,41.146542,-8.607894,41.14363
+porto7_0577,taxi_025,2018-12-13,6,2018-12-13 02:46:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.672327,41.201177,-8.547297,41.17093
+porto7_0578,taxi_032,2018-12-13,6,2018-12-13 02:54:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.603153,41.144237,-8.612012,41.151106
+porto7_0579,taxi_039,2018-12-13,6,2018-12-13 02:58:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.614936,41.153858,-8.567456,41.19054
+porto7_0580,taxi_046,2018-12-13,6,2018-12-13 03:04:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.665323,41.197058,-8.613958,41.148225
+porto7_0581,taxi_053,2018-12-13,6,2018-12-13 03:10:00,overnight_low,00:00–05:59,street_hail,,,mixed citywide area,-8.612956,41.148898,-8.551158,41.181285
+porto7_0582,taxi_060,2018-12-13,6,2018-12-13 03:19:00,overnight_low,00:00–05:59,central_dispatch,,,mixed citywide area,-8.605527,41.149066,-8.618546,41.153599
+porto7_0583,taxi_067,2018-12-13,6,2018-12-13 08:05:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.678505,41.182349,-8.615101,41.149545
+porto7_0584,taxi_074,2018-12-13,6,2018-12-13 08:10:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.572936,41.181718,-8.615513,41.152096
+porto7_0585,taxi_007,2018-12-13,6,2018-12-13 08:16:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.660048,41.193059,-8.613834,41.149207
+porto7_0586,taxi_014,2018-12-13,6,2018-12-13 08:23:00,morning_peak,06:00–09:59,street_hail,,,suburban non-stand request,-8.576204,41.174399,-8.611825,41.149864
+porto7_0587,taxi_021,2018-12-13,6,2018-12-13 08:29:00,morning_peak,06:00–09:59,taxi_stand,S31,Foz Coastal Stand,western suburban area,-8.690027,41.219095,-8.61081,41.145625
+porto7_0588,taxi_028,2018-12-13,6,2018-12-13 08:39:00,morning_peak,06:00–09:59,taxi_stand,S32,Trindade Stand,central district,-8.618171,41.149308,-8.606465,41.142866
+porto7_0589,taxi_035,2018-12-13,6,2018-12-13 08:43:00,morning_peak,06:00–09:59,taxi_stand,S31,Foz Coastal Stand,western suburban area,-8.690111,41.186681,-8.613781,41.149725
+porto7_0590,taxi_042,2018-12-13,6,2018-12-13 08:53:00,morning_peak,06:00–09:59,taxi_stand,S32,Trindade Stand,central district,-8.603819,41.146563,-8.611619,41.148618
+porto7_0591,taxi_049,2018-12-13,6,2018-12-13 08:56:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.674625,41.183806,-8.610663,41.148346
+porto7_0592,taxi_056,2018-12-13,6,2018-12-13 09:05:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.552627,41.163116,-8.607982,41.14885
+porto7_0593,taxi_063,2018-12-13,6,2018-12-13 09:14:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.666015,41.186298,-8.614439,41.148916
+porto7_0594,taxi_070,2018-12-13,6,2018-12-13 09:17:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.573825,41.171295,-8.608903,41.148277
+porto7_0595,taxi_003,2018-12-13,6,2018-12-13 09:26:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.686018,41.196662,-8.611207,41.150646
+porto7_0596,taxi_010,2018-12-13,6,2018-12-13 09:31:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.568853,41.167782,-8.607472,41.144836
+porto7_0597,taxi_017,2018-12-13,6,2018-12-13 09:41:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.681233,41.186182,-8.604316,41.143053
+porto7_0598,taxi_024,2018-12-13,6,2018-12-13 09:50:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.574119,41.166619,-8.611489,41.148291
+porto7_0599,taxi_031,2018-12-13,6,2018-12-13 08:02:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.671004,41.209392,-8.609492,41.148284
+porto7_0600,taxi_038,2018-12-13,6,2018-12-13 08:08:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.554337,41.152639,-8.610038,41.147479
+porto7_0601,taxi_045,2018-12-13,6,2018-12-13 08:15:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.679385,41.193209,-8.612779,41.145587
+porto7_0602,taxi_052,2018-12-13,6,2018-12-13 08:23:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.559103,41.174273,-8.608617,41.146873
+porto7_0603,taxi_059,2018-12-13,6,2018-12-13 08:25:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.681399,41.199326,-8.617519,41.148798
+porto7_0604,taxi_066,2018-12-13,6,2018-12-13 08:32:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.545006,41.178265,-8.613637,41.148096
+porto7_0605,taxi_073,2018-12-13,6,2018-12-13 08:40:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.665258,41.202359,-8.614199,41.149367
+porto7_0606,taxi_006,2018-12-13,6,2018-12-13 08:47:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.545661,41.168913,-8.608643,41.14322
+porto7_0607,taxi_013,2018-12-13,6,2018-12-13 08:53:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.653319,41.200186,-8.609943,41.151829
+porto7_0608,taxi_020,2018-12-13,6,2018-12-13 09:00:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.579778,41.186758,-8.618531,41.149019
+porto7_0609,taxi_027,2018-12-13,6,2018-12-13 09:12:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.672076,41.202357,-8.614237,41.15205
+porto7_0610,taxi_034,2018-12-13,6,2018-12-13 09:14:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.552159,41.171482,-8.60554,41.142872
+porto7_0611,taxi_041,2018-12-13,6,2018-12-13 09:21:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.6741,41.19563,-8.618978,41.148647
+porto7_0612,taxi_048,2018-12-13,6,2018-12-13 09:29:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.571405,41.187415,-8.60454,41.145434
+porto7_0613,taxi_055,2018-12-13,6,2018-12-13 09:39:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.655314,41.2038,-8.605826,41.146043
+porto7_0614,taxi_062,2018-12-13,6,2018-12-13 09:45:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.579246,41.160934,-8.616213,41.149111
+porto7_0615,taxi_069,2018-12-13,6,2018-12-13 09:51:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.664638,41.212611,-8.609922,41.145108
+porto7_0616,taxi_002,2018-12-13,6,2018-12-13 08:01:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.580686,41.161395,-8.612305,41.151963
+porto7_0617,taxi_009,2018-12-13,6,2018-12-13 08:11:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.690531,41.218944,-8.607402,41.150498
+porto7_0618,taxi_016,2018-12-13,6,2018-12-13 08:17:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.554324,41.168196,-8.611099,41.146829
+porto7_0619,taxi_023,2018-12-13,6,2018-12-13 08:22:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.66206,41.182733,-8.616549,41.14878
+porto7_0620,taxi_030,2018-12-13,6,2018-12-13 08:31:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.563279,41.164754,-8.613839,41.149589
+porto7_0621,taxi_037,2018-12-13,6,2018-12-13 08:36:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.655875,41.198997,-8.610379,41.148362
+porto7_0622,taxi_044,2018-12-13,6,2018-12-13 08:48:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.574559,41.188345,-8.617567,41.151611
+porto7_0623,taxi_051,2018-12-13,6,2018-12-13 08:51:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.690524,41.207716,-8.615299,41.148922
+porto7_0624,taxi_058,2018-12-13,6,2018-12-13 09:01:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.550702,41.171406,-8.607903,41.149327
+porto7_0625,taxi_065,2018-12-13,6,2018-12-13 09:09:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.668358,41.182498,-8.607547,41.146409
+porto7_0626,taxi_072,2018-12-13,6,2018-12-13 09:14:00,morning_peak,06:00–09:59,taxi_stand,S24,Campanhã Outer Stand,eastern suburban area,-8.572425,41.189632,-8.611484,41.147897
+porto7_0627,taxi_005,2018-12-13,6,2018-12-13 09:19:00,morning_peak,06:00–09:59,taxi_stand,S17,Matosinhos Edge Stand,western suburban area,-8.678271,41.208924,-8.609959,41.148202
+porto7_0628,taxi_012,2018-12-13,6,2018-12-13 12:03:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.651544,41.191333,-8.553726,41.162296
+porto7_0629,taxi_019,2018-12-13,6,2018-12-13 12:08:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.611401,41.151702,-8.613372,41.153254
+porto7_0630,taxi_026,2018-12-13,6,2018-12-13 12:15:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.608229,41.147675,-8.561322,41.169027
+porto7_0631,taxi_033,2018-12-13,6,2018-12-13 12:24:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.670627,41.198696,-8.606754,41.145249
+porto7_0632,taxi_040,2018-12-13,6,2018-12-13 12:31:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.608901,41.149331,-8.556582,41.185278
+porto7_0633,taxi_047,2018-12-13,6,2018-12-13 12:40:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.60805,41.151277,-8.606269,41.149418
+porto7_0634,taxi_054,2018-12-13,6,2018-12-13 12:44:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.672011,41.204744,-8.575446,41.187478
+porto7_0635,taxi_061,2018-12-13,6,2018-12-13 12:54:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.609004,41.149521,-8.611847,41.148708
+porto7_0636,taxi_068,2018-12-13,6,2018-12-13 12:58:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.609429,41.145797,-8.563944,41.153702
+porto7_0637,taxi_001,2018-12-13,6,2018-12-13 13:04:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.673349,41.216681,-8.612326,41.152777
+porto7_0638,taxi_008,2018-12-13,6,2018-12-13 13:11:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.618489,41.149126,-8.576866,41.183654
+porto7_0639,taxi_015,2018-12-13,6,2018-12-13 13:22:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.618821,41.151027,-8.616048,41.149803
+porto7_0640,taxi_022,2018-12-13,6,2018-12-13 13:24:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.661735,41.199067,-8.553438,41.186158
+porto7_0641,taxi_029,2018-12-13,6,2018-12-13 13:34:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.611458,41.15252,-8.606832,41.148426
+porto7_0642,taxi_036,2018-12-13,6,2018-12-13 13:42:00,midday_lull,10:00–14:59,street_hail,,,mixed citywide area,-8.603759,41.148069,-8.579537,41.151418
+porto7_0643,taxi_043,2018-12-13,6,2018-12-13 13:48:00,midday_lull,10:00–14:59,central_dispatch,,,mixed citywide area,-8.6884,41.202469,-8.6129,41.148523
+porto7_0644,taxi_050,2018-12-13,6,2018-12-13 17:01:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.613822,41.149746,-8.566679,41.169233
+porto7_0645,taxi_057,2018-12-13,6,2018-12-13 17:10:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.613331,41.146842,-8.666987,41.189797
+porto7_0646,taxi_064,2018-12-13,6,2018-12-13 17:15:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.61396,41.153292,-8.564156,41.184342
+porto7_0647,taxi_071,2018-12-13,6,2018-12-13 17:22:00,late_afternoon_peak,15:00–18:59,central_dispatch,,,central non-stand request,-8.603573,41.148024,-8.654404,41.211868
+porto7_0648,taxi_004,2018-12-13,6,2018-12-13 17:29:00,late_afternoon_peak,15:00–18:59,taxi_stand,S41,Clérigos Stand,central district,-8.605293,41.148357,-8.577313,41.19
+porto7_0649,taxi_011,2018-12-13,6,2018-12-13 17:38:00,late_afternoon_peak,15:00–18:59,taxi_stand,S42,Ribeira Stand,central district,-8.603123,41.147243,-8.668547,41.187851
+porto7_0650,taxi_018,2018-12-13,6,2018-12-13 17:47:00,late_afternoon_peak,15:00–18:59,taxi_stand,S41,Clérigos Stand,central district,-8.613715,41.151318,-8.560959,41.16574
+porto7_0651,taxi_025,2018-12-13,6,2018-12-13 17:53:00,late_afternoon_peak,15:00–18:59,taxi_stand,S42,Ribeira Stand,central district,-8.607814,41.145901,-8.678774,41.192614
+porto7_0652,taxi_032,2018-12-13,6,2018-12-13 17:59:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.60809,41.149919,-8.565932,41.152614
+porto7_0653,taxi_039,2018-12-13,6,2018-12-13 18:03:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.607465,41.150226,-8.676787,41.219753
+porto7_0654,taxi_046,2018-12-13,6,2018-12-13 18:10:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.613189,41.14908,-8.571341,41.161415
+porto7_0655,taxi_053,2018-12-13,6,2018-12-13 18:20:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.614882,41.15236,-8.677709,41.185759
+porto7_0656,taxi_060,2018-12-13,6,2018-12-13 18:27:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.617272,41.149861,-8.551653,41.163055
+porto7_0657,taxi_067,2018-12-13,6,2018-12-13 18:31:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.618191,41.150929,-8.657475,41.194745
+porto7_0658,taxi_074,2018-12-13,6,2018-12-13 18:38:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.609629,41.146113,-8.569339,41.175844
+porto7_0659,taxi_007,2018-12-13,6,2018-12-13 18:46:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.604194,41.146647,-8.667358,41.200604
+porto7_0660,taxi_014,2018-12-13,6,2018-12-13 18:53:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.610695,41.152228,-8.566738,41.190897
+porto7_0661,taxi_021,2018-12-13,6,2018-12-13 17:05:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.609879,41.149316,-8.683719,41.188826
+porto7_0662,taxi_028,2018-12-13,6,2018-12-13 17:12:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.614342,41.145928,-8.560892,41.180989
+porto7_0663,taxi_035,2018-12-13,6,2018-12-13 17:21:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.611223,41.146127,-8.685826,41.203152
+porto7_0664,taxi_042,2018-12-13,6,2018-12-13 17:29:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.610532,41.148993,-8.560095,41.190715
+porto7_0665,taxi_049,2018-12-13,6,2018-12-13 17:35:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.614892,41.14815,-8.65222,41.21106
+porto7_0666,taxi_056,2018-12-13,6,2018-12-13 17:44:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.613209,41.153614,-8.553321,41.172614
+porto7_0667,taxi_063,2018-12-13,6,2018-12-13 17:48:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.612984,41.148429,-8.66492,41.216644
+porto7_0668,taxi_070,2018-12-13,6,2018-12-13 17:53:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.616847,41.153414,-8.580603,41.165212
+porto7_0669,taxi_003,2018-12-13,6,2018-12-13 18:04:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.615136,41.148637,-8.65702,41.184648
+porto7_0670,taxi_010,2018-12-13,6,2018-12-13 18:07:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.615269,41.153433,-8.548532,41.178996
+porto7_0671,taxi_017,2018-12-13,6,2018-12-13 18:15:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.612559,41.15075,-8.678051,41.188921
+porto7_0672,taxi_024,2018-12-13,6,2018-12-13 18:24:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.609438,41.15014,-8.580372,41.177629
+porto7_0673,taxi_031,2018-12-13,6,2018-12-13 18:31:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.613746,41.151712,-8.661702,41.205874
+porto7_0674,taxi_038,2018-12-13,6,2018-12-13 18:39:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.609153,41.143001,-8.558997,41.183032
+porto7_0675,taxi_045,2018-12-13,6,2018-12-13 18:46:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.610974,41.151145,-8.680846,41.185531
+porto7_0676,taxi_052,2018-12-13,6,2018-12-13 18:52:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.605068,41.149356,-8.55895,41.15894
+porto7_0677,taxi_059,2018-12-13,6,2018-12-13 17:01:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.618619,41.150773,-8.668047,41.212897
+porto7_0678,taxi_066,2018-12-13,6,2018-12-13 17:10:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.616813,41.153038,-8.549156,41.174748
+porto7_0679,taxi_073,2018-12-13,6,2018-12-13 17:19:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.611049,41.150361,-8.688297,41.203512
+porto7_0680,taxi_006,2018-12-13,6,2018-12-13 17:27:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.607175,41.147258,-8.574184,41.152313
+porto7_0681,taxi_013,2018-12-13,6,2018-12-13 17:29:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.607742,41.145128,-8.661323,41.197237
+porto7_0682,taxi_020,2018-12-13,6,2018-12-13 17:38:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.607943,41.149011,-8.560396,41.162013
+porto7_0683,taxi_027,2018-12-13,6,2018-12-13 17:47:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.611072,41.146822,-8.671624,41.201085
+porto7_0684,taxi_034,2018-12-13,6,2018-12-13 17:54:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.616892,41.150545,-8.546393,41.157214
+porto7_0685,taxi_041,2018-12-13,6,2018-12-13 17:57:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.604063,41.145262,-8.665455,41.197905
+porto7_0686,taxi_048,2018-12-13,6,2018-12-13 18:07:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.604124,41.147691,-8.55452,41.160588
+porto7_0687,taxi_055,2018-12-13,6,2018-12-13 18:12:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.612622,41.146781,-8.678748,41.207231
+porto7_0688,taxi_062,2018-12-13,6,2018-12-13 18:20:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.611909,41.151154,-8.574485,41.168514
+porto7_0689,taxi_069,2018-12-13,6,2018-12-13 18:25:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.606255,41.143596,-8.674339,41.217874
+porto7_0690,taxi_002,2018-12-13,6,2018-12-13 18:34:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.607462,41.14784,-8.561986,41.175543
+porto7_0691,taxi_009,2018-12-13,6,2018-12-13 18:39:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.607106,41.14669,-8.671733,41.200477
+porto7_0692,taxi_016,2018-12-13,6,2018-12-13 18:49:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.614271,41.146687,-8.579798,41.190607
+porto7_0693,taxi_023,2018-12-13,6,2018-12-13 17:00:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.605047,41.149483,-8.66854,41.213327
+porto7_0694,taxi_030,2018-12-13,6,2018-12-13 17:10:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.61022,41.147032,-8.562847,41.187549
+porto7_0695,taxi_037,2018-12-13,6,2018-12-13 17:12:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.607602,41.142567,-8.678759,41.219333
+porto7_0696,taxi_044,2018-12-13,6,2018-12-13 17:24:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.603348,41.14412,-8.560746,41.158378
+porto7_0697,taxi_051,2018-12-13,6,2018-12-13 17:26:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.614928,41.151339,-8.654919,41.207341
+porto7_0698,taxi_058,2018-12-13,6,2018-12-13 17:38:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.614605,41.15022,-8.550907,41.181842
+porto7_0699,taxi_065,2018-12-13,6,2018-12-13 17:43:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.606821,41.148732,-8.663556,41.187246
+porto7_0700,taxi_072,2018-12-13,6,2018-12-13 17:47:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.613041,41.149541,-8.581627,41.166306
+porto7_0701,taxi_005,2018-12-13,6,2018-12-13 17:58:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.616108,41.151839,-8.659689,41.191101
+porto7_0702,taxi_012,2018-12-13,6,2018-12-13 18:03:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.60586,41.146024,-8.577354,41.174921
+porto7_0703,taxi_019,2018-12-13,6,2018-12-13 18:08:00,late_afternoon_peak,15:00–18:59,taxi_stand,S08,São Bento Stand,central district,-8.611784,41.147613,-8.679144,41.203493
+porto7_0704,taxi_026,2018-12-13,6,2018-12-13 18:15:00,late_afternoon_peak,15:00–18:59,taxi_stand,S03,Aliados Stand,central district,-8.612291,41.15296,-8.556523,41.175591
+porto7_0705,taxi_033,2018-12-13,6,2018-12-13 22:02:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.657475,41.191984,-8.562117,41.164938
+porto7_0706,taxi_040,2018-12-13,6,2018-12-13 22:11:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.605567,41.142617,-8.609204,41.145836
+porto7_0707,taxi_047,2018-12-13,6,2018-12-13 22:15:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.61424,41.151803,-8.547516,41.157239
+porto7_0708,taxi_054,2018-12-13,6,2018-12-13 22:24:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.670066,41.219905,-8.608211,41.149674
+porto7_0709,taxi_061,2018-12-13,6,2018-12-13 22:32:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.608982,41.149981,-8.553799,41.151405
+porto7_0710,taxi_068,2018-12-13,6,2018-12-13 22:39:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.604519,41.146199,-8.614909,41.147894
+porto7_0711,taxi_001,2018-12-13,6,2018-12-13 22:46:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.680784,41.193857,-8.556486,41.163995
+porto7_0712,taxi_008,2018-12-13,6,2018-12-13 22:52:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.612564,41.147359,-8.60436,41.14641
+porto7_0713,taxi_015,2018-12-13,6,2018-12-13 23:00:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.604056,41.146564,-8.570926,41.162835
+porto7_0714,taxi_022,2018-12-13,6,2018-12-13 23:05:00,late_night_low,19:00–23:59,central_dispatch,,,mixed citywide area,-8.663269,41.217789,-8.603645,41.144911
+porto7_0715,taxi_029,2018-12-13,6,2018-12-13 23:15:00,late_night_low,19:00–23:59,street_hail,,,mixed citywide area,-8.612844,41.148606,-8.578866,41.173035

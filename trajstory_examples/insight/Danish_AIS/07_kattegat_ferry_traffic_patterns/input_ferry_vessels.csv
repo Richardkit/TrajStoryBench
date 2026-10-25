@@ -1,0 +1,3 @@
+vessel_id,ferry_name,service_description,length_m,width_m,operating_speed_kmh
+ferry_mf_anholt,M/F Anholt,Grenaa–Anholt ferry,48,12,22
+ferry_stena_nautica,Stena Nautica,Grenaa–Varberg ferry,135,24,34

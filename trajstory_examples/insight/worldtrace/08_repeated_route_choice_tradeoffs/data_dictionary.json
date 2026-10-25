@@ -1,0 +1,10 @@
+{
+  "distance_km": "Sum of Euclidean distances between consecutive x_km/y_km points.",
+  "elapsed_fraction": "Elapsed time / total travel time; irregular sampling. No absolute timestamps are available.",
+  "speed_kmh": "Point speed, linearly interpolated in elapsed time between adjacent samples. Its integral on each segment equals segment distance.",
+  "mean_speed_kmh": "Time-weighted mean speed = distance_km / (travel_time_min / 60).",
+  "speed_std_kmh": "Population standard deviation over elapsed time, integrating the square of piecewise-linear speed. Not unweighted standard deviation of sampled points.",
+  "travel_time_std": "GT uses population standard deviation (ddof=0); the original analysis code displays pandas sample standard deviation (ddof=1).",
+  "insight_3_distance_precision": "Accepted insight_value distances 24.0 and 20.0 are whole-kilometre approximations; exact distances are in the CSV.",
+  "insight_3_comparator": "WT8_16 is the representative trip on the shorter Route B alternative, not the minimum-distance trip across all records."
+}

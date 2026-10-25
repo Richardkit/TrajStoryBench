@@ -1,0 +1,19 @@
+# Accepted reference synchronized on 2026-10-09.
+# Original construction draft: results/dataset_quality/legacy_content_cleanup_20261009/before/trajstory_examples/insight/MTL_Trajet/12_single_user_routine_change_anomaly/pre_schema.yaml
+pre_schema_version: '1.0'
+domain: MTL Trajet
+status: accepted_reference
+authoritative_source: trajstory_examples/insight/MTL_Trajet/12_single_user_routine_change_anomaly/insight.json
+goal: Summarize the trip pattern and possible changes of the user and find anomalies from the usual behavior.
+insights:
+- 'The user has two recurring motor-vehicle routes from the same origin to a work destination in a mapped residential area:
+  route A is shorter and used on sunny days, while every rainy-day commute uses the longer route B detour.'
+- Across four weeks, shopping trips shift from a closer walking route toward a more remote motor-vehicle route.
+- Health visits occur on Thursday afternoons, and their destination area differs from the work and shopping destinations.
+- 'The final day contains the user''s only clear anomaly: an unusually long purposeless motor-vehicle trip that returns to
+  its origin.'
+fields: null
+constraints:
+- Preserve the accepted goal and full insight records; changes require a new explicit user instruction.
+- Use the current delivered CSV tables and official fixed-GPS land-use labels. Historical construction targets are archived,
+  not current data constraints.

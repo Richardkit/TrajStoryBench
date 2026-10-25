@@ -1,0 +1,9 @@
+caller_id,trip_count,dominant_area_count,dominant_pickup_areas,dominant_pickup_trip_count,dominant_pickup_trip_share,dominant_to_another_dominant_trip_count,dominant_to_another_dominant_share,monthly_primary_pickup_areas_jan_to_dec,dominant_pickup_shifted_during_year
+caller_01,64,2,Boavista|Cedofeita,52,0.812,38,0.731,Boavista|Boavista|Boavista|Boavista|Boavista|Boavista|Boavista|Boavista|Boavista|Boavista|Boavista|Boavista,False
+caller_02,63,2,Bonfim|Campanha,51,0.81,36,0.706,Bonfim|Bonfim|Bonfim|Bonfim|Bonfim|Bonfim|Bonfim|Bonfim|Bonfim|Bonfim|Bonfim|Bonfim,False
+caller_03,63,2,Cedofeita|Ribeira,51,0.81,39,0.765,Cedofeita|Cedofeita|Cedofeita|Cedofeita|Cedofeita|Cedofeita|Cedofeita|Cedofeita|Cedofeita|Cedofeita|Cedofeita|Cedofeita,False
+caller_04,63,2,Paranhos|Boavista,51,0.81,35,0.686,Paranhos|Paranhos|Paranhos|Paranhos|Paranhos|Paranhos|Paranhos|Paranhos|Paranhos|Paranhos|Paranhos|Paranhos,False
+caller_05,62,2,Foz do Douro|Matosinhos Sul,50,0.806,36,0.72,Foz do Douro|Foz do Douro|Foz do Douro|Foz do Douro|Foz do Douro|Foz do Douro|Foz do Douro|Foz do Douro|Foz do Douro|Foz do Douro|Foz do Douro|Foz do Douro,False
+caller_06,62,3,Bonfim|Campanha|Paranhos,50,0.806,38,0.76,Bonfim|Bonfim|Bonfim|Bonfim|Campanha|Campanha|Campanha|Campanha|Paranhos|Paranhos|Paranhos|Paranhos,True
+caller_07,62,4,Foz do Douro|Matosinhos Sul|Boavista|Cedofeita,50,0.806,36,0.72,Foz do Douro|Foz do Douro|Foz do Douro|Matosinhos Sul|Matosinhos Sul|Matosinhos Sul|Boavista|Boavista|Boavista|Cedofeita|Cedofeita|Cedofeita,True
+caller_08,61,6,Ribeira|Cedofeita|Bonfim|Boavista|Vila Nova de Gaia|Campanha,49,0.803,37,0.755,Ribeira|Ribeira|Cedofeita|Cedofeita|Bonfim|Bonfim|Boavista|Boavista|Vila Nova de Gaia|Vila Nova de Gaia|Campanha|Campanha,True

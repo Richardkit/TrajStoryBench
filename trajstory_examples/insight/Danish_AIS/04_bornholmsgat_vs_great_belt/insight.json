@@ -1,0 +1,163 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/04_bornholmsgat_vs_great_belt/trajectory_points.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Danish_AIS/04_bornholmsgat_vs_great_belt/vessels.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Danish_AIS/04_bornholmsgat_vs_great_belt/vessels.csv",
+      "role": "Vessel attributes and corridor assignment for the selected time window"
+    },
+    {
+      "path": "trajstory_examples/insight/Danish_AIS/04_bornholmsgat_vs_great_belt/trajectory_points.csv",
+      "role": "Timestamped trajectories from Bornholmsgat and Great Belt in the same time window"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze trajectories from Bornholmsgat and the Great Belt observed during the same time window and identify their similarities and differences.",
+    "role": "Maritime traffic analyst",
+    "category": "Comparative maritime corridor analysis",
+    "dataset_description": "The main table contains same-period AIS-like trajectory points from two maritime corridors, with vessel type, reported draught, speed, and course. The vessel table contains one row per vessel and its corridor assignment.",
+    "header": "Bornholmsgat and Great Belt Traffic Comparison"
+  },
+  "insight_list": [
+    {
+      "data_type": "comparative",
+      "insight": "Vessels observed in Bornholmsgat have noticeably deeper reported draughts than those in the Great Belt; the maximum reported draught in the Great Belt subset is 14.0 m.",
+      "insight_value": {
+        "bornholmsgat_deeper": true,
+        "great_belt_max_draught_m": 14.0
+      },
+      "plot": {
+        "plot_type": "boxplot",
+        "title": "Reported Draught by Corridor",
+        "file": "visualizations/draught_comparison.svg",
+        "description": "The distribution of reported vessel draughts is compared between the two corridors."
+      },
+      "question": "How does reported vessel draught differ between vessels observed in Bornholmsgat and the Great Belt during the same time window?",
+      "actionable_insight": "Compare the full draught distributions and their upper ranges by corridor rather than comparing only vessel counts.",
+      "code": "import pandas as pd\nimport matplotlib.pyplot as plt\n\nv = df[['vessel_id', 'corridor', 'draught']].drop_duplicates('vessel_id')\nprint(v.groupby('corridor')['draught'].agg(['count', 'median', 'max']))\nv.boxplot(column='draught', by='corridor')\nplt.title('Reported draught by corridor'); plt.suptitle(''); plt.ylabel('Draught (m)'); plt.show()",
+      "insight_type": "group_comparison",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "draught",
+        "vessel_id"
+      ]
+    },
+    {
+      "data_type": "comparative",
+      "insight": "Cargo vessels are the dominant vessel type in both corridors, forming the largest group in Great Belt traffic and also the largest group in Bornholmsgat traffic.",
+      "insight_value": {
+        "both_corridors_cargo_dominant": true
+      },
+      "plot": {
+        "plot_type": "stacked_bar_chart",
+        "title": "Vessel-Type Composition by Corridor",
+        "file": "visualizations/ship_type_composition.svg",
+        "description": "Vessel-type counts are compared after collapsing repeated trajectory points to one row per vessel."
+      },
+      "question": "What vessel types dominate the traffic in Bornholmsgat and the Great Belt during the same period?",
+      "actionable_insight": "Compare vessel-type composition within each corridor while keeping the two corridors separate.",
+      "code": "import pandas as pd\nimport matplotlib.pyplot as plt\n\nv = df[['vessel_id', 'corridor', 'ship_type']].drop_duplicates('vessel_id')\ncounts = pd.crosstab(v['corridor'], v['ship_type'])\nprint(counts)\ncounts.plot(kind='bar', stacked=True)\nplt.ylabel('Number of vessels'); plt.title('Vessel-type composition by corridor'); plt.show()",
+      "insight_type": "group_comparison",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "ship_type",
+        "vessel_id"
+      ]
+    },
+    {
+      "data_type": "comparative",
+      "insight": "Bornholmsgat contains several passenger-ferry trajectories, whereas the Great Belt contains only one passenger-ferry trajectory in the selected time window.",
+      "insight_value": {
+        "bornholmsgat_ferries": 3,
+        "great_belt_ferries": 1
+      },
+      "plot": {
+        "plot_type": "bar_chart",
+        "title": "Passenger Ferries by Corridor",
+        "file": "visualizations/ferry_comparison.svg",
+        "description": "The number of distinct passenger-ferry vessels is compared between the two corridors."
+      },
+      "question": "How does passenger-ferry presence differ between Bornholmsgat and the Great Belt in this time window?",
+      "actionable_insight": "Count distinct passenger-ferry vessels separately from the broader passenger or service categories.",
+      "code": "import pandas as pd\nimport matplotlib.pyplot as plt\n\nv = df[['vessel_id', 'corridor', 'ship_type']].drop_duplicates('vessel_id')\nferries = v[v['ship_type'].eq('Passenger ferry')].groupby('corridor').size()\nprint(ferries)\nferries.plot(kind='bar', color='orange')\nplt.ylabel('Number of passenger ferries'); plt.title('Passenger ferries by corridor'); plt.show()",
+      "insight_type": "group_comparison",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "ship_type",
+        "vessel_id"
+      ]
+    },
+    {
+      "data_type": "spatial_comparison",
+      "insight": "The Great Belt trajectories occupy a visibly narrower and more tightly concentrated main corridor, while Bornholmsgat trajectories spread across a wider traffic band around the principal route.",
+      "insight_value": {
+        "great_belt_more_concentrated": true,
+        "bornholmsgat_wider_track_band": true
+      },
+      "plot": {
+        "plot_type": "cross_track_distribution",
+        "title": "Cross-Corridor Width of Aligned Traffic",
+        "file": "visualizations/corridor_cross_track_width.svg",
+        "description": "Each point is one aligned trajectory's median cross-corridor position in kilometres; transverse crossing tracks are reserved for the separate crossing-behavior analysis."
+      },
+      "question": "How do the spatial concentration and apparent width of the main traffic tracks differ between the two corridors?",
+      "actionable_insight": "Project each corridor into local along-track and cross-track kilometre coordinates, then compare the occupied cross-track distributions of aligned passages on the same metric scale.",
+      "code": "import math\nimport numpy as np\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\nd = df.copy()\naxes = {'Bornholmsgat': ((14.10, 55.18), (14.75, 55.43)), 'Great Belt': ((10.92, 54.95), (10.94, 55.43))}\ncrossing_ids = {'bornholmsgat_vessel_16_track', 'bornholmsgat_vessel_17_track', 'bornholmsgat_vessel_18_track'}\nrows = []\nfor corridor, (start, end) in axes.items():\n q = d[(d['corridor'] == corridor) & (~d['trajectory_id'].isin(crossing_ids))].copy()\n mean_lat = math.radians((start[1] + end[1]) / 2)\n x = (q['lon'].to_numpy() - start[0]) * 111.32 * math.cos(mean_lat)\n y = (q['lat'].to_numpy() - start[1]) * 110.57\n vx = (end[0] - start[0]) * 111.32 * math.cos(mean_lat); vy = (end[1] - start[1]) * 110.57\n length = math.hypot(vx, vy); cross = x * (-vy / length) + y * (vx / length)\n q['cross_km'] = cross\n medians = q.groupby('trajectory_id')['cross_km'].median()\n rows.extend((corridor, value) for value in medians)\nw = pd.DataFrame(rows, columns=['corridor', 'cross_km'])\nprint(w.groupby('corridor')['cross_km'].quantile([.05, .5, .95]))\nw.boxplot(column='cross_km', by='corridor', showfliers=False)\nplt.suptitle(''); plt.title('Cross-corridor positions of aligned tracks'); plt.ylabel('Median cross-track position (km)'); plt.show()",
+      "insight_type": "group_comparison",
+      "difficulty_level": 2,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "vessel_id"
+      ]
+    },
+    {
+      "data_type": "spatial_anomaly",
+      "insight": "Several Bornholmsgat trajectories cross the principal traffic direction on near-perpendicular paths, while the Great Belt trajectories in the selected period remain aligned with the main north-south corridor and show no comparable transverse tracks.",
+      "insight_value": {
+        "bornholmsgat_crossing_tracks": 3,
+        "great_belt_crossing_tracks": 0
+      },
+      "plot": {
+        "plot_type": "crossing_behavior_map",
+        "title": "Crossing Behavior in the Two Corridors",
+        "file": "visualizations/crossing_behavior_comparison.svg",
+        "description": "Tracks are projected into comparable along- and cross-corridor kilometre coordinates; transverse Bornholmsgat movements are highlighted against aligned traffic."
+      },
+      "question": "Are there trajectories that cross the dominant traffic direction in either corridor, and how do the two corridors differ?",
+      "actionable_insight": "Inspect the geometry of individual tracks relative to the dominant corridor direction before classifying them as through traffic or crossing movement.",
+      "code": "import pandas as pd\nimport matplotlib.pyplot as plt\n\nd = df.copy()\nfig, axes = plt.subplots(1, 2, figsize=(14, 6))\nfor ax, corridor in zip(axes, ['Bornholmsgat', 'Great Belt']):\n q = d[d['corridor'].eq(corridor)]\n for trajectory_id, group in q.groupby('trajectory_id'):\n ax.plot(group['lon'], group['lat'], color='navy', alpha=0.35)\n ax.set_title(corridor); ax.set_xlabel('Longitude'); ax.set_ylabel('Latitude'); ax.axis('equal')\nplt.show()",
+      "insight_type": "exception_deviation",
+      "difficulty_level": 2,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "vessel_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Vessels observed in Bornholmsgat have noticeably deeper reported draughts than those in the Great Belt; the maximum reported draught in the Great Belt subset is 14.0 m.",
+    "Cargo vessels are the dominant vessel type in both corridors, forming the largest group in Great Belt traffic and also the largest group in Bornholmsgat traffic.",
+    "Bornholmsgat contains several passenger-ferry trajectories, whereas the Great Belt contains only one passenger-ferry trajectory in the selected time window.",
+    "The Great Belt trajectories occupy a visibly narrower and more tightly concentrated main corridor, while Bornholmsgat trajectories spread across a wider traffic band around the principal route.",
+    "Several Bornholmsgat trajectories cross the principal traffic direction on near-perpendicular paths, while the Great Belt trajectories in the selected period remain aligned with the main north-south corridor and show no comparable transverse tracks."
+  ],
+  "summary": "During the same observed time window, Bornholmsgat contains deeper-draught traffic, several passenger ferries, a wider spread of trajectory positions, and transverse crossing tracks. Great Belt traffic is also cargo-dominant but is concentrated in a narrower main corridor, contains very few ferries, and shows no comparable crossing behavior."
+}

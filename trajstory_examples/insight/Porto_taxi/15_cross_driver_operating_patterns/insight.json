@@ -1,0 +1,125 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/15_cross_driver_operating_patterns/trips.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Porto_taxi/15_cross_driver_operating_patterns/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/15_cross_driver_operating_patterns/trajectory_points.csv",
+      "role": "Timestamped road-aligned GPS observations for all driver trips"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/15_cross_driver_operating_patterns/driver_profiles.csv",
+      "role": "Driver-level service composition, usual area, period modes, and exception labels"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/15_cross_driver_operating_patterns/taxi_stands.csv",
+      "role": "Named taxi stands used by stand-originated trips"
+    }
+  ],
+  "metadata": {
+    "goal": "Investigate how taxi operating patterns differ across drivers.",
+    "role": "Taxi operations analyst",
+    "category": "Cross-driver operating strategy",
+    "header": "Operating Patterns across Porto Taxi Drivers",
+    "dataset_description": "A constructed set of 800 road-aligned trips from 16 drivers. Request source, usual operating area, origin offset, trip distance, morning/evening area labels, driver profiles, and taxi-stand references support four complementary cross-driver insights."
+  },
+  "insight_list": [
+    {
+      "data_type": "driver_service_source_composition",
+      "insight": "Drivers exhibit persistent differences in their service composition: some drivers complete a large share of their trips from taxi stands, while others rely more heavily on street-hail or call-center requests.",
+      "plot": {
+        "plot_type": "driver_level_normalized_stacked_bar",
+        "file": "visualizations/driver_service_composition.png",
+        "title": "How persistently does service-source composition differ across drivers",
+        "description": "The visualization directly summarizes the fields used to evaluate this insight."
+      },
+      "question": "How persistently does service-source composition differ across drivers?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "driver_id",
+        "request_source",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "nonstand_operating_reach_and_distance",
+      "insight": "For most drivers, call-center and street-hail trips tend to extend farther from their usual operating areas and cover longer distances than stand-originated trips.",
+      "plot": {
+        "plot_type": "paired_driver_metric_bars",
+        "file": "visualizations/nonstand_reach_and_distance_by_driver.png",
+        "title": "For each driver, how do non-stand trips compare with stand-originated trips in operating-area reach and distance",
+        "description": "The visualization directly summarizes the fields used to evaluate this insight."
+      },
+      "question": "For each driver, how do non-stand trips compare with stand-originated trips in operating-area reach and distance?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "driver_id",
+        "request_source",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "morning_evening_driver_area_shift",
+      "insight": "For many drivers, the dominant pickup and destination areas shift between morning and evening periods.",
+      "plot": {
+        "plot_type": "paired_period_area_matrix",
+        "file": "visualizations/morning_evening_area_shifts.png",
+        "title": "Which drivers change dominant pickup and destination areas between morning and evening",
+        "description": "The visualization directly summarizes the fields used to evaluate this insight."
+      },
+      "question": "Which drivers change dominant pickup and destination areas between morning and evening?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "driver_id",
+        "gps_position",
+        "departure_time",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "single_stand_only_driver_exception",
+      "insight": "There are a few drivers who tend to operate only accept trips starting from a certain taxi stand and do not consider call or street-hail requests.",
+      "plot": {
+        "plot_type": "origin_concentration_nonstand_share_scatter",
+        "file": "visualizations/single_stand_only_driver_exceptions.png",
+        "title": "Which drivers accept trips only from one taxi stand and no call-center or street-hail requests",
+        "description": "The visualization directly summarizes the fields used to evaluate this insight."
+      },
+      "question": "Which drivers accept trips only from one taxi stand and no call-center or street-hail requests?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "exception_deviation",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "driver_id",
+        "request_source",
+        "origin_stand",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Drivers exhibit persistent differences in their service composition: some drivers complete a large share of their trips from taxi stands, while others rely more heavily on street-hail or call-center requests.",
+    "For most drivers, call-center and street-hail trips tend to extend farther from their usual operating areas and cover longer distances than stand-originated trips.",
+    "For many drivers, the dominant pickup and destination areas shift between morning and evening periods.",
+    "There are a few drivers who tend to operate only accept trips starting from a certain taxi stand and do not consider call or street-hail requests."
+  ],
+  "summary": "Drivers differ persistently in reliance on taxi stands, street hails, and call-center requests. For most non-exclusive drivers, non-stand trips begin farther from usual areas and travel farther than stand trips. Ten drivers change dominant pickup and destination areas between morning and evening, while two exceptions accept all trips from one assigned stand."
+}

@@ -1,0 +1,589 @@
+"""Planning agent — pure LLM reasoning + plan.md management.
+
+Responsibility boundary
+-----------------------
+The PlanningAgent has exactly **two** responsibilities:
+
+1. **LLM reasoning**: given a task context (original task, available agents,
+   execution history), produce a ``PlanDecision`` — the structured answer to
+   "what should we do next?".
+2. **plan.md management**: maintain a ``plan.md`` file in ``workdir/<session_id>/``
+   that records every round's decisions, dispatches, results, and analysis.
+
+It does **NOT**:
+- Import or call the AgentBus.
+- Dispatch sub-agents.
+- Run a multi-round loop.
+
+All dispatching, result collection, and loop control is the bus's job.
+The bus calls this agent once per round via ACP (``acp(name="planning", ...)``)
+and reads the returned ``PlanDecision`` to decide what to do next.
+
+Call contract
+-------------
+The bus passes a dict-serialised context as ``task`` (the string).
+The planner returns ``AgentResponse`` with ``extra.data["decision"]``
+containing the serialised ``PlanDecision``.
+
+To feed results back, the bus calls the planner again with an updated context
+string that includes the previous execution history.
+"""
+
+from __future__ import annotations
+
+import asyncio
+import os
+from dataclasses import dataclass, field
+from datetime import datetime, timezone
+from typing import Any, Dict, List, Optional
+
+from pydantic import BaseModel, ConfigDict, Field
+
+from src.agent.types import Agent, AgentExtra, AgentResponse
+from src.logger import logger
+from src.model import model_manager
+from src.prompt import prompt_manager
+from src.registry import AGENT
+from src.session import SessionContext
+from src.agent.orchestra_handoffs import model_limits
+
+
+# ---------------------------------------------------------------------------
+# LLM structured-output schema
+# ---------------------------------------------------------------------------
+
+class SubTaskDispatch(BaseModel):
+    """One sub-task to dispatch to a named agent."""
+
+    agent_name: str = Field(
+        description="Exact name of the agent to call (must match an available agent)."
+    )
+    task: str = Field(
+        description="The sub-task description to send to this agent."
+    )
+    files: List[str] = Field(
+        default_factory=list,
+        description="Optional file paths to attach.",
+    )
+
+
+class PlanDecision(BaseModel):
+    """Structured output the LLM produces for each planning round.
+
+    The AgentBus reads this to determine what to dispatch next.
+    """
+
+    thinking: str = Field(
+        description="Chain-of-thought reasoning about the current state."
+    )
+    analysis: str = Field(
+        description=(
+            "Evaluation of the previous round's results. "
+            "Leave empty on the first round."
+        ),
+    )
+    plan_update: str = Field(
+        description="Updated high-level description of the overall plan."
+    )
+    dispatches: List[SubTaskDispatch] = Field(
+        default_factory=list,
+        description=(
+            "Sub-tasks to dispatch in this round.  All listed agents will "
+            "run concurrently on the bus.  Must be empty when is_done=True."
+        ),
+    )
+    is_done: bool = Field(
+        default=False,
+        description="Set True only when the entire original task is fully complete.",
+    )
+    final_result: Optional[str] = Field(
+        default=None,
+        description="Comprehensive final answer.  Required when is_done=True.",
+    )
+
+
+# ---------------------------------------------------------------------------
+# plan.md data model
+# ---------------------------------------------------------------------------
+
+@dataclass
+class PlanRound:
+    """Execution record for one planning round."""
+
+    number: int
+    goal: str
+    agents: List[str]
+    delivery_mode: str              # "UNICAST" | "BROADCAST"
+    subtasks: Dict[str, str]        # agent_name → task text
+    results: Dict[str, Any]         # agent_name → {success, result, error}
+    analysis: str = ""
+    timestamp: str = field(
+        default_factory=lambda: datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    )
+
+
+class PlanFile:
+    """Manages the ``plan.md`` file for a single planning session.
+
+    Structure mirrors Cursor plan files::
+
+        ---
+        name: <title>
+        overview: "<task description>"
+        todos:
+          - id: step-1-agent_name
+            content: "agent_name: subtask description"
+            status: completed | pending
+        isProject: false
+        ---
+
+        # <title>
+
+        ## Execution Flow
+        ```mermaid
+        graph LR
+          subgraph execution [Execution Flow]
+            s1[Step 1: agent] --> s2[Step 2: agent]
+          end
+        ```
+
+        ## Execution Log
+        ### Round N — <timestamp>
+        ...
+
+        ## Final Result
+        ...
+    """
+
+    def __init__(self, path: str, task: str, task_id: str, session_id: str) -> None:
+        self.path = path
+        self.full_task = task
+        self.task_title = (task[:70] + "...") if len(task) > 70 else task
+        self.task_id = task_id
+        self.session_id = session_id
+        self.status = "running"
+        self.created_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        self.rounds: List[PlanRound] = []
+        self.final_result: Optional[str] = None
+
+    # -- mutation ----------------------------------------------------------
+
+    def add_round(self, round_: PlanRound) -> None:
+        self.rounds.append(round_)
+
+    def update_last_analysis(self, analysis: str) -> None:
+        if self.rounds and analysis:
+            self.rounds[-1].analysis = analysis
+
+    def finalize(self, result: str, success: bool) -> None:
+        self.status = "done" if success else "failed"
+        self.final_result = result
+
+    # -- persistence -------------------------------------------------------
+
+    async def save(self) -> None:
+        os.makedirs(os.path.dirname(self.path), exist_ok=True)
+        content = self._render()
+        await asyncio.to_thread(self._write_sync, content)
+
+    def _write_sync(self, content: str) -> None:
+        with open(self.path, "w", encoding="utf-8") as fh:
+            fh.write(content)
+
+    # -- context for LLM (plain text, no mermaid) --------------------------
+
+    def execution_log_text(self) -> str:
+        """Plain-text execution log passed to the LLM as context."""
+        if not self.rounds:
+            return "(no rounds completed yet)"
+        lines: List[str] = []
+        for r in self.rounds:
+            lines.append(f"=== Round {r.number} — {r.timestamp} ===")
+            lines.append(f"Goal: {r.goal}")
+            lines.append(f"Dispatched ({r.delivery_mode}): {', '.join(r.agents)}")
+            for agent in r.agents:
+                lines.append(f"  {agent} subtask: {r.subtasks.get(agent, '')[:200]}")
+            lines.append("Results:")
+            for agent, res in r.results.items():
+                ok = res.get("success", False)
+                text = str(res.get("result") or res.get("error") or "")[:300]
+                lines.append(f"  {'OK' if ok else 'FAIL'} {agent}: {text}")
+            if r.analysis:
+                lines.append(f"Analysis: {r.analysis[:300]}")
+            lines.append("")
+        return "\n".join(lines)
+
+    # -- rendering ---------------------------------------------------------
+
+    @staticmethod
+    def _node_id(name: str) -> str:
+        return name.replace("-", "_").replace(".", "_").replace(" ", "_")
+
+    def _build_todos(self) -> List[Dict[str, str]]:
+        """Build todo items from execution rounds for YAML frontmatter."""
+        todos: List[Dict[str, str]] = []
+        task_index = 0
+        for r in self.rounds:
+            for a in r.agents:
+                task_index += 1
+                st = r.subtasks.get(a, "")[:200]
+                res = r.results.get(a, {})
+                ok = res.get("success")
+                if ok is True:
+                    status = "completed"
+                elif ok is False:
+                    status = "completed"
+                else:
+                    status = "pending"
+                todo_id = f"step-{task_index}-{self._node_id(a)}"
+                todos.append({
+                    "id": todo_id,
+                    "content": f"{a}: {st}",
+                    "status": status,
+                })
+        return todos
+
+    @staticmethod
+    def _yaml_escape(s: str) -> str:
+        """Escape a string for use as a YAML double-quoted value."""
+        return s.replace('\\', '\\\\').replace('"', '\\"').replace('\n', ' ')
+
+    def _render_mermaid(self) -> List[str]:
+        lines = ["```mermaid", "graph LR"]
+        agent_rounds = [r for r in self.rounds if r.agents]
+
+        if not agent_rounds:
+            title = self.task_title[:40].replace('"', "'")
+            lines.append("  subgraph plan [Plan]")
+            lines.append(f'    start(["{title}"])')
+            if self.status in ("done", "failed"):
+                lines.append(f'    start --> finish(["{self.status}"])')
+            lines.append("  end")
+            lines.append("```")
+            return lines
+
+        lines.append("  subgraph execution [Execution Flow]")
+        task_index = 0
+        prev_id = None
+        for r in agent_rounds:
+            for a in r.agents:
+                task_index += 1
+                a_id = f"s{task_index}"
+                label = f"Step {task_index}: {a}"
+                lines.append(f"    {a_id}[{label}]")
+                if prev_id:
+                    lines.append(f"    {prev_id} --> {a_id}")
+                prev_id = a_id
+
+        if self.status == "done" and prev_id:
+            lines.append("    finish([Done])")
+            lines.append(f"    {prev_id} --> finish")
+        elif self.status == "failed" and prev_id:
+            lines.append("    finish([Failed])")
+            lines.append(f"    {prev_id} --> finish")
+
+        lines.append("  end")
+        lines.append("```")
+        return lines
+
+    def _render_round(self, r: PlanRound) -> List[str]:
+        lines: List[str] = [f"### Round {r.number} — {r.timestamp}", ""]
+        lines.append(f"> {r.goal}")
+        lines.append("")
+        if r.agents:
+            lines.append(f"**Dispatched ({r.delivery_mode}):** {', '.join(f'`{a}`' for a in r.agents)}")
+            lines.append("")
+            for a in r.agents:
+                st = r.subtasks.get(a, "")[:300]
+                res = r.results.get(a, {})
+                ok = res.get("success")
+                if ok is True:
+                    lines.append(f"- [x] **`{a}`**: {st}")
+                    result_text = str(res.get("result") or "")[:200]
+                    if result_text:
+                        lines.append(f"  - Result: {result_text}")
+                elif ok is False:
+                    err = str(res.get("error") or "")[:200]
+                    lines.append(f"- [x] ~~**`{a}`**: {st}~~ ❌")
+                    if err:
+                        lines.append(f"  - Error: {err}")
+                else:
+                    lines.append(f"- [ ] **`{a}`**: {st}")
+            lines.append("")
+        if r.analysis:
+            lines += ["**Analysis:**", f"> {r.analysis[:300]}", ""]
+        lines += ["---", ""]
+        return lines
+
+    def _render(self) -> str:
+        todos = self._build_todos()
+        esc = self._yaml_escape
+
+        # --- YAML frontmatter (Cursor plan format) ---
+        lines: List[str] = [
+            "---",
+            f"name: {self.task_title}",
+            f'overview: "{esc(self.full_task)}"',
+        ]
+        if todos:
+            lines.append("todos:")
+            for t in todos:
+                lines.append(f'  - id: {t["id"]}')
+                lines.append(f'    content: "{esc(t["content"])}"')
+                lines.append(f'    status: {t["status"]}')
+        else:
+            lines.append("todos: []")
+        lines.append("isProject: false")
+        lines.append("---")
+        lines.append("")
+
+        # --- Title ---
+        lines.append(f"# {self.task_title}")
+        lines.append("")
+
+        # --- Execution Flow (Mermaid) ---
+        lines.append("## Execution Flow")
+        lines.append("")
+        lines += self._render_mermaid()
+        lines += ["", ""]
+
+        # --- Execution Log ---
+        lines += ["## Execution Log", ""]
+        if not self.rounds:
+            lines += ["*(planning in progress...)*", ""]
+        else:
+            for r in self.rounds:
+                lines += self._render_round(r)
+
+        # --- Final Result ---
+        if self.final_result is not None:
+            tag = "Completed" if self.status == "done" else "Failed"
+            lines += [f"## Final Result — {tag}", "", self.final_result, ""]
+
+        return "\n".join(lines)
+
+
+# ---------------------------------------------------------------------------
+# PlanningAgent
+# ---------------------------------------------------------------------------
+
+@AGENT.register_module(force=True)
+class PlanningAgent(Agent):
+    """Pure LLM planning agent.
+
+    One LLM call per invocation.  Returns a ``PlanDecision`` to the caller
+    (the AgentBus), which owns the multi-round loop and all dispatching.
+
+    Also maintains a ``plan.md`` file that records every round.  The bus
+    feeds results back by calling this agent again with an updated context,
+    and the agent appends the new round to plan.md before returning.
+    """
+
+    model_config = ConfigDict(arbitrary_types_allowed=True, extra="allow")
+
+    name: str = Field(default="planning")
+    description: str = Field(
+        default=(
+            "Decomposes tasks and decides which sub-agents to call next. "
+            "Returns a PlanDecision; the AgentBus drives the loop."
+        ),
+    )
+    metadata: Dict[str, Any] = Field(default_factory=dict)
+    require_grad: bool = Field(default=False)
+
+    # The PlanFile is stored per-session.  The bus creates it on the first
+    # call and passes it back via kwargs on subsequent calls.
+    _plan_files: Dict[str, PlanFile] = {}
+
+    def __init__(
+        self,
+        workdir: str,
+        name: Optional[str] = None,
+        description: Optional[str] = None,
+        metadata: Optional[Dict[str, Any]] = None,
+        model_name: Optional[str] = None,
+        prompt_name: Optional[str] = None,
+        memory_name: Optional[str] = None,
+        require_grad: bool = False,
+        **kwargs,
+    ):
+        super().__init__(
+            workdir=workdir,
+            name=name,
+            description=description,
+            metadata=metadata,
+            model_name=model_name,
+            prompt_name=prompt_name or "planning",
+            memory_name=memory_name,
+            require_grad=require_grad,
+            **kwargs,
+        )
+        self._plan_files: Dict[str, PlanFile] = {}
+
+    async def initialize(self) -> None:
+        await super().initialize()
+
+    # ------------------------------------------------------------------
+    # plan.md lifecycle (called by the bus via kwargs)
+    # ------------------------------------------------------------------
+
+    def get_or_create_plan_file(
+        self,
+        session_id: str,
+        task_id: str,
+        task: str,
+    ) -> PlanFile:
+        """Return the existing PlanFile for a session, or create one."""
+        if session_id not in self._plan_files:
+            plan_path = os.path.join(self.workdir, f"{session_id}.plan.md")
+            self._plan_files[session_id] = PlanFile(
+                path=plan_path,
+                task=task,
+                task_id=task_id,
+                session_id=session_id,
+            )
+        return self._plan_files[session_id]
+
+    def remove_plan_file(self, session_id: str) -> None:
+        """Clean up in-memory plan state for a completed session."""
+        self._plan_files.pop(session_id, None)
+
+    # ------------------------------------------------------------------
+    # Main call — one LLM round
+    # ------------------------------------------------------------------
+
+    async def __call__(
+        self,
+        task: str,
+        files: Optional[List[str]] = None,
+        ctx: Optional[SessionContext] = None,
+        **kwargs,
+    ) -> AgentResponse:
+        """Execute one planning round.
+
+        Expected kwargs (set by the bus):
+            task_id (str):          top-level task identifier.
+            round_number (int):     current round (1-based).
+            max_rounds (int):       max rounds allowed.
+            agent_contract (str):   markdown description of available agents.
+            execution_history (str): plain-text log of all completed rounds.
+            round_results (dict):   agent_name → {success, result, error}
+                                    from the *previous* round (empty on round 1).
+
+        Returns:
+            AgentResponse with extra.data["decision"] = PlanDecision dict.
+        """
+        if ctx is None:
+            ctx = kwargs.get("ctx") or SessionContext()
+
+        task_id = kwargs.get("task_id", "task_unknown")
+        round_number = kwargs.get("round_number", 1)
+        max_rounds = kwargs.get("max_rounds", 10)
+        agent_contract = kwargs.get("agent_contract", "")
+        execution_history = kwargs.get("execution_history", "")
+        round_results = kwargs.get("round_results", {})
+
+        logger.info(
+            f"| 🧠 PlanningAgent round {round_number}/{max_rounds} "
+            f"(session={ctx.id})"
+        )
+
+        # ------------------------------------------------------------------
+        # Update plan.md with results from the PREVIOUS round
+        # ------------------------------------------------------------------
+        plan_file = self.get_or_create_plan_file(ctx.id, task_id, task)
+
+        if round_results and plan_file.rounds:
+            plan_file.rounds[-1].results = round_results
+
+        # ------------------------------------------------------------------
+        # Build LLM messages via prompt_manager
+        # ------------------------------------------------------------------
+        history_text = execution_history if execution_history else "(no rounds completed yet)"
+
+        messages = await prompt_manager.get_messages(
+            prompt_name=self.prompt_name,
+            system_modules={"agent_contract": agent_contract},
+            agent_modules={
+                "task": task,
+                "round_number": str(round_number),
+                "max_rounds": str(max_rounds),
+                "execution_history": history_text,
+            },
+        )
+
+        # ------------------------------------------------------------------
+        # LLM call
+        # ------------------------------------------------------------------
+        try:
+            llm_output = await model_manager(
+                model=self.model_name,
+                messages=messages,
+                response_format=PlanDecision,
+                **model_limits(self,messages),
+            )
+            if not llm_output.success:
+                raise RuntimeError(llm_output.message)
+            decision = llm_output.extra.parsed_model if llm_output.extra else None
+            if not isinstance(decision, PlanDecision):
+                raise RuntimeError("Planner model returned no structured PlanDecision")
+        except Exception as exc:
+            logger.error(f"| PlanningAgent LLM error: {exc}", exc_info=True)
+            decision = PlanDecision(
+                thinking=f"LLM call failed: {exc}",
+                analysis="",
+                plan_update="Planning failed due to LLM error.",
+                dispatches=[],
+                is_done=True,
+                final_result=f"Planning failed: {exc}",
+            )
+
+        logger.info(f"| 📋 Plan: {decision.plan_update[:200]}")
+
+        # ------------------------------------------------------------------
+        # Update plan.md with THIS round's decision
+        # ------------------------------------------------------------------
+
+        # Backfill analysis onto previous round
+        if decision.analysis:
+            plan_file.update_last_analysis(decision.analysis)
+
+        if decision.is_done:
+            plan_file.finalize(
+                result=decision.final_result or "",
+                success=True,
+            )
+            await plan_file.save()
+            logger.info("| PlanningAgent: task complete")
+        elif decision.dispatches:
+            delivery = "BROADCAST" if len(decision.dispatches) > 1 else "UNICAST"
+            agent_names = [d.agent_name for d in decision.dispatches]
+            subtasks = {d.agent_name: d.task for d in decision.dispatches}
+
+            plan_round = PlanRound(
+                number=round_number,
+                goal=decision.plan_update,
+                agents=agent_names,
+                delivery_mode=delivery,
+                subtasks=subtasks,
+                results={},  # will be filled by the bus on the next round
+            )
+            plan_file.add_round(plan_round)
+            await plan_file.save()
+            logger.info(f"| PlanningAgent: dispatching {agent_names}")
+        else:
+            await plan_file.save()
+
+        # ------------------------------------------------------------------
+        # Return decision to the bus
+        # ------------------------------------------------------------------
+        return AgentResponse(
+            success=True,
+            message=decision.plan_update,
+            extra=AgentExtra(
+                data={
+                    "decision": decision.model_dump(),
+                    "plan_path": plan_file.path,
+                },
+            ),
+        )

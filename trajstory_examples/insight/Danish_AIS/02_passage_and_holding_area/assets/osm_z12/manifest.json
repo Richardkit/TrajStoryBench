@@ -1,0 +1,218 @@
+{
+  "purpose": "Required local basemap tiles for scripts/Danish_AIS/render_danish_ais_ex02_real_map.py. Keep these to rerender the trajectory map offline.",
+  "source": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+  "attribution": "© OpenStreetMap contributors",
+  "copyright_url": "https://www.openstreetmap.org/copyright",
+  "retrieved_at_utc": "2026-10-05T12:24:36.610841+00:00",
+  "restoration_note": "The former /tmp/danish_ais_ex02_osm_z12 cache was empty. These are newly downloaded tiles at the original zoom and coordinates; historical background styling is not guaranteed identical.",
+  "zoom": 12,
+  "tile_x_inclusive": [
+    2172,
+    2179
+  ],
+  "tile_y_inclusive": [
+    1302,
+    1305
+  ],
+  "bounds_west_south_east_north": [
+    10.9,
+    54.48,
+    11.6,
+    54.64
+  ],
+  "tiles": [
+    {
+      "file": "12_2172_1302.png",
+      "url": "https://tile.openstreetmap.org/12/2172/1302.png",
+      "bytes": 631,
+      "sha256": "76b7ac4e6a68ced7279cf9912a3d4fe79fd02e2c8ee8329827a661e046b1e360"
+    },
+    {
+      "file": "12_2172_1303.png",
+      "url": "https://tile.openstreetmap.org/12/2172/1303.png",
+      "bytes": 568,
+      "sha256": "9cc9782df6fda0f8d9ac167eaac914240c69bb70f79c3cd20a470caddd5a0bf4"
+    },
+    {
+      "file": "12_2172_1304.png",
+      "url": "https://tile.openstreetmap.org/12/2172/1304.png",
+      "bytes": 1524,
+      "sha256": "1752f072d5dfcdc3cde0eb21370287a46c697e4ee28a8ff5611e089a4112c7c4"
+    },
+    {
+      "file": "12_2172_1305.png",
+      "url": "https://tile.openstreetmap.org/12/2172/1305.png",
+      "bytes": 103,
+      "sha256": "1c77b348765c66299f86929a49254e3e6d7893d3930322ff7879dda6d9071899"
+    },
+    {
+      "file": "12_2173_1302.png",
+      "url": "https://tile.openstreetmap.org/12/2173/1302.png",
+      "bytes": 1423,
+      "sha256": "7f135d7a27f7199542d976bcbdbccf6d41e12ed888843d334631eb020e611277"
+    },
+    {
+      "file": "12_2173_1303.png",
+      "url": "https://tile.openstreetmap.org/12/2173/1303.png",
+      "bytes": 1346,
+      "sha256": "c91c9f03c5006f7105cfb342db44bea6b4457659084ad220e1205f43e3aabe74"
+    },
+    {
+      "file": "12_2173_1304.png",
+      "url": "https://tile.openstreetmap.org/12/2173/1304.png",
+      "bytes": 5320,
+      "sha256": "9f1636eb2e8694fa253ff8629b1f7ac971d09dae29fd23cd709c6f6ea0c0a2b9"
+    },
+    {
+      "file": "12_2173_1305.png",
+      "url": "https://tile.openstreetmap.org/12/2173/1305.png",
+      "bytes": 12767,
+      "sha256": "80373e2fa76aad86bac399434d15470df655ca34842033c25692fbdf107769eb"
+    },
+    {
+      "file": "12_2174_1302.png",
+      "url": "https://tile.openstreetmap.org/12/2174/1302.png",
+      "bytes": 2403,
+      "sha256": "233203ab5c0362599894161210f366b535cf44924d8e1ea8ea065cf777af8dfc"
+    },
+    {
+      "file": "12_2174_1303.png",
+      "url": "https://tile.openstreetmap.org/12/2174/1303.png",
+      "bytes": 2994,
+      "sha256": "5da8794c1fff2898977772f5e63d5b94ba687a7ec17649104981c6e98d62f1ba"
+    },
+    {
+      "file": "12_2174_1304.png",
+      "url": "https://tile.openstreetmap.org/12/2174/1304.png",
+      "bytes": 5841,
+      "sha256": "08f7c16ff0b23db4d9645c04c0a02f05dd74193027ab8da1b0af5840996d4583"
+    },
+    {
+      "file": "12_2174_1305.png",
+      "url": "https://tile.openstreetmap.org/12/2174/1305.png",
+      "bytes": 11610,
+      "sha256": "4bb38fe7f1be5a77cf44d09019d510a7dee5c6aa9bebb7dfb149ed4aae6e3471"
+    },
+    {
+      "file": "12_2175_1302.png",
+      "url": "https://tile.openstreetmap.org/12/2175/1302.png",
+      "bytes": 1476,
+      "sha256": "766a0f08489ab9d6aa38dbc3889b59cfccbed948c522dcd7a7ae34f4c2ed1bfc"
+    },
+    {
+      "file": "12_2175_1303.png",
+      "url": "https://tile.openstreetmap.org/12/2175/1303.png",
+      "bytes": 1987,
+      "sha256": "cf63f4bb192b9ca159117be2d4e1435172f510e6a12f1cf981695cf285744d1b"
+    },
+    {
+      "file": "12_2175_1304.png",
+      "url": "https://tile.openstreetmap.org/12/2175/1304.png",
+      "bytes": 4282,
+      "sha256": "d21b71806607952daa133a85c64861ab5a5804d3868804c9d721f1e61b40e054"
+    },
+    {
+      "file": "12_2175_1305.png",
+      "url": "https://tile.openstreetmap.org/12/2175/1305.png",
+      "bytes": 14878,
+      "sha256": "a5581bd3d7721e01f3749ead039920bd329d75f08ab25e07a858a57369eac65b"
+    },
+    {
+      "file": "12_2176_1302.png",
+      "url": "https://tile.openstreetmap.org/12/2176/1302.png",
+      "bytes": 4047,
+      "sha256": "ee8c19cd15c8f3a145c4e6e6225152c16069abcad122385e272cdab25e54ee9c"
+    },
+    {
+      "file": "12_2176_1303.png",
+      "url": "https://tile.openstreetmap.org/12/2176/1303.png",
+      "bytes": 5570,
+      "sha256": "b9ef549126c21dbd8c597fe8e320b44b8b9b21a17dd33aaaa36b70f3bc5a42f8"
+    },
+    {
+      "file": "12_2176_1304.png",
+      "url": "https://tile.openstreetmap.org/12/2176/1304.png",
+      "bytes": 5868,
+      "sha256": "6e3c5d8ba4d2c6cb3e2547f59b0643732fef7ccc222b0e30f3ae403a4def4490"
+    },
+    {
+      "file": "12_2176_1305.png",
+      "url": "https://tile.openstreetmap.org/12/2176/1305.png",
+      "bytes": 4276,
+      "sha256": "b22e7f0d88b05cad58ede59170e86d51c101a1ece2538bbcfa4cfb1368d60660"
+    },
+    {
+      "file": "12_2177_1302.png",
+      "url": "https://tile.openstreetmap.org/12/2177/1302.png",
+      "bytes": 16826,
+      "sha256": "59d5187f9859a47f42667fd6543e072c4d18fd6af26d670de9eefa9070bf4e83"
+    },
+    {
+      "file": "12_2177_1303.png",
+      "url": "https://tile.openstreetmap.org/12/2177/1303.png",
+      "bytes": 3882,
+      "sha256": "eb9aad19bf9e4b6b4c1bceab17b1a892e6d5c10d4c815b18ac3b80699a3c2501"
+    },
+    {
+      "file": "12_2177_1304.png",
+      "url": "https://tile.openstreetmap.org/12/2177/1304.png",
+      "bytes": 2304,
+      "sha256": "2c4e1b6811164e4ba61201c2362b8595599793fd45b88f54c7ff24640f768afd"
+    },
+    {
+      "file": "12_2177_1305.png",
+      "url": "https://tile.openstreetmap.org/12/2177/1305.png",
+      "bytes": 4017,
+      "sha256": "51f738b9a015aaf9b18199088fa0fc2b20c5804671edb022898b94b0edef11c1"
+    },
+    {
+      "file": "12_2178_1302.png",
+      "url": "https://tile.openstreetmap.org/12/2178/1302.png",
+      "bytes": 16885,
+      "sha256": "36e58ac1ed70869fed1c6e25742c2a2bbaa9fcbad28a0b50e292f6701250f0da"
+    },
+    {
+      "file": "12_2178_1303.png",
+      "url": "https://tile.openstreetmap.org/12/2178/1303.png",
+      "bytes": 8154,
+      "sha256": "94fb472338485c52e2984b70d923a9d07d4012d0275732335c3c31197e3fed8f"
+    },
+    {
+      "file": "12_2178_1304.png",
+      "url": "https://tile.openstreetmap.org/12/2178/1304.png",
+      "bytes": 1647,
+      "sha256": "ba15b4879d7f0a0f233ca396f9f0d8921905741e9df5f63477ab60628523a0ae"
+    },
+    {
+      "file": "12_2178_1305.png",
+      "url": "https://tile.openstreetmap.org/12/2178/1305.png",
+      "bytes": 765,
+      "sha256": "f5046bba5538520330c2b939966328a9925c31d01a3b41730f68bf3cc533aba6"
+    },
+    {
+      "file": "12_2179_1302.png",
+      "url": "https://tile.openstreetmap.org/12/2179/1302.png",
+      "bytes": 15209,
+      "sha256": "02af690b01f48cad3610291f528faa4d0658d88a6d9eeb38bbb8b6610d280f10"
+    },
+    {
+      "file": "12_2179_1303.png",
+      "url": "https://tile.openstreetmap.org/12/2179/1303.png",
+      "bytes": 3384,
+      "sha256": "5196e62ccd32999866edc8f72979c9838c52943d27238c14adcec1a2907ac577"
+    },
+    {
+      "file": "12_2179_1304.png",
+      "url": "https://tile.openstreetmap.org/12/2179/1304.png",
+      "bytes": 3635,
+      "sha256": "f32afd6db1ffb2cfe9a321ce234bb267dc66d2cac45d74342433dff9e56f8733"
+    },
+    {
+      "file": "12_2179_1305.png",
+      "url": "https://tile.openstreetmap.org/12/2179/1305.png",
+      "bytes": 1528,
+      "sha256": "5e237b4a3e3a7364085b6798ace1a04cac275122837e0c3bf51687db2ac554f4"
+    }
+  ],
+  "total_tile_bytes": 167150
+}

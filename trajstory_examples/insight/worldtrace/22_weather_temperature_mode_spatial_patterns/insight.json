@@ -1,0 +1,105 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/worldtrace/22_weather_temperature_mode_spatial_patterns/trajectories.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/worldtrace/22_weather_temperature_mode_spatial_patterns/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/worldtrace/22_weather_temperature_mode_spatial_patterns/trajectory_points.csv",
+      "role": "Timestamped raw and matched-road points"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze how the user's mobility behavior varies across weather, temperature, and travel-mode conditions.",
+    "role": "Mobility analyst",
+    "category": "22_weather_temperature_mode_spatial_patterns",
+    "header": "22 Weather Temperature Mode Spatial Patterns",
+    "dataset_description": "Independently constructed road-aligned WorldTrace case with 244 trajectories."
+  },
+  "insight_list": [
+    {
+      "data_type": "worldtrace_ex22_insight_1",
+      "insight": "Despite changes in weather and temperature, most trajectories remain concentrated within a limited set of repeatedly visited areas, indicating a relatively stable spatial mobility pattern.",
+      "plot": {
+        "plot_type": "question_specific_summary",
+        "files": [
+          "visualizations/insight_1.png"
+        ],
+        "title": "Insight 1",
+        "description": "A question-specific visualization computed from the synchronized trajectory tables; the case-level overview map is retained separately and is not repeated here."
+      },
+      "question": "What evidence in the trajectories supports this pattern?",
+      "actionable_insight": "Compare relevant groups and inspect exceptions.",
+      "code": "print(df.describe(include=\"all\"))",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "weather",
+        "temperature",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "worldtrace_ex22_insight_2",
+      "insight": "Adverse weather is associated with a shift toward car travel and more spatially compact non-car movement: walking and cycling become less common, and the observed non-car trips tend to cover shorter distances.",
+      "plot": {
+        "plot_type": "question_specific_summary",
+        "files": [
+          "visualizations/insight_2.png"
+        ],
+        "title": "Insight 2",
+        "description": "A question-specific visualization computed from the synchronized trajectory tables; the case-level overview map is retained separately and is not repeated here."
+      },
+      "question": "What evidence in the trajectories supports this pattern?",
+      "actionable_insight": "Compare relevant groups and inspect exceptions.",
+      "code": "print(df.describe(include=\"all\"))",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "transport_mode",
+        "weather",
+        "trajectory_id",
+        "temperature"
+      ]
+    },
+    {
+      "data_type": "worldtrace_ex22_insight_3",
+      "insight": "A small number of walking or cycling trajectories during adverse weather extend substantially beyond the usual spatial range of non-car trips, standing out from the otherwise compact bad-weather mobility pattern.",
+      "plot": {
+        "plot_type": "question_specific_summary",
+        "files": [
+          "visualizations/insight_3.png"
+        ],
+        "title": "Insight 3",
+        "description": "A question-specific visualization computed from the synchronized trajectory tables; the case-level overview map is retained separately and is not repeated here."
+      },
+      "question": "What evidence in the trajectories supports this pattern?",
+      "actionable_insight": "Compare relevant groups and inspect exceptions.",
+      "code": "print(df.describe(include=\"all\"))",
+      "insight_type": "exception_deviation",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "transport_mode",
+        "weather",
+        "trajectory_id",
+        "temperature"
+      ]
+    }
+  ],
+  "insights": [
+    "Despite changes in weather and temperature, most trajectories remain concentrated within a limited set of repeatedly visited areas, indicating a relatively stable spatial mobility pattern.",
+    "Adverse weather is associated with a shift toward car travel and more spatially compact non-car movement: walking and cycling become less common, and the observed non-car trips tend to cover shorter distances.",
+    "A small number of walking or cycling trajectories during adverse weather extend substantially beyond the usual spatial range of non-car trips, standing out from the otherwise compact bad-weather mobility pattern."
+  ],
+  "summary": "Despite changes in weather and temperature, most trajectories remain concentrated within a limited set of repeatedly visited areas, indicating a relatively stable spatial mobility pattern. Adverse weather is associated with a shift toward car travel and more spatially compact non-car movement: walking and cycling become less common, and the observed non-car trips tend to cover shorter distances. A small number of walking or cycling trajectories during adverse weather extend substantially beyond the usual spatial range of non-car trips, standing out from the otherwise compact bad-weather mobility pattern."
+}

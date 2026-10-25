@@ -1,0 +1,505 @@
+{
+  "format": "trajstory-insightbench-v1",
+  "cases": [
+    {
+      "case_id": "danish_ais_01_shared_corridor_day",
+      "json_path": "trajstory_examples/insight/Danish_AIS/01_shared_corridor_day/insight.json"
+    },
+    {
+      "case_id": "danish_ais_02_passage_and_holding_area",
+      "json_path": "trajstory_examples/insight/Danish_AIS/02_passage_and_holding_area/insight.json"
+    },
+    {
+      "case_id": "danish_ais_03_multi_day_vessel_anomalies",
+      "json_path": "trajstory_examples/insight/Danish_AIS/03_multi_day_vessel_anomalies/insight.json"
+    },
+    {
+      "case_id": "danish_ais_04_bornholmsgat_vs_great_belt",
+      "json_path": "trajstory_examples/insight/Danish_AIS/04_bornholmsgat_vs_great_belt/insight.json"
+    },
+    {
+      "case_id": "danish_ais_05_structured_corridor_voyage_behaviors",
+      "json_path": "trajstory_examples/insight/Danish_AIS/05_structured_corridor_voyage_behaviors/insight.json"
+    },
+    {
+      "case_id": "danish_ais_06_kattegat_route_structure",
+      "json_path": "trajstory_examples/insight/Danish_AIS/06_kattegat_route_structure/insight.json"
+    },
+    {
+      "case_id": "danish_ais_07_kattegat_ferry_traffic_patterns",
+      "json_path": "trajstory_examples/insight/Danish_AIS/07_kattegat_ferry_traffic_patterns/insight.json"
+    },
+    {
+      "case_id": "danish_ais_08_kattegat_fishing_vessel_patterns",
+      "json_path": "trajstory_examples/insight/Danish_AIS/08_kattegat_fishing_vessel_patterns/insight.json"
+    },
+    {
+      "case_id": "danish_ais_09_single_vessel_sailing_stages",
+      "json_path": "trajstory_examples/insight/Danish_AIS/09_single_vessel_sailing_stages/insight.json"
+    },
+    {
+      "case_id": "danish_ais_10_dynamic_vessel_status_over_time",
+      "json_path": "trajstory_examples/insight/Danish_AIS/10_dynamic_vessel_status_over_time/insight.json"
+    },
+    {
+      "case_id": "danish_ais_11_individual_vessel_movement_patterns",
+      "json_path": "trajstory_examples/insight/Danish_AIS/11_individual_vessel_movement_patterns/insight.json"
+    },
+    {
+      "case_id": "danish_ais_12_vessel_characteristics_and_route_choice",
+      "json_path": "trajstory_examples/insight/Danish_AIS/12_vessel_characteristics_and_route_choice/insight.json"
+    },
+    {
+      "case_id": "danish_ais_13_anholt_island_route_use",
+      "json_path": "trajstory_examples/insight/Danish_AIS/13_anholt_island_route_use/insight.json"
+    },
+    {
+      "case_id": "danish_ais_14_time_of_day_vessel_dynamics",
+      "json_path": "trajstory_examples/insight/Danish_AIS/14_time_of_day_vessel_dynamics/insight.json"
+    },
+    {
+      "case_id": "danish_ais_15_summer_winter_vessel_type_changes",
+      "json_path": "trajstory_examples/insight/Danish_AIS/15_summer_winter_vessel_type_changes/insight.json"
+    },
+    {
+      "case_id": "danish_ais_16_vessel_factors_and_movement",
+      "json_path": "trajstory_examples/insight/Danish_AIS/16_vessel_factors_and_movement/insight.json"
+    },
+    {
+      "case_id": "danish_ais_17_constrained_area_navigation_adjustment",
+      "json_path": "trajstory_examples/insight/Danish_AIS/17_constrained_area_navigation_adjustment/insight.json"
+    },
+    {
+      "case_id": "danish_ais_18_long_straight_passage_dynamics",
+      "json_path": "trajstory_examples/insight/Danish_AIS/18_long_straight_passage_dynamics/insight.json"
+    },
+    {
+      "case_id": "danish_ais_19_harbour_offshore_repeated_operations",
+      "json_path": "trajstory_examples/insight/Danish_AIS/19_harbour_offshore_repeated_operations/insight.json"
+    },
+    {
+      "case_id": "danish_ais_20_vessel_type_movement_comparison",
+      "json_path": "trajstory_examples/insight/Danish_AIS/20_vessel_type_movement_comparison/insight.json"
+    },
+    {
+      "case_id": "danish_ais_21_bidirectional_traffic_flow",
+      "json_path": "trajstory_examples/insight/Danish_AIS/21_bidirectional_traffic_flow/insight.json"
+    },
+    {
+      "case_id": "danish_ais_22_constrained_area_bypass_dynamics",
+      "json_path": "trajstory_examples/insight/Danish_AIS/22_constrained_area_bypass_dynamics/insight.json"
+    },
+    {
+      "case_id": "danish_ais_23_tourist_vessel_coastal_activity",
+      "json_path": "trajstory_examples/insight/Danish_AIS/23_tourist_vessel_coastal_activity/insight.json"
+    },
+    {
+      "case_id": "danish_ais_24_mon_mixed_traffic_interactions",
+      "json_path": "trajstory_examples/insight/Danish_AIS/24_mon_mixed_traffic_interactions/insight.json"
+    },
+    {
+      "case_id": "danish_ais_25_great_belt_bend_manoeuvring",
+      "json_path": "trajstory_examples/insight/Danish_AIS/25_great_belt_bend_manoeuvring/insight.json"
+    },
+    {
+      "case_id": "lade_01_time_window_order_handling",
+      "json_path": "trajstory_examples/insight/LaDe/01_time_window_order_handling/insight.json"
+    },
+    {
+      "case_id": "lade_02_regional_courier_order_state",
+      "json_path": "trajstory_examples/insight/LaDe/02_regional_courier_order_state/insight.json"
+    },
+    {
+      "case_id": "lade_03_delivery_pattern_sequence",
+      "json_path": "trajstory_examples/insight/LaDe/03_delivery_pattern_sequence/insight.json"
+    },
+    {
+      "case_id": "lade_04_experience_change",
+      "json_path": "trajstory_examples/insight/LaDe/04_experience_change/insight.json"
+    },
+    {
+      "case_id": "lade_05_area_time_task_organization",
+      "json_path": "trajstory_examples/insight/LaDe/05_area_time_task_organization/insight.json"
+    },
+    {
+      "case_id": "lade_06_distinctive_service_patterns",
+      "json_path": "trajstory_examples/insight/LaDe/06_distinctive_service_patterns/insight.json"
+    },
+    {
+      "case_id": "lade_07_pickup_time_window_reliability",
+      "json_path": "trajstory_examples/insight/LaDe/07_pickup_time_window_reliability/insight.json"
+    },
+    {
+      "case_id": "lade_08_pickup_conditions_and_constraints",
+      "json_path": "trajstory_examples/insight/LaDe/08_pickup_conditions_and_constraints/insight.json"
+    },
+    {
+      "case_id": "lade_09_multi_day_delivery_cadence",
+      "json_path": "trajstory_examples/insight/LaDe/09_multi_day_delivery_cadence/insight.json"
+    },
+    {
+      "case_id": "lade_10_time_window_route_effects",
+      "json_path": "trajstory_examples/insight/LaDe/10_time_window_route_effects/insight.json"
+    },
+    {
+      "case_id": "lade_11_workday_time_allocation",
+      "json_path": "trajstory_examples/insight/LaDe/11_workday_time_allocation/insight.json"
+    },
+    {
+      "case_id": "lade_12_clockwise_route_delivery_sequence",
+      "json_path": "trajstory_examples/insight/LaDe/12_clockwise_route_delivery_sequence/insight.json"
+    },
+    {
+      "case_id": "lade_13_accepted_pickup_task_dynamics",
+      "json_path": "trajstory_examples/insight/LaDe/13_accepted_pickup_task_dynamics/insight.json"
+    },
+    {
+      "case_id": "lade_14_aoi_type_delivery_activity",
+      "json_path": "trajstory_examples/insight/LaDe/14_aoi_type_delivery_activity/insight.json"
+    },
+    {
+      "case_id": "lade_15_delivery_acceptance_bursts",
+      "json_path": "trajstory_examples/insight/LaDe/15_delivery_acceptance_bursts/insight.json"
+    },
+    {
+      "case_id": "lade_16_pending_delivery_prioritization",
+      "json_path": "trajstory_examples/insight/LaDe/16_pending_delivery_prioritization/insight.json"
+    },
+    {
+      "case_id": "lade_17_contextual_delivery_prioritization",
+      "json_path": "trajstory_examples/insight/LaDe/17_contextual_delivery_prioritization/insight.json"
+    },
+    {
+      "case_id": "lade_18_multi_courier_pickup_ordering",
+      "json_path": "trajstory_examples/insight/LaDe/18_multi_courier_pickup_ordering/insight.json"
+    },
+    {
+      "case_id": "lade_19_regional_pickup_workload_distribution",
+      "json_path": "trajstory_examples/insight/LaDe/19_regional_pickup_workload_distribution/insight.json"
+    },
+    {
+      "case_id": "lade_20_aoi_service_periods_and_courier_subregions",
+      "json_path": "trajstory_examples/insight/LaDe/20_aoi_service_periods_and_courier_subregions/insight.json"
+    },
+    {
+      "case_id": "lade_21_road_class_delivery_dynamics",
+      "json_path": "trajstory_examples/insight/LaDe/21_road_class_delivery_dynamics/insight.json"
+    },
+    {
+      "case_id": "lade_22_regular_aoi_work_pattern",
+      "json_path": "trajstory_examples/insight/LaDe/22_regular_aoi_work_pattern/insight.json"
+    },
+    {
+      "case_id": "lade_23_oneway_detour_dynamics",
+      "json_path": "trajstory_examples/insight/LaDe/23_oneway_detour_dynamics/insight.json"
+    },
+    {
+      "case_id": "lade_24_bridge_tunnel_movement",
+      "json_path": "trajstory_examples/insight/LaDe/24_bridge_tunnel_movement/insight.json"
+    },
+    {
+      "case_id": "lade_25_service_region_road_comparison",
+      "json_path": "trajstory_examples/insight/LaDe/25_service_region_road_comparison/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_01_purpose_destination_land_use",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/01_purpose_destination_land_use/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_02_land_use_purpose_attraction",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/02_land_use_purpose_attraction/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_03_purpose_time_distance_speed",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/03_purpose_time_distance_speed/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_04_mode_purpose_land_use_joint_patterns",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/04_mode_purpose_land_use_joint_patterns/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_05_single_user_purpose_habits",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/05_single_user_purpose_habits/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_06_mode_speed_downtown_patterns",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/06_mode_speed_downtown_patterns/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_07_usage_mode_distance_time_patterns",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/07_usage_mode_distance_time_patterns/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_08_rush_hour_usage_destination_anomalies",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/08_rush_hour_usage_destination_anomalies/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_09_land_use_mode_route_weekday_patterns",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/09_land_use_mode_route_weekday_patterns/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_10_temperature_mode_distance_speed_patterns",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/10_temperature_mode_distance_speed_patterns/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_11_three_user_weekday_periodicity",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/11_three_user_weekday_periodicity/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_12_single_user_routine_change_anomaly",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/12_single_user_routine_change_anomaly/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_13_single_day_locational_patterns",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/13_single_day_locational_patterns/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_14_cycling_directness_destination_temperature",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/14_cycling_directness_destination_temperature/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_15_single_user_routine_mode_speed_context",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/15_single_user_routine_mode_speed_context/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_16_return_home_work_discretionary_patterns",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/16_return_home_work_discretionary_patterns/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_17_weekday_work_destination_flows",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/17_weekday_work_destination_flows/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_18_complete_daily_trip_chains",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/18_complete_daily_trip_chains/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_19_within_cross_area_mobility_patterns",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/19_within_cross_area_mobility_patterns/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_20_multi_user_repeated_trip_variability",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/20_multi_user_repeated_trip_variability/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_21_pickup_dropoff_daily_chains",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/21_pickup_dropoff_daily_chains/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_22_recurring_route_speed_destination_patterns",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/22_recurring_route_speed_destination_patterns/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_23_intermediate_stop_daily_chain_patterns",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/23_intermediate_stop_daily_chain_patterns/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_24_outward_return_movement_pairs",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/24_outward_return_movement_pairs/insight.json"
+    },
+    {
+      "case_id": "mtl_trajet_25_single_user_long_term_mobility_change",
+      "json_path": "trajstory_examples/insight/MTL_Trajet/25_single_user_long_term_mobility_change/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_01_overall_characterization",
+      "json_path": "trajstory_examples/insight/Porto_taxi/01_overall_characterization/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_02_anomaly_and_exception",
+      "json_path": "trajstory_examples/insight/Porto_taxi/02_anomaly_and_exception/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_03_segmentation_structure",
+      "json_path": "trajstory_examples/insight/Porto_taxi/03_segmentation_structure/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_04_demand_and_driver_service",
+      "json_path": "trajstory_examples/insight/Porto_taxi/04_demand_and_driver_service/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_05_taxi_stand_demand",
+      "json_path": "trajstory_examples/insight/Porto_taxi/05_taxi_stand_demand/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_06_five_driver_operating_patterns",
+      "json_path": "trajstory_examples/insight/Porto_taxi/06_five_driver_operating_patterns/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_07_citywide_demand_cycle_and_peak_sources",
+      "json_path": "trajstory_examples/insight/Porto_taxi/07_citywide_demand_cycle_and_peak_sources/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_08_single_driver_cruising_strategy",
+      "json_path": "trajstory_examples/insight/Porto_taxi/08_single_driver_cruising_strategy/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_09_experience_conditioned_operating_strategy",
+      "json_path": "trajstory_examples/insight/Porto_taxi/09_experience_conditioned_operating_strategy/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_10_recurrent_operating_route_patterns",
+      "json_path": "trajstory_examples/insight/Porto_taxi/10_recurrent_operating_route_patterns/insight.json"
+    },
+    {
+      "case_id": "worldtrace_01_main_patterns_and_exceptions",
+      "json_path": "trajstory_examples/insight/worldtrace/01_main_patterns_and_exceptions/insight.json"
+    },
+    {
+      "case_id": "worldtrace_02_user_consistency_and_variation",
+      "json_path": "trajstory_examples/insight/worldtrace/02_user_consistency_and_variation/insight.json"
+    },
+    {
+      "case_id": "worldtrace_03_unusual_trajectories",
+      "json_path": "trajstory_examples/insight/worldtrace/03_unusual_trajectories/insight.json"
+    },
+    {
+      "case_id": "worldtrace_04_geographic_group_differences",
+      "json_path": "trajstory_examples/insight/worldtrace/04_geographic_group_differences/insight.json"
+    },
+    {
+      "case_id": "worldtrace_05_context_conditioned_patterns",
+      "json_path": "trajstory_examples/insight/worldtrace/05_context_conditioned_patterns/insight.json"
+    },
+    {
+      "case_id": "worldtrace_06_user_normal_pattern_and_anomaly",
+      "json_path": "trajstory_examples/insight/worldtrace/06_user_normal_pattern_and_anomaly/insight.json"
+    },
+    {
+      "case_id": "worldtrace_07_weather_conditioned_user_behavior",
+      "json_path": "trajstory_examples/insight/worldtrace/07_weather_conditioned_user_behavior/insight.json"
+    },
+    {
+      "case_id": "worldtrace_08_repeated_route_choice_tradeoffs",
+      "json_path": "trajstory_examples/insight/worldtrace/08_repeated_route_choice_tradeoffs/insight.json"
+    },
+    {
+      "case_id": "worldtrace_09_trip_movement_changes",
+      "json_path": "trajstory_examples/insight/worldtrace/09_trip_movement_changes/insight.json"
+    },
+    {
+      "case_id": "worldtrace_10_multi_user_commuting_route_convergence",
+      "json_path": "trajstory_examples/insight/worldtrace/10_multi_user_commuting_route_convergence/insight.json"
+    },
+    {
+      "case_id": "worldtrace_11_new_location_mobility_patterns",
+      "json_path": "trajstory_examples/insight/worldtrace/11_new_location_mobility_patterns/insight.json"
+    },
+    {
+      "case_id": "worldtrace_12_new_location_visit_regularities",
+      "json_path": "trajstory_examples/insight/worldtrace/12_new_location_visit_regularities/insight.json"
+    },
+    {
+      "case_id": "worldtrace_13_individual_route_regularity_and_heat_exception",
+      "json_path": "trajstory_examples/insight/worldtrace/13_individual_route_regularity_and_heat_exception/insight.json"
+    },
+    {
+      "case_id": "worldtrace_14_direction_time_mode_concentration",
+      "json_path": "trajstory_examples/insight/worldtrace/14_direction_time_mode_concentration/insight.json"
+    },
+    {
+      "case_id": "worldtrace_15_vehicle_type_trajectory_variations",
+      "json_path": "trajstory_examples/insight/worldtrace/15_vehicle_type_trajectory_variations/insight.json"
+    },
+    {
+      "case_id": "worldtrace_16_weather_and_mode_mobility_patterns",
+      "json_path": "trajstory_examples/insight/worldtrace/16_weather_and_mode_mobility_patterns/insight.json"
+    },
+    {
+      "case_id": "worldtrace_17_environmental_condition_travel_behavior",
+      "json_path": "trajstory_examples/insight/worldtrace/17_environmental_condition_travel_behavior/insight.json"
+    },
+    {
+      "case_id": "worldtrace_18_movement_efficiency_and_stability",
+      "json_path": "trajstory_examples/insight/worldtrace/18_movement_efficiency_and_stability/insight.json"
+    },
+    {
+      "case_id": "worldtrace_19_acceleration_braking_and_gps_exceptions",
+      "json_path": "trajstory_examples/insight/worldtrace/19_acceleration_braking_and_gps_exceptions/insight.json"
+    },
+    {
+      "case_id": "worldtrace_20_weekday_weekend_mode_patterns",
+      "json_path": "trajstory_examples/insight/worldtrace/20_weekday_weekend_mode_patterns/insight.json"
+    },
+    {
+      "case_id": "worldtrace_21_recurrent_corridor_directional_efficiency",
+      "json_path": "trajstory_examples/insight/worldtrace/21_recurrent_corridor_directional_efficiency/insight.json"
+    },
+    {
+      "case_id": "worldtrace_22_weather_temperature_mode_spatial_patterns",
+      "json_path": "trajstory_examples/insight/worldtrace/22_weather_temperature_mode_spatial_patterns/insight.json"
+    },
+    {
+      "case_id": "worldtrace_23_vehicle_turning_positioning_quality",
+      "json_path": "trajstory_examples/insight/worldtrace/23_vehicle_turning_positioning_quality/insight.json"
+    },
+    {
+      "case_id": "worldtrace_24_mode_distance_travel_efficiency",
+      "json_path": "trajstory_examples/insight/worldtrace/24_mode_distance_travel_efficiency/insight.json"
+    },
+    {
+      "case_id": "worldtrace_25_daily_chain_mode_weather_structure",
+      "json_path": "trajstory_examples/insight/worldtrace/25_daily_chain_mode_weather_structure/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_16_weather_service_speed_interactions",
+      "json_path": "trajstory_examples/insight/Porto_taxi/16_weather_service_speed_interactions/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_17_route_variation_operating_conditions",
+      "json_path": "trajstory_examples/insight/Porto_taxi/17_route_variation_operating_conditions/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_14_area_time_taxi_stand_demand",
+      "json_path": "trajstory_examples/insight/Porto_taxi/14_area_time_taxi_stand_demand/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_15_cross_driver_operating_patterns",
+      "json_path": "trajstory_examples/insight/Porto_taxi/15_cross_driver_operating_patterns/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_11_weather_temperature_speed",
+      "json_path": "trajstory_examples/insight/Porto_taxi/11_weather_temperature_speed/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_12_pre_holiday_activity",
+      "json_path": "trajstory_examples/insight/Porto_taxi/12_pre_holiday_activity/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_13_frequent_caller_mobility_patterns",
+      "json_path": "trajstory_examples/insight/Porto_taxi/13_frequent_caller_mobility_patterns/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_22_airport_direction_route_patterns",
+      "json_path": "trajstory_examples/insight/Porto_taxi/22_airport_direction_route_patterns/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_23_campanha_recurrent_corridors",
+      "json_path": "trajstory_examples/insight/Porto_taxi/23_campanha_recurrent_corridors/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_24_douro_crossing_route_speed_patterns",
+      "json_path": "trajstory_examples/insight/Porto_taxi/24_douro_crossing_route_speed_patterns/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_25_neighboring_stand_operating_patterns",
+      "json_path": "trajstory_examples/insight/Porto_taxi/25_neighboring_stand_operating_patterns/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_18_driver_spatial_directness_patterns",
+      "json_path": "trajstory_examples/insight/Porto_taxi/18_driver_spatial_directness_patterns/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_19_driver_service_caller_schedule_patterns",
+      "json_path": "trajstory_examples/insight/Porto_taxi/19_driver_service_caller_schedule_patterns/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_20_stand_driver_temporal_environmental_demand",
+      "json_path": "trajstory_examples/insight/Porto_taxi/20_stand_driver_temporal_environmental_demand/insight.json"
+    },
+    {
+      "case_id": "porto_taxi_21_driver_daily_weekend_rain_activity",
+      "json_path": "trajstory_examples/insight/Porto_taxi/21_driver_daily_weekend_rain_activity/insight.json"
+    }
+  ]
+}

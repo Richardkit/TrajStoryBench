@@ -1,0 +1,22 @@
+# Partial specification for data construction.
+# Fill in only the concepts and constraints you want to control.
+# Any omitted IDs, timestamps, GPS points, metrics, or support tables may be
+# added when they are necessary to realize the supplied goal and insights.
+
+pre_schema_version: "1.0"
+
+# Optional one-line context for the constructor.
+domain: "" # e.g., urban_multimodal_mobility
+goal: "Analyze how returning-home travel differs from work and discretionary travel."
+insights_type_list: [temporal_dynamics, group_comparison, factor_relationship, factor_relationship]
+insights:
+  - "Returning-home trips are strongly concentrated in the evening rush, while work trips peak earlier and discretionary trips remain more temporally dispersed."
+  - "Work and returning-home trajectories show opposite dominant directions along Montréal's island axis, unlike café and shopping trips, which are directionally dispersed."
+  - "Home-bound trips from employment areas are longer and more mode-stable than those from shopping or café areas, which include more walking and cycling."
+  - "Home-bound trajectories from similar origin land-use increasingly converge toward a smaller set of residential or mixed destination areas as evening progresses."
+
+explanation:
+  - "If there is no information about Montréal's island, provide supplementary information about the island's geography and its impact on travel patterns in an individual context."
+fields:
+    
+constraints:

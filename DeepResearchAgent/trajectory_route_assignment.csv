@@ -1,0 +1,101 @@
+trajectory_id,vessel_id,assigned_route_id,assigned_route_name,assigned_route_class,min_dist_km
+wjt_trip_001,wjt_001,OFFSHORE,West Jutland Offshore Transit,main offshore,0.022114013326782887
+wjt_trip_002,wjt_002,OFFSHORE,West Jutland Offshore Transit,main offshore,0.011252535797277894
+wjt_trip_003,wjt_003,OFFSHORE,West Jutland Offshore Transit,main offshore,0.040724875049549907
+wjt_trip_004,wjt_004,OFFSHORE,West Jutland Offshore Transit,main offshore,0.009768414726611023
+wjt_trip_005,wjt_005,OFFSHORE,West Jutland Offshore Transit,main offshore,0.0034810380827125426
+wjt_trip_006,wjt_006,OFFSHORE,West Jutland Offshore Transit,main offshore,0.05532467841670338
+wjt_trip_007,wjt_007,OFFSHORE,West Jutland Offshore Transit,main offshore,0.010768114062497709
+wjt_trip_008,wjt_008,OFFSHORE,West Jutland Offshore Transit,main offshore,0.018501677644302064
+wjt_trip_009,wjt_009,OFFSHORE,West Jutland Offshore Transit,main offshore,0.09681132283877497
+wjt_trip_010,wjt_010,OFFSHORE,West Jutland Offshore Transit,main offshore,0.0703682145262319
+wjt_trip_011,wjt_011,OFFSHORE,West Jutland Offshore Transit,main offshore,0.056704924764170515
+wjt_trip_012,wjt_012,OFFSHORE,West Jutland Offshore Transit,main offshore,0.043078663108990695
+wjt_trip_013,wjt_013,OFFSHORE,West Jutland Offshore Transit,main offshore,0.011694891834869695
+wjt_trip_014,wjt_014,OFFSHORE,West Jutland Offshore Transit,main offshore,0.025899444905067525
+wjt_trip_015,wjt_015,OFFSHORE,West Jutland Offshore Transit,main offshore,0.00043964685232842835
+wjt_trip_016,wjt_016,OFFSHORE,West Jutland Offshore Transit,main offshore,0.001036153404791478
+wjt_trip_017,wjt_017,OFFSHORE,West Jutland Offshore Transit,main offshore,0.02320090680789454
+wjt_trip_018,wjt_018,OFFSHORE,West Jutland Offshore Transit,main offshore,6.052854135356049e-05
+wjt_trip_019,wjt_019,OFFSHORE,West Jutland Offshore Transit,main offshore,0.0027505630613146818
+wjt_trip_020,wjt_020,OFFSHORE,West Jutland Offshore Transit,main offshore,0.02881312541720654
+wjt_trip_021,wjt_021,OFFSHORE,West Jutland Offshore Transit,main offshore,0.0727310148507173
+wjt_trip_022,wjt_022,OFFSHORE,West Jutland Offshore Transit,main offshore,0.010251058058439746
+wjt_trip_023,wjt_023,OFFSHORE,West Jutland Offshore Transit,main offshore,0.0411710242238905
+wjt_trip_024,wjt_024,OFFSHORE,West Jutland Offshore Transit,main offshore,0.012923230311125505
+wjt_trip_025,wjt_025,OFFSHORE,West Jutland Offshore Transit,main offshore,0.0001894439763522016
+wjt_trip_026,wjt_026,OFFSHORE,West Jutland Offshore Transit,main offshore,0.016742840162889867
+wjt_trip_027,wjt_027,OFFSHORE,West Jutland Offshore Transit,main offshore,0.02280459629877581
+wjt_trip_028,wjt_028,OFFSHORE,West Jutland Offshore Transit,main offshore,0.008190244814644206
+wjt_trip_029,wjt_029,OFFSHORE,West Jutland Offshore Transit,main offshore,0.02876917452717178
+wjt_trip_030,wjt_030,OFFSHORE,West Jutland Offshore Transit,main offshore,0.001936404846153986
+wjt_trip_031,wjt_031,OFFSHORE,West Jutland Offshore Transit,main offshore,0.010999855758990935
+wjt_trip_032,wjt_032,OFFSHORE,West Jutland Offshore Transit,main offshore,0.025657848422427312
+wjt_trip_033,wjt_033,OFFSHORE,West Jutland Offshore Transit,main offshore,0.041360622433138414
+wjt_trip_034,wjt_034,OFFSHORE,West Jutland Offshore Transit,main offshore,0.031176891597293473
+wjt_trip_035,wjt_035,OFFSHORE,West Jutland Offshore Transit,main offshore,0.01202280746243822
+wjt_trip_036,wjt_036,OFFSHORE,West Jutland Offshore Transit,main offshore,0.00466086126765898
+wjt_trip_037,wjt_037,OFFSHORE,West Jutland Offshore Transit,main offshore,0.02129463423775168
+wjt_trip_038,wjt_038,OFFSHORE,West Jutland Offshore Transit,main offshore,0.04155019002562523
+wjt_trip_039,wjt_039,OFFSHORE,West Jutland Offshore Transit,main offshore,0.010673893481671498
+wjt_trip_040,wjt_040,OFFSHORE,West Jutland Offshore Transit,main offshore,0.009206620425676193
+wjt_trip_041,wjt_041,OFFSHORE,West Jutland Offshore Transit,main offshore,0.0021723186557658022
+wjt_trip_042,wjt_042,OFFSHORE,West Jutland Offshore Transit,main offshore,0.027967619648673624
+wjt_trip_043,wjt_043,OFFSHORE,West Jutland Offshore Transit,main offshore,0.007337446301617055
+wjt_trip_044,wjt_044,OFFSHORE,West Jutland Offshore Transit,main offshore,0.08313793719331351
+wjt_trip_045,wjt_045,OFFSHORE,West Jutland Offshore Transit,main offshore,0.04567674900761819
+wjt_trip_046,wjt_046,OFFSHORE,West Jutland Offshore Transit,main offshore,0.03476138256750047
+wjt_trip_047,wjt_047,OFFSHORE,West Jutland Offshore Transit,main offshore,0.009647134771395494
+wjt_trip_048,wjt_048,OFFSHORE,West Jutland Offshore Transit,main offshore,0.14675383442413098
+wjt_trip_049,wjt_049,OFFSHORE,West Jutland Offshore Transit,main offshore,0.021195468376598647
+wjt_trip_050,wjt_050,OFFSHORE,West Jutland Offshore Transit,main offshore,0.040849893263876
+wjt_trip_051,wjt_051,OFFSHORE,West Jutland Offshore Transit,main offshore,0.005303587470780276
+wjt_trip_052,wjt_052,OFFSHORE,West Jutland Offshore Transit,main offshore,0.018151948252513976
+wjt_trip_053,wjt_053,OFFSHORE,West Jutland Offshore Transit,main offshore,0.006516956613115308
+wjt_trip_054,wjt_054,OFFSHORE,West Jutland Offshore Transit,main offshore,0.10663960723102463
+wjt_trip_055,wjt_055,OFFSHORE,West Jutland Offshore Transit,main offshore,0.008673419602332222
+wjt_trip_056,wjt_056,OFFSHORE,West Jutland Offshore Transit,main offshore,0.01783261040441062
+wjt_trip_057,wjt_057,OFFSHORE,West Jutland Offshore Transit,main offshore,0.011715863685968251
+wjt_trip_058,wjt_058,OFFSHORE,West Jutland Offshore Transit,main offshore,0.05280266118485304
+wjt_trip_059,wjt_059,OFFSHORE,West Jutland Offshore Transit,main offshore,0.059075856408797256
+wjt_trip_060,wjt_060,OFFSHORE,West Jutland Offshore Transit,main offshore,0.025235049631329755
+wjt_trip_061,wjt_061,OFFSHORE,West Jutland Offshore Transit,main offshore,0.018199708056818125
+wjt_trip_062,wjt_062,OFFSHORE,West Jutland Offshore Transit,main offshore,0.004862150746399966
+wjt_trip_063,wjt_063,OFFSHORE,West Jutland Offshore Transit,main offshore,0.0067333739767825775
+wjt_trip_064,wjt_064,OFFSHORE,West Jutland Offshore Transit,main offshore,0.036271320939277776
+wjt_trip_065,wjt_065,OFFSHORE,West Jutland Offshore Transit,main offshore,0.002148138598785002
+wjt_trip_066,wjt_066,OFFSHORE,West Jutland Offshore Transit,main offshore,0.018521665784645036
+wjt_trip_067,wjt_067,OFFSHORE,West Jutland Offshore Transit,main offshore,0.0176364206635228
+wjt_trip_068,wjt_068,OFFSHORE,West Jutland Offshore Transit,main offshore,0.01591310851607752
+wjt_trip_069,wjt_069,OFFSHORE,West Jutland Offshore Transit,main offshore,0.0320892143004505
+wjt_trip_070,wjt_070,OFFSHORE,West Jutland Offshore Transit,main offshore,0.025642361939786397
+wjt_trip_071,wjt_071,OFFSHORE,West Jutland Offshore Transit,main offshore,0.03854451021356457
+wjt_trip_072,wjt_072,OFFSHORE,West Jutland Offshore Transit,main offshore,0.1072673008067629
+wjt_trip_073,wjt_073,OFFSHORE,West Jutland Offshore Transit,main offshore,0.018489723845272685
+wjt_trip_074,wjt_074,ESB,Esbjerg Connector,local harbour,0.05432246738242818
+wjt_trip_075,wjt_075,HVS,Hvide Sande Connector,local harbour,0.029150547950110527
+wjt_trip_076,wjt_076,THY,Thyborøn Connector,local harbour,0.04683506567261679
+wjt_trip_077,wjt_077,ESB,Esbjerg Connector,local harbour,0.024844845713873947
+wjt_trip_078,wjt_078,HVS,Hvide Sande Connector,local harbour,0.12722419902766732
+wjt_trip_079,wjt_079,THY,Thyborøn Connector,local harbour,0.0778756488607913
+wjt_trip_080,wjt_080,ESB,Esbjerg Connector,local harbour,0.060903198531059716
+wjt_trip_081,wjt_081,HVS,Hvide Sande Connector,local harbour,0.030158704275502553
+wjt_trip_082,wjt_082,THY,Thyborøn Connector,local harbour,0.003187956497493719
+wjt_trip_083,wjt_083,ESB,Esbjerg Connector,local harbour,0.037847721304604474
+wjt_trip_084,wjt_084,HVS,Hvide Sande Connector,local harbour,0.025763412712091285
+wjt_trip_085,wjt_085,THY,Thyborøn Connector,local harbour,0.030613973012886504
+wjt_trip_086,wjt_086,ESB,Esbjerg Connector,local harbour,0.0974199692389688
+wjt_trip_087,wjt_087,HVS,Hvide Sande Connector,local harbour,0.028037765624507778
+wjt_trip_088,wjt_088,THY,Thyborøn Connector,local harbour,0.11489099393732073
+wjt_trip_089,wjt_089,ESB,Esbjerg Connector,local harbour,0.002280459247375171
+wjt_trip_090,wjt_090,HVS,Hvide Sande Connector,local harbour,0.024349531862297852
+wjt_trip_091,wjt_091,THY,Thyborøn Connector,local harbour,0.022262733890125706
+wjt_trip_092,wjt_092,ESB,Esbjerg Connector,local harbour,0.04831017583694545
+wjt_trip_093,wjt_093,HVS,Hvide Sande Connector,local harbour,0.0016783225660154711
+wjt_trip_094,wjt_094,THY,Thyborøn Connector,local harbour,0.09542829962200484
+wjt_trip_095,wjt_095,ESB,Esbjerg Connector,local harbour,0.07432130691543698
+wjt_trip_096,wjt_096,HVS,Hvide Sande Connector,local harbour,0.021245290671066213
+wjt_trip_097,wjt_097,THY,Thyborøn Connector,local harbour,0.0395723052771706
+wjt_trip_098,wjt_098,ESB,Esbjerg Connector,local harbour,0.015395049982635831
+wjt_trip_099,wjt_099,HVS,Hvide Sande Connector,local harbour,0.052449819947225015
+wjt_trip_100,wjt_100,THY,Thyborøn Connector,local harbour,0.02301552693773113

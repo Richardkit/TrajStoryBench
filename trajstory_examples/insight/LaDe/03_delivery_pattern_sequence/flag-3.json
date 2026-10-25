@@ -1,0 +1,123 @@
+{
+  "dataset_csv_path": "orders.csv",
+  "user_dataset_csv_path": "trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "courier_days.csv",
+      "role": "Courier-day identity and case description"
+    },
+    {
+      "path": "trajectory_points.csv",
+      "role": "Timestamped GPS trajectories on the Shanghai road network"
+    }
+  ],
+  "metadata": {
+    "goal": "Detect repeated delivery-sequencing patterns by relating the courier's road-network trajectories to order receipt and destination events across multiple days.",
+    "role": "Last-mile delivery operations analyst",
+    "category": "Courier and Order Insight",
+    "dataset_description": "The main table contains 108 order receipt and completion events across six courier-days. The supporting table contains six timestamped, road-aligned Shanghai trajectories generated from cached OSRM road geometry.",
+    "header": "Courier Delivery Sequencing Under Sparse and Dense Receipt Activity"
+  },
+  "insight_list": [
+    {
+      "data_type": "diagnostic",
+      "insight_type": "factor_relationship",
+      "insight": "The courier does not consistently complete the destination nearest to the current position next.",
+      "insight_value": {
+        "sparse_batches": 12,
+        "farther_before_closer_batches": 12
+      },
+      "plot": {
+        "plot_type": "trajectory_order_map",
+        "title": "Repeated Sparse Batches and Completion Sequence",
+        "file": "visualizations/sparse_completion_sequence.png",
+        "description": "Representative road-aligned sparse routes show completion order and replication across all sparse batches."
+      },
+      "question": "When the courier has a sparse batch of pending destinations, is the nearest destination consistently completed next?",
+      "actionable_insight": "Compare receipt-to-destination distance with completion order separately within every repeated sparse batch.",
+      "code": "import pandas as pd\nimport numpy as np\nimport matplotlib.pyplot as plt\nd = df.copy()\nd['receipt_time'] = pd.to_datetime(d['receipt_time']); d['sign_time'] = pd.to_datetime(d['sign_time'])\nfor c in ['receipt_lng','receipt_lat','poi_lng','poi_lat']: d[c] = pd.to_numeric(d[c])\ndef haversine(lon1,lat1,lon2,lat2):\n    p1,p2=np.radians(lat1),np.radians(lat2); dp=np.radians(lat2-lat1); dl=np.radians(lon2-lon1)\n    a=np.sin(dp/2)**2+np.cos(p1)*np.cos(p2)*np.sin(dl/2)**2\n    return 6371.0088*2*np.arctan2(np.sqrt(a),np.sqrt(1-a))\nd['destination_distance_km']=haversine(d.receipt_lng,d.receipt_lat,d.poi_lng,d.poi_lat)\nsparse=d.groupby(['ds','receipt_time']).filter(lambda q: len(q)==4).sort_values(['ds','receipt_time','sign_time'])\nchecks=sparse.groupby(['ds','receipt_time']).apply(lambda q:q.iloc[:2].destination_distance_km.min()>q.iloc[2:].destination_distance_km.max())\nprint('Sparse batches:',len(checks),'farther-before-closer batches:',int(checks.sum()))\n",
+      "difficulty_level": 7,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "receipt_time",
+        "completion_time",
+        "destination_position",
+        "gps_time",
+        "gps_position",
+        "task_id",
+        "courier_id"
+      ]
+    },
+    {
+      "data_type": "comparative",
+      "insight_type": "factor_relationship",
+      "insight": "When receipt activity is sparse, the courier tends to complete longer-distance destinations earlier in each batch than shorter-distance destinations.",
+      "insight_value": {
+        "sparse_batches": 12,
+        "completion_order_pattern": "farther destinations precede nearer destinations in every batch"
+      },
+      "plot": {
+        "plot_type": "ordered_profile_chart",
+        "title": "Destination Distance by Completion Order Across Sparse Batches",
+        "file": "visualizations/sparse_distance_by_completion_order.png",
+        "description": "All twelve batch profiles and their mean show the repeated distance-order relationship."
+      },
+      "question": "How does receipt-to-destination distance change across completion order in repeated sparse batches?",
+      "actionable_insight": "Compare the distance profile within each batch and verify that the pattern recurs across courier-days.",
+      "code": "import pandas as pd\nimport numpy as np\nimport matplotlib.pyplot as plt\nd = df.copy()\nd['receipt_time'] = pd.to_datetime(d['receipt_time']); d['sign_time'] = pd.to_datetime(d['sign_time'])\nfor c in ['receipt_lng','receipt_lat','poi_lng','poi_lat']: d[c] = pd.to_numeric(d[c])\ndef haversine(lon1,lat1,lon2,lat2):\n    p1,p2=np.radians(lat1),np.radians(lat2); dp=np.radians(lat2-lat1); dl=np.radians(lon2-lon1)\n    a=np.sin(dp/2)**2+np.cos(p1)*np.cos(p2)*np.sin(dl/2)**2\n    return 6371.0088*2*np.arctan2(np.sqrt(a),np.sqrt(1-a))\nd['destination_distance_km']=haversine(d.receipt_lng,d.receipt_lat,d.poi_lng,d.poi_lat)\nsparse=d.groupby(['ds','receipt_time']).filter(lambda q:len(q)==4).sort_values(['ds','receipt_time','sign_time'])\nsparse['completion_order']=sparse.groupby(['ds','receipt_time']).cumcount()+1\nsparse.groupby('completion_order').destination_distance_km.mean().plot(marker='o'); plt.ylabel('Distance (km)'); plt.grid(alpha=.25); plt.show()\n",
+      "difficulty_level": 7,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "receipt_time",
+        "completion_time",
+        "destination_position",
+        "gps_time",
+        "gps_position",
+        "task_id",
+        "courier_id"
+      ]
+    },
+    {
+      "data_type": "sequence",
+      "insight_type": "temporal_dynamics",
+      "insight": "Dense receipt activity leads the courier to interleave receipt collection and delivery rather than process them as separate batches.",
+      "insight_value": {
+        "dense_periods": 6,
+        "periods_with_interleaving": 6,
+        "interleaved_deliveries_per_period": 4
+      },
+      "plot": {
+        "plot_type": "map_and_recurrence_chart",
+        "title": "Dense Receipt Activity with Interleaved Deliveries",
+        "file": "visualizations/dense_receipt_then_delivery.png",
+        "description": "The map shows the road-aligned sequence and day-level bars show delivery-before-last-receipt on every courier-day."
+      },
+      "question": "Does the courier separate dense receipt collection from delivery, or interleave the two activities?",
+      "actionable_insight": "Compare each completion time with the final receipt time of its dense period and verify recurrence across days.",
+      "code": "import pandas as pd\nimport numpy as np\nimport matplotlib.pyplot as plt\nd = df.copy()\nd['receipt_time'] = pd.to_datetime(d['receipt_time']); d['sign_time'] = pd.to_datetime(d['sign_time'])\nfor c in ['receipt_lng','receipt_lat','poi_lng','poi_lat']: d[c] = pd.to_numeric(d[c])\ndef haversine(lon1,lat1,lon2,lat2):\n    p1,p2=np.radians(lat1),np.radians(lat2); dp=np.radians(lat2-lat1); dl=np.radians(lon2-lon1)\n    a=np.sin(dp/2)**2+np.cos(p1)*np.cos(p2)*np.sin(dl/2)**2\n    return 6371.0088*2*np.arctan2(np.sqrt(a),np.sqrt(1-a))\nd['destination_distance_km']=haversine(d.receipt_lng,d.receipt_lat,d.poi_lng,d.poi_lat)\ndense=d[d.receipt_time.dt.hour.ge(10)].copy(); last=dense.groupby('ds').receipt_time.transform('max')\ndense['interleaved']=dense.sign_time<last; print(pd.crosstab(dense.ds,dense.interleaved))\n",
+      "difficulty_level": 7,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "receipt_time",
+        "courier_id",
+        "gps_time",
+        "gps_position",
+        "completion_time",
+        "destination_position",
+        "task_id"
+      ]
+    }
+  ],
+  "insights": [
+    "The courier does not consistently complete the destination nearest to the current position next.",
+    "When receipt activity is sparse, the courier tends to complete longer-distance destinations earlier in each batch than shorter-distance destinations.",
+    "Dense receipt activity leads the courier to interleave receipt collection and delivery rather than process them as separate batches."
+  ],
+  "summary": "Across repeated courier-days, sparse batches consistently place farther destinations earlier in the completion sequence, while dense receipt periods repeatedly interleave collection and delivery instead of separating them into two stages."
+}

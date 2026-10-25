@@ -1,0 +1,8 @@
+vessel_id,ship_type,length_m,width_m,draught_m
+fish_repeat_01,Fishing,27.4,7.2,2.8
+ferry_01,Ferry,80.5,22.9,3.4
+ferry_02,Ferry,97.2,19.8,3.7
+ferry_03,Ferry,92.2,16.2,3.5
+ferry_04,Ferry,110.1,22.1,4.9
+ferry_05,Ferry,97.0,17.3,4.7
+ferry_06,Ferry,67.3,24.1,4.6

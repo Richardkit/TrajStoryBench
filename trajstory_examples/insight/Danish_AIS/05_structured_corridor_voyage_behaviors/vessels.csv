@@ -1,0 +1,2 @@
+vessel_id,ship_type,cargo_type,length_m,draught_m,role
+target_vessel_01,Cargo,Cargo,185,11.7,Target vessel

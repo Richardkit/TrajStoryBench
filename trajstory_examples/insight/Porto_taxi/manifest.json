@@ -1,0 +1,179 @@
+{
+  "format": "trajstory-insightbench-v0.1",
+  "source": "UCI Machine Learning Repository dataset 339; Example 1 is constructed from Porto geographic context",
+  "cases": [
+    {
+      "case_id": "01_overall_characterization",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/01_overall_characterization/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/01_overall_characterization/trips.csv",
+      "trips": 64,
+      "trajectory_points": 4277
+    },
+    {
+      "case_id": "02_anomaly_and_exception",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/02_anomaly_and_exception/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/02_anomaly_and_exception/trips.csv",
+      "trips": 30,
+      "trajectory_points": 1496,
+      "trajectory_count": 30
+    },
+    {
+      "case_id": "03_segmentation_structure",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/03_segmentation_structure/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/03_segmentation_structure/trips.csv",
+      "trips": 89,
+      "trajectory_points": 4173
+    },
+    {
+      "case_id": "04_demand_and_driver_service",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/04_demand_and_driver_service/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/04_demand_and_driver_service/trip_events.csv"
+    },
+    {
+      "case_id": "05_taxi_stand_demand",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/05_taxi_stand_demand/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/05_taxi_stand_demand/trips.csv"
+    },
+    {
+      "case_id": "06_five_driver_operating_patterns",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/06_five_driver_operating_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/06_five_driver_operating_patterns/completed_tasks.csv",
+      "drivers": 5,
+      "tasks": 60,
+      "trajectory_points": 470
+    },
+    {
+      "case_id": "07_citywide_demand_cycle_and_peak_sources",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/07_citywide_demand_cycle_and_peak_sources/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/07_citywide_demand_cycle_and_peak_sources/taxi_demand.csv",
+      "trips": 715,
+      "trajectory_points": 7150
+    },
+    {
+      "case_id": "08_single_driver_cruising_strategy",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/08_single_driver_cruising_strategy/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/08_single_driver_cruising_strategy/driver_activity_segments.csv",
+      "segments": 50,
+      "trajectory_points": 600
+    },
+    {
+      "case_id": "10_recurrent_operating_route_patterns",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/10_recurrent_operating_route_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/10_recurrent_operating_route_patterns/trajectories.csv",
+      "segments": 140,
+      "trajectory_points": 8960
+    },
+    {
+      "case_id": "09_experience_conditioned_operating_strategy",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/09_experience_conditioned_operating_strategy/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/09_experience_conditioned_operating_strategy/driver_activity_segments.csv",
+      "segments": 377,
+      "trajectory_points": 4950
+    },
+    {
+      "case_id": "16_weather_service_speed_interactions",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/16_weather_service_speed_interactions/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/16_weather_service_speed_interactions/trips.csv",
+      "trips": 360,
+      "trajectory_points": 109235
+    },
+    {
+      "case_id": "17_route_variation_operating_conditions",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/17_route_variation_operating_conditions/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/17_route_variation_operating_conditions/trips.csv",
+      "trips": 720,
+      "trajectory_points": 270502
+    },
+    {
+      "case_id": "14_area_time_taxi_stand_demand",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/14_area_time_taxi_stand_demand/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/14_area_time_taxi_stand_demand/trips.csv",
+      "trips": 718,
+      "trajectory_points": 198323
+    },
+    {
+      "case_id": "15_cross_driver_operating_patterns",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/15_cross_driver_operating_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/15_cross_driver_operating_patterns/trips.csv",
+      "trips": 800,
+      "trajectory_points": 267325
+    },
+    {
+      "case_id": "11_weather_temperature_speed",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/11_weather_temperature_speed/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/11_weather_temperature_speed/trips.csv",
+      "trips": 180,
+      "trajectory_points": 65742
+    },
+    {
+      "case_id": "12_pre_holiday_activity",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/12_pre_holiday_activity/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/12_pre_holiday_activity/trips.csv",
+      "trips": 320,
+      "trajectory_points": 104228
+    },
+    {
+      "case_id": "13_frequent_caller_mobility_patterns",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/13_frequent_caller_mobility_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/13_frequent_caller_mobility_patterns/trips.csv",
+      "trips": 500,
+      "trajectory_points": 117456
+    },
+    {
+      "case_id": "22_airport_direction_route_patterns",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/22_airport_direction_route_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/22_airport_direction_route_patterns/trips.csv",
+      "trips": 576,
+      "trajectory_points": 345658
+    },
+    {
+      "case_id": "23_campanha_recurrent_corridors",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/23_campanha_recurrent_corridors/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/23_campanha_recurrent_corridors/trips.csv",
+      "trips": 672,
+      "trajectory_points": 159282
+    },
+    {
+      "case_id": "24_douro_crossing_route_speed_patterns",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/24_douro_crossing_route_speed_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/24_douro_crossing_route_speed_patterns/trips.csv",
+      "trips": 460,
+      "trajectory_points": 115660
+    },
+    {
+      "case_id": "25_neighboring_stand_operating_patterns",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/25_neighboring_stand_operating_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/25_neighboring_stand_operating_patterns/trips.csv",
+      "trips": 1498,
+      "trajectory_points": 387832
+    },
+    {
+      "case_id": "18_driver_spatial_directness_patterns",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/18_driver_spatial_directness_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/18_driver_spatial_directness_patterns/trips.csv",
+      "trips": 648,
+      "trajectory_points": 204126
+    },
+    {
+      "case_id": "19_driver_service_caller_schedule_patterns",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/19_driver_service_caller_schedule_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/19_driver_service_caller_schedule_patterns/trips.csv",
+      "trips": 864,
+      "trajectory_points": 265879
+    },
+    {
+      "case_id": "20_stand_driver_temporal_environmental_demand",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/20_stand_driver_temporal_environmental_demand/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/20_stand_driver_temporal_environmental_demand/trips.csv",
+      "trips": 1200,
+      "trajectory_points": 352344
+    },
+    {
+      "case_id": "21_driver_daily_weekend_rain_activity",
+      "insight_json": "trajstory_examples/insight/Porto_taxi/21_driver_daily_weekend_rain_activity/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/21_driver_daily_weekend_rain_activity/trips.csv",
+      "trips": 1663,
+      "trajectory_points": 522001
+    }
+  ]
+}

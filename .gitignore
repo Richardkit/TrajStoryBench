@@ -1,0 +1,47 @@
+# By default, ignore everything
+/*
+
+# Repository description and configuration 
+!/.gitignore
+!/README.md
+!/.gitattributes
+
+# dataset
+!/trajstory_examples/
+/trajstory_examples/*
+!/trajstory_examples/insight/
+
+# current agent and baseline
+!/trajstoryagent_v5/
+!/baseline_support/
+!/llm_only_baseline/
+!/codegen_baseline/
+!/pandas_multi_role/
+!/DSAEval/
+!/DeepResearchAgent/
+!/insight-bench/
+
+# exclude virtual environments, caches, and compiled files
+**/.git/
+**/.runtime/
+**/.venv/
+**/venv/
+**/node_modules/
+**/__pycache__/
+**/.pytest_cache/
+**/*.pyc
+
+# exclude local configuration 
+**/.env
+**/.env.*
+!**/.env.example
+**/credentials.json
+**/secrets.json
+
+# exclude history output and backup
+**/results/
+**/outputs/
+**/source_snapshot/
+**/_archive/
+**/_migration_backup/
+**/*.log

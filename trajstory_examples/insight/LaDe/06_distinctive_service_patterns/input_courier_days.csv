@@ -1,0 +1,7 @@
+case_courier_id,trajectory_id,city,route_variant
+courier_distinctive_01,lade06_traj_01,Shanghai,road_template_1
+courier_distinctive_01,lade06_traj_02,Shanghai,road_template_2
+courier_distinctive_01,lade06_traj_03,Shanghai,road_template_1
+courier_distinctive_01,lade06_traj_04,Shanghai,road_template_2
+courier_distinctive_01,lade06_traj_05,Shanghai,road_template_1
+courier_distinctive_01,lade06_traj_06,Shanghai,road_template_2

@@ -1,0 +1,27 @@
+vessel_id,vessel_name,ship_type,length_m,width_m,home_harbour
+fish_01,Fishing vessel 01,Fishing,7.5,2.0,grenaa
+fish_02,Fishing vessel 02,Fishing,11.8,2.8,grenaa
+fish_03,Fishing vessel 03,Fishing,10.6,3.3,grenaa
+fish_04,Fishing vessel 04,Fishing,22.9,6.1,grenaa
+fish_05,Fishing vessel 05,Fishing,14.2,3.8,grenaa
+fish_06,Fishing vessel 06,Fishing,9.4,2.4,grenaa
+fish_07,Fishing vessel 07,Fishing,8.3,2.3,bonnerup
+fish_08,Fishing vessel 08,Fishing,9.1,2.2,bonnerup
+fish_09,Fishing vessel 09,Fishing,7.5,2.2,bonnerup
+fish_10,Fishing vessel 10,Fishing,11.9,2.9,bonnerup
+fish_11,Fishing vessel 11,Fishing,23.2,6.6,bonnerup
+fish_12,Fishing vessel 12,Fishing,11.1,2.7,bonnerup
+fish_13,Fishing vessel 13,Fishing,13.6,3.7,anholt
+fish_14,Fishing vessel 14,Fishing,8.0,2.3,anholt
+fish_15,Fishing vessel 15,Fishing,9.0,2.1,anholt
+fish_16,Fishing vessel 16,Fishing,7.8,1.8,anholt
+fish_17,Fishing vessel 17,Fishing,25.0,6.0,anholt
+fish_18,Fishing vessel 18,Fishing,12.5,3.1,anholt
+large_01,Cargo vessel 01,Cargo,178.0,30.3,
+large_02,Tanker vessel 02,Tanker,195.1,30.8,
+large_03,Cargo vessel 03,Cargo,130.7,21.7,
+large_04,Tanker vessel 04,Tanker,198.3,36.8,
+large_05,Cargo vessel 05,Cargo,130.7,21.7,
+large_06,Tanker vessel 06,Tanker,219.1,41.1,
+large_07,Cargo vessel 07,Cargo,178.5,29.4,
+large_08,Tanker vessel 08,Tanker,193.2,30.4,

@@ -1,0 +1,118 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/worldtrace/08_repeated_route_choice_tradeoffs/08_repeated_route_choice_tradeoffs.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/worldtrace/08_repeated_route_choice_tradeoffs/08_repeated_route_choice_tradeoffs_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/worldtrace/08_repeated_route_choice_tradeoffs/08_repeated_route_choice_tradeoffs_points.csv",
+      "role": "Trajectory points with relative elapsed time"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze how the traveler selects routes across repeated trips and identify the trade-offs that appear to shape their route choices.",
+    "role": "Repeated-trip mobility analyst",
+    "category": "Route Choice and Movement Behavior",
+    "header": "08 Repeated Route Choice Tradeoffs",
+    "dataset_description": "Twenty-four repeated-trip summaries and point-level traces expose route frequency, travel-time variability, a midway route switch, and speed–distance trade-offs."
+  },
+  "insight_list": [
+    {
+      "data_type": "route_time_distribution",
+      "insight_type": "group_comparison",
+      "insight": "Although Route A is not always the fastest option, the traveler repeatedly chooses it across similar trips, and its travel time varies substantially less than the alternatives.",
+      "insight_value": {
+        "route_a_count": 13,
+        "route_a_time_std_min": 0.6,
+        "alternative_time_std_min": {
+          "B": 6.53,
+          "C": 5.8
+        }
+      },
+      "plot": {
+        "plot_type": "route_time_distribution",
+        "title": "Route Choice and Travel-Time Variability",
+        "file": "visualizations/route_choice_time_distribution.png",
+        "description": "Violin and point distributions compare selection frequency and travel-time variability."
+      },
+      "question": "Which route is selected most often across similar trips, and how does its travel-time variability compare with the alternatives?",
+      "actionable_insight": "Compare route counts and complete travel-time distributions rather than only their means.",
+      "code": "import pandas as pd\nimport matplotlib.pyplot as plt\nd=df[df.route_choice.isin(['A','B','C'])]; print(d.groupby('route_choice').travel_time_min.agg(['count','mean','std'])); d.boxplot(column='travel_time_min',by='route_choice'); plt.show()",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "trajectory_id",
+        "trajectory_timestamp"
+      ]
+    },
+    {
+      "data_type": "route_switch_map",
+      "insight_type": "exception_deviation",
+      "insight": "Most trips follow the same familiar corridor, but this journey switches to a different route midway and reconnects with the habitual route near the destination.",
+      "insight_value": {
+        "trajectory_id": "WT8_SWITCH",
+        "divergence_progress": 0.4,
+        "reconnection_progress": 0.8
+      },
+      "plot": {
+        "plot_type": "route_switch_map",
+        "title": "Midway Route Switch",
+        "file": "visualizations/midway_switch_reconnection.png",
+        "description": "Repeated Route A traces provide the habitual corridor; the highlighted trip diverges and reconnects."
+      },
+      "question": "Does any trip depart from the habitual corridor midway and reconnect near the destination?",
+      "actionable_insight": "Compare the highlighted point sequence with repeated Route A traces.",
+      "code": "import pandas as pd\nimport matplotlib.pyplot as plt\nt=user_df.copy(); normal=t[t.route_choice.eq('A')]; switch=t[t.trajectory_id.eq('WT8_SWITCH')];\nfor _,g in normal.groupby('trajectory_id'): plt.plot(g.x_km,g.y_km,color='gray',alpha=.2)\nplt.plot(switch.x_km,switch.y_km,color='red',linewidth=2); plt.show()",
+      "difficulty_level": 2,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "speed_distance_tradeoff",
+      "insight_type": "factor_relationship",
+      "insight": "The selected route is longer than the shorter alternative, but it maintains higher and more stable speeds for most of the trip, resulting in a comparable overall travel time.",
+      "insight_value": {
+        "selected_route": {
+          "id": "WT8_01",
+          "distance_km": 24.0,
+          "time_min": 31.1
+        },
+        "shorter_route": {
+          "id": "WT8_16",
+          "distance_km": 20.0,
+          "time_min": 31.0
+        }
+      },
+      "plot": {
+        "plot_type": "speed_distance_tradeoff",
+        "title": "Distance, Speed Stability, and Travel Time",
+        "file": "visualizations/longer_route_speed_tradeoff.png",
+        "description": "Speed profiles and trip totals compare the selected longer route with the shorter alternative."
+      },
+      "question": "How can the selected route achieve travel time comparable to the shorter alternative despite covering more distance?",
+      "actionable_insight": "Compare speed level and variability throughout the trip together with total distance and time.",
+      "code": "import pandas as pd\nimport matplotlib.pyplot as plt\nd=df[df.trajectory_id.isin(['WT8_01','WT8_16'])]; print(d[['trajectory_id','distance_km','travel_time_min','mean_speed_kmh','speed_std_kmh']]); t=user_df[user_df.trajectory_id.isin(d.trajectory_id)];\nfor tid,g in t.groupby('trajectory_id'): plt.plot(g.elapsed_fraction,g.speed_kmh,label=tid)\nplt.legend(); plt.show()",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "trajectory_id",
+        "trajectory_timestamp"
+      ]
+    }
+  ],
+  "insights": [
+    "Although Route A is not always the fastest option, the traveler repeatedly chooses it across similar trips, and its travel time varies substantially less than the alternatives.",
+    "Most trips follow the same familiar corridor, but this journey switches to a different route midway and reconnects with the habitual route near the destination.",
+    "The selected route is longer than the shorter alternative, but it maintains higher and more stable speeds for most of the trip, resulting in a comparable overall travel time."
+  ],
+  "summary": "Across similar trips, Route A is the most frequent and most predictable choice even though alternatives can be faster. One trip temporarily leaves the habitual corridor, and the detailed comparison shows how a longer but faster and steadier route can match the travel time of a shorter alternative."
+}

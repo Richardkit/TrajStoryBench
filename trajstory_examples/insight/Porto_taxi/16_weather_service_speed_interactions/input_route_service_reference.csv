@@ -1,0 +1,181 @@
+route_profile_id,request_source,activity_level,origin_area,destination_area,service_description
+weather_route_001,taxi_stand,high activity,Boavista,Campanha,Passenger boards at or requests service from a taxi stand
+weather_route_002,taxi_stand,high activity,Paranhos,Ribeira,Passenger boards at or requests service from a taxi stand
+weather_route_003,taxi_stand,high activity,Ribeira,Paranhos,Passenger boards at or requests service from a taxi stand
+weather_route_004,taxi_stand,high activity,Bonfim,Foz do Douro,Passenger boards at or requests service from a taxi stand
+weather_route_005,taxi_stand,high activity,Vila Nova de Gaia,Cedofeita,Passenger boards at or requests service from a taxi stand
+weather_route_006,taxi_stand,high activity,Foz do Douro,Bonfim,Passenger boards at or requests service from a taxi stand
+weather_route_007,taxi_stand,high activity,Matosinhos Sul,Cedofeita,Passenger boards at or requests service from a taxi stand
+weather_route_008,taxi_stand,high activity,Cedofeita,Vila Nova de Gaia,Passenger boards at or requests service from a taxi stand
+weather_route_009,taxi_stand,high activity,Campanha,Boavista,Passenger boards at or requests service from a taxi stand
+weather_route_010,taxi_stand,high activity,Boavista,Campanha,Passenger boards at or requests service from a taxi stand
+weather_route_011,taxi_stand,high activity,Paranhos,Ribeira,Passenger boards at or requests service from a taxi stand
+weather_route_012,taxi_stand,high activity,Ribeira,Paranhos,Passenger boards at or requests service from a taxi stand
+weather_route_013,taxi_stand,high activity,Bonfim,Foz do Douro,Passenger boards at or requests service from a taxi stand
+weather_route_014,taxi_stand,high activity,Vila Nova de Gaia,Cedofeita,Passenger boards at or requests service from a taxi stand
+weather_route_015,taxi_stand,high activity,Foz do Douro,Bonfim,Passenger boards at or requests service from a taxi stand
+weather_route_016,taxi_stand,moderate activity,Foz do Douro,Bonfim,Passenger boards at or requests service from a taxi stand
+weather_route_017,taxi_stand,moderate activity,Matosinhos Sul,Cedofeita,Passenger boards at or requests service from a taxi stand
+weather_route_018,taxi_stand,moderate activity,Cedofeita,Vila Nova de Gaia,Passenger boards at or requests service from a taxi stand
+weather_route_019,taxi_stand,moderate activity,Campanha,Boavista,Passenger boards at or requests service from a taxi stand
+weather_route_020,taxi_stand,moderate activity,Boavista,Campanha,Passenger boards at or requests service from a taxi stand
+weather_route_021,taxi_stand,moderate activity,Paranhos,Ribeira,Passenger boards at or requests service from a taxi stand
+weather_route_022,taxi_stand,moderate activity,Ribeira,Paranhos,Passenger boards at or requests service from a taxi stand
+weather_route_023,taxi_stand,moderate activity,Bonfim,Foz do Douro,Passenger boards at or requests service from a taxi stand
+weather_route_024,taxi_stand,moderate activity,Vila Nova de Gaia,Cedofeita,Passenger boards at or requests service from a taxi stand
+weather_route_025,taxi_stand,moderate activity,Foz do Douro,Bonfim,Passenger boards at or requests service from a taxi stand
+weather_route_026,taxi_stand,moderate activity,Matosinhos Sul,Cedofeita,Passenger boards at or requests service from a taxi stand
+weather_route_027,taxi_stand,moderate activity,Cedofeita,Vila Nova de Gaia,Passenger boards at or requests service from a taxi stand
+weather_route_028,taxi_stand,moderate activity,Campanha,Boavista,Passenger boards at or requests service from a taxi stand
+weather_route_029,taxi_stand,moderate activity,Boavista,Campanha,Passenger boards at or requests service from a taxi stand
+weather_route_030,taxi_stand,moderate activity,Paranhos,Ribeira,Passenger boards at or requests service from a taxi stand
+weather_route_031,taxi_stand,high activity,Paranhos,Ribeira,Passenger boards at or requests service from a taxi stand
+weather_route_032,taxi_stand,high activity,Ribeira,Paranhos,Passenger boards at or requests service from a taxi stand
+weather_route_033,taxi_stand,high activity,Bonfim,Foz do Douro,Passenger boards at or requests service from a taxi stand
+weather_route_034,taxi_stand,high activity,Vila Nova de Gaia,Cedofeita,Passenger boards at or requests service from a taxi stand
+weather_route_035,taxi_stand,high activity,Foz do Douro,Bonfim,Passenger boards at or requests service from a taxi stand
+weather_route_036,taxi_stand,high activity,Matosinhos Sul,Cedofeita,Passenger boards at or requests service from a taxi stand
+weather_route_037,taxi_stand,high activity,Cedofeita,Vila Nova de Gaia,Passenger boards at or requests service from a taxi stand
+weather_route_038,taxi_stand,high activity,Campanha,Boavista,Passenger boards at or requests service from a taxi stand
+weather_route_039,taxi_stand,high activity,Boavista,Campanha,Passenger boards at or requests service from a taxi stand
+weather_route_040,taxi_stand,high activity,Paranhos,Ribeira,Passenger boards at or requests service from a taxi stand
+weather_route_041,taxi_stand,high activity,Ribeira,Paranhos,Passenger boards at or requests service from a taxi stand
+weather_route_042,taxi_stand,high activity,Bonfim,Foz do Douro,Passenger boards at or requests service from a taxi stand
+weather_route_043,taxi_stand,high activity,Vila Nova de Gaia,Cedofeita,Passenger boards at or requests service from a taxi stand
+weather_route_044,taxi_stand,high activity,Foz do Douro,Bonfim,Passenger boards at or requests service from a taxi stand
+weather_route_045,taxi_stand,high activity,Matosinhos Sul,Cedofeita,Passenger boards at or requests service from a taxi stand
+weather_route_046,taxi_stand,low activity,Matosinhos Sul,Cedofeita,Passenger boards at or requests service from a taxi stand
+weather_route_047,taxi_stand,low activity,Cedofeita,Vila Nova de Gaia,Passenger boards at or requests service from a taxi stand
+weather_route_048,taxi_stand,low activity,Campanha,Boavista,Passenger boards at or requests service from a taxi stand
+weather_route_049,taxi_stand,low activity,Boavista,Campanha,Passenger boards at or requests service from a taxi stand
+weather_route_050,taxi_stand,low activity,Paranhos,Ribeira,Passenger boards at or requests service from a taxi stand
+weather_route_051,taxi_stand,low activity,Ribeira,Paranhos,Passenger boards at or requests service from a taxi stand
+weather_route_052,taxi_stand,low activity,Bonfim,Foz do Douro,Passenger boards at or requests service from a taxi stand
+weather_route_053,taxi_stand,low activity,Vila Nova de Gaia,Cedofeita,Passenger boards at or requests service from a taxi stand
+weather_route_054,taxi_stand,low activity,Foz do Douro,Bonfim,Passenger boards at or requests service from a taxi stand
+weather_route_055,taxi_stand,low activity,Matosinhos Sul,Cedofeita,Passenger boards at or requests service from a taxi stand
+weather_route_056,taxi_stand,low activity,Cedofeita,Vila Nova de Gaia,Passenger boards at or requests service from a taxi stand
+weather_route_057,taxi_stand,low activity,Campanha,Boavista,Passenger boards at or requests service from a taxi stand
+weather_route_058,taxi_stand,low activity,Boavista,Campanha,Passenger boards at or requests service from a taxi stand
+weather_route_059,taxi_stand,low activity,Paranhos,Ribeira,Passenger boards at or requests service from a taxi stand
+weather_route_060,taxi_stand,low activity,Ribeira,Paranhos,Passenger boards at or requests service from a taxi stand
+weather_route_061,call_center,high activity,Foz do Douro,Bonfim,Trip is assigned through the dispatch call center
+weather_route_062,call_center,high activity,Matosinhos Sul,Cedofeita,Trip is assigned through the dispatch call center
+weather_route_063,call_center,high activity,Cedofeita,Vila Nova de Gaia,Trip is assigned through the dispatch call center
+weather_route_064,call_center,high activity,Campanha,Boavista,Trip is assigned through the dispatch call center
+weather_route_065,call_center,high activity,Boavista,Campanha,Trip is assigned through the dispatch call center
+weather_route_066,call_center,high activity,Paranhos,Ribeira,Trip is assigned through the dispatch call center
+weather_route_067,call_center,high activity,Ribeira,Paranhos,Trip is assigned through the dispatch call center
+weather_route_068,call_center,high activity,Bonfim,Foz do Douro,Trip is assigned through the dispatch call center
+weather_route_069,call_center,high activity,Vila Nova de Gaia,Cedofeita,Trip is assigned through the dispatch call center
+weather_route_070,call_center,high activity,Foz do Douro,Bonfim,Trip is assigned through the dispatch call center
+weather_route_071,call_center,high activity,Matosinhos Sul,Cedofeita,Trip is assigned through the dispatch call center
+weather_route_072,call_center,high activity,Cedofeita,Vila Nova de Gaia,Trip is assigned through the dispatch call center
+weather_route_073,call_center,high activity,Campanha,Boavista,Trip is assigned through the dispatch call center
+weather_route_074,call_center,high activity,Boavista,Campanha,Trip is assigned through the dispatch call center
+weather_route_075,call_center,high activity,Paranhos,Ribeira,Trip is assigned through the dispatch call center
+weather_route_076,call_center,moderate activity,Paranhos,Ribeira,Trip is assigned through the dispatch call center
+weather_route_077,call_center,moderate activity,Ribeira,Paranhos,Trip is assigned through the dispatch call center
+weather_route_078,call_center,moderate activity,Bonfim,Foz do Douro,Trip is assigned through the dispatch call center
+weather_route_079,call_center,moderate activity,Vila Nova de Gaia,Cedofeita,Trip is assigned through the dispatch call center
+weather_route_080,call_center,moderate activity,Foz do Douro,Bonfim,Trip is assigned through the dispatch call center
+weather_route_081,call_center,moderate activity,Matosinhos Sul,Cedofeita,Trip is assigned through the dispatch call center
+weather_route_082,call_center,moderate activity,Cedofeita,Vila Nova de Gaia,Trip is assigned through the dispatch call center
+weather_route_083,call_center,moderate activity,Campanha,Boavista,Trip is assigned through the dispatch call center
+weather_route_084,call_center,moderate activity,Boavista,Campanha,Trip is assigned through the dispatch call center
+weather_route_085,call_center,moderate activity,Paranhos,Ribeira,Trip is assigned through the dispatch call center
+weather_route_086,call_center,moderate activity,Ribeira,Paranhos,Trip is assigned through the dispatch call center
+weather_route_087,call_center,moderate activity,Bonfim,Foz do Douro,Trip is assigned through the dispatch call center
+weather_route_088,call_center,moderate activity,Vila Nova de Gaia,Cedofeita,Trip is assigned through the dispatch call center
+weather_route_089,call_center,moderate activity,Foz do Douro,Bonfim,Trip is assigned through the dispatch call center
+weather_route_090,call_center,moderate activity,Matosinhos Sul,Cedofeita,Trip is assigned through the dispatch call center
+weather_route_091,call_center,high activity,Matosinhos Sul,Cedofeita,Trip is assigned through the dispatch call center
+weather_route_092,call_center,high activity,Cedofeita,Vila Nova de Gaia,Trip is assigned through the dispatch call center
+weather_route_093,call_center,high activity,Campanha,Boavista,Trip is assigned through the dispatch call center
+weather_route_094,call_center,high activity,Boavista,Campanha,Trip is assigned through the dispatch call center
+weather_route_095,call_center,high activity,Paranhos,Ribeira,Trip is assigned through the dispatch call center
+weather_route_096,call_center,high activity,Ribeira,Paranhos,Trip is assigned through the dispatch call center
+weather_route_097,call_center,high activity,Bonfim,Foz do Douro,Trip is assigned through the dispatch call center
+weather_route_098,call_center,high activity,Vila Nova de Gaia,Cedofeita,Trip is assigned through the dispatch call center
+weather_route_099,call_center,high activity,Foz do Douro,Bonfim,Trip is assigned through the dispatch call center
+weather_route_100,call_center,high activity,Matosinhos Sul,Cedofeita,Trip is assigned through the dispatch call center
+weather_route_101,call_center,high activity,Cedofeita,Vila Nova de Gaia,Trip is assigned through the dispatch call center
+weather_route_102,call_center,high activity,Campanha,Boavista,Trip is assigned through the dispatch call center
+weather_route_103,call_center,high activity,Boavista,Campanha,Trip is assigned through the dispatch call center
+weather_route_104,call_center,high activity,Paranhos,Ribeira,Trip is assigned through the dispatch call center
+weather_route_105,call_center,high activity,Ribeira,Paranhos,Trip is assigned through the dispatch call center
+weather_route_106,call_center,low activity,Ribeira,Paranhos,Trip is assigned through the dispatch call center
+weather_route_107,call_center,low activity,Bonfim,Foz do Douro,Trip is assigned through the dispatch call center
+weather_route_108,call_center,low activity,Vila Nova de Gaia,Cedofeita,Trip is assigned through the dispatch call center
+weather_route_109,call_center,low activity,Foz do Douro,Bonfim,Trip is assigned through the dispatch call center
+weather_route_110,call_center,low activity,Matosinhos Sul,Cedofeita,Trip is assigned through the dispatch call center
+weather_route_111,call_center,low activity,Cedofeita,Vila Nova de Gaia,Trip is assigned through the dispatch call center
+weather_route_112,call_center,low activity,Campanha,Boavista,Trip is assigned through the dispatch call center
+weather_route_113,call_center,low activity,Boavista,Campanha,Trip is assigned through the dispatch call center
+weather_route_114,call_center,low activity,Paranhos,Ribeira,Trip is assigned through the dispatch call center
+weather_route_115,call_center,low activity,Ribeira,Paranhos,Trip is assigned through the dispatch call center
+weather_route_116,call_center,low activity,Bonfim,Foz do Douro,Trip is assigned through the dispatch call center
+weather_route_117,call_center,low activity,Vila Nova de Gaia,Cedofeita,Trip is assigned through the dispatch call center
+weather_route_118,call_center,low activity,Foz do Douro,Bonfim,Trip is assigned through the dispatch call center
+weather_route_119,call_center,low activity,Matosinhos Sul,Cedofeita,Trip is assigned through the dispatch call center
+weather_route_120,call_center,low activity,Cedofeita,Vila Nova de Gaia,Trip is assigned through the dispatch call center
+weather_route_121,street_hail,high activity,Paranhos,Ribeira,Passenger hails the taxi on the street
+weather_route_122,street_hail,high activity,Ribeira,Paranhos,Passenger hails the taxi on the street
+weather_route_123,street_hail,high activity,Bonfim,Foz do Douro,Passenger hails the taxi on the street
+weather_route_124,street_hail,high activity,Vila Nova de Gaia,Cedofeita,Passenger hails the taxi on the street
+weather_route_125,street_hail,high activity,Foz do Douro,Bonfim,Passenger hails the taxi on the street
+weather_route_126,street_hail,high activity,Matosinhos Sul,Cedofeita,Passenger hails the taxi on the street
+weather_route_127,street_hail,high activity,Cedofeita,Vila Nova de Gaia,Passenger hails the taxi on the street
+weather_route_128,street_hail,high activity,Campanha,Boavista,Passenger hails the taxi on the street
+weather_route_129,street_hail,high activity,Boavista,Campanha,Passenger hails the taxi on the street
+weather_route_130,street_hail,high activity,Paranhos,Ribeira,Passenger hails the taxi on the street
+weather_route_131,street_hail,high activity,Ribeira,Paranhos,Passenger hails the taxi on the street
+weather_route_132,street_hail,high activity,Bonfim,Foz do Douro,Passenger hails the taxi on the street
+weather_route_133,street_hail,high activity,Vila Nova de Gaia,Cedofeita,Passenger hails the taxi on the street
+weather_route_134,street_hail,high activity,Foz do Douro,Bonfim,Passenger hails the taxi on the street
+weather_route_135,street_hail,high activity,Matosinhos Sul,Cedofeita,Passenger hails the taxi on the street
+weather_route_136,street_hail,moderate activity,Matosinhos Sul,Cedofeita,Passenger hails the taxi on the street
+weather_route_137,street_hail,moderate activity,Cedofeita,Vila Nova de Gaia,Passenger hails the taxi on the street
+weather_route_138,street_hail,moderate activity,Campanha,Boavista,Passenger hails the taxi on the street
+weather_route_139,street_hail,moderate activity,Boavista,Campanha,Passenger hails the taxi on the street
+weather_route_140,street_hail,moderate activity,Paranhos,Ribeira,Passenger hails the taxi on the street
+weather_route_141,street_hail,moderate activity,Ribeira,Paranhos,Passenger hails the taxi on the street
+weather_route_142,street_hail,moderate activity,Bonfim,Foz do Douro,Passenger hails the taxi on the street
+weather_route_143,street_hail,moderate activity,Vila Nova de Gaia,Cedofeita,Passenger hails the taxi on the street
+weather_route_144,street_hail,moderate activity,Foz do Douro,Bonfim,Passenger hails the taxi on the street
+weather_route_145,street_hail,moderate activity,Matosinhos Sul,Cedofeita,Passenger hails the taxi on the street
+weather_route_146,street_hail,moderate activity,Cedofeita,Vila Nova de Gaia,Passenger hails the taxi on the street
+weather_route_147,street_hail,moderate activity,Campanha,Boavista,Passenger hails the taxi on the street
+weather_route_148,street_hail,moderate activity,Boavista,Campanha,Passenger hails the taxi on the street
+weather_route_149,street_hail,moderate activity,Paranhos,Ribeira,Passenger hails the taxi on the street
+weather_route_150,street_hail,moderate activity,Ribeira,Paranhos,Passenger hails the taxi on the street
+weather_route_151,street_hail,high activity,Ribeira,Paranhos,Passenger hails the taxi on the street
+weather_route_152,street_hail,high activity,Bonfim,Foz do Douro,Passenger hails the taxi on the street
+weather_route_153,street_hail,high activity,Vila Nova de Gaia,Cedofeita,Passenger hails the taxi on the street
+weather_route_154,street_hail,high activity,Foz do Douro,Bonfim,Passenger hails the taxi on the street
+weather_route_155,street_hail,high activity,Matosinhos Sul,Cedofeita,Passenger hails the taxi on the street
+weather_route_156,street_hail,high activity,Cedofeita,Vila Nova de Gaia,Passenger hails the taxi on the street
+weather_route_157,street_hail,high activity,Campanha,Boavista,Passenger hails the taxi on the street
+weather_route_158,street_hail,high activity,Boavista,Campanha,Passenger hails the taxi on the street
+weather_route_159,street_hail,high activity,Paranhos,Ribeira,Passenger hails the taxi on the street
+weather_route_160,street_hail,high activity,Ribeira,Paranhos,Passenger hails the taxi on the street
+weather_route_161,street_hail,high activity,Bonfim,Foz do Douro,Passenger hails the taxi on the street
+weather_route_162,street_hail,high activity,Vila Nova de Gaia,Cedofeita,Passenger hails the taxi on the street
+weather_route_163,street_hail,high activity,Foz do Douro,Bonfim,Passenger hails the taxi on the street
+weather_route_164,street_hail,high activity,Matosinhos Sul,Cedofeita,Passenger hails the taxi on the street
+weather_route_165,street_hail,high activity,Cedofeita,Vila Nova de Gaia,Passenger hails the taxi on the street
+weather_route_166,street_hail,low activity,Cedofeita,Vila Nova de Gaia,Passenger hails the taxi on the street
+weather_route_167,street_hail,low activity,Campanha,Boavista,Passenger hails the taxi on the street
+weather_route_168,street_hail,low activity,Boavista,Campanha,Passenger hails the taxi on the street
+weather_route_169,street_hail,low activity,Paranhos,Ribeira,Passenger hails the taxi on the street
+weather_route_170,street_hail,low activity,Ribeira,Paranhos,Passenger hails the taxi on the street
+weather_route_171,street_hail,low activity,Bonfim,Foz do Douro,Passenger hails the taxi on the street
+weather_route_172,street_hail,low activity,Vila Nova de Gaia,Cedofeita,Passenger hails the taxi on the street
+weather_route_173,street_hail,low activity,Foz do Douro,Bonfim,Passenger hails the taxi on the street
+weather_route_174,street_hail,low activity,Matosinhos Sul,Cedofeita,Passenger hails the taxi on the street
+weather_route_175,street_hail,low activity,Cedofeita,Vila Nova de Gaia,Passenger hails the taxi on the street
+weather_route_176,street_hail,low activity,Campanha,Boavista,Passenger hails the taxi on the street
+weather_route_177,street_hail,low activity,Boavista,Campanha,Passenger hails the taxi on the street
+weather_route_178,street_hail,low activity,Paranhos,Ribeira,Passenger hails the taxi on the street
+weather_route_179,street_hail,low activity,Ribeira,Paranhos,Passenger hails the taxi on the street
+weather_route_180,street_hail,low activity,Bonfim,Foz do Douro,Passenger hails the taxi on the street

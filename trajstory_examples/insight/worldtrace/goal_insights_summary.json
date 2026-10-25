@@ -1,0 +1,520 @@
+{
+  "schema_version": "1.0",
+  "dataset_family": "worldtrace",
+  "case_count": 25,
+  "insight_count": 84,
+  "cases": [
+    {
+      "case_id": "worldtrace_01_main_patterns_and_exceptions",
+      "goal": "Examine the provided NYC trajectory records and explain the main regularities and deviations in the observed mobility behavior.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Car trips have a higher median observed speed than walking trips, while walking trips have a higher median route-indirectness score in the selected records."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "A small number of trajectories deviate from the usual speed and distance patterns of the collection."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "Some trajectories that deviate from the normal speed and distance ranges contain isolated GPS points that drift outside their main trajectory paths, possibly because of positioning errors."
+        }
+      ],
+      "summary": "The records show a clear mode-associated difference in both speed and route indirectness, together with a small number of trajectories that deviate from the usual speed and distance patterns. The revised drift view compares observed GPS positions with WorldTrace per-point matching references and shows where the point-to-reference offsets become unusually large; the reference markers are not a connected road map."
+    },
+    {
+      "case_id": "worldtrace_02_user_consistency_and_variation",
+      "goal": "Analyze the provided trajectory histories to compare observed mode composition, repeated spatial use, and driving-speed behaviour across three users.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Within the provided histories, user_01 and user_02 prefer driving rather than walking, while user_03 has no obvious preference because the observed car and walking counts are balanced."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Across all provided driving trajectories, the three users pass through the same South Brooklyn area and their paths overlap along the same road corridor; the walking paths are shown separately rather than being used to support the driving-road claim."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "The three users show clearly different driving-speed behaviour: user_01 drives faster and with larger within-trip speed variation, whereas user_02 and user_03 drive at lower, comparatively stable speeds."
+        }
+      ],
+      "summary": "Within the provided histories, user_01 and user_02 prefer driving rather than walking while user_03 has no obvious preference. Across all provided driving trajectories, the three users pass through the same local South Brooklyn area and shared road corridor. Their driving speeds separate into a higher, more variable profile for user_01 versus stable lower-speed profiles for user_02 and user_03."
+    },
+    {
+      "case_id": "worldtrace_03_unusual_trajectories",
+      "goal": "Investigate the most unusual trajectories in the provided NYC data and explain how they differ from the dominant patterns in the collection.",
+      "insights": [
+        {
+          "insight_type": "exception_deviation",
+          "insight": "wt03_trajectory_22 and wt03_trajectory_23 differ from the typical patterns: their average speeds are much higher, while wt03_trajectory_24 differs from the others because the traveled distance is the longest and much longer than the others."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "wt03_trajectory_22 and wt03_trajectory_23 have average speeds over 80 km/h, start from the same broad South Brooklyn area, and end in the same broad South Brooklyn destination area, but their observed road-following trajectories are very different.",
+          "evidence": "Both average and point-wise speed derive from GPS and timestamps. point_index only orders rows; region labels do not add native inputs."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "wt03_trajectory_24 avoids the NYC urban core for most of its route, which leads to its longest traveled distance while its start and end remain in the city."
+        }
+      ],
+      "summary": "wt03_trajectory_22 and wt03_trajectory_23 differ from the typical patterns: their average speeds are much higher, while wt03_trajectory_24 differs from the others because the traveled distance is the longest and much longer than the others. wt03_trajectory_22 and wt03_trajectory_23 have average speeds over 80 km/h, start from the same broad South Brooklyn area, and end in the same broad South Brooklyn destination area, but their observed road-following trajectories are very different. wt03_trajectory_24 avoids the NYC urban core for most of its route, which leads to its longest traveled distance while its start and end remain in the city."
+    },
+    {
+      "case_id": "worldtrace_04_geographic_group_differences",
+      "goal": "Identify movement groups among the provided trajectories based on their regions and analyze the resulting groups.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "The provided trajectories form four equally sized start-region groups: Brooklyn, Manhattan, NJ side, and Queens each contribute 12 trajectories."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "The geographic groups differ in their observed distance and route-indirectness summaries: NJ side and Queens have the largest median distances; NJ side has the highest median route-indirectness score; and Brooklyn has both the lowest average distance and the most direct routes."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "In the Brooklyn group, most trajectories are walking trips, making it the only walking-dominant group; its average trajectory distance is also much shorter than that of the other groups."
+        }
+      ],
+      "summary": "The provided trajectories form four equally sized regional groups. NJ side and Queens have the largest median distances, NJ side has the highest median route indirectness, and Brooklyn combines the shortest average distance with the most direct routes. Brooklyn is also the only walking-dominant group, so movement mode remains part of the regional comparison."
+    },
+    {
+      "case_id": "worldtrace_05_context_conditioned_patterns",
+      "goal": "Analyze the provided trajectories within a common area and identify how their movement characteristics vary across time periods.",
+      "insights": [
+        {
+          "insight_type": "factor_relationship",
+          "insight": "On cold days, more vehicle trajectories pass through the South Brooklyn area during daytime hours than during non-daytime hours."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Afternoon trajectories usually have higher route-indirectness scores than trajectories in the other time periods."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Trajectories in the morning and around midnight have much higher average speeds than trajectories in the other time periods."
+        }
+      ],
+      "summary": "Across 64 vehicle trajectories in the same South Brooklyn area over four consecutive days, cold-day vehicle trajectories are more numerous during daytime hours, afternoon trajectories have the highest route-indirectness scores, and morning and midnight trajectories have the highest average speeds."
+    },
+    {
+      "case_id": "worldtrace_06_user_normal_pattern_and_anomaly",
+      "goal": "Analyze the provided user's normal movement pattern and identify anomalous trajectories.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "The user repeatedly travels between Area A and Area B: 36 of 40 trajectories, or 90%, belong to this bidirectional corridor, with 18 trips in each direction."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "When driving between Area A and Area B, the user takes multiple route corridors, and traveled distances vary widely across these trips."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Outside the main Area A–Area B corridor, the remaining four trajectories are evenly distributed across four regions, with one trajectory in each region."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "The user's driving speeds are tightly clustered within a narrow range across both the main corridor and the other regional trips, including the less urban regional routes."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "Exactly one trajectory is a route-shape anomaly: it forms a loop and starts and ends at the same geographic point, unlike the other trajectories."
+        }
+      ],
+      "summary": "The user exhibits a strong bidirectional Area A–Area B corridor pattern: 36 of 40 trajectories belong to it, although the trips use multiple route corridors and have a wide distance range. The four remaining trajectories are evenly distributed across four regions. Driving speeds stay tightly clustered across both the main corridor and the other regional trips. One trajectory is a unique geometric exception because it forms a closed loop and returns to its starting point."
+    },
+    {
+      "case_id": "worldtrace_07_weather_conditioned_user_behavior",
+      "goal": "Investigate how weather conditions are associated with changes in the user's usual travel behavior.",
+      "insights": [
+        {
+          "insight_type": "factor_relationship",
+          "insight": "In the observed records, rainy and snowy conditions coincide with lower average speeds and smaller mean yaw changes than dry conditions."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "On cold rainy days, the user's trajectories are shorter on average than on dry days with normal temperatures."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "During cold rainy conditions, car trajectories outnumber walking trajectories. Several very short car trajectories lower the average distance, although a few car trajectories remain long."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "On very hot days above 35°C, the user generates only a few trajectories across both car and walking modes."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "The few car trajectories recorded above 35°C are more direct, with lower route-indirectness scores than the user's normal car trajectories."
+        }
+      ],
+      "summary": "The user's observed travel behavior varies across weather conditions: rainy and snowy records have lower speeds and smaller yaw changes, cold rainy trips are shorter and dominated by car travel, very hot days contain few trajectories in either mode, and the few hot-weather car trips are more direct than normal car trips."
+    },
+    {
+      "case_id": "worldtrace_08_repeated_route_choice_tradeoffs",
+      "goal": "Analyze how the traveler selects routes across repeated trips and identify the trade-offs that appear to shape their route choices.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Although Route A is not always the fastest option, the traveler repeatedly chooses it across similar trips, and its travel time varies substantially less than the alternatives."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "Most trips follow the same familiar corridor, but this journey switches to a different route midway and reconnects with the habitual route near the destination."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "The selected route is longer than the shorter alternative, but it maintains higher and more stable speeds for most of the trip, resulting in a comparable overall travel time."
+        }
+      ],
+      "summary": "Across similar trips, Route A is the most frequent and most predictable choice even though alternatives can be faster. One trip temporarily leaves the habitual corridor, and the detailed comparison shows how a longer but faster and steadier route can match the travel time of a shorter alternative."
+    },
+    {
+      "case_id": "worldtrace_09_trip_movement_changes",
+      "goal": "Identify the major changes in movement behavior during the trip and detect abnormal movement segments.",
+      "insights": [
+        {
+          "insight_type": "factor_relationship",
+          "insight": "The strongest speed reductions consistently occur around the sharpest bends in the route, while movement remains relatively stable along straight road sections."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The trip remains direct for most of the journey but becomes slow and locally circuitous near the destination, where repeated turns account for most of the excess travel distance."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "A prolonged low-speed segment appears in the middle of the trip despite relatively smooth movement before and after it, making this section the primary disruption to an otherwise stable journey."
+        }
+      ],
+      "summary": "The journey is mostly stable and direct, but three movement changes stand out: brief speed reductions at sharp bends, a prolonged low-speed disruption in the middle, and a slow, repeatedly turning destination phase where most excess distance accumulates."
+    },
+    {
+      "case_id": "worldtrace_10_multi_user_commuting_route_convergence",
+      "goal": "Summarize the commuting driving behavior of users from the supplied repeated travel trajectories.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Although users repeatedly commute between Northgate Residential District and Harbor Business District in both directions, most retain one fixed route; only 25% ever switch between corridors for the same origin–destination pair."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Despite user-level route variation, a clear main corridor is used by most trips, and the full time intervals spent on it consistently remain within the 07:00–10:00 morning and 16:00–18:00 afternoon commuting periods."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Among the 25% of users who try alternatives, alternative-route use declines over repeated commutes; after the fifth commute, all of them use the main commuting corridor."
+        }
+      ],
+      "summary": "Most users repeatedly drive the same corridor between the two commuting districts, while only three users initially explore alternatives. The main corridor dominates the supplied trips, with each complete traversal remaining in the morning or afternoon commuting windows. The users who explored alternatives converge to the main corridor after several repeated commutes."
+    },
+    {
+      "case_id": "worldtrace_11_new_location_mobility_patterns",
+      "goal": "Analyze patterns of exploration and return visits across the supplied user histories.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Most observed visits return to previously visited areas, while only a smaller share expands the user's visited-location set."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Exploration becomes progressively less frequent as the number of previously visited locations increases."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Return visits are concentrated disproportionately on locations that have already been visited frequently."
+        }
+      ],
+      "summary": "Most observed visits return to previously visited areas, while only a smaller share expands the user's visited-location set. Exploration becomes progressively less frequent as the number of previously visited locations increases. Return visits are concentrated disproportionately on locations that have already been visited frequently."
+    },
+    {
+      "case_id": "worldtrace_12_new_location_visit_regularities",
+      "goal": "Analyze location-visiting patterns and driving behavior across first and repeated visits.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Although new-area visits account for only a small portion of the trajectory history, they are not evenly distributed over time."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Most new-area visits occur in several short sequences of consecutive explorations, separated by substantially longer periods dominated by returns to familiar areas."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "The more times the user visit the same location, the more likely the user drive faster to that location."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "The more times the user visit the same location, the more likely the user drive with smaller route directness rate to that location."
+        }
+      ],
+      "summary": "Although new-area visits account for only a small portion of the trajectory history, they are not evenly distributed over time. Most new-area visits occur in several short sequences of consecutive explorations, separated by substantially longer periods dominated by returns to familiar areas. The more times the user visit the same location, the more likely the user drive faster to that location. The more times the user visit the same location, the more likely the user drive with smaller route directness rate to that location."
+    },
+    {
+      "case_id": "worldtrace_13_individual_route_regularity_and_heat_exception",
+      "goal": "Analyze the route regularity in individual mobility among users and find possible abnormal patterns.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "These users repeatedly follow a small number of highly similar route geometries across their travel histories."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "These repeated routes are not necessarily associated with regular departure times, and the intervals between successive trips can vary substantially."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "The driving speed patterns of different users on this highly similar route are similar."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "A user change his routes during temperature over 30 degrees."
+        }
+      ],
+      "summary": "These users repeatedly follow a small number of highly similar route geometries across their travel histories. These repeated routes are not necessarily associated with regular departure times, and the intervals between successive trips can vary substantially. The driving speed patterns of different users on this highly similar route are similar. A user change his routes during temperature over 30 degrees."
+    },
+    {
+      "case_id": "worldtrace_14_direction_time_mode_concentration",
+      "goal": "Identify the directional, temporal, and mode patterns in the user's trajectories.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "The user's trajectories are strongly concentrated along a limited set of movement directions rather than being distributed uniformly around the activity space."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The concentrated movement directions are not dominant in evening times across different days."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "The user shows preference of driving rather than walking or cycling for the concentrated movement directions while other routes are used less frequently, and a higher mean speed can be observed in the concentrated route."
+        }
+      ],
+      "summary": "The user's trajectories are strongly concentrated along a limited set of movement directions rather than being distributed uniformly around the activity space. The concentrated movement directions are not dominant in evening times across different days. The user shows preference of driving rather than walking or cycling for the concentrated movement directions while other routes are used less frequently, and a higher mean speed can be observed in the concentrated route."
+    },
+    {
+      "case_id": "worldtrace_15_vehicle_type_trajectory_variations",
+      "goal": "Analyze vehicle use and associated trajectory characteristics across the supplied travel history.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Large-vehicle trips tend to follow longer trajectories with higher route directness, while smaller vehicles use a wider variety of shorter and more turning-intensive routes."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Large vehicles maintain more stable speeds along their trajectories, whereas smaller vehicles show greater within-trip speed variation, particularly on routes with frequent directional changes."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "GPS positions from large-vehicle trips are more consistently aligned with matched roads, while some small-vehicle trajectories contain larger point-to-road offsets in locally complex route segments."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Higher temperature is associated with more frequent use of smaller vehicles, while lower temperature is associated with more frequent use of larger vehicles."
+        }
+      ],
+      "summary": "Large-vehicle trips tend to follow longer trajectories with higher route directness, while smaller vehicles use a wider variety of shorter and more turning-intensive routes. Large vehicles maintain more stable speeds along their trajectories, whereas smaller vehicles show greater within-trip speed variation, particularly on routes with frequent directional changes. GPS positions from large-vehicle trips are more consistently aligned with matched roads, while some small-vehicle trajectories contain larger point-to-road offsets in locally complex route segments. Higher temperature is associated with more frequent use of smaller vehicles, while lower temperature is associated with more frequent use of larger vehicles."
+    },
+    {
+      "case_id": "worldtrace_16_weather_and_mode_mobility_patterns",
+      "goal": "Identify the mobility patterns across weather and travel-mode conditions based on the given trajectories.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Under rainy or cold conditions, car trips account for a larger share of the observed trajectories."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Walking trajectories recorded under mild weather and temperature conditions cover longer distances and show greater spatial extent, whereas walking during adverse weather remains more spatially compact and slower."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Among car trips, adverse-weather trajectories show lower speeds and greater point-to-road offsets for GPS data in highly turning sections, while dry-weather trajectories maintain more stable speeds and closer road alignment"
+        }
+      ],
+      "summary": "Under rainy or cold conditions, car trips account for a larger share of the observed trajectories. Walking trajectories recorded under mild weather and temperature conditions cover longer distances and show greater spatial extent, whereas walking during adverse weather remains more spatially compact and slower. Among car trips, adverse-weather trajectories show lower speeds and greater point-to-road offsets for GPS data in highly turning sections, while dry-weather trajectories maintain more stable speeds and closer road alignment"
+    },
+    {
+      "case_id": "worldtrace_17_environmental_condition_travel_behavior",
+      "goal": "Investigate changes in travel behavior and movement conditions under varying environmental conditions.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Rainy trajectories exhibit lower average speeds than dry-weather trajectories, but the reduction is substantially stronger for longer car trips than for short car trips."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "During adverse weather, trajectories with frequent turns experience larger local speed reductions compared to trajectories in mild weather conditions."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Although car travel becomes more dominant during poor weather, the car trajectories in such cases are concentrated in relatively shorter-distance movements and do not increase the overall spatial extent of mobility."
+        }
+      ],
+      "summary": "Rainy trajectories exhibit lower average speeds than dry-weather trajectories, but the reduction is substantially stronger for longer car trips than for short car trips. During adverse weather, trajectories with frequent turns experience larger local speed reductions compared to trajectories in mild weather conditions. Although car travel becomes more dominant during poor weather, the car trajectories in such cases are concentrated in relatively shorter-distance movements and do not increase the overall spatial extent of mobility."
+    },
+    {
+      "case_id": "worldtrace_18_movement_efficiency_and_stability",
+      "goal": "Investigate variations in movement efficiency and stability across different travel conditions.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Trips during peak periods show greater variation in travel time and speed than trips during off-peak periods."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Smaller cars maintain stabler trips but lower mean speed for same-distance trips compared to larger cars."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "Speed-stabler trajectories are not definitely smaller route directness ration, there are few have largest route directness ratio"
+        }
+      ],
+      "summary": "Trips during peak periods show greater variation in travel time and speed than trips during off-peak periods. Smaller cars maintain stabler trips but lower mean speed for same-distance trips compared to larger cars. Speed-stabler trajectories are not definitely smaller route directness ration, there are few have largest route directness ratio"
+    },
+    {
+      "case_id": "worldtrace_19_acceleration_braking_and_gps_exceptions",
+      "goal": "Investigate acceleration, braking behavior and special cases across the provided trajectories.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Braking events are spatially concentrated in several parts of the city."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Braking occurs more frequently during lower-speed periods than during sustained high-speed movement."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Most trajectories contain braking-acceleration events within short intervals, not only braking without acceleration."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "A few trajectories show extreme acceleration and braking within the same area, suggesting possible GPS positioning errors."
+        }
+      ],
+      "summary": "Braking events are spatially concentrated in several parts of the city. Braking occurs more frequently during lower-speed periods than during sustained high-speed movement. Most trajectories contain braking-acceleration events within short intervals, not only braking without acceleration. A few trajectories show extreme acceleration and braking within the same area, suggesting possible GPS positioning errors."
+    },
+    {
+      "case_id": "worldtrace_20_weekday_weekend_mode_patterns",
+      "goal": "Investigate travel patterns of the users between weekdays and weekend, considering travel modes.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Car trips dominate weekday travel, while walking accounts for a noticeably larger share of trips on weekends. "
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Weekday car trips are longer and occur within more concentrated time periods, whereas weekend car trips are shorter and distributed more broadly across the day."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Weekend walking trips cover a wider spatial range than weekday walking trips, despite maintaining similarly low travel speeds."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Cycling trajectories are occasional on both weekdays and weekends, always follow a loop route."
+        }
+      ],
+      "summary": "Car trips dominate weekday travel, while walking accounts for a noticeably larger share of trips on weekends.  Weekday car trips are longer and occur within more concentrated time periods, whereas weekend car trips are shorter and distributed more broadly across the day. Weekend walking trips cover a wider spatial range than weekday walking trips, despite maintaining similarly low travel speeds. Cycling trajectories are occasional on both weekdays and weekends, always follow a loop route."
+    },
+    {
+      "case_id": "worldtrace_22_weather_temperature_mode_spatial_patterns",
+      "goal": "Analyze how the user's mobility behavior varies across weather, temperature, and travel-mode conditions.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Despite changes in weather and temperature, most trajectories remain concentrated within a limited set of repeatedly visited areas, indicating a relatively stable spatial mobility pattern."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Adverse weather is associated with a shift toward car travel and more spatially compact non-car movement: walking and cycling become less common, and the observed non-car trips tend to cover shorter distances."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "A small number of walking or cycling trajectories during adverse weather extend substantially beyond the usual spatial range of non-car trips, standing out from the otherwise compact bad-weather mobility pattern."
+        }
+      ],
+      "summary": "Despite changes in weather and temperature, most trajectories remain concentrated within a limited set of repeatedly visited areas, indicating a relatively stable spatial mobility pattern. Adverse weather is associated with a shift toward car travel and more spatially compact non-car movement: walking and cycling become less common, and the observed non-car trips tend to cover shorter distances. A small number of walking or cycling trajectories during adverse weather extend substantially beyond the usual spatial range of non-car trips, standing out from the otherwise compact bad-weather mobility pattern."
+    },
+    {
+      "case_id": "worldtrace_23_vehicle_turning_positioning_quality",
+      "goal": "Investigate variations in movement characteristics and positioning quality across the provided vehicle trajectories.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Most vehicle trajectories maintain relatively stable movement and remain closely aligned with their matched-road references."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Turning-intensive routes tend to show less stable speeds and larger point-to-road offsets, especially for smaller vehicles."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "A few trajectories show extreme acceleration and braking with large point-to-road offsets on otherwise smooth routes."
+        }
+      ],
+      "summary": "Most vehicle trajectories maintain relatively stable movement and remain closely aligned with their matched-road references. Turning-intensive routes tend to show less stable speeds and larger point-to-road offsets, especially for smaller vehicles. A few trajectories show extreme acceleration and braking with large point-to-road offsets on otherwise smooth routes."
+    },
+    {
+      "case_id": "worldtrace_21_recurrent_corridor_directional_efficiency",
+      "goal": "Analyze the user's repeated travel patterns across the provided trajectories and identify regularities and variations in movement behavior.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Most repeated trips connect the same origin–destination pair in both directions, following recurrent direction-specific road-route families."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Within this recurrent corridor, travel direction is associated with movement efficiency: trips in one direction generally show lower mean speeds and higher route-indirectness scores than trips in the reverse direction."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "A small number of trips deviate from the dominant directional pattern, remaining unusually fast and direct in the direction that is otherwise characterized by slower and less direct travel."
+        }
+      ],
+      "summary": "Repeated trips largely share one bidirectional corridor. Regular A-to-B travel is slower and less direct than B-to-A travel, with three rare A-to-B trips forming fast and direct exceptions."
+    },
+    {
+      "case_id": "worldtrace_24_mode_distance_travel_efficiency",
+      "goal": "Analyze variations in travel efficiency across travel modes and trip distances.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Car trips generally take less time than cycling trips over similar travel distances."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "The travel-time difference between cycling and car trips increases with trip distance, but their overall route-directness ratios are similar and follow the same tendency as trip distance increases."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "A few short cycling trips have travel times comparable to similar car trips."
+        }
+      ],
+      "summary": "Car trips generally take less time than cycling trips over similar travel distances. The travel-time difference between cycling and car trips increases with trip distance, but their overall route-directness ratios are similar and follow the same tendency as trip distance increases. A few short cycling trips have travel times comparable to similar car trips."
+    },
+    {
+      "case_id": "worldtrace_25_daily_chain_mode_weather_structure",
+      "goal": "Analyze how the user's trips are organized across the day and identify variations in daily travel structure.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Most active days form multi-trip chains that eventually return near the day's starting area."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Public transport takes the largest share of trips on weekdays, especially for first and last segments of one day's multi-trip chain."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "Car trips are always accompanied by rain or hot weather and replace public transport trips on weekdays."
+        }
+      ],
+      "summary": "Most active days form multi-trip chains that eventually return near the day's starting area. Public transport takes the largest share of trips on weekdays, especially for first and last segments of one day's multi-trip chain. Car trips are always accompanied by rain or hot weather and replace public transport trips on weekdays."
+    }
+  ]
+}

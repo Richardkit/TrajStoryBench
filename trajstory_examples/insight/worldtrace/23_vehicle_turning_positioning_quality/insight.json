@@ -1,0 +1,104 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/worldtrace/23_vehicle_turning_positioning_quality/trajectories.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/worldtrace/23_vehicle_turning_positioning_quality/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/worldtrace/23_vehicle_turning_positioning_quality/trajectory_points.csv",
+      "role": "Timestamped raw and matched-road points"
+    }
+  ],
+  "metadata": {
+    "goal": "Investigate variations in movement characteristics and positioning quality across the provided vehicle trajectories.",
+    "role": "Mobility analyst",
+    "category": "23_vehicle_turning_positioning_quality",
+    "header": "23 Vehicle Turning Positioning Quality",
+    "dataset_description": "Independently constructed road-aligned WorldTrace case with 214 trajectories."
+  },
+  "insight_list": [
+    {
+      "data_type": "worldtrace_ex23_insight_1",
+      "insight": "Most vehicle trajectories maintain relatively stable movement and remain closely aligned with their matched-road references.",
+      "plot": {
+        "plot_type": "question_specific_summary",
+        "files": [
+          "visualizations/insight_1.png"
+        ],
+        "title": "Insight 1",
+        "description": "A question-specific visualization computed from the synchronized trajectory tables; the case-level overview map is retained separately and is not repeated here."
+      },
+      "question": "What evidence in the trajectories supports this pattern?",
+      "actionable_insight": "Compare relevant groups and inspect exceptions.",
+      "code": "print(df.describe(include=\"all\"))",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "matched_road_position",
+        "trajectory_timestamp",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "worldtrace_ex23_insight_2",
+      "insight": "Turning-intensive routes tend to show less stable speeds and larger point-to-road offsets, especially for smaller vehicles.",
+      "plot": {
+        "plot_type": "question_specific_summary",
+        "files": [
+          "visualizations/insight_2.png"
+        ],
+        "title": "Insight 2",
+        "description": "A question-specific visualization computed from the synchronized trajectory tables; the case-level overview map is retained separately and is not repeated here."
+      },
+      "question": "What evidence in the trajectories supports this pattern?",
+      "actionable_insight": "Compare relevant groups and inspect exceptions.",
+      "code": "print(df.describe(include=\"all\"))",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "matched_road_position",
+        "trajectory_timestamp",
+        "vehicle_type",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "worldtrace_ex23_insight_3",
+      "insight": "A few trajectories show extreme acceleration and braking with large point-to-road offsets on otherwise smooth routes.",
+      "plot": {
+        "plot_type": "question_specific_summary",
+        "files": [
+          "visualizations/insight_3.png"
+        ],
+        "title": "Insight 3",
+        "description": "A question-specific visualization computed from the synchronized trajectory tables; the case-level overview map is retained separately and is not repeated here."
+      },
+      "question": "What evidence in the trajectories supports this pattern?",
+      "actionable_insight": "Compare relevant groups and inspect exceptions.",
+      "code": "print(df.describe(include=\"all\"))",
+      "insight_type": "exception_deviation",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "matched_road_position",
+        "trajectory_timestamp",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Most vehicle trajectories maintain relatively stable movement and remain closely aligned with their matched-road references.",
+    "Turning-intensive routes tend to show less stable speeds and larger point-to-road offsets, especially for smaller vehicles.",
+    "A few trajectories show extreme acceleration and braking with large point-to-road offsets on otherwise smooth routes."
+  ],
+  "summary": "Most vehicle trajectories maintain relatively stable movement and remain closely aligned with their matched-road references. Turning-intensive routes tend to show less stable speeds and larger point-to-road offsets, especially for smaller vehicles. A few trajectories show extreme acceleration and braking with large point-to-road offsets on otherwise smooth routes."
+}

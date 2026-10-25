@@ -1,0 +1,214 @@
+{
+  "format": "trajstory-insightbench-v0.1",
+  "source": "Cainiao-AI/LaDe",
+  "cases": [
+    {
+      "case_id": "01_time_window_order_handling",
+      "insight_json": "trajstory_examples/insight/LaDe/01_time_window_order_handling/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/01_time_window_order_handling/orders.csv",
+      "orders": 72,
+      "courier_days": 1,
+      "trajectory_points": 474
+    },
+    {
+      "case_id": "02_regional_courier_order_state",
+      "insight_json": "trajstory_examples/insight/LaDe/02_regional_courier_order_state/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/02_regional_courier_order_state/orders.csv",
+      "orders": 490,
+      "courier_days": 12,
+      "trajectory_points": 8044
+    },
+    {
+      "case_id": "03_delivery_pattern_sequence",
+      "insight_json": "trajstory_examples/insight/LaDe/03_delivery_pattern_sequence/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/03_delivery_pattern_sequence/orders.csv",
+      "orders": 108,
+      "courier_days": 6,
+      "trajectory_points": 1806
+    },
+    {
+      "case_id": "04_experience_change",
+      "insight_json": "trajstory_examples/insight/LaDe/04_experience_change/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/04_experience_change/orders.csv",
+      "orders": 32,
+      "courier_days": 2,
+      "trajectory_points": 242
+    },
+    {
+      "case_id": "05_area_time_task_organization",
+      "insight_json": "trajstory_examples/insight/LaDe/05_area_time_task_organization/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/05_area_time_task_organization/orders.csv"
+    },
+    {
+      "case_id": "06_distinctive_service_patterns",
+      "insight_json": "trajstory_examples/insight/LaDe/06_distinctive_service_patterns/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/06_distinctive_service_patterns/orders.csv",
+      "orders": 97,
+      "courier_days": 6,
+      "trajectory_points": 1206
+    },
+    {
+      "case_id": "07_pickup_time_window_reliability",
+      "insight_json": "trajstory_examples/insight/LaDe/07_pickup_time_window_reliability/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/07_pickup_time_window_reliability/pickup_tasks.csv",
+      "couriers": 5,
+      "pickup_tasks": 60,
+      "trajectory_points": 300
+    },
+    {
+      "case_id": "08_pickup_conditions_and_constraints",
+      "insight_json": "trajstory_examples/insight/LaDe/08_pickup_conditions_and_constraints/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/08_pickup_conditions_and_constraints/pickup_tasks.csv",
+      "couriers": 5,
+      "pickup_tasks": 75,
+      "trajectory_points": 525
+    },
+    {
+      "case_id": "09_multi_day_delivery_cadence",
+      "insight_json": "trajstory_examples/insight/LaDe/09_multi_day_delivery_cadence/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/09_multi_day_delivery_cadence/delivery_tasks.csv",
+      "couriers": 1,
+      "delivery_tasks": 60,
+      "trajectory_points": 420
+    },
+    {
+      "case_id": "10_time_window_route_effects",
+      "insight_json": "trajstory_examples/insight/LaDe/10_time_window_route_effects/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/10_time_window_route_effects/delivery_tasks.csv",
+      "couriers": 1,
+      "delivery_tasks": 90,
+      "trajectory_points": 630
+    },
+    {
+      "case_id": "11_workday_time_allocation",
+      "insight_json": "trajstory_examples/insight/LaDe/11_workday_time_allocation/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/11_workday_time_allocation/delivery_visits.csv",
+      "couriers": 1,
+      "delivery_visits": 17,
+      "trajectory_points": 1032
+    },
+    {
+      "case_id": "12_clockwise_route_delivery_sequence",
+      "insight_json": "trajstory_examples/insight/LaDe/12_clockwise_route_delivery_sequence/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/12_clockwise_route_delivery_sequence/delivery_tasks.csv",
+      "couriers": 1,
+      "delivery_tasks": 20,
+      "trajectory_points": 725
+    },
+    {
+      "case_id": "13_accepted_pickup_task_dynamics",
+      "insight_json": "trajstory_examples/insight/LaDe/13_accepted_pickup_task_dynamics/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/13_accepted_pickup_task_dynamics/pickup_tasks.csv",
+      "couriers": 1,
+      "pickup_tasks": 32,
+      "trajectory_points": 1573
+    },
+    {
+      "case_id": "14_aoi_type_delivery_activity",
+      "insight_json": "trajstory_examples/insight/LaDe/14_aoi_type_delivery_activity/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/14_aoi_type_delivery_activity/delivery_visits.csv",
+      "couriers": 1,
+      "delivery_tasks": 333,
+      "trajectory_points": 10164,
+      "delivery_visits": 148
+    },
+    {
+      "case_id": "15_delivery_acceptance_bursts",
+      "insight_json": "trajstory_examples/insight/LaDe/15_delivery_acceptance_bursts/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/15_delivery_acceptance_bursts/delivery_tasks.csv",
+      "couriers": 1,
+      "delivery_tasks": 96,
+      "trajectory_points": 1419,
+      "acceptance_bursts": 8
+    },
+    {
+      "case_id": "16_pending_delivery_prioritization",
+      "insight_json": "trajstory_examples/insight/LaDe/16_pending_delivery_prioritization/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/16_pending_delivery_prioritization/delivery_tasks.csv",
+      "couriers": 1,
+      "delivery_tasks": 24,
+      "trajectory_points": 1039
+    },
+    {
+      "case_id": "17_contextual_delivery_prioritization",
+      "insight_json": "trajstory_examples/insight/LaDe/17_contextual_delivery_prioritization/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/17_contextual_delivery_prioritization/delivery_tasks.csv",
+      "couriers": 1,
+      "courier_days": 1,
+      "tasks": 59,
+      "trajectory_points": 5488
+    },
+    {
+      "case_id": "18_multi_courier_pickup_ordering",
+      "insight_json": "trajstory_examples/insight/LaDe/18_multi_courier_pickup_ordering/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/18_multi_courier_pickup_ordering/pickup_tasks.csv",
+      "couriers": 3,
+      "courier_days": 24,
+      "tasks": 669,
+      "trajectory_points": 58683
+    },
+    {
+      "case_id": "19_regional_pickup_workload_distribution",
+      "insight_json": "trajstory_examples/insight/LaDe/19_regional_pickup_workload_distribution/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/19_regional_pickup_workload_distribution/pickup_tasks.csv",
+      "couriers": 4,
+      "courier_days": 32,
+      "tasks": 823,
+      "trajectory_points": 61215
+    },
+    {
+      "case_id": "20_aoi_service_periods_and_courier_subregions",
+      "insight_json": "trajstory_examples/insight/LaDe/20_aoi_service_periods_and_courier_subregions/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/20_aoi_service_periods_and_courier_subregions/pickup_tasks.csv",
+      "couriers": 2,
+      "courier_days": 12,
+      "tasks": 220,
+      "trajectory_points": 26141
+    },
+    {
+      "case_id": "21_road_class_delivery_dynamics",
+      "insight_json": "trajstory_examples/insight/LaDe/21_road_class_delivery_dynamics/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/21_road_class_delivery_dynamics/delivery_tasks.csv",
+      "couriers": 1,
+      "courier_days": 10,
+      "tasks": 584,
+      "trajectory_points": 12991
+    },
+    {
+      "case_id": "22_regular_aoi_work_pattern",
+      "insight_json": "trajstory_examples/insight/LaDe/22_regular_aoi_work_pattern/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/22_regular_aoi_work_pattern/delivery_tasks.csv",
+      "couriers": 1,
+      "courier_days": 14,
+      "tasks": 1078,
+      "trajectory_points": 36222
+    },
+    {
+      "case_id": "23_oneway_detour_dynamics",
+      "insight_json": "trajstory_examples/insight/LaDe/23_oneway_detour_dynamics/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/23_oneway_detour_dynamics/delivery_tasks.csv",
+      "couriers": 1,
+      "courier_days": 14,
+      "tasks": 548,
+      "trajectory_points": 35364
+    },
+    {
+      "case_id": "24_bridge_tunnel_movement",
+      "insight_json": "trajstory_examples/insight/LaDe/24_bridge_tunnel_movement/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/24_bridge_tunnel_movement/delivery_tasks.csv",
+      "couriers": 1,
+      "courier_days": 8,
+      "tasks": 232,
+      "trajectory_points": 32794
+    },
+    {
+      "case_id": "25_service_region_road_comparison",
+      "insight_json": "trajstory_examples/insight/LaDe/25_service_region_road_comparison/insight.json",
+      "dataset_csv_path": "trajstory_examples/insight/LaDe/25_service_region_road_comparison/delivery_tasks.csv",
+      "couriers": 1,
+      "courier_days": 28,
+      "tasks": 1594,
+      "trajectory_points": 42629
+    }
+  ]
+}

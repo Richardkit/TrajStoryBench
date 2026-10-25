@@ -1,0 +1,93 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/07_usage_mode_distance_time_patterns/trajectories.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/07_usage_mode_distance_time_patterns/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/MTL_Trajet/07_usage_mode_distance_time_patterns/trajectory_points.csv",
+      "role": "Timestamped trajectory points linked by trajectory_id"
+    }
+  ],
+  "metadata": {
+    "goal": "Based on trajectories with different usages, analyze the relationship between usages and other attributes",
+    "role": "Urban trajectory analyst",
+    "category": "Trip usage, transport mode, distance, duration, and departure time",
+    "header": "MTL Trajet: 07 Usage Mode Distance Time Patterns",
+    "dataset_description": "MTL urban trajectories with trip usage, mode, departure timing, distance, duration, endpoints, and point-level speed information."
+  },
+  "insight_list": [
+    {
+      "data_type": "usage_mode_comparison",
+      "insight": "Shopping, leisure, and pick-up trips show greater motor-vehicle reliance than education trips.",
+      "insight_type": "group_comparison",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Car Reliance by Trip Usage",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/mode_by_usage.png"
+      },
+      "question": "Which usages have the highest motor-vehicle reliance, and how does education compare?",
+      "code": "pd.crosstab(df.usage, df.mode_group, normalize='index')",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trip_purpose",
+        "transport_mode",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "usage_distance_duration",
+      "insight": "Trips for pick-up sustain relatively longer distances than other usages, but a few outliers with very long durations exist.",
+      "insight_type": "group_comparison",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Pick-up Distance and Duration",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/pickup_distance_duration.png"
+      },
+      "question": "How do pick-up trip distances and duration distributions compare with those of other usages?",
+      "code": "df.groupby('usage')[['distance_km','duration_minutes']].agg(['mean','median','min','max'])",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trip_purpose",
+        "gps_position",
+        "trajectory_timestamp",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "usage_departure_time",
+      "insight": "Education trips are concentrated in fixed morning and afternoon windows, whereas the other usages are more dispersed across the afternoon and evening.",
+      "insight_type": "group_comparison",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Departure-time Distribution by Usage",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/departure_time_by_usage.png"
+      },
+      "question": "Which usage has the most concentrated departure-time pattern, and when do the other usages occur?",
+      "code": "df.groupby('usage').start_hour.agg(['min','median','max','nunique'])",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trip_purpose",
+        "trajectory_timestamp",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Shopping, leisure, and pick-up trips show greater motor-vehicle reliance than education trips.",
+    "Trips for pick-up sustain relatively longer distances than other usages, but a few outliers with very long durations exist.",
+    "Education trips are concentrated in fixed morning and afternoon windows, whereas the other usages are more dispersed across the afternoon and evening."
+  ],
+  "summary": "Shopping, leisure, and pick-up trips have greater motor-vehicle reliance than education trips. Pick-up trips are relatively longer, with a small set of long-duration records forming the upper duration tail. Education trips occur in fixed morning and afternoon windows, whereas the other usages are more dispersed across the afternoon and evening.",
+  "evidence_policy": "Claims describe patterns in this dataset and do not establish causal relationships."
+}

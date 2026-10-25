@@ -1,0 +1,19 @@
+driver_id,trip_count,activity_distribution_style,weekend_peak_pattern,rain_evening_response,daily_period_entropy,top_two_period_share,weekday_busiest_period,weekend_busiest_period,weekday_peak_hour,weekend_peak_hour,weekend_peak_shift_hours,dry_evening_mean_completed_trips,rainy_evening_mean_completed_trips,rainy_evening_activity_change
+driver_01,73,concentrated,weekend_later,rain_evening_stable,0.5454,0.9863,morning,midday,8.77,13.22,4.46,0.0,0.167,0.167
+driver_02,102,concentrated,stable_weekly_peak,rain_evening_responsive,0.5654,0.951,midday,midday,13.46,13.31,-0.15,1.0,4.0,3.0
+driver_03,108,concentrated,weekend_later,rain_evening_responsive,0.6163,0.9444,evening,late night,18.66,23.3,4.64,4.0,6.0,2.0
+driver_04,74,concentrated,stable_weekly_peak,rain_evening_stable,0.4554,0.9595,morning,morning,8.65,9.13,0.48,0.0,0.333,0.333
+driver_05,85,concentrated,weekend_later,rain_evening_stable,0.7918,0.8235,midday,late night,14.13,24.0,9.87,1.0,1.167,0.167
+driver_06,114,concentrated,stable_weekly_peak,rain_evening_responsive,0.4497,0.9123,evening,evening,18.34,18.54,0.2,6.167,9.167,3.0
+driver_07,73,concentrated,weekend_later,rain_evening_stable,0.7671,0.863,morning,evening,9.34,17.84,8.5,2.333,2.5,0.167
+driver_08,102,concentrated,stable_weekly_peak,rain_evening_responsive,0.5654,0.951,midday,midday,13.74,13.91,0.17,1.0,4.0,3.0
+driver_09,108,evenly_distributed,weekend_later,rain_evening_responsive,0.9412,0.6852,evening,late night,17.96,23.34,5.38,2.5,4.5,2.0
+driver_10,74,evenly_distributed,stable_weekly_peak,rain_evening_stable,0.9482,0.6757,morning,morning,9.67,9.34,-0.33,1.667,1.833,0.167
+driver_11,85,evenly_distributed,weekend_later,rain_evening_stable,0.9547,0.6706,midday,evening,13.56,18.13,4.57,2.333,2.5,0.167
+driver_12,114,evenly_distributed,stable_weekly_peak,rain_evening_responsive,0.9039,0.6842,evening,evening,18.36,18.63,0.27,3.167,6.0,2.833
+driver_13,73,evenly_distributed,stable_weekly_peak,rain_evening_stable,0.9568,0.6575,morning,morning,8.62,8.88,0.25,1.0,1.167,0.167
+driver_14,86,evenly_distributed,weekend_later,rain_evening_stable,0.9648,0.6512,midday,evening,12.79,18.67,5.88,2.0,2.333,0.333
+driver_15,108,evenly_distributed,stable_weekly_peak,rain_evening_responsive,0.9315,0.6667,evening,evening,19.21,18.41,-0.8,3.0,5.0,2.0
+driver_16,74,evenly_distributed,weekend_later,rain_evening_stable,0.9545,0.6757,morning,evening,8.25,18.86,10.61,1.833,2.333,0.5
+driver_17,96,mixed,weekend_later,rain_evening_responsive,0.9644,0.5938,midday,late night,13.3,23.64,10.34,1.333,3.167,1.833
+driver_18,114,mixed,stable_weekly_peak,rain_evening_responsive,0.8467,0.7544,evening,evening,18.28,18.83,0.55,3.667,6.667,3.0

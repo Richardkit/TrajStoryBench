@@ -1,0 +1,144 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/01_purpose_destination_land_use/trajectories.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/MTL_Trajet/01_purpose_destination_land_use/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/MTL_Trajet/01_purpose_destination_land_use/trajectory_points.csv",
+      "role": "Compact timestamped trajectory points linked by trajectory_id"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze how trip purpose relates to official destination land-use, departure time, distance, and transport mode across the supplied multiple-user trajectories.",
+    "role": "Urban mobility and land-use analyst",
+    "category": "Trip purpose, destination land-use, timing, distance, and mode",
+    "header": "MTL Trajet: 01 Purpose Destination Land Use",
+    "dataset_description": "MTL Trajet 2016 mobility data with trip purpose, mode, timing, endpoints, trip metrics, and Montréal PUM 2050 destination land-use categories. User IDs distinguish participants, and the point tables provide speed profiles. The single-user case includes a repeated work corridor.",
+    "metric_note": "`longest_stable_run_points` is the longest consecutive GPS-point segment whose adjacent speed changes stay within the mode-specific limit recorded in `stable_speed_change_threshold_kmh`: walking 0.15, cycling 0.25, public transit 0.40, and motor vehicle 0.60 km/h. This local continuity metric is distinct from full-trajectory `point_speed_std_kmh`.",
+    "source_note": "Historical trajectories (2016) are spatially matched to the 2025 official PUM land-use taxonomy; do not interpret the categories as historical 2016 land-use observations.",
+    "land_use_reference": "Archived PUM2050 Affectatio polygons (2025). Labels describe reference-map zoning at fixed endpoints, not surveyed activities at the time of travel.",
+    "fixed_gps_repair": "2026-10-08: existing CSV coordinates preserved; see results/dataset_quality/fixed_gps_repairs_20261008/repair.json.",
+    "motion_consistency_note": "Point speed is the incoming segment GPS great-circle distance divided by elapsed time; the first point repeats the first outgoing segment speed. Earth radius: 6371.0088 km. Trip distance is the sum of these segment distances. avg_speed_kmh and mean_speed_kmh are total distance / elapsed time; avg_point_speed_kmh and point_speed_mean_kmh are unweighted means of the delivered point speeds. speed_cv is the population coefficient of variation of incoming segment speeds, excluding the duplicated first endpoint. trajectory_progress is point_index / (point_count - 1), not elapsed-time fraction. Timestamps and speed fields were reconstructed for internal consistency on 2026-10-09; GPS positions and insight wording were preserved. These are curated example records, not newly recovered observations.",
+    "motion_consistency_repair": "results/dataset_quality/motion_consistency_repair_20261009/repair.json"
+  },
+  "insight_list": [
+    {
+      "data_type": "purpose_conditioned_destination_land_use",
+      "insight": "Mixte destinations occur in every trip-purpose group. Health and work trips both include substantial Mixte components, with diversified-activity destinations also represented in both groups.",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Purpose by Destination Land-use",
+        "description": "Recomputed from the delivered fixed GPS coordinates and the archived official PUM2050 Affectatio polygons; Unmapped denotes no containing polygon.",
+        "file": "visualizations/purpose_by_destination_land_use.png"
+      },
+      "question": "Which destination land-use types are represented across trip purposes, and how are health- and work-purpose trips distributed?",
+      "code": "import pandas as pd\nimport numpy as np\nfrom pathlib import Path\ndf = pd.read_csv(dataset_path)\npoints = pd.read_csv(Path(dataset_path).with_name('trajectory_points.csv'))\nprint(pd.crosstab(df.purpose_group, df.destination_land_use))\n",
+      "insight_type": "factor_relationship",
+      "insight_value": {
+        "Activités diversifiées": {
+          "dining": 1,
+          "education": 0,
+          "health": 18,
+          "leisure": 0,
+          "shopping": 0,
+          "work": 9
+        },
+        "Activités économiques": {
+          "dining": 0,
+          "education": 0,
+          "health": 7,
+          "leisure": 0,
+          "shopping": 0,
+          "work": 1
+        },
+        "Mixte": {
+          "dining": 22,
+          "education": 18,
+          "health": 22,
+          "leisure": 7,
+          "shopping": 21,
+          "work": 40
+        },
+        "Récréation et accès aux rives": {
+          "dining": 0,
+          "education": 1,
+          "health": 0,
+          "leisure": 2,
+          "shopping": 0,
+          "work": 2
+        },
+        "Résidentiel": {
+          "dining": 5,
+          "education": 1,
+          "health": 7,
+          "leisure": 3,
+          "shopping": 7,
+          "work": 6
+        }
+      },
+      "evidence": "Official endpoint join: health has 22 Mixte and 18 diversified-activity destinations; work has 40 and 9, respectively.",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trip_purpose",
+        "gps_position",
+        "land_use_reference",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "purpose_conditioned_departure_time",
+      "insight": "Work- and education-related trajectories have clearly concentrated departure periods, whereas shopping, dining, and leisure trajectories are distributed across a broader set of departure times.",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Purpose-conditioned Departure Time",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/departure_time_by_purpose.png"
+      },
+      "question": "Which purposes have concentrated departure periods, and which are distributed across more times of day?",
+      "code": "df.groupby('purpose_group').start_hour.agg(['count','min','median','max','nunique'])",
+      "insight_type": "group_comparison",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trip_purpose",
+        "trajectory_timestamp",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "purpose_distance_and_mode_structure",
+      "insight_type": "factor_relationship",
+      "plot": {
+        "plot_type": "trajectory_comparison",
+        "title": "Purpose-specific Distance and Transport Mode Structure",
+        "description": "The plot is generated from the supplied case tables.",
+        "file": "visualizations/purpose_distance_mode_profile.png"
+      },
+      "question": "How do distance distributions and transport-mode compositions differ among shopping, dining, health, and work trips?",
+      "code": "pd.crosstab(df.purpose_group, df.mode_group).reindex(['shopping','dining','health','work'])",
+      "insight": "Shopping and dining trips are generally shorter and less motor-vehicle-oriented than work trips.",
+      "evidence": "Shopping and dining trajectories are generally short, whereas health trips are longer and span a broader distance range; work trips have the widest distance distribution and are generally the longest. Walking, cycling, and public transit together account for most modes in the first three purposes; work trips use all mode categories, with motor vehicles the largest single group.",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "trip_purpose",
+        "gps_position",
+        "transport_mode",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Mixte destinations occur in every trip-purpose group. Health and work trips both include substantial Mixte components, with diversified-activity destinations also represented in both groups.",
+    "Work- and education-related trajectories have clearly concentrated departure periods, whereas shopping, dining, and leisure trajectories are distributed across a broader set of departure times.",
+    "Shopping and dining trips are generally shorter and less motor-vehicle-oriented than work trips."
+  ],
+  "summary": "Mixte destinations occur in every trip-purpose group. Health and work trips both include substantial Mixte components, with diversified-activity destinations also represented in both groups. Work- and education-related trajectories have clearly concentrated departure periods, whereas shopping, dining, and leisure trajectories are distributed across a broader set of departure times. Shopping and dining trips are generally shorter and less motor-vehicle-oriented than work trips.",
+  "evidence_policy": "Claims describe patterns in this dataset and do not establish causal relationships."
+}

@@ -1,0 +1,97 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/13_frequent_caller_mobility_patterns/trips.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Porto_taxi/13_frequent_caller_mobility_patterns/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/13_frequent_caller_mobility_patterns/trajectory_points.csv",
+      "role": "Timestamped road-aligned GPS observations for caller-linked trips"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/13_frequent_caller_mobility_patterns/caller_profiles.csv",
+      "role": "Per-caller dominant pickup-area sets, monthly primary areas, and within-set trip shares"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze the recurring mobility patterns associated with frequent call-center callers, considering possible aspects.",
+    "role": "Call-center mobility analyst",
+    "category": "Frequent-caller recurring mobility patterns",
+    "header": "Recurring Mobility of Frequent Porto Taxi Callers",
+    "dataset_description": "A constructed set of exactly 500 call-center taxi trips from eight pseudonymous frequent callers. Every caller has at least two caller-specific dominant pickup areas, while the three callers with shifting pickup focus have three, four, and six dominant areas. Road-aligned GPS traces and caller profiles support dominant-area recurrence, within-year shifts, within-caller dominant-area linkages, and departure-time analysis."
+  },
+  "insight_list": [
+    {
+      "data_type": "caller_dominant_pickup_sets_and_shift",
+      "insight": "Frequent callers typically request taxis from at least two recurring dominant pickup areas, while callers whose pickup focus shifts across the observation year use three to six dominant areas.",
+      "plot": {
+        "plot_type": "dominant_area_count_and_period_primary_matrix",
+        "file": "visualizations/caller_pickup_concentration_and_shifts.png",
+        "title": "How many dominant pickup areas does each caller have, and which callers change their primary pickup focus during the year",
+        "description": "The visualization summarizes the fields needed to evaluate this insight directly from the supplied tables."
+      },
+      "question": "How many dominant pickup areas does each caller have, and which callers change their primary pickup focus during the year?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "caller_id",
+        "departure_time",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "within_caller_dominant_area_linkage",
+      "insight": "Trips originating in one of a caller's dominant pickup areas usually end in another dominant area belonging to the same caller.",
+      "plot": {
+        "plot_type": "caller_level_conditional_share_bar_chart",
+        "file": "visualizations/dominant_pickup_to_dominant_destination.png",
+        "title": "When a trip begins in one of a caller's dominant pickup areas, how often does it end in another dominant area belonging to that same caller",
+        "description": "The visualization summarizes the fields needed to evaluate this insight directly from the supplied tables."
+      },
+      "question": "When a trip begins in one of a caller's dominant pickup areas, how often does it end in another dominant area belonging to that same caller?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 3,
+      "difficulty_label": "low",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "caller_id",
+        "gps_position",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "dominant_origin_morning_concentration",
+      "insight": "A large share of trips are concentrated between morning and noon, especially for trips originating from the callers' dominant pickup areas.",
+      "plot": {
+        "plot_type": "time_period_share_bar_chart",
+        "file": "visualizations/morning_noon_concentration.png",
+        "title": "When do frequent callers travel, and is morning-to-noon concentration stronger for dominant pickup origins",
+        "description": "The visualization summarizes the fields needed to evaluate this insight directly from the supplied tables."
+      },
+      "question": "When do frequent callers travel, and is morning-to-noon concentration stronger for dominant pickup origins?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "caller_id",
+        "departure_time",
+        "gps_position",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Frequent callers typically request taxis from at least two recurring dominant pickup areas, while callers whose pickup focus shifts across the observation year use three to six dominant areas.",
+    "Trips originating in one of a caller's dominant pickup areas usually end in another dominant area belonging to the same caller.",
+    "A large share of trips are concentrated between morning and noon, especially for trips originating from the callers' dominant pickup areas."
+  ],
+  "summary": "All eight callers rely on multiple recurring dominant pickup areas. Five callers retain a stable primary focus across the year, while three shift their focus within larger sets of three to six dominant areas. Trips beginning in one caller-dominant area usually end in another dominant area belonging to the same caller, and dominant-area departures are particularly concentrated between morning and noon."
+}

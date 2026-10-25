@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trajstoryagent-v5"
+version = "5.0.0"
+description = "Formal two-round trajectory insight discovery with refined-insight memory"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.24", "pandas>=2.0", "matplotlib>=3.7", "scipy>=1.10", "scikit-learn>=1.3", "seaborn>=0.12"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+evaluation = ["openai>=1"]
+
+[project.scripts]
+trajstory-v5 = "trajstoryagent_v5.cli:main"
+trajstory-v5-evaluate = "trajstoryagent_v5.evaluate:main"
+trajstory-v5-experiment = "trajstoryagent_v5.experiment:main"
+
+[tool.setuptools]
+packages = ["trajstoryagent_v5"]
+package-dir = {trajstoryagent_v5 = "."}
+
+[tool.setuptools.package-data]
+trajstoryagent_v5 = ["roles/*.md", "roles/*.json"]

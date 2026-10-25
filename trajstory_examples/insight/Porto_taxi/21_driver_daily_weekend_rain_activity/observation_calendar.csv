@@ -1,0 +1,13 @@
+observation_date,day_type,weather_condition,weather_evidence
+2014-09-02,weekday,dry,constructed comparison stratum
+2014-09-10,weekday,dry,constructed comparison stratum
+2014-09-18,weekday,dry,constructed comparison stratum
+2014-10-02,weekday,rainy,constructed comparison stratum
+2014-10-10,weekday,rainy,constructed comparison stratum
+2014-10-14,weekday,rainy,constructed comparison stratum
+2014-09-06,weekend,dry,constructed comparison stratum
+2014-09-14,weekend,dry,constructed comparison stratum
+2014-09-20,weekend,dry,constructed comparison stratum
+2014-10-04,weekend,rainy,constructed comparison stratum
+2014-10-12,weekend,rainy,constructed comparison stratum
+2014-10-18,weekend,rainy,constructed comparison stratum

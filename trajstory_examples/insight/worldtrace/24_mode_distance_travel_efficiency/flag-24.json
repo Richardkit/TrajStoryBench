@@ -1,0 +1,97 @@
+{
+  "dataset_csv_path": "trajectories.csv",
+  "user_dataset_csv_path": "trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajectory_points.csv",
+      "role": "Timestamped raw and matched-road trajectory points"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze variations in travel efficiency across travel modes and trip distances.",
+    "role": "Mobility-pattern analyst",
+    "category": "Travel mode, distance, travel time, and short-trip exceptions",
+    "header": "Mode and Distance Travel Efficiency",
+    "dataset_description": "An independently constructed, road-aligned WorldTrace case containing 172 trajectories."
+  },
+  "insight_list": [
+    {
+      "data_type": "worldtrace_ex24_insight_1",
+      "insight": "Car trips generally take less time than cycling trips over similar travel distances.",
+      "plot": {
+        "plot_type": "question_specific_summary",
+        "title": "Mode and Distance Travel Efficiency: Insight 1",
+        "description": "Question-specific evidence computed from the synchronized trajectory and point tables; the case-level route overview is retained separately.",
+        "file": "visualizations/insight_1.png"
+      },
+      "question": "How does travel time compare between car and cycling trips over similar distances?",
+      "actionable_insight": "Compare mode-specific travel-time distributions within matched distance bands.",
+      "code": "print(df.groupby(['distance_band_km','travel_mode']).travel_time_min.mean().unstack())",
+      "insight_type": "group_comparison",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "transport_mode",
+        "gps_position",
+        "trajectory_timestamp",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "worldtrace_ex24_insight_2",
+      "insight": "The travel-time difference between cycling and car trips increases with trip distance, but their overall route-directness ratios are similar and follow the same tendency as trip distance increases.",
+      "plot": {
+        "plot_type": "question_specific_summary",
+        "title": "Mode and Distance Travel Efficiency: Insight 2",
+        "description": "Question-specific evidence computed from the synchronized trajectory and point tables; the case-level route overview is retained separately.",
+        "file": "visualizations/insight_2.png"
+      },
+      "question": "Does the cycling–car travel-time gap change with distance, and do the modes have similar route-directness patterns?",
+      "actionable_insight": "Compare the cycling-minus-car time gap and mode-specific route-directness ratios across distance bands.",
+      "code": "q=df[~df.is_fast_cycling_exception]; m=q.groupby(['distance_band_km','travel_mode']).travel_time_min.mean().unstack(); r=q.groupby(['distance_band_km','travel_mode']).route_directness_ratio.mean().unstack(); print(m.cycling-m.car); print(r)",
+      "insight_type": "factor_relationship",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "transport_mode",
+        "gps_position",
+        "trajectory_timestamp",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "worldtrace_ex24_insight_3",
+      "insight": "A few short cycling trips have travel times comparable to similar car trips.",
+      "plot": {
+        "plot_type": "question_specific_summary",
+        "title": "Mode and Distance Travel Efficiency: Insight 3",
+        "description": "Question-specific evidence computed from the synchronized trajectory and point tables; the case-level route overview is retained separately.",
+        "file": "visualizations/insight_3.png"
+      },
+      "question": "Are there short cycling trips whose travel times are comparable to car trips?",
+      "actionable_insight": "Inspect short-trip cycling exceptions against the regular short car distribution.",
+      "code": "print(df[df.trajectory_distance_km.le(1.3)].groupby(['travel_mode','is_fast_cycling_exception']).travel_time_min.describe())",
+      "insight_type": "exception_deviation",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "transport_mode",
+        "gps_position",
+        "trajectory_timestamp",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Car trips generally take less time than cycling trips over similar travel distances.",
+    "The travel-time difference between cycling and car trips increases with trip distance, but their overall route-directness ratios are similar and follow the same tendency as trip distance increases.",
+    "A few short cycling trips have travel times comparable to similar car trips."
+  ],
+  "summary": "Car trips generally take less time than cycling trips over similar travel distances. The travel-time difference between cycling and car trips increases with trip distance, but their overall route-directness ratios are similar and follow the same tendency as trip distance increases. A few short cycling trips have travel times comparable to similar car trips."
+}

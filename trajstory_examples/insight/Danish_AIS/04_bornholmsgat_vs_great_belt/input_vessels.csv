@@ -1,0 +1,37 @@
+vessel_id,ship_type,cargo_type,draught,length,width
+bornholmsgat_vessel_01,Cargo,Cargo,15.8,180,28
+bornholmsgat_vessel_02,Cargo,Cargo,16.45,180,28
+bornholmsgat_vessel_03,Cargo,Cargo,17.1,180,28
+bornholmsgat_vessel_04,Cargo,Cargo,17.75,180,28
+bornholmsgat_vessel_05,Cargo,Cargo,18.400000000000002,180,28
+bornholmsgat_vessel_06,Cargo,Cargo,15.8,180,28
+bornholmsgat_vessel_07,Cargo,Cargo,16.45,180,28
+bornholmsgat_vessel_08,Cargo,Cargo,17.1,180,28
+bornholmsgat_vessel_09,Cargo,Cargo,17.75,180,28
+bornholmsgat_vessel_10,Cargo,Cargo,18.400000000000002,180,28
+bornholmsgat_vessel_11,Cargo,Cargo,15.8,180,28
+bornholmsgat_vessel_12,Cargo,Cargo,16.45,180,28
+bornholmsgat_vessel_13,Passenger ferry,Passenger,7.2,115,20
+bornholmsgat_vessel_14,Passenger ferry,Passenger,7.6000000000000005,115,20
+bornholmsgat_vessel_15,Passenger ferry,Passenger,8.0,115,20
+bornholmsgat_vessel_16,Service,Other,5.0,115,20
+bornholmsgat_vessel_17,Service,Other,5.5,115,20
+bornholmsgat_vessel_18,Service,Other,6.0,115,20
+greatbelt_cargo_01,Cargo,Cargo,10.0,180,28
+greatbelt_cargo_02,Cargo,Cargo,11.0,180,28
+greatbelt_cargo_03,Cargo,Cargo,12.0,180,28
+greatbelt_cargo_04,Cargo,Cargo,13.0,180,28
+greatbelt_cargo_05,Cargo,Cargo,14.0,180,28
+greatbelt_cargo_06,Cargo,Cargo,10.0,180,28
+greatbelt_cargo_07,Cargo,Cargo,11.0,180,28
+greatbelt_cargo_08,Cargo,Cargo,12.0,180,28
+greatbelt_cargo_09,Cargo,Cargo,13.0,180,28
+greatbelt_cargo_10,Cargo,Cargo,14.0,180,28
+greatbelt_cargo_11,Cargo,Cargo,10.0,180,28
+greatbelt_cargo_12,Cargo,Cargo,11.0,180,28
+greatbelt_cargo_13,Cargo,Cargo,12.0,180,28
+greatbelt_cargo_14,Cargo,Cargo,13.0,180,28
+greatbelt_cargo_15,Cargo,Cargo,14.0,180,28
+greatbelt_ferry_01,Passenger ferry,Passenger,8.0,115,20
+greatbelt_service_01,Service,Other,4.8,115,20
+greatbelt_service_02,Service,Other,5.3,115,20

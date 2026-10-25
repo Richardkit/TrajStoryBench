@@ -1,0 +1,173 @@
+trajectory_id,user_id,source_trajectory_id,departure_time,arrival_time,travel_mode,vehicle_type,temperature_c,visited_location,movement_direction,route_role,trajectory_distance_km,start_latitude,start_longitude,end_latitude,end_longitude,point_count,weather,condition_group,is_fast_cycling_exception,travel_time_min,efficiency_group
+WT24_0001,traveler_24,osrm_a_route_14,2025-06-02 07:00:00,2025-06-02 07:02:27.038,car,standard car,22,,,normal,1.048,40.7362286,-74.0081228,40.7419194,-73.999897,54,clear,normal,False,2.451,regular
+WT24_0002,traveler_24,osrm_a_route_14,2025-06-02 10:00:00,2025-06-02 10:04:16.151,cycling,,22,,,normal,1.016,40.7362342,-74.008082,40.742044,-74.0001904,53,clear,normal,False,4.269,regular
+WT24_0003,traveler_24,osrm_a_route_13,2025-06-02 13:00:00,2025-06-02 13:01:44.698,car,standard car,22,,,normal,0.996,40.7520094,-73.9777579,40.7559497,-73.9710533,93,clear,normal,False,1.745,regular
+WT24_0004,traveler_24,osrm_a_route_13,2025-06-02 16:00:00,2025-06-02 16:05:19.012,cycling,,22,,,normal,1.005,40.7520859,-73.9777019,40.7558699,-73.9708636,94,clear,normal,False,5.317,regular
+WT24_0005,traveler_24,osrm_a_route_12,2025-06-02 19:00:00,2025-06-02 19:02:25.027,car,standard car,22,,,normal,1.119,40.726955,-73.9874648,40.7342292,-73.9804568,57,clear,normal,False,2.417,regular
+WT24_0006,traveler_24,osrm_a_route_12,2025-06-02 22:00:00,2025-06-02 22:04:33.575,cycling,,22,,,normal,1.11,40.727021,-73.9876207,40.7340412,-73.9805885,57,clear,normal,False,4.56,regular
+WT24_0007,traveler_24,osrm_a_route_15,2025-06-03 01:00:00,2025-06-03 01:01:50.205,car,standard car,22,,,normal,0.939,40.7482025,-74.005359,40.7541908,-73.9994359,42,clear,normal,False,1.837,regular
+WT24_0008,traveler_24,osrm_a_route_15,2025-06-03 04:00:00,2025-06-03 04:03:39.512,cycling,,22,,,normal,0.962,40.7482226,-74.005407,40.7543387,-73.9993292,43,clear,normal,False,3.659,regular
+WT24_0009,traveler_24,osrm_a_route_13,2025-06-03 07:00:00,2025-06-03 07:01:47.346,car,standard car,22,,,normal,0.96,40.7518032,-73.977909,40.7562228,-73.9717041,92,clear,normal,False,1.789,regular
+WT24_0010,traveler_24,osrm_a_route_13,2025-06-03 10:00:00,2025-06-03 10:04:39.019,cycling,,22,,,normal,0.965,40.7517889,-73.9779195,40.7562071,-73.9716667,92,clear,normal,False,4.65,regular
+WT24_0011,traveler_24,osrm_a_route_18,2025-06-03 13:00:00,2025-06-03 13:01:58.865,car,standard car,22,,,normal,1.063,40.7458213,-73.9762636,40.7537254,-73.9723164,58,clear,normal,False,1.981,regular
+WT24_0012,traveler_24,osrm_a_route_18,2025-06-03 16:00:00,2025-06-03 16:06:32.760,cycling,,22,,,normal,1.055,40.7458236,-73.9762689,40.7536658,-73.97236,58,clear,normal,False,6.546,regular
+WT24_0013,traveler_24,osrm_a_route_15,2025-06-03 19:00:00,2025-06-03 19:02:47.628,car,standard car,22,,,normal,1.097,40.7597983,-73.9879554,40.7589107,-73.9780716,37,clear,normal,False,2.794,regular
+WT24_0014,traveler_24,osrm_a_route_15,2025-06-03 22:00:00,2025-06-03 22:04:53.209,cycling,,22,,,normal,1.12,40.7597113,-73.9877484,40.7587235,-73.9776255,37,clear,normal,False,4.887,regular
+WT24_0015,traveler_24,osrm_a_route_16,2025-06-04 01:00:00,2025-06-04 01:01:36.149,car,standard car,22,,,normal,0.994,40.7297069,-73.9968673,40.7322388,-73.9888016,38,clear,normal,False,1.602,regular
+WT24_0016,traveler_24,osrm_a_route_16,2025-06-04 04:00:00,2025-06-04 04:03:43.450,cycling,,22,,,normal,0.954,40.7296973,-73.9968474,40.7324082,-73.9892024,38,clear,normal,False,3.724,regular
+WT24_0017,traveler_24,osrm_a_route_17,2025-06-04 07:00:00,2025-06-04 07:01:51.228,car,standard car,22,,,normal,0.977,40.7490339,-73.9696289,40.7550694,-73.9683808,28,clear,normal,False,1.854,regular
+WT24_0018,traveler_24,osrm_a_route_17,2025-06-04 10:00:00,2025-06-04 10:03:53.607,cycling,,22,,,normal,0.963,40.7490468,-73.9696195,40.7551601,-73.9683147,28,clear,normal,False,3.893,regular
+WT24_0019,traveler_24,osrm_a_route_19,2025-06-04 13:00:00,2025-06-04 13:02:30.401,car,standard car,22,,,normal,1.022,40.7461415,-73.990443,40.7518965,-73.9862557,57,clear,normal,False,2.507,regular
+WT24_0020,traveler_24,osrm_a_route_19,2025-06-04 16:00:00,2025-06-04 16:04:29.403,cycling,,22,,,normal,1.023,40.7462577,-73.9903598,40.7520175,-73.9861669,56,clear,normal,False,4.49,regular
+WT24_0021,traveler_24,osrm_a_route_20,2025-06-04 19:00:00,2025-06-04 19:02:04.645,car,standard car,22,,,normal,0.992,40.7322454,-73.9942467,40.7345029,-73.9863082,43,clear,normal,False,2.077,regular
+WT24_0022,traveler_24,osrm_a_route_20,2025-06-04 22:00:00,2025-06-04 22:04:15.802,cycling,,22,,,normal,0.973,40.7322295,-73.9942605,40.7343325,-73.9864333,43,clear,normal,False,4.263,regular
+WT24_0023,traveler_24,osrm_a_route_8,2025-06-05 01:00:00,2025-06-05 01:01:44.203,car,standard car,22,,,normal,1.064,40.7147968,-73.9522015,40.7212175,-73.9453132,43,clear,normal,False,1.737,regular
+WT24_0024,traveler_24,osrm_a_route_8,2025-06-05 04:00:00,2025-06-05 04:03:30.605,cycling,,22,,,normal,1.066,40.7149146,-73.9520631,40.721353,-73.9454567,43,clear,normal,False,3.51,regular
+WT24_0025,traveler_24,osrm_a_route_8,2025-06-05 07:00:00,2025-06-05 07:01:47.407,car,standard car,22,,,normal,1.091,40.7016394,-73.9914005,40.6984613,-73.983234,91,clear,normal,False,1.79,regular
+WT24_0026,traveler_24,osrm_a_route_8,2025-06-05 10:00:00,2025-06-05 10:03:33.527,cycling,,22,,,normal,1.094,40.7017312,-73.9915143,40.6985207,-73.9833348,90,clear,normal,False,3.559,regular
+WT24_0027,traveler_24,osrm_a_route_6,2025-06-05 13:00:00,2025-06-05 13:01:44.283,car,standard car,22,,,normal,1.051,40.7289006,-74.0315263,40.7342317,-74.0390255,56,clear,normal,False,1.738,regular
+WT24_0028,traveler_24,osrm_a_route_6,2025-06-05 16:00:00,2025-06-05 16:05:12.799,cycling,,22,,,normal,1.055,40.72889,-74.0314032,40.73417,-74.0390343,56,clear,normal,False,5.213,regular
+WT24_0029,traveler_24,osrm_a_route_12,2025-06-05 19:00:00,2025-06-05 19:02:42.363,car,standard car,22,,,normal,2.023,40.7209269,-74.0028041,40.72686,-73.9872406,94,clear,normal,False,2.706,regular
+WT24_0030,traveler_24,osrm_a_route_12,2025-06-05 22:00:00,2025-06-05 22:06:25.595,cycling,,22,,,normal,2.044,40.7209862,-74.0027533,40.726734,-73.9869429,94,clear,normal,False,6.427,regular
+WT24_0031,traveler_24,osrm_a_route_14,2025-06-06 01:00:00,2025-06-06 01:02:42.467,car,standard car,22,,,normal,1.881,40.741997,-74.0000797,40.7508185,-73.9870226,76,clear,normal,False,2.708,regular
+WT24_0032,traveler_24,osrm_a_route_14,2025-06-06 04:00:00,2025-06-06 04:05:38.187,cycling,,22,,,normal,1.911,40.7419806,-74.0000413,40.751085,-73.9868259,78,clear,normal,False,5.636,regular
+WT24_0033,traveler_24,osrm_a_route_14,2025-06-06 07:00:00,2025-06-06 07:02:52.491,car,standard car,22,,,normal,2.129,40.7373439,-74.0050084,40.7471207,-73.9897327,88,clear,normal,False,2.875,regular
+WT24_0034,traveler_24,osrm_a_route_14,2025-06-06 10:00:00,2025-06-06 10:07:00.508,cycling,,22,,,normal,2.12,40.7373541,-74.004997,40.7470598,-73.9897775,88,clear,normal,False,7.008,regular
+WT24_0035,traveler_24,osrm_a_route_14,2025-06-06 13:00:00,2025-06-06 13:03:21.681,car,standard car,22,,,normal,1.905,40.7326551,-74.0102148,40.7404669,-73.9964601,74,clear,normal,False,3.361,regular
+WT24_0036,traveler_24,osrm_a_route_14,2025-06-06 16:00:00,2025-06-06 16:06:14.343,cycling,,22,,,normal,1.913,40.7327809,-74.010203,40.7403711,-73.9962323,74,clear,normal,False,6.239,regular
+WT24_0037,traveler_24,osrm_a_route_15,2025-06-06 19:00:00,2025-06-06 19:03:21.668,car,standard car,22,,,normal,2.009,40.733736,-74.0101139,40.7477874,-74.0041041,100,clear,normal,False,3.361,regular
+WT24_0038,traveler_24,osrm_a_route_15,2025-06-06 22:00:00,2025-06-06 22:06:10.185,cycling,,22,,,normal,2.024,40.7337157,-74.0101158,40.7478861,-74.0040311,101,clear,normal,False,6.17,regular
+WT24_0039,traveler_24,osrm_a_route_20,2025-06-07 01:00:00,2025-06-07 01:03:03.967,car,standard car,22,,,normal,2.023,40.72304,-74.0032319,40.7319992,-73.9881333,69,clear,normal,False,3.066,regular
+WT24_0040,traveler_24,osrm_a_route_20,2025-06-07 04:00:00,2025-06-07 04:06:11.945,cycling,,22,,,normal,2.023,40.7230991,-74.0031827,40.732058,-73.9880903,70,clear,normal,False,6.199,regular
+WT24_0041,traveler_24,osrm_a_route_20,2025-06-07 07:00:00,2025-06-07 07:02:26.568,car,standard car,22,,,normal,1.985,40.7072509,-74.0121494,40.7197934,-74.0051678,144,clear,normal,False,2.443,regular
+WT24_0042,traveler_24,osrm_a_route_20,2025-06-07 10:00:00,2025-06-07 10:09:02.493,cycling,,22,,,normal,1.97,40.7071957,-74.0121951,40.7197223,-74.0051663,143,clear,normal,False,9.042,regular
+WT24_0043,traveler_24,osrm_a_route_18,2025-06-07 13:00:00,2025-06-07 13:02:33.164,car,standard car,22,,,normal,1.962,40.703581,-74.0116967,40.7090618,-73.9960811,95,clear,normal,False,2.553,regular
+WT24_0044,traveler_24,osrm_a_route_18,2025-06-07 16:00:00,2025-06-07 16:05:59.724,cycling,,22,,,normal,1.961,40.703581,-74.0116627,40.7090637,-73.9960674,95,clear,normal,False,5.995,regular
+WT24_0045,traveler_24,osrm_a_route_2,2025-06-07 19:00:00,2025-06-07 19:02:42.117,car,standard car,22,,,normal,2.022,40.7454771,-74.0085614,40.7607304,-74.0020792,108,clear,normal,False,2.702,regular
+WT24_0046,traveler_24,osrm_a_route_2,2025-06-07 22:00:00,2025-06-07 22:06:56.116,cycling,,22,,,normal,2.034,40.7454192,-74.0085712,40.7608706,-74.0019783,108,clear,normal,False,6.935,regular
+WT24_0047,traveler_24,osrm_a_route_9,2025-06-08 01:00:00,2025-06-08 01:03:50.254,car,standard car,22,,,normal,2.05,40.7087085,-74.0151146,40.7237076,-74.0080206,86,clear,normal,False,3.838,regular
+WT24_0048,traveler_24,osrm_a_route_9,2025-06-08 04:00:00,2025-06-08 04:07:19.039,cycling,,22,,,normal,2.061,40.7088374,-74.0150631,40.7238,-74.0078797,87,clear,normal,False,7.317,regular
+WT24_0049,traveler_24,osrm_a_route_20,2025-06-08 07:00:00,2025-06-08 07:03:32.971,car,standard car,22,,,normal,1.955,40.7256859,-74.0009833,40.7342159,-73.9865189,80,clear,normal,False,3.55,regular
+WT24_0050,traveler_24,osrm_a_route_20,2025-06-08 10:00:00,2025-06-08 10:06:15.574,cycling,,22,,,normal,1.971,40.7256794,-74.0009888,40.7343368,-73.9864301,80,clear,normal,False,6.26,regular
+WT24_0051,traveler_24,osrm_a_route_4,2025-06-08 13:00:00,2025-06-08 13:03:20.831,car,standard car,22,,,normal,2.052,40.7619766,-73.9931141,40.7569037,-73.9733325,65,clear,normal,False,3.347,regular
+WT24_0052,traveler_24,osrm_a_route_4,2025-06-08 16:00:00,2025-06-08 16:06:58.603,cycling,,22,,,normal,2.052,40.7619559,-73.9930652,40.756882,-73.9732812,65,clear,normal,False,6.977,regular
+WT24_0053,traveler_24,osrm_a_route_4,2025-06-08 19:00:00,2025-06-08 19:03:04.669,car,standard car,22,,,normal,1.97,40.7615617,-73.9940618,40.7578157,-73.9754868,60,clear,normal,False,3.078,regular
+WT24_0054,traveler_24,osrm_a_route_4,2025-06-08 22:00:00,2025-06-08 22:06:22.722,cycling,,22,,,normal,1.998,40.7615547,-73.994067,40.7577002,-73.9752135,61,clear,normal,False,6.379,regular
+WT24_0055,traveler_24,osrm_a_route_6,2025-06-09 01:00:00,2025-06-09 01:03:30.021,car,standard car,22,,,normal,1.951,40.7438563,-74.0297923,40.7593687,-74.0279547,67,clear,normal,False,3.5,regular
+WT24_0056,traveler_24,osrm_a_route_6,2025-06-09 04:00:00,2025-06-09 04:06:18.245,cycling,,22,,,normal,1.955,40.7438065,-74.0298068,40.7593568,-74.0279584,67,clear,normal,False,6.304,regular
+WT24_0057,traveler_24,osrm_a_route_13,2025-06-09 07:00:00,2025-06-09 07:08:41.804,car,standard car,22,,,normal,3.051,40.7351923,-73.99842,40.7503149,-73.9789968,140,clear,normal,False,8.697,regular
+WT24_0058,traveler_24,osrm_a_route_13,2025-06-09 10:00:00,2025-06-09 10:16:27.051,cycling,,22,,,normal,3.047,40.7352169,-73.9984019,40.7503089,-73.9790015,140,clear,normal,False,16.451,regular
+WT24_0059,traveler_24,osrm_a_route_16,2025-06-09 13:00:00,2025-06-09 13:05:37.884,car,standard car,22,,,normal,3.102,40.7280537,-73.9989676,40.74352,-73.9797475,148,clear,normal,False,5.631,regular
+WT24_0060,traveler_24,osrm_a_route_16,2025-06-09 16:00:00,2025-06-09 16:10:05.347,cycling,,22,,,normal,3.077,40.7279937,-73.9990184,40.7432601,-73.9799363,148,clear,normal,False,10.089,regular
+WT24_0061,traveler_24,osrm_a_route_17,2025-06-09 19:00:00,2025-06-09 19:05:21.009,car,standard car,22,,,normal,2.929,40.7334905,-73.9898547,40.7475818,-73.9707663,157,clear,normal,False,5.35,regular
+WT24_0062,traveler_24,osrm_a_route_17,2025-06-09 22:00:00,2025-06-09 22:08:34.610,cycling,,22,,,normal,2.943,40.7336604,-73.9898392,40.7478381,-73.9705707,157,clear,normal,False,8.577,regular
+WT24_0063,traveler_24,osrm_a_route_16,2025-06-10 01:00:00,2025-06-10 01:05:28.584,car,standard car,22,,,normal,3.056,40.7199203,-74.0051714,40.7349881,-73.9852695,119,clear,normal,False,5.476,regular
+WT24_0064,traveler_24,osrm_a_route_16,2025-06-10 04:00:00,2025-06-10 04:17:03.360,cycling,,22,,,normal,3.048,40.7198765,-74.0051706,40.7349319,-73.9851368,120,clear,normal,False,17.056,regular
+WT24_0065,traveler_24,osrm_a_route_17,2025-06-10 07:00:00,2025-06-10 07:04:38.753,car,standard car,22,,,normal,2.91,40.741654,-73.985222,40.7549884,-73.9668503,110,clear,normal,False,4.646,regular
+WT24_0066,traveler_24,osrm_a_route_17,2025-06-10 10:00:00,2025-06-10 10:10:11.873,cycling,,22,,,normal,2.909,40.7417269,-73.9851689,40.7550272,-73.9669416,110,clear,normal,False,10.198,regular
+WT24_0067,traveler_24,osrm_a_route_6,2025-06-10 13:00:00,2025-06-10 13:05:41.556,car,standard car,22,,,normal,3.022,40.7585361,-74.0006192,40.758228,-73.9764554,111,clear,normal,False,5.693,regular
+WT24_0068,traveler_24,osrm_a_route_6,2025-06-10 16:00:00,2025-06-10 16:09:54.446,cycling,,22,,,normal,3.031,40.7585062,-74.0005479,40.7581573,-73.9762893,111,clear,normal,False,9.907,regular
+WT24_0069,traveler_24,osrm_a_route_2,2025-06-10 19:00:00,2025-06-10 19:06:05.145,car,standard car,22,,,normal,3.052,40.7066495,-74.0126505,40.7276501,-74.0107,163,clear,normal,False,6.086,regular
+WT24_0070,traveler_24,osrm_a_route_2,2025-06-10 22:00:00,2025-06-10 22:16:37.307,cycling,,22,,,normal,3.044,40.7066288,-74.0126677,40.7276058,-74.0107041,163,clear,normal,False,16.622,regular
+WT24_0071,traveler_24,osrm_a_route_20,2025-06-11 01:00:00,2025-06-11 01:06:00.795,car,standard car,22,,,normal,3.057,40.7331263,-73.98731,40.7501518,-73.9749287,173,clear,normal,False,6.013,regular
+WT24_0072,traveler_24,osrm_a_route_20,2025-06-11 04:00:00,2025-06-11 04:09:34.120,cycling,,22,,,normal,3.055,40.7333341,-73.987161,40.7503454,-73.9747871,172,clear,normal,False,9.569,regular
+WT24_0073,traveler_24,osrm_a_route_20,2025-06-11 07:00:00,2025-06-11 07:05:33.746,car,standard car,22,,,normal,3.053,40.7322864,-73.9889142,40.7483879,-73.9762153,170,clear,normal,False,5.562,regular
+WT24_0074,traveler_24,osrm_a_route_20,2025-06-11 10:00:00,2025-06-11 10:14:49.586,cycling,,22,,,normal,3.063,40.7322375,-73.9887985,40.7485537,-73.9760939,170,clear,normal,False,14.826,regular
+WT24_0075,traveler_24,osrm_a_route_5,2025-06-11 13:00:00,2025-06-11 13:05:36.370,car,standard car,22,,,normal,3.005,40.7579332,-74.0041202,40.7587316,-73.977645,115,clear,normal,False,5.606,regular
+WT24_0076,traveler_24,osrm_a_route_5,2025-06-11 16:00:00,2025-06-11 16:12:53.472,cycling,,22,,,normal,2.998,40.7579982,-74.0040732,40.7587233,-73.9776251,115,clear,normal,False,12.891,regular
+WT24_0077,traveler_24,osrm_a_route_5,2025-06-11 19:00:00,2025-06-11 19:07:16.689,car,standard car,22,,,normal,2.975,40.7556861,-74.0057476,40.7601132,-73.9809013,108,clear,normal,False,7.278,regular
+WT24_0078,traveler_24,osrm_a_route_5,2025-06-11 22:00:00,2025-06-11 22:11:12.330,cycling,,22,,,normal,2.973,40.7557945,-74.0056691,40.7600644,-73.9807845,108,clear,normal,False,11.206,regular
+WT24_0079,traveler_24,osrm_a_route_6,2025-06-12 01:00:00,2025-06-12 01:06:29.202,car,standard car,22,,,normal,2.934,40.7550145,-74.029294,40.7610331,-74.0065572,88,clear,normal,False,6.487,regular
+WT24_0080,traveler_24,osrm_a_route_6,2025-06-12 04:00:00,2025-06-12 04:09:49.457,cycling,,22,,,normal,2.948,40.7549619,-74.0293115,40.7609987,-74.0064755,89,clear,normal,False,9.824,regular
+WT24_0081,traveler_24,osrm_a_route_6,2025-06-12 07:00:00,2025-06-12 07:06:15.707,car,standard car,22,,,normal,3.104,40.7354918,-74.0306983,40.7551347,-74.0292521,133,clear,normal,False,6.262,regular
+WT24_0082,traveler_24,osrm_a_route_6,2025-06-12 10:00:00,2025-06-12 10:12:28.869,cycling,,22,,,normal,3.101,40.735498,-74.0307542,40.755067,-74.0292752,133,clear,normal,False,12.481,regular
+WT24_0083,traveler_24,osrm_b_route_2,2025-06-12 13:00:00,2025-06-12 13:05:24.612,car,standard car,22,,,normal,3.07,40.7546737,-73.9699788,40.7395715,-73.9910384,133,clear,normal,False,5.41,regular
+WT24_0084,traveler_24,osrm_b_route_2,2025-06-12 16:00:00,2025-06-12 16:14:40.143,cycling,,22,,,normal,3.028,40.7547277,-73.9701068,40.7398081,-73.9908659,128,clear,normal,False,14.669,regular
+WT24_0085,traveler_24,osrm_a_route_15,2025-06-12 19:00:00,2025-06-12 19:06:33.866,car,standard car,22,,,normal,4.04,40.7058126,-74.0133503,40.7375058,-74.0098056,192,clear,normal,False,6.564,regular
+WT24_0086,traveler_24,osrm_a_route_15,2025-06-12 22:00:00,2025-06-12 22:10:57.002,cycling,,22,,,normal,4.044,40.705699,-74.0134495,40.7376749,-74.0098137,193,clear,normal,False,10.95,regular
+WT24_0087,traveler_24,osrm_a_route_16,2025-06-13 01:00:00,2025-06-13 01:05:23.047,car,standard car,22,,,normal,3.934,40.7326329,-73.9939091,40.7558114,-73.970723,202,clear,normal,False,5.384,regular
+WT24_0088,traveler_24,osrm_a_route_16,2025-06-13 04:00:00,2025-06-13 04:12:49.566,cycling,,22,,,normal,3.932,40.7326429,-73.9939004,40.7558141,-73.9707298,201,clear,normal,False,12.826,regular
+WT24_0089,traveler_24,osrm_a_route_18,2025-06-13 07:00:00,2025-06-13 07:05:53.406,car,standard car,22,,,normal,3.925,40.7230651,-73.9739326,40.753243,-73.9726697,177,clear,normal,False,5.89,regular
+WT24_0090,traveler_24,osrm_a_route_18,2025-06-13 10:00:00,2025-06-13 10:13:58.528,cycling,,22,,,normal,3.919,40.7229898,-73.9739798,40.7531186,-73.9727605,177,clear,normal,False,13.975,regular
+WT24_0091,traveler_24,osrm_a_route_18,2025-06-13 13:00:00,2025-06-13 13:05:02.896,car,standard car,22,,,normal,4.013,40.7041311,-74.0061002,40.7240141,-73.9733347,117,clear,normal,False,5.048,regular
+WT24_0092,traveler_24,osrm_a_route_18,2025-06-13 16:00:00,2025-06-13 16:15:00.984,cycling,,22,,,normal,3.983,40.7040543,-74.0062198,40.7236662,-73.973554,117,clear,normal,False,15.016,regular
+WT24_0093,traveler_24,osrm_a_route_20,2025-06-13 19:00:00,2025-06-13 19:05:51.784,car,standard car,22,,,normal,3.983,40.7330723,-73.9935205,40.7518744,-73.9736685,209,clear,normal,False,5.863,regular
+WT24_0094,traveler_24,osrm_a_route_20,2025-06-13 22:00:00,2025-06-13 22:12:30.141,cycling,,22,,,normal,3.983,40.7331274,-73.9934732,40.751932,-73.9736264,209,clear,normal,False,12.502,regular
+WT24_0095,traveler_24,osrm_a_route_20,2025-06-14 01:00:00,2025-06-14 01:05:30.378,car,standard car,22,,,normal,4.052,40.7273082,-73.999607,40.7453733,-73.9783957,196,clear,normal,False,5.506,regular
+WT24_0096,traveler_24,osrm_a_route_20,2025-06-14 04:00:00,2025-06-14 04:16:10.603,cycling,,22,,,normal,4.039,40.727259,-73.9996492,40.7452139,-73.9785107,195,clear,normal,False,16.177,regular
+WT24_0097,traveler_24,osrm_a_route_20,2025-06-14 07:00:00,2025-06-14 07:05:32.568,car,standard car,22,,,normal,3.922,40.7100711,-74.0114047,40.7341434,-73.9865721,190,clear,normal,False,5.543,regular
+WT24_0098,traveler_24,osrm_a_route_20,2025-06-14 10:00:00,2025-06-14 10:11:58.449,cycling,,22,,,normal,3.912,40.7100888,-74.0113933,40.7340782,-73.9866198,189,clear,normal,False,11.974,regular
+WT24_0099,traveler_24,osrm_a_route_3,2025-06-14 13:00:00,2025-06-14 13:07:13.701,car,standard car,22,,,normal,3.952,40.725735,-74.0109443,40.7533243,-74.0074558,192,clear,normal,False,7.228,regular
+WT24_0100,traveler_24,osrm_a_route_3,2025-06-14 16:00:00,2025-06-14 16:15:06.564,cycling,,22,,,normal,3.959,40.7257191,-74.0109474,40.7532773,-74.0074735,192,clear,normal,False,15.109,regular
+WT24_0101,traveler_24,osrm_a_route_8,2025-06-14 19:00:00,2025-06-14 19:05:38.535,car,standard car,22,,,normal,4.058,40.7319088,-73.945101,40.7562623,-73.9529252,138,clear,normal,False,5.642,regular
+WT24_0102,traveler_24,osrm_a_route_8,2025-06-14 22:00:00,2025-06-14 22:09:14.330,cycling,,22,,,normal,4.042,40.7319009,-73.9451229,40.7561787,-73.9527328,138,clear,normal,False,9.239,regular
+WT24_0103,traveler_24,osrm_a_route_6,2025-06-15 01:00:00,2025-06-15 01:05:32.175,car,standard car,22,,,normal,3.995,40.7368911,-74.0308503,40.7665194,-74.0195988,168,clear,normal,False,5.536,regular
+WT24_0104,traveler_24,osrm_a_route_6,2025-06-15 04:00:00,2025-06-15 04:15:01.706,cycling,,22,,,normal,3.966,40.7369131,-74.0309832,40.7665964,-74.0197817,166,clear,normal,False,15.028,regular
+WT24_0105,traveler_24,osrm_a_route_8,2025-06-15 07:00:00,2025-06-15 07:05:58.706,car,standard car,22,,,normal,3.962,40.7080582,-73.9994508,40.6970457,-73.9627155,130,clear,normal,False,5.978,regular
+WT24_0106,traveler_24,osrm_a_route_8,2025-06-15 10:00:00,2025-06-15 10:10:08.372,cycling,,22,,,normal,3.949,40.7082415,-73.9996812,40.6967239,-73.9629586,128,clear,normal,False,10.14,regular
+WT24_0107,traveler_24,osrm_a_route_8,2025-06-15 13:00:00,2025-06-15 13:05:06.936,car,standard car,22,,,normal,4.019,40.7197398,-73.9443328,40.7488499,-73.9373161,171,clear,normal,False,5.116,regular
+WT24_0108,traveler_24,osrm_a_route_8,2025-06-15 16:00:00,2025-06-15 16:14:05.671,cycling,,22,,,normal,4.012,40.7197387,-73.9443337,40.7487932,-73.9372586,170,clear,normal,False,14.095,regular
+WT24_0109,traveler_24,osrm_a_route_8,2025-06-15 19:00:00,2025-06-15 19:07:25.094,car,standard car,22,,,normal,4.035,40.7178101,-73.9479162,40.7462958,-73.9346999,183,clear,normal,False,7.418,regular
+WT24_0110,traveler_24,osrm_a_route_8,2025-06-15 22:00:00,2025-06-15 22:11:11.526,cycling,,22,,,normal,4.078,40.7178339,-73.9478791,40.7466333,-73.935035,183,clear,normal,False,11.192,regular
+WT24_0111,traveler_24,osrm_b_route_1,2025-06-16 01:00:00,2025-06-16 01:04:57.456,car,standard car,22,,,normal,3.997,40.7181044,-73.9751209,40.7082649,-74.0111477,154,clear,normal,False,4.958,regular
+WT24_0112,traveler_24,osrm_b_route_1,2025-06-16 04:00:00,2025-06-16 04:11:57.596,cycling,,22,,,normal,3.976,40.7180582,-73.9751318,40.7081751,-74.0109962,153,clear,normal,False,11.96,regular
+WT24_0113,traveler_24,osrm_a_route_2,2025-06-16 07:00:00,2025-06-16 07:09:54.215,car,standard car,22,,,normal,4.999,40.7455563,-74.0081044,40.7564135,-73.9721598,205,clear,normal,False,9.904,regular
+WT24_0114,traveler_24,osrm_a_route_2,2025-06-16 10:00:00,2025-06-16 10:20:03.763,cycling,,22,,,normal,4.999,40.7455847,-74.0080991,40.7563969,-73.9721199,205,clear,normal,False,20.063,regular
+WT24_0115,traveler_24,osrm_a_route_8,2025-06-16 13:00:00,2025-06-16 13:12:56.804,car,standard car,22,,,normal,5.004,40.7089168,-74.0005301,40.7047393,-73.9591473,142,clear,normal,False,12.947,regular
+WT24_0116,traveler_24,osrm_a_route_8,2025-06-16 16:00:00,2025-06-16 16:16:24.567,cycling,,22,,,normal,5.004,40.7088761,-74.0004789,40.7047914,-73.9591179,142,clear,normal,False,16.409,regular
+WT24_0117,traveler_24,osrm_a_route_2,2025-06-16 19:00:00,2025-06-16 19:10:26.677,car,standard car,22,,,normal,4.971,40.728376,-74.0106267,40.7550021,-74.0062438,286,clear,normal,False,10.445,regular
+WT24_0118,traveler_24,osrm_a_route_2,2025-06-16 22:00:00,2025-06-16 22:30:29.708,cycling,,22,,,normal,4.98,40.7282508,-74.0106401,40.7549646,-74.006271,286,clear,normal,False,30.495,regular
+WT24_0119,traveler_24,osrm_a_route_20,2025-06-17 01:00:00,2025-06-17 01:10:30.164,car,standard car,22,,,normal,4.992,40.712351,-74.0099049,40.7377485,-73.9839448,244,clear,normal,False,10.503,regular
+WT24_0120,traveler_24,osrm_a_route_20,2025-06-17 04:00:00,2025-06-17 04:21:36.677,cycling,,22,,,normal,4.993,40.7123075,-74.0099384,40.7377108,-73.9839723,245,clear,normal,False,21.611,regular
+WT24_0121,traveler_24,osrm_a_route_20,2025-06-17 07:00:00,2025-06-17 07:09:07.714,car,standard car,22,,,normal,4.978,40.7288171,-73.9983261,40.7542321,-73.9719466,250,clear,normal,False,9.129,regular
+WT24_0122,traveler_24,osrm_a_route_20,2025-06-17 10:00:00,2025-06-17 10:22:48.494,cycling,,22,,,normal,4.978,40.728732,-73.9984017,40.754145,-73.9720101,251,clear,normal,False,22.808,regular
+WT24_0123,traveler_24,osrm_a_route_4,2025-06-17 13:00:00,2025-06-17 13:08:54.945,car,standard car,22,,,normal,4.908,40.7290619,-74.0105638,40.7547051,-73.9990678,226,clear,normal,False,8.916,regular
+WT24_0124,traveler_24,osrm_a_route_4,2025-06-17 16:00:00,2025-06-17 16:17:06.926,cycling,,22,,,normal,4.908,40.7289418,-74.0105748,40.7545986,-73.9991437,225,clear,normal,False,17.115,regular
+WT24_0125,traveler_24,osrm_a_route_4,2025-06-17 19:00:00,2025-06-17 19:09:10.485,car,standard car,22,,,normal,4.992,40.7249163,-74.0111097,40.7517116,-74.0012372,221,clear,normal,False,9.175,regular
+WT24_0126,traveler_24,osrm_a_route_4,2025-06-17 22:00:00,2025-06-17 22:13:43.288,cycling,,22,,,normal,4.98,40.7249046,-74.0111121,40.7516097,-74.0013095,221,clear,normal,False,13.721,regular
+WT24_0127,traveler_24,osrm_a_route_8,2025-06-18 01:00:00,2025-06-18 01:08:55.699,car,standard car,22,,,normal,4.911,40.7085284,-74.0000419,40.7044667,-73.959301,142,clear,normal,False,8.928,regular
+WT24_0128,traveler_24,osrm_a_route_8,2025-06-18 04:00:00,2025-06-18 04:16:46.696,cycling,,22,,,normal,4.929,40.7085264,-74.0000393,40.7046159,-73.9592168,142,clear,normal,False,16.778,regular
+WT24_0129,traveler_24,osrm_a_route_7,2025-06-18 07:00:00,2025-06-18 07:09:42.235,car,standard car,22,,,normal,4.989,40.7380674,-74.0098535,40.7639584,-73.9900551,244,clear,normal,False,9.704,regular
+WT24_0130,traveler_24,osrm_a_route_7,2025-06-18 10:00:00,2025-06-18 10:22:45.507,cycling,,22,,,normal,4.985,40.7381075,-74.0098591,40.763957,-73.9900516,244,clear,normal,False,22.758,regular
+WT24_0131,traveler_24,osrm_b_route_1,2025-06-18 13:00:00,2025-06-18 13:07:22.606,car,standard car,22,,,normal,5.055,40.7355927,-73.9750177,40.7089813,-74.0023271,187,clear,normal,False,7.377,regular
+WT24_0132,traveler_24,osrm_b_route_1,2025-06-18 16:00:00,2025-06-18 16:29:24.401,cycling,,22,,,normal,5.016,40.7357809,-73.9750501,40.7093653,-74.0018203,187,clear,normal,False,29.407,regular
+WT24_0133,traveler_24,osrm_a_route_8,2025-06-18 19:00:00,2025-06-18 19:12:42.669,car,standard car,22,,,normal,4.972,40.731601,-73.945488,40.7600759,-73.9617701,143,clear,normal,False,12.711,regular
+WT24_0134,traveler_24,osrm_a_route_8,2025-06-18 22:00:00,2025-06-18 22:18:58.182,cycling,,22,,,normal,4.981,40.7317621,-73.9455057,40.7601967,-73.9620554,141,clear,normal,False,18.97,regular
+WT24_0135,traveler_24,osrm_b_route_3,2025-06-19 01:00:00,2025-06-19 01:09:57.539,car,standard car,22,,,normal,5.003,40.7547305,-73.9701134,40.7306575,-73.9923649,261,clear,normal,False,9.959,regular
+WT24_0136,traveler_24,osrm_b_route_3,2025-06-19 04:00:00,2025-06-19 04:19:56.785,cycling,,22,,,normal,5.02,40.7547601,-73.9701835,40.7304781,-73.9925182,264,clear,normal,False,19.946,regular
+WT24_0137,traveler_24,osrm_b_route_2,2025-06-19 07:00:00,2025-06-19 07:08:26.321,car,standard car,22,,,normal,5.035,40.7554787,-73.9680835,40.7333228,-73.9913706,188,clear,normal,False,8.439,regular
+WT24_0138,traveler_24,osrm_b_route_2,2025-06-19 10:00:00,2025-06-19 10:23:46.230,cycling,,22,,,normal,5.031,40.7554869,-73.968025,40.733374,-73.9914921,189,clear,normal,False,23.771,regular
+WT24_0139,traveler_24,osrm_b_route_2,2025-06-19 13:00:00,2025-06-19 13:10:53.421,car,standard car,22,,,normal,4.99,40.7549876,-73.9684406,40.7332496,-73.9911973,186,clear,normal,False,10.89,regular
+WT24_0140,traveler_24,osrm_b_route_2,2025-06-19 16:00:00,2025-06-19 16:17:53.839,cycling,,22,,,normal,4.987,40.7550413,-73.9684013,40.7332917,-73.9912968,185,clear,normal,False,17.897,regular
+WT24_0141,traveler_24,osrm_a_route_3,2025-06-19 19:00:00,2025-06-19 19:08:51.990,car,standard car,22,,,normal,6.085,40.7153677,-74.0131785,40.7483599,-74.0036805,259,clear,normal,False,8.867,regular
+WT24_0142,traveler_24,osrm_a_route_3,2025-06-19 22:00:00,2025-06-19 22:23:11.754,cycling,,22,,,normal,6.091,40.7152413,-74.0132078,40.7482924,-74.0037304,258,clear,normal,False,23.196,regular
+WT24_0143,traveler_24,osrm_a_route_3,2025-06-20 01:00:00,2025-06-20 01:10:37.606,car,standard car,22,,,normal,6.024,40.7308727,-74.0103876,40.7615866,-73.9940434,296,clear,normal,False,10.627,regular
+WT24_0144,traveler_24,osrm_a_route_3,2025-06-20 04:00:00,2025-06-20 04:26:33.881,cycling,,22,,,normal,6.009,40.7307069,-74.0104036,40.7613201,-73.9942375,294,clear,normal,False,26.565,regular
+WT24_0145,traveler_24,osrm_a_route_3,2025-06-20 07:00:00,2025-06-20 07:11:52.823,car,standard car,22,,,normal,6.03,40.7131724,-74.0139046,40.7486756,-74.0064882,268,clear,normal,False,11.88,regular
+WT24_0146,traveler_24,osrm_a_route_3,2025-06-20 10:00:00,2025-06-20 10:22:24.257,cycling,,22,,,normal,6.026,40.7133856,-74.0138283,40.7485859,-74.0062739,266,clear,normal,False,22.404,regular
+WT24_0147,traveler_24,osrm_a_route_3,2025-06-20 13:00:00,2025-06-20 13:08:04.833,car,standard car,22,,,normal,5.926,40.7314156,-74.0103365,40.7612898,-73.9942597,290,clear,normal,False,8.081,regular
+WT24_0148,traveler_24,osrm_a_route_3,2025-06-20 16:00:00,2025-06-20 16:19:16.833,cycling,,22,,,normal,5.964,40.7313432,-74.0103427,40.7615304,-73.9940844,292,clear,normal,False,19.281,regular
+WT24_0149,traveler_24,osrm_a_route_4,2025-06-20 19:00:00,2025-06-20 19:10:04.534,car,standard car,22,,,normal,5.92,40.7383337,-74.0098904,40.7573923,-73.9822523,260,clear,normal,False,10.076,regular
+WT24_0150,traveler_24,osrm_a_route_4,2025-06-20 22:00:00,2025-06-20 22:20:00.170,cycling,,22,,,normal,5.886,40.7383713,-74.0098957,40.7575196,-73.9825616,258,clear,normal,False,20.003,regular
+WT24_0151,traveler_24,osrm_a_route_5,2025-06-21 01:00:00,2025-06-21 01:10:44.108,car,standard car,22,,,normal,6.018,40.7427507,-74.0086287,40.7588209,-73.9778587,236,clear,normal,False,10.735,regular
+WT24_0152,traveler_24,osrm_a_route_5,2025-06-21 04:00:00,2025-06-21 04:19:48.050,cycling,,22,,,normal,5.999,40.7427528,-74.0086282,40.7589042,-73.9780566,235,clear,normal,False,19.801,regular
+WT24_0153,traveler_24,osrm_a_route_6,2025-06-21 07:00:00,2025-06-21 07:11:53.099,car,standard car,22,,,normal,5.926,40.7370115,-74.0315526,40.7578264,-73.9989313,165,clear,normal,False,11.885,regular
+WT24_0154,traveler_24,osrm_a_route_6,2025-06-21 10:00:00,2025-06-21 10:25:08.956,cycling,,22,,,normal,5.924,40.7369936,-74.0314503,40.7578729,-73.999042,165,clear,normal,False,25.149,regular
+WT24_0155,traveler_24,osrm_a_route_1,2025-06-21 13:00:00,2025-06-21 13:09:32.998,car,standard car,22,,,normal,6.06,40.7286802,-74.0105987,40.7634684,-73.9991302,331,clear,normal,False,9.55,regular
+WT24_0156,traveler_24,osrm_a_route_1,2025-06-21 16:00:00,2025-06-21 16:22:35.144,cycling,,22,,,normal,6.056,40.7286498,-74.0106015,40.763416,-73.9991867,331,clear,normal,False,22.586,regular
+WT24_0157,traveler_24,osrm_b_route_4,2025-06-21 19:00:00,2025-06-21 19:10:23.581,car,standard car,22,,,normal,6.039,40.7555798,-73.9793663,40.7298409,-74.0107072,251,clear,normal,False,10.393,regular
+WT24_0158,traveler_24,osrm_b_route_4,2025-06-21 22:00:00,2025-06-21 22:19:08.813,cycling,,22,,,normal,6.036,40.7555513,-73.9793877,40.7298327,-74.010708,251,clear,normal,False,19.147,regular
+WT24_0159,traveler_24,osrm_b_route_5,2025-06-22 01:00:00,2025-06-22 01:09:58.662,car,standard car,22,,,normal,6.008,40.758044,-73.9702061,40.7426681,-74.0088386,242,clear,normal,False,9.978,regular
+WT24_0160,traveler_24,osrm_b_route_5,2025-06-22 04:00:00,2025-06-22 04:20:17.633,cycling,,22,,,normal,6.03,40.758051,-73.9702224,40.7424533,-74.0088854,244,clear,normal,False,20.294,regular
+WT24_0161,traveler_24,osrm_b_route_3,2025-06-22 07:00:00,2025-06-22 07:10:19.625,car,standard car,22,,,normal,6.039,40.7540875,-73.9666608,40.7275607,-73.9949765,305,clear,normal,False,10.327,regular
+WT24_0162,traveler_24,osrm_b_route_3,2025-06-22 10:00:00,2025-06-22 10:24:52.536,cycling,,22,,,normal,6.055,40.7541176,-73.9667317,40.7274965,-73.995031,305,clear,normal,False,24.876,regular
+WT24_0163,traveler_24,osrm_b_route_4,2025-06-22 13:00:00,2025-06-22 13:12:18.328,car,standard car,22,,,normal,5.929,40.7578838,-73.9775996,40.7335425,-74.0103552,252,clear,normal,False,12.305,regular
+WT24_0164,traveler_24,osrm_b_route_4,2025-06-22 16:00:00,2025-06-22 16:20:02.245,cycling,,22,,,normal,5.943,40.7578621,-73.977548,40.7334584,-74.0103629,252,clear,normal,False,20.037,regular
+WT24_0165,traveler_24,osrm_b_route_4,2025-06-22 19:00:00,2025-06-22 19:08:28.073,car,standard car,22,,,normal,5.969,40.7548451,-73.9665128,40.7432596,-74.0087201,226,clear,normal,False,8.468,regular
+WT24_0166,traveler_24,osrm_b_route_4,2025-06-22 22:00:00,2025-06-22 22:29:14.475,cycling,,22,,,normal,5.987,40.7549221,-73.9666941,40.7429454,-74.0087846,228,clear,normal,False,29.241,regular
+WT24_0167,traveler_24,osrm_b_route_4,2025-06-23 01:00:00,2025-06-23 01:11:04.930,car,standard car,22,,,normal,6.061,40.7552762,-73.9714072,40.7377118,-74.0100353,253,clear,normal,False,11.082,regular
+WT24_0168,traveler_24,osrm_b_route_4,2025-06-23 04:00:00,2025-06-23 04:17:21.307,cycling,,22,,,normal,6.071,40.7552502,-73.971345,40.7376724,-74.0100327,256,clear,normal,False,17.355,regular
+WT24_0169,traveler_24,osrm_a_route_1,2025-06-23 07:00:00,2025-06-23 07:01:38.436,cycling,,22,,,normal,0.908,40.7053375,-74.0137489,40.7101939,-74.0146215,88,clear,normal,True,1.641,short_cycling_exception
+WT24_0170,traveler_24,osrm_a_route_10,2025-06-23 10:00:00,2025-06-23 10:01:33.882,cycling,,22,,,normal,0.887,40.7070864,-74.0122857,40.7017523,-74.011318,63,clear,normal,True,1.565,short_cycling_exception
+WT24_0171,traveler_24,osrm_a_route_11,2025-06-23 13:00:00,2025-06-23 13:02:06.576,cycling,,22,,,normal,1.165,40.7059765,-74.0132104,40.7117244,-74.0142496,103,clear,normal,True,2.11,short_cycling_exception
+WT24_0172,traveler_24,osrm_a_route_12,2025-06-23 16:00:00,2025-06-23 16:01:52.729,cycling,,22,,,normal,1.064,40.706186,-74.0141427,40.7144636,-74.0082952,89,clear,normal,True,1.879,short_cycling_exception

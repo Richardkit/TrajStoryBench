@@ -1,0 +1,129 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/07_kattegat_ferry_traffic_patterns/trajectory_points.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Danish_AIS/07_kattegat_ferry_traffic_patterns/ferry_vessels.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Danish_AIS/07_kattegat_ferry_traffic_patterns/ferry_vessels.csv",
+      "role": "Static identity and characteristics of the two ferries, linked by vessel_id"
+    },
+    {
+      "path": "trajstory_examples/insight/Danish_AIS/07_kattegat_ferry_traffic_patterns/trip_weights.csv",
+      "role": "Representative annual movement weights linked by trajectory_id"
+    },
+    {
+      "path": "trajstory_examples/insight/Danish_AIS/07_kattegat_ferry_traffic_patterns/landmarks.csv",
+      "role": "Grenaa and Varberg port approaches, Anholt island reference for route-side comparison, and Anholt Harbour entrance"
+    }
+  ],
+  "metadata": {
+    "goal": "To detect and investigate movement patterns of ferry traffic with given trajectories of ferry vessels in this area.",
+    "role": "Maritime traffic analyst",
+    "category": "Kattegat ferry traffic and route change",
+    "header": "Kattegat Ferry Services, North/South Passages, and a Later Southern Route",
+    "dataset_description": "This derived case contains AIS-like trajectories for the two Section 9.3 ferry services, M/F Anholt and Stena Nautica, together with vessel attributes, landmark locations, and representative annual-passage weights. The named services and the 300/900 north/south annual movement pattern follow Section 9.3 and Figures 9-13–9-15 of risk_to_ship_traffic.pdf. The later, more southerly Stena Nautica route is included for the third insight.",
+    "source_note": "Raw 2026 AIS provides the field structure; historical ferry names, service relationships, and annual movement proportions are drawn from the cited report.",
+    "motion_construction_note": "Constructed representative passages, not observed 2026 sailing schedules. Segment times integrate endpoint SOG; latitude/longitude, course and timestamps describe the same motion."
+  },
+  "insight_list": [
+    {
+      "data_type": "ferry_service_identification",
+      "insight": "Two ferry services operate in the area: M/F Anholt runs between Grenaa and Anholt, while Stena Nautica runs between Grenaa and Varberg.",
+      "insight_value": {
+        "ferries": [
+          {
+            "name": "M/F Anholt",
+            "service": "Grenaa–Anholt"
+          },
+          {
+            "name": "Stena Nautica",
+            "service": "Grenaa–Varberg"
+          }
+        ]
+      },
+      "plot": {
+        "plot_type": "geographic_service_map",
+        "title": "Two Kattegat Ferry Services",
+        "file": "visualizations/ferry_services_map.png",
+        "description": "The two services form distinct recurrent movement patterns around Grenaa, Anholt, and Varberg."
+      },
+      "question": "Which distinct ferry services can be identified from the vessel identities, recurring trajectories, and supplied landmark locations?",
+      "code": "import pandas as pd\nimport numpy as np\nfrom pathlib import Path\npoints = pd.read_csv(dataset_path)\npoints['timestamp'] = pd.to_datetime(points['timestamp'])\nlandmarks = pd.read_csv(Path(dataset_path).with_name('landmarks.csv')).set_index('landmark_id')\nferries = pd.read_csv(user_dataset_path)\nports = landmarks.loc[['grenaa', 'anholt_port', 'varberg']]\nvisits = []\nfor trip, group in points.groupby('trajectory_id'):\n    ordered = group.sort_values('timestamp')\n    ends = []\n    for row in [ordered.iloc[0], ordered.iloc[-1]]:\n        # A local distance approximation is sufficient for nearest-reference\n        # assignment; Grenaa and Varberg are offshore approach references.\n        d2 = ((ports.lon-row.lon)*np.cos(np.radians(row.lat)))**2 + (ports.lat-row.lat)**2\n        ends.append(ports.loc[d2.idxmin(), 'landmark_name'])\n    visits.append({'trajectory_id': trip, 'vessel_id': ordered.vessel_id.iloc[0],\n                   'departure': ordered.timestamp.iloc[0], 'from': ends[0], 'to': ends[1]})\nservice_endpoints = pd.DataFrame(visits).merge(ferries[['vessel_id','ferry_name']], on='vessel_id', validate='many_to_one')\nprint(service_endpoints[['ferry_name','from','to']].value_counts().to_string())\n",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "vessel_id",
+        "gps_position",
+        "landmark_location",
+        "trajectory_timestamp"
+      ]
+    },
+    {
+      "data_type": "spatial_frequency_comparison",
+      "insight": "The Grenaa–Varberg ferry represented by Stena Nautica has approximately 300 annual movements north of Anholt and 900 south of Anholt.",
+      "insight_value": {
+        "north_of_anholt": 300,
+        "south_of_anholt": 900,
+        "north_to_south_ratio": "1:3"
+      },
+      "plot": {
+        "plot_type": "map_and_lollipop_comparison",
+        "title": "Stena Nautica North/South Passage Pattern",
+        "file": "visualizations/stena_north_south_frequency.png",
+        "description": "The map separates Stena Nautica trajectories north and south of Anholt; each representative trajectory carries an annual-passage weight in trip_weights.csv."
+      },
+      "question": "How do the annualized Grenaa–Varberg ferry movements compare between passages north and south of Anholt?",
+      "code": "import pandas as pd\nimport numpy as np\nfrom pathlib import Path\npoints = pd.read_csv(dataset_path)\npoints['timestamp'] = pd.to_datetime(points['timestamp'])\nlandmarks = pd.read_csv(Path(dataset_path).with_name('landmarks.csv')).set_index('landmark_id')\nweights = pd.read_csv(Path(dataset_path).with_name('trip_weights.csv'))\nstena = points[points.vessel_id.eq('ferry_stena_nautica')]\nanholt = landmarks.loc['anholt']\nmid = stena[stena.lon.between(anholt.lon-0.12, anholt.lon+0.08)]\nsides = mid.groupby('trajectory_id').lat.mean().gt(anholt.lat).map({True:'north',False:'south'}).rename('side')\nannual_movements = weights.merge(sides, on='trajectory_id', validate='one_to_one').groupby('side').represented_annual_movements.sum()\nprint('Observed representative passages:', sides.value_counts().to_dict())\nprint('Represented annual movements:', annual_movements.to_dict())\n",
+      "insight_type": "group_comparison",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "vessel_id",
+        "gps_position",
+        "landmark_location",
+        "annual_movement_weight",
+        "trajectory_timestamp"
+      ]
+    },
+    {
+      "data_type": "temporal_route_change",
+      "insight": "The central turning point of Stena Nautica's Grenaa–Varberg passages south of Anholt shifts southward.",
+      "insight_value": {
+        "change_time": "2026-07-18 00:00",
+        "service": "Stena Nautica Grenaa–Varberg",
+        "turn_shift_south_km": 4.5,
+        "measurement": "Mean latitude displacement of fitted dominant turning vertices; circular COG change locates each bend, and adjoining GPS arms locate its vertex."
+      },
+      "plot": {
+        "plot_type": "temporal_route_comparison",
+        "title": "Later Southward Shift in the Stena Nautica Southern Route",
+        "file": "visualizations/post_change_diversion.png",
+        "description": "Earlier and later southern routes, fitted main turning vertices, and COG profiles normalized to eastward travel. North-south vertex displacement is about 4.5 km."
+      },
+      "question": "Does the Grenaa–Varberg ferry route south of Anholt change over time, and if so, how does its turning point shift after the change?",
+      "code": "import pandas as pd\nimport numpy as np\nfrom pathlib import Path\npoints = pd.read_csv(dataset_path)\npoints['timestamp'] = pd.to_datetime(points['timestamp'])\nlandmarks = pd.read_csv(Path(dataset_path).with_name('landmarks.csv')).set_index('landmark_id')\ndef fit_turns(points):\n    \"\"\"Estimate the dominant southern turning vertex from east-oriented arms.\"\"\"\n    frame=pd.DataFrame(points);result=[]\n    for trip,g in frame[frame.vessel_id.eq('ferry_stena_nautica')].groupby('trajectory_id'):\n        if g[g.lon.between(11.45,11.65)].lat.mean()>float(landmarks.loc['anholt', 'lat']):continue\n        g=g.sort_values('point_index')\n        if g.lon.iloc[0]>g.lon.iloc[-1]:g=g.iloc[::-1]\n        x,y=g.lon.to_numpy(),g.lat.to_numpy()\n        # Circular COG change locates the turn; fit GPS arms beyond its sampled\n        # smoothing window to estimate the physical vertex.\n        cog=g.cog.to_numpy();angle=np.abs((cog[2:]-cog[:-2]+180)%360-180)\n        eligible=np.flatnonzero((x[1:-1]>11.15)&(x[1:-1]<11.9));i=eligible[np.argmax(angle[eligible])]+1\n        left=np.polyfit(x[i-5:i-1],y[i-5:i-1],1);right=np.polyfit(x[i+2:i+6],y[i+2:i+6],1)\n        lon=(right[1]-left[1])/(left[0]-right[0]);lat=np.polyval(left,lon)\n        result.append(dict(trajectory_id=trip,period='later' if pd.to_datetime(g.timestamp).min()>=pd.Timestamp('2026-07-18') else 'earlier',lon=float(lon),lat=float(lat)))\n    return pd.DataFrame(result)\n\nturns = fit_turns(points)\nmean_turn_lat = turns.groupby('period').lat.mean()\n# North-south displacement on the same spherical Earth as the motion checks.\nturn_shift_south_km = float(np.radians(mean_turn_lat['earlier']-mean_turn_lat['later'])*6371.0088)\nprint(turns.to_string(index=False))\nprint(f'Mean dominant turning vertex shifts south by {turn_shift_south_km:.3f} km.')\n",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "vessel_id",
+        "gps_position",
+        "landmark_location",
+        "trajectory_timestamp",
+        "course_over_ground"
+      ]
+    }
+  ],
+  "insights": [
+    "Two ferry services operate in the area: M/F Anholt runs between Grenaa and Anholt, while Stena Nautica runs between Grenaa and Varberg.",
+    "The Grenaa–Varberg ferry represented by Stena Nautica has approximately 300 annual movements north of Anholt and 900 south of Anholt.",
+    "The central turning point of Stena Nautica's Grenaa–Varberg passages south of Anholt shifts southward."
+  ],
+  "summary": "Two recurrent ferry services connect Grenaa with Anholt and Varberg. Stena Nautica’s Grenaa–Varberg service is much more concentrated south of Anholt than north of it. In the later period, its south-of-Anholt route shifts to a second, more southerly turning pattern before continuing toward Varberg."
+}

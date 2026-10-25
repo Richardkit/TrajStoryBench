@@ -1,0 +1,865 @@
+driver_id,observation_date,day_type,weather_condition,time_period,completed_trip_count
+driver_01,2014-09-02,weekday,dry,morning,4
+driver_01,2014-09-02,weekday,dry,midday,1
+driver_01,2014-09-02,weekday,dry,evening,0
+driver_01,2014-09-02,weekday,dry,late night,0
+driver_01,2014-09-10,weekday,dry,morning,5
+driver_01,2014-09-10,weekday,dry,midday,1
+driver_01,2014-09-10,weekday,dry,evening,0
+driver_01,2014-09-10,weekday,dry,late night,0
+driver_01,2014-09-18,weekday,dry,morning,6
+driver_01,2014-09-18,weekday,dry,midday,1
+driver_01,2014-09-18,weekday,dry,evening,0
+driver_01,2014-09-18,weekday,dry,late night,0
+driver_01,2014-10-02,weekday,rainy,morning,4
+driver_01,2014-10-02,weekday,rainy,midday,1
+driver_01,2014-10-02,weekday,rainy,evening,0
+driver_01,2014-10-02,weekday,rainy,late night,0
+driver_01,2014-10-10,weekday,rainy,morning,5
+driver_01,2014-10-10,weekday,rainy,midday,1
+driver_01,2014-10-10,weekday,rainy,evening,1
+driver_01,2014-10-10,weekday,rainy,late night,0
+driver_01,2014-10-14,weekday,rainy,morning,6
+driver_01,2014-10-14,weekday,rainy,midday,1
+driver_01,2014-10-14,weekday,rainy,evening,0
+driver_01,2014-10-14,weekday,rainy,late night,0
+driver_01,2014-09-06,weekend,dry,morning,1
+driver_01,2014-09-06,weekend,dry,midday,4
+driver_01,2014-09-06,weekend,dry,evening,0
+driver_01,2014-09-06,weekend,dry,late night,0
+driver_01,2014-09-14,weekend,dry,morning,1
+driver_01,2014-09-14,weekend,dry,midday,5
+driver_01,2014-09-14,weekend,dry,evening,0
+driver_01,2014-09-14,weekend,dry,late night,0
+driver_01,2014-09-20,weekend,dry,morning,1
+driver_01,2014-09-20,weekend,dry,midday,6
+driver_01,2014-09-20,weekend,dry,evening,0
+driver_01,2014-09-20,weekend,dry,late night,0
+driver_01,2014-10-04,weekend,rainy,morning,1
+driver_01,2014-10-04,weekend,rainy,midday,4
+driver_01,2014-10-04,weekend,rainy,evening,0
+driver_01,2014-10-04,weekend,rainy,late night,0
+driver_01,2014-10-12,weekend,rainy,morning,1
+driver_01,2014-10-12,weekend,rainy,midday,5
+driver_01,2014-10-12,weekend,rainy,evening,0
+driver_01,2014-10-12,weekend,rainy,late night,0
+driver_01,2014-10-18,weekend,rainy,morning,1
+driver_01,2014-10-18,weekend,rainy,midday,6
+driver_01,2014-10-18,weekend,rainy,evening,0
+driver_01,2014-10-18,weekend,rainy,late night,0
+driver_02,2014-09-02,weekday,dry,morning,1
+driver_02,2014-09-02,weekday,dry,midday,5
+driver_02,2014-09-02,weekday,dry,evening,1
+driver_02,2014-09-02,weekday,dry,late night,0
+driver_02,2014-09-10,weekday,dry,morning,1
+driver_02,2014-09-10,weekday,dry,midday,6
+driver_02,2014-09-10,weekday,dry,evening,1
+driver_02,2014-09-10,weekday,dry,late night,0
+driver_02,2014-09-18,weekday,dry,morning,0
+driver_02,2014-09-18,weekday,dry,midday,5
+driver_02,2014-09-18,weekday,dry,evening,1
+driver_02,2014-09-18,weekday,dry,late night,0
+driver_02,2014-10-02,weekday,rainy,morning,0
+driver_02,2014-10-02,weekday,rainy,midday,6
+driver_02,2014-10-02,weekday,rainy,evening,4
+driver_02,2014-10-02,weekday,rainy,late night,0
+driver_02,2014-10-10,weekday,rainy,morning,1
+driver_02,2014-10-10,weekday,rainy,midday,6
+driver_02,2014-10-10,weekday,rainy,evening,4
+driver_02,2014-10-10,weekday,rainy,late night,0
+driver_02,2014-10-14,weekday,rainy,morning,0
+driver_02,2014-10-14,weekday,rainy,midday,5
+driver_02,2014-10-14,weekday,rainy,evening,4
+driver_02,2014-10-14,weekday,rainy,late night,0
+driver_02,2014-09-06,weekend,dry,morning,0
+driver_02,2014-09-06,weekend,dry,midday,6
+driver_02,2014-09-06,weekend,dry,evening,1
+driver_02,2014-09-06,weekend,dry,late night,0
+driver_02,2014-09-14,weekend,dry,morning,1
+driver_02,2014-09-14,weekend,dry,midday,6
+driver_02,2014-09-14,weekend,dry,evening,1
+driver_02,2014-09-14,weekend,dry,late night,0
+driver_02,2014-09-20,weekend,dry,morning,0
+driver_02,2014-09-20,weekend,dry,midday,5
+driver_02,2014-09-20,weekend,dry,evening,1
+driver_02,2014-09-20,weekend,dry,late night,0
+driver_02,2014-10-04,weekend,rainy,morning,0
+driver_02,2014-10-04,weekend,rainy,midday,6
+driver_02,2014-10-04,weekend,rainy,evening,4
+driver_02,2014-10-04,weekend,rainy,late night,0
+driver_02,2014-10-12,weekend,rainy,morning,1
+driver_02,2014-10-12,weekend,rainy,midday,6
+driver_02,2014-10-12,weekend,rainy,evening,4
+driver_02,2014-10-12,weekend,rainy,late night,0
+driver_02,2014-10-18,weekend,rainy,morning,0
+driver_02,2014-10-18,weekend,rainy,midday,5
+driver_02,2014-10-18,weekend,rainy,evening,4
+driver_02,2014-10-18,weekend,rainy,late night,0
+driver_03,2014-09-02,weekday,dry,morning,0
+driver_03,2014-09-02,weekday,dry,midday,1
+driver_03,2014-09-02,weekday,dry,evening,7
+driver_03,2014-09-02,weekday,dry,late night,1
+driver_03,2014-09-10,weekday,dry,morning,0
+driver_03,2014-09-10,weekday,dry,midday,1
+driver_03,2014-09-10,weekday,dry,evening,5
+driver_03,2014-09-10,weekday,dry,late night,1
+driver_03,2014-09-18,weekday,dry,morning,0
+driver_03,2014-09-18,weekday,dry,midday,1
+driver_03,2014-09-18,weekday,dry,evening,6
+driver_03,2014-09-18,weekday,dry,late night,1
+driver_03,2014-10-02,weekday,rainy,morning,0
+driver_03,2014-10-02,weekday,rainy,midday,1
+driver_03,2014-10-02,weekday,rainy,evening,9
+driver_03,2014-10-02,weekday,rainy,late night,1
+driver_03,2014-10-10,weekday,rainy,morning,0
+driver_03,2014-10-10,weekday,rainy,midday,1
+driver_03,2014-10-10,weekday,rainy,evening,7
+driver_03,2014-10-10,weekday,rainy,late night,1
+driver_03,2014-10-14,weekday,rainy,morning,0
+driver_03,2014-10-14,weekday,rainy,midday,1
+driver_03,2014-10-14,weekday,rainy,evening,8
+driver_03,2014-10-14,weekday,rainy,late night,1
+driver_03,2014-09-06,weekend,dry,morning,0
+driver_03,2014-09-06,weekend,dry,midday,0
+driver_03,2014-09-06,weekend,dry,evening,2
+driver_03,2014-09-06,weekend,dry,late night,7
+driver_03,2014-09-14,weekend,dry,morning,0
+driver_03,2014-09-14,weekend,dry,midday,0
+driver_03,2014-09-14,weekend,dry,evening,2
+driver_03,2014-09-14,weekend,dry,late night,5
+driver_03,2014-09-20,weekend,dry,morning,0
+driver_03,2014-09-20,weekend,dry,midday,0
+driver_03,2014-09-20,weekend,dry,evening,2
+driver_03,2014-09-20,weekend,dry,late night,6
+driver_03,2014-10-04,weekend,rainy,morning,0
+driver_03,2014-10-04,weekend,rainy,midday,0
+driver_03,2014-10-04,weekend,rainy,evening,4
+driver_03,2014-10-04,weekend,rainy,late night,7
+driver_03,2014-10-12,weekend,rainy,morning,0
+driver_03,2014-10-12,weekend,rainy,midday,0
+driver_03,2014-10-12,weekend,rainy,evening,4
+driver_03,2014-10-12,weekend,rainy,late night,5
+driver_03,2014-10-18,weekend,rainy,morning,0
+driver_03,2014-10-18,weekend,rainy,midday,0
+driver_03,2014-10-18,weekend,rainy,evening,4
+driver_03,2014-10-18,weekend,rainy,late night,6
+driver_04,2014-09-02,weekday,dry,morning,4
+driver_04,2014-09-02,weekday,dry,midday,1
+driver_04,2014-09-02,weekday,dry,evening,0
+driver_04,2014-09-02,weekday,dry,late night,0
+driver_04,2014-09-10,weekday,dry,morning,5
+driver_04,2014-09-10,weekday,dry,midday,1
+driver_04,2014-09-10,weekday,dry,evening,0
+driver_04,2014-09-10,weekday,dry,late night,0
+driver_04,2014-09-18,weekday,dry,morning,6
+driver_04,2014-09-18,weekday,dry,midday,1
+driver_04,2014-09-18,weekday,dry,evening,0
+driver_04,2014-09-18,weekday,dry,late night,0
+driver_04,2014-10-02,weekday,rainy,morning,4
+driver_04,2014-10-02,weekday,rainy,midday,1
+driver_04,2014-10-02,weekday,rainy,evening,0
+driver_04,2014-10-02,weekday,rainy,late night,0
+driver_04,2014-10-10,weekday,rainy,morning,5
+driver_04,2014-10-10,weekday,rainy,midday,1
+driver_04,2014-10-10,weekday,rainy,evening,0
+driver_04,2014-10-10,weekday,rainy,late night,0
+driver_04,2014-10-14,weekday,rainy,morning,5
+driver_04,2014-10-14,weekday,rainy,midday,1
+driver_04,2014-10-14,weekday,rainy,evening,1
+driver_04,2014-10-14,weekday,rainy,late night,1
+driver_04,2014-09-06,weekend,dry,morning,4
+driver_04,2014-09-06,weekend,dry,midday,1
+driver_04,2014-09-06,weekend,dry,evening,0
+driver_04,2014-09-06,weekend,dry,late night,0
+driver_04,2014-09-14,weekend,dry,morning,5
+driver_04,2014-09-14,weekend,dry,midday,1
+driver_04,2014-09-14,weekend,dry,evening,0
+driver_04,2014-09-14,weekend,dry,late night,0
+driver_04,2014-09-20,weekend,dry,morning,6
+driver_04,2014-09-20,weekend,dry,midday,1
+driver_04,2014-09-20,weekend,dry,evening,0
+driver_04,2014-09-20,weekend,dry,late night,0
+driver_04,2014-10-04,weekend,rainy,morning,4
+driver_04,2014-10-04,weekend,rainy,midday,1
+driver_04,2014-10-04,weekend,rainy,evening,1
+driver_04,2014-10-04,weekend,rainy,late night,0
+driver_04,2014-10-12,weekend,rainy,morning,5
+driver_04,2014-10-12,weekend,rainy,midday,1
+driver_04,2014-10-12,weekend,rainy,evening,0
+driver_04,2014-10-12,weekend,rainy,late night,0
+driver_04,2014-10-18,weekend,rainy,morning,6
+driver_04,2014-10-18,weekend,rainy,midday,1
+driver_04,2014-10-18,weekend,rainy,evening,0
+driver_04,2014-10-18,weekend,rainy,late night,0
+driver_05,2014-09-02,weekday,dry,morning,0
+driver_05,2014-09-02,weekday,dry,midday,6
+driver_05,2014-09-02,weekday,dry,evening,1
+driver_05,2014-09-02,weekday,dry,late night,0
+driver_05,2014-09-10,weekday,dry,morning,1
+driver_05,2014-09-10,weekday,dry,midday,6
+driver_05,2014-09-10,weekday,dry,evening,1
+driver_05,2014-09-10,weekday,dry,late night,0
+driver_05,2014-09-18,weekday,dry,morning,0
+driver_05,2014-09-18,weekday,dry,midday,5
+driver_05,2014-09-18,weekday,dry,evening,1
+driver_05,2014-09-18,weekday,dry,late night,0
+driver_05,2014-10-02,weekday,rainy,morning,0
+driver_05,2014-10-02,weekday,rainy,midday,6
+driver_05,2014-10-02,weekday,rainy,evening,1
+driver_05,2014-10-02,weekday,rainy,late night,0
+driver_05,2014-10-10,weekday,rainy,morning,1
+driver_05,2014-10-10,weekday,rainy,midday,6
+driver_05,2014-10-10,weekday,rainy,evening,2
+driver_05,2014-10-10,weekday,rainy,late night,0
+driver_05,2014-10-14,weekday,rainy,morning,0
+driver_05,2014-10-14,weekday,rainy,midday,5
+driver_05,2014-10-14,weekday,rainy,evening,1
+driver_05,2014-10-14,weekday,rainy,late night,0
+driver_05,2014-09-06,weekend,dry,morning,0
+driver_05,2014-09-06,weekend,dry,midday,1
+driver_05,2014-09-06,weekend,dry,evening,1
+driver_05,2014-09-06,weekend,dry,late night,5
+driver_05,2014-09-14,weekend,dry,morning,0
+driver_05,2014-09-14,weekend,dry,midday,1
+driver_05,2014-09-14,weekend,dry,evening,1
+driver_05,2014-09-14,weekend,dry,late night,6
+driver_05,2014-09-20,weekend,dry,morning,0
+driver_05,2014-09-20,weekend,dry,midday,1
+driver_05,2014-09-20,weekend,dry,evening,1
+driver_05,2014-09-20,weekend,dry,late night,4
+driver_05,2014-10-04,weekend,rainy,morning,0
+driver_05,2014-10-04,weekend,rainy,midday,1
+driver_05,2014-10-04,weekend,rainy,evening,1
+driver_05,2014-10-04,weekend,rainy,late night,5
+driver_05,2014-10-12,weekend,rainy,morning,0
+driver_05,2014-10-12,weekend,rainy,midday,1
+driver_05,2014-10-12,weekend,rainy,evening,1
+driver_05,2014-10-12,weekend,rainy,late night,6
+driver_05,2014-10-18,weekend,rainy,morning,0
+driver_05,2014-10-18,weekend,rainy,midday,1
+driver_05,2014-10-18,weekend,rainy,evening,1
+driver_05,2014-10-18,weekend,rainy,late night,4
+driver_06,2014-09-02,weekday,dry,morning,0
+driver_06,2014-09-02,weekday,dry,midday,1
+driver_06,2014-09-02,weekday,dry,evening,7
+driver_06,2014-09-02,weekday,dry,late night,1
+driver_06,2014-09-10,weekday,dry,morning,0
+driver_06,2014-09-10,weekday,dry,midday,1
+driver_06,2014-09-10,weekday,dry,evening,5
+driver_06,2014-09-10,weekday,dry,late night,1
+driver_06,2014-09-18,weekday,dry,morning,0
+driver_06,2014-09-18,weekday,dry,midday,1
+driver_06,2014-09-18,weekday,dry,evening,6
+driver_06,2014-09-18,weekday,dry,late night,1
+driver_06,2014-10-02,weekday,rainy,morning,0
+driver_06,2014-10-02,weekday,rainy,midday,1
+driver_06,2014-10-02,weekday,rainy,evening,10
+driver_06,2014-10-02,weekday,rainy,late night,1
+driver_06,2014-10-10,weekday,rainy,morning,0
+driver_06,2014-10-10,weekday,rainy,midday,1
+driver_06,2014-10-10,weekday,rainy,evening,8
+driver_06,2014-10-10,weekday,rainy,late night,1
+driver_06,2014-10-14,weekday,rainy,morning,0
+driver_06,2014-10-14,weekday,rainy,midday,1
+driver_06,2014-10-14,weekday,rainy,evening,9
+driver_06,2014-10-14,weekday,rainy,late night,1
+driver_06,2014-09-06,weekend,dry,morning,0
+driver_06,2014-09-06,weekend,dry,midday,1
+driver_06,2014-09-06,weekend,dry,evening,7
+driver_06,2014-09-06,weekend,dry,late night,1
+driver_06,2014-09-14,weekend,dry,morning,0
+driver_06,2014-09-14,weekend,dry,midday,0
+driver_06,2014-09-14,weekend,dry,evening,6
+driver_06,2014-09-14,weekend,dry,late night,1
+driver_06,2014-09-20,weekend,dry,morning,0
+driver_06,2014-09-20,weekend,dry,midday,1
+driver_06,2014-09-20,weekend,dry,evening,6
+driver_06,2014-09-20,weekend,dry,late night,1
+driver_06,2014-10-04,weekend,rainy,morning,0
+driver_06,2014-10-04,weekend,rainy,midday,1
+driver_06,2014-10-04,weekend,rainy,evening,10
+driver_06,2014-10-04,weekend,rainy,late night,1
+driver_06,2014-10-12,weekend,rainy,morning,0
+driver_06,2014-10-12,weekend,rainy,midday,0
+driver_06,2014-10-12,weekend,rainy,evening,9
+driver_06,2014-10-12,weekend,rainy,late night,1
+driver_06,2014-10-18,weekend,rainy,morning,0
+driver_06,2014-10-18,weekend,rainy,midday,1
+driver_06,2014-10-18,weekend,rainy,evening,9
+driver_06,2014-10-18,weekend,rainy,late night,1
+driver_07,2014-09-02,weekday,dry,morning,4
+driver_07,2014-09-02,weekday,dry,midday,1
+driver_07,2014-09-02,weekday,dry,evening,0
+driver_07,2014-09-02,weekday,dry,late night,0
+driver_07,2014-09-10,weekday,dry,morning,5
+driver_07,2014-09-10,weekday,dry,midday,1
+driver_07,2014-09-10,weekday,dry,evening,0
+driver_07,2014-09-10,weekday,dry,late night,0
+driver_07,2014-09-18,weekday,dry,morning,5
+driver_07,2014-09-18,weekday,dry,midday,1
+driver_07,2014-09-18,weekday,dry,evening,0
+driver_07,2014-09-18,weekday,dry,late night,1
+driver_07,2014-10-02,weekday,rainy,morning,4
+driver_07,2014-10-02,weekday,rainy,midday,1
+driver_07,2014-10-02,weekday,rainy,evening,0
+driver_07,2014-10-02,weekday,rainy,late night,0
+driver_07,2014-10-10,weekday,rainy,morning,5
+driver_07,2014-10-10,weekday,rainy,midday,1
+driver_07,2014-10-10,weekday,rainy,evening,0
+driver_07,2014-10-10,weekday,rainy,late night,0
+driver_07,2014-10-14,weekday,rainy,morning,5
+driver_07,2014-10-14,weekday,rainy,midday,1
+driver_07,2014-10-14,weekday,rainy,evening,0
+driver_07,2014-10-14,weekday,rainy,late night,1
+driver_07,2014-09-06,weekend,dry,morning,1
+driver_07,2014-09-06,weekend,dry,midday,0
+driver_07,2014-09-06,weekend,dry,evening,4
+driver_07,2014-09-06,weekend,dry,late night,0
+driver_07,2014-09-14,weekend,dry,morning,1
+driver_07,2014-09-14,weekend,dry,midday,0
+driver_07,2014-09-14,weekend,dry,evening,5
+driver_07,2014-09-14,weekend,dry,late night,0
+driver_07,2014-09-20,weekend,dry,morning,1
+driver_07,2014-09-20,weekend,dry,midday,1
+driver_07,2014-09-20,weekend,dry,evening,5
+driver_07,2014-09-20,weekend,dry,late night,0
+driver_07,2014-10-04,weekend,rainy,morning,1
+driver_07,2014-10-04,weekend,rainy,midday,0
+driver_07,2014-10-04,weekend,rainy,evening,4
+driver_07,2014-10-04,weekend,rainy,late night,0
+driver_07,2014-10-12,weekend,rainy,morning,1
+driver_07,2014-10-12,weekend,rainy,midday,0
+driver_07,2014-10-12,weekend,rainy,evening,6
+driver_07,2014-10-12,weekend,rainy,late night,0
+driver_07,2014-10-18,weekend,rainy,morning,1
+driver_07,2014-10-18,weekend,rainy,midday,1
+driver_07,2014-10-18,weekend,rainy,evening,5
+driver_07,2014-10-18,weekend,rainy,late night,0
+driver_08,2014-09-02,weekday,dry,morning,1
+driver_08,2014-09-02,weekday,dry,midday,5
+driver_08,2014-09-02,weekday,dry,evening,1
+driver_08,2014-09-02,weekday,dry,late night,0
+driver_08,2014-09-10,weekday,dry,morning,1
+driver_08,2014-09-10,weekday,dry,midday,6
+driver_08,2014-09-10,weekday,dry,evening,1
+driver_08,2014-09-10,weekday,dry,late night,0
+driver_08,2014-09-18,weekday,dry,morning,0
+driver_08,2014-09-18,weekday,dry,midday,5
+driver_08,2014-09-18,weekday,dry,evening,1
+driver_08,2014-09-18,weekday,dry,late night,0
+driver_08,2014-10-02,weekday,rainy,morning,0
+driver_08,2014-10-02,weekday,rainy,midday,6
+driver_08,2014-10-02,weekday,rainy,evening,4
+driver_08,2014-10-02,weekday,rainy,late night,0
+driver_08,2014-10-10,weekday,rainy,morning,1
+driver_08,2014-10-10,weekday,rainy,midday,6
+driver_08,2014-10-10,weekday,rainy,evening,4
+driver_08,2014-10-10,weekday,rainy,late night,0
+driver_08,2014-10-14,weekday,rainy,morning,0
+driver_08,2014-10-14,weekday,rainy,midday,5
+driver_08,2014-10-14,weekday,rainy,evening,4
+driver_08,2014-10-14,weekday,rainy,late night,0
+driver_08,2014-09-06,weekend,dry,morning,0
+driver_08,2014-09-06,weekend,dry,midday,6
+driver_08,2014-09-06,weekend,dry,evening,1
+driver_08,2014-09-06,weekend,dry,late night,0
+driver_08,2014-09-14,weekend,dry,morning,1
+driver_08,2014-09-14,weekend,dry,midday,6
+driver_08,2014-09-14,weekend,dry,evening,1
+driver_08,2014-09-14,weekend,dry,late night,0
+driver_08,2014-09-20,weekend,dry,morning,0
+driver_08,2014-09-20,weekend,dry,midday,5
+driver_08,2014-09-20,weekend,dry,evening,1
+driver_08,2014-09-20,weekend,dry,late night,0
+driver_08,2014-10-04,weekend,rainy,morning,0
+driver_08,2014-10-04,weekend,rainy,midday,6
+driver_08,2014-10-04,weekend,rainy,evening,4
+driver_08,2014-10-04,weekend,rainy,late night,0
+driver_08,2014-10-12,weekend,rainy,morning,1
+driver_08,2014-10-12,weekend,rainy,midday,6
+driver_08,2014-10-12,weekend,rainy,evening,4
+driver_08,2014-10-12,weekend,rainy,late night,0
+driver_08,2014-10-18,weekend,rainy,morning,0
+driver_08,2014-10-18,weekend,rainy,midday,5
+driver_08,2014-10-18,weekend,rainy,evening,4
+driver_08,2014-10-18,weekend,rainy,late night,0
+driver_09,2014-09-02,weekday,dry,morning,2
+driver_09,2014-09-02,weekday,dry,midday,2
+driver_09,2014-09-02,weekday,dry,evening,3
+driver_09,2014-09-02,weekday,dry,late night,2
+driver_09,2014-09-10,weekday,dry,morning,1
+driver_09,2014-09-10,weekday,dry,midday,1
+driver_09,2014-09-10,weekday,dry,evening,3
+driver_09,2014-09-10,weekday,dry,late night,2
+driver_09,2014-09-18,weekday,dry,morning,1
+driver_09,2014-09-18,weekday,dry,midday,2
+driver_09,2014-09-18,weekday,dry,evening,3
+driver_09,2014-09-18,weekday,dry,late night,2
+driver_09,2014-10-02,weekday,rainy,morning,2
+driver_09,2014-10-02,weekday,rainy,midday,2
+driver_09,2014-10-02,weekday,rainy,evening,5
+driver_09,2014-10-02,weekday,rainy,late night,2
+driver_09,2014-10-10,weekday,rainy,morning,1
+driver_09,2014-10-10,weekday,rainy,midday,1
+driver_09,2014-10-10,weekday,rainy,evening,5
+driver_09,2014-10-10,weekday,rainy,late night,2
+driver_09,2014-10-14,weekday,rainy,morning,1
+driver_09,2014-10-14,weekday,rainy,midday,2
+driver_09,2014-10-14,weekday,rainy,evening,5
+driver_09,2014-10-14,weekday,rainy,late night,2
+driver_09,2014-09-06,weekend,dry,morning,1
+driver_09,2014-09-06,weekend,dry,midday,2
+driver_09,2014-09-06,weekend,dry,evening,2
+driver_09,2014-09-06,weekend,dry,late night,4
+driver_09,2014-09-14,weekend,dry,morning,1
+driver_09,2014-09-14,weekend,dry,midday,1
+driver_09,2014-09-14,weekend,dry,evening,2
+driver_09,2014-09-14,weekend,dry,late night,3
+driver_09,2014-09-20,weekend,dry,morning,1
+driver_09,2014-09-20,weekend,dry,midday,2
+driver_09,2014-09-20,weekend,dry,evening,2
+driver_09,2014-09-20,weekend,dry,late night,3
+driver_09,2014-10-04,weekend,rainy,morning,1
+driver_09,2014-10-04,weekend,rainy,midday,2
+driver_09,2014-10-04,weekend,rainy,evening,4
+driver_09,2014-10-04,weekend,rainy,late night,4
+driver_09,2014-10-12,weekend,rainy,morning,1
+driver_09,2014-10-12,weekend,rainy,midday,1
+driver_09,2014-10-12,weekend,rainy,evening,4
+driver_09,2014-10-12,weekend,rainy,late night,3
+driver_09,2014-10-18,weekend,rainy,morning,1
+driver_09,2014-10-18,weekend,rainy,midday,2
+driver_09,2014-10-18,weekend,rainy,evening,4
+driver_09,2014-10-18,weekend,rainy,late night,3
+driver_10,2014-09-02,weekday,dry,morning,2
+driver_10,2014-09-02,weekday,dry,midday,1
+driver_10,2014-09-02,weekday,dry,evening,1
+driver_10,2014-09-02,weekday,dry,late night,1
+driver_10,2014-09-10,weekday,dry,morning,2
+driver_10,2014-09-10,weekday,dry,midday,1
+driver_10,2014-09-10,weekday,dry,evening,2
+driver_10,2014-09-10,weekday,dry,late night,1
+driver_10,2014-09-18,weekday,dry,morning,3
+driver_10,2014-09-18,weekday,dry,midday,1
+driver_10,2014-09-18,weekday,dry,evening,2
+driver_10,2014-09-18,weekday,dry,late night,1
+driver_10,2014-10-02,weekday,rainy,morning,2
+driver_10,2014-10-02,weekday,rainy,midday,1
+driver_10,2014-10-02,weekday,rainy,evening,2
+driver_10,2014-10-02,weekday,rainy,late night,1
+driver_10,2014-10-10,weekday,rainy,morning,2
+driver_10,2014-10-10,weekday,rainy,midday,1
+driver_10,2014-10-10,weekday,rainy,evening,2
+driver_10,2014-10-10,weekday,rainy,late night,1
+driver_10,2014-10-14,weekday,rainy,morning,3
+driver_10,2014-10-14,weekday,rainy,midday,1
+driver_10,2014-10-14,weekday,rainy,evening,2
+driver_10,2014-10-14,weekday,rainy,late night,1
+driver_10,2014-09-06,weekend,dry,morning,2
+driver_10,2014-09-06,weekend,dry,midday,1
+driver_10,2014-09-06,weekend,dry,evening,1
+driver_10,2014-09-06,weekend,dry,late night,1
+driver_10,2014-09-14,weekend,dry,morning,2
+driver_10,2014-09-14,weekend,dry,midday,1
+driver_10,2014-09-14,weekend,dry,evening,2
+driver_10,2014-09-14,weekend,dry,late night,1
+driver_10,2014-09-20,weekend,dry,morning,3
+driver_10,2014-09-20,weekend,dry,midday,1
+driver_10,2014-09-20,weekend,dry,evening,2
+driver_10,2014-09-20,weekend,dry,late night,1
+driver_10,2014-10-04,weekend,rainy,morning,2
+driver_10,2014-10-04,weekend,rainy,midday,1
+driver_10,2014-10-04,weekend,rainy,evening,1
+driver_10,2014-10-04,weekend,rainy,late night,1
+driver_10,2014-10-12,weekend,rainy,morning,3
+driver_10,2014-10-12,weekend,rainy,midday,1
+driver_10,2014-10-12,weekend,rainy,evening,1
+driver_10,2014-10-12,weekend,rainy,late night,1
+driver_10,2014-10-18,weekend,rainy,morning,3
+driver_10,2014-10-18,weekend,rainy,midday,1
+driver_10,2014-10-18,weekend,rainy,evening,3
+driver_10,2014-10-18,weekend,rainy,late night,1
+driver_11,2014-09-02,weekday,dry,morning,1
+driver_11,2014-09-02,weekday,dry,midday,3
+driver_11,2014-09-02,weekday,dry,evening,2
+driver_11,2014-09-02,weekday,dry,late night,1
+driver_11,2014-09-10,weekday,dry,morning,2
+driver_11,2014-09-10,weekday,dry,midday,3
+driver_11,2014-09-10,weekday,dry,evening,2
+driver_11,2014-09-10,weekday,dry,late night,1
+driver_11,2014-09-18,weekday,dry,morning,1
+driver_11,2014-09-18,weekday,dry,midday,2
+driver_11,2014-09-18,weekday,dry,evening,2
+driver_11,2014-09-18,weekday,dry,late night,1
+driver_11,2014-10-02,weekday,rainy,morning,1
+driver_11,2014-10-02,weekday,rainy,midday,3
+driver_11,2014-10-02,weekday,rainy,evening,2
+driver_11,2014-10-02,weekday,rainy,late night,1
+driver_11,2014-10-10,weekday,rainy,morning,2
+driver_11,2014-10-10,weekday,rainy,midday,3
+driver_11,2014-10-10,weekday,rainy,evening,2
+driver_11,2014-10-10,weekday,rainy,late night,1
+driver_11,2014-10-14,weekday,rainy,morning,1
+driver_11,2014-10-14,weekday,rainy,midday,2
+driver_11,2014-10-14,weekday,rainy,evening,2
+driver_11,2014-10-14,weekday,rainy,late night,1
+driver_11,2014-09-06,weekend,dry,morning,1
+driver_11,2014-09-06,weekend,dry,midday,2
+driver_11,2014-09-06,weekend,dry,evening,3
+driver_11,2014-09-06,weekend,dry,late night,1
+driver_11,2014-09-14,weekend,dry,morning,2
+driver_11,2014-09-14,weekend,dry,midday,2
+driver_11,2014-09-14,weekend,dry,evening,3
+driver_11,2014-09-14,weekend,dry,late night,1
+driver_11,2014-09-20,weekend,dry,morning,1
+driver_11,2014-09-20,weekend,dry,midday,2
+driver_11,2014-09-20,weekend,dry,evening,2
+driver_11,2014-09-20,weekend,dry,late night,1
+driver_11,2014-10-04,weekend,rainy,morning,1
+driver_11,2014-10-04,weekend,rainy,midday,2
+driver_11,2014-10-04,weekend,rainy,evening,3
+driver_11,2014-10-04,weekend,rainy,late night,1
+driver_11,2014-10-12,weekend,rainy,morning,2
+driver_11,2014-10-12,weekend,rainy,midday,2
+driver_11,2014-10-12,weekend,rainy,evening,4
+driver_11,2014-10-12,weekend,rainy,late night,1
+driver_11,2014-10-18,weekend,rainy,morning,1
+driver_11,2014-10-18,weekend,rainy,midday,2
+driver_11,2014-10-18,weekend,rainy,evening,2
+driver_11,2014-10-18,weekend,rainy,late night,1
+driver_12,2014-09-02,weekday,dry,morning,2
+driver_12,2014-09-02,weekday,dry,midday,2
+driver_12,2014-09-02,weekday,dry,evening,3
+driver_12,2014-09-02,weekday,dry,late night,2
+driver_12,2014-09-10,weekday,dry,morning,2
+driver_12,2014-09-10,weekday,dry,midday,1
+driver_12,2014-09-10,weekday,dry,evening,3
+driver_12,2014-09-10,weekday,dry,late night,1
+driver_12,2014-09-18,weekday,dry,morning,2
+driver_12,2014-09-18,weekday,dry,midday,1
+driver_12,2014-09-18,weekday,dry,evening,3
+driver_12,2014-09-18,weekday,dry,late night,2
+driver_12,2014-10-02,weekday,rainy,morning,2
+driver_12,2014-10-02,weekday,rainy,midday,2
+driver_12,2014-10-02,weekday,rainy,evening,6
+driver_12,2014-10-02,weekday,rainy,late night,2
+driver_12,2014-10-10,weekday,rainy,morning,2
+driver_12,2014-10-10,weekday,rainy,midday,1
+driver_12,2014-10-10,weekday,rainy,evening,6
+driver_12,2014-10-10,weekday,rainy,late night,1
+driver_12,2014-10-14,weekday,rainy,morning,2
+driver_12,2014-10-14,weekday,rainy,midday,1
+driver_12,2014-10-14,weekday,rainy,evening,6
+driver_12,2014-10-14,weekday,rainy,late night,2
+driver_12,2014-09-06,weekend,dry,morning,2
+driver_12,2014-09-06,weekend,dry,midday,1
+driver_12,2014-09-06,weekend,dry,evening,4
+driver_12,2014-09-06,weekend,dry,late night,2
+driver_12,2014-09-14,weekend,dry,morning,1
+driver_12,2014-09-14,weekend,dry,midday,1
+driver_12,2014-09-14,weekend,dry,evening,3
+driver_12,2014-09-14,weekend,dry,late night,2
+driver_12,2014-09-20,weekend,dry,morning,2
+driver_12,2014-09-20,weekend,dry,midday,1
+driver_12,2014-09-20,weekend,dry,evening,3
+driver_12,2014-09-20,weekend,dry,late night,2
+driver_12,2014-10-04,weekend,rainy,morning,2
+driver_12,2014-10-04,weekend,rainy,midday,2
+driver_12,2014-10-04,weekend,rainy,evening,6
+driver_12,2014-10-04,weekend,rainy,late night,2
+driver_12,2014-10-12,weekend,rainy,morning,2
+driver_12,2014-10-12,weekend,rainy,midday,1
+driver_12,2014-10-12,weekend,rainy,evening,6
+driver_12,2014-10-12,weekend,rainy,late night,1
+driver_12,2014-10-18,weekend,rainy,morning,2
+driver_12,2014-10-18,weekend,rainy,midday,1
+driver_12,2014-10-18,weekend,rainy,evening,6
+driver_12,2014-10-18,weekend,rainy,late night,2
+driver_13,2014-09-02,weekday,dry,morning,2
+driver_13,2014-09-02,weekday,dry,midday,1
+driver_13,2014-09-02,weekday,dry,evening,1
+driver_13,2014-09-02,weekday,dry,late night,1
+driver_13,2014-09-10,weekday,dry,morning,2
+driver_13,2014-09-10,weekday,dry,midday,2
+driver_13,2014-09-10,weekday,dry,evening,1
+driver_13,2014-09-10,weekday,dry,late night,1
+driver_13,2014-09-18,weekday,dry,morning,3
+driver_13,2014-09-18,weekday,dry,midday,2
+driver_13,2014-09-18,weekday,dry,evening,1
+driver_13,2014-09-18,weekday,dry,late night,1
+driver_13,2014-10-02,weekday,rainy,morning,2
+driver_13,2014-10-02,weekday,rainy,midday,1
+driver_13,2014-10-02,weekday,rainy,evening,1
+driver_13,2014-10-02,weekday,rainy,late night,1
+driver_13,2014-10-10,weekday,rainy,morning,2
+driver_13,2014-10-10,weekday,rainy,midday,2
+driver_13,2014-10-10,weekday,rainy,evening,2
+driver_13,2014-10-10,weekday,rainy,late night,1
+driver_13,2014-10-14,weekday,rainy,morning,3
+driver_13,2014-10-14,weekday,rainy,midday,2
+driver_13,2014-10-14,weekday,rainy,evening,1
+driver_13,2014-10-14,weekday,rainy,late night,1
+driver_13,2014-09-06,weekend,dry,morning,2
+driver_13,2014-09-06,weekend,dry,midday,1
+driver_13,2014-09-06,weekend,dry,evening,1
+driver_13,2014-09-06,weekend,dry,late night,1
+driver_13,2014-09-14,weekend,dry,morning,2
+driver_13,2014-09-14,weekend,dry,midday,2
+driver_13,2014-09-14,weekend,dry,evening,1
+driver_13,2014-09-14,weekend,dry,late night,1
+driver_13,2014-09-20,weekend,dry,morning,3
+driver_13,2014-09-20,weekend,dry,midday,2
+driver_13,2014-09-20,weekend,dry,evening,1
+driver_13,2014-09-20,weekend,dry,late night,1
+driver_13,2014-10-04,weekend,rainy,morning,2
+driver_13,2014-10-04,weekend,rainy,midday,1
+driver_13,2014-10-04,weekend,rainy,evening,1
+driver_13,2014-10-04,weekend,rainy,late night,1
+driver_13,2014-10-12,weekend,rainy,morning,2
+driver_13,2014-10-12,weekend,rainy,midday,2
+driver_13,2014-10-12,weekend,rainy,evening,1
+driver_13,2014-10-12,weekend,rainy,late night,1
+driver_13,2014-10-18,weekend,rainy,morning,3
+driver_13,2014-10-18,weekend,rainy,midday,2
+driver_13,2014-10-18,weekend,rainy,evening,1
+driver_13,2014-10-18,weekend,rainy,late night,1
+driver_14,2014-09-02,weekday,dry,morning,1
+driver_14,2014-09-02,weekday,dry,midday,3
+driver_14,2014-09-02,weekday,dry,evening,1
+driver_14,2014-09-02,weekday,dry,late night,2
+driver_14,2014-09-10,weekday,dry,morning,1
+driver_14,2014-09-10,weekday,dry,midday,3
+driver_14,2014-09-10,weekday,dry,evening,2
+driver_14,2014-09-10,weekday,dry,late night,2
+driver_14,2014-09-18,weekday,dry,morning,1
+driver_14,2014-09-18,weekday,dry,midday,3
+driver_14,2014-09-18,weekday,dry,evening,1
+driver_14,2014-09-18,weekday,dry,late night,1
+driver_14,2014-10-02,weekday,rainy,morning,1
+driver_14,2014-10-02,weekday,rainy,midday,3
+driver_14,2014-10-02,weekday,rainy,evening,2
+driver_14,2014-10-02,weekday,rainy,late night,2
+driver_14,2014-10-10,weekday,rainy,morning,1
+driver_14,2014-10-10,weekday,rainy,midday,3
+driver_14,2014-10-10,weekday,rainy,evening,2
+driver_14,2014-10-10,weekday,rainy,late night,2
+driver_14,2014-10-14,weekday,rainy,morning,1
+driver_14,2014-10-14,weekday,rainy,midday,3
+driver_14,2014-10-14,weekday,rainy,evening,1
+driver_14,2014-10-14,weekday,rainy,late night,1
+driver_14,2014-09-06,weekend,dry,morning,1
+driver_14,2014-09-06,weekend,dry,midday,2
+driver_14,2014-09-06,weekend,dry,evening,3
+driver_14,2014-09-06,weekend,dry,late night,1
+driver_14,2014-09-14,weekend,dry,morning,2
+driver_14,2014-09-14,weekend,dry,midday,2
+driver_14,2014-09-14,weekend,dry,evening,3
+driver_14,2014-09-14,weekend,dry,late night,1
+driver_14,2014-09-20,weekend,dry,morning,1
+driver_14,2014-09-20,weekend,dry,midday,2
+driver_14,2014-09-20,weekend,dry,evening,2
+driver_14,2014-09-20,weekend,dry,late night,1
+driver_14,2014-10-04,weekend,rainy,morning,1
+driver_14,2014-10-04,weekend,rainy,midday,2
+driver_14,2014-10-04,weekend,rainy,evening,3
+driver_14,2014-10-04,weekend,rainy,late night,1
+driver_14,2014-10-12,weekend,rainy,morning,2
+driver_14,2014-10-12,weekend,rainy,midday,2
+driver_14,2014-10-12,weekend,rainy,evening,3
+driver_14,2014-10-12,weekend,rainy,late night,1
+driver_14,2014-10-18,weekend,rainy,morning,1
+driver_14,2014-10-18,weekend,rainy,midday,2
+driver_14,2014-10-18,weekend,rainy,evening,3
+driver_14,2014-10-18,weekend,rainy,late night,1
+driver_15,2014-09-02,weekday,dry,morning,2
+driver_15,2014-09-02,weekday,dry,midday,2
+driver_15,2014-09-02,weekday,dry,evening,3
+driver_15,2014-09-02,weekday,dry,late night,2
+driver_15,2014-09-10,weekday,dry,morning,1
+driver_15,2014-09-10,weekday,dry,midday,1
+driver_15,2014-09-10,weekday,dry,evening,3
+driver_15,2014-09-10,weekday,dry,late night,2
+driver_15,2014-09-18,weekday,dry,morning,1
+driver_15,2014-09-18,weekday,dry,midday,2
+driver_15,2014-09-18,weekday,dry,evening,3
+driver_15,2014-09-18,weekday,dry,late night,2
+driver_15,2014-10-02,weekday,rainy,morning,2
+driver_15,2014-10-02,weekday,rainy,midday,2
+driver_15,2014-10-02,weekday,rainy,evening,5
+driver_15,2014-10-02,weekday,rainy,late night,2
+driver_15,2014-10-10,weekday,rainy,morning,1
+driver_15,2014-10-10,weekday,rainy,midday,1
+driver_15,2014-10-10,weekday,rainy,evening,5
+driver_15,2014-10-10,weekday,rainy,late night,2
+driver_15,2014-10-14,weekday,rainy,morning,1
+driver_15,2014-10-14,weekday,rainy,midday,2
+driver_15,2014-10-14,weekday,rainy,evening,5
+driver_15,2014-10-14,weekday,rainy,late night,2
+driver_15,2014-09-06,weekend,dry,morning,2
+driver_15,2014-09-06,weekend,dry,midday,2
+driver_15,2014-09-06,weekend,dry,evening,3
+driver_15,2014-09-06,weekend,dry,late night,2
+driver_15,2014-09-14,weekend,dry,morning,1
+driver_15,2014-09-14,weekend,dry,midday,1
+driver_15,2014-09-14,weekend,dry,evening,3
+driver_15,2014-09-14,weekend,dry,late night,2
+driver_15,2014-09-20,weekend,dry,morning,2
+driver_15,2014-09-20,weekend,dry,midday,1
+driver_15,2014-09-20,weekend,dry,evening,3
+driver_15,2014-09-20,weekend,dry,late night,2
+driver_15,2014-10-04,weekend,rainy,morning,2
+driver_15,2014-10-04,weekend,rainy,midday,2
+driver_15,2014-10-04,weekend,rainy,evening,5
+driver_15,2014-10-04,weekend,rainy,late night,2
+driver_15,2014-10-12,weekend,rainy,morning,1
+driver_15,2014-10-12,weekend,rainy,midday,1
+driver_15,2014-10-12,weekend,rainy,evening,5
+driver_15,2014-10-12,weekend,rainy,late night,2
+driver_15,2014-10-18,weekend,rainy,morning,1
+driver_15,2014-10-18,weekend,rainy,midday,2
+driver_15,2014-10-18,weekend,rainy,evening,5
+driver_15,2014-10-18,weekend,rainy,late night,2
+driver_16,2014-09-02,weekday,dry,morning,2
+driver_16,2014-09-02,weekday,dry,midday,1
+driver_16,2014-09-02,weekday,dry,evening,1
+driver_16,2014-09-02,weekday,dry,late night,1
+driver_16,2014-09-10,weekday,dry,morning,3
+driver_16,2014-09-10,weekday,dry,midday,1
+driver_16,2014-09-10,weekday,dry,evening,1
+driver_16,2014-09-10,weekday,dry,late night,1
+driver_16,2014-09-18,weekday,dry,morning,3
+driver_16,2014-09-18,weekday,dry,midday,1
+driver_16,2014-09-18,weekday,dry,evening,2
+driver_16,2014-09-18,weekday,dry,late night,1
+driver_16,2014-10-02,weekday,rainy,morning,2
+driver_16,2014-10-02,weekday,rainy,midday,1
+driver_16,2014-10-02,weekday,rainy,evening,1
+driver_16,2014-10-02,weekday,rainy,late night,1
+driver_16,2014-10-10,weekday,rainy,morning,2
+driver_16,2014-10-10,weekday,rainy,midday,1
+driver_16,2014-10-10,weekday,rainy,evening,2
+driver_16,2014-10-10,weekday,rainy,late night,1
+driver_16,2014-10-14,weekday,rainy,morning,3
+driver_16,2014-10-14,weekday,rainy,midday,1
+driver_16,2014-10-14,weekday,rainy,evening,3
+driver_16,2014-10-14,weekday,rainy,late night,1
+driver_16,2014-09-06,weekend,dry,morning,1
+driver_16,2014-09-06,weekend,dry,midday,1
+driver_16,2014-09-06,weekend,dry,evening,2
+driver_16,2014-09-06,weekend,dry,late night,1
+driver_16,2014-09-14,weekend,dry,morning,2
+driver_16,2014-09-14,weekend,dry,midday,1
+driver_16,2014-09-14,weekend,dry,evening,2
+driver_16,2014-09-14,weekend,dry,late night,1
+driver_16,2014-09-20,weekend,dry,morning,2
+driver_16,2014-09-20,weekend,dry,midday,1
+driver_16,2014-09-20,weekend,dry,evening,3
+driver_16,2014-09-20,weekend,dry,late night,1
+driver_16,2014-10-04,weekend,rainy,morning,1
+driver_16,2014-10-04,weekend,rainy,midday,1
+driver_16,2014-10-04,weekend,rainy,evening,3
+driver_16,2014-10-04,weekend,rainy,late night,1
+driver_16,2014-10-12,weekend,rainy,morning,2
+driver_16,2014-10-12,weekend,rainy,midday,1
+driver_16,2014-10-12,weekend,rainy,evening,2
+driver_16,2014-10-12,weekend,rainy,late night,1
+driver_16,2014-10-18,weekend,rainy,morning,2
+driver_16,2014-10-18,weekend,rainy,midday,1
+driver_16,2014-10-18,weekend,rainy,evening,3
+driver_16,2014-10-18,weekend,rainy,late night,1
+driver_17,2014-09-02,weekday,dry,morning,1
+driver_17,2014-09-02,weekday,dry,midday,3
+driver_17,2014-09-02,weekday,dry,evening,2
+driver_17,2014-09-02,weekday,dry,late night,1
+driver_17,2014-09-10,weekday,dry,morning,1
+driver_17,2014-09-10,weekday,dry,midday,4
+driver_17,2014-09-10,weekday,dry,evening,2
+driver_17,2014-09-10,weekday,dry,late night,1
+driver_17,2014-09-18,weekday,dry,morning,1
+driver_17,2014-09-18,weekday,dry,midday,3
+driver_17,2014-09-18,weekday,dry,evening,1
+driver_17,2014-09-18,weekday,dry,late night,1
+driver_17,2014-10-02,weekday,rainy,morning,1
+driver_17,2014-10-02,weekday,rainy,midday,3
+driver_17,2014-10-02,weekday,rainy,evening,4
+driver_17,2014-10-02,weekday,rainy,late night,1
+driver_17,2014-10-10,weekday,rainy,morning,1
+driver_17,2014-10-10,weekday,rainy,midday,4
+driver_17,2014-10-10,weekday,rainy,evening,4
+driver_17,2014-10-10,weekday,rainy,late night,1
+driver_17,2014-10-14,weekday,rainy,morning,1
+driver_17,2014-10-14,weekday,rainy,midday,3
+driver_17,2014-10-14,weekday,rainy,evening,3
+driver_17,2014-10-14,weekday,rainy,late night,1
+driver_17,2014-09-06,weekend,dry,morning,1
+driver_17,2014-09-06,weekend,dry,midday,2
+driver_17,2014-09-06,weekend,dry,evening,1
+driver_17,2014-09-06,weekend,dry,late night,3
+driver_17,2014-09-14,weekend,dry,morning,1
+driver_17,2014-09-14,weekend,dry,midday,2
+driver_17,2014-09-14,weekend,dry,evening,1
+driver_17,2014-09-14,weekend,dry,late night,4
+driver_17,2014-09-20,weekend,dry,morning,1
+driver_17,2014-09-20,weekend,dry,midday,1
+driver_17,2014-09-20,weekend,dry,evening,1
+driver_17,2014-09-20,weekend,dry,late night,3
+driver_17,2014-10-04,weekend,rainy,morning,1
+driver_17,2014-10-04,weekend,rainy,midday,2
+driver_17,2014-10-04,weekend,rainy,evening,2
+driver_17,2014-10-04,weekend,rainy,late night,4
+driver_17,2014-10-12,weekend,rainy,morning,1
+driver_17,2014-10-12,weekend,rainy,midday,2
+driver_17,2014-10-12,weekend,rainy,evening,3
+driver_17,2014-10-12,weekend,rainy,late night,4
+driver_17,2014-10-18,weekend,rainy,morning,1
+driver_17,2014-10-18,weekend,rainy,midday,1
+driver_17,2014-10-18,weekend,rainy,evening,3
+driver_17,2014-10-18,weekend,rainy,late night,3
+driver_18,2014-09-02,weekday,dry,morning,1
+driver_18,2014-09-02,weekday,dry,midday,2
+driver_18,2014-09-02,weekday,dry,evening,4
+driver_18,2014-09-02,weekday,dry,late night,2
+driver_18,2014-09-10,weekday,dry,morning,1
+driver_18,2014-09-10,weekday,dry,midday,1
+driver_18,2014-09-10,weekday,dry,evening,3
+driver_18,2014-09-10,weekday,dry,late night,2
+driver_18,2014-09-18,weekday,dry,morning,1
+driver_18,2014-09-18,weekday,dry,midday,1
+driver_18,2014-09-18,weekday,dry,evening,4
+driver_18,2014-09-18,weekday,dry,late night,2
+driver_18,2014-10-02,weekday,rainy,morning,2
+driver_18,2014-10-02,weekday,rainy,midday,1
+driver_18,2014-10-02,weekday,rainy,evening,7
+driver_18,2014-10-02,weekday,rainy,late night,2
+driver_18,2014-10-10,weekday,rainy,morning,1
+driver_18,2014-10-10,weekday,rainy,midday,1
+driver_18,2014-10-10,weekday,rainy,evening,6
+driver_18,2014-10-10,weekday,rainy,late night,2
+driver_18,2014-10-14,weekday,rainy,morning,1
+driver_18,2014-10-14,weekday,rainy,midday,1
+driver_18,2014-10-14,weekday,rainy,evening,7
+driver_18,2014-10-14,weekday,rainy,late night,2
+driver_18,2014-09-06,weekend,dry,morning,2
+driver_18,2014-09-06,weekend,dry,midday,1
+driver_18,2014-09-06,weekend,dry,evening,4
+driver_18,2014-09-06,weekend,dry,late night,2
+driver_18,2014-09-14,weekend,dry,morning,1
+driver_18,2014-09-14,weekend,dry,midday,1
+driver_18,2014-09-14,weekend,dry,evening,3
+driver_18,2014-09-14,weekend,dry,late night,2
+driver_18,2014-09-20,weekend,dry,morning,1
+driver_18,2014-09-20,weekend,dry,midday,1
+driver_18,2014-09-20,weekend,dry,evening,4
+driver_18,2014-09-20,weekend,dry,late night,2
+driver_18,2014-10-04,weekend,rainy,morning,2
+driver_18,2014-10-04,weekend,rainy,midday,1
+driver_18,2014-10-04,weekend,rainy,evening,7
+driver_18,2014-10-04,weekend,rainy,late night,2
+driver_18,2014-10-12,weekend,rainy,morning,1
+driver_18,2014-10-12,weekend,rainy,midday,1
+driver_18,2014-10-12,weekend,rainy,evening,6
+driver_18,2014-10-12,weekend,rainy,late night,2
+driver_18,2014-10-18,weekend,rainy,morning,1
+driver_18,2014-10-18,weekend,rainy,midday,1
+driver_18,2014-10-18,weekend,rainy,evening,7
+driver_18,2014-10-18,weekend,rainy,late night,2

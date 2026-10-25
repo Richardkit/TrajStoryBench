@@ -1,0 +1,719 @@
+trajectory_id,taxi_id,stand_id,stand_name,stand_area,departure_time,arrival_time,destination_area,origin_longitude,origin_latitude,destination_longitude,destination_latitude
+stand_trip_0677,taxi_055,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-09 16:41:00,2014-09-09 16:53:34,Foz do Douro,-8.609714,41.138884,-8.673552,41.150998
+stand_trip_0003,taxi_052,stand_01,São Bento Station,Ribeira,2014-09-09 20:14:00,2014-09-09 20:19:23,Bonfim,-8.611594,41.14631,-8.598443,41.156086
+stand_trip_0397,taxi_035,stand_05,Bolhão,Bonfim,2014-09-11 10:09:00,2014-09-11 10:14:33,Boavista,-8.606272,41.148302,-8.628868,41.156987
+stand_trip_0561,taxi_058,stand_08,Foz do Douro,Foz do Douro,2014-09-02 17:10:00,2014-09-02 17:19:22,Boavista,-8.674238,41.151894,-8.626264,41.158676
+stand_trip_0188,taxi_037,stand_02,Aliados,Cedofeita,2014-09-11 19:49:00,2014-09-11 19:55:40,Boavista,-8.610061,41.150516,-8.628868,41.156987
+stand_trip_0126,taxi_010,stand_02,Aliados,Cedofeita,2014-09-05 19:49:00,2014-09-05 20:12:41,Matosinhos Sul,-8.610152,41.149031,-8.691216,41.181082
+stand_trip_0435,taxi_049,stand_06,Casa da Música,Boavista,2014-09-08 16:15:00,2014-09-08 16:23:19,Bonfim,-8.63065,41.158542,-8.593985,41.155527
+stand_trip_0245,taxi_058,stand_03,Trindade,Cedofeita,2014-09-05 21:51:00,2014-09-05 22:20:17,Matosinhos Sul,-8.610731,41.153374,-8.688742,41.178908
+stand_trip_0651,taxi_008,stand_10,Hospital São João,Paranhos,2014-09-10 10:43:00,2014-09-10 10:56:30,Ribeira,-8.601088,41.182138,-8.61053,41.142645
+stand_trip_0445,taxi_061,stand_06,Casa da Música,Boavista,2014-09-10 15:05:00,2014-09-10 15:12:03,Paranhos,-8.63151,41.159768,-8.602901,41.1747
+stand_trip_0513,taxi_032,stand_07,Ribeira Waterfront,Ribeira,2014-09-11 10:11:00,2014-09-11 10:22:47,Paranhos,-8.613638,41.141345,-8.606298,41.179
+stand_trip_0070,taxi_006,stand_01,São Bento Station,Ribeira,2014-09-16 23:51:00,2014-09-16 23:54:33,Cedofeita,-8.609627,41.145952,-8.615797,41.152686
+stand_trip_0305,taxi_051,stand_04,Campanhã Station,Campanha,2014-09-08 15:04:00,2014-09-08 15:22:19,Foz do Douro,-8.58631,41.149689,-8.670825,41.152698
+stand_trip_0057,taxi_022,stand_01,São Bento Station,Ribeira,2014-09-01 15:52:00,2014-09-01 15:56:07,Bonfim,-8.610708,41.145578,-8.596748,41.153748
+stand_trip_0100,taxi_042,stand_01,São Bento Station,Ribeira,2014-09-03 15:35:00,2014-09-03 15:41:36,Boavista,-8.610423,41.14512,-8.626264,41.158676
+stand_trip_0291,taxi_050,stand_03,Trindade,Cedofeita,2014-09-03 22:35:00,2014-09-03 22:39:20,Bonfim,-8.610042,41.152201,-8.598443,41.156086
+stand_trip_0173,taxi_019,stand_02,Aliados,Cedofeita,2014-09-08 23:18:00,2014-09-08 23:24:48,Paranhos,-8.612095,41.150391,-8.602901,41.1747
+stand_trip_0278,taxi_066,stand_03,Trindade,Cedofeita,2014-09-08 15:22:00,2014-09-08 15:28:36,Vila Nova de Gaia,-8.609373,41.151207,-8.609323,41.127541
+stand_trip_0328,taxi_047,stand_04,Campanhã Station,Campanha,2014-09-05 14:45:00,2014-09-05 14:55:11,Boavista,-8.583935,41.149515,-8.631173,41.159623
+stand_trip_0408,taxi_064,stand_05,Bolhão,Bonfim,2014-09-18 18:36:00,2014-09-18 18:39:56,Cedofeita,-8.605275,41.148016,-8.614398,41.157044
+stand_trip_0613,taxi_073,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-17 19:13:00,2014-09-17 19:29:28,Paranhos,-8.689833,41.179955,-8.606298,41.179
+stand_trip_0252,taxi_019,stand_03,Trindade,Cedofeita,2014-09-16 08:06:00,2014-09-16 08:16:15,Foz do Douro,-8.608643,41.153389,-8.670825,41.152698
+stand_trip_0303,taxi_017,stand_04,Campanhã Station,Campanha,2014-09-18 19:31:00,2014-09-18 19:33:48,Bonfim,-8.585665,41.148895,-8.595589,41.151632
+stand_trip_0689,taxi_022,stand_12,Asprela University,Paranhos,2014-09-16 08:29:00,2014-09-16 08:46:16,Foz do Douro,-8.605384,41.177617,-8.672546,41.149054
+stand_trip_0645,taxi_064,stand_10,Hospital São João,Paranhos,2014-09-04 10:05:00,2014-09-04 10:18:49,Foz do Douro,-8.60188,41.18279,-8.672546,41.149054
+stand_trip_0587,taxi_026,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-05 11:43:00,2014-09-05 12:01:45,Campanha,-8.688775,41.179172,-8.585665,41.148895
+stand_trip_0660,taxi_003,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-16 17:17:00,2014-09-16 17:27:57,Boavista,-8.607774,41.13894,-8.626264,41.158676
+stand_trip_0153,taxi_074,stand_02,Aliados,Cedofeita,2014-09-02 23:34:00,2014-09-02 23:48:28,Matosinhos Sul,-8.612095,41.150391,-8.68803,41.176684
+stand_trip_0172,taxi_002,stand_02,Aliados,Cedofeita,2014-09-03 16:15:00,2014-09-03 16:18:11,Bonfim,-8.610061,41.150516,-8.596748,41.153748
+stand_trip_0669,taxi_077,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-15 15:55:00,2014-09-15 16:01:10,Boavista,-8.609714,41.138884,-8.628868,41.156987
+stand_trip_0595,taxi_004,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-01 18:16:00,2014-09-01 18:32:06,Paranhos,-8.688775,41.179172,-8.604131,41.17683
+stand_trip_0260,taxi_076,stand_03,Trindade,Cedofeita,2014-09-10 09:14:00,2014-09-10 09:21:46,Vila Nova de Gaia,-8.608643,41.153389,-8.608186,41.131164
+stand_trip_0352,taxi_060,stand_04,Campanhã Station,Campanha,2014-09-09 07:56:00,2014-09-09 08:03:51,Cedofeita,-8.583935,41.149515,-8.619718,41.157823
+stand_trip_0581,taxi_003,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-01 10:51:00,2014-09-01 11:16:10,Vila Nova de Gaia,-8.689833,41.179955,-8.612639,41.131858
+stand_trip_0038,taxi_015,stand_01,São Bento Station,Ribeira,2014-09-18 20:50:00,2014-09-18 21:09:56,Matosinhos Sul,-8.609627,41.145952,-8.68803,41.176684
+stand_trip_0338,taxi_059,stand_04,Campanhã Station,Campanha,2014-09-09 08:58:00,2014-09-09 09:30:15,Matosinhos Sul,-8.584234,41.147947,-8.688742,41.178908
+stand_trip_0056,taxi_005,stand_01,São Bento Station,Ribeira,2014-09-16 19:51:00,2014-09-16 20:12:08,Matosinhos Sul,-8.610423,41.14512,-8.686498,41.180346
+stand_trip_0539,taxi_079,stand_08,Foz do Douro,Foz do Douro,2014-09-08 20:42:00,2014-09-08 20:54:23,Ribeira,-8.673217,41.151131,-8.611679,41.138066
+stand_trip_0317,taxi_018,stand_04,Campanhã Station,Campanha,2014-09-18 10:51:00,2014-09-18 11:00:43,Vila Nova de Gaia,-8.58631,41.149689,-8.608186,41.131164
+stand_trip_0546,taxi_040,stand_08,Foz do Douro,Foz do Douro,2014-09-17 19:59:00,2014-09-17 20:15:05,Paranhos,-8.672581,41.150016,-8.604131,41.17683
+stand_trip_0217,taxi_056,stand_03,Trindade,Cedofeita,2014-09-05 18:21:00,2014-09-05 18:24:36,Boavista,-8.610731,41.153374,-8.628868,41.156987
+stand_trip_0052,taxi_016,stand_01,São Bento Station,Ribeira,2014-09-18 19:27:00,2014-09-18 19:31:21,Cedofeita,-8.610423,41.14512,-8.614398,41.157044
+stand_trip_0691,taxi_056,stand_12,Asprela University,Paranhos,2014-09-04 16:59:00,2014-09-04 17:17:46,Matosinhos Sul,-8.606411,41.178333,-8.686498,41.180346
+stand_trip_0067,taxi_034,stand_01,São Bento Station,Ribeira,2014-09-03 21:46:00,2014-09-03 21:55:30,Paranhos,-8.611594,41.14631,-8.606298,41.179
+stand_trip_0364,taxi_027,stand_04,Campanhã Station,Campanha,2014-09-01 20:40:00,2014-09-01 20:49:36,Boavista,-8.583935,41.149515,-8.631173,41.159623
+stand_trip_0284,taxi_010,stand_03,Trindade,Cedofeita,2014-09-12 09:04:00,2014-09-12 09:11:13,Campanha,-8.608643,41.153389,-8.58256,41.150532
+stand_trip_0633,taxi_018,stand_10,Hospital São João,Paranhos,2014-09-12 07:12:00,2014-09-12 07:21:29,Ribeira,-8.60188,41.18279,-8.611679,41.138066
+stand_trip_0716,taxi_007,stand_12,Asprela University,Paranhos,2014-09-11 09:20:00,2014-09-11 09:38:34,Foz do Douro,-8.604575,41.176366,-8.673552,41.150998
+stand_trip_0275,taxi_015,stand_03,Trindade,Cedofeita,2014-09-15 16:11:00,2014-09-15 16:16:38,Campanha,-8.610042,41.152201,-8.587653,41.150705
+stand_trip_0652,taxi_025,stand_10,Hospital São João,Paranhos,2014-09-15 09:31:00,2014-09-15 09:38:52,Cedofeita,-8.600253,41.182846,-8.617248,41.155953
+stand_trip_0272,taxi_043,stand_03,Trindade,Cedofeita,2014-09-02 20:48:00,2014-09-02 21:09:11,Matosinhos Sul,-8.608643,41.153389,-8.686498,41.180346
+stand_trip_0337,taxi_042,stand_04,Campanhã Station,Campanha,2014-09-04 15:33:00,2014-09-04 15:42:13,Boavista,-8.58631,41.149689,-8.626264,41.158676
+stand_trip_0512,taxi_015,stand_07,Ribeira Waterfront,Ribeira,2014-09-08 23:37:00,2014-09-08 23:43:21,Bonfim,-8.613473,41.141402,-8.595589,41.151632
+stand_trip_0653,taxi_042,stand_10,Hospital São João,Paranhos,2014-09-18 08:34:00,2014-09-18 08:49:10,Vila Nova de Gaia,-8.60188,41.18279,-8.609323,41.127541
+stand_trip_0130,taxi_078,stand_02,Aliados,Cedofeita,2014-09-03 14:53:00,2014-09-03 14:54:54,Ribeira,-8.610152,41.149031,-8.615433,41.143321
+stand_trip_0406,taxi_030,stand_05,Bolhão,Bonfim,2014-09-10 11:04:00,2014-09-10 11:08:53,Boavista,-8.604591,41.149299,-8.628019,41.15545
+stand_trip_0673,taxi_066,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-11 19:06:00,2014-09-11 19:13:28,Campanha,-8.609714,41.138884,-8.585665,41.148895
+stand_trip_0020,taxi_025,stand_01,São Bento Station,Ribeira,2014-09-02 22:43:00,2014-09-02 23:01:11,Matosinhos Sul,-8.610423,41.14512,-8.686498,41.180346
+stand_trip_0083,taxi_069,stand_01,São Bento Station,Ribeira,2014-09-11 11:54:00,2014-09-11 12:13:50,Matosinhos Sul,-8.611594,41.14631,-8.691216,41.181082
+stand_trip_0468,taxi_057,stand_06,Casa da Música,Boavista,2014-09-09 21:52:00,2014-09-09 22:00:12,Foz do Douro,-8.629505,41.158845,-8.673552,41.150998
+stand_trip_0262,taxi_031,stand_03,Trindade,Cedofeita,2014-09-18 10:13:00,2014-09-18 10:17:30,Boavista,-8.609373,41.151207,-8.628019,41.15545
+stand_trip_0253,taxi_036,stand_03,Trindade,Cedofeita,2014-09-01 15:25:00,2014-09-01 15:29:40,Boavista,-8.610731,41.153374,-8.628868,41.156987
+stand_trip_0383,taxi_034,stand_05,Bolhão,Bonfim,2014-09-11 17:22:00,2014-09-11 17:26:24,Campanha,-8.607078,41.149088,-8.587653,41.150705
+stand_trip_0243,taxi_024,stand_03,Trindade,Cedofeita,2014-09-17 10:44:00,2014-09-17 10:57:44,Foz do Douro,-8.610042,41.152201,-8.675682,41.153424
+stand_trip_0009,taxi_075,stand_01,São Bento Station,Ribeira,2014-09-15 17:42:00,2014-09-15 17:57:06,Foz do Douro,-8.610708,41.145578,-8.673552,41.150998
+stand_trip_0525,taxi_078,stand_07,Ribeira Waterfront,Ribeira,2014-09-03 12:38:00,2014-09-03 12:42:54,Cedofeita,-8.613638,41.141345,-8.619718,41.157823
+stand_trip_0356,taxi_049,stand_04,Campanhã Station,Campanha,2014-09-05 12:38:00,2014-09-05 13:08:36,Matosinhos Sul,-8.583935,41.149515,-8.691216,41.181082
+stand_trip_0169,taxi_030,stand_02,Aliados,Cedofeita,2014-09-10 10:34:00,2014-09-10 10:50:19,Foz do Douro,-8.612095,41.150391,-8.672546,41.149054
+stand_trip_0439,taxi_038,stand_06,Casa da Música,Boavista,2014-09-04 10:57:00,2014-09-04 11:00:44,Cedofeita,-8.63065,41.158542,-8.614398,41.157044
+stand_trip_0117,taxi_015,stand_02,Aliados,Cedofeita,2014-09-08 13:49:00,2014-09-08 14:07:08,Matosinhos Sul,-8.612095,41.150391,-8.68803,41.176684
+stand_trip_0342,taxi_048,stand_04,Campanhã Station,Campanha,2014-09-05 09:03:00,2014-09-05 09:09:44,Ribeira,-8.584234,41.147947,-8.613063,41.141557
+stand_trip_0133,taxi_050,stand_02,Aliados,Cedofeita,2014-09-16 14:28:00,2014-09-16 14:43:45,Foz do Douro,-8.612095,41.150391,-8.672546,41.149054
+stand_trip_0649,taxi_053,stand_10,Hospital São João,Paranhos,2014-09-02 07:05:00,2014-09-02 07:25:46,Vila Nova de Gaia,-8.60188,41.18279,-8.609323,41.127541
+stand_trip_0256,taxi_008,stand_03,Trindade,Cedofeita,2014-09-12 15:55:00,2014-09-12 16:02:37,Paranhos,-8.608643,41.153389,-8.601283,41.178909
+stand_trip_0016,taxi_036,stand_01,São Bento Station,Ribeira,2014-09-04 18:35:00,2014-09-04 18:39:50,Cedofeita,-8.610423,41.14512,-8.614398,41.157044
+stand_trip_0017,taxi_053,stand_01,São Bento Station,Ribeira,2014-09-09 17:09:00,2014-09-09 17:14:11,Vila Nova de Gaia,-8.610708,41.145578,-8.610425,41.129487
+stand_trip_0050,taxi_061,stand_01,São Bento Station,Ribeira,2014-09-10 18:24:00,2014-09-10 18:30:17,Campanha,-8.609627,41.145952,-8.583838,41.146486
+stand_trip_0476,taxi_035,stand_06,Casa da Música,Boavista,2014-09-03 11:27:00,2014-09-03 11:36:55,Vila Nova de Gaia,-8.629505,41.158845,-8.610425,41.129487
+stand_trip_0578,taxi_031,stand_08,Foz do Douro,Foz do Douro,2014-09-15 12:21:00,2014-09-15 12:33:45,Paranhos,-8.672581,41.150016,-8.604131,41.17683
+stand_trip_0046,taxi_072,stand_01,São Bento Station,Ribeira,2014-09-12 09:00:00,2014-09-12 09:04:52,Boavista,-8.609627,41.145952,-8.628019,41.15545
+stand_trip_0274,taxi_077,stand_03,Trindade,Cedofeita,2014-09-10 12:27:00,2014-09-10 12:32:37,Paranhos,-8.609373,41.151207,-8.602901,41.1747
+stand_trip_0297,taxi_073,stand_04,Campanhã Station,Campanha,2014-09-12 23:47:00,2014-09-12 23:51:43,Ribeira,-8.58631,41.149689,-8.61053,41.142645
+stand_trip_0229,taxi_023,stand_03,Trindade,Cedofeita,2014-09-17 13:31:00,2014-09-17 13:36:40,Paranhos,-8.610731,41.153374,-8.604131,41.17683
+stand_trip_0535,taxi_011,stand_08,Foz do Douro,Foz do Douro,2014-09-10 17:34:00,2014-09-10 17:46:00,Matosinhos Sul,-8.673217,41.151131,-8.68803,41.176684
+stand_trip_0563,taxi_013,stand_08,Foz do Douro,Foz do Douro,2014-09-10 17:10:00,2014-09-10 17:24:56,Bonfim,-8.673217,41.151131,-8.595589,41.151632
+stand_trip_0650,taxi_070,stand_10,Hospital São João,Paranhos,2014-09-05 09:33:00,2014-09-05 09:43:37,Campanha,-8.600517,41.181043,-8.587653,41.150705
+stand_trip_0388,taxi_040,stand_05,Bolhão,Bonfim,2014-09-12 10:59:00,2014-09-12 11:03:56,Boavista,-8.605275,41.148016,-8.626264,41.158676
+stand_trip_0005,taxi_007,stand_01,São Bento Station,Ribeira,2014-09-17 07:28:00,2014-09-17 07:33:21,Campanha,-8.610708,41.145578,-8.585665,41.148895
+stand_trip_0480,taxi_024,stand_06,Casa da Música,Boavista,2014-09-01 12:48:00,2014-09-01 12:54:58,Bonfim,-8.629505,41.158845,-8.596748,41.153748
+stand_trip_0053,taxi_033,stand_01,São Bento Station,Ribeira,2014-09-03 16:43:00,2014-09-03 16:49:03,Vila Nova de Gaia,-8.610708,41.145578,-8.610425,41.129487
+stand_trip_0637,taxi_007,stand_10,Hospital São João,Paranhos,2014-09-10 07:24:00,2014-09-10 07:35:10,Boavista,-8.60188,41.18279,-8.628019,41.15545
+stand_trip_0459,taxi_062,stand_06,Casa da Música,Boavista,2014-09-10 20:03:00,2014-09-10 20:14:16,Foz do Douro,-8.63065,41.158542,-8.670825,41.152698
+stand_trip_0202,taxi_038,stand_02,Aliados,Cedofeita,2014-09-11 17:02:00,2014-09-11 17:04:06,Ribeira,-8.610152,41.149031,-8.615433,41.143321
+stand_trip_0522,taxi_027,stand_07,Ribeira Waterfront,Ribeira,2014-09-10 19:09:00,2014-09-10 19:19:47,Paranhos,-8.611989,41.142016,-8.601283,41.178909
+stand_trip_0399,taxi_069,stand_05,Bolhão,Bonfim,2014-09-01 16:49:00,2014-09-01 16:54:46,Cedofeita,-8.607078,41.149088,-8.619718,41.157823
+stand_trip_0091,taxi_047,stand_01,São Bento Station,Ribeira,2014-09-05 09:43:00,2014-09-05 09:49:27,Boavista,-8.611594,41.14631,-8.631173,41.159623
+stand_trip_0228,taxi_006,stand_03,Trindade,Cedofeita,2014-09-12 23:15:00,2014-09-12 23:18:42,Bonfim,-8.608643,41.153389,-8.593985,41.155527
+stand_trip_0647,taxi_019,stand_10,Hospital São João,Paranhos,2014-09-12 08:30:00,2014-09-12 08:53:06,Matosinhos Sul,-8.601088,41.182138,-8.686498,41.180346
+stand_trip_0032,taxi_071,stand_01,São Bento Station,Ribeira,2014-09-12 08:06:00,2014-09-12 08:13:46,Campanha,-8.610423,41.14512,-8.58256,41.150532
+stand_trip_0429,taxi_026,stand_05,Bolhão,Bonfim,2014-09-09 19:50:00,2014-09-09 19:52:37,Ribeira,-8.606272,41.148302,-8.613063,41.141557
+stand_trip_0483,taxi_075,stand_06,Casa da Música,Boavista,2014-09-12 09:25:00,2014-09-12 09:31:45,Ribeira,-8.63065,41.158542,-8.61053,41.142645
+stand_trip_0109,taxi_037,stand_01,São Bento Station,Ribeira,2014-09-03 14:17:00,2014-09-03 14:22:29,Boavista,-8.610708,41.145578,-8.628868,41.156987
+stand_trip_0224,taxi_017,stand_03,Trindade,Cedofeita,2014-09-16 15:32:00,2014-09-16 15:41:39,Vila Nova de Gaia,-8.608643,41.153389,-8.608186,41.131164
+stand_trip_0309,taxi_040,stand_04,Campanhã Station,Campanha,2014-09-04 15:04:00,2014-09-04 15:23:27,Foz do Douro,-8.58631,41.149689,-8.670825,41.152698
+stand_trip_0710,taxi_063,stand_12,Asprela University,Paranhos,2014-09-05 09:21:00,2014-09-05 09:28:32,Bonfim,-8.605065,41.177495,-8.598443,41.156086
+stand_trip_0190,taxi_071,stand_02,Aliados,Cedofeita,2014-09-01 17:41:00,2014-09-01 17:44:41,Bonfim,-8.610152,41.149031,-8.598443,41.156086
+stand_trip_0099,taxi_025,stand_01,São Bento Station,Ribeira,2014-09-01 09:11:00,2014-09-01 09:26:04,Foz do Douro,-8.611594,41.14631,-8.675682,41.153424
+stand_trip_0514,taxi_049,stand_07,Ribeira Waterfront,Ribeira,2014-09-16 13:14:00,2014-09-16 13:21:17,Campanha,-8.611989,41.142016,-8.58256,41.150532
+stand_trip_0026,taxi_048,stand_01,São Bento Station,Ribeira,2014-09-08 07:39:00,2014-09-08 07:44:59,Vila Nova de Gaia,-8.609627,41.145952,-8.609323,41.127541
+stand_trip_0440,taxi_055,stand_06,Casa da Música,Boavista,2014-09-09 14:56:00,2014-09-09 15:05:50,Vila Nova de Gaia,-8.629505,41.158845,-8.610425,41.129487
+stand_trip_0199,taxi_066,stand_02,Aliados,Cedofeita,2014-09-18 18:24:00,2014-09-18 18:29:51,Bonfim,-8.611007,41.149828,-8.593985,41.155527
+stand_trip_0620,taxi_034,stand_10,Hospital São João,Paranhos,2014-09-17 09:55:00,2014-09-17 10:14:46,Matosinhos Sul,-8.600253,41.182846,-8.688742,41.178908
+stand_trip_0665,taxi_009,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-17 18:08:00,2014-09-17 18:09:05,Ribeira,-8.609714,41.138884,-8.613063,41.141557
+stand_trip_0623,taxi_006,stand_10,Hospital São João,Paranhos,2014-09-10 09:39:00,2014-09-10 09:49:12,Campanha,-8.601088,41.182138,-8.58256,41.150532
+stand_trip_0123,taxi_038,stand_02,Aliados,Cedofeita,2014-09-12 20:28:00,2014-09-12 20:33:46,Vila Nova de Gaia,-8.611007,41.149828,-8.608186,41.131164
+stand_trip_0592,taxi_032,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-08 09:11:00,2014-09-08 09:26:35,Boavista,-8.687629,41.179738,-8.628019,41.15545
+stand_trip_0008,taxi_058,stand_01,São Bento Station,Ribeira,2014-09-10 09:14:00,2014-09-10 09:18:24,Vila Nova de Gaia,-8.610423,41.14512,-8.608186,41.131164
+stand_trip_0359,taxi_021,stand_04,Campanhã Station,Campanha,2014-09-18 09:08:00,2014-09-18 09:25:03,Foz do Douro,-8.585665,41.148895,-8.672546,41.149054
+stand_trip_0540,taxi_017,stand_08,Foz do Douro,Foz do Douro,2014-09-11 17:48:00,2014-09-11 17:58:30,Cedofeita,-8.671901,41.151689,-8.619718,41.157823
+stand_trip_0490,taxi_036,stand_07,Ribeira Waterfront,Ribeira,2014-09-12 09:27:00,2014-09-12 09:32:35,Vila Nova de Gaia,-8.611989,41.142016,-8.608186,41.131164
+stand_trip_0594,taxi_066,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-16 08:10:00,2014-09-16 08:32:05,Bonfim,-8.688328,41.178066,-8.593985,41.155527
+stand_trip_0138,taxi_056,stand_02,Aliados,Cedofeita,2014-09-17 15:27:00,2014-09-17 15:31:32,Campanha,-8.610152,41.149031,-8.587653,41.150705
+stand_trip_0519,taxi_055,stand_07,Ribeira Waterfront,Ribeira,2014-09-17 12:11:00,2014-09-17 12:18:26,Boavista,-8.61449,41.141839,-8.628868,41.156987
+stand_trip_0310,taxi_057,stand_04,Campanhã Station,Campanha,2014-09-09 09:48:00,2014-09-09 09:59:34,Boavista,-8.584234,41.147947,-8.628868,41.156987
+stand_trip_0047,taxi_010,stand_01,São Bento Station,Ribeira,2014-09-17 14:13:00,2014-09-17 14:29:34,Matosinhos Sul,-8.611594,41.14631,-8.691216,41.181082
+stand_trip_0060,taxi_073,stand_01,São Bento Station,Ribeira,2014-09-12 19:54:00,2014-09-12 19:59:56,Boavista,-8.610423,41.14512,-8.626264,41.158676
+stand_trip_0149,taxi_006,stand_02,Aliados,Cedofeita,2014-09-04 18:57:00,2014-09-04 19:14:07,Matosinhos Sul,-8.612095,41.150391,-8.68803,41.176684
+stand_trip_0155,taxi_029,stand_02,Aliados,Cedofeita,2014-09-10 19:51:00,2014-09-10 20:01:25,Paranhos,-8.611007,41.149828,-8.601283,41.178909
+stand_trip_0511,taxi_077,stand_07,Ribeira Waterfront,Ribeira,2014-09-03 22:31:00,2014-09-03 22:50:13,Matosinhos Sul,-8.61449,41.141839,-8.688742,41.178908
+stand_trip_0307,taxi_006,stand_04,Campanhã Station,Campanha,2014-09-16 17:35:00,2014-09-16 17:42:57,Cedofeita,-8.585665,41.148895,-8.615797,41.152686
+stand_trip_0208,taxi_061,stand_03,Trindade,Cedofeita,2014-09-08 09:12:00,2014-09-08 09:16:23,Boavista,-8.608643,41.153389,-8.626264,41.158676
+stand_trip_0055,taxi_067,stand_01,São Bento Station,Ribeira,2014-09-11 12:42:00,2014-09-11 12:47:58,Boavista,-8.611594,41.14631,-8.631173,41.159623
+stand_trip_0505,taxi_054,stand_07,Ribeira Waterfront,Ribeira,2014-09-17 10:57:00,2014-09-17 11:03:49,Campanha,-8.613638,41.141345,-8.587653,41.150705
+stand_trip_0023,taxi_076,stand_01,São Bento Station,Ribeira,2014-09-15 20:03:00,2014-09-15 20:07:53,Campanha,-8.611594,41.14631,-8.587653,41.150705
+stand_trip_0357,taxi_066,stand_04,Campanhã Station,Campanha,2014-09-10 11:24:00,2014-09-10 11:26:46,Bonfim,-8.58631,41.149689,-8.593985,41.155527
+stand_trip_0541,taxi_034,stand_08,Foz do Douro,Foz do Douro,2014-09-16 21:43:00,2014-09-16 21:59:46,Vila Nova de Gaia,-8.674238,41.151894,-8.608186,41.131164
+stand_trip_0137,taxi_039,stand_02,Aliados,Cedofeita,2014-09-12 09:26:00,2014-09-12 09:33:58,Paranhos,-8.612095,41.150391,-8.602901,41.1747
+stand_trip_0668,taxi_060,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-10 20:35:00,2014-09-10 20:48:01,Foz do Douro,-8.607774,41.13894,-8.670825,41.152698
+stand_trip_0411,taxi_036,stand_05,Bolhão,Bonfim,2014-09-11 12:56:00,2014-09-11 12:58:22,Ribeira,-8.607078,41.149088,-8.615433,41.143321
+stand_trip_0543,taxi_068,stand_08,Foz do Douro,Foz do Douro,2014-09-04 21:39:00,2014-09-04 21:48:46,Boavista,-8.673217,41.151131,-8.628019,41.15545
+stand_trip_0460,taxi_079,stand_06,Casa da Música,Boavista,2014-09-15 13:43:00,2014-09-15 13:52:42,Campanha,-8.629505,41.158845,-8.585665,41.148895
+stand_trip_0270,taxi_009,stand_03,Trindade,Cedofeita,2014-09-12 22:07:00,2014-09-12 22:20:41,Foz do Douro,-8.609373,41.151207,-8.672546,41.149054
+stand_trip_0516,taxi_004,stand_07,Ribeira Waterfront,Ribeira,2014-09-04 07:28:00,2014-09-04 07:33:04,Cedofeita,-8.613473,41.141402,-8.615797,41.152686
+stand_trip_0576,taxi_076,stand_08,Foz do Douro,Foz do Douro,2014-09-05 20:47:00,2014-09-05 21:03:57,Cedofeita,-8.671901,41.151689,-8.619718,41.157823
+stand_trip_0504,taxi_037,stand_07,Ribeira Waterfront,Ribeira,2014-09-12 09:25:00,2014-09-12 09:36:44,Paranhos,-8.613473,41.141402,-8.602901,41.1747
+stand_trip_0494,taxi_025,stand_07,Ribeira Waterfront,Ribeira,2014-09-10 08:12:00,2014-09-10 08:20:32,Bonfim,-8.611989,41.142016,-8.593985,41.155527
+stand_trip_0216,taxi_039,stand_03,Trindade,Cedofeita,2014-09-02 09:27:00,2014-09-02 09:41:05,Foz do Douro,-8.608643,41.153389,-8.670825,41.152698
+stand_trip_0558,taxi_007,stand_08,Foz do Douro,Foz do Douro,2014-09-09 21:52:00,2014-09-09 22:05:06,Cedofeita,-8.672581,41.150016,-8.617248,41.155953
+stand_trip_0296,taxi_056,stand_04,Campanhã Station,Campanha,2014-09-09 15:45:00,2014-09-09 16:04:25,Foz do Douro,-8.583935,41.149515,-8.675682,41.153424
+stand_trip_0503,taxi_020,stand_07,Ribeira Waterfront,Ribeira,2014-09-09 15:14:00,2014-09-09 15:18:13,Bonfim,-8.61449,41.141839,-8.596748,41.153748
+stand_trip_0344,taxi_003,stand_04,Campanhã Station,Campanha,2014-09-15 09:19:00,2014-09-15 09:29:48,Vila Nova de Gaia,-8.583935,41.149515,-8.612639,41.131858
+stand_trip_0580,taxi_065,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-16 07:32:00,2014-09-16 07:51:15,Cedofeita,-8.687629,41.179738,-8.615797,41.152686
+stand_trip_0656,taxi_014,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-18 18:44:00,2014-09-18 18:48:48,Ribeira,-8.607774,41.13894,-8.61053,41.142645
+stand_trip_0319,taxi_052,stand_04,Campanhã Station,Campanha,2014-09-08 23:52:00,2014-09-09 00:01:27,Boavista,-8.585665,41.148895,-8.628019,41.15545
+stand_trip_0664,taxi_071,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-12 16:34:00,2014-09-12 16:43:22,Campanha,-8.607774,41.13894,-8.58256,41.150532
+stand_trip_0508,taxi_026,stand_07,Ribeira Waterfront,Ribeira,2014-09-10 18:38:00,2014-09-10 18:41:58,Vila Nova de Gaia,-8.613473,41.141402,-8.609323,41.127541
+stand_trip_0108,taxi_020,stand_01,São Bento Station,Ribeira,2014-09-18 11:44:00,2014-09-18 11:56:24,Foz do Douro,-8.610423,41.14512,-8.670825,41.152698
+stand_trip_0482,taxi_058,stand_06,Casa da Música,Boavista,2014-09-09 18:40:00,2014-09-09 18:48:08,Campanha,-8.630344,41.157766,-8.587653,41.150705
+stand_trip_0345,taxi_020,stand_04,Campanhã Station,Campanha,2014-09-18 06:19:00,2014-09-18 06:36:12,Foz do Douro,-8.58631,41.149689,-8.670825,41.152698
+stand_trip_0065,taxi_079,stand_01,São Bento Station,Ribeira,2014-09-16 19:32:00,2014-09-16 19:53:41,Matosinhos Sul,-8.610708,41.145578,-8.688742,41.178908
+stand_trip_0073,taxi_057,stand_01,São Bento Station,Ribeira,2014-09-09 12:11:00,2014-09-09 12:16:48,Boavista,-8.610708,41.145578,-8.628868,41.156987
+stand_trip_0501,taxi_065,stand_07,Ribeira Waterfront,Ribeira,2014-09-01 17:10:00,2014-09-01 17:17:04,Boavista,-8.613638,41.141345,-8.631173,41.159623
+stand_trip_0104,taxi_031,stand_01,São Bento Station,Ribeira,2014-09-02 10:07:00,2014-09-02 10:12:55,Campanha,-8.610423,41.14512,-8.58256,41.150532
+stand_trip_0619,taxi_017,stand_10,Hospital São João,Paranhos,2014-09-12 10:03:00,2014-09-12 10:11:38,Boavista,-8.601088,41.182138,-8.626264,41.158676
+stand_trip_0570,taxi_053,stand_08,Foz do Douro,Foz do Douro,2014-09-01 19:39:00,2014-09-01 19:49:26,Boavista,-8.672581,41.150016,-8.628868,41.156987
+stand_trip_0531,taxi_022,stand_07,Ribeira Waterfront,Ribeira,2014-09-09 09:02:00,2014-09-09 09:11:38,Paranhos,-8.61449,41.141839,-8.604131,41.17683
+stand_trip_0203,taxi_055,stand_02,Aliados,Cedofeita,2014-09-16 08:18:00,2014-09-16 08:33:30,Matosinhos Sul,-8.611007,41.149828,-8.686498,41.180346
+stand_trip_0118,taxi_032,stand_02,Aliados,Cedofeita,2014-09-11 20:23:00,2014-09-11 20:27:00,Bonfim,-8.610152,41.149031,-8.598443,41.156086
+stand_trip_0457,taxi_028,stand_06,Casa da Música,Boavista,2014-09-02 09:42:00,2014-09-02 09:46:46,Cedofeita,-8.63151,41.159768,-8.615797,41.152686
+stand_trip_0687,taxi_067,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-11 13:03:00,2014-09-11 13:13:20,Boavista,-8.608914,41.138209,-8.631173,41.159623
+stand_trip_0631,taxi_063,stand_10,Hospital São João,Paranhos,2014-09-04 08:33:00,2014-09-04 08:49:39,Vila Nova de Gaia,-8.601088,41.182138,-8.608186,41.131164
+stand_trip_0158,taxi_001,stand_02,Aliados,Cedofeita,2014-09-03 14:24:00,2014-09-03 14:46:20,Matosinhos Sul,-8.610152,41.149031,-8.691216,41.181082
+stand_trip_0087,taxi_058,stand_01,São Bento Station,Ribeira,2014-09-09 10:21:00,2014-09-09 10:27:20,Boavista,-8.611594,41.14631,-8.631173,41.159623
+stand_trip_0036,taxi_060,stand_01,São Bento Station,Ribeira,2014-09-10 22:16:00,2014-09-10 22:27:57,Foz do Douro,-8.610423,41.14512,-8.670825,41.152698
+stand_trip_0667,taxi_043,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-05 16:39:00,2014-09-05 16:46:19,Bonfim,-8.608914,41.138209,-8.598443,41.156086
+stand_trip_0238,taxi_018,stand_03,Trindade,Cedofeita,2014-09-16 16:40:00,2014-09-16 16:47:00,Paranhos,-8.609373,41.151207,-8.602901,41.1747
+stand_trip_0414,taxi_008,stand_05,Bolhão,Bonfim,2014-09-04 18:46:00,2014-09-04 19:01:42,Foz do Douro,-8.604591,41.149299,-8.672546,41.149054
+stand_trip_0688,taxi_005,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-16 18:27:00,2014-09-16 18:47:52,Matosinhos Sul,-8.607774,41.13894,-8.686498,41.180346
+stand_trip_0264,taxi_065,stand_03,Trindade,Cedofeita,2014-09-08 07:54:00,2014-09-08 07:57:43,Bonfim,-8.608643,41.153389,-8.593985,41.155527
+stand_trip_0235,taxi_046,stand_03,Trindade,Cedofeita,2014-09-03 12:02:00,2014-09-03 12:08:13,Boavista,-8.610042,41.152201,-8.631173,41.159623
+stand_trip_0441,taxi_072,stand_06,Casa da Música,Boavista,2014-09-12 20:05:00,2014-09-12 20:13:59,Foz do Douro,-8.63151,41.159768,-8.672546,41.149054
+stand_trip_0386,taxi_006,stand_05,Bolhão,Bonfim,2014-09-04 13:35:00,2014-09-04 13:42:19,Vila Nova de Gaia,-8.604591,41.149299,-8.609323,41.127541
+stand_trip_0675,taxi_021,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-01 18:57:00,2014-09-01 19:05:51,Cedofeita,-8.608914,41.138209,-8.619718,41.157823
+stand_trip_0236,taxi_063,stand_03,Trindade,Cedofeita,2014-09-08 19:25:00,2014-09-08 19:46:07,Matosinhos Sul,-8.608643,41.153389,-8.686498,41.180346
+stand_trip_0544,taxi_006,stand_08,Foz do Douro,Foz do Douro,2014-09-09 19:55:00,2014-09-09 20:03:30,Matosinhos Sul,-8.671901,41.151689,-8.691216,41.181082
+stand_trip_0131,taxi_016,stand_02,Aliados,Cedofeita,2014-09-08 09:16:00,2014-09-08 09:32:31,Matosinhos Sul,-8.611007,41.149828,-8.686498,41.180346
+stand_trip_0446,taxi_078,stand_06,Casa da Música,Boavista,2014-09-15 12:01:00,2014-09-15 12:09:43,Campanha,-8.630344,41.157766,-8.587653,41.150705
+stand_trip_0559,taxi_024,stand_08,Foz do Douro,Foz do Douro,2014-09-12 18:51:00,2014-09-12 19:08:39,Vila Nova de Gaia,-8.673217,41.151131,-8.609323,41.127541
+stand_trip_0200,taxi_004,stand_02,Aliados,Cedofeita,2014-09-03 15:17:00,2014-09-03 15:22:45,Paranhos,-8.610061,41.150516,-8.604131,41.17683
+stand_trip_0454,taxi_056,stand_06,Casa da Música,Boavista,2014-09-09 18:25:00,2014-09-09 18:32:34,Paranhos,-8.630344,41.157766,-8.606298,41.179
+stand_trip_0368,taxi_016,stand_04,Campanhã Station,Campanha,2014-09-17 19:26:00,2014-09-17 19:41:55,Foz do Douro,-8.583935,41.149515,-8.675682,41.153424
+stand_trip_0589,taxi_060,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-15 09:37:00,2014-09-15 09:55:06,Cedofeita,-8.689833,41.179955,-8.619718,41.157823
+stand_trip_0698,taxi_017,stand_12,Asprela University,Paranhos,2014-09-15 10:53:00,2014-09-15 11:08:39,Foz do Douro,-8.605065,41.177495,-8.675682,41.153424
+stand_trip_0220,taxi_028,stand_03,Trindade,Cedofeita,2014-09-18 14:29:00,2014-09-18 14:35:08,Paranhos,-8.608643,41.153389,-8.601283,41.178909
+stand_trip_0696,taxi_062,stand_12,Asprela University,Paranhos,2014-09-05 06:33:00,2014-09-05 06:39:52,Cedofeita,-8.604575,41.176366,-8.617248,41.155953
+stand_trip_0548,taxi_074,stand_08,Foz do Douro,Foz do Douro,2014-09-05 18:35:00,2014-09-05 18:48:01,Ribeira,-8.671901,41.151689,-8.615433,41.143321
+stand_trip_0597,taxi_038,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-09 18:51:00,2014-09-09 19:11:30,Ribeira,-8.689833,41.179955,-8.615433,41.143321
+stand_trip_0690,taxi_039,stand_12,Asprela University,Paranhos,2014-09-01 15:55:00,2014-09-01 16:02:11,Boavista,-8.605065,41.177495,-8.631173,41.159623
+stand_trip_0179,taxi_042,stand_02,Aliados,Cedofeita,2014-09-12 15:17:00,2014-09-12 15:23:18,Boavista,-8.611007,41.149828,-8.626264,41.158676
+stand_trip_0484,taxi_013,stand_06,Casa da Música,Boavista,2014-09-17 09:14:00,2014-09-17 09:15:58,Cedofeita,-8.629505,41.158845,-8.617248,41.155953
+stand_trip_0671,taxi_032,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-03 17:06:00,2014-09-03 17:15:08,Bonfim,-8.608914,41.138209,-8.598443,41.156086
+stand_trip_0456,taxi_011,stand_06,Casa da Música,Boavista,2014-09-17 10:30:00,2014-09-17 10:35:45,Ribeira,-8.629505,41.158845,-8.613063,41.141557
+stand_trip_0697,taxi_079,stand_12,Asprela University,Paranhos,2014-09-10 08:56:00,2014-09-10 09:09:10,Vila Nova de Gaia,-8.605384,41.177617,-8.609323,41.127541
+stand_trip_0027,taxi_065,stand_01,São Bento Station,Ribeira,2014-09-11 20:16:00,2014-09-11 20:29:35,Foz do Douro,-8.611594,41.14631,-8.675682,41.153424
+stand_trip_0045,taxi_055,stand_01,São Bento Station,Ribeira,2014-09-09 10:44:00,2014-09-09 10:55:16,Foz do Douro,-8.610708,41.145578,-8.673552,41.150998
+stand_trip_0614,taxi_011,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-02 07:54:00,2014-09-02 08:23:43,Campanha,-8.688328,41.178066,-8.58256,41.150532
+stand_trip_0116,taxi_077,stand_02,Aliados,Cedofeita,2014-09-03 20:42:00,2014-09-03 20:46:34,Boavista,-8.610061,41.150516,-8.628868,41.156987
+stand_trip_0031,taxi_054,stand_01,São Bento Station,Ribeira,2014-09-09 11:12:00,2014-09-09 11:19:20,Paranhos,-8.611594,41.14631,-8.606298,41.179
+stand_trip_0329,taxi_064,stand_04,Campanhã Station,Campanha,2014-09-10 19:52:00,2014-09-10 20:09:52,Matosinhos Sul,-8.58631,41.149689,-8.686498,41.180346
+stand_trip_0194,taxi_060,stand_02,Aliados,Cedofeita,2014-09-17 19:10:00,2014-09-17 19:27:43,Matosinhos Sul,-8.610152,41.149031,-8.691216,41.181082
+stand_trip_0402,taxi_041,stand_05,Bolhão,Bonfim,2014-09-12 13:04:00,2014-09-12 13:08:21,Ribeira,-8.604591,41.149299,-8.611679,41.138066
+stand_trip_0437,taxi_004,stand_06,Casa da Música,Boavista,2014-09-16 14:12:00,2014-09-16 14:22:18,Campanha,-8.63151,41.159768,-8.583838,41.146486
+stand_trip_0250,taxi_064,stand_03,Trindade,Cedofeita,2014-09-08 09:16:00,2014-09-08 09:32:23,Matosinhos Sul,-8.609373,41.151207,-8.68803,41.176684
+stand_trip_0339,taxi_076,stand_04,Campanhã Station,Campanha,2014-09-12 10:37:00,2014-09-12 10:39:04,Bonfim,-8.585665,41.148895,-8.595589,41.151632
+stand_trip_0556,taxi_052,stand_08,Foz do Douro,Foz do Douro,2014-09-01 18:19:00,2014-09-01 18:34:38,Campanha,-8.671901,41.151689,-8.587653,41.150705
+stand_trip_0707,taxi_012,stand_12,Asprela University,Paranhos,2014-09-12 21:24:00,2014-09-12 21:38:02,Foz do Douro,-8.606411,41.178333,-8.670825,41.152698
+stand_trip_0311,taxi_074,stand_04,Campanhã Station,Campanha,2014-09-12 11:25:00,2014-09-12 11:47:42,Matosinhos Sul,-8.585665,41.148895,-8.68803,41.176684
+stand_trip_0157,taxi_063,stand_02,Aliados,Cedofeita,2014-09-18 22:06:00,2014-09-18 22:10:26,Ribeira,-8.612095,41.150391,-8.611679,41.138066
+stand_trip_0714,taxi_052,stand_12,Asprela University,Paranhos,2014-09-03 15:30:00,2014-09-03 15:36:52,Cedofeita,-8.605065,41.177495,-8.619718,41.157823
+stand_trip_0395,taxi_001,stand_05,Bolhão,Bonfim,2014-09-03 13:50:00,2014-09-03 13:55:38,Vila Nova de Gaia,-8.607078,41.149088,-8.612639,41.131858
+stand_trip_0423,taxi_003,stand_05,Bolhão,Bonfim,2014-09-03 09:15:00,2014-09-03 09:31:29,Foz do Douro,-8.607078,41.149088,-8.675682,41.153424
+stand_trip_0621,taxi_051,stand_10,Hospital São João,Paranhos,2014-09-02 08:56:00,2014-09-02 09:06:22,Bonfim,-8.60188,41.18279,-8.595589,41.151632
+stand_trip_0562,taxi_075,stand_08,Foz do Douro,Foz do Douro,2014-09-05 22:02:00,2014-09-05 22:12:52,Matosinhos Sul,-8.672581,41.150016,-8.688742,41.178908
+stand_trip_0119,taxi_049,stand_02,Aliados,Cedofeita,2014-09-16 17:48:00,2014-09-16 17:58:44,Paranhos,-8.611007,41.149828,-8.601283,41.178909
+stand_trip_0537,taxi_045,stand_08,Foz do Douro,Foz do Douro,2014-09-18 19:13:00,2014-09-18 19:33:12,Paranhos,-8.674238,41.151894,-8.601283,41.178909
+stand_trip_0596,taxi_021,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-04 21:30:00,2014-09-04 21:57:03,Campanha,-8.687629,41.179738,-8.583838,41.146486
+stand_trip_0257,taxi_025,stand_03,Trindade,Cedofeita,2014-09-17 13:08:00,2014-09-17 13:13:43,Campanha,-8.610731,41.153374,-8.585665,41.148895
+stand_trip_0560,taxi_041,stand_08,Foz do Douro,Foz do Douro,2014-09-17 21:26:00,2014-09-17 21:44:21,Paranhos,-8.671901,41.151689,-8.606298,41.179
+stand_trip_0478,taxi_069,stand_06,Casa da Música,Boavista,2014-09-11 14:55:00,2014-09-11 15:03:42,Campanha,-8.630344,41.157766,-8.587653,41.150705
+stand_trip_0159,taxi_018,stand_02,Aliados,Cedofeita,2014-09-08 19:32:00,2014-09-08 19:37:35,Vila Nova de Gaia,-8.611007,41.149828,-8.608186,41.131164
+stand_trip_0095,taxi_036,stand_01,São Bento Station,Ribeira,2014-09-03 07:31:00,2014-09-03 07:37:07,Campanha,-8.611594,41.14631,-8.587653,41.150705
+stand_trip_0168,taxi_013,stand_02,Aliados,Cedofeita,2014-09-05 21:08:00,2014-09-05 21:16:10,Vila Nova de Gaia,-8.610061,41.150516,-8.610425,41.129487
+stand_trip_0371,taxi_067,stand_04,Campanhã Station,Campanha,2014-09-10 18:08:00,2014-09-10 18:16:32,Vila Nova de Gaia,-8.585665,41.148895,-8.609323,41.127541
+stand_trip_0043,taxi_021,stand_01,São Bento Station,Ribeira,2014-09-01 12:19:00,2014-09-01 12:23:09,Cedofeita,-8.611594,41.14631,-8.619718,41.157823
+stand_trip_0215,taxi_022,stand_03,Trindade,Cedofeita,2014-09-17 08:05:00,2014-09-17 08:11:42,Vila Nova de Gaia,-8.610042,41.152201,-8.612639,41.131858
+stand_trip_0054,taxi_050,stand_01,São Bento Station,Ribeira,2014-09-08 17:49:00,2014-09-08 17:59:08,Foz do Douro,-8.609627,41.145952,-8.672546,41.149054
+stand_trip_0288,taxi_078,stand_03,Trindade,Cedofeita,2014-09-10 22:53:00,2014-09-10 23:06:28,Foz do Douro,-8.608643,41.153389,-8.670825,41.152698
+stand_trip_0223,taxi_079,stand_03,Trindade,Cedofeita,2014-09-11 17:36:00,2014-09-11 17:51:51,Matosinhos Sul,-8.610042,41.152201,-8.691216,41.181082
+stand_trip_0279,taxi_004,stand_03,Trindade,Cedofeita,2014-09-11 08:40:00,2014-09-11 08:54:57,Foz do Douro,-8.610042,41.152201,-8.675682,41.153424
+stand_trip_0049,taxi_044,stand_01,São Bento Station,Ribeira,2014-09-05 12:53:00,2014-09-05 13:01:27,Paranhos,-8.610708,41.145578,-8.604131,41.17683
+stand_trip_0606,taxi_033,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-08 18:54:00,2014-09-08 19:14:00,Ribeira,-8.688328,41.178066,-8.61053,41.142645
+stand_trip_0663,taxi_054,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-09 16:13:00,2014-09-09 16:25:12,Paranhos,-8.608914,41.138209,-8.606298,41.179
+stand_trip_0611,taxi_039,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-09 16:48:00,2014-09-09 17:05:51,Ribeira,-8.688775,41.179172,-8.613063,41.141557
+stand_trip_0320,taxi_069,stand_04,Campanhã Station,Campanha,2014-09-11 07:53:00,2014-09-11 08:19:14,Matosinhos Sul,-8.583935,41.149515,-8.691216,41.181082
+stand_trip_0551,taxi_046,stand_08,Foz do Douro,Foz do Douro,2014-09-18 21:58:00,2014-09-18 22:14:10,Paranhos,-8.673217,41.151131,-8.602901,41.1747
+stand_trip_0187,taxi_020,stand_02,Aliados,Cedofeita,2014-09-08 16:52:00,2014-09-08 17:07:22,Foz do Douro,-8.611007,41.149828,-8.670825,41.152698
+stand_trip_0129,taxi_061,stand_02,Aliados,Cedofeita,2014-09-18 18:27:00,2014-09-18 18:35:28,Campanha,-8.612095,41.150391,-8.583838,41.146486
+stand_trip_0709,taxi_046,stand_12,Asprela University,Paranhos,2014-09-02 16:52:00,2014-09-02 17:11:35,Matosinhos Sul,-8.605384,41.177617,-8.68803,41.176684
+stand_trip_0672,taxi_049,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-08 17:19:00,2014-09-08 17:33:10,Paranhos,-8.607774,41.13894,-8.601283,41.178909
+stand_trip_0107,taxi_003,stand_01,São Bento Station,Ribeira,2014-09-15 22:51:00,2014-09-15 22:55:29,Vila Nova de Gaia,-8.611594,41.14631,-8.612639,41.131858
+stand_trip_0286,taxi_044,stand_03,Trindade,Cedofeita,2014-09-02 23:36:00,2014-09-02 23:57:12,Matosinhos Sul,-8.609373,41.151207,-8.68803,41.176684
+stand_trip_0462,taxi_034,stand_06,Casa da Música,Boavista,2014-09-03 08:10:00,2014-09-03 08:16:42,Bonfim,-8.630344,41.157766,-8.598443,41.156086
+stand_trip_0593,taxi_049,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-11 09:19:00,2014-09-11 09:38:15,Ribeira,-8.689833,41.179955,-8.615433,41.143321
+stand_trip_0417,taxi_059,stand_05,Bolhão,Bonfim,2014-09-17 17:27:00,2014-09-17 17:30:22,Cedofeita,-8.606272,41.148302,-8.617248,41.155953
+stand_trip_0410,taxi_019,stand_05,Bolhão,Bonfim,2014-09-08 07:15:00,2014-09-08 07:19:18,Campanha,-8.604591,41.149299,-8.583838,41.146486
+stand_trip_0717,taxi_024,stand_12,Asprela University,Paranhos,2014-09-16 08:22:00,2014-09-16 08:31:06,Boavista,-8.605384,41.177617,-8.628019,41.15545
+stand_trip_0464,taxi_068,stand_06,Casa da Música,Boavista,2014-09-11 15:04:00,2014-09-11 15:14:16,Campanha,-8.629505,41.158845,-8.585665,41.148895
+stand_trip_0093,taxi_002,stand_01,São Bento Station,Ribeira,2014-09-15 21:25:00,2014-09-15 21:29:32,Bonfim,-8.610708,41.145578,-8.596748,41.153748
+stand_trip_0061,taxi_011,stand_01,São Bento Station,Ribeira,2014-09-17 19:59:00,2014-09-17 20:02:04,Cedofeita,-8.610708,41.145578,-8.617248,41.155953
+stand_trip_0103,taxi_014,stand_01,São Bento Station,Ribeira,2014-09-17 08:15:00,2014-09-17 08:24:03,Paranhos,-8.611594,41.14631,-8.606298,41.179
+stand_trip_0421,taxi_048,stand_05,Bolhão,Bonfim,2014-09-15 07:07:00,2014-09-15 07:11:02,Cedofeita,-8.606272,41.148302,-8.617248,41.155953
+stand_trip_0420,taxi_031,stand_05,Bolhão,Bonfim,2014-09-10 21:11:00,2014-09-10 21:14:24,Ribeira,-8.605275,41.148016,-8.61053,41.142645
+stand_trip_0143,taxi_062,stand_02,Aliados,Cedofeita,2014-09-18 20:27:00,2014-09-18 20:31:40,Boavista,-8.611007,41.149828,-8.626264,41.158676
+stand_trip_0458,taxi_045,stand_06,Casa da Música,Boavista,2014-09-05 17:23:00,2014-09-05 17:33:06,Vila Nova de Gaia,-8.630344,41.157766,-8.612639,41.131858
+stand_trip_0090,taxi_030,stand_01,São Bento Station,Ribeira,2014-09-02 19:19:00,2014-09-02 19:31:14,Foz do Douro,-8.609627,41.145952,-8.672546,41.149054
+stand_trip_0349,taxi_009,stand_04,Campanhã Station,Campanha,2014-09-16 16:29:00,2014-09-16 16:39:03,Paranhos,-8.58631,41.149689,-8.601283,41.178909
+stand_trip_0124,taxi_055,stand_02,Aliados,Cedofeita,2014-09-17 08:21:00,2014-09-17 08:38:39,Foz do Douro,-8.610061,41.150516,-8.673552,41.150998
+stand_trip_0418,taxi_076,stand_05,Bolhão,Bonfim,2014-09-02 09:28:00,2014-09-02 09:35:38,Paranhos,-8.604591,41.149299,-8.602901,41.1747
+stand_trip_0715,taxi_069,stand_12,Asprela University,Paranhos,2014-09-08 17:42:00,2014-09-08 17:55:10,Vila Nova de Gaia,-8.606411,41.178333,-8.608186,41.131164
+stand_trip_0469,taxi_074,stand_06,Casa da Música,Boavista,2014-09-12 22:10:00,2014-09-12 22:22:29,Campanha,-8.63151,41.159768,-8.583838,41.146486
+stand_trip_0680,taxi_027,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-02 16:51:00,2014-09-02 16:58:46,Bonfim,-8.607774,41.13894,-8.593985,41.155527
+stand_trip_0450,taxi_067,stand_06,Casa da Música,Boavista,2014-09-11 15:46:00,2014-09-11 15:54:04,Foz do Douro,-8.630344,41.157766,-8.675682,41.153424
+stand_trip_0643,taxi_030,stand_10,Hospital São João,Paranhos,2014-09-16 10:36:00,2014-09-16 10:44:30,Cedofeita,-8.601088,41.182138,-8.614398,41.157044
+stand_trip_0115,taxi_060,stand_02,Aliados,Cedofeita,2014-09-18 16:30:00,2014-09-18 16:41:40,Foz do Douro,-8.611007,41.149828,-8.670825,41.152698
+stand_trip_0135,taxi_005,stand_02,Aliados,Cedofeita,2014-09-04 11:34:00,2014-09-04 11:56:51,Matosinhos Sul,-8.611007,41.149828,-8.686498,41.180346
+stand_trip_0498,taxi_014,stand_07,Ribeira Waterfront,Ribeira,2014-09-08 16:51:00,2014-09-08 16:56:25,Cedofeita,-8.611989,41.142016,-8.614398,41.157044
+stand_trip_0518,taxi_038,stand_07,Ribeira Waterfront,Ribeira,2014-09-12 20:39:00,2014-09-12 20:56:32,Foz do Douro,-8.611989,41.142016,-8.670825,41.152698
+stand_trip_0233,taxi_012,stand_03,Trindade,Cedofeita,2014-09-15 14:15:00,2014-09-15 14:22:26,Vila Nova de Gaia,-8.610731,41.153374,-8.610425,41.129487
+stand_trip_0431,taxi_060,stand_05,Bolhão,Bonfim,2014-09-17 10:50:00,2014-09-17 10:56:19,Vila Nova de Gaia,-8.607078,41.149088,-8.612639,41.131858
+stand_trip_0011,taxi_030,stand_01,São Bento Station,Ribeira,2014-09-03 10:52:00,2014-09-03 11:10:06,Matosinhos Sul,-8.611594,41.14631,-8.691216,41.181082
+stand_trip_0042,taxi_004,stand_01,São Bento Station,Ribeira,2014-09-16 21:34:00,2014-09-16 21:40:01,Boavista,-8.609627,41.145952,-8.628019,41.15545
+stand_trip_0316,taxi_001,stand_04,Campanhã Station,Campanha,2014-09-16 09:40:00,2014-09-16 09:49:51,Cedofeita,-8.583935,41.149515,-8.619718,41.157823
+stand_trip_0280,taxi_021,stand_03,Trindade,Cedofeita,2014-09-16 19:45:00,2014-09-16 19:49:32,Boavista,-8.608643,41.153389,-8.626264,41.158676
+stand_trip_0488,taxi_002,stand_06,Casa da Música,Boavista,2014-09-15 14:53:00,2014-09-15 15:07:40,Matosinhos Sul,-8.629505,41.158845,-8.688742,41.178908
+stand_trip_0313,taxi_029,stand_04,Campanhã Station,Campanha,2014-09-02 06:42:00,2014-09-02 06:53:12,Paranhos,-8.58631,41.149689,-8.601283,41.178909
+stand_trip_0265,taxi_003,stand_03,Trindade,Cedofeita,2014-09-11 09:34:00,2014-09-11 09:40:31,Paranhos,-8.610731,41.153374,-8.604131,41.17683
+stand_trip_0072,taxi_040,stand_01,São Bento Station,Ribeira,2014-09-04 13:10:00,2014-09-04 13:23:38,Foz do Douro,-8.610423,41.14512,-8.670825,41.152698
+stand_trip_0301,taxi_062,stand_04,Campanhã Station,Campanha,2014-09-10 19:33:00,2014-09-10 19:43:07,Boavista,-8.58631,41.149689,-8.626264,41.158676
+stand_trip_0039,taxi_032,stand_01,São Bento Station,Ribeira,2014-09-03 13:45:00,2014-09-03 13:49:19,Bonfim,-8.611594,41.14631,-8.598443,41.156086
+stand_trip_0241,taxi_069,stand_03,Trindade,Cedofeita,2014-09-09 17:19:00,2014-09-09 17:36:23,Matosinhos Sul,-8.610731,41.153374,-8.688742,41.178908
+stand_trip_0197,taxi_032,stand_02,Aliados,Cedofeita,2014-09-10 16:49:00,2014-09-10 16:52:25,Boavista,-8.612095,41.150391,-8.628019,41.15545
+stand_trip_0348,taxi_071,stand_04,Campanhã Station,Campanha,2014-09-11 08:18:00,2014-09-11 08:23:55,Bonfim,-8.583935,41.149515,-8.598443,41.156086
+stand_trip_0106,taxi_065,stand_01,São Bento Station,Ribeira,2014-09-10 06:16:00,2014-09-10 06:19:05,Cedofeita,-8.609627,41.145952,-8.615797,41.152686
+stand_trip_0063,taxi_045,stand_01,São Bento Station,Ribeira,2014-09-05 06:34:00,2014-09-05 06:45:22,Foz do Douro,-8.611594,41.14631,-8.675682,41.153424
+stand_trip_0413,taxi_070,stand_05,Bolhão,Bonfim,2014-09-01 13:12:00,2014-09-01 13:20:43,Vila Nova de Gaia,-8.606272,41.148302,-8.610425,41.129487
+stand_trip_0163,taxi_007,stand_02,Aliados,Cedofeita,2014-09-04 23:22:00,2014-09-04 23:26:31,Bonfim,-8.611007,41.149828,-8.593985,41.155527
+stand_trip_0393,taxi_046,stand_05,Bolhão,Bonfim,2014-09-15 14:39:00,2014-09-15 14:41:26,Ribeira,-8.606272,41.148302,-8.613063,41.141557
+stand_trip_0299,taxi_028,stand_04,Campanhã Station,Campanha,2014-09-02 15:34:00,2014-09-02 15:42:40,Vila Nova de Gaia,-8.585665,41.148895,-8.609323,41.127541
+stand_trip_0510,taxi_060,stand_07,Ribeira Waterfront,Ribeira,2014-09-18 18:08:00,2014-09-18 18:14:40,Boavista,-8.611989,41.142016,-8.626264,41.158676
+stand_trip_0177,taxi_008,stand_02,Aliados,Cedofeita,2014-09-04 12:43:00,2014-09-04 12:50:34,Vila Nova de Gaia,-8.612095,41.150391,-8.609323,41.127541
+stand_trip_0466,taxi_023,stand_06,Casa da Música,Boavista,2014-09-01 07:08:00,2014-09-01 07:12:22,Cedofeita,-8.630344,41.157766,-8.619718,41.157823
+stand_trip_0089,taxi_013,stand_01,São Bento Station,Ribeira,2014-09-17 21:51:00,2014-09-17 21:56:37,Vila Nova de Gaia,-8.610708,41.145578,-8.610425,41.129487
+stand_trip_0004,taxi_069,stand_01,São Bento Station,Ribeira,2014-09-12 19:24:00,2014-09-12 19:35:07,Paranhos,-8.610423,41.14512,-8.601283,41.178909
+stand_trip_0477,taxi_052,stand_06,Casa da Música,Boavista,2014-09-08 23:29:00,2014-09-08 23:40:35,Foz do Douro,-8.63151,41.159768,-8.672546,41.149054
+stand_trip_0591,taxi_015,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-03 19:53:00,2014-09-03 20:03:31,Foz do Douro,-8.688775,41.179172,-8.673552,41.150998
+stand_trip_0079,taxi_001,stand_01,São Bento Station,Ribeira,2014-09-15 10:13:00,2014-09-15 10:17:51,Cedofeita,-8.611594,41.14631,-8.619718,41.157823
+stand_trip_0453,taxi_039,stand_06,Casa da Música,Boavista,2014-09-04 09:02:00,2014-09-04 09:10:16,Bonfim,-8.63151,41.159768,-8.595589,41.151632
+stand_trip_0683,taxi_078,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-15 15:30:00,2014-09-15 15:33:55,Ribeira,-8.608914,41.138209,-8.615433,41.143321
+stand_trip_0523,taxi_044,stand_07,Ribeira Waterfront,Ribeira,2014-09-15 14:51:00,2014-09-15 14:57:56,Campanha,-8.61449,41.141839,-8.585665,41.148895
+stand_trip_0379,taxi_045,stand_05,Bolhão,Bonfim,2014-09-15 08:37:00,2014-09-15 08:44:23,Boavista,-8.607078,41.149088,-8.631173,41.159623
+stand_trip_0234,taxi_029,stand_03,Trindade,Cedofeita,2014-09-18 08:56:00,2014-09-18 09:09:59,Foz do Douro,-8.609373,41.151207,-8.672546,41.149054
+stand_trip_0034,taxi_026,stand_01,São Bento Station,Ribeira,2014-09-02 19:30:00,2014-09-02 19:32:57,Cedofeita,-8.609627,41.145952,-8.615797,41.152686
+stand_trip_0694,taxi_028,stand_12,Asprela University,Paranhos,2014-09-17 17:05:00,2014-09-17 17:13:20,Campanha,-8.605065,41.177495,-8.587653,41.150705
+stand_trip_0171,taxi_064,stand_02,Aliados,Cedofeita,2014-09-18 11:14:00,2014-09-18 11:30:24,Matosinhos Sul,-8.611007,41.149828,-8.686498,41.180346
+stand_trip_0273,taxi_060,stand_03,Trindade,Cedofeita,2014-09-05 08:04:00,2014-09-05 08:07:21,Bonfim,-8.610731,41.153374,-8.596748,41.153748
+stand_trip_0520,taxi_072,stand_07,Ribeira Waterfront,Ribeira,2014-09-02 06:04:00,2014-09-02 06:22:43,Matosinhos Sul,-8.613473,41.141402,-8.68803,41.176684
+stand_trip_0033,taxi_009,stand_01,São Bento Station,Ribeira,2014-09-17 14:38:00,2014-09-17 14:43:17,Boavista,-8.610708,41.145578,-8.628868,41.156987
+stand_trip_0405,taxi_013,stand_05,Bolhão,Bonfim,2014-09-05 12:14:00,2014-09-05 12:27:04,Foz do Douro,-8.606272,41.148302,-8.673552,41.150998
+stand_trip_0530,taxi_005,stand_07,Ribeira Waterfront,Ribeira,2014-09-04 17:07:00,2014-09-04 17:12:54,Bonfim,-8.611989,41.142016,-8.593985,41.155527
+stand_trip_0277,taxi_049,stand_03,Trindade,Cedofeita,2014-09-03 10:07:00,2014-09-03 10:23:59,Matosinhos Sul,-8.610731,41.153374,-8.688742,41.178908
+stand_trip_0461,taxi_017,stand_06,Casa da Música,Boavista,2014-09-18 10:28:00,2014-09-18 10:40:07,Matosinhos Sul,-8.63151,41.159768,-8.68803,41.176684
+stand_trip_0290,taxi_033,stand_03,Trindade,Cedofeita,2014-09-18 16:23:00,2014-09-18 16:42:46,Matosinhos Sul,-8.609373,41.151207,-8.68803,41.176684
+stand_trip_0218,taxi_073,stand_03,Trindade,Cedofeita,2014-09-10 16:55:00,2014-09-10 17:14:34,Matosinhos Sul,-8.609373,41.151207,-8.68803,41.176684
+stand_trip_0502,taxi_003,stand_07,Ribeira Waterfront,Ribeira,2014-09-04 20:57:00,2014-09-04 21:15:34,Matosinhos Sul,-8.611989,41.142016,-8.686498,41.180346
+stand_trip_0276,taxi_032,stand_03,Trindade,Cedofeita,2014-09-18 11:11:00,2014-09-18 11:15:00,Ribeira,-8.608643,41.153389,-8.61053,41.142645
+stand_trip_0128,taxi_044,stand_02,Aliados,Cedofeita,2014-09-15 06:42:00,2014-09-15 06:50:16,Paranhos,-8.610061,41.150516,-8.604131,41.17683
+stand_trip_0247,taxi_013,stand_03,Trindade,Cedofeita,2014-09-15 18:50:00,2014-09-15 18:58:16,Paranhos,-8.610042,41.152201,-8.606298,41.179
+stand_trip_0231,taxi_057,stand_03,Trindade,Cedofeita,2014-09-05 08:29:00,2014-09-05 08:31:31,Ribeira,-8.610042,41.152201,-8.615433,41.143321
+stand_trip_0603,taxi_061,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-15 06:53:00,2014-09-15 07:15:05,Bonfim,-8.688775,41.179172,-8.596748,41.153748
+stand_trip_0438,taxi_021,stand_06,Casa da Música,Boavista,2014-09-01 21:53:00,2014-09-01 21:58:17,Ribeira,-8.630344,41.157766,-8.615433,41.143321
+stand_trip_0369,taxi_033,stand_04,Campanhã Station,Campanha,2014-09-02 19:56:00,2014-09-02 20:02:43,Ribeira,-8.58631,41.149689,-8.61053,41.142645
+stand_trip_0094,taxi_019,stand_01,São Bento Station,Ribeira,2014-09-18 22:22:00,2014-09-18 22:32:04,Paranhos,-8.609627,41.145952,-8.602901,41.1747
+stand_trip_0451,taxi_005,stand_06,Casa da Música,Boavista,2014-09-16 06:04:00,2014-09-16 06:16:33,Campanha,-8.63065,41.158542,-8.58256,41.150532
+stand_trip_0207,taxi_044,stand_03,Trindade,Cedofeita,2014-09-03 20:31:00,2014-09-03 20:41:34,Foz do Douro,-8.610042,41.152201,-8.675682,41.153424
+stand_trip_0314,taxi_046,stand_04,Campanhã Station,Campanha,2014-09-05 17:34:00,2014-09-05 17:55:00,Foz do Douro,-8.584234,41.147947,-8.673552,41.150998
+stand_trip_0102,taxi_076,stand_01,São Bento Station,Ribeira,2014-09-12 14:23:00,2014-09-12 14:28:41,Bonfim,-8.609627,41.145952,-8.595589,41.151632
+stand_trip_0239,taxi_035,stand_03,Trindade,Cedofeita,2014-09-01 10:59:00,2014-09-01 11:03:32,Campanha,-8.610042,41.152201,-8.587653,41.150705
+stand_trip_0479,taxi_007,stand_06,Casa da Música,Boavista,2014-09-15 13:48:00,2014-09-15 14:00:31,Matosinhos Sul,-8.63065,41.158542,-8.686498,41.180346
+stand_trip_0340,taxi_014,stand_04,Campanhã Station,Campanha,2014-09-17 16:36:00,2014-09-17 16:46:54,Paranhos,-8.583935,41.149515,-8.606298,41.179
+stand_trip_0244,taxi_041,stand_03,Trindade,Cedofeita,2014-09-02 14:42:00,2014-09-02 14:45:39,Boavista,-8.608643,41.153389,-8.626264,41.158676
+stand_trip_0014,taxi_002,stand_01,São Bento Station,Ribeira,2014-09-16 18:36:00,2014-09-16 18:42:35,Campanha,-8.609627,41.145952,-8.583838,41.146486
+stand_trip_0147,taxi_051,stand_02,Aliados,Cedofeita,2014-09-16 09:25:00,2014-09-16 09:31:49,Campanha,-8.611007,41.149828,-8.58256,41.150532
+stand_trip_0015,taxi_019,stand_01,São Bento Station,Ribeira,2014-09-01 13:55:00,2014-09-01 14:00:22,Boavista,-8.611594,41.14631,-8.631173,41.159623
+stand_trip_0507,taxi_009,stand_07,Ribeira Waterfront,Ribeira,2014-09-05 13:23:00,2014-09-05 13:27:42,Cedofeita,-8.61449,41.141839,-8.617248,41.155953
+stand_trip_0096,taxi_053,stand_01,São Bento Station,Ribeira,2014-09-08 23:58:00,2014-09-09 00:03:47,Boavista,-8.610423,41.14512,-8.626264,41.158676
+stand_trip_0590,taxi_077,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-18 16:50:00,2014-09-18 17:11:40,Vila Nova de Gaia,-8.688328,41.178066,-8.608186,41.131164
+stand_trip_0607,taxi_050,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-11 08:27:00,2014-09-11 08:42:42,Cedofeita,-8.688775,41.179172,-8.617248,41.155953
+stand_trip_0002,taxi_035,stand_01,São Bento Station,Ribeira,2014-09-04 09:10:00,2014-09-04 09:27:52,Matosinhos Sul,-8.609627,41.145952,-8.68803,41.176684
+stand_trip_0708,taxi_029,stand_12,Asprela University,Paranhos,2014-09-17 17:51:00,2014-09-17 17:59:26,Boavista,-8.604575,41.176366,-8.628868,41.156987
+stand_trip_0415,taxi_025,stand_05,Bolhão,Bonfim,2014-09-09 09:02:00,2014-09-09 09:08:47,Boavista,-8.607078,41.149088,-8.631173,41.159623
+stand_trip_0404,taxi_075,stand_05,Bolhão,Bonfim,2014-09-02 13:04:00,2014-09-02 13:09:42,Vila Nova de Gaia,-8.605275,41.148016,-8.608186,41.131164
+stand_trip_0527,taxi_033,stand_07,Ribeira Waterfront,Ribeira,2014-09-11 09:14:00,2014-09-11 09:30:47,Foz do Douro,-8.61449,41.141839,-8.673552,41.150998
+stand_trip_0059,taxi_056,stand_01,São Bento Station,Ribeira,2014-09-09 10:59:00,2014-09-09 11:04:56,Campanha,-8.611594,41.14631,-8.587653,41.150705
+stand_trip_0584,taxi_054,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-12 09:42:00,2014-09-12 10:04:27,Ribeira,-8.687629,41.179738,-8.611679,41.138066
+stand_trip_0346,taxi_037,stand_04,Campanhã Station,Campanha,2014-09-02 14:18:00,2014-09-02 14:28:06,Boavista,-8.584234,41.147947,-8.628868,41.156987
+stand_trip_0051,taxi_078,stand_01,São Bento Station,Ribeira,2014-09-15 20:27:00,2014-09-15 20:33:02,Boavista,-8.611594,41.14631,-8.631173,41.159623
+stand_trip_0350,taxi_026,stand_04,Campanhã Station,Campanha,2014-09-01 20:06:00,2014-09-01 20:23:19,Foz do Douro,-8.584234,41.147947,-8.673552,41.150998
+stand_trip_0509,taxi_043,stand_07,Ribeira Waterfront,Ribeira,2014-09-15 11:39:00,2014-09-15 11:53:08,Foz do Douro,-8.613638,41.141345,-8.675682,41.153424
+stand_trip_0599,taxi_072,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-17 10:56:00,2014-09-17 11:14:51,Vila Nova de Gaia,-8.688775,41.179172,-8.610425,41.129487
+stand_trip_0156,taxi_046,stand_02,Aliados,Cedofeita,2014-09-15 13:17:00,2014-09-15 13:22:36,Campanha,-8.610061,41.150516,-8.585665,41.148895
+stand_trip_0382,taxi_017,stand_05,Bolhão,Bonfim,2014-09-08 08:27:00,2014-09-08 08:35:27,Paranhos,-8.604591,41.149299,-8.602901,41.1747
+stand_trip_0125,taxi_072,stand_02,Aliados,Cedofeita,2014-09-02 07:07:00,2014-09-02 07:11:32,Boavista,-8.612095,41.150391,-8.628019,41.15545
+stand_trip_0528,taxi_050,stand_07,Ribeira Waterfront,Ribeira,2014-09-16 23:10:00,2014-09-16 23:14:05,Boavista,-8.613473,41.141402,-8.628019,41.15545
+stand_trip_0071,taxi_023,stand_01,São Bento Station,Ribeira,2014-09-01 18:46:00,2014-09-01 18:50:29,Vila Nova de Gaia,-8.611594,41.14631,-8.612639,41.131858
+stand_trip_0289,taxi_016,stand_03,Trindade,Cedofeita,2014-09-15 13:52:00,2014-09-15 13:56:30,Boavista,-8.610731,41.153374,-8.628868,41.156987
+stand_trip_0267,taxi_037,stand_03,Trindade,Cedofeita,2014-09-01 17:13:00,2014-09-01 17:15:51,Ribeira,-8.610042,41.152201,-8.615433,41.143321
+stand_trip_0547,taxi_057,stand_08,Foz do Douro,Foz do Douro,2014-09-02 17:55:00,2014-09-02 18:15:16,Campanha,-8.673217,41.151131,-8.583838,41.146486
+stand_trip_0192,taxi_026,stand_02,Aliados,Cedofeita,2014-09-09 20:18:00,2014-09-09 20:23:42,Campanha,-8.610061,41.150516,-8.585665,41.148895
+stand_trip_0378,taxi_028,stand_05,Bolhão,Bonfim,2014-09-10 12:00:00,2014-09-10 12:14:49,Foz do Douro,-8.604591,41.149299,-8.672546,41.149054
+stand_trip_0666,taxi_026,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-02 14:39:00,2014-09-02 14:44:43,Cedofeita,-8.608208,41.137181,-8.615797,41.152686
+stand_trip_0330,taxi_002,stand_04,Campanhã Station,Campanha,2014-09-15 11:49:00,2014-09-15 11:53:37,Bonfim,-8.584234,41.147947,-8.596748,41.153748
+stand_trip_0712,taxi_018,stand_12,Asprela University,Paranhos,2014-09-15 15:09:00,2014-09-15 15:22:49,Campanha,-8.604575,41.176366,-8.585665,41.148895
+stand_trip_0433,taxi_015,stand_05,Bolhão,Bonfim,2014-09-05 17:00:00,2014-09-05 17:05:44,Boavista,-8.606272,41.148302,-8.628868,41.156987
+stand_trip_0181,taxi_076,stand_02,Aliados,Cedofeita,2014-09-02 18:52:00,2014-09-02 18:56:34,Bonfim,-8.612095,41.150391,-8.595589,41.151632
+stand_trip_0553,taxi_001,stand_08,Foz do Douro,Foz do Douro,2014-09-08 19:50:00,2014-09-08 19:57:34,Matosinhos Sul,-8.674238,41.151894,-8.686498,41.180346
+stand_trip_0078,taxi_063,stand_01,São Bento Station,Ribeira,2014-09-10 18:23:00,2014-09-10 18:27:57,Boavista,-8.609627,41.145952,-8.628019,41.15545
+stand_trip_0598,taxi_055,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-12 10:50:00,2014-09-12 11:10:14,Cedofeita,-8.688328,41.178066,-8.614398,41.157044
+stand_trip_0692,taxi_073,stand_12,Asprela University,Paranhos,2014-09-09 15:18:00,2014-09-09 15:26:22,Bonfim,-8.604575,41.176366,-8.596748,41.153748
+stand_trip_0141,taxi_028,stand_02,Aliados,Cedofeita,2014-09-10 08:40:00,2014-09-10 08:48:04,Vila Nova de Gaia,-8.612095,41.150391,-8.609323,41.127541
+stand_trip_0150,taxi_023,stand_02,Aliados,Cedofeita,2014-09-09 08:45:00,2014-09-09 08:50:38,Vila Nova de Gaia,-8.610152,41.149031,-8.612639,41.131858
+stand_trip_0041,taxi_066,stand_01,São Bento Station,Ribeira,2014-09-11 21:23:00,2014-09-11 21:28:34,Campanha,-8.610708,41.145578,-8.585665,41.148895
+stand_trip_0327,taxi_030,stand_04,Campanhã Station,Campanha,2014-09-02 20:54:00,2014-09-02 21:11:55,Foz do Douro,-8.585665,41.148895,-8.672546,41.149054
+stand_trip_0088,taxi_075,stand_01,São Bento Station,Ribeira,2014-09-12 20:56:00,2014-09-12 20:59:37,Cedofeita,-8.610423,41.14512,-8.614398,41.157044
+stand_trip_0493,taxi_008,stand_07,Ribeira Waterfront,Ribeira,2014-09-05 08:50:00,2014-09-05 09:14:02,Matosinhos Sul,-8.613638,41.141345,-8.691216,41.181082
+stand_trip_0549,taxi_012,stand_08,Foz do Douro,Foz do Douro,2014-09-10 18:23:00,2014-09-10 18:37:37,Cedofeita,-8.674238,41.151894,-8.614398,41.157044
+stand_trip_0655,taxi_076,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-15 17:23:00,2014-09-15 17:30:33,Campanha,-8.608914,41.138209,-8.587653,41.150705
+stand_trip_0176,taxi_070,stand_02,Aliados,Cedofeita,2014-09-01 17:42:00,2014-09-01 18:00:38,Matosinhos Sul,-8.610061,41.150516,-8.688742,41.178908
+stand_trip_0363,taxi_010,stand_04,Campanhã Station,Campanha,2014-09-16 18:10:00,2014-09-16 18:26:42,Foz do Douro,-8.585665,41.148895,-8.672546,41.149054
+stand_trip_0396,taxi_018,stand_05,Bolhão,Bonfim,2014-09-08 10:11:00,2014-09-08 10:23:46,Foz do Douro,-8.605275,41.148016,-8.670825,41.152698
+stand_trip_0372,taxi_005,stand_04,Campanhã Station,Campanha,2014-09-15 18:29:00,2014-09-15 18:50:15,Foz do Douro,-8.583935,41.149515,-8.675682,41.153424
+stand_trip_0639,taxi_041,stand_10,Hospital São João,Paranhos,2014-09-18 09:16:00,2014-09-18 09:25:58,Bonfim,-8.601088,41.182138,-8.593985,41.155527
+stand_trip_0586,taxi_009,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-02 09:41:00,2014-09-02 10:00:20,Paranhos,-8.688328,41.178066,-8.601283,41.178909
+stand_trip_0019,taxi_008,stand_01,São Bento Station,Ribeira,2014-09-17 15:53:00,2014-09-17 15:58:07,Boavista,-8.611594,41.14631,-8.631173,41.159623
+stand_trip_0283,taxi_072,stand_03,Trindade,Cedofeita,2014-09-09 20:57:00,2014-09-09 21:03:33,Paranhos,-8.610042,41.152201,-8.606298,41.179
+stand_trip_0230,taxi_040,stand_03,Trindade,Cedofeita,2014-09-02 20:00:00,2014-09-02 20:06:21,Campanha,-8.609373,41.151207,-8.583838,41.146486
+stand_trip_0426,taxi_054,stand_05,Bolhão,Bonfim,2014-09-16 17:36:00,2014-09-16 17:39:09,Cedofeita,-8.604591,41.149299,-8.615797,41.152686
+stand_trip_0140,taxi_011,stand_02,Aliados,Cedofeita,2014-09-05 20:30:00,2014-09-05 20:47:45,Matosinhos Sul,-8.610061,41.150516,-8.688742,41.178908
+stand_trip_0180,taxi_059,stand_02,Aliados,Cedofeita,2014-09-17 15:09:00,2014-09-17 15:27:41,Matosinhos Sul,-8.610061,41.150516,-8.688742,41.178908
+stand_trip_0534,taxi_073,stand_07,Ribeira Waterfront,Ribeira,2014-09-02 21:42:00,2014-09-02 21:48:53,Cedofeita,-8.611989,41.142016,-8.614398,41.157044
+stand_trip_0225,taxi_034,stand_03,Trindade,Cedofeita,2014-09-01 20:02:00,2014-09-01 20:15:23,Foz do Douro,-8.610731,41.153374,-8.673552,41.150998
+stand_trip_0657,taxi_031,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-03 20:25:00,2014-09-03 20:31:32,Cedofeita,-8.609714,41.138884,-8.617248,41.155953
+stand_trip_0475,taxi_018,stand_06,Casa da Música,Boavista,2014-09-18 20:35:00,2014-09-18 20:39:28,Cedofeita,-8.63065,41.158542,-8.614398,41.157044
+stand_trip_0391,taxi_012,stand_05,Bolhão,Bonfim,2014-09-05 17:08:00,2014-09-05 17:16:52,Paranhos,-8.607078,41.149088,-8.606298,41.179
+stand_trip_0170,taxi_047,stand_02,Aliados,Cedofeita,2014-09-15 14:37:00,2014-09-15 14:42:10,Boavista,-8.610152,41.149031,-8.631173,41.159623
+stand_trip_0347,taxi_054,stand_04,Campanhã Station,Campanha,2014-09-08 12:57:00,2014-09-08 13:16:37,Matosinhos Sul,-8.585665,41.148895,-8.68803,41.176684
+stand_trip_0030,taxi_037,stand_01,São Bento Station,Ribeira,2014-09-04 14:52:00,2014-09-04 14:57:43,Bonfim,-8.609627,41.145952,-8.595589,41.151632
+stand_trip_0259,taxi_059,stand_03,Trindade,Cedofeita,2014-09-05 16:26:00,2014-09-05 16:47:40,Matosinhos Sul,-8.610042,41.152201,-8.691216,41.181082
+stand_trip_0254,taxi_053,stand_03,Trindade,Cedofeita,2014-09-04 21:24:00,2014-09-04 21:40:58,Matosinhos Sul,-8.609373,41.151207,-8.68803,41.176684
+stand_trip_0658,taxi_048,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-08 17:00:00,2014-09-08 17:06:35,Bonfim,-8.608208,41.137181,-8.595589,41.151632
+stand_trip_0711,taxi_001,stand_12,Asprela University,Paranhos,2014-09-10 17:52:00,2014-09-10 18:09:19,Vila Nova de Gaia,-8.606411,41.178333,-8.608186,41.131164
+stand_trip_0112,taxi_009,stand_02,Aliados,Cedofeita,2014-09-05 10:48:00,2014-09-05 10:51:40,Ribeira,-8.610061,41.150516,-8.613063,41.141557
+stand_trip_0374,taxi_039,stand_04,Campanhã Station,Campanha,2014-09-03 10:00:00,2014-09-03 10:27:30,Matosinhos Sul,-8.584234,41.147947,-8.688742,41.178908
+stand_trip_0538,taxi_062,stand_08,Foz do Douro,Foz do Douro,2014-09-03 20:01:00,2014-09-03 20:16:29,Campanha,-8.672581,41.150016,-8.585665,41.148895
+stand_trip_0323,taxi_041,stand_04,Campanhã Station,Campanha,2014-09-04 19:57:00,2014-09-04 20:14:01,Foz do Douro,-8.585665,41.148895,-8.672546,41.149054
+stand_trip_0686,taxi_050,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-08 17:09:00,2014-09-08 17:24:06,Foz do Douro,-8.608208,41.137181,-8.672546,41.149054
+stand_trip_0532,taxi_039,stand_07,Ribeira Waterfront,Ribeira,2014-09-12 07:53:00,2014-09-12 08:00:29,Campanha,-8.613473,41.141402,-8.583838,41.146486
+stand_trip_0201,taxi_021,stand_02,Aliados,Cedofeita,2014-09-08 09:57:00,2014-09-08 10:03:20,Campanha,-8.612095,41.150391,-8.583838,41.146486
+stand_trip_0602,taxi_044,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-10 07:03:00,2014-09-10 07:23:38,Ribeira,-8.688328,41.178066,-8.61053,41.142645
+stand_trip_0164,taxi_024,stand_02,Aliados,Cedofeita,2014-09-09 17:40:00,2014-09-09 17:47:58,Paranhos,-8.610061,41.150516,-8.604131,41.17683
+stand_trip_0022,taxi_059,stand_01,São Bento Station,Ribeira,2014-09-10 09:40:00,2014-09-10 09:48:55,Paranhos,-8.609627,41.145952,-8.602901,41.1747
+stand_trip_0341,taxi_031,stand_04,Campanhã Station,Campanha,2014-09-02 19:25:00,2014-09-02 19:41:18,Foz do Douro,-8.58631,41.149689,-8.670825,41.152698
+stand_trip_0375,taxi_056,stand_04,Campanhã Station,Campanha,2014-09-08 18:30:00,2014-09-08 18:32:46,Bonfim,-8.585665,41.148895,-8.595589,41.151632
+stand_trip_0381,taxi_079,stand_05,Bolhão,Bonfim,2014-09-03 15:44:00,2014-09-03 15:47:15,Cedofeita,-8.606272,41.148302,-8.617248,41.155953
+stand_trip_0465,taxi_006,stand_06,Casa da Música,Boavista,2014-09-16 16:46:00,2014-09-16 16:53:52,Ribeira,-8.63151,41.159768,-8.611679,41.138066
+stand_trip_0626,taxi_057,stand_10,Hospital São João,Paranhos,2014-09-03 08:13:00,2014-09-03 08:33:29,Vila Nova de Gaia,-8.600517,41.181043,-8.612639,41.131858
+stand_trip_0058,taxi_039,stand_01,São Bento Station,Ribeira,2014-09-04 09:21:00,2014-09-04 09:30:40,Paranhos,-8.609627,41.145952,-8.602901,41.1747
+stand_trip_0213,taxi_067,stand_03,Trindade,Cedofeita,2014-09-09 07:03:00,2014-09-09 07:06:52,Ribeira,-8.610731,41.153374,-8.613063,41.141557
+stand_trip_0360,taxi_038,stand_04,Campanhã Station,Campanha,2014-09-03 12:25:00,2014-09-03 12:32:22,Ribeira,-8.583935,41.149515,-8.615433,41.143321
+stand_trip_0385,taxi_068,stand_05,Bolhão,Bonfim,2014-09-01 16:41:00,2014-09-01 16:44:53,Cedofeita,-8.606272,41.148302,-8.617248,41.155953
+stand_trip_0162,taxi_069,stand_02,Aliados,Cedofeita,2014-09-01 20:45:00,2014-09-01 21:02:32,Matosinhos Sul,-8.610152,41.149031,-8.691216,41.181082
+stand_trip_0321,taxi_007,stand_04,Campanhã Station,Campanha,2014-09-16 13:47:00,2014-09-16 13:50:12,Bonfim,-8.58631,41.149689,-8.593985,41.155527
+stand_trip_0069,taxi_068,stand_01,São Bento Station,Ribeira,2014-09-10 11:38:00,2014-09-10 11:43:32,Boavista,-8.610708,41.145578,-8.628868,41.156987
+stand_trip_0566,taxi_064,stand_08,Foz do Douro,Foz do Douro,2014-09-03 18:32:00,2014-09-03 18:46:34,Ribeira,-8.672581,41.150016,-8.613063,41.141557
+stand_trip_0336,taxi_025,stand_04,Campanhã Station,Campanha,2014-09-01 11:14:00,2014-09-01 11:33:39,Foz do Douro,-8.583935,41.149515,-8.675682,41.153424
+stand_trip_0195,taxi_077,stand_02,Aliados,Cedofeita,2014-09-02 19:56:00,2014-09-02 20:01:59,Vila Nova de Gaia,-8.611007,41.149828,-8.608186,41.131164
+stand_trip_0198,taxi_049,stand_02,Aliados,Cedofeita,2014-09-15 19:26:00,2014-09-15 19:48:40,Matosinhos Sul,-8.610152,41.149031,-8.691216,41.181082
+stand_trip_0387,taxi_023,stand_05,Bolhão,Bonfim,2014-09-09 09:31:00,2014-09-09 09:46:37,Foz do Douro,-8.607078,41.149088,-8.675682,41.153424
+stand_trip_0367,taxi_078,stand_04,Campanhã Station,Campanha,2014-09-12 08:00:00,2014-09-12 08:09:20,Paranhos,-8.585665,41.148895,-8.602901,41.1747
+stand_trip_0636,taxi_069,stand_10,Hospital São João,Paranhos,2014-09-05 07:17:00,2014-09-05 07:35:33,Foz do Douro,-8.600253,41.182846,-8.673552,41.150998
+stand_trip_0487,taxi_064,stand_06,Casa da Música,Boavista,2014-09-10 14:10:00,2014-09-10 14:20:45,Campanha,-8.63065,41.158542,-8.58256,41.150532
+stand_trip_0571,taxi_070,stand_08,Foz do Douro,Foz do Douro,2014-09-04 17:01:00,2014-09-04 17:11:30,Matosinhos Sul,-8.673217,41.151131,-8.68803,41.176684
+stand_trip_0489,taxi_019,stand_07,Ribeira Waterfront,Ribeira,2014-09-09 21:14:00,2014-09-09 21:20:49,Cedofeita,-8.613638,41.141345,-8.619718,41.157823
+stand_trip_0583,taxi_037,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-09 09:24:00,2014-09-09 09:36:58,Boavista,-8.688775,41.179172,-8.628868,41.156987
+stand_trip_0012,taxi_047,stand_01,São Bento Station,Ribeira,2014-09-08 15:49:00,2014-09-08 15:54:36,Bonfim,-8.610423,41.14512,-8.593985,41.155527
+stand_trip_0624,taxi_023,stand_10,Hospital São João,Paranhos,2014-09-15 06:04:00,2014-09-15 06:14:10,Ribeira,-8.600253,41.182846,-8.613063,41.141557
+stand_trip_0028,taxi_003,stand_01,São Bento Station,Ribeira,2014-09-16 20:29:00,2014-09-16 20:34:58,Boavista,-8.610423,41.14512,-8.626264,41.158676
+stand_trip_0695,taxi_045,stand_12,Asprela University,Paranhos,2014-09-02 09:55:00,2014-09-02 10:08:39,Ribeira,-8.606411,41.178333,-8.61053,41.142645
+stand_trip_0355,taxi_032,stand_04,Campanhã Station,Campanha,2014-09-02 10:16:00,2014-09-02 10:27:22,Boavista,-8.585665,41.148895,-8.628019,41.15545
+stand_trip_0661,taxi_020,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-01 16:54:00,2014-09-01 17:13:53,Matosinhos Sul,-8.609714,41.138884,-8.688742,41.178908
+stand_trip_0641,taxi_075,stand_10,Hospital São João,Paranhos,2014-09-08 12:05:00,2014-09-08 12:17:31,Campanha,-8.60188,41.18279,-8.583838,41.146486
+stand_trip_0120,taxi_066,stand_02,Aliados,Cedofeita,2014-09-01 08:00:00,2014-09-01 08:05:30,Campanha,-8.610061,41.150516,-8.585665,41.148895
+stand_trip_0062,taxi_028,stand_01,São Bento Station,Ribeira,2014-09-02 17:41:00,2014-09-02 17:46:35,Vila Nova de Gaia,-8.609627,41.145952,-8.609323,41.127541
+stand_trip_0517,taxi_021,stand_07,Ribeira Waterfront,Ribeira,2014-09-09 16:59:00,2014-09-09 17:02:05,Vila Nova de Gaia,-8.613638,41.141345,-8.612639,41.131858
+stand_trip_0343,taxi_065,stand_04,Campanhã Station,Campanha,2014-09-10 22:07:00,2014-09-10 22:13:12,Cedofeita,-8.585665,41.148895,-8.615797,41.152686
+stand_trip_0627,taxi_074,stand_10,Hospital São João,Paranhos,2014-09-08 07:25:00,2014-09-08 07:42:44,Foz do Douro,-8.601088,41.182138,-8.670825,41.152698
+stand_trip_0084,taxi_007,stand_01,São Bento Station,Ribeira,2014-09-16 21:47:00,2014-09-16 21:53:18,Bonfim,-8.610423,41.14512,-8.593985,41.155527
+stand_trip_0221,taxi_045,stand_03,Trindade,Cedofeita,2014-09-03 10:38:00,2014-09-03 10:43:37,Campanha,-8.610731,41.153374,-8.585665,41.148895
+stand_trip_0145,taxi_017,stand_02,Aliados,Cedofeita,2014-09-08 17:51:00,2014-09-08 17:55:32,Bonfim,-8.612095,41.150391,-8.595589,41.151632
+stand_trip_0315,taxi_063,stand_04,Campanhã Station,Campanha,2014-09-10 10:41:00,2014-09-10 10:49:45,Ribeira,-8.585665,41.148895,-8.611679,41.138066
+stand_trip_0295,taxi_039,stand_04,Campanhã Station,Campanha,2014-09-04 21:37:00,2014-09-04 21:49:16,Paranhos,-8.585665,41.148895,-8.602901,41.1747
+stand_trip_0471,taxi_029,stand_06,Casa da Música,Boavista,2014-09-02 08:30:00,2014-09-02 08:38:20,Bonfim,-8.63065,41.158542,-8.593985,41.155527
+stand_trip_0139,taxi_073,stand_02,Aliados,Cedofeita,2014-09-02 07:56:00,2014-09-02 07:58:13,Ribeira,-8.611007,41.149828,-8.61053,41.142645
+stand_trip_0366,taxi_061,stand_04,Campanhã Station,Campanha,2014-09-09 08:44:00,2014-09-09 08:48:20,Bonfim,-8.584234,41.147947,-8.596748,41.153748
+stand_trip_0701,taxi_068,stand_12,Asprela University,Paranhos,2014-09-08 18:09:00,2014-09-08 18:15:59,Bonfim,-8.605384,41.177617,-8.595589,41.151632
+stand_trip_0248,taxi_030,stand_03,Trindade,Cedofeita,2014-09-18 07:21:00,2014-09-18 07:27:01,Campanha,-8.608643,41.153389,-8.58256,41.150532
+stand_trip_0449,taxi_050,stand_06,Casa da Música,Boavista,2014-09-08 18:55:00,2014-09-08 19:06:49,Vila Nova de Gaia,-8.63151,41.159768,-8.609323,41.127541
+stand_trip_0447,taxi_016,stand_06,Casa da Música,Boavista,2014-09-18 16:55:00,2014-09-18 17:03:02,Ribeira,-8.63065,41.158542,-8.61053,41.142645
+stand_trip_0403,taxi_058,stand_05,Bolhão,Bonfim,2014-09-17 15:58:00,2014-09-17 16:03:31,Cedofeita,-8.607078,41.149088,-8.619718,41.157823
+stand_trip_0160,taxi_035,stand_02,Aliados,Cedofeita,2014-09-11 08:46:00,2014-09-11 08:59:11,Foz do Douro,-8.610061,41.150516,-8.673552,41.150998
+stand_trip_0557,taxi_069,stand_08,Foz do Douro,Foz do Douro,2014-09-04 21:00:00,2014-09-04 21:15:59,Ribeira,-8.674238,41.151894,-8.61053,41.142645
+stand_trip_0268,taxi_054,stand_03,Trindade,Cedofeita,2014-09-04 11:49:00,2014-09-04 12:06:01,Matosinhos Sul,-8.608643,41.153389,-8.686498,41.180346
+stand_trip_0600,taxi_010,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-02 11:54:00,2014-09-02 12:01:56,Foz do Douro,-8.687629,41.179738,-8.672546,41.149054
+stand_trip_0113,taxi_026,stand_02,Aliados,Cedofeita,2014-09-10 21:21:00,2014-09-10 21:38:24,Matosinhos Sul,-8.612095,41.150391,-8.68803,41.176684
+stand_trip_0285,taxi_027,stand_03,Trindade,Cedofeita,2014-09-17 06:25:00,2014-09-17 06:29:48,Ribeira,-8.610731,41.153374,-8.613063,41.141557
+stand_trip_0304,taxi_034,stand_04,Campanhã Station,Campanha,2014-09-03 11:35:00,2014-09-03 11:48:02,Paranhos,-8.583935,41.149515,-8.606298,41.179
+stand_trip_0564,taxi_030,stand_08,Foz do Douro,Foz do Douro,2014-09-15 19:40:00,2014-09-15 19:59:05,Paranhos,-8.671901,41.151689,-8.606298,41.179
+stand_trip_0572,taxi_008,stand_08,Foz do Douro,Foz do Douro,2014-09-09 23:31:00,2014-09-09 23:48:41,Bonfim,-8.671901,41.151689,-8.598443,41.156086
+stand_trip_0226,taxi_051,stand_03,Trindade,Cedofeita,2014-09-04 23:42:00,2014-09-04 23:46:18,Boavista,-8.609373,41.151207,-8.628019,41.15545
+stand_trip_0605,taxi_016,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-03 18:56:00,2014-09-03 19:20:31,Campanha,-8.689833,41.179955,-8.587653,41.150705
+stand_trip_0495,taxi_042,stand_07,Ribeira Waterfront,Ribeira,2014-09-15 14:40:00,2014-09-15 14:47:42,Paranhos,-8.61449,41.141839,-8.604131,41.17683
+stand_trip_0362,taxi_072,stand_04,Campanhã Station,Campanha,2014-09-11 14:16:00,2014-09-11 14:27:13,Vila Nova de Gaia,-8.584234,41.147947,-8.610425,41.129487
+stand_trip_0377,taxi_011,stand_05,Bolhão,Bonfim,2014-09-05 11:07:00,2014-09-05 11:14:05,Vila Nova de Gaia,-8.606272,41.148302,-8.610425,41.129487
+stand_trip_0491,taxi_053,stand_07,Ribeira Waterfront,Ribeira,2014-09-17 18:48:00,2014-09-17 19:01:44,Foz do Douro,-8.61449,41.141839,-8.673552,41.150998
+stand_trip_0506,taxi_071,stand_07,Ribeira Waterfront,Ribeira,2014-09-02 10:15:00,2014-09-02 10:22:11,Boavista,-8.611989,41.142016,-8.626264,41.158676
+stand_trip_0333,taxi_053,stand_04,Campanhã Station,Campanha,2014-09-08 07:27:00,2014-09-08 07:32:34,Ribeira,-8.58631,41.149689,-8.61053,41.142645
+stand_trip_0492,taxi_070,stand_07,Ribeira Waterfront,Ribeira,2014-09-02 20:19:00,2014-09-02 20:24:43,Boavista,-8.613473,41.141402,-8.628019,41.15545
+stand_trip_0400,taxi_007,stand_05,Bolhão,Bonfim,2014-09-04 12:25:00,2014-09-04 12:35:26,Paranhos,-8.605275,41.148016,-8.601283,41.178909
+stand_trip_0389,taxi_057,stand_05,Bolhão,Bonfim,2014-09-17 17:06:00,2014-09-17 17:23:33,Matosinhos Sul,-8.606272,41.148302,-8.688742,41.178908
+stand_trip_0678,taxi_072,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-12 18:08:00,2014-09-12 18:14:42,Boavista,-8.608208,41.137181,-8.628019,41.15545
+stand_trip_0332,taxi_036,stand_04,Campanhã Station,Campanha,2014-09-03 18:02:00,2014-09-03 18:22:14,Foz do Douro,-8.583935,41.149515,-8.675682,41.153424
+stand_trip_0205,taxi_010,stand_02,Aliados,Cedofeita,2014-09-04 12:14:00,2014-09-04 12:28:11,Foz do Douro,-8.612095,41.150391,-8.672546,41.149054
+stand_trip_0615,taxi_028,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-05 08:55:00,2014-09-05 09:14:37,Ribeira,-8.688775,41.179172,-8.613063,41.141557
+stand_trip_0640,taxi_058,stand_10,Hospital São João,Paranhos,2014-09-03 06:57:00,2014-09-03 07:16:20,Vila Nova de Gaia,-8.600253,41.182846,-8.610425,41.129487
+stand_trip_0573,taxi_025,stand_08,Foz do Douro,Foz do Douro,2014-09-12 19:52:00,2014-09-12 20:07:50,Paranhos,-8.674238,41.151894,-8.601283,41.178909
+stand_trip_0232,taxi_074,stand_03,Trindade,Cedofeita,2014-09-10 15:23:00,2014-09-10 15:41:05,Matosinhos Sul,-8.608643,41.153389,-8.686498,41.180346
+stand_trip_0292,taxi_067,stand_03,Trindade,Cedofeita,2014-09-08 06:15:00,2014-09-08 06:23:54,Paranhos,-8.608643,41.153389,-8.601283,41.178909
+stand_trip_0098,taxi_008,stand_01,São Bento Station,Ribeira,2014-09-16 09:01:00,2014-09-16 09:06:49,Vila Nova de Gaia,-8.609627,41.145952,-8.609323,41.127541
+stand_trip_0702,taxi_006,stand_12,Asprela University,Paranhos,2014-09-11 15:29:00,2014-09-11 15:41:25,Vila Nova de Gaia,-8.605065,41.177495,-8.612639,41.131858
+stand_trip_0024,taxi_014,stand_01,São Bento Station,Ribeira,2014-09-18 16:57:00,2014-09-18 17:02:27,Boavista,-8.610423,41.14512,-8.626264,41.158676
+stand_trip_0182,taxi_014,stand_02,Aliados,Cedofeita,2014-09-05 15:14:00,2014-09-05 15:21:58,Paranhos,-8.610152,41.149031,-8.606298,41.179
+stand_trip_0166,taxi_058,stand_02,Aliados,Cedofeita,2014-09-17 13:15:00,2014-09-17 13:16:53,Ribeira,-8.610152,41.149031,-8.615433,41.143321
+stand_trip_0526,taxi_016,stand_07,Ribeira Waterfront,Ribeira,2014-09-08 17:24:00,2014-09-08 17:29:18,Vila Nova de Gaia,-8.611989,41.142016,-8.608186,41.131164
+stand_trip_0186,taxi_003,stand_02,Aliados,Cedofeita,2014-09-03 12:48:00,2014-09-03 12:53:22,Vila Nova de Gaia,-8.610152,41.149031,-8.612639,41.131858
+stand_trip_0271,taxi_026,stand_03,Trindade,Cedofeita,2014-09-17 11:13:00,2014-09-17 11:17:13,Boavista,-8.610042,41.152201,-8.631173,41.159623
+stand_trip_0638,taxi_024,stand_10,Hospital São João,Paranhos,2014-09-15 10:34:00,2014-09-15 10:55:34,Matosinhos Sul,-8.600517,41.181043,-8.691216,41.181082
+stand_trip_0300,taxi_045,stand_04,Campanhã Station,Campanha,2014-09-05 16:59:00,2014-09-05 17:17:52,Foz do Douro,-8.583935,41.149515,-8.675682,41.153424
+stand_trip_0269,taxi_071,stand_03,Trindade,Cedofeita,2014-09-09 06:48:00,2014-09-09 06:56:57,Vila Nova de Gaia,-8.610731,41.153374,-8.610425,41.129487
+stand_trip_0416,taxi_042,stand_05,Bolhão,Bonfim,2014-09-12 10:08:00,2014-09-12 10:26:58,Matosinhos Sul,-8.605275,41.148016,-8.686498,41.180346
+stand_trip_0222,taxi_062,stand_03,Trindade,Cedofeita,2014-09-08 20:08:00,2014-09-08 20:12:53,Ribeira,-8.609373,41.151207,-8.611679,41.138066
+stand_trip_0398,taxi_052,stand_05,Bolhão,Bonfim,2014-09-16 10:30:00,2014-09-16 10:46:03,Matosinhos Sul,-8.604591,41.149299,-8.68803,41.176684
+stand_trip_0136,taxi_022,stand_02,Aliados,Cedofeita,2014-09-09 18:32:00,2014-09-09 18:34:41,Bonfim,-8.610061,41.150516,-8.596748,41.153748
+stand_trip_0151,taxi_040,stand_02,Aliados,Cedofeita,2014-09-12 14:48:00,2014-09-12 15:00:28,Foz do Douro,-8.611007,41.149828,-8.670825,41.152698
+stand_trip_0432,taxi_077,stand_05,Bolhão,Bonfim,2014-09-02 15:24:00,2014-09-02 15:41:41,Foz do Douro,-8.605275,41.148016,-8.670825,41.152698
+stand_trip_0076,taxi_029,stand_01,São Bento Station,Ribeira,2014-09-02 23:49:00,2014-09-02 23:58:32,Paranhos,-8.610423,41.14512,-8.601283,41.178909
+stand_trip_0552,taxi_063,stand_08,Foz do Douro,Foz do Douro,2014-09-03 12:49:00,2014-09-03 12:57:55,Boavista,-8.671901,41.151689,-8.631173,41.159623
+stand_trip_0568,taxi_019,stand_08,Foz do Douro,Foz do Douro,2014-09-11 19:27:00,2014-09-11 19:47:25,Vila Nova de Gaia,-8.671901,41.151689,-8.612639,41.131858
+stand_trip_0066,taxi_017,stand_01,São Bento Station,Ribeira,2014-09-18 20:04:00,2014-09-18 20:08:32,Bonfim,-8.609627,41.145952,-8.595589,41.151632
+stand_trip_0542,taxi_051,stand_08,Foz do Douro,Foz do Douro,2014-09-01 10:40:00,2014-09-01 10:56:53,Paranhos,-8.672581,41.150016,-8.604131,41.17683
+stand_trip_0242,taxi_007,stand_03,Trindade,Cedofeita,2014-09-12 23:11:00,2014-09-12 23:19:39,Vila Nova de Gaia,-8.609373,41.151207,-8.609323,41.127541
+stand_trip_0470,taxi_012,stand_06,Casa da Música,Boavista,2014-09-17 16:59:00,2014-09-17 17:11:25,Matosinhos Sul,-8.630344,41.157766,-8.691216,41.181082
+stand_trip_0214,taxi_005,stand_03,Trindade,Cedofeita,2014-09-12 09:16:00,2014-09-12 09:37:48,Matosinhos Sul,-8.609373,41.151207,-8.68803,41.176684
+stand_trip_0255,taxi_070,stand_03,Trindade,Cedofeita,2014-09-09 23:39:00,2014-09-09 23:42:07,Bonfim,-8.610042,41.152201,-8.598443,41.156086
+stand_trip_0080,taxi_018,stand_01,São Bento Station,Ribeira,2014-09-18 08:16:00,2014-09-18 08:20:59,Vila Nova de Gaia,-8.610423,41.14512,-8.608186,41.131164
+stand_trip_0025,taxi_031,stand_01,São Bento Station,Ribeira,2014-09-03 14:08:00,2014-09-03 14:11:14,Cedofeita,-8.610708,41.145578,-8.617248,41.155953
+stand_trip_0376,taxi_073,stand_04,Campanhã Station,Campanha,2014-09-11 17:02:00,2014-09-11 17:13:33,Paranhos,-8.583935,41.149515,-8.606298,41.179
+stand_trip_0642,taxi_013,stand_10,Hospital São João,Paranhos,2014-09-11 12:30:00,2014-09-11 12:42:10,Ribeira,-8.600517,41.181043,-8.615433,41.143321
+stand_trip_0183,taxi_031,stand_02,Aliados,Cedofeita,2014-09-10 15:18:00,2014-09-10 15:23:22,Campanha,-8.611007,41.149828,-8.58256,41.150532
+stand_trip_0443,taxi_027,stand_06,Casa da Música,Boavista,2014-09-02 18:03:00,2014-09-02 18:15:13,Matosinhos Sul,-8.63065,41.158542,-8.686498,41.180346
+stand_trip_0682,taxi_061,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-09 18:30:00,2014-09-09 18:39:45,Campanha,-8.608208,41.137181,-8.583838,41.146486
+stand_trip_0384,taxi_051,stand_05,Bolhão,Bonfim,2014-09-16 12:27:00,2014-09-16 12:29:08,Ribeira,-8.605275,41.148016,-8.61053,41.142645
+stand_trip_0211,taxi_033,stand_03,Trindade,Cedofeita,2014-09-01 10:30:00,2014-09-01 10:37:06,Paranhos,-8.610042,41.152201,-8.606298,41.179
+stand_trip_0006,taxi_024,stand_01,São Bento Station,Ribeira,2014-09-02 08:22:00,2014-09-02 08:28:32,Boavista,-8.609627,41.145952,-8.628019,41.15545
+stand_trip_0281,taxi_038,stand_03,Trindade,Cedofeita,2014-09-01 10:28:00,2014-09-01 10:47:35,Matosinhos Sul,-8.610731,41.153374,-8.688742,41.178908
+stand_trip_0536,taxi_028,stand_08,Foz do Douro,Foz do Douro,2014-09-15 21:34:00,2014-09-15 21:55:04,Bonfim,-8.671901,41.151689,-8.598443,41.156086
+stand_trip_0496,taxi_059,stand_07,Ribeira Waterfront,Ribeira,2014-09-18 22:48:00,2014-09-18 22:54:23,Campanha,-8.613473,41.141402,-8.583838,41.146486
+stand_trip_0146,taxi_034,stand_02,Aliados,Cedofeita,2014-09-11 21:20:00,2014-09-11 21:28:35,Paranhos,-8.610152,41.149031,-8.606298,41.179
+stand_trip_0081,taxi_035,stand_01,São Bento Station,Ribeira,2014-09-03 11:00:00,2014-09-03 11:12:52,Foz do Douro,-8.610708,41.145578,-8.673552,41.150998
+stand_trip_0318,taxi_035,stand_04,Campanhã Station,Campanha,2014-09-03 19:30:00,2014-09-03 19:51:27,Foz do Douro,-8.584234,41.147947,-8.673552,41.150998
+stand_trip_0394,taxi_063,stand_05,Bolhão,Bonfim,2014-09-18 08:33:00,2014-09-18 08:36:27,Cedofeita,-8.604591,41.149299,-8.615797,41.152686
+stand_trip_0064,taxi_062,stand_01,São Bento Station,Ribeira,2014-09-10 16:47:00,2014-09-10 16:53:04,Boavista,-8.610423,41.14512,-8.626264,41.158676
+stand_trip_0007,taxi_041,stand_01,São Bento Station,Ribeira,2014-09-05 11:47:00,2014-09-05 11:51:05,Cedofeita,-8.611594,41.14631,-8.619718,41.157823
+stand_trip_0635,taxi_052,stand_10,Hospital São João,Paranhos,2014-09-02 14:28:00,2014-09-02 14:44:29,Vila Nova de Gaia,-8.601088,41.182138,-8.608186,41.131164
+stand_trip_0612,taxi_056,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-12 09:08:00,2014-09-12 09:31:23,Bonfim,-8.687629,41.179738,-8.595589,41.151632
+stand_trip_0648,taxi_036,stand_10,Hospital São João,Paranhos,2014-09-17 12:07:00,2014-09-17 12:14:58,Bonfim,-8.600253,41.182846,-8.596748,41.153748
+stand_trip_0010,taxi_013,stand_01,São Bento Station,Ribeira,2014-09-18 23:41:00,2014-09-18 23:46:22,Boavista,-8.609627,41.145952,-8.628019,41.15545
+stand_trip_0167,taxi_075,stand_02,Aliados,Cedofeita,2014-09-02 21:50:00,2014-09-02 22:10:12,Matosinhos Sul,-8.611007,41.149828,-8.686498,41.180346
+stand_trip_0646,taxi_002,stand_10,Hospital São João,Paranhos,2014-09-09 09:35:00,2014-09-09 09:45:34,Boavista,-8.600517,41.181043,-8.631173,41.159623
+stand_trip_0412,taxi_053,stand_05,Bolhão,Bonfim,2014-09-16 10:52:00,2014-09-16 10:55:53,Cedofeita,-8.605275,41.148016,-8.614398,41.157044
+stand_trip_0515,taxi_066,stand_07,Ribeira Waterfront,Ribeira,2014-09-01 11:47:00,2014-09-01 11:52:49,Boavista,-8.61449,41.141839,-8.628868,41.156987
+stand_trip_0219,taxi_011,stand_03,Trindade,Cedofeita,2014-09-15 11:43:00,2014-09-15 11:46:17,Bonfim,-8.610042,41.152201,-8.598443,41.156086
+stand_trip_0013,taxi_064,stand_01,São Bento Station,Ribeira,2014-09-11 21:12:00,2014-09-11 21:21:33,Paranhos,-8.610708,41.145578,-8.604131,41.17683
+stand_trip_0097,taxi_070,stand_01,São Bento Station,Ribeira,2014-09-11 12:04:00,2014-09-11 12:08:05,Cedofeita,-8.610708,41.145578,-8.617248,41.155953
+stand_trip_0114,taxi_043,stand_02,Aliados,Cedofeita,2014-09-15 14:10:00,2014-09-15 14:14:57,Vila Nova de Gaia,-8.610152,41.149031,-8.612639,41.131858
+stand_trip_0575,taxi_059,stand_08,Foz do Douro,Foz do Douro,2014-09-02 13:30:00,2014-09-02 13:43:55,Ribeira,-8.673217,41.151131,-8.611679,41.138066
+stand_trip_0500,taxi_048,stand_07,Ribeira Waterfront,Ribeira,2014-09-16 21:39:00,2014-09-16 21:50:26,Foz do Douro,-8.613473,41.141402,-8.672546,41.149054
+stand_trip_0178,taxi_025,stand_02,Aliados,Cedofeita,2014-09-09 23:56:00,2014-09-10 00:11:34,Foz do Douro,-8.610152,41.149031,-8.675682,41.153424
+stand_trip_0306,taxi_068,stand_04,Campanhã Station,Campanha,2014-09-11 11:31:00,2014-09-11 11:38:59,Ribeira,-8.584234,41.147947,-8.613063,41.141557
+stand_trip_0308,taxi_023,stand_04,Campanhã Station,Campanha,2014-09-01 16:05:00,2014-09-01 16:15:53,Vila Nova de Gaia,-8.583935,41.149515,-8.612639,41.131858
+stand_trip_0550,taxi_029,stand_08,Foz do Douro,Foz do Douro,2014-09-15 20:53:00,2014-09-15 21:16:04,Vila Nova de Gaia,-8.672581,41.150016,-8.610425,41.129487
+stand_trip_0392,taxi_029,stand_05,Bolhão,Bonfim,2014-09-10 12:47:00,2014-09-10 12:52:52,Campanha,-8.605275,41.148016,-8.58256,41.150532
+stand_trip_0654,taxi_059,stand_10,Hospital São João,Paranhos,2014-09-03 07:53:00,2014-09-03 08:10:39,Foz do Douro,-8.600517,41.181043,-8.675682,41.153424
+stand_trip_0132,taxi_033,stand_02,Aliados,Cedofeita,2014-09-11 08:15:00,2014-09-11 08:21:31,Vila Nova de Gaia,-8.610061,41.150516,-8.610425,41.129487
+stand_trip_0644,taxi_047,stand_10,Hospital São João,Paranhos,2014-09-01 18:40:00,2014-09-01 19:00:14,Vila Nova de Gaia,-8.600253,41.182846,-8.610425,41.129487
+stand_trip_0436,taxi_066,stand_06,Casa da Música,Boavista,2014-09-11 06:33:00,2014-09-11 06:40:32,Paranhos,-8.629505,41.158845,-8.604131,41.17683
+stand_trip_0419,taxi_014,stand_05,Bolhão,Bonfim,2014-09-05 15:45:00,2014-09-05 15:49:45,Campanha,-8.607078,41.149088,-8.587653,41.150705
+stand_trip_0610,taxi_022,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-04 08:03:00,2014-09-04 08:23:14,Boavista,-8.688328,41.178066,-8.626264,41.158676
+stand_trip_0001,taxi_018,stand_01,São Bento Station,Ribeira,2014-09-01 11:40:00,2014-09-01 11:45:40,Boavista,-8.610708,41.145578,-8.628868,41.156987
+stand_trip_0068,taxi_051,stand_01,São Bento Station,Ribeira,2014-09-08 10:44:00,2014-09-08 10:51:24,Campanha,-8.610423,41.14512,-8.58256,41.150532
+stand_trip_0018,taxi_070,stand_01,São Bento Station,Ribeira,2014-09-12 14:31:00,2014-09-12 14:44:38,Foz do Douro,-8.609627,41.145952,-8.672546,41.149054
+stand_trip_0249,taxi_047,stand_03,Trindade,Cedofeita,2014-09-03 15:50:00,2014-09-03 15:53:12,Ribeira,-8.610731,41.153374,-8.613063,41.141557
+stand_trip_0684,taxi_016,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-18 14:31:00,2014-09-18 14:37:48,Cedofeita,-8.607774,41.13894,-8.614398,41.157044
+stand_trip_0685,taxi_033,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-03 13:03:00,2014-09-03 13:07:24,Bonfim,-8.609714,41.138884,-8.596748,41.153748
+stand_trip_0334,taxi_070,stand_04,Campanhã Station,Campanha,2014-09-11 17:33:00,2014-09-11 17:40:16,Cedofeita,-8.584234,41.147947,-8.617248,41.155953
+stand_trip_0713,taxi_035,stand_12,Asprela University,Paranhos,2014-09-18 09:38:00,2014-09-18 09:49:08,Ribeira,-8.605384,41.177617,-8.611679,41.138066
+stand_trip_0251,taxi_002,stand_03,Trindade,Cedofeita,2014-09-11 08:56:00,2014-09-11 09:03:00,Vila Nova de Gaia,-8.610042,41.152201,-8.612639,41.131858
+stand_trip_0485,taxi_030,stand_06,Casa da Música,Boavista,2014-09-01 20:55:00,2014-09-01 21:07:22,Vila Nova de Gaia,-8.63151,41.159768,-8.609323,41.127541
+stand_trip_0287,taxi_061,stand_03,Trindade,Cedofeita,2014-09-05 19:19:00,2014-09-05 19:25:12,Vila Nova de Gaia,-8.610042,41.152201,-8.612639,41.131858
+stand_trip_0282,taxi_055,stand_03,Trindade,Cedofeita,2014-09-04 14:59:00,2014-09-04 15:02:36,Bonfim,-8.609373,41.151207,-8.595589,41.151632
+stand_trip_0521,taxi_010,stand_07,Ribeira Waterfront,Ribeira,2014-09-05 15:16:00,2014-09-05 15:21:21,Bonfim,-8.613638,41.141345,-8.598443,41.156086
+stand_trip_0266,taxi_020,stand_03,Trindade,Cedofeita,2014-09-16 08:12:00,2014-09-16 08:18:33,Campanha,-8.609373,41.151207,-8.583838,41.146486
+stand_trip_0625,taxi_040,stand_10,Hospital São João,Paranhos,2014-09-18 06:25:00,2014-09-18 06:36:50,Cedofeita,-8.60188,41.18279,-8.615797,41.152686
+stand_trip_0111,taxi_071,stand_02,Aliados,Cedofeita,2014-09-02 16:03:00,2014-09-02 16:09:12,Campanha,-8.611007,41.149828,-8.58256,41.150532
+stand_trip_0407,taxi_047,stand_05,Bolhão,Bonfim,2014-09-15 16:55:00,2014-09-15 17:14:53,Matosinhos Sul,-8.607078,41.149088,-8.691216,41.181082
+stand_trip_0331,taxi_019,stand_04,Campanhã Station,Campanha,2014-09-18 10:17:00,2014-09-18 10:25:54,Paranhos,-8.585665,41.148895,-8.602901,41.1747
+stand_trip_0565,taxi_047,stand_08,Foz do Douro,Foz do Douro,2014-09-18 17:33:00,2014-09-18 17:55:54,Campanha,-8.674238,41.151894,-8.58256,41.150532
+stand_trip_0474,taxi_001,stand_06,Casa da Música,Boavista,2014-09-15 09:37:00,2014-09-15 09:43:30,Ribeira,-8.630344,41.157766,-8.615433,41.143321
+stand_trip_0048,taxi_027,stand_01,São Bento Station,Ribeira,2014-09-02 13:16:00,2014-09-02 13:21:31,Bonfim,-8.610423,41.14512,-8.593985,41.155527
+stand_trip_0322,taxi_024,stand_04,Campanhã Station,Campanha,2014-09-01 20:34:00,2014-09-01 20:46:10,Paranhos,-8.584234,41.147947,-8.604131,41.17683
+stand_trip_0335,taxi_008,stand_04,Campanhã Station,Campanha,2014-09-16 06:25:00,2014-09-16 06:35:20,Vila Nova de Gaia,-8.585665,41.148895,-8.609323,41.127541
+stand_trip_0373,taxi_022,stand_04,Campanhã Station,Campanha,2014-09-18 21:20:00,2014-09-18 21:30:32,Boavista,-8.58631,41.149689,-8.626264,41.158676
+stand_trip_0390,taxi_074,stand_05,Bolhão,Bonfim,2014-09-02 12:19:00,2014-09-02 12:22:26,Cedofeita,-8.604591,41.149299,-8.615797,41.152686
+stand_trip_0152,taxi_057,stand_02,Aliados,Cedofeita,2014-09-17 17:38:00,2014-09-17 17:42:15,Boavista,-8.610061,41.150516,-8.628868,41.156987
+stand_trip_0085,taxi_024,stand_01,São Bento Station,Ribeira,2014-09-01 19:04:00,2014-09-01 19:13:16,Paranhos,-8.610708,41.145578,-8.604131,41.17683
+stand_trip_0463,taxi_051,stand_06,Casa da Música,Boavista,2014-09-08 18:20:00,2014-09-08 18:30:07,Paranhos,-8.63065,41.158542,-8.601283,41.178909
+stand_trip_0077,taxi_046,stand_01,São Bento Station,Ribeira,2014-09-05 15:07:00,2014-09-05 15:12:26,Campanha,-8.610708,41.145578,-8.585665,41.148895
+stand_trip_0574,taxi_042,stand_08,Foz do Douro,Foz do Douro,2014-09-17 19:53:00,2014-09-17 20:13:04,Campanha,-8.672581,41.150016,-8.585665,41.148895
+stand_trip_0044,taxi_038,stand_01,São Bento Station,Ribeira,2014-09-04 18:13:00,2014-09-04 18:17:10,Vila Nova de Gaia,-8.610423,41.14512,-8.608186,41.131164
+stand_trip_0110,taxi_054,stand_01,São Bento Station,Ribeira,2014-09-08 08:58:00,2014-09-08 09:19:16,Matosinhos Sul,-8.609627,41.145952,-8.68803,41.176684
+stand_trip_0499,taxi_031,stand_07,Ribeira Waterfront,Ribeira,2014-09-11 19:55:00,2014-09-11 19:58:58,Vila Nova de Gaia,-8.61449,41.141839,-8.610425,41.129487
+stand_trip_0588,taxi_043,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-10 08:32:00,2014-09-10 08:57:12,Ribeira,-8.687629,41.179738,-8.611679,41.138066
+stand_trip_0545,taxi_023,stand_08,Foz do Douro,Foz do Douro,2014-09-12 21:04:00,2014-09-12 21:27:50,Bonfim,-8.674238,41.151894,-8.593985,41.155527
+stand_trip_0127,taxi_027,stand_02,Aliados,Cedofeita,2014-09-10 20:32:00,2014-09-10 20:36:38,Bonfim,-8.611007,41.149828,-8.593985,41.155527
+stand_trip_0703,taxi_023,stand_12,Asprela University,Paranhos,2014-09-16 16:06:00,2014-09-16 16:14:47,Campanha,-8.606411,41.178333,-8.58256,41.150532
+stand_trip_0704,taxi_040,stand_12,Asprela University,Paranhos,2014-09-01 16:02:00,2014-09-01 16:10:45,Ribeira,-8.604575,41.176366,-8.613063,41.141557
+stand_trip_0261,taxi_014,stand_03,Trindade,Cedofeita,2014-09-15 19:51:00,2014-09-15 20:04:37,Foz do Douro,-8.610731,41.153374,-8.673552,41.150998
+stand_trip_0569,taxi_036,stand_08,Foz do Douro,Foz do Douro,2014-09-16 22:26:00,2014-09-16 22:46:03,Paranhos,-8.674238,41.151894,-8.601283,41.178909
+stand_trip_0326,taxi_013,stand_04,Campanhã Station,Campanha,2014-09-17 16:38:00,2014-09-17 16:47:44,Vila Nova de Gaia,-8.584234,41.147947,-8.610425,41.129487
+stand_trip_0706,taxi_074,stand_12,Asprela University,Paranhos,2014-09-09 20:40:00,2014-09-09 20:56:53,Vila Nova de Gaia,-8.605065,41.177495,-8.612639,41.131858
+stand_trip_0554,taxi_018,stand_08,Foz do Douro,Foz do Douro,2014-09-11 20:52:00,2014-09-11 21:08:32,Bonfim,-8.672581,41.150016,-8.596748,41.153748
+stand_trip_0676,taxi_038,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-04 18:34:00,2014-09-04 18:43:16,Bonfim,-8.607774,41.13894,-8.593985,41.155527
+stand_trip_0628,taxi_012,stand_10,Hospital São João,Paranhos,2014-09-11 08:01:00,2014-09-11 08:12:31,Boavista,-8.600253,41.182846,-8.628868,41.156987
+stand_trip_0630,taxi_046,stand_10,Hospital São João,Paranhos,2014-09-01 06:45:00,2014-09-01 06:51:53,Bonfim,-8.600517,41.181043,-8.598443,41.156086
+stand_trip_0444,taxi_044,stand_06,Casa da Música,Boavista,2014-09-05 07:24:00,2014-09-05 07:32:10,Bonfim,-8.629505,41.158845,-8.596748,41.153748
+stand_trip_0679,taxi_010,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-17 11:31:00,2014-09-17 11:55:36,Matosinhos Sul,-8.608914,41.138209,-8.691216,41.181082
+stand_trip_0524,taxi_061,stand_07,Ribeira Waterfront,Ribeira,2014-09-17 18:35:00,2014-09-17 18:40:59,Boavista,-8.613473,41.141402,-8.628019,41.15545
+stand_trip_0370,taxi_050,stand_04,Campanhã Station,Campanha,2014-09-05 10:00:00,2014-09-05 10:06:28,Cedofeita,-8.584234,41.147947,-8.617248,41.155953
+stand_trip_0154,taxi_012,stand_02,Aliados,Cedofeita,2014-09-05 15:39:00,2014-09-05 15:42:58,Bonfim,-8.610152,41.149031,-8.598443,41.156086
+stand_trip_0312,taxi_012,stand_04,Campanhã Station,Campanha,2014-09-17 20:40:00,2014-09-17 20:44:41,Bonfim,-8.583935,41.149515,-8.598443,41.156086
+stand_trip_0209,taxi_078,stand_03,Trindade,Cedofeita,2014-09-11 21:04:00,2014-09-11 21:21:43,Matosinhos Sul,-8.610731,41.153374,-8.688742,41.178908
+stand_trip_0105,taxi_048,stand_01,São Bento Station,Ribeira,2014-09-05 20:35:00,2014-09-05 20:41:30,Boavista,-8.610708,41.145578,-8.628868,41.156987
+stand_trip_0240,taxi_052,stand_03,Trindade,Cedofeita,2014-09-04 17:13:00,2014-09-04 17:16:11,Ribeira,-8.608643,41.153389,-8.61053,41.142645
+stand_trip_0442,taxi_010,stand_06,Casa da Música,Boavista,2014-09-17 21:45:00,2014-09-17 21:54:57,Campanha,-8.630344,41.157766,-8.587653,41.150705
+stand_trip_0473,taxi_063,stand_06,Casa da Música,Boavista,2014-09-10 18:54:00,2014-09-10 19:06:25,Campanha,-8.63151,41.159768,-8.583838,41.146486
+stand_trip_0616,taxi_045,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-10 09:20:00,2014-09-10 09:39:30,Cedofeita,-8.687629,41.179738,-8.615797,41.152686
+stand_trip_0434,taxi_032,stand_05,Bolhão,Bonfim,2014-09-10 21:49:00,2014-09-10 22:08:24,Matosinhos Sul,-8.604591,41.149299,-8.68803,41.176684
+stand_trip_0196,taxi_015,stand_02,Aliados,Cedofeita,2014-09-05 11:08:00,2014-09-05 11:20:34,Foz do Douro,-8.610061,41.150516,-8.673552,41.150998
+stand_trip_0029,taxi_020,stand_01,São Bento Station,Ribeira,2014-09-01 16:10:00,2014-09-01 16:27:52,Matosinhos Sul,-8.610708,41.145578,-8.688742,41.178908
+stand_trip_0422,taxi_065,stand_05,Bolhão,Bonfim,2014-09-18 16:37:00,2014-09-18 16:43:59,Vila Nova de Gaia,-8.604591,41.149299,-8.609323,41.127541
+stand_trip_0193,taxi_043,stand_02,Aliados,Cedofeita,2014-09-12 11:11:00,2014-09-12 11:15:01,Ribeira,-8.612095,41.150391,-8.611679,41.138066
+stand_trip_0148,taxi_068,stand_02,Aliados,Cedofeita,2014-09-01 13:09:00,2014-09-01 13:11:54,Ribeira,-8.610061,41.150516,-8.613063,41.141557
+stand_trip_0629,taxi_029,stand_10,Hospital São João,Paranhos,2014-09-16 11:29:00,2014-09-16 11:47:35,Matosinhos Sul,-8.60188,41.18279,-8.68803,41.176684
+stand_trip_0246,taxi_075,stand_03,Trindade,Cedofeita,2014-09-10 18:15:00,2014-09-10 18:19:11,Bonfim,-8.609373,41.151207,-8.595589,41.151632
+stand_trip_0533,taxi_056,stand_07,Ribeira Waterfront,Ribeira,2014-09-17 19:03:00,2014-09-17 19:11:02,Boavista,-8.613638,41.141345,-8.631173,41.159623
+stand_trip_0577,taxi_014,stand_08,Foz do Douro,Foz do Douro,2014-09-10 21:54:00,2014-09-10 22:08:32,Vila Nova de Gaia,-8.674238,41.151894,-8.608186,41.131164
+stand_trip_0700,taxi_051,stand_12,Asprela University,Paranhos,2014-09-03 16:20:00,2014-09-03 16:39:11,Matosinhos Sul,-8.604575,41.176366,-8.688742,41.178908
+stand_trip_0040,taxi_049,stand_01,São Bento Station,Ribeira,2014-09-08 17:40:00,2014-09-08 17:50:09,Paranhos,-8.610423,41.14512,-8.601283,41.178909
+stand_trip_0092,taxi_064,stand_01,São Bento Station,Ribeira,2014-09-10 22:22:00,2014-09-10 22:41:46,Matosinhos Sul,-8.610423,41.14512,-8.686498,41.180346
+stand_trip_0210,taxi_016,stand_03,Trindade,Cedofeita,2014-09-16 15:08:00,2014-09-16 15:12:24,Bonfim,-8.609373,41.151207,-8.595589,41.151632
+stand_trip_0101,taxi_059,stand_01,São Bento Station,Ribeira,2014-09-09 17:35:00,2014-09-09 17:58:00,Matosinhos Sul,-8.610708,41.145578,-8.688742,41.178908
+stand_trip_0298,taxi_011,stand_04,Campanhã Station,Campanha,2014-09-17 14:54:00,2014-09-17 15:01:36,Cedofeita,-8.584234,41.147947,-8.617248,41.155953
+stand_trip_0365,taxi_044,stand_04,Campanhã Station,Campanha,2014-09-04 08:49:00,2014-09-04 09:11:38,Matosinhos Sul,-8.58631,41.149689,-8.686498,41.180346
+stand_trip_0452,taxi_022,stand_06,Casa da Música,Boavista,2014-09-01 23:05:00,2014-09-01 23:21:46,Matosinhos Sul,-8.629505,41.158845,-8.688742,41.178908
+stand_trip_0424,taxi_020,stand_05,Bolhão,Bonfim,2014-09-08 11:28:00,2014-09-08 11:33:39,Boavista,-8.605275,41.148016,-8.626264,41.158676
+stand_trip_0425,taxi_037,stand_05,Bolhão,Bonfim,2014-09-11 19:03:00,2014-09-11 19:22:57,Matosinhos Sul,-8.606272,41.148302,-8.688742,41.178908
+stand_trip_0718,taxi_041,stand_12,Asprela University,Paranhos,2014-09-01 17:48:00,2014-09-01 18:05:21,Matosinhos Sul,-8.605065,41.177495,-8.691216,41.181082
+stand_trip_0681,taxi_044,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-05 17:14:00,2014-09-05 17:24:19,Paranhos,-8.609714,41.138884,-8.604131,41.17683
+stand_trip_0142,taxi_045,stand_02,Aliados,Cedofeita,2014-09-15 23:52:00,2014-09-16 00:07:45,Foz do Douro,-8.610152,41.149031,-8.675682,41.153424
+stand_trip_0185,taxi_065,stand_02,Aliados,Cedofeita,2014-09-18 11:03:00,2014-09-18 11:20:44,Matosinhos Sul,-8.612095,41.150391,-8.68803,41.176684
+stand_trip_0472,taxi_046,stand_06,Casa da Música,Boavista,2014-09-05 12:43:00,2014-09-05 12:51:14,Paranhos,-8.629505,41.158845,-8.604131,41.17683
+stand_trip_0037,taxi_077,stand_01,São Bento Station,Ribeira,2014-09-15 08:47:00,2014-09-15 08:53:16,Boavista,-8.610708,41.145578,-8.628868,41.156987
+stand_trip_0659,taxi_065,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-11 16:45:00,2014-09-11 16:58:39,Foz do Douro,-8.608914,41.138209,-8.675682,41.153424
+stand_trip_0582,taxi_020,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-04 09:15:00,2014-09-04 09:21:54,Foz do Douro,-8.688328,41.178066,-8.670825,41.152698
+stand_trip_0263,taxi_048,stand_03,Trindade,Cedofeita,2014-09-03 21:59:00,2014-09-03 22:19:49,Matosinhos Sul,-8.610042,41.152201,-8.691216,41.181082
+stand_trip_0467,taxi_040,stand_06,Casa da Música,Boavista,2014-09-04 17:47:00,2014-09-04 17:56:17,Vila Nova de Gaia,-8.63065,41.158542,-8.608186,41.131164
+stand_trip_0380,taxi_062,stand_05,Bolhão,Bonfim,2014-09-18 15:24:00,2014-09-18 15:41:45,Matosinhos Sul,-8.605275,41.148016,-8.686498,41.180346
+stand_trip_0121,taxi_004,stand_02,Aliados,Cedofeita,2014-09-04 08:26:00,2014-09-04 08:32:13,Ribeira,-8.612095,41.150391,-8.611679,41.138066
+stand_trip_0165,taxi_041,stand_02,Aliados,Cedofeita,2014-09-12 19:22:00,2014-09-12 19:29:09,Campanha,-8.612095,41.150391,-8.583838,41.146486
+stand_trip_0074,taxi_074,stand_01,São Bento Station,Ribeira,2014-09-12 15:52:00,2014-09-12 16:13:01,Matosinhos Sul,-8.609627,41.145952,-8.68803,41.176684
+stand_trip_0021,taxi_042,stand_01,São Bento Station,Ribeira,2014-09-05 13:35:00,2014-09-05 13:39:47,Bonfim,-8.610708,41.145578,-8.596748,41.153748
+stand_trip_0237,taxi_001,stand_03,Trindade,Cedofeita,2014-09-11 09:47:00,2014-09-11 09:49:34,Bonfim,-8.610731,41.153374,-8.596748,41.153748
+stand_trip_0481,taxi_041,stand_06,Casa da Música,Boavista,2014-09-04 06:48:00,2014-09-04 06:58:47,Paranhos,-8.63151,41.159768,-8.602901,41.1747
+stand_trip_0427,taxi_071,stand_05,Bolhão,Bonfim,2014-09-01 15:10:00,2014-09-01 15:17:57,Paranhos,-8.607078,41.149088,-8.606298,41.179
+stand_trip_0617,taxi_062,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-15 06:43:00,2014-09-15 07:05:47,Vila Nova de Gaia,-8.689833,41.179955,-8.612639,41.131858
+stand_trip_0144,taxi_079,stand_02,Aliados,Cedofeita,2014-09-03 14:12:00,2014-09-03 14:32:27,Matosinhos Sul,-8.610061,41.150516,-8.688742,41.178908
+stand_trip_0693,taxi_011,stand_12,Asprela University,Paranhos,2014-09-12 10:56:00,2014-09-12 11:09:51,Vila Nova de Gaia,-8.605384,41.177617,-8.609323,41.127541
+stand_trip_0705,taxi_057,stand_12,Asprela University,Paranhos,2014-09-04 08:23:00,2014-09-04 08:28:40,Cedofeita,-8.605384,41.177617,-8.615797,41.152686
+stand_trip_0184,taxi_048,stand_02,Aliados,Cedofeita,2014-09-15 17:51:00,2014-09-15 17:53:57,Ribeira,-8.610061,41.150516,-8.613063,41.141557
+stand_trip_0497,taxi_076,stand_07,Ribeira Waterfront,Ribeira,2014-09-03 20:26:00,2014-09-03 20:32:51,Boavista,-8.613638,41.141345,-8.631173,41.159623
+stand_trip_0351,taxi_043,stand_04,Campanhã Station,Campanha,2014-09-04 11:23:00,2014-09-04 11:30:19,Ribeira,-8.585665,41.148895,-8.611679,41.138066
+stand_trip_0161,taxi_052,stand_02,Aliados,Cedofeita,2014-09-16 15:54:00,2014-09-16 15:58:17,Boavista,-8.612095,41.150391,-8.628019,41.15545
+stand_trip_0555,taxi_035,stand_08,Foz do Douro,Foz do Douro,2014-09-16 21:45:00,2014-09-16 22:00:17,Paranhos,-8.673217,41.151131,-8.602901,41.1747
+stand_trip_0632,taxi_001,stand_10,Hospital São João,Paranhos,2014-09-09 12:58:00,2014-09-09 13:07:56,Campanha,-8.600253,41.182846,-8.585665,41.148895
+stand_trip_0428,taxi_009,stand_05,Bolhão,Bonfim,2014-09-04 16:02:00,2014-09-04 16:06:43,Campanha,-8.605275,41.148016,-8.58256,41.150532
+stand_trip_0486,taxi_047,stand_06,Casa da Música,Boavista,2014-09-05 18:04:00,2014-09-05 18:11:41,Foz do Douro,-8.630344,41.157766,-8.675682,41.153424
+stand_trip_0325,taxi_075,stand_04,Campanhã Station,Campanha,2014-09-12 10:22:00,2014-09-12 10:29:18,Cedofeita,-8.58631,41.149689,-8.614398,41.157044
+stand_trip_0189,taxi_054,stand_02,Aliados,Cedofeita,2014-09-16 23:01:00,2014-09-16 23:23:29,Matosinhos Sul,-8.612095,41.150391,-8.68803,41.176684
+stand_trip_0455,taxi_073,stand_06,Casa da Música,Boavista,2014-09-12 20:00:00,2014-09-12 20:12:12,Campanha,-8.63065,41.158542,-8.58256,41.150532
+stand_trip_0035,taxi_043,stand_01,São Bento Station,Ribeira,2014-09-05 07:06:00,2014-09-05 07:12:11,Vila Nova de Gaia,-8.611594,41.14631,-8.612639,41.131858
+stand_trip_0086,taxi_041,stand_01,São Bento Station,Ribeira,2014-09-04 18:24:00,2014-09-04 18:30:00,Campanha,-8.609627,41.145952,-8.583838,41.146486
+stand_trip_0206,taxi_027,stand_02,Aliados,Cedofeita,2014-09-09 10:16:00,2014-09-09 10:22:22,Boavista,-8.610152,41.149031,-8.631173,41.159623
+stand_trip_0227,taxi_068,stand_03,Trindade,Cedofeita,2014-09-09 07:29:00,2014-09-09 07:47:42,Matosinhos Sul,-8.610042,41.152201,-8.691216,41.181082
+stand_trip_0622,taxi_068,stand_10,Hospital São João,Paranhos,2014-09-05 09:18:00,2014-09-05 09:33:12,Vila Nova de Gaia,-8.600517,41.181043,-8.612639,41.131858
+stand_trip_0567,taxi_002,stand_08,Foz do Douro,Foz do Douro,2014-09-08 15:41:00,2014-09-08 15:53:19,Cedofeita,-8.673217,41.151131,-8.615797,41.152686
+stand_trip_0175,taxi_053,stand_02,Aliados,Cedofeita,2014-09-16 18:12:00,2014-09-16 18:14:10,Ribeira,-8.611007,41.149828,-8.61053,41.142645
+stand_trip_0670,taxi_015,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-18 15:31:00,2014-09-18 15:50:05,Matosinhos Sul,-8.608208,41.137181,-8.68803,41.176684
+stand_trip_0601,taxi_027,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-05 09:18:00,2014-09-05 09:35:08,Boavista,-8.689833,41.179955,-8.631173,41.159623
+stand_trip_0075,taxi_012,stand_01,São Bento Station,Ribeira,2014-09-17 16:51:00,2014-09-17 16:55:06,Bonfim,-8.611594,41.14631,-8.598443,41.156086
+stand_trip_0448,taxi_033,stand_06,Casa da Música,Boavista,2014-09-03 19:25:00,2014-09-03 19:27:14,Cedofeita,-8.629505,41.158845,-8.617248,41.155953
+stand_trip_0302,taxi_079,stand_04,Campanhã Station,Campanha,2014-09-15 19:21:00,2014-09-15 19:39:44,Matosinhos Sul,-8.584234,41.147947,-8.688742,41.178908
+stand_trip_0134,taxi_067,stand_02,Aliados,Cedofeita,2014-09-01 20:01:00,2014-09-01 20:06:54,Boavista,-8.610152,41.149031,-8.631173,41.159623
+stand_trip_0529,taxi_067,stand_07,Ribeira Waterfront,Ribeira,2014-09-01 19:33:00,2014-09-01 19:52:54,Matosinhos Sul,-8.613638,41.141345,-8.691216,41.181082
+stand_trip_0082,taxi_052,stand_01,São Bento Station,Ribeira,2014-09-08 18:08:00,2014-09-08 18:13:54,Boavista,-8.609627,41.145952,-8.628019,41.15545
+stand_trip_0324,taxi_058,stand_04,Campanhã Station,Campanha,2014-09-09 17:13:00,2014-09-09 17:19:50,Ribeira,-8.583935,41.149515,-8.615433,41.143321
+stand_trip_0401,taxi_024,stand_05,Bolhão,Bonfim,2014-09-09 16:27:00,2014-09-09 16:31:12,Campanha,-8.606272,41.148302,-8.585665,41.148895
+stand_trip_0430,taxi_043,stand_05,Bolhão,Bonfim,2014-09-12 08:35:00,2014-09-12 08:37:56,Cedofeita,-8.604591,41.149299,-8.615797,41.152686
+stand_trip_0699,taxi_034,stand_12,Asprela University,Paranhos,2014-09-18 16:42:00,2014-09-18 16:49:18,Boavista,-8.606411,41.178333,-8.626264,41.158676
+stand_trip_0604,taxi_078,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-18 08:59:00,2014-09-18 09:18:34,Paranhos,-8.687629,41.179738,-8.602901,41.1747
+stand_trip_0634,taxi_035,stand_10,Hospital São João,Paranhos,2014-09-17 09:45:00,2014-09-17 09:55:08,Cedofeita,-8.600517,41.181043,-8.619718,41.157823
+stand_trip_0674,taxi_004,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-16 21:51:00,2014-09-16 21:53:02,Ribeira,-8.608208,41.137181,-8.611679,41.138066
+stand_trip_0258,taxi_042,stand_03,Trindade,Cedofeita,2014-09-02 08:42:00,2014-09-02 08:47:55,Ribeira,-8.609373,41.151207,-8.611679,41.138066
+stand_trip_0579,taxi_048,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-11 21:43:00,2014-09-11 22:00:52,Ribeira,-8.688775,41.179172,-8.613063,41.141557
+stand_trip_0354,taxi_015,stand_04,Campanhã Station,Campanha,2014-09-17 17:03:00,2014-09-17 17:19:54,Foz do Douro,-8.584234,41.147947,-8.673552,41.150998
+stand_trip_0662,taxi_037,stand_11,Jardim do Morro,Vila Nova de Gaia,2014-09-04 17:05:00,2014-09-04 17:12:31,Bonfim,-8.608208,41.137181,-8.595589,41.151632
+stand_trip_0608,taxi_067,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-16 11:27:00,2014-09-16 11:49:58,Vila Nova de Gaia,-8.687629,41.179738,-8.609323,41.127541
+stand_trip_0353,taxi_077,stand_04,Campanhã Station,Campanha,2014-09-12 17:40:00,2014-09-12 17:50:42,Vila Nova de Gaia,-8.58631,41.149689,-8.608186,41.131164
+stand_trip_0609,taxi_005,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-01 07:40:00,2014-09-01 07:46:54,Foz do Douro,-8.689833,41.179955,-8.675682,41.153424
+stand_trip_0191,taxi_009,stand_02,Aliados,Cedofeita,2014-09-04 20:22:00,2014-09-04 20:30:42,Paranhos,-8.611007,41.149828,-8.601283,41.178909
+stand_trip_0212,taxi_050,stand_03,Trindade,Cedofeita,2014-09-04 21:57:00,2014-09-04 22:05:36,Campanha,-8.608643,41.153389,-8.58256,41.150532
+stand_trip_0294,taxi_022,stand_03,Trindade,Cedofeita,2014-09-16 16:46:00,2014-09-16 16:49:53,Ribeira,-8.609373,41.151207,-8.611679,41.138066
+stand_trip_0293,taxi_005,stand_03,Trindade,Cedofeita,2014-09-11 07:09:00,2014-09-11 07:15:39,Campanha,-8.610731,41.153374,-8.585665,41.148895
+stand_trip_0358,taxi_004,stand_04,Campanhã Station,Campanha,2014-09-15 10:08:00,2014-09-15 10:20:00,Paranhos,-8.584234,41.147947,-8.604131,41.17683
+stand_trip_0585,taxi_071,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-17 09:15:00,2014-09-17 09:32:49,Bonfim,-8.689833,41.179955,-8.598443,41.156086
+stand_trip_0174,taxi_036,stand_02,Aliados,Cedofeita,2014-09-11 09:40:00,2014-09-11 09:46:28,Campanha,-8.610152,41.149031,-8.587653,41.150705
+stand_trip_0204,taxi_072,stand_02,Aliados,Cedofeita,2014-09-01 15:15:00,2014-09-01 15:21:47,Vila Nova de Gaia,-8.610061,41.150516,-8.610425,41.129487
+stand_trip_0361,taxi_055,stand_04,Campanhã Station,Campanha,2014-09-08 21:32:00,2014-09-08 21:39:09,Cedofeita,-8.58631,41.149689,-8.614398,41.157044
+stand_trip_0409,taxi_002,stand_05,Bolhão,Bonfim,2014-09-03 16:39:00,2014-09-03 16:44:48,Paranhos,-8.606272,41.148302,-8.604131,41.17683
+stand_trip_0122,taxi_021,stand_02,Aliados,Cedofeita,2014-09-09 12:59:00,2014-09-09 13:14:58,Matosinhos Sul,-8.610152,41.149031,-8.691216,41.181082
+stand_trip_0618,taxi_079,stand_09,Matosinhos Sul,Matosinhos Sul,2014-09-18 08:47:00,2014-09-18 08:52:52,Foz do Douro,-8.688328,41.178066,-8.670825,41.152698

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="40" y="40" font-size="24" font-family="Arial" font-weight="bold">Route Directness of Hot-Weather Car Trips</text>
+<line x1="90" y1="510" x2="920" y2="510" stroke="#334155"/>
+<line x1="90" y1="80" x2="90" y2="510" stroke="#334155"/>
+<rect x="168.8" y="145.6" width="257.3" height="364.4" fill="#64748b"/>
+<text x="297.5" y="538" text-anchor="middle" font-size="14">normal car</text>
+<text x="297.5" y="137.6" text-anchor="middle" font-size="13">1.7</text>
+<rect x="583.9" y="283.7" width="257.3" height="226.3" fill="#ef4444"/>
+<text x="712.5" y="538" text-anchor="middle" font-size="14">very hot car</text>
+<text x="712.5" y="275.7" text-anchor="middle" font-size="13">1.0</text>
+<text x="25" y="295.0" transform="rotate(-90 25 295.0)" font-size="14">Mean route-indirectness score</text>
+</svg>

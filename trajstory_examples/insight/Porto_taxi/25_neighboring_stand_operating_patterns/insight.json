@@ -1,0 +1,123 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Porto_taxi/25_neighboring_stand_operating_patterns/trips.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Porto_taxi/25_neighboring_stand_operating_patterns/trajectory_points.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/25_neighboring_stand_operating_patterns/trajectory_points.csv",
+      "role": "Dense GPS observations aligned to the cached Porto OSM road graph"
+    },
+    {
+      "path": "trajstory_examples/insight/Porto_taxi/25_neighboring_stand_operating_patterns/taxi_stands.csv",
+      "role": "Neighboring stand locations, pair labels, volumes, and driver coverage"
+    }
+  ],
+  "metadata": {
+    "goal": "Find how taxi activity varies across neighboring service locations and different operating conditions.",
+    "role": "Porto taxi trajectory analyst",
+    "category": "Neighboring stand demand timing, driver overlap, and pre-holiday reversals",
+    "header": "Porto Taxi Example 25",
+    "dataset_description": "A constructed Porto taxi trajectory case with road-routed GPS points and supporting tables designed to evaluate 4 mutually compatible insights."
+  },
+  "insight_list": [
+    {
+      "data_type": "neighbor_stand_peak_volume",
+      "insight": "Nearby taxi stands often share similar demand peaks, even when their total pickup volumes sometimes differ.",
+      "plot": {
+        "plot_type": "paired_stand_hourly_count_lines",
+        "file": "visualizations/neighbor_peak_similarity_volume_difference.png",
+        "title": "Can nearby stands share demand peaks despite different total pickup volumes",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "Can nearby stands share demand peaks despite different total pickup volumes?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "origin_stand",
+        "stand_location",
+        "departure_time",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "central_peripheral_activity",
+      "insight": "Central neighboring stands remain active across most hours, while peripheral stand pairs concentrate more of their demand during daytime.",
+      "plot": {
+        "plot_type": "location_class_mean_daily_hourly_lines",
+        "file": "visualizations/central_peripheral_hourly_activity.png",
+        "title": "How does hourly activity breadth differ between central and peripheral neighboring stands",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "How does hourly activity breadth differ between central and peripheral neighboring stands?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "temporal_dynamics",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "origin_stand",
+        "stand_location",
+        "departure_time",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "neighbor_driver_overlap",
+      "insight": "Some neighboring stands are repeatedly served by similar taxi groups, while other nearby stands attract largely different sets of drivers.",
+      "plot": {
+        "plot_type": "pair_driver_jaccard_bars",
+        "file": "visualizations/neighboring_stand_driver_overlap.png",
+        "title": "Which nearby stand pairs share taxi groups, and which attract different drivers",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "Which nearby stand pairs share taxi groups, and which attract different drivers?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "group_comparison",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "origin_stand",
+        "stand_location",
+        "driver_id",
+        "trajectory_id"
+      ]
+    },
+    {
+      "data_type": "preholiday_stand_reversal",
+      "insight": "On some pre-holiday evenings, a normally secondary stand temporarily receives more pickups than its usually busier neighbor.",
+      "plot": {
+        "plot_type": "date_level_evening_lines",
+        "file": "visualizations/preholiday_evening_stand_reversal.png",
+        "title": "When does a normally secondary stand overtake its usually busier neighbor",
+        "description": "The visualization directly summarizes the supplied trajectory and supporting tables."
+      },
+      "question": "When does a normally secondary stand overtake its usually busier neighbor?",
+      "code": "# Reproduce the grouped comparison from the supplied CSV tables and display the authored visualization.",
+      "insight_type": "exception_deviation",
+      "difficulty_level": 5,
+      "difficulty_label": "high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "origin_stand",
+        "stand_location",
+        "departure_time",
+        "day_class",
+        "trajectory_id"
+      ]
+    }
+  ],
+  "insights": [
+    "Nearby taxi stands often share similar demand peaks, even when their total pickup volumes sometimes differ.",
+    "Central neighboring stands remain active across most hours, while peripheral stand pairs concentrate more of their demand during daytime.",
+    "Some neighboring stands are repeatedly served by similar taxi groups, while other nearby stands attract largely different sets of drivers.",
+    "On some pre-holiday evenings, a normally secondary stand temporarily receives more pickups than its usually busier neighbor."
+  ],
+  "summary": "Neighboring stands can share peak timing while differing in total demand. Central pairs remain broadly active, peripheral pairs concentrate in daytime, driver overlap varies sharply, and selected pre-holiday evenings reverse the normal ordering within one pair."
+}

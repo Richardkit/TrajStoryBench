@@ -1,0 +1,511 @@
+{
+  "schema_version": "1.0",
+  "dataset_family": "LaDe",
+  "case_count": 25,
+  "insight_count": 82,
+  "cases": [
+    {
+      "case_id": "lade_01_time_window_order_handling",
+      "goal": "Analyze the spatial and temporal patterns of courier delivery activity in the selected delivery area.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "During midday, receipt and destination activity is tightly concentrated inside the central service core, unlike the wider evening and late-evening patterns."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "During the evening period, both the courier path and order locations cover a wider part of the central service area than at midday."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "During late evening, receipt and destination locations spread across multiple separated edge clusters rather than a single central cluster."
+        }
+      ],
+      "summary": "Across one observed courier-day, midday activity is compact and concentrated in the central service core. Evening activity covers a wider portion of that same central service area. Late-evening activity is distributed across several separated edge clusters. In every view, receipt and destination coordinates are sampled from the GPS path of their corresponding period."
+    },
+    {
+      "case_id": "lade_02_regional_courier_order_state",
+      "goal": "Analyze the couriers serving the selected area during the observed time window and summarize their workload, movement, and delivery-state patterns.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "The selected area contains substantial variation in the number and timing of orders handled by different couriers."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Spatially separated parts of the selected area show different observed movement-speed patterns after comparing the event and trajectory evidence."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The area-level balance between newly accepted and completed orders changes over the selected interval. For most couriers, the observed workload generally declines after noon, with fewer orders remaining in progress per courier as the day progresses."
+        }
+      ],
+      "summary": "The selected area contains heterogeneous courier workload and movement patterns. Order-event timing, spatial speed estimates, area-level event balance, and per-courier workload trajectories provide complementary evidence; most couriers show a general workload decline after noon."
+    },
+    {
+      "case_id": "lade_03_delivery_pattern_sequence",
+      "goal": "Detect repeated delivery-sequencing patterns by relating the courier's road-network trajectories to order receipt and destination events across multiple days.",
+      "insights": [
+        {
+          "insight_type": "factor_relationship",
+          "insight": "The courier does not consistently complete the destination nearest to the current position next."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "When receipt activity is sparse, the courier tends to complete longer-distance destinations earlier in each batch than shorter-distance destinations."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Dense receipt activity leads the courier to interleave receipt collection and delivery rather than process them as separate batches."
+        }
+      ],
+      "summary": "Across repeated courier-days, sparse batches consistently place farther destinations earlier in the completion sequence, while dense receipt periods repeatedly interleave collection and delivery instead of separating them into two stages."
+    },
+    {
+      "case_id": "lade_04_experience_change",
+      "goal": "Investigate how the courier's delivery behavior differs between the first observed workday and a recent workday.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "On the first workday, the courier usually completes the destination nearest to the current position next. On the recent workday, the sequence is less consistently nearest-first: several farther destinations are completed while nearer destinations remain unfinished."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The recent workday has a lower mean GPS trajectory distance per completed order than the first workday. The first-day nearest-first strategy still produces a longer overall route than the more compact recent-day route."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The courier's mean GPS movement speed is higher on the recent workday than on the first workday."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "No receipt events are present on the first workday, whereas receipt events are present for half of the recent-workday orders."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "On the recent workday, two receipt-bearing orders have far destinations but no same-day delivery completion or matching trajectory evidence, unlike the completed receipt-bearing orders."
+        }
+      ],
+      "summary": "The courier's observed behavior differs between the first and recent workdays: the first day follows a nearest-first pattern but covers a longer and slower route with no receipt events, whereas the recent day uses a more compact and faster route, makes several non-nearest-first choices, includes receipt events for half of its orders, and leaves two far receipt-bearing destinations without same-day completion evidence."
+    },
+    {
+      "case_id": "lade_05_area_time_task_organization",
+      "goal": "Analyze how the courier organizes delivery tasks across space and time, and identify the main operational patterns or trade-offs that shape the route.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The courier follows a strongly area-oriented strategy, completing most nearby tasks consecutively before moving to another service cluster, with very few returns to previously visited areas."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "An otherwise compact task sequence is interrupted by a geographically isolated task with a much earlier deadline; after completing it, the courier returns to the original service area."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Task completion is rapid while orders remain densely clustered, but the delivery pace slows markedly near the end of the route as the remaining tasks become fewer and more spatially dispersed."
+        }
+      ],
+      "summary": "The route is mostly organized cluster by cluster, with one early-deadline task causing the only clear return to a previous area. Completion remains fast through dense clusters and slows as the final tasks become sparse and geographically dispersed."
+    },
+    {
+      "case_id": "lade_06_distinctive_service_patterns",
+      "goal": "Identify unusual or distinctive service patterns in repeated courier routes and explain how they differ from a straightforward one-stop–one-task process.",
+      "insights": [
+        {
+          "insight_type": "exception_deviation",
+          "insight": "The courier passes close to a pending task without completing it, leaves the area to serve several other tasks, and returns much later to complete the skipped delivery."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Several nearby deliveries are completed within a short time interval while the courier’s recorded position changes very little."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Instead of progressing steadily from one service area to the next, the courier repeatedly returns to previously visited areas, producing a fragmented route with several cross-area transitions."
+        }
+      ],
+      "summary": "Across six courier-days, rapid local batches and fragmented cross-area returns recur as normal patterns, while one already-available task is uniquely passed and completed only after a much later revisit."
+    },
+    {
+      "case_id": "lade_07_pickup_time_window_reliability",
+      "goal": "Analyze the pickup-work patterns of multiple couriers from their trajectories and accepted pickup tasks.",
+      "insights": [
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Later-accepted pickup tasks are not only completed faster but are also more likely to fall within their promised service windows."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "Short pickup durations do not necessarily correspond to higher reliability, as some rapidly completed tasks still violate their promised time windows."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Time-window violations are driven predominantly by pickups completed before the allowed window rather than by delayed completion."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Early pickups are spatially concentrated in a small set of recurring regions."
+        }
+      ],
+      "summary": "Later-accepted pickup tasks in this multi-courier sample are generally shorter and more likely to be completed within their planned windows. However, rapid completion is not always reliable: most violations are early pickups, and all early pickups concentrate in three recurring service regions."
+    },
+    {
+      "case_id": "lade_08_pickup_conditions_and_constraints",
+      "goal": "Analyze how task conditions and operational constraints affect pickup completion across the supplied trajectories and accepted pickup tasks from multiple couriers.",
+      "insights": [
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Tasks accepted before their promised service windows begin are considerably more prone to being completed too early."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Pickup tasks with longer promised service windows exhibit substantially higher compliance than tasks constrained by narrower windows."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Pickup duration does not increase uniformly with travel distance; instead, tasks exhibit distinct duration patterns across different distance ranges."
+        }
+      ],
+      "summary": "Pickup completion in this multi-courier sample depends on both timing and task constraints. Tasks accepted before their windows are disproportionately completed early, wider promised windows have higher compliance, and travel distance produces distinct duration regimes rather than a simple increasing relationship."
+    },
+    {
+      "case_id": "lade_09_multi_day_delivery_cadence",
+      "goal": "Summarize this courier’s delivery patterns from trajectories observed over several days.",
+      "insights": [
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Later in the day, the time interval between consecutive deliveries becomes shorter."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Delivery cadence depends not only on time of day but also on the courier’s current position along the route: consecutive deliveries are more tightly spaced around the central corridor than near route edges."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Routes of different lengths have different consecutive-delivery interval patterns rather than a single shared cadence."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "This courier accepts delivery tasks either before their promised service windows begin or while the windows are open; no supplied task is accepted after its window closes."
+        }
+      ],
+      "summary": "Across several workdays, this courier’s delivery cadence accelerates later in the day, but route position and route length also structure the interval between deliveries. All supplied tasks are accepted before or during their promised service windows."
+    },
+    {
+      "case_id": "lade_10_time_window_route_effects",
+      "goal": "Analyze how time windows affect the delivery behavior of the same courier using the supplied trajectories.",
+      "insights": [
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Narrower promised service windows are associated with higher route detour ratios, indicating more circuitous delivery paths relative to the supplied network-shortest distance."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "On days when this courier handles a larger share of time-window-constrained tasks, route execution is less efficient and average travel speed is lower than on days dominated by unconstrained tasks."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "After the main concentration of time-window-constrained tasks, the courier's remaining acceptances become sparse."
+        }
+      ],
+      "summary": "For this courier, tighter time windows are associated with more circuitous routes and slower delivery execution. Daily task sets containing more constrained tasks show poorer route efficiency, while acceptance becomes sparse after each day’s main concentration of constrained tasks."
+    },
+    {
+      "case_id": "lade_11_workday_time_allocation",
+      "goal": "Analyze the courier's workday time allocation, delivery-visit efficiency, and unusually long visits.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "The courier spends more time near delivery locations than travelling between them."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Visits with several completed deliveries generally take less time per delivery than visits with only one."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "The longest visit includes only one completed delivery."
+        }
+      ],
+      "summary": "Most observed time is spent near delivery locations. Multi-delivery visits usually use less time per completed delivery, although visit-level variation remains, and the single longest visit contains only one completion."
+    },
+    {
+      "case_id": "lade_12_clockwise_route_delivery_sequence",
+      "goal": "Analyze movement and delivery activity along the observed courier route.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "The courier follows a mostly clockwise route, with few immediate reversals."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Farther deliveries ahead are often completed before nearer deliveries located behind the courier."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "Segments with frequent delivery completions contain more higher directional changes and short movements, while connecting segments between delivery clusters are more linear and longer."
+        }
+      ],
+      "summary": "The route progresses mostly clockwise with very few immediate reversals. Within recurring cluster loops, farther tasks ahead are completed before a task just passed behind, and cluster service produces shorter, more directionally variable movements than the connecting legs."
+    },
+    {
+      "case_id": "lade_13_accepted_pickup_task_dynamics",
+      "goal": "Analyze the courier's accepted pickup workload, completion priorities, and pauses during the observed workday.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "The number of pending pickups stays roughly stable through much of the afternoon, despite frequent task acceptances and completions."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Newly accepted tasks close to the courier are often completed before older, more distant tasks."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "A prolonged pause in pickup completions occurs while several accepted tasks remain near the courier."
+        }
+      ],
+      "summary": "The courier usually carries a stable pending workload as short-lived nearby tasks enter and leave the queue. Nearby new tasks can be completed ahead of older farther tasks, while one 75-minute interval contains neither acceptances nor completions even though seven accepted pickups remain around the courier."
+    },
+    {
+      "case_id": "lade_14_aoi_type_delivery_activity",
+      "goal": "Investigate how the courier's delivery activity differs across AOI types.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Residential-AOI visits usually contain multiple completed deliveries, whereas Office-AOI visits usually contain a single completed delivery."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Residential-AOI visits have more completed deliveries and lower incoming GPS travel distance per completed order than Office-AOI visits, on average."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "The courier mainly serves Office AOIs earlier in the workday and Residential AOIs later."
+        }
+      ],
+      "summary": "Residential-AOI visits usually contain multiple completed deliveries, whereas Office-AOI visits usually contain a single completed delivery. Residential-AOI visits have more completed deliveries and lower incoming GPS travel distance per completed order than Office-AOI visits, on average. The courier mainly serves Office AOIs earlier in the workday and Residential AOIs later."
+    },
+    {
+      "case_id": "lade_15_delivery_acceptance_bursts",
+      "goal": "Analyze how the courier handles tasks accepted close together in time.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "New delivery tasks are accepted in several distinct bursts rather than arriving uniformly throughout the workday."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Within the same acceptance burst, tasks with nearby destinations tend to be completed consecutively even when they were accepted in a different order."
+        },
+        {
+          "insight_type": "group_comparison",
+          "insight": "Larger acceptance bursts are more often split into several spatial groups, whereas small bursts are usually completed within one local area."
+        }
+      ],
+      "summary": "Accepted tasks arrive in compact bursts separated by much longer gaps. The courier reorganizes interleaved acceptance order into locally consecutive destination groups, and large bursts are much more often divided across several local areas than small bursts."
+    },
+    {
+      "case_id": "lade_16_pending_delivery_prioritization",
+      "goal": "Investigate how the courier prioritizes pending delivery tasks.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "The courier does not consistently complete pending tasks in the order in which they were accepted."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "When many tasks are pending at the same time, completion order is more strongly organized by destination proximity than by task age."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "As the number of pending tasks decreases, the courier's completion order becomes more closely aligned with the tasks' acceptance order."
+        }
+      ],
+      "summary": "The route is not first-in-first-out. With a large queue, the courier usually selects one of the nearest destinations even when that task is relatively new; after the backlog falls, selected tasks are much more often among the oldest still pending."
+    },
+    {
+      "case_id": "lade_17_contextual_delivery_prioritization",
+      "goal": "Analyze how the courier prioritizes delivery tasks during the workday.",
+      "insights": [
+        {
+          "insight_type": "factor_relationship",
+          "insight": "When more tasks are pending, the courier tends to prioritize tasks with closer destinations over tasks accepted earlier."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Tasks approaching the end of their promised windows are often completed before nearby tasks with looser time constraints."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Tasks accepted while the courier is already near their destination area are usually completed sooner than those accepted after the courier has moved away."
+        }
+      ],
+      "summary": "When more tasks are pending, the courier tends to prioritize tasks with closer destinations over tasks accepted earlier. Tasks approaching the end of their promised windows are often completed before nearby tasks with looser time constraints. Tasks accepted while the courier is already near their destination area are usually completed sooner than those accepted after the courier has moved away."
+    },
+    {
+      "case_id": "lade_18_multi_courier_pickup_ordering",
+      "goal": "Find pickup-task handling patterns in the selected service region.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Couriers serving the same AOIs differ in how closely their pickup order follows task acceptance order, even on days with similar task volumes."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Tasks accepted farther from their pickup locations are more likely to be deferred, but this pattern weakens when their service windows are close to ending."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "For the same courier, pickup ordering changes across workdays as the set of served AOIs changes, while repeatedly served AOIs retain more stable local patterns."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Large mismatches between task locations and recorded pickup GPS positions concentrate in a small subset of repeatedly visited AOIs rather than being evenly distributed."
+        }
+      ],
+      "summary": "Couriers serving the same AOIs differ in how closely their pickup order follows task acceptance order, even on days with similar task volumes. Tasks accepted farther from their pickup locations are more likely to be deferred, but this pattern weakens when their service windows are close to ending. For the same courier, pickup ordering changes across workdays as the set of served AOIs changes, while repeatedly served AOIs retain more stable local patterns. Large mismatches between task locations and recorded pickup GPS positions concentrate in a small subset of repeatedly visited AOIs rather than being evenly distributed."
+    },
+    {
+      "case_id": "lade_19_regional_pickup_workload_distribution",
+      "goal": "Identify how pickup workload is distributed among couriers in the selected region.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Couriers handling similar numbers of tasks can have very different route lengths and active durations when their pickups differ in spatial spread and time-window concentration."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "On high-volume days, the busiest AOIs are served by more couriers, while quieter days show more stable courier–AOI service patterns."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Tasks accepted later in the day tend to be picked up later and are often completed near the end of their service windows."
+        }
+      ],
+      "summary": "Couriers handling similar numbers of tasks can have very different route lengths and active durations when their pickups differ in spatial spread and time-window concentration. On high-volume days, the busiest AOIs are served by more couriers, while quieter days show more stable courier–AOI service patterns. Tasks accepted later in the day tend to be picked up later and are often completed near the end of their service windows."
+    },
+    {
+      "case_id": "lade_20_aoi_service_periods_and_courier_subregions",
+      "goal": "Analyze pickup activity across local service areas during the workday.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Some AOIs are served in several separated periods during the day, while similarly active AOIs are handled within a much more continous period."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "AOIs with similar task volumes can show different pickup timing relative to their service windows, with some concentrated near window starts and others closer to window ends."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Within AOIs served by multiple couriers, pickup locations form persistent courier-specific subregions across days, even when their trajectories overlap along common access corridors."
+        }
+      ],
+      "summary": "Some AOIs are served in several separated periods during the day, while similarly active AOIs are handled within a much more continous period. AOIs with similar task volumes can show different pickup timing relative to their service windows, with some concentrated near window starts and others closer to window ends. Within AOIs served by multiple couriers, pickup locations form persistent courier-specific subregions across days, even when their trajectories overlap along common access corridors."
+    },
+    {
+      "case_id": "lade_21_road_class_delivery_dynamics",
+      "goal": "Identify how road classes shape the courier's movement and delivery activity.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Movement on primary roads is generally faster and contains fewer delivery completions than movement on residential roads, with secondary and tertiary roads showing intermediate patterns."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Earlier route periods contain more movement on primary and secondary roads, while tertiary and residential roads become more prominent during later delivery-intensive periods."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Within the same fclass, movement speed decreases as nearby delivery activity becomes denser, with the strongest changes appearing on tertiary and residential roads."
+        }
+      ],
+      "summary": "Movement on primary roads is generally faster and contains fewer delivery completions than movement on residential roads, with secondary and tertiary roads showing intermediate patterns. Earlier route periods contain more movement on primary and secondary roads, while tertiary and residential roads become more prominent during later delivery-intensive periods. Within the same fclass, movement speed decreases as nearby delivery activity becomes denser, with the strongest changes appearing on tertiary and residential roads."
+    },
+    {
+      "case_id": "lade_22_regular_aoi_work_pattern",
+      "goal": "Identify the regular work pattern of the courier and find potential deviations from it.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "The courier follows a regular work AOIs with several fixed recipe and delivery places, which takes a small part of work time but many tasks, located in residential street"
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "As time drew to a close, the courier tends to choose direct routes to task locations, but not guarantee the higher speed in the day."
+        },
+        {
+          "insight_type": "overall_pattern",
+          "insight": "The courier tends to later complete tasks in regular visited AOIs with large time-windows, prioritizing tasks in unregular visited AOIs regardless of the time constraints."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "The courier did not go to unregular visited AOIs one day, even there were available tasks."
+        }
+      ],
+      "summary": "The courier follows a regular work AOIs with several fixed recipe and delivery places, which takes a small part of work time but many tasks, located in residential street As time drew to a close, the courier tends to choose direct routes to task locations, but not guarantee the higher speed in the day. The courier tends to later complete tasks in regular visited AOIs with large time-windows, prioritizing tasks in unregular visited AOIs regardless of the time constraints. The courier did not go to unregular visited AOIs one day, even there were available tasks."
+    },
+    {
+      "case_id": "lade_23_oneway_detour_dynamics",
+      "goal": "Investigate how road-network attributes are reflected in the courier's movement dynamics.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Among movements between similarly separated tasks, those using a higher share of one-way streets show larger detour ratios, while their average speeds differ less."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Speed and route directness ratios evolve differently over the workday: the slowest periods are not always the most circuitous, and some high-detour periods retain relatively normal speeds."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Periods with frequent transitions between different fclass categories show greater fluctuations in detour ratio, while movement speed can remain relatively stable."
+        },
+        {
+          "insight_type": "exception_deviation",
+          "insight": "One route period shows a very high route directness ratio despite normal movement speed and limited one-way-road exposure, differing from the dominant road-related detour pattern."
+        }
+      ],
+      "summary": "Among movements between similarly separated tasks, those using a higher share of one-way streets show larger detour ratios, while their average speeds differ less. Speed and route directness ratios evolve differently over the workday: the slowest periods are not always the most circuitous, and some high-detour periods retain relatively normal speeds. Periods with frequent transitions between different fclass categories show greater fluctuations in detour ratio, while movement speed can remain relatively stable. One route period shows a very high route directness ratio despite normal movement speed and limited one-way-road exposure, differing from the dominant road-related detour pattern."
+    },
+    {
+      "case_id": "lade_24_bridge_tunnel_movement",
+      "goal": "Investigate courier movement dynamics under different road-network conditions.",
+      "insights": [
+        {
+          "insight_type": "overall_pattern",
+          "insight": "Movement on residential roads shows more stable speeds, while segments alternating between tertiary and residential roads exhibit larger short-term speed fluctuations."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Repeated crossings of the same bridge or tunnel show longer low-speed periods and greater speed fluctuations later in the workday."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "Bridge and tunnel crossings approached from residential roads tend to show larger speed drops than those approached from primary roads."
+        }
+      ],
+      "summary": "Movement on residential roads shows more stable speeds, while segments alternating between tertiary and residential roads exhibit larger short-term speed fluctuations. Repeated crossings of the same bridge or tunnel show longer low-speed periods and greater speed fluctuations later in the workday. Bridge and tunnel crossings approached from residential roads tend to show larger speed drops than those approached from primary roads."
+    },
+    {
+      "case_id": "lade_25_service_region_road_comparison",
+      "goal": "Compare courier movement patterns across selected service regions.",
+      "insights": [
+        {
+          "insight_type": "group_comparison",
+          "insight": "Puxi_Jingan_West shows lower average movement speeds but smaller route directness ratios than Puxi_Huangpu_East, despite comparable delivery volumes."
+        },
+        {
+          "insight_type": "temporal_dynamics",
+          "insight": "Route directness ratios remain relatively stable over the workday in Puxi_Jingan_West, while Puxi_Huangpu_East shows a clear increase later in the day."
+        },
+        {
+          "insight_type": "factor_relationship",
+          "insight": "A higher share of one-way streets is more strongly associated with detour in Puxi_Huangpu_East, while the relationship is much weaker in Puxi_Jingan_West."
+        }
+      ],
+      "summary": "Puxi_Jingan_West shows lower average movement speeds but smaller route directness ratios than Puxi_Huangpu_East, despite comparable delivery volumes. Route directness ratios remain relatively stable over the workday in Puxi_Jingan_West, while Puxi_Huangpu_East shows a clear increase later in the day. A higher share of one-way streets is more strongly associated with detour in Puxi_Huangpu_East, while the relationship is much weaker in Puxi_Jingan_West."
+    }
+  ]
+}

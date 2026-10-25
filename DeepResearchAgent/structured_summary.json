@@ -1,0 +1,28 @@
+{
+  "trajectory_counts_by_mode_and_vehicle": [
+    {
+      "travel_mode": "driving",
+      "vehicle_type": "large",
+      "trajectory_count": 107,
+      "avg_trajectory_distance_km": 6.64188785046729
+    },
+    {
+      "travel_mode": "driving",
+      "vehicle_type": "small",
+      "trajectory_count": 73,
+      "avg_trajectory_distance_km": 3.24858904109589
+    }
+  ],
+  "temperature_range_by_vehicle": [
+    {
+      "vehicle_type": "large",
+      "min_temperature_c": 5,
+      "max_temperature_c": 30
+    },
+    {
+      "vehicle_type": "small",
+      "min_temperature_c": 5,
+      "max_temperature_c": 30
+    }
+  ]
+}

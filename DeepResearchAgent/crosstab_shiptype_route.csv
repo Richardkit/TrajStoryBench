@@ -1,0 +1,8 @@
+assigned_route_name,Esbjerg Connector,Hvide Sande Connector,Thyborøn Connector,West Jutland Offshore Transit
+assigned_route_class,local harbour,local harbour,local harbour,main offshore
+ship_type,,,,
+Cargo,1,1,1,34
+Ferry,4,4,4,3
+Fishing,0,0,0,10
+Service,4,4,4,2
+Tanker,0,0,0,24

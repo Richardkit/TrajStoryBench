@@ -1,0 +1,117 @@
+{
+  "dataset_csv_path": "trajstory_examples/insight/Danish_AIS/18_long_straight_passage_dynamics/trajectory_points.csv",
+  "user_dataset_csv_path": "trajstory_examples/insight/Danish_AIS/18_long_straight_passage_dynamics/vessels.csv",
+  "input_references": [
+    {
+      "path": "trajstory_examples/insight/Danish_AIS/18_long_straight_passage_dynamics/vessels.csv",
+      "role": "Vessel attributes linked by vessel_id"
+    }
+  ],
+  "metadata": {
+    "goal": "Analyze the vessel movement patterns along a long and relatively straight passage.",
+    "role": "Maritime traffic analyst",
+    "category": "long straight passage dynamics",
+    "header": "Long straight passage dynamics",
+    "dataset_description": "Eighteen constructed passages by one cargo vessel, including normal status transitions and three temporary-anchor exceptions.",
+    "source_note": "Danish maritime geography is used as context; the visible trajectories and attributes are constructed derived data."
+  },
+  "insight_list": [
+    {
+      "data_type": "straight_passage_stability",
+      "insight": "The vessel maintains stable heading and COG and nearly straight trajectories over long portions of the passage, with only limited directional changes during the main transit phase.",
+      "insight_value": {
+        "median_max_cross_track_deviation_km": 1.1
+      },
+      "plot": {
+        "plot_type": "trajectory_map_and_direction_profile",
+        "title": "Long Straight Passage Stability",
+        "file": "visualizations/passage_overview.png",
+        "description": "Compare complete passage geometry with heading and COG stability."
+      },
+      "question": "How stable is the vessel during long passage transits?",
+      "actionable_insight": "Compare complete passage geometry with heading and COG stability.",
+      "code": "import pandas as pd\ndf=pd.read_csv(dataset_path); print(df.groupby('trajectory_id')[['cog','heading']].std())",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 6,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "gps_position",
+        "heading",
+        "course_over_ground",
+        "vessel_id",
+        "trajectory_timestamp",
+        "navigation_status"
+      ]
+    },
+    {
+      "data_type": "status_speed_transition",
+      "insight": "Each passage generally includes a status transition phase, during which the vessel changes from restricted manoeuvrability to under way using engine, accompanied by a smooth increase in speed.",
+      "insight_value": {
+        "median_speed_increase_knots": 8.37
+      },
+      "plot": {
+        "plot_type": "aligned_status_speed_profile",
+        "title": "Status Transition and Speed Increase",
+        "file": "visualizations/status_speed_transition.png",
+        "description": "Align trips by progress and compare navigation status with speed development."
+      },
+      "question": "How do navigation status and speed normally change during transit?",
+      "actionable_insight": "Align trips by progress and compare navigation status with speed development.",
+      "code": "import pandas as pd\ndf=pd.read_csv(dataset_path); print(df.groupby('nav_status').sog_knots.describe())",
+      "insight_type": "overall_pattern",
+      "difficulty_level": 4,
+      "difficulty_label": "medium",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "navigation_status",
+        "point_speed",
+        "vessel_id",
+        "trajectory_timestamp"
+      ]
+    },
+    {
+      "data_type": "heading_without_cog_response",
+      "insight": "In a few cases, COG does not respond to a heading change, resulting in temporary anchoring for restarting.",
+      "insight_value": {
+        "temporary_anchor_cases": 3,
+        "total_passages": 18,
+        "event_window": {
+          "median_heading_cog_gap_at_anchor_deg": 30.1,
+          "median_heading_cog_gap_outside_anchor_deg": 0.8,
+          "median_speed_at_anchor_knots": 0.25
+        }
+      },
+      "plot": {
+        "plot_type": "exception_profile",
+        "title": "Temporary Anchor Exceptions",
+        "file": "visualizations/temporary_anchor_exceptions.png",
+        "description": "Contrast the few anchor episodes with normal heading–COG agreement."
+      },
+      "question": "Which passages show heading changes without a matching COG response?",
+      "actionable_insight": "Contrast the few anchor episodes with normal heading–COG agreement.",
+      "code": "import pandas as pd, numpy as np\ndf=pd.read_csv(dataset_path); df['gap']=abs((df.heading-df.cog+180)%360-180); print(df[df.nav_status.eq('At anchor')][['trajectory_id','gap','sog_knots']])",
+      "insight_type": "exception_deviation",
+      "difficulty_level": 6,
+      "difficulty_label": "very high",
+      "difficulty_version": "3.5",
+      "difficulty_is_provisional": false,
+      "difficulty_field_dependencies": [
+        "heading",
+        "course_over_ground",
+        "navigation_status",
+        "vessel_id",
+        "trajectory_timestamp",
+        "point_speed"
+      ]
+    }
+  ],
+  "insights": [
+    "The vessel maintains stable heading and COG and nearly straight trajectories over long portions of the passage, with only limited directional changes during the main transit phase.",
+    "Each passage generally includes a status transition phase, during which the vessel changes from restricted manoeuvrability to under way using engine, accompanied by a smooth increase in speed.",
+    "In a few cases, COG does not respond to a heading change, resulting in temporary anchoring for restarting."
+  ],
+  "summary": "The vessel maintains stable heading and COG and nearly straight trajectories over long portions of the passage, with only limited directional changes during the main transit phase. Each passage generally includes a status transition phase, during which the vessel changes from restricted manoeuvrability to under way using engine, accompanied by a smooth increase in speed. In a few cases, COG does not respond to a heading change, resulting in temporary anchoring for restarting."
+}

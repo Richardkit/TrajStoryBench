@@ -1,0 +1,181 @@
+route_id,route_name,route_class,point_index,lat,lon
+OFFSHORE,West Jutland Offshore Transit,main offshore,0,55.14,7.38
+OFFSHORE,West Jutland Offshore Transit,main offshore,1,55.18264,7.38832
+OFFSHORE,West Jutland Offshore Transit,main offshore,2,55.225279,7.39664
+OFFSHORE,West Jutland Offshore Transit,main offshore,3,55.267919,7.40496
+OFFSHORE,West Jutland Offshore Transit,main offshore,4,55.310558,7.41328
+OFFSHORE,West Jutland Offshore Transit,main offshore,5,55.353198,7.4216
+OFFSHORE,West Jutland Offshore Transit,main offshore,6,55.395838,7.42992
+OFFSHORE,West Jutland Offshore Transit,main offshore,7,55.438477,7.438239
+OFFSHORE,West Jutland Offshore Transit,main offshore,8,55.481117,7.446559
+OFFSHORE,West Jutland Offshore Transit,main offshore,9,55.523756,7.454879
+OFFSHORE,West Jutland Offshore Transit,main offshore,10,55.566448,7.457807
+OFFSHORE,West Jutland Offshore Transit,main offshore,11,55.609224,7.452104
+OFFSHORE,West Jutland Offshore Transit,main offshore,12,55.651999,7.4464
+OFFSHORE,West Jutland Offshore Transit,main offshore,13,55.694775,7.440697
+OFFSHORE,West Jutland Offshore Transit,main offshore,14,55.73755,7.434993
+OFFSHORE,West Jutland Offshore Transit,main offshore,15,55.780326,7.42929
+OFFSHORE,West Jutland Offshore Transit,main offshore,16,55.823101,7.423587
+OFFSHORE,West Jutland Offshore Transit,main offshore,17,55.865877,7.417883
+OFFSHORE,West Jutland Offshore Transit,main offshore,18,55.908652,7.41218
+OFFSHORE,West Jutland Offshore Transit,main offshore,19,55.951428,7.406476
+OFFSHORE,West Jutland Offshore Transit,main offshore,20,55.994203,7.400773
+OFFSHORE,West Jutland Offshore Transit,main offshore,21,56.036886,7.406775
+OFFSHORE,West Jutland Offshore Transit,main offshore,22,56.079555,7.414612
+OFFSHORE,West Jutland Offshore Transit,main offshore,23,56.122223,7.422449
+OFFSHORE,West Jutland Offshore Transit,main offshore,24,56.164892,7.430286
+OFFSHORE,West Jutland Offshore Transit,main offshore,25,56.20756,7.438123
+OFFSHORE,West Jutland Offshore Transit,main offshore,26,56.250229,7.44596
+OFFSHORE,West Jutland Offshore Transit,main offshore,27,56.292897,7.453797
+OFFSHORE,West Jutland Offshore Transit,main offshore,28,56.335566,7.461635
+OFFSHORE,West Jutland Offshore Transit,main offshore,29,56.378234,7.469472
+OFFSHORE,West Jutland Offshore Transit,main offshore,30,56.420903,7.477309
+OFFSHORE,West Jutland Offshore Transit,main offshore,31,56.463571,7.485146
+OFFSHORE,West Jutland Offshore Transit,main offshore,32,56.506293,7.488155
+OFFSHORE,West Jutland Offshore Transit,main offshore,33,56.549102,7.483309
+OFFSHORE,West Jutland Offshore Transit,main offshore,34,56.591911,7.478463
+OFFSHORE,West Jutland Offshore Transit,main offshore,35,56.63472,7.473617
+OFFSHORE,West Jutland Offshore Transit,main offshore,36,56.677529,7.46877
+OFFSHORE,West Jutland Offshore Transit,main offshore,37,56.720338,7.463924
+OFFSHORE,West Jutland Offshore Transit,main offshore,38,56.763147,7.459078
+OFFSHORE,West Jutland Offshore Transit,main offshore,39,56.805956,7.454231
+OFFSHORE,West Jutland Offshore Transit,main offshore,40,56.848764,7.449385
+OFFSHORE,West Jutland Offshore Transit,main offshore,41,56.891573,7.444539
+OFFSHORE,West Jutland Offshore Transit,main offshore,42,56.934382,7.439693
+OFFSHORE,West Jutland Offshore Transit,main offshore,43,56.977191,7.434846
+OFFSHORE,West Jutland Offshore Transit,main offshore,44,57.02,7.43
+ESB,Esbjerg Connector,local harbour,0,55.43,8.28
+ESB,Esbjerg Connector,local harbour,1,55.432351,8.261195
+ESB,Esbjerg Connector,local harbour,2,55.434701,8.24239
+ESB,Esbjerg Connector,local harbour,3,55.437052,8.223585
+ESB,Esbjerg Connector,local harbour,4,55.439402,8.20478
+ESB,Esbjerg Connector,local harbour,5,55.441753,8.185975
+ESB,Esbjerg Connector,local harbour,6,55.444104,8.16717
+ESB,Esbjerg Connector,local harbour,7,55.446454,8.148365
+ESB,Esbjerg Connector,local harbour,8,55.448805,8.12956
+ESB,Esbjerg Connector,local harbour,9,55.451156,8.110755
+ESB,Esbjerg Connector,local harbour,10,55.453506,8.09195
+ESB,Esbjerg Connector,local harbour,11,55.455857,8.073146
+ESB,Esbjerg Connector,local harbour,12,55.458207,8.054341
+ESB,Esbjerg Connector,local harbour,13,55.460558,8.035536
+ESB,Esbjerg Connector,local harbour,14,55.462909,8.016731
+ESB,Esbjerg Connector,local harbour,15,55.465259,7.997926
+ESB,Esbjerg Connector,local harbour,16,55.46761,7.979121
+ESB,Esbjerg Connector,local harbour,17,55.469961,7.960316
+ESB,Esbjerg Connector,local harbour,18,55.472311,7.941511
+ESB,Esbjerg Connector,local harbour,19,55.474662,7.922706
+ESB,Esbjerg Connector,local harbour,20,55.477012,7.903901
+ESB,Esbjerg Connector,local harbour,21,55.479363,7.885096
+ESB,Esbjerg Connector,local harbour,22,55.482245,7.866529
+ESB,Esbjerg Connector,local harbour,23,55.485325,7.84805
+ESB,Esbjerg Connector,local harbour,24,55.488405,7.829572
+ESB,Esbjerg Connector,local harbour,25,55.491484,7.811093
+ESB,Esbjerg Connector,local harbour,26,55.494564,7.792615
+ESB,Esbjerg Connector,local harbour,27,55.497644,7.774136
+ESB,Esbjerg Connector,local harbour,28,55.500724,7.755657
+ESB,Esbjerg Connector,local harbour,29,55.503804,7.737179
+ESB,Esbjerg Connector,local harbour,30,55.506883,7.7187
+ESB,Esbjerg Connector,local harbour,31,55.509963,7.700222
+ESB,Esbjerg Connector,local harbour,32,55.513043,7.681743
+ESB,Esbjerg Connector,local harbour,33,55.516123,7.663264
+ESB,Esbjerg Connector,local harbour,34,55.519202,7.644786
+ESB,Esbjerg Connector,local harbour,35,55.522282,7.626307
+ESB,Esbjerg Connector,local harbour,36,55.525362,7.607829
+ESB,Esbjerg Connector,local harbour,37,55.528442,7.58935
+ESB,Esbjerg Connector,local harbour,38,55.531521,7.570872
+ESB,Esbjerg Connector,local harbour,39,55.534601,7.552393
+ESB,Esbjerg Connector,local harbour,40,55.537681,7.533914
+ESB,Esbjerg Connector,local harbour,41,55.540761,7.515436
+ESB,Esbjerg Connector,local harbour,42,55.54384,7.496957
+ESB,Esbjerg Connector,local harbour,43,55.54692,7.478479
+ESB,Esbjerg Connector,local harbour,44,55.55,7.46
+HVS,Hvide Sande Connector,local harbour,0,56.0,8.1
+HVS,Hvide Sande Connector,local harbour,1,55.99914,8.084082
+HVS,Hvide Sande Connector,local harbour,2,55.998279,8.068164
+HVS,Hvide Sande Connector,local harbour,3,55.997419,8.052246
+HVS,Hvide Sande Connector,local harbour,4,55.996558,8.036328
+HVS,Hvide Sande Connector,local harbour,5,55.995698,8.020411
+HVS,Hvide Sande Connector,local harbour,6,55.994837,8.004493
+HVS,Hvide Sande Connector,local harbour,7,55.993977,7.988575
+HVS,Hvide Sande Connector,local harbour,8,55.993117,7.972657
+HVS,Hvide Sande Connector,local harbour,9,55.992256,7.956739
+HVS,Hvide Sande Connector,local harbour,10,55.991396,7.940821
+HVS,Hvide Sande Connector,local harbour,11,55.990535,7.924903
+HVS,Hvide Sande Connector,local harbour,12,55.989675,7.908985
+HVS,Hvide Sande Connector,local harbour,13,55.988814,7.893067
+HVS,Hvide Sande Connector,local harbour,14,55.987954,7.87715
+HVS,Hvide Sande Connector,local harbour,15,55.987094,7.861232
+HVS,Hvide Sande Connector,local harbour,16,55.986233,7.845314
+HVS,Hvide Sande Connector,local harbour,17,55.985373,7.829396
+HVS,Hvide Sande Connector,local harbour,18,55.984512,7.813478
+HVS,Hvide Sande Connector,local harbour,19,55.983652,7.79756
+HVS,Hvide Sande Connector,local harbour,20,55.982791,7.781642
+HVS,Hvide Sande Connector,local harbour,21,55.981931,7.765724
+HVS,Hvide Sande Connector,local harbour,22,55.981071,7.749806
+HVS,Hvide Sande Connector,local harbour,23,55.98021,7.733889
+HVS,Hvide Sande Connector,local harbour,24,55.980728,7.717985
+HVS,Hvide Sande Connector,local harbour,25,55.981692,7.702086
+HVS,Hvide Sande Connector,local harbour,26,55.982655,7.686186
+HVS,Hvide Sande Connector,local harbour,27,55.983619,7.670287
+HVS,Hvide Sande Connector,local harbour,28,55.984583,7.654388
+HVS,Hvide Sande Connector,local harbour,29,55.985546,7.638489
+HVS,Hvide Sande Connector,local harbour,30,55.98651,7.622589
+HVS,Hvide Sande Connector,local harbour,31,55.987473,7.60669
+HVS,Hvide Sande Connector,local harbour,32,55.988437,7.590791
+HVS,Hvide Sande Connector,local harbour,33,55.989401,7.574892
+HVS,Hvide Sande Connector,local harbour,34,55.990364,7.558992
+HVS,Hvide Sande Connector,local harbour,35,55.991328,7.543093
+HVS,Hvide Sande Connector,local harbour,36,55.992291,7.527194
+HVS,Hvide Sande Connector,local harbour,37,55.993255,7.511295
+HVS,Hvide Sande Connector,local harbour,38,55.994218,7.495395
+HVS,Hvide Sande Connector,local harbour,39,55.995182,7.479496
+HVS,Hvide Sande Connector,local harbour,40,55.996146,7.463597
+HVS,Hvide Sande Connector,local harbour,41,55.997109,7.447698
+HVS,Hvide Sande Connector,local harbour,42,55.998073,7.431798
+HVS,Hvide Sande Connector,local harbour,43,55.999036,7.415899
+HVS,Hvide Sande Connector,local harbour,44,56.0,7.4
+THY,Thyborøn Connector,local harbour,0,56.69,8.1
+THY,Thyborøn Connector,local harbour,1,56.686215,8.085332
+THY,Thyborøn Connector,local harbour,2,56.682429,8.070664
+THY,Thyborøn Connector,local harbour,3,56.678644,8.055996
+THY,Thyborøn Connector,local harbour,4,56.674859,8.041328
+THY,Thyborøn Connector,local harbour,5,56.671074,8.02666
+THY,Thyborøn Connector,local harbour,6,56.667288,8.011992
+THY,Thyborøn Connector,local harbour,7,56.663503,7.997324
+THY,Thyborøn Connector,local harbour,8,56.659718,7.982656
+THY,Thyborøn Connector,local harbour,9,56.655932,7.967988
+THY,Thyborøn Connector,local harbour,10,56.652147,7.95332
+THY,Thyborøn Connector,local harbour,11,56.648362,7.938652
+THY,Thyborøn Connector,local harbour,12,56.644576,7.923984
+THY,Thyborøn Connector,local harbour,13,56.640791,7.909316
+THY,Thyborøn Connector,local harbour,14,56.637006,7.894648
+THY,Thyborøn Connector,local harbour,15,56.633221,7.87998
+THY,Thyborøn Connector,local harbour,16,56.629435,7.865312
+THY,Thyborøn Connector,local harbour,17,56.62565,7.850644
+THY,Thyborøn Connector,local harbour,18,56.621865,7.835976
+THY,Thyborøn Connector,local harbour,19,56.618079,7.821308
+THY,Thyborøn Connector,local harbour,20,56.614294,7.80664
+THY,Thyborøn Connector,local harbour,21,56.610509,7.791972
+THY,Thyborøn Connector,local harbour,22,56.605457,7.778643
+THY,Thyborøn Connector,local harbour,23,56.600209,7.765523
+THY,Thyborøn Connector,local harbour,24,56.594961,7.752403
+THY,Thyborøn Connector,local harbour,25,56.589713,7.739283
+THY,Thyborøn Connector,local harbour,26,56.584465,7.726163
+THY,Thyborøn Connector,local harbour,27,56.579217,7.713043
+THY,Thyborøn Connector,local harbour,28,56.573969,7.699922
+THY,Thyborøn Connector,local harbour,29,56.568721,7.686802
+THY,Thyborøn Connector,local harbour,30,56.563473,7.673682
+THY,Thyborøn Connector,local harbour,31,56.558225,7.660562
+THY,Thyborøn Connector,local harbour,32,56.552977,7.647442
+THY,Thyborøn Connector,local harbour,33,56.547729,7.634322
+THY,Thyborøn Connector,local harbour,34,56.542481,7.621202
+THY,Thyborøn Connector,local harbour,35,56.537233,7.608081
+THY,Thyborøn Connector,local harbour,36,56.531984,7.594961
+THY,Thyborøn Connector,local harbour,37,56.526736,7.581841
+THY,Thyborøn Connector,local harbour,38,56.521488,7.568721
+THY,Thyborøn Connector,local harbour,39,56.51624,7.555601
+THY,Thyborøn Connector,local harbour,40,56.510992,7.542481
+THY,Thyborøn Connector,local harbour,41,56.505744,7.52936
+THY,Thyborøn Connector,local harbour,42,56.500496,7.51624
+THY,Thyborøn Connector,local harbour,43,56.495248,7.50312
+THY,Thyborøn Connector,local harbour,44,56.49,7.49
