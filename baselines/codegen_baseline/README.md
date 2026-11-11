@@ -1,13 +1,5 @@
 # CodeGen (DiscoveryBench adaptation)
 
-Status (2026-10-18): testing resumed at the user's explicit request for one Qwen
-case. The offline execution smoke and Qwen AIS 01 generation succeeded, followed
-by two independent GPT judge rounds. This case returned four insights and summary,
-used 2/83 generation requests and one program execution, with no retries/repairs.
-G-eval 0.2333; Coverage@0.6 0%. Factual/interpretive errors remain in the output.
-No GPT generation, full batch or unit-test suite has been launched.
-Formal pilot: `results/codegen/qwen/pilot_20261018/`.
-
 The method generates a complete Python program, executes it **once**, then asks
 the **same model in the same conversation** to generate insights followed by a
 summary from the executed evidence. Normal completion uses two model responses.
@@ -66,24 +58,25 @@ averaging. Full-batch means include failed/invalid/empty cases as zero;
 successful-only means are separately reported. Summary is not semantically scored.
 Offline fake output is explicitly excluded from scoring.
 
-## Commands (not executed)
+## Commands
 
 Use a fresh output directory for each invocation. Preparation is the default;
 `--run` starts actual generation and code execution. Preparing a directory does
 not make it reusable for another invocation: use a new directory for the run.
 
-```powershell
-$taskPython = 'B:/TrajStory/.runtime/pandas_agent/Scripts/python.exe'
-& $taskPython -X utf8 B:/TrajStory/baselines/scripts/run_codegen_baseline.py --case-id danish_ais_01_shared_corridor_day --model gpt --results-dir B:/TrajStory/results/codegen/gpt/PREPARE_NEW
+Run from the repository root in the Python environment for this baseline.
 
-# Run only after testing is resumed. Use --model qwen for Qwen.
-& $taskPython -X utf8 B:/TrajStory/baselines/scripts/run_codegen_baseline.py --case-id danish_ais_01_shared_corridor_day --model gpt --results-dir B:/TrajStory/results/codegen/gpt/RUN_NEW --run
+```bash
+python -m baselines codegen --case-id danish_ais_01_shared_corridor_day --model gpt --results-dir results/codegen/gpt/PREPARE_NEW
+
+# Use --model qwen for Qwen. The default call ceiling is 83.
+python -m baselines codegen --case-id danish_ais_01_shared_corridor_day --model gpt --results-dir results/codegen/gpt/RUN_NEW --run
 
 # Explicit offline smoke run; never eligible for scoring.
-& $taskPython -X utf8 B:/TrajStory/baselines/scripts/run_codegen_baseline.py --case-id danish_ais_01_shared_corridor_day --model gpt --results-dir B:/TrajStory/work/codegen/OFFLINE_NEW --smoke-offline
+python -m baselines codegen --case-id danish_ais_01_shared_corridor_day --model gpt --results-dir work/codegen/OFFLINE_NEW --smoke-offline
 
 # Freeze scoring inputs only; adding --run sends both GPT judge rounds.
-& $taskPython -X utf8 B:/TrajStory/baselines/scripts/evaluate_codegen_baseline.py --generation-dirs B:/TrajStory/results/codegen/gpt/RUN_NEW --batch-dir B:/TrajStory/results/codegen/gpt/EVAL_NEW --generator gpt
+python baselines/scripts/evaluate_codegen_baseline.py --generation-dirs results/codegen/gpt/RUN_NEW --batch-dir results/codegen/gpt/EVAL_NEW --generator gpt
 ```
 
 Artifacts: manifest and source snapshot; model input; exact code/answer requests

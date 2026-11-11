@@ -221,16 +221,16 @@ output format, disabled external services/memory, local tool-result feedback
 and the explicitly requested 300-to-5,000 result-history expansion are adapter
 differences. Keep those differences explicit in baseline reporting.
 
-Windows entry:
+Current Python entry (run from the repository root):
 
-```powershell
-& 'B:\TrajStory\scripts\run_agentorchestra_windows.ps1' --case-ids danish_ais_01_shared_corridor_day --results-dir 'B:\TrajStory\results\agentorchestra_minimal_new' --model-name openai/gpt-6-luna --dry-run
+```bash
+python -m baselines agentorchestra --case-ids danish_ais_01_shared_corridor_day --results-dir results/agentorchestra_new --model-name openai/gpt-6-luna --input-csvs --max-model-requests 83 --dry-run
 ```
 
-Remove --dry-run to call the model. Default results directory is
-results/agentorchestra_trajstory_minimal_v2. Current output records are tagged
-native_planner_minimal_v2. The default generator is openai/gpt-6-luna.
+Remove --dry-run to call the model. Use a fresh output directory.
+Current output records are tagged native_planner_bounded_indexed_multi_role.
+The default generator is openai/gpt-6-luna; use openai/qwen3.8-flash for Qwen.
 Keep v1 minimal and previous controlled-budget results separate.
 TRAJSTORY_CONTROLLED_LEGACY.md records the earlier 3+3 protocol; its specialist
 classes and tests remain for historical reproducibility but are not dispatched
-by the active minimal configuration.
+by the active multi-role configuration.

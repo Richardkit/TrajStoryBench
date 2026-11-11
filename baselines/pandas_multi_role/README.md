@@ -58,11 +58,11 @@ the call budget. Keep both protocols separately labeled when testing them.
 
 ## Commands
 
-Use the existing Pandas environment and a fresh output directory:
+Run from the repository root in the Pandas environment, using a fresh output directory:
 
-```powershell
-& B:/TrajStory/.runtime/pandas_agent/Scripts/python.exe -X utf8 scripts/run_pandas_multi_role.py --case-id <case_id> --model gpt --results-dir results/pandas_multi_role/gpt/<fresh-case> --run
-& B:/TrajStory/.runtime/pandas_agent/Scripts/python.exe -X utf8 scripts/run_pandas_multi_role.py --case-id <case_id> --model qwen --results-dir results/pandas_multi_role/qwen/<fresh-case> --run
+```bash
+python -m baselines pandas --workflow roles --case-id danish_ais_01_shared_corridor_day --model gpt --input-csvs --max-model-calls 83 --results-dir results/pandas_multi_role/gpt/ais01_new --run
+python -m baselines pandas --workflow roles --case-id danish_ais_01_shared_corridor_day --model qwen --input-csvs --max-model-calls 83 --results-dir results/pandas_multi_role/qwen/ais01_new --run
 ```
 
 Without `--run`, only prepare inputs/manifests. `--smoke-offline` exercises the actual

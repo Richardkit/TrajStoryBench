@@ -129,7 +129,7 @@ def main():
     p.add_argument("--reasoning-effort", default="none", choices=("none", "low", "medium", "high", "xhigh", "max"))
     p.add_argument("--temperature", type=float, default=0.0)
     p.add_argument("--max-tokens", type=int, default=16000)
-    p.add_argument("--max-iterations", type=int, default=60, help="Total native model decisions per case, including final report")
+    p.add_argument("--max-iterations", type=int, default=83, help="Total native model decisions per case, including final report")
     p.add_argument("--code-timeout", type=int, default=180)
     p.add_argument("--kernel-name", default="python3")
     p.add_argument("--is-multimodal", action="store_true")

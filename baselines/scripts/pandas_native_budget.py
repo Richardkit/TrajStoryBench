@@ -6,7 +6,7 @@ from langchain.agents import AgentExecutor
 from langchain_core.agents import AgentFinish
 from langchain_core.messages import HumanMessage, SystemMessage
 
-DEFAULT_MAX_CALLS = 60
+DEFAULT_MAX_CALLS = 83
 
 
 def budget_policy(limit):

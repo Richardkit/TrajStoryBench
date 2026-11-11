@@ -2,7 +2,8 @@
 
 Defaults reproduce the frozen GPT/Qwen settings: three questions, depth two,
 two agent retries, temperature zero, reasoning disabled, projected inputs and
-the original shared input-policy prompt. No later 83-request budget is applied.
+the original shared input-policy prompt. The public entry additionally enforces
+a per-task ceiling of 83 model invocations; historical outputs remain unchanged.
 Choose --model-name gpt-6-luna or qwen3.8-flash. --dry-run makes no API calls.
 """
 import sys

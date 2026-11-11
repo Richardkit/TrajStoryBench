@@ -2,23 +2,23 @@
 
 ## Original-workflow entry (prepared 2026-10-18; no model test started)
 
-`scripts/run_dsaeval_origin_windows.ps1` targets `trajstory_origin.py` and writes
-only beneath `results/dsaeval_origin/`. It loads the unmodified upstream agent,
+`python baselines/DSAEval/trajstory_origin.py` runs `trajstory_origin.py`
+from the repository root. It loads the unmodified upstream agent,
 prompts, tools, utilities and Jupyter sandbox pinned in `origin_upstream/`.
 One task uses one agent, one continuous conversation and one persistent kernel;
 there are no fixed branches, independent verification roles or exact-citation
 filters. Only input/output, provider settings, Windows runtime and the requested
 83-call/five-network-failure policy are adapted. The original 20-call budget is
 available explicitly. Generation requires `--run`; dry-run is the default.
-See `results/dsaeval_origin/README.md` for scope, commands and evaluation policy.
+Use `--help` for the available arguments.
 The existing multi-role entry and results are retained separately.
 
 ## Existing multi-role entry: separate-context roles (2026-10-15)
 
-The Windows launcher now targets `trajstory_multi_role.py`, protocol
+The Python entry `python -m baselines dsaeval` targets `trajstory_multi_role.py`, protocol
 `dsaeval_separate_context_roles_two_rounds_v1`. The default budget and transport
 policy below apply to new runs. Completed GPT/Qwen experiments retain their
-recorded 60-call configurations and frozen source snapshots.
+recorded configurations and frozen source snapshots.
 
 - Match the latest Pandas role workflow: two planner rounds, three analyst
   branches per round; each branch hands executed evidence to a separate
@@ -60,18 +60,17 @@ recorded 60-call configurations and frozen source snapshots.
 
 Preparation only, no API or Jupyter execution:
 
-```powershell
-& 'B:\TrajStory\scripts\run_dsaeval_windows.ps1' --case-ids danish_ais_01_shared_corridor_day --results-dir 'B:\TrajStory\results\dsaeval\gpt\runs\budget83_new' --model gpt-6-luna --max-model-calls 83 --dry-run
+```bash
+python -m baselines dsaeval --case-ids danish_ais_01_shared_corridor_day --results-dir results/dsaeval/gpt/runs/budget83_new --model gpt-6-luna --max-model-calls 83 --dry-run
 ```
 
-Use the same launcher with `--model qwen3.8-flash` and a fresh directory under
+Use the same Python entry with `--model qwen3.8-flash` and a fresh directory under
 `results/dsaeval/qwen/runs/` for Qwen. Timestamped historical batch/retry scripts
 are frozen experiment entries, not the default entry for the new policy.
 
 ## Previous native single-agent adapter (2026-10-14)
 
-`trajstory_native.py` is now the Windows entry point through
-`scripts/run_dsaeval_windows.ps1`. It retains the upstream `DataScienceAgent`
+`python baselines/DSAEval/trajstory_native.py` is the separate single-agent entry. It retains the upstream `DataScienceAgent`
 tool loop with one invocation and one persistent Jupyter kernel per case.
 
 - Pass only staged CSV paths and the goal; the agent loads and inspects files.
@@ -84,7 +83,7 @@ tool loop with one invocation and one persistent Jupyter kernel per case.
 - Native freedom to perform repeated successful calculations, change direction,
   verify results and repair errors. No question registration/locking, six-stage
   schedule, successful-execution cap, checkpoints or forced answer-only turn.
-- Default 60 total model decisions per case (including the report), configurable
+- Default 83 total model decisions per case (including the report), configurable
   with `--max-iterations`. This is a ceiling; early completion is allowed.
   Exhaustion is failure with no extra model call. Transport retries are separate.
   Code calls default to 180 seconds, not the upstream server timeout.
@@ -96,11 +95,11 @@ tool loop with one invocation and one persistent Jupyter kernel per case.
 
 Example (no model call):
 
-```powershell
-& 'B:\TrajStory\scripts\run_dsaeval_windows.ps1' --case-ids danish_ais_01_shared_corridor_day --results-dir 'B:\TrajStory\results\dsaeval_native_new' --model gpt-6-luna --max-iterations 60 --dry-run
+```bash
+python baselines/DSAEval/trajstory_native.py --case-ids danish_ais_01_shared_corridor_day --results-dir results/dsaeval_native_new --model gpt-6-luna --max-iterations 83 --dry-run
 ```
 
-Evaluation follows root `AGENTS.md`: two independent GPT judge rounds; calculate
+Evaluation uses two independent GPT judge rounds; calculate
 coverage@0.6 in each round before averaging. Historical DeepSeek guidance below
 does not apply to new evaluations.
 
@@ -174,17 +173,16 @@ and can use the same DeepSeek judge as the other frameworks.
 
 ## Setup and dry run
 
-Install `requirements.txt` in a suitable Python environment. In this workspace,
-`DSAEval/venv` has the Jupyter and analysis dependencies needed by the adapter;
-use `DSAEval/venv/bin/python` in the commands below. The default kernel name is
-`python3`; `--kernel-name dsa_eval` uses the original named kernel if registered.
+Install `baselines/DSAEval/requirements.txt` in a suitable Python environment.
+Use that environment's `python` in the commands below. The default kernel name is
+`python3`; `--kernel-name dsa_eval` selects that named kernel if registered.
 This adapter does not need the original DSAEval datasets or reference answers.
 
 From the TrajStory repository root:
 
 ```bash
-DSAEval/venv/bin/python baselines/DSAEval/trajstory_six_explorations.py \
-  --case-ids-file results/qwen20_chart_fallback_20260920/experiment_config.json \
+python baselines/DSAEval/trajstory_six_explorations.py \
+  --case-ids danish_ais_01_shared_corridor_day \
   --results-dir results/dsaeval_six_dry_run \
   --model qwen3.8-flash --dry-run
 ```
@@ -202,8 +200,8 @@ defaults to the Beijing DashScope endpoint used by the current comparison,
 and disables thinking.
 
 ```bash
-DSAEval/venv/bin/python baselines/DSAEval/trajstory_six_explorations.py \
-  --case-ids-file results/qwen20_chart_fallback_20260920/experiment_config.json \
+python baselines/DSAEval/trajstory_six_explorations.py \
+  --case-ids danish_ais_01_shared_corridor_day \
   --results-dir results/dsaeval_six_qwen \
   --model qwen3.8-flash
 ```

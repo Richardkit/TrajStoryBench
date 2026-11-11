@@ -51,14 +51,16 @@ def make_llm(model_key, offline, usage_recorder=None, llm_class=None):
             AIMessage(content=json.dumps(dict(insights=['OFFLINE TEST ONLY'],
                                               summary='Offline protocol check.'))),
         ])
-    import winreg
     constructor = llm_class or UsageChatOpenAI
     retry_options = {'max_retries': 0} if llm_class else {}
     model, url, key_name = MODELS[model_key]
     key = os.environ.get(key_name)
-    if not key:
+    if not key and os.name == 'nt':
+        import winreg
         with winreg.OpenKey(winreg.HKEY_CURRENT_USER, 'Environment') as handle:
             key = winreg.QueryValueEx(handle, key_name)[0]
+    if not key:
+        raise ValueError(f'{key_name} is required for live generation')
     if model_key == 'gpt':
         return constructor(model=model, base_url=url, api_key=key, temperature=0, **retry_options,
                           callbacks=[usage_recorder] if usage_recorder else None,

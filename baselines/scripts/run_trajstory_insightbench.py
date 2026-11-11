@@ -30,6 +30,7 @@ sys.path.insert(0, str(INSIGHT_BENCH_ROOT))
 from insightbench import agents, benchmarks
 from insightbench.utils import agent_utils as au
 from baseline_support.input_paths import resolve_input_csv
+from baseline_support.model_call_budget import ModelCallBudget
 
 
 def resolve_path(value: str | None) -> Path | None:
@@ -230,30 +231,36 @@ def run(args):
                 "seed": args.seed,
                 **deepseek_seed_metadata,
                 "analysis_toolkit": analysis_toolkit,
+                "model_call_budget": {"limit": args.max_model_calls, "calls_started": 0},
             })
             continue
 
         # A fresh Agent is intentional: insights_history must not leak between
         # different TrajStory cases. A malformed model response in one case is
         # recorded and isolated so it cannot abort the remaining cases/seed.
+        budget = ModelCallBudget(au, args.max_model_calls)
         try:
-            agent = agents.Agent(
-                model_name=args.model_name,
-                goal=case["data"].get("metadata", {}).get("goal", "I want to find interesting trends in this dataset"),
-                max_questions=args.max_questions,
-                branch_depth=args.branch_depth,
-                n_retries=args.n_retries,
-                savedir=str(case_dir),
-                additional_tables=case.get("reference_tables", []),
-                temperature=args.temperature,
-                seed=args.seed,
-                shared_analysis_tools=args.shared_analysis_tools,
-            )
-            pred_insights, pred_summary = agent.get_insights(
-                dataset_csv_path=str(case["dataset_csv_path"]),
-                user_dataset_csv_path=str(case["user_dataset_csv_path"]) if case["user_dataset_csv_path"] else None,
-                additional_tables=case.get("reference_tables", []),
-            )
+            with budget:
+                agent = agents.Agent(
+                    model_name=args.model_name,
+                    goal=case["data"].get("metadata", {}).get("goal", "I want to find interesting trends in this dataset"),
+                    max_questions=args.max_questions,
+                    branch_depth=args.branch_depth,
+                    n_retries=args.n_retries,
+                    savedir=str(case_dir),
+                    additional_tables=case.get("reference_tables", []),
+                    temperature=args.temperature,
+                    seed=args.seed,
+                    shared_analysis_tools=args.shared_analysis_tools,
+                )
+                pred_insights, pred_summary = agent.get_insights(
+                    dataset_csv_path=str(case["dataset_csv_path"]),
+                    user_dataset_csv_path=str(case["user_dataset_csv_path"]) if case["user_dataset_csv_path"] else None,
+                    additional_tables=case.get("reference_tables", []),
+                )
+                # Upstream retries may catch a budget exception. Do not mark a
+                # truncated generation as completed in that case.
+                budget.raise_if_exceeded()
             result = {
                 "case_id": case["case_id"],
                 "status": "completed",
@@ -273,6 +280,7 @@ def run(args):
                 "error": str(exc),
             }
         result.update({
+            "model_call_budget": budget.as_dict(),
             "model": args.model_name,
             "temperature": args.temperature,
             "secondary_table": str(case["user_dataset_csv_path"]) if case["user_dataset_csv_path"] else None,
@@ -304,6 +312,8 @@ def main():
     parser.add_argument("--max-questions", type=int, default=2)
     parser.add_argument("--branch-depth", type=int, default=1)
     parser.add_argument("--n-retries", type=int, default=2)
+    parser.add_argument("--max-model-calls", type=int, default=83,
+                        help="Whole-task generation invocation ceiling; judging is separate.")
     parser.add_argument("--score-name", choices=["rouge1", "g_eval"], default="rouge1")
     parser.add_argument("--temperature", type=float, default=0.7)
     parser.add_argument(
@@ -323,6 +333,8 @@ def main():
     parser.add_argument("--keep-artifacts", action="store_true")
     parser.add_argument("--case-ids", nargs="+", default=None, help="Run only the listed case IDs.")
     args = parser.parse_args()
+    if args.max_model_calls < 1:
+        parser.error("--max-model-calls must be positive")
     run(args)
 
 
