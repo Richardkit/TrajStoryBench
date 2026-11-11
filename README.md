@@ -41,8 +41,6 @@ python -m pip install "./trajstoryagent_v5[evaluation,test]"
 
 This installs the dependencies for TrajStoryAgent, its evaluator, and offline tests. Baselines have additional framework dependencies and may require separate environments; the agent installation does not install all baseline frameworks.
 
-On Windows, use a short checkout path such as `C:\TrajStoryBench` to accommodate deeply nested checkpoint paths.
-
 ## Run TrajStoryAgent
 
 ### One case
@@ -92,7 +90,7 @@ The batch summary weights successfully evaluated cases by their number of refere
 
 ## Ablation studies
 
-Run both rounds from scratch, or reuse a checkpoint from your own completed full-v5 run. Historical checkpoints are not required or distributed. The goal is to reproduce the workflow and evaluation protocol; generated outputs and scores can vary.
+Run both rounds from scratch, or reuse a checkpoint from your own completed full-v5 run. The goal is to reproduce the workflow and evaluation protocol; generated outputs and scores can vary.
 
 | Variant | Change |
 |---|---|

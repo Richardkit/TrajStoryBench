@@ -1,9 +1,7 @@
 # Pandas multi-role workflow
 
-This is an explicitly separate variant of the original single-agent Pandas baseline.
-It reuses LangChain's official DataFrame factory, PythonAstREPLTool and the existing
-full-stdout/shared-namespace compatibility fix. It does not modify the native baseline,
-v4/v5, DSAEval, source data, goals or reference insights.
+This workflow uses LangChain's official DataFrame factory and PythonAstREPLTool,
+with full stdout capture and a shared Python namespace within each branch.
 
 ## Organization
 
@@ -24,7 +22,7 @@ Every role call has its own model-facing input/output artifact. All roles use th
 backbone/model configuration. Only analyst branches get the DataFrame/Python tools.
 Branches are currently executed sequentially to avoid shared stdout-capture races.
 There are no mathematical conditional-decomposition/compression stages in this Pandas
-variant; those remain a separate TrajStory method. It is not named as original AgentPoirot.
+variant; those remain a separate TrajStory method.
 
 ## Budgets and outputs
 
@@ -51,10 +49,6 @@ Empty/failed outputs count as zero; partial supported outputs remain eligible.
 Verification is an LLM generation check plus structural exact-output citation checking,
 not an independent proof that every generated computation is correct.
 Benchmark scores must be produced separately with two independent GPT-6-Luna rounds.
-
-The original 25-case single-agent results are not comparable as a pure agent-count
-ablation: this variant adds planning, verifier and output-selection changes and reallocates
-the call budget. Keep both protocols separately labeled when testing them.
 
 ## Commands
 

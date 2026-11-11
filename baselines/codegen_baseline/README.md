@@ -16,8 +16,8 @@ Inputs come from the current 125-case catalog via `load_trajstory_case(...,
 input_csvs=True)`. Only goal, dataset description, analyst role, projected CSV
 paths, table roles and CSV headers reach generation. No original CSV fallback,
 reference insight, reference question, intermediate gold hypothesis, workflow tag,
-notebook, reference summary or model-based preprocessing is supplied. Current CSV
-hashes must match the selected model's v5 frozen input manifest when it exists.
+notebook, reference summary or model-based preprocessing is supplied. When an
+input manifest is available, CSV hashes are checked against it.
 
 Only the selected CSVs are copied into execution/input/. The generated program
 loads these relative paths itself. A separate process receives an allowlist
@@ -52,8 +52,8 @@ recorded; missing usage is explicit.
 
 Models: GPT `gpt-6-luna` and Qwen `qwen3.8-flash`, temperature 0 and reasoning
 disabled. Evaluation is explicitly separate: two independent `gpt-6-luna` rounds,
-temperature 0, reasoning disabled, using the existing frozen InsightBench-style
-judge. Reference maxima and Coverage@0.6 are computed within each round before
+temperature 0, reasoning disabled, using the InsightBench-style judge. Reference
+maxima and Coverage@0.6 are computed within each round before
 averaging. Full-batch means include failed/invalid/empty cases as zero;
 successful-only means are separately reported. Summary is not semantically scored.
 Offline fake output is explicitly excluded from scoring.
